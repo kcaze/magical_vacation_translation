@@ -9,6 +9,10 @@ r3 is a boolean indicating whether this is the first or second glyph in a pair.
 r13 holds the starting address in onchip wram that the current glyph should be written to
 and does the following:
 
+0x0000C1A0 is where the dma from 0x020097B0 to tile data happens
+0x0000C27C is the dma control flag for transferring tile data
+0x0000C21A does some stuff to draw tiles into bg3 that we modify
+
 Script begin address: 0x0062B72A
 Script end address: 0x0062C912
 0x020097B0 -- onboard wram storing font glyphs?
@@ -16,7 +20,7 @@ Script end address: 0x0062C912
 0x0000C19C -- copy fonts from onboard wram to tile memory
 0x0000D05C -- Update font tile data in onchip wram (data stored in r2, but where does it come from?)
 0x0000D030 to 0x0000D058 -- loop to set the data in r2 for updating font tile data. r3 holds the data in binary.
-603787 -- start of glyph graphics data
+60378E -- start of glyph graphics data
 
 0x0000B5EE
 0x0000BA70
@@ -156,9 +160,9 @@ Z
 ょ
 ョ
 あ0070
-ア
-い
-イ
+ア0071
+い0072
+イ0073
 う
 ウ
 え
