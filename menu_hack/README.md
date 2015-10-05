@@ -1,8 +1,13 @@
 Overview
 ========
+<p align="center">
+  <img src="http://i.imgur.com/uCSPNFk.png" alt="Menu Text Screenshot"/>
+</p>
+
 This patch translates all the window titles/headers in the menu. Each individual
 header is stored as a series of 8x8 tiles and rendered on screen as multiple
 sprites. There were three steps involved in creating this patch:
+
 1. Replace all the Japanese header text sprites with English header text
    sprites.
 2. Modify the menu text info for each header to point to the new location of the
