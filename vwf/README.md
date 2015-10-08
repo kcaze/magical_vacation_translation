@@ -1,4 +1,24 @@
-NOTE: This is currently a note dump!
+RAM Map
+=======
+ * `0x020097B0` (`TILE_BASE_ADDR`): Base address for glyph tile data in onboard
+ WRAM.
+ * `0x02009930` (`TILE_X`): X-coordinate in BG3 of next glyph tile to be drawn.
+ * `0x02009954` (`TILE_OFFSET`): Offset into tile data indicating where the next
+ glyph tile in onboard WRAM is being copied to.
+ * `0x03007DF4`: Base address for glyph tile data in onchip WRAM.
+
+Other Addresses
+===============
+ * `0x0800CFCC`: Starting address for function that draws next glyph into WRAM.
+ * `0x0800C1A0`: Where the DMA from 0x020097B0 to tile data happens.
+ * `0x0800C27C`: DMA control flag for transferring tile data.
+ * `0x0800C21A`: [fill this in]
+
+Changes
+=======
+ * `0x0800BA74`: Change the `02` to `00` to disable updating `TILE_OFFSET`.
+
+Dump of old notes
 ====================================
 
 Description of VWF:
@@ -92,187 +112,3 @@ e.g. the letter A might look like
 00100100
 00100100
 00100100
-
-
-Table:
-Ⅹ 0030
-Ⅰ
-Ⅱ
-Ⅲ
-Ⅳ
-Ⅴ
-Ⅵ
-Ⅶ
-Ⅷ
-Ⅸ
-~
-「
-」
-『
-』
-?
-→ 0040
-A 0041
-B
-C
-D
-E
-F
-G
-H
-I
-J
-K
-L
-M
-N
-O
-P
-Q
-R
-S
-T
-U
-V
-W
-X
-Y
-Z
-ー
-、
-。
-っ
-ッ
-ぁ 0060
-ァ
-ぃ
-ィ
-ぅ
-ゥ
-ぇ
-ェ
-ぉ
-ォ
-ゃ
-ャ
-ゅ
-ュ
-ょ
-ョ
-あ0070
-ア0071
-い0072
-イ0073
-う
-ウ
-え
-エ
-お
-オ
-か
-カ
-き
-キ
-く
-ク
-け
-ケ
-こ
-コ
-さ
-サ
-し
-シ
-す
-ス
-せ
-セ
-そ
-ソ
-た
-タ
-ち
-チ
-つ
-ツ
-て
-テ
-と
-ト
-な
-ナ
-に
-ニ
-ぬ
-ヌ
-ね
-ネ
-の
-ノ
-は
-ハ
-ひ
-ヒ
-ふ
-フ
-へ
-ヘ
-ほ
-ホ
-ま
-マ
-み
-ミ
-む
-ム
-め
-メ
-も
-モ
-や
-ヤ
-ゆ
-ユ
-よ
-ヨ
-ら
-ラ
-り
-リ
-る
-ル
-れ
-レ
-ろ
-ロ
-わ
-ワ
-を
-ヲ
-ん
-00CB ン
-
-.
-.
-.
-
-0105 聖
-剣
-伝
-説
-樹
-一
-ニ
-三
-四
-五
-六
-七
-八
-九
-十
-.
-.
-.
-
-FEFF \n
