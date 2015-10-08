@@ -20,7 +20,7 @@
     	// Rom loading promise.
         var rom = new Promise((resolve, reject) => {
             var oReq = new XMLHttpRequest();
-            oReq.open("GET", "/magicalvacation.gba", true);
+            oReq.open("GET", "/original.gba", true);
             oReq.responseType = "arraybuffer";
             oReq.onreadystatechange = (oEvent) => {
                 if (oReq.readyState === 4) {
@@ -41,7 +41,7 @@
         	$.ajax({
     			url: "/script/table.yaml",
     			type: 'GET',
-    			success: function(data){ 
+    			success: function(data){
         			resolve(jsyaml.safeLoad(data))
     			},
     			error: function(data) {
@@ -60,7 +60,7 @@
 
         			var address = index.toString(16);
         			while (address.length < 8) address = "0" + address;
-        			
+
         			var hex = value.toString(16);
         			while (hex.length < 4) hex = "0" + hex;
 
@@ -75,7 +75,7 @@
         		html += char;
         	}
         	$("#output").html(html);
-            
+
             // Enable tooltips on all of the spans.
             $( document ).tooltip();
         });

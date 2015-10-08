@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+  <title>Magical Vacation Binary Diff</title>
+  <style>
+    body {
+      font-family: monospace;
+    }
+    #diff_output {
+      font-weight: bold;
+    }
+    .red {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <form id="diff">
+    <p>
+      <label>Original ROM:</label>
+      <input type="file" id="original_rom"/>
+    </p>
+    <p>
+      <label>Modified ROM:</label>
+      <input type="file" id="modified_rom"/>
+    </p>
+    <p>
+      <button>Diff!</button>
+    </p>
+
+  </form>
+  <pre id="diff_output"></pre>
+
+  <script src="binary_diff.js"></script>
+</body>
+</html>

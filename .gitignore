@@ -1,6 +1,7 @@
-# Ignores everything but .ups files and README files.
 *
 !*/
 !.gitignore
 !*.ups
+!*.S
+!tools/*
 !README.md
