@@ -2,6 +2,39 @@
 .gba
 .open "hacked.gba", 0x08000000
 
+;---------------------------------------------;
+; Disable x-coordinate and tile index updates ;
+;---------------------------------------------;
+.org 0x0800BA74
+nop
+
+.org 0x0800C19C
+nop
+
+; Not quite sure about the following change.
+.org 0x0800C218
+mov r9, r4
+add r2, r4, 0x02
+
+.org 0x0800C248
+nop
+
+.org 0x0800C2E6
+nop
+
+.org 0x0800C2F2
+nop
+
+; What does this do???
+.org 0x0800CFE8
+bx r4
+
+;----------------------;
+; Insert the font data ;
+;----------------------;
+.org 0x086035AC
+.incbin vwf/font.bin
+
 ; This is used to hijack the old glyph drawing routine and use ours.
 .org 0x0800CFD8
 mov r4, 0x08

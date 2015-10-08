@@ -7,6 +7,10 @@ RAM Map
  glyph tile in onboard WRAM is being copied to.
  * `0x03007DF4`: Base address for glyph tile data in onchip WRAM.
 
+ROM Map
+=======
+ * `0x006035AC`: Base address for 1bpp glyph tile data.
+
 Other Addresses
 ===============
  * `0x0800CFCC`: Starting address for function that draws next glyph into WRAM.
