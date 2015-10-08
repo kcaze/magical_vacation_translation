@@ -104,7 +104,7 @@ draw_previous_begin:
     mov r7, r10 /* 0x0203FFF0 */
 
     ldrb r7, [r7, 0x2] /* Index of previous glyph */
-    lsl r7, r7, 0x5
+    lsl r7, r7, 0x4
     add r6, r6, r7
     ldrb r4, [r6, r1]
     lsr r4, r5
@@ -119,7 +119,7 @@ draw_previous_begin:
       write_F_begin:
         add r3, 0xF
         /* Update current glyph offset */
-        mov r6, r10
+        mov r6, r10 /* 0x0203FFF0 */
         ldrb r7, [r6, 0x0]
         cmp r7, r2
         bge update_current_glyph_offset_end
@@ -166,13 +166,19 @@ draw_previous_begin:
   increment_tile_end:
 draw_previous_end:
 
+/* Add column before next character */
+mov r6, r10 /* 0x0203FFF0 */
+ldrb r7, [r6, 0x0]
+add r7, r7, 0x1
+strb r7, [r6, 0x0]
+
 draw_current_begin:
   /**
    * r1 = Outer loop counter
    * r2 = Inner loop counter
    * r3 = Row of 2's and F's
    * r4 = Row of 1 bpp glyph
-   * r5 = 4 * X-offset of current glyph (0x0203FFF1)
+   * r5 = 4 * X-offset of current glyph (0x0203FFF0)
    **/
 
   /* Clear x offset and tile index for previous glyph */
@@ -184,7 +190,7 @@ draw_current_begin:
 
   mov r1, 0x0
   mov r5, r10 /* 0x0203FFF0 */
-  ldrb r5, [r5, 0]
+  ldrb r5, [r5, 0x0]
   lsl r5, r5, 0x2
 
   draw_current_outer_loop_begin:
@@ -195,9 +201,9 @@ draw_current_begin:
     lsr r1, r1, 0x2
 
     mov r6, r12 /* 0x086035AC */
-    lsl r0, r0, 0x5
+    lsl r0, r0, 0x4
     add r6, r6, r0
-    lsr r0, r0, 0x5
+    lsr r0, r0, 0x4
     ldrb r4, [r6, r1]
 
     draw_current_inner_loop_begin:
@@ -227,17 +233,18 @@ draw_current_begin:
         current_update_previous_glyph_offset_end:
         b current_update_current_glyph_offset_end
 
-        /* TODO: Implement Update current glyph offset */
         current_update_current_glyph_offset_begin:
           lsr r5, r5, 0x2
           add r2, r2, r5
+          add r2, 0x1
           mov r6, r10
           ldrb r7, [r6, 0x0]
-          cmp r7, r2:
+          cmp r7, r2
           bge do_not_update_current_glyph_offset
           strb r2, [r6, 0x0]
           do_not_update_current_glyph_offset:
           sub r2, r2, r5
+          sub r2, 0x1
           lsl r5, r5, 0x2
         current_update_current_glyph_offset_end:
 
