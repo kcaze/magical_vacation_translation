@@ -1,7 +1,8 @@
 ; This is the variable width font routine. Inject this at 0x007DF750.
 .gba
-.open "vwf.gba", 0x08000000
+.open "hacked.gba", 0x08000000
 
+; This is used to hijack the old glyph drawing routine and use ours.
 .org 0x0800CFD8
 mov r4, 0x08
 lsl r4, r4, 0x08

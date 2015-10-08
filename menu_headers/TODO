@@ -1,0 +1,4 @@
+1. 解説 is currently deleted. It should be EXPLANATION or INFO and it shows up
+   when you press SELECT.
+2. おかね should be BURA, since it's ブラ in Japanese.
+3. Figure out what compound word the x-coordinate at 0x000AB870 is for.
