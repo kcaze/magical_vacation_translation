@@ -1,7 +1,3 @@
-*
-!*/
-!.gitignore
-!*.ups
-!*.S
-!tools/*
-!README.md
+*.SNA
+*.gba
+bin/*

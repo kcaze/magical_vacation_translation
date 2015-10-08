@@ -1,49 +1,49 @@
-/**
- * This is the variable width font routine. Inject this at 0x007DF750.
- **/
-@thumb
-@little
+; This is the variable width font routine. Inject this at 0x007DF750.
+.gba
+.open "vwf.gba", 0x08000000
 
-/**
- * Important Addresses
- * -------------------
- * 0x006035AC: Base address for 1bpp glyph tile data
- * 0x020097B0: Base address for glyph tile data in WRAM. The nibbles
- *             are stored in reverse orders. For example, 2FF22222 would
- *             actually be copied into the tile data as 22222FF2.
- **/
+.org 0x0800CFD8
+mov r4, 0x08
+lsl r4, r4, 0x08
+add r4, 0x7D
+lsl r4, r4, 0x08
+add r4, 0xF7
+lsl r4, r4, 0x08
+add r4, 0x50
+mov r15, r4
 
-/**
- * Function Parameters
- * -------------------
- * r0: Index into 0x086035AC of the glyph to draw
- **/
+.org 0x087DF750
+; Important Addresses
+; -------------------
+; 0x006035AC: Base address for 1bpp glyph tile data
+; 0x020097B0: Base address for glyph tile data in WRAM. The nibbles
+;             are stored in reverse orders. For example, 2FF22222 would
+;             actually be copied into the tile data as 22222FF2.
 
-/**
- * Variables in RAM
- * ----------------
- * 0x02009930: x-coordinate in bg3 that we draw tile
- * 0x02009954: Index into tile destination index to copy data from wram to.
- * 0x0203FFF0: x offset to draw current glyph (1 byte)
- * 0x0203FFF1: offset into previous character (1 byte)
- * 0x0203FFF2: index of previous character into 0x0806035AC (1 byte)
- *             set to 0 if no remaining part to draw
- **/
+; Function Parameters
+; -------------------
+; r0: Index into 0x086035AC of the glyph to draw
 
+; Variables in RAM
+; ----------------
+; 0x02009930: x-coordinate in bg3 that we draw tile
+; 0x02009954: Index into tile destination index to copy data from wram to.
+; 0x0203FFF0: x offset to draw current glyph (1 byte)
+; 0x0203FFF1: offset into previous character (1 byte)
+; 0x0203FFF2: index of previous character into 0x0806035AC (1 byte)
+;             set to 0 if no remaining part to draw
 
- /**
-  * Registers
-  * ---------
-  * r0: Passed in and preserved.
-  * r1 to r7: Scratch registers
-  * r8:
-  * r9: Holds the base address 0x020097B0 for glyph data in WRAM.
-  * r10: Holds the base address 0x0203FFF0 for variables.
-  * r12: Holds the base address 0x086035AC for glyph graphics data.
-  **/
+; Registers
+; ---------
+; r0: Passed in and preserved.
+; r1 to r7: Scratch registers
+; r8:
+; r9: Holds the base address 0x020097B0 for glyph data in WRAM.
+; r10: Holds the base address 0x0203FFF0 for variables.
+; r12: Holds the base address 0x086035AC for glyph graphics data.
 
 load_addresses_begin:
-  /* Move 0x020097B0 into r9. */
+  ; Move 0x020097B0 into r9.
   mov r1, 0x02
   lsl r1, r1, 0x08
   add r1, 0x00
@@ -53,7 +53,7 @@ load_addresses_begin:
   add r1, 0xB0
   mov r9, r1
 
-  /* Move 0x0203FFF0 into r10. */
+  ; Move 0x0203FFF0 into r10.
   mov r1, 0x02
   lsl r1, r1, 0x08
   add r1, 0x03
@@ -63,7 +63,7 @@ load_addresses_begin:
   add r1, 0xF0
   mov r10, r1
 
-  /* Move 0x086035AC into r12. */
+  ; Move 0x086035AC into r12.
   mov r1, 0x08
   lsl r1, r1, 0x08
   add r1, 0x60
@@ -75,35 +75,34 @@ load_addresses_begin:
 load_addresses_end:
 
 draw_previous_begin:
-  /* We should only draw previous glyphs if the offset is greater than 1 */
+  ; We should only draw previous glyphs if the offset is greater than 1
   mov r6, r10
   ldrb r6, [r6, 0x2]
   cmp r6, 0x0
   beq draw_previous_end
 
-  /* Clear x offset for current glyph */
+  ; Clear x offset for current glyph
   mov r6, r10
   mov r7, 0x0
   strb r7, [r6, 0x0]
 
-  /**
-   * r1 = Outer loop counter
-   * r2 = Inner loop counter
-   * r3 = Row of 2's and F's
-   * r4 = Row of 1 bpp glyph
-   * r5 = X-offset of previous glyph (0x0203FFF1)
-   **/
+  ; r1 = Outer loop counter
+  ; r2 = Inner loop counter
+  ; r3 = Row of 2's and F's
+  ; r4 = Row of 1 bpp glyph
+  ; r5 = X-offset of previous glyph (0x0203FFF1)
+
   mov r1, 0x0
-  mov r5, r10 /* 0x0203FFF0 */
-  ldrb r5, [r5, 0x1] /* X-offset of previous glyph */
+  mov r5, r10 ; 0x0203FFF0
+  ldrb r5, [r5, 0x1] ; X-offset of previous glyph
 
   draw_previous_outer_loop_begin:
-    mov r2, 0x8 /* We decrement r2 */
+    mov r2, 0x8 ; We decrement r2
     mov r3, 0x0
-    mov r6, r12 /* 0x086035AC */
-    mov r7, r10 /* 0x0203FFF0 */
+    mov r6, r12 ; 0x086035AC
+    mov r7, r10 ; 0x0203FFF0
 
-    ldrb r7, [r7, 0x2] /* Index of previous glyph */
+    ldrb r7, [r7, 0x2] ; Index of previous glyph
     lsl r7, r7, 0x4
     add r6, r6, r7
     ldrb r4, [r6, r1]
@@ -118,8 +117,8 @@ draw_previous_begin:
       beq write_2_begin
       write_F_begin:
         add r3, 0xF
-        /* Update current glyph offset */
-        mov r6, r10 /* 0x0203FFF0 */
+        ; Update current glyph offset
+        mov r6, r10 ; 0x0203FFF0
         ldrb r7, [r6, 0x0]
         cmp r7, r2
         bge update_current_glyph_offset_end
@@ -138,8 +137,8 @@ draw_previous_begin:
       bgt draw_previous_inner_loop_begin
     draw_previous_inner_loop_end:
 
-    mov r6, r9 /* 0x020097B0 */
-    /* Multiply r1 by 4 since each row is 4 bytes long */
+    mov r6, r9 ; 0x020097B0
+    ; Multiply r1 by 4 since each row is 4 bytes long
     lsl r1, r1, 0x2
     str r3, [r6, r1]
     lsr r1, r1, 0x2
@@ -166,41 +165,39 @@ draw_previous_begin:
   increment_tile_end:
 draw_previous_end:
 
-/* Add column before next character */
-mov r6, r10 /* 0x0203FFF0 */
+; Add column before next character
+mov r6, r10 ; 0x0203FFF0
 ldrb r7, [r6, 0x0]
 add r7, r7, 0x1
 strb r7, [r6, 0x0]
 
 draw_current_begin:
-  /**
-   * r1 = Outer loop counter
-   * r2 = Inner loop counter
-   * r3 = Row of 2's and F's
-   * r4 = Row of 1 bpp glyph
-   * r5 = 4 * X-offset of current glyph (0x0203FFF0)
-   **/
+  ; r1 = Outer loop counter
+  ; r2 = Inner loop counter
+  ; r3 = Row of 2's and F's
+  ; r4 = Row of 1 bpp glyph
+  ; r5 = 4 * X-offset of current glyph (0x0203FFF0)
 
-  /* Clear x offset and tile index for previous glyph */
-  mov r6, r10 /* 0x0203FFF0 */
-  mov r7, 0x8 /* Set to 8 since we're taking a minimum */
+  ; Clear x offset and tile index for previous glyph
+  mov r6, r10 ; 0x0203FFF0
+  mov r7, 0x8 ; Set to 8 since we're taking a minimum
   strb r7, [r6, 0x1]
   mov r7, 0x0
   strb r7, [r6, 0x2]
 
   mov r1, 0x0
-  mov r5, r10 /* 0x0203FFF0 */
+  mov r5, r10 ; 0x0203FFF0
   ldrb r5, [r5, 0x0]
   lsl r5, r5, 0x2
 
   draw_current_outer_loop_begin:
     mov r2, 0x0
-    mov r6, r9 /* 0x020097B0 */
+    mov r6, r9 ; 0x020097B0
     lsl r1, r1, 0x2
     ldr r3, [r6, r1]
     lsr r1, r1, 0x2
 
-    mov r6, r12 /* 0x086035AC */
+    mov r6, r12 ; 0x086035AC
     lsl r0, r0, 0x4
     add r6, r6, r0
     lsr r0, r0, 0x4
@@ -220,10 +217,10 @@ draw_current_begin:
         lsr r2, r2, 0x2
         orr r3, r6
 
-        /* Update previous glyph offset */
-        cmp r6, 0x0 /* If r6 == 0, then there wasn't enough space */
+        ; Update previous glyph offset
+        cmp r6, 0x0 ; If r6 == 0, then there wasn't enough space
         bne current_update_current_glyph_offset_begin
-        mov r6, r10 /* 0x0203FFF0 */
+        mov r6, r10 ; 0x0203FFF0
         ldrb r7, [r6, 0x1]
         cmp r7, r2
         ble current_update_previous_glyph_offset_end
@@ -264,8 +261,8 @@ draw_current_begin:
       blt draw_current_inner_loop_begin
     draw_current_inner_loop_end:
 
-    mov r6, r9 /* 0x020097B0 */
-    /* Multiply r1 by 4 since each row is 4 bytes long */
+    mov r6, r9 ; 0x020097B0
+    ; Multiply r1 by 4 since each row is 4 bytes long
     lsl r1, r1, 0x2
     str r3, [r6, r1]
     lsr r1, r1, 0x2
@@ -275,9 +272,7 @@ draw_current_begin:
   draw_current_outer_loop_end:
 draw_current_end:
 
-
-
-/* Branch back to 0x0800D112 to return from the original function. */
+; Branch back to 0x0800D112 to return from the original function.
 return:
   mov r7, 0x08
   lsl r7, r7, 0x08
@@ -287,3 +282,5 @@ return:
   lsl r7, r7, 0x08
   add r7, 0x12
   mov r15, r7
+
+.close
