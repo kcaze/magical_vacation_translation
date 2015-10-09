@@ -63,10 +63,11 @@ mov r15, r4
 ; 0x02009930: x-coordinate in bg3 that we draw tile
 ; 0x02009954: Index into tile destination index to copy data from wram to.
 ; 0x0203FFF0: x offset to draw current glyph (1 byte)
-; 0x0203FFF1: offset into previous character (1 byte) [if this is set to 0x0,
-;             it indicates that it actually needs to be shifted forward 1 pixel]
+; 0x0203FFF1: offset into previous character (1 byte)
 ; 0x0203FFF2: index of previous character into 0x0806035AC (1 byte)
 ;             set to 0 if no remaining part to draw
+; 0x0203FFF3: flag set to 1 if need to shift right 1 pixel when drawing previous
+;             character
 
 ; Registers
 ; ---------
@@ -141,10 +142,14 @@ draw_previous_begin:
     lsl r7, r7, 0x4
     add r6, r6, r7
     ldrb r4, [r6, r1]
-    cmp r5, 0x00
+
+    mov r7, r10 ; 0x0203FFF0
+    ldrb r7, [r7, 0x3] ; Flag for shifting left or not.
+    cmp r7, 0x01
     beq shift_left
     shift_right:
       lsr r4, r5
+      b end_shift
     shift_left:
       lsl r4, r4, 0x01
     end_shift:
@@ -206,11 +211,22 @@ draw_previous_begin:
   increment_tile_end:
 draw_previous_end:
 
+; Clear shift flag for previous glyph
+mov r6, r10 ; 0x0203FFF0
+mov r7, 0x00
+strb r7, [r6, 0x3] ; Flag for shifting left or not.
+
 ; Add column before next character
 mov r6, r10 ; 0x0203FFF0
 ldrb r7, [r6, 0x0]
 add r7, r7, 0x1
 strb r7, [r6, 0x0]
+cmp r7, 0x9
+bne draw_current_begin
+; Set flag to shift right for previous_glyph
+mov r6, r10 ; 0x0203FFF0
+mov r7, 0x1
+strb r7, [r6, 0x3]
 
 draw_current_begin:
   ; r1 = Outer loop counter
