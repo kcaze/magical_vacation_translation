@@ -11,6 +11,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.25/browser.js"></script>
     <script src="https://cdn.jsdelivr.net/babel/5.8.25/browser-polyfill.js"></script>
 
+    <style>
+    body {
+      font-family: monospace;
+    }
+    </style>
 
 </head>
 
@@ -52,32 +57,25 @@
 
         // Wait until the table and rom are both loaded.
         Promise.all([rom, table]).then(function([rom, table]) {
-        	// Generator that creates the html with tooltips.
-        	let chars = (function*() {
-        		var index = 6474002;
-        		while (index < 6919248) {
-        			var value = (rom[index] << 8) + rom[index + 1];
-
-        			var address = index.toString(16);
+        	var html = "";
+          for (var idx = 6474002; idx < 6919248; idx += 2) {
+              if (rom[idx] == 128) {
+                idx -= 1;
+                continue;
+              }
+        			var value = (rom[idx] << 8) + rom[idx+1];
+        			var address = idx.toString(16);
         			while (address.length < 8) address = "0" + address;
-
         			var hex = value.toString(16);
         			while (hex.length < 4) hex = "0" + hex;
-
-        			yield `<span title="Hex Value: ${hex}, Address: ${address}">${table[value] || '?'}</span>`;
-        			index += 2;
-        		}
-        	})();
-
-        	// Generate and output html.
-        	var html = "";
-        	for (let char of chars) {
-        		html += char;
+        			html += `<span title="Hex Value: ${hex}, Address: ${address}">` + (table[value] || '&#65311;') + '</span>'
+              if (idx % 128 == 0) html += "<br />"
         	}
+
         	$("#output").html(html);
 
             // Enable tooltips on all of the spans.
-            $( document ).tooltip();
+          $( document ).tooltip();
         });
     </script>
 </body>
