@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+  <title>Magical Vacation Script Editor</title>
+  <style>
+    body {
+      font-family: monospace;
+    }
+
+    .red {
+      color: red;
+    }
+
+    .green {
+      color: green
+    }
+
+    textarea {
+      width: 500px;
+      height: 150px;
+      resize: none;
+      vertical-align: top;
+    }
+  </style>
+</head>
+<body>
+  <p>
+    <label>Select script file:</label>
+    <input type="file" id="script"/>
+  </p>
+  <p>
+    <label>Select table file:</label>
+    <input type="file" id="table"/>
+  </p>
+
+  <p>
+    <b>Status:</b> <span id="status" class="red">Not loaded.</span>
+  </p>
+
+  <p>
+    <label>Dialogue number:</label>
+    <input id="dialogue_number" disabled="true" type="number" min="0" max="0" step="1"/>
+    of <span id="max_dialogue_number"></span>
+  </p>
+
+  <p>
+    <label>Japanese:</label>
+    <textarea id="japanese" disabled="true" readonly="true"></textarea>
+  </p>
+
+  <script src="js-yaml.js"></script>
+  <script src="magical_scripter.js"></script>
+</body>
+</html>
