@@ -15,11 +15,12 @@
       color: green
     }
 
-    textarea {
+    #japanese {
       width: 500px;
       height: 150px;
-      resize: none;
       vertical-align: top;
+      border: 1px solid #bbb;
+      padding: 2px;
     }
   </style>
 </head>
@@ -45,7 +46,7 @@
 
   <p>
     <label>Japanese:</label>
-    <textarea id="japanese" disabled="true" readonly="true"></textarea>
+    <div id="japanese"> </div>
   </p>
 
   <script src="js-yaml.js"></script>

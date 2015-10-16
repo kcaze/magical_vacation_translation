@@ -6,8 +6,14 @@ Game considers 0x00629A2C to be the base address of the script.
 Control Characters
 ==================
 * `80`: Newline
+* `91`: Begin using special katakana set.
+* `8E`: Begin using red font.
+* `82`: ??? (perhaps used to indicate progress in the game?)
+* `8D`: End using special font (ends 0x8E, 0x8F, 0x90, and 0x91).
 * `86 XX`: Display character `XX`'s name.
+* `87 XX`: Display item `XX`'s name (I think).
 * `8B XX`: Display character portrait `XX`.
+* `85 00`: Display player's name.
 
 `0x00699478`: Some giant address pool. Unsure what these actually point to or
 if they are relevant to the script.

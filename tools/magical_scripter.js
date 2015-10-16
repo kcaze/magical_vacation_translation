@@ -49,20 +49,35 @@ function convertScript() {
 
   document.getElementById('max_dialogue_number').innerHTML = script.header.length - 1;
 
+  var control_characters = {
+    128:function(text, flags) { return '<br>'; },
+    130:function(text, flags) { return ''; },
+    141:function(text, flags) { for (var f in flags) flags[f] = false; return '';},
+    142:function(text, flags) { flags.red = true; return '';},
+    145:function(text, flags) { flags.italics = true; return '';}
+  };
+  var flags = {
+    italics: false,
+    red: false
+  };
   script.text = [];
   for (var ii = 0; ii < script.header.length-1; ii++) {
     var text = '';
     for (var jj = script.header[ii]; jj < script.header[ii+1]; jj += 2) {
-      if (script.u8[jj] == 128) {
-        text += '\n';
+      if (control_characters[script.u8[jj]]) {
+        text += control_characters[script.u8[jj]](text, flags);
         jj--;
         continue;
       }
 
   		var value = (script.u8[jj] << 8) + script.u8[jj+1];
+      text += flags.italics ? '<i>' : '';
+      text += flags.red ? '<span class="red">' : '';
       text += table[value]
               ? table[value]
               : '<0x'+value.toString(16).toUpperCase()+'>';
+      text += flags.red ? '</span>' : '';
+      text += flags.italics ? '</i>' : '';
     }
     script.text.push(text);
   }
