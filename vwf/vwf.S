@@ -41,7 +41,9 @@ bx r4
 ;----------------------;
 ; Insert the font data ;
 ;----------------------;
-.org 0x086035AC
+; Our vwf glyph data is offset by 0x100 so we inject at 0x086035AC + 0x400 =
+; 0x086039AC
+.org 0x086039AC
 .incbin vwf/font.bin
 
 ; This is used to hijack the old glyph drawing routine and use ours.
@@ -108,12 +110,12 @@ load_addresses_begin:
   add r1, 0xF0
   mov r10, r1
 
-  ; Move 0x086035AC into r12.
+  ; Move 0x086039AC into r12.
   mov r1, 0x08
   lsl r1, r1, 0x08
   add r1, 0x60
   lsl r1, r1, 0x08
-  add r1, 0x35
+  add r1, 0x39
   lsl r1, r1, 0x08
   add r1, 0xAC
   mov r12, r1
@@ -145,7 +147,7 @@ draw_glyph_begin:
     draw_previous_outer_loop_begin:
       mov r2, 0x8 ; We decrement r2
       mov r3, 0x0
-      mov r6, r12 ; 0x086035AC
+      mov r6, r12 ; 0x086039AC
       mov r7, r10 ; 0x0203FFF0
 
       ldrb r7, [r7, 0x2] ; Index of previous glyph
@@ -263,7 +265,7 @@ draw_glyph_begin:
       ldr r3, [r6, r1]
       lsr r1, r1, 0x2
 
-      mov r6, r12 ; 0x086035AC
+      mov r6, r12 ; 0x086039AC
       ; extract the higher byte
       ldr r7, =0x0000FF00
       and r7, r0
