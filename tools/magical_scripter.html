@@ -19,8 +19,23 @@
       width: 500px;
       height: 150px;
       vertical-align: top;
-      border: 1px solid #bbb;
+      border: 1px solid #aaa;
       padding: 2px;
+      display: inline-block;
+    }
+
+    #english {
+      width: 500px;
+      height: 150px;
+      vertical-align: top;
+      resize: none;
+    }
+
+    #comments {
+      width: 500px;
+      height: 50px;
+      vertical-align: top;
+      resize: none;
     }
   </style>
 </head>
@@ -29,14 +44,24 @@
     <label>Select script file:</label>
     <input type="file" id="script"/>
   </p>
+
   <p>
     <label>Select table file:</label>
     <input type="file" id="table"/>
   </p>
 
   <p>
+    <button disabled="true" id="export_script">Export script</button>
+  </p>
+  <p>
+    <button disabled="true" id="export_binary">Export binary</button>
+  </p>
+
+  <p>
     <b>Status:</b> <span id="status" class="red">Not loaded.</span>
   </p>
+
+  <hr/>
 
   <p>
     <label>Dialogue number:</label>
@@ -45,11 +70,21 @@
   </p>
 
   <p>
-    <label>Japanese:</label>
-    <div id="japanese"> </div>
+    <label>Japanese:</label> <span id="japanese"> </span>
+  </p>
+
+  <p>
+    <label>English:</label>
+    <textarea disabled=true id="english"></textarea>
+  </p>
+
+  <p>
+    <label>Comments:</label>
+    <textarea disabled=true id="comments"></textarea>
   </p>
 
   <script src="js-yaml.js"></script>
+  <script src="FileSaver.js"></script>
   <script src="magical_scripter.js"></script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 Script Addresses
 =======
-0x0062C912 to 0x00699450 is the main script.
-Game considers 0x00629A2C to be the base address of the script.
+0x00629A2C to be the base address of the script, including offsets.
+0x0062C912 to 0x00698E9A is the main script.
 
 Control Characters
 ==================

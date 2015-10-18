@@ -1,5 +1,7 @@
-var script = {};
+var script = {text: {}};
 var table;
+var current_dialogue_number;
+var HEADER_LENGTH = 12006;
 
 function pad(s, n) {
   while (s.length < n) s = '0'+s;
@@ -27,8 +29,6 @@ function readTable(e) {
 }
 
 function convertScript() {
-  var HEADER_LENGTH = 12006;
-
   if (!script.u8 || !table) return;
 
   setControls(false); // Disable controls
@@ -60,7 +60,9 @@ function convertScript() {
     italics: false,
     red: false
   };
-  script.text = [];
+  script.text.japanese = [];
+  script.text.english = [];
+  script.text.comments = [];
   for (var ii = 0; ii < script.header.length-1; ii++) {
     var text = '';
     for (var jj = script.header[ii]; jj < script.header[ii+1]; jj += 2) {
@@ -79,7 +81,9 @@ function convertScript() {
       text += flags.red ? '</span>' : '';
       text += flags.italics ? '</i>' : '';
     }
-    script.text.push(text);
+    script.text.japanese.push(text);
+    script.text.english.push('');
+    script.text.comments.push('');
   }
 
   document.getElementById('status').innerHTML = 'Loaded.';
@@ -88,13 +92,67 @@ function convertScript() {
 }
 
 function setControls(enabled) {
-  document.getElementById('japanese').disabled = !enabled;
+  document.getElementById('english').disabled = !enabled;
+  document.getElementById('comments').disabled = !enabled;
   document.getElementById('dialogue_number').disabled = !enabled;
+  document.getElementById('export_script').disabled = !enabled;
+  document.getElementById('export_binary').disabled = !enabled;
 
   if (enabled) {
     document.getElementById('dialogue_number').max = script.header.length - 1;
     document.getElementById('dialogue_number').value = 0;
+    current_dialogue_number = 0;
   }
+}
+
+function exportScript() {
+  var export_script = [];
+  for (var ii = 0; ii < script.text.japanese.length; ii++) {
+    export_script.push({
+      Japanese: script.text.japanese[ii],
+      English: script.text.english[ii],
+      Comments: script.text.comments[ii],
+    });
+  }
+  var export_string = jsyaml.safeDump(export_script);
+  saveAs(new Blob([export_string], {type: 'text/plain;charset-utf-8'}), "script.yaml");
+  console.log('Exported script!');
+}
+
+function exportBinary() {
+  var binary = new Uint8Array(script.u8.length);
+
+  var count = 0;
+  for (var ii = 0; ii < HEADER_LENGTH/2; ii++) {
+    binary[2*ii] = script.u8[2*ii];
+    binary[2*ii+1] = script.u8[2*ii+1];
+
+    var offset = script.header[ii];
+    var length = script.header[ii+1] - script.header[ii];
+    var noop = 255;
+
+    if (offset >= HEADER_LENGTH && length > 0) {
+      if (script.text.english[ii] == '') {
+        for (var jj = 0; jj < length; jj++) {
+          binary[offset + jj] = script.u8[offset + jj];
+        }
+      } else {
+        if (script.text.english[ii].length > length) {
+          console.log("WARNING: English is too long and will be truncated!")
+        }
+
+        for (var jj = 0; jj < length; jj++) {
+          binary[offset + jj] = script.text.english[ii][jj]
+                                ? script.text.english[ii][jj].charCodeAt(0)
+                                : noop;
+        }
+      }
+    }
+
+  }
+
+  saveAs(new Blob([new DataView(binary.buffer)], {type: 'application/octet-stream'}), "script.bin");
+  console.log('Exported binary!');
 }
 
 document
@@ -106,7 +164,30 @@ document
   .addEventListener('change', readTable, false);
 
 document
+  .getElementById('export_script')
+  .addEventListener('click', exportScript, false);
+
+document
+  .getElementById('export_binary')
+  .addEventListener('click', exportBinary, false);
+
+document
   .getElementById('dialogue_number')
   .addEventListener('change', function(e) {
-    document.getElementById('japanese').innerHTML = script.text[e.target.value];
+    current_dialogue_number = e.target.value;
+    document.getElementById('japanese').innerHTML = script.text.japanese[current_dialogue_number];
+    document.getElementById('english').value = script.text.english[current_dialogue_number];
+    document.getElementById('comments').value = script.text.comments[current_dialogue_number];
   }, false);
+
+document
+  .getElementById('english')
+  .addEventListener('change', function(e) {
+    script.text.english[current_dialogue_number] = document.getElementById('english').value;
+  });
+
+document
+  .getElementById('comments')
+  .addEventListener('change', function(e) {
+    script.text.comments[current_dialogue_number] = document.getElementById('comments').value;
+  });
