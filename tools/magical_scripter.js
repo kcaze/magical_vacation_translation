@@ -129,7 +129,7 @@ function exportBinary() {
 
     var offset = script.header[ii];
     var length = script.header[ii+1] - script.header[ii];
-    var eof = 4;
+    var eol = 4;
     var noop = 255;
 
     if (offset >= HEADER_LENGTH && length > 0) {
@@ -140,13 +140,18 @@ function exportBinary() {
       } else {
         var english = [];
         for (var jj = 0; jj < script.text.english[ii].length; jj++) {
-          english[jj] = script.text.english[ii].charCodeAt(jj);
+          if (script.text.english[ii][jj] == '\\') {
+            var control_code = parseInt(
+                script.text.english[ii].substring(jj+1, jj+3),
+                16);
+            english.push(control_code);
+            jj += 2;
+          } else {
+            english.push(script.text.english[ii].charCodeAt(jj));
+          }
         }
-        english.push(eof);
-        // Pad with trailing eof
-        if (english.length % 2) {
-          english.push(eof);
-        }
+        english.push(eol);
+        english.push(eol);
 
         if (english.length > length) {
           console.log("WARNING: English is too long!")

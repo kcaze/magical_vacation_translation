@@ -5,7 +5,7 @@ Script Addresses
 
 Control Characters
 ==================
-* `80`: Newline
+* `80`: Newline. Function located at `0x0000BA58`.
 * `91`: Begin using special katakana set.
 * `8E`: Begin using red font.
 * `82`: ??? (perhaps used to indicate progress in the game?)
@@ -19,13 +19,14 @@ Control Characters
 
 
 0x0000B56A -- Beginning of subroutine to load next dialogue text. The parameter r0 passed indicates which offset to use.
+0x0000B818 -- Does the comparison for control characters.
+  0x0000B82C -- FF control character. Branches to 0x0000C2F6.
+  0x0000B844 -- Function jump table of control codes, goes from 0x80 to 0xA6 (26 control codes total).
+  NOTE: I can override some of the jump tables to define my own control codes!!!
 0x0000C18E -- Updating the script by 0x2 each read.
 
 0x02009720 and 0x020097A0 -- RAM holding location of script that current dialogue is reading from. 0x02009720 is the one that gets incremented after each character is drawn.
 0x0200999C -- RAM holding the end of the current dialogue.
-
-23354
-B624
 
 `0x00699478`: Some giant address pool. Unsure what these actually point to or
 if they are relevant to the script.

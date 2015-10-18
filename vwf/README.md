@@ -13,6 +13,7 @@ ROM Map
 
 Other Addresses
 ===============
+ * `0x0800BA64`: Reset x-coordinate for new lines.
  * `0x0800CFCC`: Starting address for function that draws next glyph into WRAM.
  * `0x0800C1A0`: Where the DMA from 0x020097B0 to tile data happens.
  * `0x0800C27C`: DMA control flag for transferring tile data.
@@ -28,6 +29,7 @@ Dump of old notes
 Description of VWF:
 Takes in the following parameters:
 r0 holds some the index into 603787 of the glyph to draw
+r1 is the palette index for the font color.
 r2 holds the starting address of the font glyphs in onboard wram
 r3 is a boolean indicating whether this is the first or second glyph in a pair.
 r13 holds the starting address in onchip wram that the current glyph should be written to
