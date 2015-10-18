@@ -129,6 +129,7 @@ function exportBinary() {
 
     var offset = script.header[ii];
     var length = script.header[ii+1] - script.header[ii];
+    var eof = 4;
     var noop = 255;
 
     if (offset >= HEADER_LENGTH && length > 0) {
@@ -137,14 +138,22 @@ function exportBinary() {
           binary[offset + jj] = script.u8[offset + jj];
         }
       } else {
-        if (script.text.english[ii].length > length) {
-          console.log("WARNING: English is too long and will be truncated!")
+        var english = [];
+        for (var jj = 0; jj < script.text.english[ii].length; jj++) {
+          english[jj] = script.text.english[ii].charCodeAt(jj);
+        }
+        english.push(eof);
+        // Pad with trailing eof
+        if (english.length % 2) {
+          english.push(eof);
+        }
+
+        if (english.length > length) {
+          console.log("WARNING: English is too long!")
         }
 
         for (var jj = 0; jj < length; jj++) {
-          binary[offset + jj] = script.text.english[ii][jj]
-                                ? script.text.english[ii][jj].charCodeAt(0)
-                                : noop;
+          binary[offset + jj] = english[jj] ? english[jj] : noop;
         }
       }
     }

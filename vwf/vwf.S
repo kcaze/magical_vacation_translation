@@ -237,11 +237,6 @@ draw_glyph_begin:
   mov r6, r10 ; 0x0203FFF0
   mov r7, 0x00
   strb r7, [r6, 0x3] ; Flag for shifting right or not.
-  b draw_current_begin
-
-  ; Hacky way to branch back to draw_glyph_begin
-  branch_back_to_draw_glyph_begin:
-    b draw_glyph_begin
 
   draw_current_begin:
     ; r1 = Outer loop counter
@@ -261,6 +256,11 @@ draw_glyph_begin:
     mov r5, r10 ; 0x0203FFF0
     ldrb r5, [r5, 0x0]
     lsl r5, r5, 0x2
+    b draw_current_outer_loop_begin
+
+    ; Hacky way to branch back to draw_glyph_begin
+    branch_back_to_draw_glyph_begin:
+      b draw_glyph_begin
 
     draw_current_outer_loop_begin:
       mov r2, 0x0
@@ -328,7 +328,7 @@ draw_glyph_begin:
         draw_current_2_begin:
           lsl r2, r2, 0x2
 
-          ; Clear out the curent character in r3
+          ; Clear out the current character in r3
           mov r7, 0xF
           lsl r7, r5
           lsl r7, r2
@@ -373,7 +373,6 @@ draw_glyph_begin:
     set_shift_right_flag_end:
   draw_current_end:
 
-
   dma_begin:
     ldr r1, =0x040000D4
     ldr r2, =0x020097B0
@@ -384,10 +383,44 @@ draw_glyph_begin:
     ldr r3, =0x06004000
     add r2, r2, r3
     str r2, [r1, 0x04]
-    ldr r2, =0x80000040
+    ldr r2, =0x80000060
     str r2, [r1, 0x08]
     ldr r2, [r1, 0x08]
   dma_end:
+
+  ; 0x04 is the EOF value, indicating we should wipe the local RAM data and
+  ; increment the tile.
+  ldr r7, =0x0000FF00
+  and r7, r0
+  lsr r7, 0x08
+  cmp r7, 0x04
+  bne not_eof
+    ; clear local ram
+    mov r6, r10
+    mov r7, 0x00
+    str r7, [r6]
+
+    ; clear glyph data
+    ldr r5, =0x22222222
+    mov r6, 0xC0
+    mov r7, r9
+    clear_glyph_data_begin:
+    sub r6, 0x04
+    str r5, [r7, r6]
+    cmp r6, 0x00
+    bgt clear_glyph_data_begin
+    clear_glyph_data_end:
+
+    ; increment tile data
+    ldr r6, =0x02009930
+    ldrb r7, [r6]
+    add r7, 0x1
+    strb r7, [r6]
+    add r6, 0x24
+    ldrb r7, [r6]
+    add r7, 0x2
+    strb r7, [r6]
+  not_eof:
 
   lsl r0, r0, 0x8
   ldr r7, =0x0000FFFF
