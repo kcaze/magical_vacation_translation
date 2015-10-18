@@ -123,16 +123,26 @@ load_addresses_end:
 
 draw_glyph_begin:
   draw_previous_begin:
-    ; We should only draw previous glyphs if the offset is greater than 1
-    mov r6, r10
+    ; Nothing to draw if the glyph number is 0.
+    mov r6, r10 ; 0x0203FFF0
     ldrb r6, [r6, 0x2]
     cmp r6, 0x0
     beq draw_previous_end
+
+    ; Handle spaces correctly by setting x offset for current glyph to 1.
+    cmp r6, 0x14
+    bne update_space_end
+    update_space_begin:
+      mov r7, 0x1
+      strb r7, [r6, 0x0]
+      b draw_previous_end
+    update_space_end:
 
     ; Clear x offset for current glyph
     mov r6, r10
     mov r7, 0x0
     strb r7, [r6, 0x0]
+
 
     ; r1 = Outer loop counter
     ; r2 = Inner loop counter
@@ -215,24 +225,18 @@ draw_glyph_begin:
       add r7, 0x2
       strb r7, [r6]
     increment_tile_end:
+
+    ; Add column before next character
+    mov r6, r10 ; 0x0203FFF0
+    ldrb r7, [r6, 0x0]
+    add r7, r7, 0x1
+    strb r7, [r6, 0x0]
   draw_previous_end:
 
   ; Clear shift flag for previous glyph
   mov r6, r10 ; 0x0203FFF0
   mov r7, 0x00
-  strb r7, [r6, 0x3] ; Flag for shifting left or not.
-
-  ; Add column before next character
-  mov r6, r10 ; 0x0203FFF0
-  ldrb r7, [r6, 0x0]
-  add r7, r7, 0x1
-  strb r7, [r6, 0x0]
-  cmp r7, 0x9
-  bne draw_current_begin
-  ; Set flag to shift right for previous_glyph
-  mov r6, r10 ; 0x0203FFF0
-  mov r7, 0x1
-  strb r7, [r6, 0x3]
+  strb r7, [r6, 0x3] ; Flag for shifting right or not.
   b draw_current_begin
 
   ; Hacky way to branch back to draw_glyph_begin
@@ -314,20 +318,29 @@ draw_glyph_begin:
             bge do_not_update_current_glyph_offset
             strb r2, [r6, 0x0]
             do_not_update_current_glyph_offset:
-            sub r2, r2, r5
             sub r2, 0x1
+            sub r2, r2, r5
             lsl r5, r5, 0x2
           current_update_current_glyph_offset_end:
 
           b draw_current_2_end
         draw_current_F_end:
         draw_current_2_begin:
+          lsl r2, r2, 0x2
+
+          ; Clear out the curent character in r3
+          mov r7, 0xF
+          lsl r7, r5
+          lsl r7, r2
+          and r7, r3
+          sub r3, r7
+
           mov r6, 0x2
           lsl r6, r5
-          lsl r2, r2, 0x2
           lsl r6, r2
-          lsr r2, r2, 0x2
           orr r3, r6
+
+          lsr r2, r2, 0x2
         draw_current_2_end:
         lsr r4, r4, 0x1
         add r2, 0x1
@@ -344,7 +357,22 @@ draw_glyph_begin:
       cmp r1, 0x10
       blt draw_current_outer_loop_begin
     draw_current_outer_loop_end:
+
+    ; Add column before next character
+    mov r6, r10 ; 0x0203FFF0
+    ldrb r7, [r6, 0x0]
+    add r7, r7, 0x1
+    strb r7, [r6, 0x0]
+    cmp r7, 0xA
+    blt set_shift_right_flag_end
+    set_shift_right_flag_begin:
+      ; Set flag to shift right for previous_glyph
+      mov r6, r10 ; 0x0203FFF0
+      mov r7, 0x1
+      strb r7, [r6, 0x3]
+    set_shift_right_flag_end:
   draw_current_end:
+
 
   dma_begin:
     ldr r1, =0x040000D4
