@@ -138,35 +138,47 @@ function exportBinary() {
           binary[offset + jj] = script.u8[offset + jj];
         }
       } else {
-        var english = [];
-        for (var jj = 0; jj < script.text.english[ii].length; jj++) {
-          if (script.text.english[ii][jj] == '\\') {
-            var control_code = parseInt(
-                script.text.english[ii].substring(jj+1, jj+3),
-                16);
-            english.push(control_code);
-            jj += 2;
-          } else {
-            english.push(script.text.english[ii].charCodeAt(jj));
-          }
-        }
-        english.push(eol);
-        english.push(eol);
-
+        var english = parseEnglish(script.text.english[ii]);
         if (english.length > length) {
           console.log("WARNING: English is too long!")
         }
 
         for (var jj = 0; jj < length; jj++) {
-          binary[offset + jj] = english[jj] ? english[jj] : noop;
+          binary[offset + jj] = jj < english.length ? english[jj] : noop;
         }
       }
     }
-
   }
 
   saveAs(new Blob([new DataView(binary.buffer)], {type: 'application/octet-stream'}), "script.bin");
   console.log('Exported binary!');
+}
+
+function parseEnglish(english) {
+  var parsed = [];
+  var ii = 0;
+  while (ii < english.length) {
+    var curr = english[ii];
+    var next = english[ii+1];
+    if (curr == '\\') {
+      parsed.push(parseInt(english.substring(ii+1, ii+3), 16));
+      ii += 3;
+      continue;
+    } else if (curr == '\n') {
+      parsed.push(128);
+      ii += 1;
+      continue;
+    }
+    if (next && next != '\\' && next != '\n') {
+      parsed.push(next.charCodeAt(0));
+      ii += 2;
+    } else {
+      parsed.push(0);
+      ii += 1;
+    }
+    parsed.push(curr.charCodeAt(0));
+  }
+  return parsed;
 }
 
 document

@@ -51,7 +51,15 @@ bx r4
 .org 0x086039AC
 .incbin vwf/font.bin
 
-; This is used to hijack the old glyph drawing routine and use ours.
+;-----------------------------------------;
+; Insert control character function table ;
+;-----------------------------------------;
+.org 0x0800B844
+.incbin vwf/control_characters.bin
+
+;---------------------------------------------------;
+; Hijack the old glyph drawing routine and use ours ;
+;---------------------------------------------------;
 .org 0x0800CFD8
 mov r4, 0x08
 lsl r4, r4, 0x08
@@ -285,5 +293,20 @@ return:
 ; Table storing widths of each character
 .org 0x087DF900
 .incbin vwf/glyph_widths.bin
+
+; Newline control character routine. Cleans up the ram and then branches back to
+; original newline routine.
+.org 0x087DFA00
+ldr r0, =0x0203FFF0
+mov r1, 0x00
+strh r1, [r0]
+ldr r0, =0x02009954
+ldrh r1, [r0]
+add r1, 0x04
+strh r1, [r0]
+ldr r0, =0x0800BA58
+mov r15, r0
+
+.pool
 
 .close
