@@ -11507,52 +11507,52 @@
   English: ''
   Comments: ''
 - Japanese: '<0x8B0C><0x8602><br>「ピスタチオ！！<br> <0x8500>！！<br> なにやってんだ！?<br> もうバスが来るぜ！！'
-  English: ''
+  English: "\\8b\\0c\\86\\02\nPistachio!\n\\85\\00!\nWhat are you guys doing!?\nThe bus is here!"
   Comments: ''
 - Japanese: '<0x8B1A><0x8610><br>「今日からキャンプだぜ~！！<br> ワクワクしようぜ~！！'
-  English: ''
+  English: "\\8b\\1a\\86\\10\nCamp starts today!\nLet's have a lot of fun!"
   Comments: ''
 - Japanese: '<0x8B18><0x860E><br>「オイラ、キャンプに行けないっぴ<br> ‥‥‥。<br> キャンプなんか行ってたら、<br> オイラ落第するっぴ！！'
-  English: ''
+  English: "\\8b\\18\\86\\0e\nI can't go to camp...\nI'm going to flunk out if I go!"
   Comments: ''
 - Japanese: '<0x8B1A><0x8610><br>「はっはっは！！<br> 気にするなよ！！<br> キルシュのアニキなんか<br> ２回もダブってんだぜ！！<br> どーってことねぇよ！！'
-  English: ''
+  English: "\\8b\\1a\\86\\10\nHahaha!\nIt'll be fine!\nKirche's brother had to repeat school \ntwice, you know!\n"
   Comments: ''
 - Japanese: '<0x8B0C><0x8602><br>「うるせぇな！！<br> ほっといてくれよ！！'
-  English: ''
+  English: "\\8b\\0c\\86\\02\nShut up!\nWill you drop it already!?"
   Comments: ''
 - Japanese: '<0x8B18><0x860E><br>「オイラ、落第なんてしたら<br> 学校をやめさせられるっぴ。<br> ママが、魔法なんかやめて<br> 家の仕事を手伝えって<br> うるさいんだっぴ！！'
-  English: ''
+  English: "\\8b\\18\\86\\0e\nIf I flunk out, I'll have to quit school.\nMy mom says I should stop learning magic\nand help out with the housework!"
   Comments: ''
 - Japanese: '<0x8B0C><0x8602><br>「それなら、キャンプで<br> オレがきたえてやるよ！<br> それでいいだろ！?<br> さっさと行こうぜ！！'
-  English: ''
+  English: "\\8b\\0c\\86\\02\nIf that's the case, I'll help you \ntrain during camp!\nThen you'll be fine right!?\nLet's hurry up and go then!"
   Comments: ''
 - Japanese: '<0x8B0D><0x8603><br>「何やってるの?<br> もうすぐ出発よ。'
-  English: ''
+  English: "\\8b\\0d\\86\\03\nWhat are you all doing?\nWe're about to leave."
   Comments: ''
 - Japanese: '<0x8B12><0x8608><br>「ホント、お前ら、<br> グズだよなぁ。<br> なんとかなんねぇのか?'
-  English: ''
+  English: "\\8b\\12\\86\\08\nReally, you guys are so slow.\nCan't you do something about that?"
   Comments: ''
 - Japanese: '<0x8B0C><0x8602><br>「なんだってぇ！?'
-  English: ''
+  English: "\\8b\\0c\\86\\02\nWhat'd you say!?"
   Comments: ''
 - Japanese: '<0x8B0F><0x8605><br>「おはよ~。<br> みんな、こんなとこに<br> いたのね?'
-  English: ''
+  English: "\\8b\\0f\\86\\05\nGood morning~\nEveryone was here, huh?"
   Comments: ''
 - Japanese: '<0x8B0C><0x8602><br>「あ‥‥<br> おはよう‥‥‥。'
-  English: ''
+  English: "\\8b\\0c\\86\\02\nAh...\nGood morning..."
   Comments: ''
 - Japanese: '<0x8B0F><0x8605><br>「カラマリィと<br> トレーニングしてるの?<br> 誰かホシュウを受けるの?'
-  English: ''
+  English: "\\8b\\0f\\86\\05\nWere you training with Calamari?\nIs someone taking makeup classes?"
   Comments: ''
 - Japanese: '<0x8B0C><0x8602><br>「オ、オレじゃないぞ！<br> ピスタチオだよ、ピスタチオ！'
-  English: ''
+  English: "\\8b\\0c\\86\\02\nIt ain't me!\nPistachio, it's Pistachio!"
   Comments: ''
 - Japanese: '<0x8B0D><0x8603><br>「カラマリィ?'
-  English: ''
+  English: "\\8b\\0d\\86\\03\nCalamari?"
   Comments: ''
 - Japanese: '<0x8B12><0x8608><br>「ホシュウ用の魔動人形よ。<br> マジックドールとも言うわ。<br> 成宣の悪い子は、コイツと<br> 戦わなきゃいけないの。<br> それで負ければ、落第決定。<br> ブルーベリーは優等生だから<br> 関係ないけどね。'
-  English: ''
+  English: "\\8b\\12\\86\\08\nThe magical doll used for makeup \nclasses.\n"
   Comments: ''
 - Japanese: '<0x8B18><0x860E><br>「オイラ、落第はできないっぴ！！<br> 落第なんてしたら‥‥‥<br> パパもママも、もうこの学校には<br> 通わせてくれないっぴ！！<br> オイラ、強くなりたいっぴ！！<br> マジックドールにも、キルシュや<br> <0x8500>にも勝てるように<br> なりたいっぴ！！'
   English: ''
@@ -11603,7 +11603,7 @@
   English: ''
   Comments: ''
 - Japanese: '<0x8B1B>マジックドール：カラマリィ<br>「ミニョイ――――ン！'
-  English: ''
+  English: 'Mignon!'
   Comments: ''
 - Japanese: '<0x8B18><0x860E><br>「オイラ、キャンプに行くっぴ！<br> そして強くなるっぴ！<br> 大好きなドーナツをいっぱい<br> 持って行けば、オイラだって<br> がんばれるっぴ！！<br> オイラ、強くなりたいっぴ！'
   English: ''
