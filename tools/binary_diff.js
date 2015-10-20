@@ -12,8 +12,8 @@ function readROM(which) {
     fileReader.onload = function (e) {
       rom[which] = {};
       rom[which].u8 = new Uint8Array(e.target.result);
-      rom[which].u16 = new Uint16Array(e.target.result);
-      rom[which].u32 = new Uint32Array(e.target.result);
+      //rom[which].u16 = new Uint16Array(e.target.result);
+      //rom[which].u32 = new Uint32Array(e.target.result);
     };
     fileReader.readAsArrayBuffer(file);
   };
