@@ -78,6 +78,9 @@ function exportBinary() {
       data = parseEnglish(yaml_script[ii].English);
     }
     for (var jj = 0; jj < data.length; jj++) {
+      if (offset+jj >= original_script.length) {
+        console.log("English script is too long!");
+      }
       binary[offset + jj] = data[jj];
     }
     header[ii] = offset % 65536;

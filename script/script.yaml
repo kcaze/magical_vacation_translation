@@ -11516,7 +11516,7 @@
   English: "\\8b\\18\\86\\0e\nI can't go to camp...\nI'm going to flunk out if I go!"
   Comments: ''
 - Japanese: '<0x8B1A><0x8610><br>「はっはっは！！<br> 気にするなよ！！<br> キルシュのアニキなんか<br> ２回もダブってんだぜ！！<br> どーってことねぇよ！！'
-  English: "\\8b\\1a\\86\\10\nHahaha!\nIt'll be fine!\nKirche's brother had to repeat school \ntwice, you know!\n"
+  English: "\\8b\\1a\\86\\10\nHahaha!\nIt'll be fine!\nKirche's brother had to repeat school \ntwice, you know!"
   Comments: ''
 - Japanese: '<0x8B0C><0x8602><br>「うるせぇな！！<br> ほっといてくれよ！！'
   English: "\\8b\\0c\\86\\02\nShut up!\nWill you drop it already!?"
@@ -11552,73 +11552,73 @@
   English: "\\8b\\0d\\86\\03\nCalamari?"
   Comments: ''
 - Japanese: '<0x8B12><0x8608><br>「ホシュウ用の魔動人形よ。<br> マジックドールとも言うわ。<br> 成宣の悪い子は、コイツと<br> 戦わなきゃいけないの。<br> それで負ければ、落第決定。<br> ブルーベリーは優等生だから<br> 関係ないけどね。'
-  English: "\\8b\\12\\86\\08\nThe magical doll used for makeup \nclasses.\n"
+  English: "\\8b\\12\\86\\08\nThe magical doll used for makeup \nclasses. Those with poor grades have\nto fight it.\nIf you lose, you'll flunk out for sure.\nAlthough this doesn't apply to you \nBlueberry since you're a model student.\n"
   Comments: ''
 - Japanese: '<0x8B18><0x860E><br>「オイラ、落第はできないっぴ！！<br> 落第なんてしたら‥‥‥<br> パパもママも、もうこの学校には<br> 通わせてくれないっぴ！！<br> オイラ、強くなりたいっぴ！！<br> マジックドールにも、キルシュや<br> <0x8500>にも勝てるように<br> なりたいっぴ！！'
-  English: ''
+  English: "\\8b\\18\\86\\0e\nI can't afford to flunk out!\nIf I flunk out...\nMy parents won't let me go to\nthis school anymore!\nI want to become strong!\nI want to be able to beat the\nmagical doll, and even Kirsche\nand \\85\\00!"
   Comments: ''
 - Japanese: '<0x8B0F><0x8605><br>「な~んだ、それじゃあ<br> こうしなよ。'
-  English: ''
+  English: "\\8b\\0f\\86\\05\nIs that all? Then just do this."
   Comments: ''
 - Japanese: '<0x8B12><0x8608><br>「うわっ！<br> キツ~！<br> 目標があるのはいいけど<br> せめて、キルシュにしとけよ！！'
-  English: ''
+  English: "\\8b\\12\\86\\08\nWhoa!\nThat's rough!\nHaving a goal is good, but\nat least settle for Kirsche!"
   Comments: ''
 - Japanese: '<0x8B0C><0x8602><br>「どう言う意味だよ！<br> オレに勝つのはたいへんだぜ！'
-  English: ''
+  English: "\\8b\\0c\\86\\02\nWhat do you mean by that!\nBeating me is no easy feat you know!"
   Comments: ''
 - Japanese: '<0x8B0D><0x8603><br>「それじゃ、私も少しカラダを<br> きたえるのを目標にしようかな。<br> カラダが弱いからって<br> みんなが外で走り回ってるのを<br> 教室で見てるのイヤだもん。'
-  English: ''
+  English: "\\8b\\0d\\86\\03\nThen I guess I'll also set a goal for\nmyself to train my body a little.\nI don't like it how when everyone's\nhaving fun outside I have to stay in the\nclassroom and watch."
   Comments: ''
 - Japanese: '<0x8B0F><0x8605><br>「ははははは<br> 目標かぁ‥‥‥‥。<br> 私は、そうだなぁ‥‥‥<br> 告白かなぁ。<br> 告白できたらいいなぁ。'
-  English: ''
+  English: "\\8b\\0f\\86\\05\nHahahaha\nGoals huh...\nI guess mine...\nwould be to confess.\nIf only I could confess my love."
   Comments: ''
 - Japanese: '<0x8B0C><0x8602><br>「ドキッ！！'
-  English: ''
+  English: "\\8b\\0c\\86\\02\n*ba-dump*"
   Comments: ''
 - Japanese: '<0x8B1A><0x8610><br>「アニキ！！<br> 来たぜ！！ アニキ！！<br> とうとう来たぜ！！<br> どうするアニキ！！'
-  English: ''
+  English: "\\8b\\1a\\86\\10\nBro!\nThe day's come! Bro!\nThe day's finally come!\nWhat will you do, bro!?"
   Comments: ''
 - Japanese: '<0x8B0C><0x8602><br>「あ、あ、あ、あわてるなっ！！<br> オ、オ、オレも男だ！！<br> オレだって、このキャンプで！！'
-  English: ''
+  English: "\\8b\\0c\\86\\02\nD-d-don't worry!\nI-I-I'm a man!\nI'm going to too at camp!"
   Comments: ''
 - Japanese: '<0x8B0F><0x8605><br>「キルシュも誰かに告白するの?<br> うわーっ！！<br> 相手はやっぱりアランシア！?<br> って言うか、聞くまでも無いか。<br> 彼女しかいないよねぇ。'
-  English: ''
+  English: "\\8b\\0f\\86\\05\nKirsche, are you also confessing to \nsomeone?\nOh my god!\nIt's Arancia isn't it!?\nActually, there's no point in asking,\nit's definitely her isn't it."
   Comments: ''
 - Japanese: '<0x8B0C><0x8602><br>「あ、アランシア！?<br> アイツはそんなんじゃなくて<br> ホラ、あの‥‥‥‥'
-  English: ''
+  English: "\\8b\\0c\\86\\02\nA-Arancia!?\nShe isn't who I, you know, umm..."
   Comments: ''
 - Japanese: '<0x8B0F><0x8605><br>「おたがいに、がんばろうね！！<br> 力になってあげるよ！！'
-  English: ''
+  English: "\\8b\\0f\\86\\05\nLet's both do our best and\nhelp each other out then!"
   Comments: ''
 - Japanese: '<0x8B18><0x860E><br>「キャンディは誰に<br> 告白するっぴ！?'
-  English: ''
+  English: "\\8b\\18\\86\\0e\nCandy, who are you confessing\nto!?"
   Comments: ''
 - Japanese: '<0x8B0F><0x8605><br>「男の子にはないしょ！<br> 今日の夜、コテージで、<br> 女の子だけでお話しよっ！'
-  English: ''
+  English: "\\8b\\0f\\86\\05\nI'm not telling guys!\nTonight at the cottage, we'll\nhave a girl's night!"
   Comments: ''
 - Japanese: '<0x8B0C><0x8602><br>「勝手にしろ！！'
-  English: ''
+  English: "\\8b\\0c\\86\\02\nDo whatever!"
   Comments: ''
 - Japanese: '<0x8B1A><0x8610><br>「アニキ！！<br> オレも行くぜ！！<br> 待ってくれよー！！'
-  English: ''
+  English: "\\8b\\1a\\86\\10\nBro!\nWait up!\nI'm going too!"
   Comments: ''
 - Japanese: '<0x8B1B>マジックドール：カラマリィ<br>「ミニョイ――――ン！'
-  English: 'Mignon!'
+  English: "\\8b\\1bMagical Doll: Calamari\nMignon!"
   Comments: ''
 - Japanese: '<0x8B18><0x860E><br>「オイラ、キャンプに行くっぴ！<br> そして強くなるっぴ！<br> 大好きなドーナツをいっぱい<br> 持って行けば、オイラだって<br> がんばれるっぴ！！<br> オイラ、強くなりたいっぴ！'
-  English: ''
+  English: "\\8b\\18\\86\\0e\nI've decided to go to camp!\nAnd to become stronger!\nIf I bring a bunch of donuts,\neven I can push myself!\nI want to become strong!"
   Comments: ''
 - Japanese: '<0x8B12><0x8608><br>「海に着いたら、<br> 私は、のんびりしたいな。<br> 波の音だけ聞いてさ。'
-  English: ''
+  English: "\\8b\\12\\86\\08\nOnce we get to the beach, I\njust want to relax and listen\nto the sound of the waves."
   Comments: ''
 - Japanese: '<0x8B0D><0x8603><br>「私、このキャンプのこと<br> すごく楽しみだったの。<br> みんなといっしょに<br> 何日もすごすなんて、<br> ドキドキしちゃう。'
-  English: ''
+  English: "\\8b\\0d\\86\\03\nI'm really looking forward to\nthis camp. Being able to spend\nso many days with everyone is\ngoing to be so exciting."
   Comments: ''
 - Japanese: '<0x8B0F><0x8605><br>「海で私は変わるの。<br> もう、おく病な私じゃないの。<br> なんでも言えるし、<br> なんでもできる私になるの。'
-  English: ''
+  English: "\\8b\\0f\\86\\05\nAt the beach, I'm going to\ntransform myself. I won't be\na coward anymore. I'll become\nsomeone who can say and do anything."
   Comments: ''
 - Japanese: '<0x8B0F><0x8605><br>「これから、<span class="red">ヴ</span><span class="red">ァ</span><span class="red">レ</span><span class="red">ン</span><span class="red">シ</span><span class="red">ア</span><span class="red">海</span><span class="red">岸</span>に<br> キャンプへ行くでしょ?<br> そこで、めいっぱい魔法を<br> きたえるの！<br> そんで、ガナッシュに勝てる<br> ようになるまで帰ってこない！！'
-  English: ''
+  English: "\\8b\\0f\\86\\05\nWe'll be going to \\8eValencia Beach\\8d\nfor camp right? Practice a lot of magic\nwhile we're there!\nDon't come back until you get to the point\nwhere you can beat Ganache!"
   Comments: ''
 - Japanese: '<0x8B11><0x8607><br>「こんなところで何をしてますの！<br> もう、バスが来てますの！<br> バスはバスでも、ただのバスじゃ<br> ありませんのよ！！<br> グラン・ドラジェが、<br> ゲアッツァ王からいただいた<br> 魔動力バスですの！！'
   English: ''
