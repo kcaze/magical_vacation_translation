@@ -37,6 +37,7 @@ function setControls(enabled) {
   document.getElementById('dialogue_number').disabled = !enabled;
   document.getElementById('export_script').disabled = !enabled;
   document.getElementById('export_binary').disabled = !enabled;
+  document.getElementById('search').disabled = !enabled;
 
   if (enabled) {
     document.getElementById('max_dialogue_number').innerHTML = yaml_script.length - 1;
@@ -123,6 +124,16 @@ function parseEnglish(english) {
   return parsed;
 }
 
+function search() {
+  var text = document.getElementById('search_text').value;
+  document.getElementById('search_results').innerHTML = '';
+  for (var ii = 0; ii < yaml_script.length; ii++) {
+    if (yaml_script[ii].Japanese.indexOf(text) != -1) {
+      document.getElementById('search_results').innerHTML += ii + '<br>';
+    }
+  }
+}
+
 document
   .getElementById('yaml-script')
   .addEventListener('change', readYAMLScript, false);
@@ -159,3 +170,7 @@ document
   .addEventListener('change', function(e) {
     yaml_script[current_dialogue_number].Comments = document.getElementById('comments').value;
   });
+
+document
+  .getElementById('search')
+  .addEventListener('click', search);
