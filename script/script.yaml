@@ -11588,16 +11588,16 @@
   English: "\\8b\\0c\\86\\02\nA-Arancia!?\nShe isn't who I, you know, umm..."
   Comments: ''
 - Japanese: '<0x8B0F><0x8605><br>「おたがいに、がんばろうね！！<br> 力になってあげるよ！！'
-  English: "\\8b\\0f\\86\\05\nLet's both do our best and\nhelp each other out then!"
+  English: "\\8b\\0f\\86\\05\nLet's both do our best and\nsupport each other then!"
   Comments: ''
 - Japanese: '<0x8B18><0x860E><br>「キャンディは誰に<br> 告白するっぴ！?'
   English: "\\8b\\18\\86\\0e\nCandy, who are you confessing\nto!?"
   Comments: ''
 - Japanese: '<0x8B0F><0x8605><br>「男の子にはないしょ！<br> 今日の夜、コテージで、<br> 女の子だけでお話しよっ！'
-  English: "\\8b\\0f\\86\\05\nI'm not telling guys!\nTonight at the cottage, we'll\nhave a girl's night!"
+  English: "\\8b\\0f\\86\\05\nI'm keeping it a secret from guys!\nTonight at the cottage, we'll have a \ngirl's night!"
   Comments: ''
 - Japanese: '<0x8B0C><0x8602><br>「勝手にしろ！！'
-  English: "\\8b\\0c\\86\\02\nDo whatever!"
+  English: "\\8b\\0c\\86\\02\nAlright, do whatever you want!"
   Comments: ''
 - Japanese: '<0x8B1A><0x8610><br>「アニキ！！<br> オレも行くぜ！！<br> 待ってくれよー！！'
   English: "\\8b\\1a\\86\\10\nBro!\nWait up!\nI'm going too!"
@@ -11606,166 +11606,168 @@
   English: "\\8b\\1bMagical Doll: Calamari\nMignon!"
   Comments: ''
 - Japanese: '<0x8B18><0x860E><br>「オイラ、キャンプに行くっぴ！<br> そして強くなるっぴ！<br> 大好きなドーナツをいっぱい<br> 持って行けば、オイラだって<br> がんばれるっぴ！！<br> オイラ、強くなりたいっぴ！'
-  English: "\\8b\\18\\86\\0e\nI've decided to go to camp!\nAnd to become stronger!\nIf I bring a bunch of donuts,\neven I can push myself!\nI want to become strong!"
+  English: "\\8b\\18\\86\\0e\nI've decided to go to camp!\nAnd to become stronger!\nIf I bring a lot of donuts,\neven I can push myself!\nI want to become strong!"
   Comments: ''
 - Japanese: '<0x8B12><0x8608><br>「海に着いたら、<br> 私は、のんびりしたいな。<br> 波の音だけ聞いてさ。'
   English: "\\8b\\12\\86\\08\nOnce we get to the beach, I\njust want to relax and listen\nto the sound of the waves."
   Comments: ''
 - Japanese: '<0x8B0D><0x8603><br>「私、このキャンプのこと<br> すごく楽しみだったの。<br> みんなといっしょに<br> 何日もすごすなんて、<br> ドキドキしちゃう。'
-  English: "\\8b\\0d\\86\\03\nI'm really looking forward to\nthis camp. Being able to spend\nso many days with everyone is\ngoing to be so exciting."
+  English: "\\8b\\0d\\86\\03\nI'm really looking forward to\nthis camp. Being able to spend\nthis much time with everyone is\ngoing to be so exciting."
   Comments: ''
 - Japanese: '<0x8B0F><0x8605><br>「海で私は変わるの。<br> もう、おく病な私じゃないの。<br> なんでも言えるし、<br> なんでもできる私になるの。'
   English: "\\8b\\0f\\86\\05\nAt the beach, I'm going to\ntransform myself. I won't be\na coward anymore. I'll become\nsomeone who can say and do anything."
   Comments: ''
 - Japanese: '<0x8B0F><0x8605><br>「これから、<span class="red">ヴ</span><span class="red">ァ</span><span class="red">レ</span><span class="red">ン</span><span class="red">シ</span><span class="red">ア</span><span class="red">海</span><span class="red">岸</span>に<br> キャンプへ行くでしょ?<br> そこで、めいっぱい魔法を<br> きたえるの！<br> そんで、ガナッシュに勝てる<br> ようになるまで帰ってこない！！'
-  English: "\\8b\\0f\\86\\05\nWe'll be going to \\8eValencia Beach\\8d\nfor camp right? Practice a lot of magic\nwhile we're there!\nDon't come back until you get to the point\nwhere you can beat Ganache!"
+  English: "\\8b\\0f\\86\\05\nWe're going to \\8eValencia Beach\\8d\nfor camp right? Practice a lot of magic\nwhile we're there!\nDon't come back until you get to the point\nwhere you can beat Ganache!"
   Comments: ''
 - Japanese: '<0x8B11><0x8607><br>「こんなところで何をしてますの！<br> もう、バスが来てますの！<br> バスはバスでも、ただのバスじゃ<br> ありませんのよ！！<br> グラン・ドラジェが、<br> ゲアッツァ王からいただいた<br> 魔動力バスですの！！'
-  English: ''
-  Comments: ''
+  English: "\\8b\\11\\86\\07\nWhat are you doing here!?\nThe bus has already arrived!\nEven though it's a bus, it's no\nordinary bus you know!\nIt's a magical bus Principal Biscotti\nborrowed from King Geattsua!"
+  Comments: Does King Geattsua appear in magical starsign?
 - Japanese: '<0x8B17><0x860D><br>「<i>ヒ</i><i>ョ</i><i>ア</i><i>~</i><i>~</i><i>~</i><i>~</i><i>~</i><i>~</i><i>！</i><i>！</i>'
-  English: ''
+  English: "\\8b\\17\\86\\0d\nAhh~~~!!"
   Comments: ''
 - Japanese: '<0x8B17><0x860D><br>「<i>タ</i><i>ス</i><i>ケ</i><i>テ</i><i>ク</i><i>レ</i><i>~</i><i>~</i><i>！</i><i>！</i>'
-  English: ''
+  English: "\\8b\\17\\86\\0d\nSave me~~!"
   Comments: ''
 - Japanese: '<0x8B11><0x8607><br>「カフェオレちゃんも早く<br> バスに乗りますの！！<br> もうすぐ出発ですの！！<br> みんなは、どこにいますの！?'
-  English: ''
+  English: "\\8b\\11\\86\\07\nCafe au lait, you should hurry\nup and get on the bus too!\nWe're leaving soon!\nWhere is everyone!?"
   Comments: ''
 - Japanese: '<0x8B17><0x860D><br>「<i>ミ</i><i>ン</i><i>ナ</i><i>ハ</i><i> </i><i>オ</i><i>ン</i><i>ガ</i><i>ク</i><i>シ</i><i>ツ</i><i>デ</i><br><i> </i><i>キ</i><i>ャ</i><i>ン</i><i>プ</i><i>ノ</i><i>ハ</i><i>ナ</i><i>シ</i><i>ヲ</i><i>シ</i><i>テ</i><i>タ</i><i>ゼ</i><i>。</i><br><i> </i><i>ハ</i><i>ナ</i><i>シ</i><i>ヲ</i><i> </i><i>シ</i><i>テ</i><i>ル</i><i>ウ</i><i>チ</i><i>ニ</i><i>、</i><br><i> </i><i>コ</i><i>ワ</i><i>イ</i><i>ハ</i><i>ナ</i><i>シ</i><i>ニ</i><i> </i><i>ナ</i><i>ッ</i><i>チ</i><i>マ</i><i>ッ</i><i>テ</i><i>‥</i><br><i> </i><i>‥</i><i>‥</i><i>‥</i><i>‥</i><br><i> </i><i>ヒ</i><i>ョ</i><i>ア</i><i>~</i><i>~</i><i>~</i><i>~</i><i>~</i><i>！</i><i>！</i>'
-  English: ''
+  English: "\\8b\\17\\86\\0d\nThey're all in the music room\ntalking about camp. Then it turned\ninto talking about scary stories...\n...\nAhh~~~!!"
   Comments: ''
 - Japanese: '<0x8B11><0x8607><br>「まったくみんな<br> 不真面目ですの！！<br> <0x8500>ちゃんは、<span class="red">音</span><span class="red">楽</span><span class="red">室</span>の<br> みんなを呼んできてくださいの！<br> 私は<span class="red">ゼ</span><span class="red">ン</span><span class="red">部</span><span class="red">屋</span>に行きますの！'
-  English: ''
+  English: "\\8b\\11\\86\\07\nSheesh, no one's taking this seriously!\n\\85\\00, could you please call the others\nin the \\8emusic room\\8d?\nI'll be going to the \\8ezen room\\8d!"
   Comments: ''
 - Japanese: ''
   English: ''
   Comments: ''
 - Japanese: '<0x8B11><0x8607><br>「みんな不真面目ですの！！<br> 早く行く準備をしますの！！'
-  English: ''
+  English: "\\8b\\11\\86\\07\nNone of you are taking this seriously!\nHurry up and get ready!"
   Comments: ''
 - Japanese: '<0x8B14><0x860A><br>「‥‥‥‥。'
-  English: ''
+  English: "\\8b\\14\\86\\0a\n......"
   Comments: ''
 - Japanese: '  こっちは出口です。<br>  外へ出るのは、他の友達を<br>  さがしてからにしましょう。'
-  English: ''
+  English: "This is the exit.\nBefore you go outside, make sure \nyou find the rest of your friends."
   Comments: ''
 - Japanese: '<0x8B14><0x860A><br>「どうしたんだよカベルネ。<br> 兄キのこと思い出してたのか?'
-  English: ''
+  English: "\\8b\\14\\86\\0a\nWhat's wrong Cabernet?\nAre you thinking of your brother?"
   Comments: ''
 - Japanese: '<0x8B15><0x860B><br>「そんなのウソだよ。<br> だって、それが本当なら<br> 毎年のように<span class="red">ヴ</span><span class="red">ァ</span><span class="red">レ</span><span class="red">ン</span><span class="red">シ</span><span class="red">ア</span><span class="red">海</span><span class="red">岸</span>に<br> 行くワケないじゃないか。'
-  English: ''
+  English: "\\8b\\15\\86\\0b\nThose are just lies.\nAfter all, if they were true,\nthere's no way we would go to\n\\8eValencia Beach\\8d every year."
   Comments: ''
 - Japanese: '<0x8B14><0x860A><br>「学校はウワサのモミ消しに<br> 必死なのさ。<br> 毎年、この時期になると、<br> 何者かに校門を破壊されるって<br> 言うし‥‥‥‥<br> ぜったい何かあるぜ。'
-  English: ''
+  English: "\\8b\\14\\86\\0a\nThe school has to squash these\nrumors you see.\nEvery year around this time, there\nare some people who say they'll break\ndown the school gates...\nThere must be some truth to the rumors."
   Comments: ''
 - Japanese: '<0x8B15><0x860B><br>「キャンプで毎年、誰かがいなく<br> なってるってのが本当だったら<br> じゃあ、誰がいなくなったのさ。<br> ショウコはあるのかい?'
-  English: ''
+  English: "\\8b\\15\\86\\0b\nIf it's true that every year\nsomeone disappears at camp, then\nwho exactly has disappeared?\nDo you have proof?"
   Comments: ''
 - Japanese: '<0x8B19><0x860F><br>「ガナッシュの姉さんが‥‥‥‥<br> ３年前、キャンプから帰ってきて<br> すぐ家出しちゃったわ‥‥‥‥。'
-  English: ''
+  English: "\\8b\\19\\86\\0f\nGanache's sister...\n3 years ago, after camp, she\nimmediately ran away from home..."
   Comments: ''
 - Japanese: '<0x8B15><0x860B><br>「キャンプとは無関係じゃないか。<br> けっきょくは、そんな話に<br> オヒレがついただけさ。'
-  English: ''
+  English: "\\8b\\15\\86\\0b\nThat has nothing to do with camp.\nIn the end, they're all just\nexaggerations of stories like that."
   Comments: ''
 - Japanese: '<0x8B14><0x860A><br>「夢がねぇなぁ。'
-  English: ''
+  English: "\\8b\\14\\86\\0a\nYou just can't dream can you?"
   Comments: ''
 - Japanese: '<0x8B15><0x860B><br>「行方不明になるなんて話の<br> どこに夢があるのさ！！'
-  English: ''
+  English: "\\8b\\15\\86\\0b\nWhat part of people going missing is\nlike a dream!?"
   Comments: ''
 - Japanese: '<0x8B19><0x860F><br>「もう、やめましょう。<br> こんな話‥‥‥。'
-  English: ''
+  English: "\\8b\\19\\86\\0f\nLet's stop it already.\nLet's stop talking about this..."
   Comments: ''
 - Japanese: '<0x8B15><0x860B><br>「わかった、わかった<br> ガナッシュに聞けばいいんだろ?<br> ガナッシュはどこさ！'
-  English: ''
+  English: "\\8b\\15\\86\\0b\nAlright, alright.\nIt's fine if we ask Ganache right?\nWhere's Ganache?"
   Comments: ''
 - Japanese: '<0x8B14><0x860A><br>「アイツが家族の話なんか<br> するワケねぇだろ?<br> キャンプもフケる気だぜ。<br> カベルネに聞けばいいんじゃ<br> ねぇのか?'
-  English: ''
+  English: "\\8b\\15\\86\\0a\nThere's no way he's going to\ntalk about his family is he?\nI also feel like he's going to run\naway from camp.\nWe can just ask Cabernet can't we?"
   Comments: ''
 - Japanese: '<0x8B15><0x860B><br>「カベルネに?<br> なんで~?<br> あれ?<br> カベルネはどこ?'
-  English: ''
+  English: "\\8b\\15\\86\\0b\nCabernet?\nWhy?\nEh?\nWhere's Cabernet?"
   Comments: ''
 - Japanese: '<0x8B14><0x860A><br>「行こうぜ。<br> <0x8500>が呼びに来てる。<br> 待たせちゃ悪い。'
-  English: ''
+  English: "\\8b\\14\\86\\0a\nLet's go.\n\\85\\00's come to get us.\nSorry for making you wait, Arancia."
   Comments: ''
 - Japanese: '<0x8B16><0x860C><br>「だいじょうぶよ~。<br> あわてないでも~。<br> のんびり行きましょうよ~。'
-  English: ''
+  English: "\\8b\\16\\86\\0c\nIt's alright~\nWe're in no rush~\nLet's take our time~"
   Comments: ''
 - Japanese: '<0x8B15><0x860B><br>「バスの中でたっぷり<br> 話をしようよ。'
-  English: ''
+  English: "\\8b\\15\\86\\0b\nLet's talk more in the bus."
   Comments: ''
 - Japanese: '<0x8B13><0x8609><br>「ガナッシュの姉キは<br> 学校をやめたあとも‥‥<br> 時々、この教室に、オレの兄キに<br> 会いに来てたんだヌ~。'
-  English: ''
+  English: "\\8b\\13\\86\\09\nEven after Ganache's sister quit\nschool...\nShe would sometimes come meet my\nbrother here, in this classroom."
   Comments: ''
 - Japanese: '<0x8B14><0x860A><br>「行こうぜ、カベルネ。<br> 海に行って何もかも<br> 忘れようぜ。'
-  English: ''
+  English: "\\8b\\14\\86\\0a\nLet's go, Cabernet.\nYou'll forget it all when we\nget to the beach."
   Comments: ''
 - Japanese: ' 召喚の実験などに使う部屋だ！<br> 今はカギがかかっている！'
-  English: ''
+  English: |-
+    This is the room for experimenting
+    with summons. It's currently locked.
   Comments: ''
 - Japanese: '<0x8B13><0x8609><br>「オレの兄キは兵士<br> だったんだヌ~。<br> １年前の事故で死んでしまった<br> んだけど‥‥‥‥<br> 兄キが、<span class="red">ヴ</span><span class="red">ァ</span><span class="red">レ</span><span class="red">ン</span><span class="red">シ</span><span class="red">ア</span><span class="red">海</span><span class="red">岸</span>には<br> ヒミツがあるって言ってたのを<br> 思い出すヌ~。'
-  English: ''
+  English: "\\8b\\13\\86\\09\nMy brother was a soldier.\nBut 1 year ago, he died in an\naccident...\nI remember he said that there was\nsome secret about \\8eValencia Beach\\8d."
   Comments: ''
 - Japanese: '<0x8BD4><0x8609>の兄・シャルドネ<br>「今までどこに行ってたの?<br> みんな心配してたよ?'
-  English: ''
+  English: "\\8b\\d4\\86\\09's brother Chardonnay\nWhere have you been?\nEveryone's been worried about you."
   Comments: ''
 - Japanese: '<0x8BA8>ガナッシュの姉・ヴァニラ<br>「心配?<br> いったい誰が?<br> するわけないでしょ?'
-  English: ''
+  English: "\\8b\\a8Ganache's sister Vanilla\nMe?\nJust who was worried about me?\nThere's no way anyone was worrying."
   Comments: ''
 - Japanese: '<0x8BD4>シャルドネ<br>「まだ怒ってるの?'
-  English: ''
+  English: "\\8b\\d4Chardonnay\nAre you still angry?"
   Comments: ''
 - Japanese: '<0x8BA8>ヴァニラ<br>「怒るって、何を?<br> あなたのお父さんのこと?'
-  English: ''
+  English: "\\8b\\a8Vanilla\nAngry with whom?\nYour father?"
   Comments: ''
 - Japanese: '<0x8BD4>シャルドネ<br>「父に何を言われたの?'
-  English: ''
+  English: "\\8b\\d4Chardonnay\nDid my dad say something to you?"
   Comments: ''
 - Japanese: '<0x8BA8>ヴァニラ<br>「何も言われてないわ。<br> いつも感じていたことよ。<br> 私の中には、闇の精霊の<br> 血が流れているの。<br> 私を嫌う人がたくさんいるのは<br> 知っていたもの。'
-  English: ''
+  English: "\\8b\\a8Vanilla\nHe didn't say anything.\nI always felt it though.\nInside of me, flows the spirit\nof darkness's blood.\nI know there's a lot of people\nout there who hate me."
   Comments: ''
 - Japanese: '<0x8BD4>シャルドネ<br>「キミの敵になるヤツは<br> ボクがすべて倒す！<br> 世界がキミの敵になるなら<br> 世界なんかブチ壊してやる！<br> ボクを信じて！'
-  English: ''
+  English: "\\8b\\d4Chardonnay\nI'll take down anyone who\nbecomes your enemy!\nIf the entire world becomes your\nenemy, I'll smash it to pieces!\nYou can trust me!"
   Comments: ''
 - Japanese: '<0x8BA8>ヴァニラ<br>「心配は無用よ。<br> 私は私のやり方をみつけたの。<br> 私には、力があるの。<br> 今までみたいな、<br> 弱虫のヴァニラじゃないわ。<br> さようなら、シャルドネ、<br> カベルネ。'
-  English: ''
+  English: "\\8b\\a8Vanilla\nYour worrying is in vain.\nI've found my own way of coping.\nI have power.\nI'm no longer the coward Vanilla\nI once was.\nGoodbye Chardonnay and Cabernet."
   Comments: ''
 - Japanese: '<0x8BD4>シャルドネ<br>「ヴァニラ！！'
-  English: ''
+  English: "\\8b\\d4Chardonnay\nVanilla!"
   Comments: ''
 - Japanese: '<0x8B13><0x8609><br>「あんなヤツ！！<br> 放っておけばいいヌ~！！<br> もう、あんなヤツのことは<br> 忘れればいいヌ~！！'
-  English: ''
+  English: "\\8b\\13\\86\\09\nSomeone like her, you should just\nlet go of!\nJust forget about her!"
   Comments: ''
 - Japanese: '<0x8BD4>シャルドネ<br>「ヴァニラはふつうじゃない！<br> 何かあったんだ！'
-  English: ''
+  English: "\\8b\\d4Chardonnay\nVanilla isn't her usual self!\nSomething happened to her!"
   Comments: ''
 - Japanese: '<0x8B11><0x8607><br>「カベルネちゃん！！<br> ここにいましたの！?'
-  English: ''
+  English: "\\8b\\11\\86\\07\nCabernet!!\nSo you were here!?"
   Comments: ''
 - Japanese: '<0x8B13><0x8609><br>「あ、ごめんヌ~。<br> すぐ行くヌ~。'
-  English: ''
+  English: "\\8b\\13\\86\\09\nAh, sorry.\nI'll go right now."
   Comments: ''
 - Japanese: '<0x8B16><0x860C><br>「もしかして‥‥‥‥<br> 泣いてたの‥‥‥‥?'
-  English: ''
+  English: "\\8b\\16\\86\\0c\nWere you...\ncrying...?"
   Comments: ''
 - Japanese: '<0x8B13><0x8609><br>「そんなことないヌ~。<br> ちょっと目にゴミが‥‥‥‥。'
-  English: ''
+  English: "\\8b\\13\\86\\09\nNo, of course not.\nI just had some dust in my eye."
   Comments: ''
 - Japanese: '<0x8B19><0x860F><br>「お兄さんのこと<br> 思い出してたのね‥‥‥。'
-  English: ''
+  English: "\\8b\\19\\86\\0f\nYou were thinking of your\nbrother weren't you..."
   Comments: ''
 - Japanese: '<0x8B13><0x8609><br>「何か！?<br> 何かってなんだヌ~！?'
-  English: ''
+  English: "\\8b\\13\\86\\09\nWhat do you mean!?\nWhat happened!?"
   Comments: ''
 - Japanese: '<0x8BAC>マドレーヌ先生<br>「ところで、これでみんな<br> そろったかな！?'
-  English: ''
+  English: "\\8b\\acMiss Madeleine\nBy the way, has everyone assembled\nhere?"
   Comments: ''
 - Japanese: '<0x8B0F><0x8605><br>「先生！！<br> ガナッシュが来てません！！<br> 彼、休みなんですか！?'
-  English: ''
+  English: "\\8b\\0f\\86\\05\nMiss Madeleine!\nGanache hasn't come yet!\nIs he skipping camp?"
   Comments: ''
 - Japanese: '<0x8B12><0x8608><br>「よかったな、ピスタチオ。<br> キルシュが相手だ。'
-  English: ''
+  English: "\\8b\\12\\86\\08\nThat's great news, Pistachio.\nKirsche is going to be your opponent."
   Comments: ''
 - Japanese: '<0x8B18><0x860E><br>「‥‥‥‥。'
   English: ''

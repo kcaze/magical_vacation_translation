@@ -26,3 +26,6 @@ Character Names
 |`0x22A33C`|こんにゃく様|Mr. Konjac|
 |`0x22A34C`|文鳥|Sparrow|
 There's still more but I haven't played far enough yet.
+
+グラン・ドラゲー = Principal Biscotti
+マドレーヌ先生 = Miss Madeleine
