@@ -1,5 +1,6 @@
 var original_script;
 var yaml_script;
+var header;
 var current_dialogue_number;
 var HEADER_LENGTH = 12006;
 
@@ -9,9 +10,7 @@ function readYAMLScript(e) {
   fileReader.onload = function (e) {
     yaml_script = jsyaml.safeLoad(e.target.result);
     if (original_script) {
-      document.getElementById('status').innerHTML = 'Loaded.';
-      document.getElementById('status').className = 'green';
-      setControls(true); // Activate controls
+      enable();
     }
   };
   fileReader.readAsText(file);
@@ -23,28 +22,32 @@ function readOriginalScript(e) {
   fileReader.onload = function (e) {
     original_script = new Uint8Array(e.target.result);
     if (yaml_script) {
-      document.getElementById('status').innerHTML = 'Loaded.';
-      document.getElementById('status').className = 'green';
-      setControls(true); // Activate controls
+      enable();
     }
   };
   fileReader.readAsArrayBuffer(file);
 }
 
-function setControls(enabled) {
-  document.getElementById('english').disabled = !enabled;
-  document.getElementById('comments').disabled = !enabled;
-  document.getElementById('dialogue_number').disabled = !enabled;
-  document.getElementById('export_script').disabled = !enabled;
-  document.getElementById('export_binary').disabled = !enabled;
-  document.getElementById('search').disabled = !enabled;
+function enable() {
+  document.getElementById('status').innerHTML = 'Loaded.';
+  document.getElementById('status').className = 'green';
+  document.getElementById('english').disabled = false;
+  document.getElementById('comments').disabled = false;
+  document.getElementById('dialogue_number').disabled = false;
+  document.getElementById('export_script').disabled = false;
+  document.getElementById('export_binary').disabled = false;
+  document.getElementById('search').disabled = false;
 
-  if (enabled) {
-    document.getElementById('max_dialogue_number').innerHTML = yaml_script.length - 1;
-    document.getElementById('dialogue_number').max = yaml_script.length - 1;
-    document.getElementById('dialogue_number').value = 0;
-    current_dialogue_number = 0;
-  }
+  document.getElementById('max_dialogue_number').innerHTML = yaml_script.length - 1;
+  document.getElementById('dialogue_number').max = yaml_script.length - 1;
+  document.getElementById('dialogue_number').value = 0;
+  current_dialogue_number = 0;
+
+  // Header is used in multiple functions so we generate here and store in a
+  // global variable.
+  generateOriginalHeader();
+  // Called each time so that updates to the script parsing are reflected.
+  generateJapaneseScript();
 }
 
 function exportScript() {
@@ -56,19 +59,7 @@ function exportScript() {
 function exportBinary() {
   var binary = new Uint8Array(original_script.length);
 
-  var header = [];
-  var count = 0;
-  var offset = 0;
-  for (var ii = 0; ii < HEADER_LENGTH; ii += 2) {
-    var newoffset = original_script[ii] + (original_script[ii+1] << 8);
-    if (newoffset < offset) {
-      count++;
-    }
-    offset = newoffset;
-    header.push(offset + count*65536);
-  }
-
-  offset = HEADER_LENGTH;
+  var offset = HEADER_LENGTH;
   for (var ii = 2; ii < header.length-1; ii++) {
     var data = [];
     if (yaml_script[ii].English == '') {
@@ -122,6 +113,23 @@ function parseEnglish(english) {
     parsed.push(curr.charCodeAt(0));
   }
   return parsed;
+}
+
+function generateJapaneseScript() {
+}
+
+function generateOriginalHeader() {
+  header = [];
+  var count = 0;
+  var offset = 0;
+  for (var ii = 0; ii < HEADER_LENGTH; ii += 2) {
+    var newoffset = original_script[ii] + (original_script[ii+1] << 8);
+    if (newoffset < offset) {
+      count++;
+    }
+    offset = newoffset;
+    header.push(offset + count*65536);
+  }
 }
 
 function search() {
