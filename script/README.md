@@ -7,6 +7,21 @@ Icons
 =====
 0x0000 to 0x000E inclusive draws various icons instead of text. The icons are
 rendered as sprites rather than tiles.
+* `0000`: Exclamation point.
+* `0001`:
+* `0002`: Frog.
+* `0003`: Tail.
+* `0004`: Bomb.
+* `0005`: Headgear.
+* `0006`: Armwear.
+* `0007`: Bodywear.
+* `0008`: Shoes.
+* `0009`: Bracelet.
+* `000A`:
+* `000B`: Seal.
+* `000C`:
+* `000D`: Book.
+* `000E`: Coin.
 
 Control Characters
 ==================
@@ -14,7 +29,7 @@ Control Characters
 * `82`: ??? (perhaps used to indicate progress in the game?)
 * `85 00`: Display player's name
 * `86 XX`: Display character `XX`'s name.
-* `87 XX`: Display item `XX`'s name (I think).
+* `87 XX`: Display item `XX`'s name (I think). `0x0000BC9C` We're overriding this to double the maximum length of names.
 * `8B XX`: Display character portrait `XX`.
 * `8D`: End using special font (ends 0x8E, 0x8F, 0x90, and 0x91).
 * `8E`: Begin using red font.

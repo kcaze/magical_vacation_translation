@@ -29,7 +29,7 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\d9グラン・ドラジェ<br>「楽しいキャンプになるよう<br> 祈っておる。<br> その楽しさが、これからも<br> ずっと続くようにな。"
-  English: ''
+  English: "\\8b\\d9Principal Biscotti\nI pray that your camp may\nbe one filled with fun and\nthat the fun will continue\nevermore."
   Comments: ''
 - Japanese: ''
   English: ''
@@ -50,7 +50,7 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「あら、\\85\\0。<br> まだウロウロしてるの?<br> 他の子達と<br> バスに乗って待ってなさい。"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\nAh, \\85\\00.\nAre you still loitering around?\nPlease wait on the bus with the others."
   Comments: ''
 - Japanese: "\\8b\\0  はい<br>  いいえ"
   English: ''
@@ -2144,37 +2144,37 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「マドレーヌ先生、まだ<br> 来てないじゃねぇか。"
-  English: ''
+  English: "\\8b\\14\\86\\0a\nMiss Madeleine isn't here yet either."
   Comments: ''
 - Japanese: "\\8b\\d9グラン・ドラジェ<br>「えー、<br> おほん。"
-  English: ''
+  English: "\\8b\\d9Principal Biscotti\nEh, ehem."
   Comments: ''
 - Japanese: "\\8b\\13\\86\\9<br>「うわっ！！<br> どっから出たヌ~！?<br> ナニものだヌ~！?"
-  English: ''
+  English: "\\8b\\13\\86\\09\nAh!\nWhere did you come from?\nWho are you?"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「ナニものとはナニごとですの！?<br> 校長のグラン・ドラジェですの！<br> 校長は、生きた伝説と呼ばれてる<br> すごい魔法使いですの！！"
-  English: ''
+  English: "\\8b\\11\\86\\07\nWhat do you mean \"who are you\"!?\nIt's Principal Biscotti!\nHe's an incredible wizard and has\nbeen called a living legend!!"
   Comments: ''
 - Japanese: "\\8b\\d9グラン・ドラジェ<br>「えー、<br> みなさんに、お話があります。<br> 今回のキャンプは、みなさんの<br> 魔法の力を見ぬくテストでも<br> あります。<br> したがって、<br> キャンプの途中でネを上げて<br> 帰って来たりした人は‥‥‥‥<br> その場で退学！！<br> この学校から去ってもらいます。"
-  English: ''
+  English: "\\8b\\d9Principal Biscotti\nEhem, everyone, I have an announcement.\nThis year at camp, there will be a test\nof everyone's magical ability.\nConsequently, those who give up and leave\ncamp will be expelled then and there!"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「<i>な</i><i>ん</i><i>で</i><i>だ</i><i>っ</i><i>ぴ</i><i>―</i><i>―</i><i>―</i><i>―</i><i>ッ</i><i>！</i><i>?</i>"
-  English: ''
+  English: "\\8b\\18\\86\\0e\nWhat, why!?"
   Comments: ''
 - Japanese: "\\8b\\d9グラン・ドラジェ<br>「何か事件が起きた時、<br> マドレーヌ先生は<br> 『もう帰りましょう』なんて<br> ことを言うかも知れませんが<br> それはワナです。<br> その言葉にさそわれて<br> ノコノコ帰って来た人は<br> 退学です。"
-  English: ''
+  English: "\\8b\\d9Principal Biscotti\nThe reason for this is that\nsomething may occur and Miss\nMadeleine will say something along\nthe lines of \"Let's return home\".\nThose who come back without a second\nthought will be expelled."
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「マジですか‥‥‥‥?"
-  English: ''
+  English: "\\8b\\15\\86\\0b\nAre you serious...?"
   Comments: ''
 - Japanese: "\\8b\\d9グラン・ドラジェ<br>「本当はこのことは、生徒には<br> ないしょになっておるんじゃが、<br> キミたちにはとくべつに<br> 教えちゃいました。<br> わしがここで、こんな話をした<br> ことはマドレーヌ先生には<br> ないしょにしておいて下さい。<br> 以上！！"
-  English: ''
+  English: "\\8b\\d9Principal Biscotti\nThis was meant to be kept a\nsecret from students but I\nexpressly decided to let you all \nknow.\nPlease keep the fact that I was here\nand talked to you all a secret from\nMiss Madeleine.\nThat is all!"
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「あら、校長先生<br> いつの間に‥‥‥‥?<br>"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\nOh, Principal Biscotti, when did\nyou...?"
   Comments: ''
 - Japanese: "\\8b\\d9グラン・ドラジェ<br>「ぎくっ！！<br> それじゃ、わしはこれで！！<br> 楽しいキャンプをッ！！"
-  English: ''
+  English: "\\8b\\d9Principal Biscotti\nEek!\nWell then, I shall take my leave!\nHave fun!"
   Comments: ''
 - Japanese: ''
   English: ''
@@ -11770,7 +11770,7 @@
   English: "\\8b\\12\\86\\08\nThat's great news, Pistachio.\nKirsche is going to be your opponent."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「‥‥‥‥。"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n......"
   Comments: ''
 - Japanese: "\\8b\\19\\86\\f<br>「私、さがしてきます！！"
   English: ''
@@ -11881,7 +11881,7 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「ほらほら、<br> 急ぐのよショコラ！<br> マイペースなのはしょうが<br> ないけど、みんな待ってるん<br> だからねっ！"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\nCome on now, hurry up Chocolat!\nI understand you do things at your\nown pace, but everyone's waiting for\nyou!"
   Comments: ''
 - Japanese: "\\8b\\a3バルサミコ<br>「ヘイヘイ ガキんちょども！！<br> 海が見えてきたぜぃ！！"
   English: ''
@@ -11890,7 +11890,7 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\e\\86\\4<br>「んー。<br> らくちん。"
-  English: ''
+  English: "\\8b\\0e\\86\\0e\nMmm.\nMellow."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「<span class=\"red\">ヴ</span><span class=\"red\">ァ</span><span class=\"red\">レ</span><span class=\"red\">ン</span><span class=\"red\">シ</span><span class=\"red\">ア</span><span class=\"red\">海</span><span class=\"red\">岸</span>って言ったら<br> カイゾクだよな！ カイゾク！！<br> カイゾクがこのへんに宝を<br> うめたんだ！！<br> タンケンしに行こうぜ！！"
   English: ''
@@ -12835,16 +12835,16 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「しかし、そうは言っても<br> それでは生徒たちが‥‥‥‥"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\nBut even so, won't the students..."
   Comments: ''
 - Japanese: "\\8b\\d9グラン・ドラジェ<br>「だいじょうぶ、キミなら<br> やってくれると信じている。"
-  English: ''
+  English: "\\8b\\d9Principal Biscotti\nDon't worry, I trust that you\nwill be able to take care of things."
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「お言葉はうれしいの<br> ですが‥‥‥‥"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\nI'm happy that you think that\nway but..."
   Comments: ''
 - Japanese: "\\8b\\d9グラン・ドラジェ<br>「たのむぞ、マドレーヌ。"
-  English: ''
+  English: "\\8b\\d9Principal Biscotti\nI'm entrusting you with this,\nMiss Madeleine."
   Comments: ''
 - Japanese: '<br>  をもらった！'
   English: ''

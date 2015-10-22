@@ -159,14 +159,18 @@ function generateJapaneseScript() {
     },
     0x8C:function(state) { state.idx++; }, // TODO: Unknown control character
     0x8D:function(state) {
-      state.red = state.italics = false;
+      state.color = '';
+      state.italics = false;
       state.idx++;
     },
     0x8E:function(state) {
-      state.red = true;
+      state.color = 'red';
       state.idx++;
     },
-    0x8F:function(state) { state.idx++; }, // TODO: Unknown control character
+    0x8F:function(state) {
+      state.color = 'blue';
+      state.idx++;
+    },
     0x90:function(state) { state.idx++; }, // TODO: Unknown control character
     0x91:function(state) {
       state.italics = true;
@@ -199,7 +203,7 @@ function generateJapaneseScript() {
   for (var ii = 2; ii < HEADER_LENGTH/2 - 1; ii++) {
     var state = {
       italics: false,
-      red: false,
+      color: '',
       idx: header[ii],
       text: ''
     };
@@ -214,13 +218,13 @@ function generateJapaneseScript() {
       }
       var value = (original_script[state.idx] << 8) + original_script[state.idx+1];
       state.text += state.italics ? '<i>' : '';
-      state.text += state.red ? '<span class="red">' : '';
+      state.text += state.color ? '<span class="' + state.color + '">' : '';
       if (!table[value]) {
         console.log("Value ", value.toString(16), " not found in table at location ", state.idx.toString(16));
       } else {
         state.text += table[value]
       }
-      state.text += state.red ? '</span>' : '';
+      state.text += state.color ? '</span>' : '';
       state.text += state.italics ? '</i>' : '';
       state.idx += 2;
       character_count++;
