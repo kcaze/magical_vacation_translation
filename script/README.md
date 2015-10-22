@@ -3,18 +3,23 @@ Script Addresses
 0x00629A2C to be the base address of the script, including offsets.
 0x0062C912 to 0x00698E9A is the main script.
 
+Icons
+=====
+0x0000 to 0x000E inclusive draws various icons instead of text. The icons are
+rendered as sprites rather than tiles.
+
 Control Characters
 ==================
 * `80`: Newline. Function located at `0x0000BA58`. We're overriding this to also perform some cleanup work for our own routine.
-* `91`: Begin using special katakana set.
-* `8E`: Begin using red font.
 * `82`: ??? (perhaps used to indicate progress in the game?)
-* `8D`: End using special font (ends 0x8E, 0x8F, 0x90, and 0x91).
+* `85 00`: Display player's name
 * `86 XX`: Display character `XX`'s name.
 * `87 XX`: Display item `XX`'s name (I think).
 * `8B XX`: Display character portrait `XX`.
-* `85 00`: Display player's name
-* `FF`: End of dialogue. Make sure each dialogue has an FF at the end otherwise the ram won't be reset properly.
+* `8D`: End using special font (ends 0x8E, 0x8F, 0x90, and 0x91).
+* `8E`: Begin using red font.
+* `91`: Begin using special katakana set.
+* `FF`: Ends dialogue?
 
 0x629A2C to 0x62C6A6-- Offsets into the script for specific dialogue. Each halfword indicates an index into the script. The halfwords are stored in increasing order in "sections". Once one "section" is finished, they start over again at 0x0000 but these are now offsets into the script base address + (number of sections read) * 0x10000. Things are packed VERY tightly. The next offset into the script indicates the end of the current one. There is no separate "end" offset and hence also no control code in the dialogue to indicate the end.
 
