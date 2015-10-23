@@ -43,8 +43,8 @@ Item Names
 |`0x22736C`|モンスター図鑑|Bestiary|
 |`0x22737C`|チーズナイフ|Cheese Knife|
 |`0x22738C`|職人の魂|Artisan's Soul|
-|`0x22739C`|闇の地図|Map of Darkness (THIS DOESN'T FIT)|
-|`0x2273AC`|アイスシード|Ice seed?|
+|`0x22739C`|闇の地図|Map of Darkness|
+|`0x2273AC`|アイスシード|Ice seed|
 |`0x2273BC`|種族図鑑|Species Guide|
 |`0x2273CC`|水のヴェール|Water Veil|
 |`0x2273DC`|こんにゃくイモ|Konjac Root|
@@ -59,6 +59,8 @@ Item Names
 |`0x22746C`|イボイボはっぱ|Bumpy Leaf|
 |`0x22747C`|ギザギザはっぱ|Spiky Leaf|
 |`0x22748C`|ギザギザはっぱ|Rugged Leaf|
+
+See item_names.yaml for complete list.
 
 The subroutine to display the name of an item is located at `0x0000BC9C` We're
 overriding this to double the maximum length of names. It branches to

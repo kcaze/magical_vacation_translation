@@ -1,0 +1,773 @@
+'0':
+  English: 'Empty'
+  Japanese: "なし\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff"
+'1':
+  English: 'Map of Light'
+  Japanese: "[icon]光の地図\\ff\\ff\\ff\\ff\\ff\\ff"
+'2':
+  English: 'Small Ocarina'
+  Japanese: '[icon]小さいオカリナ'
+'3':
+  English: 'Ukuru's Feather'
+  Japanese: "[icon]ウークルの羽\\ff\\ff"
+'4':
+  English: 'Magnifying Glass'
+  Japanese: "[icon]虫メガネ\\ff\\ff\\ff\\ff\\ff\\ff"
+'5':
+  English: 'Palace Key'
+  Japanese: "[icon]宮殿のカギ\\ff\\ff\\ff\\ff"
+'6':
+  English: 'Bestiary'
+  Japanese: '[icon]モンスター図鑑'
+'7':
+  English: 'Cheese Knife'
+  Japanese: "[icon]チーズナイフ\\ff\\ff"
+'8':
+  English: 'Artisan's Soul'
+  Japanese: "[icon]職人の魂\\ff\\ff\\ff\\ff\\ff\\ff"
+'9':
+  English: 'Map of Darkness'
+  Japanese: "[icon]闇の地図\\ff\\ff\\ff\\ff\\ff\\ff"
+'10':
+  English: 'Ice Seed'
+  Japanese: "[icon]アイスシード\\ff\\ff"
+'11':
+  English: 'Species Encyclopedia'
+  Japanese: "[icon]種族図鑑\\ff\\ff\\ff\\ff\\ff\\ff"
+'12':
+  English: 'Water Veil'
+  Japanese: "[icon]水のヴェール\\ff\\ff"
+'13':
+  English: 'Konjac Root'
+  Japanese: '[icon]こんにゃくイモ'
+'14':
+  English: 'Magic Handbook'
+  Japanese: "[icon]魔法の手宗\\ff\\ff\\ff\\ff"
+'15':
+  English: 'MD Dictionary'
+  Japanese: "[icon]MD辞典\\ff\\ff\\ff\\ff\\ff\\ff"
+'16':
+  English: 'Map of Death'
+  Japanese: "[icon]死の地図\\ff\\ff\\ff\\ff\\ff\\ff"
+'17':
+  English: 'Light Veil'
+  Japanese: "[icon]光のヴェール\\ff\\ff"
+'18':
+  English: 'Darkness Veil'
+  Japanese: "[icon]闇のヴェール\\ff\\ff"
+'19':
+  English: 'Abyssal Stone'
+  Japanese: "[icon]黄泉の石\\ff\\ff\\ff\\ff\\ff\\ff"
+'20':
+  English: 'Preparation'
+  Japanese: "[icon]予備\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff"
+'21':
+  English: 'Holey Leaf'
+  Japanese: '[icon]あなあきはっぱ'
+'22':
+  English: 'Warty Leaf'
+  Japanese: '[icon]イボイボはっぱ'
+'23':
+  English: 'Spiky Leaf'
+  Japanese: '[icon]ギザギザはっぱ'
+'24':
+  English: 'Lumpy Leaf'
+  Japanese: '[icon]でこぼこはっぱ'
+'25':
+  English: 'Green Gummy Frog'
+  Japanese: "[icon]カエルグミ緑\\ff\\ff"
+'26':
+  English: 'Blue Gummy Frog'
+  Japanese: "[icon]カエルグミ青\\ff\\ff"
+'27':
+  English: 'Red Gummy Frog'
+  Japanese: "[icon]カエルグミ赤\\ff\\ff"
+'28':
+  English: 'Yellow Gummy Worm'
+  Japanese: "[icon]ミミズグミ黄\\ff\\ff"
+'29':
+  English: 'Red Gummy Worm'
+  Japanese: "[icon]ミミズグミ赤\\ff\\ff"
+'30':
+  English: 'Depoison Tail'
+  Japanese: '[icon]ドクナのしっぽ'
+'31':
+  English: 'Denumb Tail'
+  Japanese: '[icon]シビナのしっぽ'
+'32':
+  English: 'Deparalyze Tail'
+  Japanese: '[icon]マヒナのしっぽ'
+'33':
+  English: 'Stoneoff Tail'
+  Japanese: '[icon]セキナのしっぽ'
+'34':
+  English: 'Wakey Tail'
+  Japanese: '[icon]フッカのしっぽ'
+'35':
+  English: 'Fire Bomb'
+  Japanese: '[icon]ファイアーボム'
+'36':
+  English: 'Liquid Bomb'
+  Japanese: "[icon]リキッドボム\\ff\\ff"
+'37':
+  English: 'Pebble Bomb'
+  Japanese: "[icon]ペブルボム\\ff\\ff\\ff\\ff"
+'38':
+  English: 'Wind Bomb'
+  Japanese: "[icon]ウインドボム\\ff\\ff"
+'39':
+  English: 'Light Bomb'
+  Japanese: "[icon]ライトボム\\ff\\ff\\ff\\ff"
+'40':
+  English: 'Abyss Bomb'
+  Japanese: "[icon]アビスボム\\ff\\ff\\ff\\ff"
+'41':
+  English: 'Love Bomb'
+  Japanese: "[icon]ラヴボム\\ff\\ff\\ff\\ff\\ff\\ff"
+'42':
+  English: 'Spark Bomb'
+  Japanese: "[icon]スパークボム\\ff\\ff"
+'43':
+  English: 'Poison Bomb'
+  Japanese: "[icon]ポイズンボム\\ff\\ff"
+'44':
+  English: 'Razor Bomb'
+  Japanese: "[icon]レイザーボム\\ff\\ff"
+'45':
+  English: 'Rainbow Bomb'
+  Japanese: '[icon]レインボウボム'
+'46':
+  English: 'Sonic Bomb'
+  Japanese: "[icon]ソニックボム\\ff\\ff"
+'47':
+  English: 'Retro Bomb'
+  Japanese: "[icon]レトロボム\\ff\\ff\\ff\\ff"
+'48':
+  English: 'Leaf Bomb'
+  Japanese: "[icon]リーフボム\\ff\\ff\\ff\\ff"
+'49':
+  English: 'Life Bomb'
+  Japanese: "[icon]ライフボム\\ff\\ff\\ff\\ff"
+'50':
+  English: 'Bug Bomb'
+  Japanese: "[icon]バグボム\\ff\\ff\\ff\\ff\\ff\\ff"
+'51':
+  English: 'Bandana'
+  Japanese: "[icon]バンダナ\\ff\\ff\\ff\\ff\\ff\\ff"
+'52':
+  English: 'Tulip Hat'
+  Japanese: "[icon]チューリップ\\ff\\ff"
+'53':
+  English: 'Wool Cap'
+  Japanese: '[icon]ウールのぼうし'
+'54':
+  English: 'Helmet'
+  Japanese: "[icon]ヘルメット\\ff\\ff\\ff\\ff"
+'55':
+  English: 'Full Face'
+  Japanese: "[icon]フルフェイス\\ff\\ff"
+'56':
+  English: 'Cat Mask'
+  Japanese: "[icon]ネコマスク\\ff\\ff\\ff\\ff"
+'57':
+  English: 'Antenna'
+  Japanese: "[icon]アンテナ\\ff\\ff\\ff\\ff\\ff\\ff"
+'58':
+  English: 'Mohawk Helmet'
+  Japanese: '[icon]モヒカンヘルム'
+'59':
+  English: 'Super Afro'
+  Japanese: '[icon]スーパーアフロ'
+'60':
+  English: 'Parabola'
+  Japanese: "[icon]パラボラ\\ff\\ff\\ff\\ff\\ff\\ff"
+'61':
+  English: 'Magic Wrist'
+  Japanese: '[icon]マジックリスト'
+'62':
+  English: 'Baobab Wrist'
+  Japanese: '[icon]バオバブリング'
+'63':
+  English: 'Silver Ring'
+  Japanese: '[icon]シルバーリング'
+'64':
+  English: 'Gold Ring'
+  Japanese: '[icon]ゴールドリング'
+'65':
+  English: 'Platinum Ring'
+  Japanese: '[icon]プラチナリング'
+'66':
+  English: 'Hand Paws'
+  Japanese: "[icon]肉球ハンド\\ff\\ff\\ff\\ff"
+'67':
+  English: 'Gorgon Brace'
+  Japanese: '[icon]ゴルゴンリング'
+'68':
+  English: 'Quartz Lens'
+  Japanese: '[icon]クォーツレンズ'
+'69':
+  English: 'Demon Brace'
+  Japanese: '[icon]デイモンリング'
+'70':
+  English: 'Fluorite'
+  Japanese: "[icon]フローライト\\ff\\ff"
+'71':
+  English: 'Vinyl Shirt'
+  Japanese: '[icon]ビニールシャツ'
+'72':
+  English: 'Tour Shirt'
+  Japanese: "[icon]旅人のシャツ\\ff\\ff"
+'73':
+  English: 'Hide Armor'
+  Japanese: '[icon]革のジャケット'
+'74':
+  English: 'Chain Mail'
+  Japanese: '[icon]チェーンメイル'
+'75':
+  English: 'Lizard Skin'
+  Japanese: '[icon]リザードスキン'
+'76':
+  English: 'Cat Tights'
+  Japanese: "[icon]ネコタイツ\\ff\\ff\\ff\\ff"
+'77':
+  English: 'Lynx Shirt'
+  Japanese: '[icon]パンサーシャツ'
+'78':
+  English: 'Plate Mail'
+  Japanese: '[icon]プレートメイル'
+'79':
+  English: 'Heavy Metal'
+  Japanese: "[icon]ヘビーメタル\\ff\\ff"
+'80':
+  English: 'Frog Shirt'
+  Japanese: '[icon]カエルのシャツ'
+'81':
+  English: 'Wooden Clogs'
+  Japanese: "[icon]木のくつ\\ff\\ff\\ff\\ff\\ff\\ff"
+'82':
+  English: 'Hiking Shoes'
+  Japanese: "[icon]旅人のくつ\\ff\\ff\\ff\\ff"
+'83':
+  English: 'Cleats'
+  Japanese: "[icon]スパイク\\ff\\ff\\ff\\ff\\ff\\ff"
+'84':
+  English: 'Curly Toed Shoes'
+  Japanese: '[icon]つまさきくるん'
+'85':
+  English: 'Rubber Soles'
+  Japanese: "[icon]ラバーソウル\\ff\\ff"
+'86':
+  English: 'Paw Boots'
+  Japanese: "[icon]肉球ブーツ\\ff\\ff\\ff\\ff"
+'87':
+  English: 'Mechaboots'
+  Japanese: "[icon]鉄のゲタ\\ff\\ff\\ff\\ff\\ff\\ff"
+'88':
+  English: 'Bird Boots'
+  Japanese: "[icon]オストリッチ\\ff\\ff"
+'89':
+  English: 'Glass Slippers'
+  Japanese: "[icon]ガラスのくつ\\ff\\ff"
+'90':
+  English: 'Heaven Boots'
+  Japanese: "[icon]楽園ブーツ\\ff\\ff\\ff\\ff"
+'91':
+  English: 'Hair Clip'
+  Japanese: "[icon]ぱっちんどめ\\ff\\ff"
+'92':
+  English: 'Headband'
+  Japanese: "[icon]カチューシャ\\ff\\ff"
+'93':
+  English: 'Red Ribbon'
+  Japanese: "[icon]赤いリボン\\ff\\ff\\ff\\ff"
+'94':
+  English: 'Lapis Earrings'
+  Japanese: '[icon]ラピスのピアス'
+'95':
+  English: 'Jade Earrings'
+  Japanese: '[icon]ヒスイのピアス'
+'96':
+  English: 'Cat Bell'
+  Japanese: "[icon]ネコすず\\ff\\ff\\ff\\ff\\ff\\ff"
+'97':
+  English: 'Skull Ribbon'
+  Japanese: '[icon]ドクロのリボン'
+'98':
+  English: 'Gorgon's Eye'
+  Japanese: "[icon]石の魚\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff"
+  Comments: 'This is a Legend of Mana reference.'
+'99':
+  English: 'Ear Plugs'
+  Japanese: "[icon]みみせん\\ff\\ff\\ff\\ff\\ff\\ff"
+'100':
+  English: 'Dog Snout'
+  Japanese: "[icon]イヌハナ\\ff\\ff\\ff\\ff\\ff\\ff"
+'101':
+  English: 'Scampi Shell'
+  Japanese: '[icon]スカンピシェル'
+'102':
+  English: 'Crab Shell'
+  Japanese: "[icon]クラブシェル\\ff\\ff"
+'103':
+  English: 'Tortoise Shell'
+  Japanese: '[icon]トータスシェル'
+'104':
+  English: 'Chimera Shell'
+  Japanese: "[icon]キメラシェル\\ff\\ff"
+'105':
+  English: 'Black Shell'
+  Japanese: '[icon]ブラックシェル'
+'106':
+  English: 'Silver Shell'
+  Japanese: '[icon]シルバーシェル'
+'107':
+  English: 'Dragon Shell'
+  Japanese: '[icon]ドラゴンシェル'
+'108':
+  English: 'Yurero's Shell'
+  Japanese: '[icon]ユーレロシェル'
+  Comment: 'What does Yurero mean?'
+'109':
+  English: 'Glass Marble'
+  Japanese: "[icon]ガラスだま\\ff\\ff\\ff\\ff"
+'110':
+  English: 'Rose Quartz'
+  Japanese: '[icon]ローズクォーツ'
+'111':
+  English: 'Amethyst'
+  Japanese: "[icon]アメジスト\\ff\\ff\\ff\\ff"
+'112':
+  English: 'Tourmaline'
+  Japanese: "[icon]トルマリン\\ff\\ff\\ff\\ff"
+'113':
+  English: 'Sapphire'
+  Japanese: "[icon]サファイア\\ff\\ff\\ff\\ff"
+'114':
+  English: 'Ruby'
+  Japanese: "[icon]ルビー\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff"
+'115':
+  English: 'Diamond'
+  Japanese: "[icon]ダイヤモンド\\ff\\ff"
+'116':
+  English: 'Orichalcum'
+  Japanese: "[icon]オリハルコン\\ff\\ff"
+'117':
+  English: 'Orange'
+  Japanese: "[icon]オレンジの実\\ff\\ff"
+'118':
+  English: 'Papaya'
+  Japanese: "[icon]パパイヤの実\\ff\\ff"
+'119':
+  English: 'Apple'
+  Japanese: "[icon]りんごの実\\ff\\ff\\ff\\ff"
+'120':
+  English: 'Muscat'
+  Japanese: '[icon]マスカットの実'
+'121':
+  English: 'Lychee'
+  Japanese: "[icon]ライチの実\\ff\\ff\\ff\\ff"
+'122':
+  English: 'Cherry'
+  Japanese: "[icon]チェリーの実\\ff\\ff"
+'123':
+  English: 'Blackcurrant'
+  Japanese: "[icon]カシスの実\\ff\\ff\\ff\\ff"
+'124':
+  English: 'Durian'
+  Japanese: "[icon]ドリアンの実\\ff\\ff"
+'125':
+  English: 'Red Mica'
+  Japanese: "[icon]赤いキララ\\ff\\ff\\ff\\ff"
+'126':
+  English: 'Yellow Mica'
+  Japanese: "[icon]黄色いキララ\\ff\\ff"
+'127':
+  English: 'White Mica'
+  Japanese: "[icon]白いキララ\\ff\\ff\\ff\\ff"
+'128':
+  English: 'Shining Mica'
+  Japanese: "[icon]光るキララ\\ff\\ff\\ff\\ff"
+'129':
+  English: 'Sparkling Mica'
+  Japanese: "[icon]輝くキララ\\ff\\ff\\ff\\ff"
+'130':
+  English: 'Wool Fibers'
+  Japanese: '[icon]ウールのせんい'
+'131':
+  English: 'Sheep's Gut'
+  Japanese: '[icon]ひつじのガット'
+'132':
+  English: 'Leather String'
+  Japanese: "[icon]皮ひも\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff"
+'133':
+  English: 'Dragon's Beard'
+  Japanese: "[icon]りゅうのひげ\\ff\\ff"
+'134':
+  English: 'Nyam Worm'
+  Japanese: "[icon]ニャムワーム\\ff\\ff"
+  Comment: 'My best romanization attempt.'
+'135':
+  English: 'Fire Seal'
+  Japanese: "[icon]火のシール\\ff\\ff\\ff\\ff"
+'136':
+  English: 'Wind Seal'
+  Japanese: "[icon]風のシール\\ff\\ff\\ff\\ff"
+'137':
+  English: 'Poison Seal'
+  Japanese: "[icon]毒のシール\\ff\\ff\\ff\\ff"
+'138':
+  English: 'Beauty Seal'
+  Japanese: "[icon]美のシール\\ff\\ff\\ff\\ff"
+'139':
+  English: 'Blade Seal'
+  Japanese: "[icon]刃のシール\\ff\\ff\\ff\\ff"
+'140':
+  English: 'Sound Seal'
+  Japanese: "[icon]音のシール\\ff\\ff\\ff\\ff"
+'141':
+  English: 'Stone Seal'
+  Japanese: "[icon]石のシール\\ff\\ff\\ff\\ff"
+'142':
+  English: 'Insect Seal'
+  Japanese: "[icon]虫のシール\\ff\\ff\\ff\\ff"
+'143':
+  English: 'Wood Seal'
+  Japanese: "[icon]木のシール\\ff\\ff\\ff\\ff"
+'144':
+  English: 'Beast Seal'
+  Japanese: "[icon]獣のシール\\ff\\ff\\ff\\ff"
+'145':
+  English: 'Water Seal'
+  Japanese: "[icon]水のシール\\ff\\ff\\ff\\ff"
+'146':
+  English: 'Thunder Seal'
+  Japanese: "[icon]雷のシール\\ff\\ff\\ff\\ff"
+'147':
+  English: 'Ancient Seal'
+  Japanese: "[icon]古のシール\\ff\\ff\\ff\\ff"
+'148':
+  English: 'Darkness Seal'
+  Japanese: "[icon]闇のシール\\ff\\ff\\ff\\ff"
+'149':
+  English: 'Light Seal'
+  Japanese: "[icon]光のシール\\ff\\ff\\ff\\ff"
+'150':
+  English: 'Love Seal'
+  Japanese: "[icon]愛のシール\\ff\\ff\\ff\\ff"
+'151':
+  English: 'Leather Cap'
+  Japanese: '[icon]レザーキャップ'
+'152':
+  English: 'Leather Wrist'
+  Japanese: "[icon]レザーバンド\\ff\\ff"
+'153':
+  English: 'Leather Mantle'
+  Japanese: "[icon]レザーマント\\ff\\ff"
+'154':
+  English: 'Leather Boots'
+  Japanese: "[icon]レザーブーツ\\ff\\ff"
+'155':
+  English: 'Leather Earrings'
+  Japanese: "[icon]レザーピアス\\ff\\ff"
+'156':
+  English: 'Thief's Hat'
+  Japanese: '[icon]シーブスハット'
+'157':
+  English: 'Thief's Ring'
+  Japanese: '[icon]シーブスリング'
+'158':
+  English: 'Thief's Mantle'
+  Japanese: '[icon]シーブスマント'
+'159':
+  English: 'Thief's Boots'
+  Japanese: '[icon]シーブスブーツ'
+'160':
+  English: 'Thief's Earrings'
+  Japanese: '[icon]シーブスピアス'
+'161':
+  English: 'Winged Hat'
+  Japanese: '[icon]ウィングハット'
+'162':
+  English: 'Winged Bangle'
+  Japanese: '[icon]ウィングリスト'
+'163':
+  English: 'Winged Shirt'
+  Japanese: '[icon]ウィングシャツ'
+'164':
+  English: 'Winged Boots'
+  Japanese: '[icon]ウィングブーツ'
+'165':
+  English: 'Winged Studs'
+  Japanese: '[icon]ウィングピアス'
+'166':
+  English: 'Force Hat'
+  Japanese: '[icon]フォースハット'
+'167':
+  English: 'Force Ring'
+  Japanese: '[icon]フォースリング'
+'168':
+  English: 'Force Cloak'
+  Japanese: '[icon]フォースマント'
+'169':
+  English: 'Force Boots'
+  Japanese: '[icon]フォースブーツ'
+'170':
+  English: 'Force Studs'
+  Japanese: '[icon]フォースピアス'
+'171':
+  English: 'Sage Hat'
+  Japanese: "[icon]知者のぼうし\\ff\\ff"
+'172':
+  English: 'Sage Brace'
+  Japanese: "[icon]知者のうでわ\\ff\\ff"
+'173':
+  English: 'Sage Robe'
+  Japanese: "[icon]知者のマント\\ff\\ff"
+'174':
+  English: 'Sage Shoes'
+  Japanese: "[icon]知者のくつ\\ff\\ff\\ff\\ff"
+'175':
+  English: 'Sage String'
+  Japanese: "[icon]知者の指輪\\ff\\ff\\ff\\ff"
+'176':
+  English: 'Misty Cap'
+  Japanese: '[icon]ミスティハット'
+'177':
+  English: 'Misty Ring'
+  Japanese: '[icon]ミスティリング'
+'178':
+  English: 'Misty Cloak'
+  Japanese: '[icon]ミスティマント'
+'179':
+  English: 'Misty Boots'
+  Japanese: '[icon]ミスティブーツ'
+'180':
+  English: 'Misty Studs'
+  Japanese: '[icon]ミスティピアス'
+'181':
+  English: 'Philosopher's Hat'
+  Japanese: "[icon]賢者のぼうし\\ff\\ff"
+'182':
+  English: 'Philosopher's Brace'
+  Japanese: "[icon]賢者のうでわ\\ff\\ff"
+'183':
+  English: 'Philosopher's Cloak'
+  Japanese: "[icon]賢者のふく\\ff\\ff\\ff\\ff"
+'184':
+  English: 'Philosopher's Shoes'
+  Japanese: "[icon]賢者のくつ\\ff\\ff\\ff\\ff"
+'185':
+  English: 'Philosopher's Pendant'
+  Japanese: '[icon]賢者の首かざり'
+'186':
+  English: 'Magic Hat'
+  Japanese: '[icon]マジカルハット'
+'187':
+  English: 'Magic Bangle'
+  Japanese: '[icon]マジカルリング'
+'188':
+  English: 'Magic Cloak'
+  Japanese: '[icon]マジカルマント'
+'189':
+  English: 'Magic Boots'
+  Japanese: '[icon]マジカルブーツ'
+'190':
+  English: 'Magic Studs'
+  Japanese: '[icon]マジカルピアス'
+'191':
+  English: 'Black Hat'
+  Japanese: '[icon]ブラックハット'
+'192':
+  English: 'Black Ring'
+  Japanese: '[icon]ブラックリング'
+'193':
+  English: 'Black Cloak'
+  Japanese: '[icon]ブラックマント'
+'194':
+  English: 'Black Boots'
+  Japanese: '[icon]ブラックブーツ'
+'195':
+  English: 'Black Studs'
+  Japanese: '[icon]ブラックピアス'
+'196':
+  English: 'White Hat'
+  Japanese: '[icon]ホワイトハット'
+'197':
+  English: 'White Ring'
+  Japanese: '[icon]ホワイトリング'
+'198':
+  English: 'White Cloak'
+  Japanese: '[icon]ホワイトマント'
+'199':
+  English: 'White Boots'
+  Japanese: '[icon]ホワイトブーツ'
+'200':
+  English: 'White Studs'
+  Japanese: '[icon]ホワイトピアス'
+'201':
+  English: 'Brownie Hat'
+  Japanese: '[icon]ブラウニハット'
+'202':
+  English: 'Brownie Ring'
+  Japanese: '[icon]ブラウニリング'
+'203':
+  English: 'Brownie Robe'
+  Japanese: '[icon]ブラウニマント'
+'204':
+  English: 'Brownie Boots'
+  Japanese: '[icon]ブラウニブーツ'
+'205':
+  English: 'Brownie Studs'
+  Japanese: '[icon]ブラウニピアス'
+'206':
+  English: 'Washbasin'
+  Japanese: "[icon]せんめんき\\ff\\ff\\ff\\ff"
+'207':
+  English: 'Towel'
+  Japanese: "[icon]てぬぐい\\ff\\ff\\ff\\ff\\ff\\ff"
+'208':
+  English: 'Bathrobe'
+  Japanese: "[icon]ゆかた\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff"
+'209':
+  English: 'Slippers'
+  Japanese: "[icon]ゲタ\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff"
+'210':
+  English: 'Bath Set'
+  Japanese: "[icon]おふろセット\\ff\\ff"
+'211':
+  English: ''
+  Japanese: '[icon]ブリキスピナー'
+'212':
+  English: ''
+  Japanese: '[icon]ブリキクロック'
+'213':
+  English: ''
+  Japanese: '[icon]ブリキバーナー'
+'214':
+  English: ''
+  Japanese: "[icon]ブリキボマー\\ff\\ff"
+'215':
+  English: ''
+  Japanese: "[icon]ブリキマージ\\ff\\ff"
+'216':
+  English: ''
+  Japanese: '[icon]ダミーゴースト'
+'217':
+  English: ''
+  Japanese: "[icon]ガルシューム\\ff\\ff"
+'218':
+  English: ''
+  Japanese: '[icon]オカルトダック'
+'219':
+  English: ''
+  Japanese: "[icon]カボチおばば\\ff\\ff"
+'220':
+  English: ''
+  Japanese: '[icon]ヘルドラゴイル'
+'221':
+  English: ''
+  Japanese: '[icon]ピリピルゼリー'
+'222':
+  English: ''
+  Japanese: "[icon]マシェリー\\ff\\ff\\ff\\ff"
+'223':
+  English: ''
+  Japanese: "[icon]ティポーン\\ff\\ff\\ff\\ff"
+'224':
+  English: ''
+  Japanese: '[icon]エビしぇんにん'
+'225':
+  English: ''
+  Japanese: '[icon]キャヴィジオン'
+'226':
+  English: ''
+  Japanese: "[icon]ユーレロラム\\ff\\ff"
+'227':
+  English: ''
+  Japanese: "[icon]ポチョン\\ff\\ff\\ff\\ff\\ff\\ff"
+'228':
+  English: ''
+  Japanese: '[icon]サイコパンチョ'
+'229':
+  English: ''
+  Japanese: "[icon]プギーモ\\ff\\ff\\ff\\ff\\ff\\ff"
+'230':
+  English: ''
+  Japanese: "[icon]エンジジ\\ff\\ff\\ff\\ff\\ff\\ff"
+'231':
+  English: ''
+  Japanese: "[icon]トーストキー\\ff\\ff"
+'232':
+  English: ''
+  Japanese: "[icon]エアキー\\ff\\ff\\ff\\ff\\ff\\ff"
+'233':
+  English: ''
+  Japanese: "[icon]ブーキー\\ff\\ff\\ff\\ff\\ff\\ff"
+'234':
+  English: ''
+  Japanese: "[icon]パウダーキー\\ff\\ff"
+'235':
+  English: ''
+  Japanese: '[icon]スラッシュキー'
+'236':
+  English: ''
+  Japanese: "[icon]ハミングキー\\ff\\ff"
+'237':
+  English: ''
+  Japanese: "[icon]フリントキー\\ff\\ff"
+'238':
+  English: ''
+  Japanese: "[icon]バズキー\\ff\\ff\\ff\\ff\\ff\\ff"
+'239':
+  English: ''
+  Japanese: '[icon]スティックキー'
+'240':
+  English: ''
+  Japanese: "[icon]ガルキー\\ff\\ff\\ff\\ff\\ff\\ff"
+'241':
+  English: ''
+  Japanese: "[icon]フローキー\\ff\\ff\\ff\\ff"
+'242':
+  English: ''
+  Japanese: "[icon]テスラキー\\ff\\ff\\ff\\ff"
+'243':
+  English: ''
+  Japanese: "[icon]クロックキー\\ff\\ff"
+'244':
+  English: ''
+  Japanese: "[icon]ニルヴァキー\\ff\\ff"
+'245':
+  English: ''
+  Japanese: "[icon]ルクスキー\\ff\\ff\\ff\\ff"
+'246':
+  English: ''
+  Japanese: '[icon]ウィッシュキー'
+'247':
+  English: 'Ignis Coin'
+  Japanese: "[icon]ミーロリ銀貨\\ff\\ff"
+  Comment: "This is for the fire spirit so Ignis = latin for fire."
+'248':
+  English: 'Antiqua Coin'
+  Japanese: "[icon]アルティ銀貨\\ff\\ff"
+'249':
+  English: 'Ventus Coin'
+  Japanese: "[icon]ラシモフ銀貨\\ff\\ff"
+'250':
+  English: 'Aqua Coin'
+  Japanese: '[icon]クレセント銀貨'
+'251':
+  English: 'Vox Coin'
+  Japanese: '[icon]ハモニック金貨'
+'252':
+  English: 'Tonitrus Coin'
+  Japanese: "[icon]ヘリオン金貨\\ff\\ff"
+'253':
+  English: 'Gladius Coin'
+  Japanese: '[icon]キャムティ金貨'
+'254':
+  English: 'Decor Coin'
+  Japanese: "[icon]ガニック金貨\\ff\\ff"
+'255':
+  English: 'Pine Cone'
+  Japanese: "[icon]まつぼっくり\\ff\\ff"
+length: 256
