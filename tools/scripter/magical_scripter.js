@@ -220,7 +220,8 @@ function generateJapaneseScript() {
       state.text += state.italics ? '<i>' : '';
       state.text += state.color ? '<span class="' + state.color + '">' : '';
       if (!table[value]) {
-        console.log("Value ", value.toString(16), " not found in table at location ", state.idx.toString(16));
+        state.text += '\\' + original_script[state.idx].toString(16);
+        state.text += '\\' + original_script[state.idx+1].toString(16);
       } else {
         state.text += table[value]
       }

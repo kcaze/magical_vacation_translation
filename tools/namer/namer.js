@@ -1,9 +1,11 @@
 var original;
 var yaml;
+var filename;
 var current_object_number;
 
 function readYAML(e) {
   var file = e.target.files[0]; // FileList object
+  filename = file.name.split('.')[0];
   var fileReader = new FileReader();
   fileReader.onload = function (e) {
     yaml = jsyaml.safeLoad(e.target.result);
@@ -31,6 +33,7 @@ function enable() {
   document.getElementById('status').className = 'green';
   document.getElementById('english').disabled = false;
   document.getElementById('object_number').disabled = false;
+  document.getElementById('name_length').disabled = false;
   document.getElementById('export_yaml').disabled = false;
   document.getElementById('export_binary').disabled = false;
   document.getElementById('search').disabled = false;
@@ -46,11 +49,28 @@ function enable() {
 
 function exportYAML() {
   var export_string = jsyaml.safeDump(yaml);
-  saveAs(new Blob([export_string], {type: 'text/plain;charset-utf-8'}), "names.yaml");
+  saveAs(new Blob([export_string], {type: 'text/plain;charset-utf-8'}), filename + '.yaml');
   console.log('Exported YAML!');
 }
 
 function exportBinary() {
+  var name_length = document.getElementById('name_length').value;
+  if (!name_length) {
+    console.error('Enter a valid export name length.');
+  }
+
+  var binary = new Uint8Array(yaml.length*name_length);
+  for (var ii = 0; ii < yaml.length; ii++) {
+    var english = parseEnglish(yaml[ii].English);
+    if (english.length > name_length) {
+      console.log('Object ', ii, '\'s name is too long! Truncating...');
+    }
+    for (var jj = 0; jj < name_length; jj++) {
+      binary[ii*name_length + jj] = jj < english.length ? english[jj] : 255;
+    }
+  }
+  saveAs(new Blob([new DataView(binary.buffer)], {type: 'application/octet-stream'}), filename + '.bin');
+  console.log('Exported names with length', name_length);
 }
 
 function parseEnglish(english) {
