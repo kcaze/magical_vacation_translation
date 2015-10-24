@@ -146,6 +146,8 @@ function generateJapaneseScript() {
     },
     // Display item's name.
     0x87:function(state) {
+      state.text += '\\' + original_script[state.idx].toString(16);
+      state.text += '\\' + original_script[state.idx + 1].toString(16);
       state.idx += 2;
     },
     0x88:function(state) { state.idx++; }, // TODO: Unknown control character
@@ -158,22 +160,41 @@ function generateJapaneseScript() {
       state.idx += 2;
     },
     0x8C:function(state) { state.idx++; }, // TODO: Unknown control character
+    // Reset text to normal.
     0x8D:function(state) {
+      if (state.color) {
+        state.text += '</span>';
+      }
+      if (state.italics) {
+        state.text += '</i>';
+      }
       state.color = '';
       state.italics = false;
       state.idx++;
     },
+    // Set text color to red.
     0x8E:function(state) {
+      if (state.color) {
+        state.text += '</span>';
+      }
       state.color = 'red';
+      state.text += '<span class="red">';
       state.idx++;
     },
+    // Set text color to blue.
     0x8F:function(state) {
+      if (state.color) {
+        state.text += '</span>';
+      }
       state.color = 'blue';
+      state.text += '<span class="blue">';
       state.idx++;
     },
     0x90:function(state) { state.idx++; }, // TODO: Unknown control character
+    // Set text to italics
     0x91:function(state) {
       state.italics = true;
+      state.text += '<i>';
       state.idx++;
     },
     0x92:function(state) { state.idx++; }, // TODO: Unknown control character
@@ -217,16 +238,12 @@ function generateJapaneseScript() {
         continue;
       }
       var value = (original_script[state.idx] << 8) + original_script[state.idx+1];
-      state.text += state.italics ? '<i>' : '';
-      state.text += state.color ? '<span class="' + state.color + '">' : '';
       if (!table[value]) {
         state.text += '\\' + original_script[state.idx].toString(16);
         state.text += '\\' + original_script[state.idx+1].toString(16);
       } else {
         state.text += table[value]
       }
-      state.text += state.color ? '</span>' : '';
-      state.text += state.italics ? '</i>' : '';
       state.idx += 2;
       character_count++;
     }

@@ -33,6 +33,7 @@ Control Characters
 * `8B XX`: Display character portrait `XX`.
 * `8D`: End using special font (ends 0x8E, 0x8F, 0x90, and 0x91).
 * `8E`: Begin using red font.
+* `8F`: Begin using blue font.
 * `91`: Begin using special katakana set.
 * `FF`: Ends dialogue?
 
