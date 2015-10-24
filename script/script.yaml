@@ -220,16 +220,16 @@
 - Japanese: "\\8b\\15  『ちゅん！』<br>  『じゅいー』<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\d8ピッツァ<br>「<span class=\"red\">[icon]まつぼっくり</span>を<span class=\"red\">５個</span>払うと<br> ここをワープ先に登録できます。<br> この場所をワープ先に登録して<br> おくと、どこからでも ここに<br> ワープできるようになるよ。<br> ワープするには、まず<span class=\"red\">メニュー</span>の<br> <span class=\"red\">メモ</span>から、<span class=\"red\">ワールドマップ</span>の<br> <span class=\"red\">地図</span>を選ぶんだ。<br> 次に、行きたい場所に羽を<br> あわせて、<span class=\"red\">Aボタン</span>を押せば、<br> ワープできるよ。<br> 登録しちゃう?"
+- Japanese: "\\8b\\d8ピッツァ<br>「<span class=\"red\">\\0\\eまつぼっくり</span>を<span class=\"red\">５個</span>払うと<br> ここをワープ先に登録できます。<br> この場所をワープ先に登録して<br> おくと、どこからでも ここに<br> ワープできるようになるよ。<br> ワープするには、まず<span class=\"red\">メニュー</span>の<br> <span class=\"red\">メモ</span>から、<span class=\"red\">ワールドマップ</span>の<br> <span class=\"red\">地図</span>を選ぶんだ。<br> 次に、行きたい場所に羽を<br> あわせて、<span class=\"red\">Aボタン</span>を押せば、<br> ワープできるよ。<br> 登録しちゃう?"
   English: ''
   Comments: ''
 - Japanese: '<br> エニグマが死んでいる‥‥‥‥。'
   English: ''
   Comments: ''
-- Japanese: "\\8b\\d8ピッツァ<br>「<span class=\"red\">[icon]まつぼっくり</span>を<span class=\"red\">５個</span>払うと<br> ここをワープ先に登録できます。<br> この場所をワープ先に登録して<br> おくと、どこからでも ここに<br> ワープできるようになるよ。<br> 登録しちゃう?"
+- Japanese: "\\8b\\d8ピッツァ<br>「<span class=\"red\">\\0\\eまつぼっくり</span>を<span class=\"red\">５個</span>払うと<br> ここをワープ先に登録できます。<br> この場所をワープ先に登録して<br> おくと、どこからでも ここに<br> ワープできるようになるよ。<br> 登録しちゃう?"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\d8ピッツァ<br>「<span class=\"red\">[icon]まつぼっくり</span>が足りないよ~。"
+- Japanese: "\\8b\\d8ピッツァ<br>「<span class=\"red\">\\0\\eまつぼっくり</span>が足りないよ~。"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\d8ピッツァ<br>「OK！<br> 登録できたよ！"
@@ -241,10 +241,10 @@
 - Japanese: "\\8b\\d8ピッツァ<br>「ここはすでにワープ先として<br> 登録されてまっちゅ！<br> シ~ユ~！"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 所持金：ブラー<br>  <span class=\"red\">５ブラー</span>はらって伴まる<br>  キャンセル"
+- Japanese: "\\8b\\0 所持金：ブラー<br>  <span class=\"red\">５ブラー</span>はらって泊まる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 所持金：ブラー<br>  <span class=\"red\">５ブラー</span>置いて伴まる<br>  キャンセル"
+- Japanese: "\\8b\\0 所持金：ブラー<br>  <span class=\"red\">５ブラー</span>置いて泊まる<br>  キャンセル"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\0 <span class=\"red\"></span>の数：<br>  <span class=\"red\"></span>をささげる<br>  キャンセル"
@@ -335,19 +335,19 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「おっそいぞ~！<br> いそいで~！"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\nYou two are late!\nHurry up!"
   Comments: ''
 - Japanese: "\\8b\\a3運転手のバルサミコ<br>「レディ~~~~ス！ エ~~ンド<br> ジェントルメ~~~~ン！！<br> 本日は 当バスをご利用いただき<br> ま~~こ~~と~~に~~<br> ありがとうございマ~~~ス！！<br> 臨海学校INヴァレンシア海岸！<br> 現地までみな様を案内させて<br> いただきますのは~~~~~<br> さすらいの 天才ドライバー！！<br> ブゥワルゥスワミ~~コ~~！！<br> どんどんどん！！<br> ぱふぱふぱふ！！<br> キャ~ッ！ カッコイイ~ッ！"
-  English: ''
-  Comments: ''
+  English: "\\8b\\a3Driver Balsamico\nLadiiieees! Annnd Gentlemeeennn!\nWe reeeaaally appreeeciate your\npatronage of this bus!\nRiverside School IN Valencia Beach!\nI, wandering bus driver prodigy\nBalsaaamiccccooo, have the pleasure\nof being your tour guide today!"
+  Comments: 臨海学校 has a specific in-game translation on the map I should check.
 - Japanese: "\\8b\\14\\86\\a<br>「うるせぇ オッサンだなぁ。"
-  English: ''
+  English: "\\8b\\14\\86\\0a\nThis is one annoying geezer."
   Comments: ''
 - Japanese: "\\8b\\a3運転手のバルサミコ<br>「それでは目的地、<br> <span class=\"red\">ヴァレンシア海岸</span>へ向けて！"
-  English: ''
+  English: "\\8b\\a3Driver Balsamico\nAnd with that, let's head to\nour destination, \\8eValencia Beach\\8d!"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「‥‥‥‥‥‥"
-  English: ''
+  English: "\\8b\\12\\86\\08\n......"
   Comments: ''
 - Japanese: ' カベルネの帽子の中にいる<br> カエルの呪いで、カエルグミを<br> つかまえられなかった！！'
   English: ''
@@ -356,7 +356,7 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\a3運転手のバルサミコ<br>「レディ――――――――――<br> ――――――――――ッ‥‥<br> ゴ――――――――――――<br> ―――――――――――――<br> ―――――――――ッ！！"
-  English: ''
+  English: "\\8b\\a3Driver Balsamico\nReady..................\nSet....................\nGo.....................\n......................!"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「不安になってきたっぴ‥‥"
   English: ''
@@ -391,7 +391,7 @@
 - Japanese: "\\8b\\c5通りすがりのブラウニー<br>「この、奇妙なものを<br> 蹴ってみるとよろしい。<br> うむ。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\15\\86\\b<br>「ガナッシュたちは、この村のリー<br> ダーの船で対岸へ向かったよ。<br> そこから、ニャムネルトの村を<br> 通って<span class=\"red\">エニグマの森</span>へ行くん<br> だって。<br> 今は、<span class=\"red\">船は出はらってるけど<br> 数日したら、また戻る</span>はずさ。<br> そしたら、キミたちも<br> 南へ向かうといいよ。<br> それまでは宿に伴まって<br> 体を休めておくことだね。"
+- Japanese: "\\8b\\15\\86\\b<br>「ガナッシュたちは、この村のリー<br> ダーの船で対岸へ向かったよ。<br> そこから、ニャムネルトの村を<br> 通って<span class=\"red\">エニグマの森</span>へ行くん<br> だって。<br> 今は、<span class=\"red\">船は出はらってるけど<br> 数日したら、また戻る</span>はずさ。<br> そしたら、キミたちも<br> 南へ向かうといいよ。<br> それまでは宿に泊まって<br> 体を休めておくことだね。"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「ガナッシュたちは、この村のリー<br> ダーの船で対岸へ向かったよ。<br> そこから、ニャムネルトの村を<br> 通って<span class=\"red\">エニグマの森</span>へ行くん<br> だって。<br> 船に乗れるようになったら、<br> キミたちも南へ向かうといいよ。"
@@ -427,7 +427,7 @@
 - Japanese: ''
   English: ''
   Comments: ''
-- Japanese: '  <span class="red">[icon]まつぼっくり</span>をふみつぶして<br>  しまった‥‥'
+- Japanese: "  <span class=\"red\">\\0\\eまつぼっくり</span>をふみつぶして<br>  しまった‥‥"
   English: ''
   Comments: ''
 - Japanese: "<br>   <span class=\"red\">\\87\\16</span>をもらった！"
@@ -1093,7 +1093,7 @@
 - Japanese: ' 返事がない<br> ただのパペットのようだ'
   English: ''
   Comments: ''
-- Japanese: "\\8b\\b4ティラミス<br>「よう、村長に なにやら<br> 取り入った みたいだな。<br> 伴まっていくか?<br> <span class=\"red\">５ブラー</span>でいいぜ。"
+- Japanese: "\\8b\\b4ティラミス<br>「よう、村長に なにやら<br> 取り入った みたいだな。<br> 泊まっていくか?<br> <span class=\"red\">５ブラー</span>でいいぜ。"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\b4ティラミス<br>「オレのハートを‥<br> 弟に‥‥<br> たの‥ む‥"
@@ -1111,7 +1111,7 @@
 - Japanese: "\\8b\\b3ミルフィーユ<br>「どうして‥‥?<br> どうしてなの‥‥?"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\b3ミルフィーユ<br>「宿屋です。<br> 伴まって行かれますか?<br> <span class=\"red\">料金はいただいておりません</span>ので<br> えんりょなさらずにどうぞ。"
+- Japanese: "\\8b\\b3ミルフィーユ<br>「宿屋です。<br> 泊まって行かれますか?<br> <span class=\"red\">料金はいただいておりません</span>ので<br> えんりょなさらずにどうぞ。"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\b3ミルフィーユ<br>「????"
@@ -1477,7 +1477,7 @@
 - Japanese: "\\8b\\baタタン<br>「トルティーヤ様は、行くあての<br> ない旅に出ました。<br> ココロにぽっかりと穴があいた<br> ようです。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\bb愛の宿屋の主人<br>「愛の宿屋へようこそ。<br> お伴まりになりますか?<br> <span class=\"red\">お代はラヴでけっこう</span>ですの。"
+- Japanese: "\\8b\\bb愛の宿屋の主人<br>「愛の宿屋へようこそ。<br> お泊まりになりますか?<br> <span class=\"red\">お代はラヴでけっこう</span>ですの。"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\b7ガトー（村長）<br>「おお、旅の人か。先ほどの３人の<br> 連れの方ひゃの?"
@@ -2107,7 +2107,7 @@
 - Japanese: "\\8b\\12\\86\\8<br>「さぁ、それじゃ行こうか。<br> 目指すは<span class=\"red\">裏門</span>。<br> <span class=\"red\">裏門を守ってるドワーフが<br> カフェオレの行方を知ってる</span><br> はずだ。<br> <span class=\"red\">裏門はこの宮殿の北西のあたり</span>に<br> 位置しているはずだ。<br> まずは<span class=\"red\">トピアリー迷路の外へ</span><br> 抜けようぜ。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\12\\86\\8<br>「私達でカフェオレをさがすって<br> 決めたはずだよ。<br> <span class=\"red\">メンバーを入れ滞える必要なんて<br> ない</span>よ。"
+- Japanese: "\\8b\\12\\86\\8<br>「私達でカフェオレをさがすって<br> 決めたはずだよ。<br> <span class=\"red\">メンバーを入れ替える必要なんて<br> ない</span>よ。"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\a3バルサミコ<br>「ガナッシュ?<br> 彼は見てないなぁ。<br> このへんにいるのかい?"
@@ -2443,7 +2443,7 @@
 - Japanese: "\\8b\\14\\86\\a<br>「三年前、ガナッシュの姉貴も<br> このキャンプに参加したんだが、<br> そこから戻ってから、すっかり<br> おかしくなっちまって、コイツも<br> ピリピリしてるんだ。<br> ま、確かに世の中何が起きるか<br> わかんねぇし、戦いにそなえて<br> 心の準備をしておこうぜ。<br> 聞いておくことはねぇかい?"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0  力   守り  MP回復率<br>  妥さ  精神  キャンセル"
+- Japanese: "\\8b\\0  力   守り  MP回復率<br>  速さ  精神  キャンセル"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「<span class=\"red\">力</span>ってのは、キックやパンチの<br> 物理的な攻撃力のことさ。<br> 魔法が効かない相手もいるから、<br> そんな時はキックやパンチで<br> 倒すしかねぇ。<br> カフェオレやキルシュが<br> 高いぜ。"
@@ -2455,7 +2455,7 @@
 - Japanese: "\\8b\\14\\86\\a<br>「<span class=\"red\">MP回復率</span>ってのは、バトルの時<br> どのくらいMPが回復するかだ。<br> これが高いと、バトルで魔法を<br> ガンガンうっても平気だ。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\14\\86\\a<br>「<span class=\"red\">妥さ</span>は、素早さのことで、これが<br> 高ければ妥く行動できる。<br> バトル中、敵の攻撃を受ける前に<br> HPを回復させたい時なんかは<br> 素早いヤツに回復させるのさ。<br> ピスタチオなんか、それしか<br> 能がないんだけど、けっこう<br> チョウホウするぜ。"
+- Japanese: "\\8b\\14\\86\\a<br>「<span class=\"red\">速さ</span>は、素早さのことで、これが<br> 高ければ速く行動できる。<br> バトル中、敵の攻撃を受ける前に<br> HPを回復させたい時なんかは<br> 素早いヤツに回復させるのさ。<br> ピスタチオなんか、それしか<br> 能がないんだけど、けっこう<br> チョウホウするぜ。"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「<span class=\"red\">精神</span>が高いと、魔法の攻撃で<br> ダメージが少なくなる。<br> ブルーベリーなんかが高いんだ。<br> 彼女、体は弱いけど、シンは<br> しっかりしてるからな。"
@@ -3121,7 +3121,7 @@
 - Japanese: "\\8b\\acマドレーヌ先生<br>「<span class=\"red\">ヘルプ</span>ってのは、<span class=\"red\">メニュー</span>の時に<br> たよりになる説明のことなのよ。<br> 心の目で見てごらん。<br> たてにニつ、小さなボタンが<br> ならんでるでしょう?"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\c8MD職人・ウスター<br>「<span class=\"red\">マジックドール</span>っつったら<br> <span class=\"red\">コンボ</span>だべな。<br> 魂さ入れたヤツと同じ属性の<br> 魔法さ使うようになるでよ、<br> <span class=\"red\">マジックドール</span>にコール魔法さ<br> 衝えさせて、入魂したほうの<br> ヤツで魔法を打つだよ。<br> <span class=\"red\">マジックドール</span>はMPさ回復<br> しねぇんで、それがMPの節約<br> にもなるって寸法だべ。"
+- Japanese: "\\8b\\c8MD職人・ウスター<br>「<span class=\"red\">マジックドール</span>っつったら<br> <span class=\"red\">コンボ</span>だべな。<br> 魂さ入れたヤツと同じ属性の<br> 魔法さ使うようになるでよ、<br> <span class=\"red\">マジックドール</span>にコール魔法さ<br> 唱えさせて、入魂したほうの<br> ヤツで魔法を打つだよ。<br> <span class=\"red\">マジックドール</span>はMPさ回復<br> しねぇんで、それがMPの節約<br> にもなるって寸法だべ。"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「それの、上のほうのボタンを<br> <span class=\"red\">スタートボタン</span>って言うのよ。<br> そのボタンを押すと、<span class=\"red\">メニュー</span>が<br> 開いて、冒険のじゅんびをしたり<br> することができるのよ。<br> <span class=\"red\">メニュー</span>を開いてできるのは、<br> アイテムを使ったり装備したり、<br> 地図を見たり、それから‥‥<br> まぁ、くわしいことは、<br> <span class=\"red\">メニュー</span>を開けば、<span class=\"red\">ヘルプ</span>で<br> 確かめられるからいいか。<br> ところで\\85\\0、<br> <span class=\"red\">ヘルプ</span>のことは知ってる?"
@@ -3289,7 +3289,7 @@
 - Japanese: "\\8b\\c8アングレーズ<br>「オラ、アングレーズだ。<br> 南には<span class=\"red\">ピップルス</span>が住んでるだ。<br> <span class=\"red\">ピップルス</span>ってぇのは、<br> ネズミみてぇな連中でよ、<br> チーズの塔に住んでんだ。<br> 金のかわりにカエルグミを使う、<br> イカさねぇ連中だベさ。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\c8ベシャメル<br>「下の方が、な~んか<br> 測がしいんだけんども、<br> テイキレンラクも来ねぇし<br> よぐ、わがんねぇだ~。"
+- Japanese: "\\8b\\c8ベシャメル<br>「下の方が、な~んか<br> 騒がしいんだけんども、<br> テイキレンラクも来ねぇし<br> よぐ、わがんねぇだ~。"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「ふ~‥‥<br> なんとか勝てたけど‥‥<br> ここって、どこなの‥‥?"
@@ -3529,7 +3529,7 @@
 - Japanese: "\\8b\\bdヴォークスの男<br>「リーダーはおつかれだ。<br> またあとで来なさい。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\bfメース<br>「それじゃ、また明日来ます‥‥。<br> 今日は、宿に伴まりますから<br> 何かあったら、宿のほうへ連絡<br> おねがいします‥‥。"
+- Japanese: "\\8b\\bfメース<br>「それじゃ、また明日来ます‥‥。<br> 今日は、宿に泊まりますから<br> 何かあったら、宿のほうへ連絡<br> おねがいします‥‥。"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\bdヴォークスの男<br>「いったいどうしちまったんだ<br> シナモンじょうさん‥‥。<br> おお、すまぬ。<br> ぼーっとしておった。"
@@ -3655,10 +3655,10 @@
 - Japanese: "\\8b\\bfメース<br>「村の人にわかってもらうために<br> 大切なのは、言葉ではなく、<br> ボクが何をするかなんです。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\bdヴォークスの宿屋<br>「大人になったね‥‥<br> メースちゃん。<br> ご両親がなくなった時は<br> あんなに小さかったのに<br> ね‥‥。<br> ゴメンね、おじさん、<br> なんにもしてあげられ<br> なくて‥‥。<br> 今日は伴まって行きな。<br> みんなもいっしょに‥‥。<br> タダでいいからね。"
+- Japanese: "\\8b\\bdヴォークスの宿屋<br>「大人になったね‥‥<br> メースちゃん。<br> ご両親がなくなった時は<br> あんなに小さかったのに<br> ね‥‥。<br> ゴメンね、おじさん、<br> なんにもしてあげられ<br> なくて‥‥。<br> 今日は泊まって行きな。<br> みんなもいっしょに‥‥。<br> タダでいいからね。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\bdヴォークスの宿屋<br>「ここは宿屋です。<br> <span class=\"red\">５ブラー</span>でお休みになれます。<br> 伴まって行かれますか?"
+- Japanese: "\\8b\\bdヴォークスの宿屋<br>「ここは宿屋です。<br> <span class=\"red\">５ブラー</span>でお休みになれます。<br> 泊まって行かれますか?"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「どうして会わせて<br> もらえないんですか?<br> 教えてください。"
@@ -4108,19 +4108,19 @@
 - Japanese: ' カシスがカエルグミを<br> こっそり拾っておいてくれた！'
   English: ''
   Comments: ''
-- Japanese: "<br>  <span class=\"red\">\\87\\33</span>を<span class=\"red\">１個</span>獲得！<br> <br> [icon]のアイコンがついているのは<br> 頭に装備するアイテムだ。<br>"
+- Japanese: "<br>  <span class=\"red\">\\87\\33</span>を<span class=\"red\">１個</span>獲得！<br> <br> \\0\\5のアイコンがついているのは<br> 頭に装備するアイテムだ。<br>"
   English: ''
   Comments: ''
-- Japanese: "<br>  <span class=\"red\">\\87\\3d</span>を<span class=\"red\">１個</span>獲得！<br> <br> [icon]のアイコンがついているのは<br> 腕に装備するアイテムだ。<br>"
+- Japanese: "<br>  <span class=\"red\">\\87\\3d</span>を<span class=\"red\">１個</span>獲得！<br> <br> \\0\\6のアイコンがついているのは<br> 腕に装備するアイテムだ。<br>"
   English: ''
   Comments: ''
-- Japanese: "<br>  <span class=\"red\">\\87\\47</span>を<span class=\"red\">１個</span>獲得！<br> <br> [icon]のアイコンがついているのは<br> 体に装備するアイテムだ。<br>"
+- Japanese: "<br>  <span class=\"red\">\\87\\47</span>を<span class=\"red\">１個</span>獲得！<br> <br> \\0\\7のアイコンがついているのは<br> 体に装備するアイテムだ。<br>"
   English: ''
   Comments: ''
-- Japanese: "<br>  <span class=\"red\">\\87\\51</span>を<span class=\"red\">１個</span>獲得！<br> <br> [icon]のアイコンがついているのは<br> 足に装備するアイテムだ。<br>"
+- Japanese: "<br>  <span class=\"red\">\\87\\51</span>を<span class=\"red\">１個</span>獲得！<br> <br> \\0\\8のアイコンがついているのは<br> 足に装備するアイテムだ。<br>"
   English: ''
   Comments: ''
-- Japanese: "<br>  <span class=\"red\">\\87\\5b</span>を<span class=\"red\">１個</span>獲得！<br> <br> [icon]のアイコンがついているのは<br> アクセサリーだ。<br>"
+- Japanese: "<br>  <span class=\"red\">\\87\\5b</span>を<span class=\"red\">１個</span>獲得！<br> <br> \\0\\9のアイコンがついているのは<br> アクセサリーだ。<br>"
   English: ''
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\87\\19</span>を<span class=\"red\">１個</span>獲得！<br> <br> 食べるとHPを回復する<br> アイテムだ。<br>"
@@ -4213,10 +4213,10 @@
 - Japanese: '  宝箱のかげから<br>  何か飛び出してきた！！'
   English: ''
   Comments: ''
-- Japanese: '  宝箱の中には[icon]<span class="red">まつぼっくり</span>が<br>  <span class="red">６個</span>はいっていた！'
+- Japanese: "  宝箱の中には\\0\\e<span class=\"red\">まつぼっくり</span>が<br>  <span class=\"red\">６個</span>はいっていた！"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\c\\86\\2<br>「<span class=\"red\">[icon]まつぼっくり</span>！?"
+- Japanese: "\\8b\\c\\86\\2<br>「<span class=\"red\">\\0\\eまつぼっくり</span>！?"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「ははは。"
@@ -4237,7 +4237,7 @@
 - Japanese: "\\8b\\18\\86\\e<br>「ハァ‥‥‥‥。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\1a\\86\\10<br>「なんでカイゾクの宝が<br> <span class=\"red\">[icon]まつぼっくり</span>なんだよ！！<br> アッタマきた――――ッ！！<br> やられた――――ッ！！<br> ‥‥‥‥。<br> 帰ろ‥‥‥‥。<br> さびしい‥‥‥‥。"
+- Japanese: "\\8b\\1a\\86\\10<br>「なんでカイゾクの宝が<br> <span class=\"red\">\\0\\eまつぼっくり</span>なんだよ！！<br> アッタマきた――――ッ！！<br> やられた――――ッ！！<br> ‥‥‥‥。<br> 帰ろ‥‥‥‥。<br> さびしい‥‥‥‥。"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「あ――――っ！！"
@@ -4498,13 +4498,13 @@
 - Japanese: "\\8b\\d\\86\\3<br>「うふふっ。<br> ま、こんなものよね。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\11\\86\\7<br>「カイゾクの宝って<br> <span class=\"red\">[icon]まつぼっくり</span>ですの！?"
+- Japanese: "\\8b\\11\\86\\7<br>「カイゾクの宝って<br> <span class=\"red\">\\0\\eまつぼっくり</span>ですの！?"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\13\\86\\9<br>「<span class=\"red\">[icon]まつぼっくり</span>ヌ~！?<br> ドキドキしてソンしたヌ~！！"
+- Japanese: "\\8b\\13\\86\\9<br>「<span class=\"red\">\\0\\eまつぼっくり</span>ヌ~！?<br> ドキドキしてソンしたヌ~！！"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\15\\86\\b<br>「ひゅ~！！<br> <span class=\"red\">[icon]まつぼっくり</span>だって！?<br> リスかネズミにとっては<br> すごい宝物かも知れないけどね！"
+- Japanese: "\\8b\\15\\86\\b<br>「ひゅ~！！<br> <span class=\"red\">\\0\\eまつぼっくり</span>だって！?<br> リスかネズミにとっては<br> すごい宝物かも知れないけどね！"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\96風の精霊・エア<br>「ありがとう。<br> なかよくなりました。"
@@ -4522,7 +4522,7 @@
 - Japanese: "\\8b\\a0木の精霊・スティック<br>「オラ、木の精霊<br> スティックぐり。<br> <span class=\"red\">まつぼっくり</span>はオラの兄弟ぐり。<br> <span class=\"red\">まつぼっくり</span>を<span class=\"red\">個</span> オラに<br> わたすぐり。 "
   English: ''
   Comments: ''
-- Japanese: "\\8b\\16\\86\\c<br>「[icon]<span class=\"red\">まつぼっくり</span>~！?<br> いや~ん がっかり~"
+- Japanese: "\\8b\\16\\86\\c<br>「\\0\\e<span class=\"red\">まつぼっくり</span>~！?<br> いや~ん がっかり~"
   English: ''
   Comments: ''
 - Japanese: ''
@@ -4948,10 +4948,10 @@
 - Japanese: "\\8b\\c6謎のピップル<br>「ひとがねらってた宝箱を<br> とるんじゃねぇぜ。"
   English: ''
   Comments: ''
-- Japanese: '<br>  <span class="red">[icon]まつぼっくり</span>をひろった！'
+- Japanese: "<br>  <span class=\"red\">\\0\\eまつぼっくり</span>をひろった！"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\b9愛の大使<br>「この上には[icon]<span class=\"red\">まつぼっくり</span>が<br> たくさん落ちてるんだ。<br> まつぼっくりが欲しいなら<br> 上がってもいいだろうが、<br> 他にはなんにもねぇぞ。<br> まぁ、期待はせんことだ。"
+- Japanese: "\\8b\\b9愛の大使<br>「この上には\\0\\e<span class=\"red\">まつぼっくり</span>が<br> たくさん落ちてるんだ。<br> まつぼっくりが欲しいなら<br> 上がってもいいだろうが、<br> 他にはなんにもねぇぞ。<br> まぁ、期待はせんことだ。"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\b9愛の大使<br>「最近、モンスターが増えたので<br> 見まわっているのだ。<br> このへんに出てくるモンスターで<br> 気をつけなきゃならないのは‥‥<br> <span class=\"red\">アロリーナ</span>、<span class=\"red\">ベルチャーム</span>、<br> <span class=\"red\">ノーマジーン</span>、この３種類。<br> コイツらには魔法がきかないから<br> キックでたおすのだ。"
@@ -4975,22 +4975,22 @@
 - Japanese: "\\8b\\c8MD職人・マンゴー<br>「素材は、どれが良くて、どれが<br> 悪いとはイチガイに言えねぇ。<br> できるだけ、同じような<br> グレードでそろえた方が<br> ええだな。<br> ヘボい素材はヘボい素材と<br> 組み合わせたほうが、むしろ<br> ちゃんと使えたりする。<br> 素材がヘボいか、良品だかは<br> <span class=\"red\">ヘルプ</span>で見るとええ。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\c8MD職人・ライチ<br>「<span class=\"red\">シェル</span>は全部で８種類あるだ。<br> ヘボいモンから祥に<br>  １ <span class=\"red\">\\87\\65</span><br>  ２ <span class=\"red\">\\87\\66</span><br>  ３ <span class=\"red\">\\87\\67</span><br>  ４ <span class=\"red\">\\87\\68</span><br>  ５ <span class=\"red\">\\87\\69</span><br>  ６ <span class=\"red\">\\87\\6a</span><br> あとは、なんだったかな?<br> 忘れただ。"
+- Japanese: "\\8b\\c8MD職人・ライチ<br>「<span class=\"red\">シェル</span>は全部で８種類あるだ。<br> ヘボいモンから順に<br>  １ <span class=\"red\">\\87\\65</span><br>  ２ <span class=\"red\">\\87\\66</span><br>  ３ <span class=\"red\">\\87\\67</span><br>  ４ <span class=\"red\">\\87\\68</span><br>  ５ <span class=\"red\">\\87\\69</span><br>  ６ <span class=\"red\">\\87\\6a</span><br> あとは、なんだったかな?<br> 忘れただ。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\c8MD職人・チキータ<br>「<span class=\"red\">ジェム</span>は全部で８種類あるだ。<br> ヘボいモンから祥に<br>  １ <span class=\"red\">\\87\\6d</span><br>  ２ <span class=\"red\">\\87\\6e</span><br>  ３ <span class=\"red\">\\87\\6f</span><br>  ４ <span class=\"red\">\\87\\70</span><br>  ５ <span class=\"red\">\\87\\71</span><br>  ６ <span class=\"red\">\\87\\72</span><br> あとは、なんだったかな?<br> 忘れただ。"
+- Japanese: "\\8b\\c8MD職人・チキータ<br>「<span class=\"red\">ジェム</span>は全部で８種類あるだ。<br> ヘボいモンから順に<br>  １ <span class=\"red\">\\87\\6d</span><br>  ２ <span class=\"red\">\\87\\6e</span><br>  ３ <span class=\"red\">\\87\\6f</span><br>  ４ <span class=\"red\">\\87\\70</span><br>  ５ <span class=\"red\">\\87\\71</span><br>  ６ <span class=\"red\">\\87\\72</span><br> あとは、なんだったかな?<br> 忘れただ。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\c8MD職人・パイナポー<br>「MDに使える<span class=\"red\">フルーツ</span>は、<br> ヘボいほうから祥に<br>  １ <span class=\"red\">\\87\\75</span><br>  ２ <span class=\"red\">\\87\\76</span><br>  ３ <span class=\"red\">\\87\\77</span><br>  ４ <span class=\"red\">\\87\\78</span><br>  ５ <span class=\"red\">\\87\\79</span><br>  ６ <span class=\"red\">\\87\\7a</span><br> あと２つくれぇあったような<br> 気がするが、忘れただ。"
+- Japanese: "\\8b\\c8MD職人・パイナポー<br>「MDに使える<span class=\"red\">フルーツ</span>は、<br> ヘボいほうから順に<br>  １ <span class=\"red\">\\87\\75</span><br>  ２ <span class=\"red\">\\87\\76</span><br>  ３ <span class=\"red\">\\87\\77</span><br>  ４ <span class=\"red\">\\87\\78</span><br>  ５ <span class=\"red\">\\87\\79</span><br>  ６ <span class=\"red\">\\87\\7a</span><br> あと２つくれぇあったような<br> 気がするが、忘れただ。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\c8MD職人・マンゴスチン<br>「<span class=\"red\">キララ</span>は、グレードが５段階<br> あって、ヘボい祥で言うと‥‥<br>  １ <span class=\"red\">\\87\\7d</span><br>  ２ <span class=\"red\">\\87\\7e</span><br>  ３ <span class=\"red\">\\87\\7f</span><br> あとのニつは、見ればそれと<br> わかるだ。<br> 最高のキララは輝いてるだ。"
+- Japanese: "\\8b\\c8MD職人・マンゴスチン<br>「<span class=\"red\">キララ</span>は、グレードが５段階<br> あって、ヘボい順で言うと‥‥<br>  １ <span class=\"red\">\\87\\7d</span><br>  ２ <span class=\"red\">\\87\\7e</span><br>  ３ <span class=\"red\">\\87\\7f</span><br> あとのニつは、見ればそれと<br> わかるだ。<br> 最高のキララは輝いてるだ。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\c8MD職人・フィグ<br>「<span class=\"red\">ガット</span>は、グレードが５段階<br> あって、ヘボい祥で言うと‥‥<br>  １ <span class=\"red\">\\87\\82</span><br>  ２ <span class=\"red\">\\87\\83</span><br>  ３ <span class=\"red\">\\87\\84</span><br> あとニつほどあるらしいが、<br> オラ、見たことね。"
+- Japanese: "\\8b\\c8MD職人・フィグ<br>「<span class=\"red\">ガット</span>は、グレードが５段階<br> あって、ヘボい順で言うと‥‥<br>  １ <span class=\"red\">\\87\\82</span><br>  ２ <span class=\"red\">\\87\\83</span><br>  ３ <span class=\"red\">\\87\\84</span><br> あとニつほどあるらしいが、<br> オラ、見たことね。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\c8MD職人・カカオ<br>「MDは個体によって<br> ちょっとずつ個性があるだ。<br> MD０５－サーディンは、<br> 妥さがちょっと妥ぇんだな。<br> 闇のプレーンに行っちまった<br> ドロっつーのが作ったMDは<br> 別の能力が高かったべさ。"
+- Japanese: "\\8b\\c8MD職人・カカオ<br>「MDは個体によって<br> ちょっとずつ個性があるだ。<br> MD０５－サーディンは、<br> 速さがちょっと速ぇんだな。<br> 闇のプレーンに行っちまった<br> ドロっつーのが作ったMDは<br> 別の能力が高かったべさ。"
   English: ''
   Comments: ''
 - Japanese: ''
@@ -5074,7 +5074,7 @@
 - Japanese: '<br>   お金が足りないみたい。'
   English: ''
   Comments: ''
-- Japanese: ' カウンターに<span class="red">５ブラー</span>置いて<br> 勝手に伴まって行きますか?'
+- Japanese: ' カウンターに<span class="red">５ブラー</span>置いて<br> 勝手に泊まって行きますか?'
   English: ''
   Comments: ''
 - Japanese: "\\8b\\ce古代機械<br>「<i>シンニュウシャ ハッケン‥‥<br> シンニュウシャ ハッケン‥‥</i>"
@@ -5581,7 +5581,7 @@
 - Japanese: "\\8b\\14\\86\\a<br>「アンタが本気なら、<br> もう止めはしないぜ。<br> GOOD LUCK！<br> 死ぬなよ、シナモン！"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\c1ニャムネルトの宿屋<br>「ここは宿屋よ。<br> 見ての通り、オンボロだけど、<br> 伴まりたかったら、５ブラー<br> はらってね。"
+- Japanese: "\\8b\\c1ニャムネルトの宿屋<br>「ここは宿屋よ。<br> 見ての通り、オンボロだけど、<br> 泊まりたかったら、５ブラー<br> はらってね。"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\c1ニャムネルトの宿屋<br>「お金が足りないみたいよ。"
@@ -5680,7 +5680,7 @@
 - Japanese: "\\8b\\c5ペパロニの霊体<br>「うにゃにゃ~ん<br> うにゃにゃにゃにゃ~ん"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ミーロリ銀貨の数：<br>  ミーロリ銀貨２枚あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eミーロリ銀貨の数：<br>  ミーロリ銀貨２枚あげる<br>  キャンセル"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「気をつけんのは<br> そっちだろうが！！<br> 魚のクセに<br> ナメんじゃねぇぞ！！"
@@ -6037,55 +6037,55 @@
 - Japanese: '  北 <span class="red">ワクティ村</span><br>  南 <span class="red">レーミッツ宮殿</span><br>  東 <span class="red">文鳥温泉</span>'
   English: ''
   Comments: ''
-- Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">回復の泉</span><br> 現在までにお伴まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
+- Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">回復の泉</span><br> 現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">大浴場</span><br> 現在までにお伴まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
+- Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">大浴場</span><br> 現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">大岩温泉</span><br> 現在までにお伴まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
+- Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">大岩温泉</span><br> 現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">石灰棚温泉</span><br> 現在までにお伴まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
+- Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">石灰棚温泉</span><br> 現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">五右衛門風呂</span><br> 現在までにお伴まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
+- Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">五右衛門風呂</span><br> 現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">滝の湯</span><br> 現在までにお伴まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
+- Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">滝の湯</span><br> 現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">ジャグジー</span><br> 現在までにお伴まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
+- Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">ジャグジー</span><br> 現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">ローマ大理石風呂</span><br> 現在までにお伴まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
+- Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">ローマ大理石風呂</span><br> 現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">ジャングル風呂</span><br> 現在までにお伴まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
+- Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">ジャングル風呂</span><br> 現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">ひのき風呂</span><br> 現在までにお伴まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
+- Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">ひのき風呂</span><br> 現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">宝石の泉</span><br> 現在までにお伴まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
+- Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">宝石の泉</span><br> 現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">ハーレム風呂</span><br> 現在までにお伴まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
+- Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">ハーレム風呂</span><br> 現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">アジアンリゾート</span><br> 現在までにお伴まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
+- Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">アジアンリゾート</span><br> 現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">御殿風呂</span><br> 現在までにお伴まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
+- Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">御殿風呂</span><br> 現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">赤池地獄</span><br> 現在までにお伴まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
+- Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">赤池地獄</span><br> 現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">ドラム缶風呂</span><br> 現在までにお伴まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
+- Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">ドラム缶風呂</span><br> 現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\ab「現在までにお伴まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
+- Japanese: "\\8b\\ab「現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
   English: ''
   Comments: ''
 - Japanese: ''
@@ -7381,7 +7381,7 @@
 - Japanese: "\\8b\\beシナモン<br>「あら、おひさしぶり。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\beシナモン<br>「ここに、つい最近までメースが<br> 伴まっていたらしいんだけど‥‥<br> その先がどこへ行ったか<br> わからなくって‥‥‥‥<br> メースがどこへ行ったか、<br> 心当たりはありませんか！?"
+- Japanese: "\\8b\\beシナモン<br>「ここに、つい最近までメースが<br> 泊まっていたらしいんだけど‥‥<br> その先がどこへ行ったか<br> わからなくって‥‥‥‥<br> メースがどこへ行ったか、<br> 心当たりはありませんか！?"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\0  こんにゃく様の村にいる<br>  どこかでのたれ死んだ<br>  わからない"
@@ -7492,7 +7492,7 @@
 - Japanese: ''
   English: ''
   Comments: ''
-- Japanese: "\\8b\\cc知識のツボ・フグ<br>「<span class=\"red\">成宣表</span>には、あなたの冒険の<br> 成果が自動的に記録されます。<br> 勝率などが記録されてるので<br> なんとな~く、逃げちゃいけない<br> ような気がしてきます。"
+- Japanese: "\\8b\\cc知識のツボ・フグ<br>「<span class=\"red\">成績表</span>には、あなたの冒険の<br> 成果が自動的に記録されます。<br> 勝率などが記録されてるので<br> なんとな~く、逃げちゃいけない<br> ような気がしてきます。"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\cc知識のツボ・キャパマキィ<br>「ケーブルをつないでゲームを<br> はじめると‥‥‥‥<br> <span class=\"red\">レッツ温泉</span>で他の人のカセットの<br> 温泉に入ることができるのです。"
@@ -7954,7 +7954,7 @@
 - Japanese: "\\8b\\1a\\86\\10<br>「なんじゃ、そりゃ。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\12\\86\\8<br>「まぁ、いいか。<br> 主役もああ言ってることだし、<br> \\85\\0が決めてくれ。<br> これ以上 ややこしくなるの<br> もうイヤだ。<br> ああ、そうそう、<br> パーティは今まで通り、<br> ６人までで行こうね。<br> パーティの入れ滞えは<br> 魔バスでできるってこと<br> 忘れないでね。<br> カフェオレもちょっと<br> 壊れかかってるけど、<br> ばんばん使っていいからね。<br> とりあえず、ガナッシュ達を<br> 探して、みんなが待ってる<br> ことを伝えてちょうだい。<br> それじゃ！<br> GOOD LUCK！"
+- Japanese: "\\8b\\12\\86\\8<br>「まぁ、いいか。<br> 主役もああ言ってることだし、<br> \\85\\0が決めてくれ。<br> これ以上 ややこしくなるの<br> もうイヤだ。<br> ああ、そうそう、<br> パーティは今まで通り、<br> ６人までで行こうね。<br> パーティの入れ替えは<br> 魔バスでできるってこと<br> 忘れないでね。<br> カフェオレもちょっと<br> 壊れかかってるけど、<br> ばんばん使っていいからね。<br> とりあえず、ガナッシュ達を<br> 探して、みんなが待ってる<br> ことを伝えてちょうだい。<br> それじゃ！<br> GOOD LUCK！"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「それじゃ\\85\\0、<br> オイラはここに残るっぴ！！<br> それでいいっぴか！?"
@@ -8062,7 +8062,7 @@
 - Japanese: "\\8b\\3cでっかいけもの<br>「<i>さすがアネゴ！！<br> ハートを感じるぜ！！<br> ハートと言えば、</i><span class=\"red\">リギニオ密林</span><i>で<br> ハートのカタチの精霊を見た<br> ことがあるぜ！！</i>"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\3cでっかいけもの<br>「<span class=\"red\">リギニオ密林</span><i>でハート敬の<br> 精霊を見たことがあるぜ！！<br> ハートだぜハート！！<br> オレも愛に生きるぜ！！</i>"
+- Japanese: "\\8b\\3cでっかいけもの<br>「<span class=\"red\">リギニオ密林</span><i>でハート型の<br> 精霊を見たことがあるぜ！！<br> ハートだぜハート！！<br> オレも愛に生きるぜ！！</i>"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\3cでっかいけもの<br>「<i>ふが――――っ！！</i>"
@@ -9373,7 +9373,7 @@
 - Japanese: "\\8b\\c6ピップルス<br>「話は聞いてるぜ。<br> オカシラに会うんだって?<br> １階のバラカに<br> <span class=\"red\">\\87\\89</span>をわたしな。<br> 話をつけてくれるはずさ。<br> 入り口の近くで、<span class=\"red\">チーズに<br> かこまれて、しあわせそう<br> にしてるヤツ</span>がバラカだ。<br> まちがえるなよ。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\c6ピップルス<br>「話は聞いてるぜ。<br> オカシラに会うんだって?<br> ２階のヌシャテルに<br> <span class=\"red\">\\87\\8a</span>をわたしな。<br> 話をつけてくれるはずさ。<br> ヌシャテルは、<span class=\"red\">とにかく足が<br> 妥い</span>んだ。<br> 見ればすぐわかるぜ。"
+- Japanese: "\\8b\\c6ピップルス<br>「話は聞いてるぜ。<br> オカシラに会うんだって?<br> ２階のヌシャテルに<br> <span class=\"red\">\\87\\8a</span>をわたしな。<br> 話をつけてくれるはずさ。<br> ヌシャテルは、<span class=\"red\">とにかく足が<br> 速い</span>んだ。<br> 見ればすぐわかるぜ。"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「話は聞いてるぜ。<br> オカシラに会うんだって?<br> ２階のクロミエに<br> <span class=\"red\">\\87\\8b</span>をわたしな。<br> 話をつけてくれるはずさ。<br> クロミエはオレとちがって<br> のんびり屋だからな。<br> <span class=\"red\">ゆっくり歩いてる</span>のが、<br> クロミエだ。<br> まちがえるなよ。"
@@ -10246,7 +10246,7 @@
 - Japanese: "\\8b\\d3こんにゃく様<br>「文鳥がジャマで<br> 通れないぺたん！！<br> 闇のプレーンの文鳥は、根性が<br> すわってて、なかなか動いて<br> くれないでぺた―――ん！！"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\d1エニグマ<br>「逃げ足だけは妥いようだな‥‥。<br> くっくっくっく‥‥。"
+- Japanese: "\\8b\\d1エニグマ<br>「逃げ足だけは速いようだな‥‥。<br> くっくっくっく‥‥。"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>アチ~！！<br> シヌ~！！<br> モウ マチヘモドロウ！！<br> ダメダ~！！</i>"
@@ -10621,7 +10621,7 @@
 - Japanese: "\\8b\\17\\86\\d<br>「<i>ツボガ キエタ！！<br> イッタイドウシテダ！?</i>"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\18\\86\\e<br>「！！！！！！！<br> ツボが消えたっぴ！！！<br> 心霊現賞だっぴ！！！<br> オバケの仕業だっぴ！！！"
+- Japanese: "\\8b\\18\\86\\e<br>「！！！！！！！<br> ツボが消えたっぴ！！！<br> 心霊現象だっぴ！！！<br> オバケの仕業だっぴ！！！"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\19\\86\\f<br>「キャンディ！！<br> ツボが消えたわ！！"
@@ -11077,7 +11077,7 @@
 - Japanese: "\\8b\\c0ムスク<br>「ああ、ごめんごめん。<br> 話が長くてわかり<br> づらかったろう?<br> 妹のココアに<span class=\"red\">メモ</span>を<br> わたしておくから、あとは<br> 妹に聞いておくれ。<br> それじゃ。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\c0ムスク<br>「キミたち、見かけない顔だね。<br> さっきもキミたちくらいの子供が<br> 何人か、この村を通って、東の<br> <span class=\"red\">エニグマの森</span>へ向かったよ。<br> このあたりは、文鳥がジャマで<br> 通れなかったり、砂漠は熱くて<br> バテたりで、たいへんだろう?<br> さっき来てた子供らは、宿屋に<br> 伴まってたヴォークスの少年に<br> 文鳥のどかしかたを聞いてたよ。<br> 私は、文鳥のどかし方は知らない<br> のだが、上手な砂漠の歩き方なら<br> わかるよ。<br> でも、今はいそぐし、教えても<br> 意味が無いから、またあとでね。"
+- Japanese: "\\8b\\c0ムスク<br>「キミたち、見かけない顔だね。<br> さっきもキミたちくらいの子供が<br> 何人か、この村を通って、東の<br> <span class=\"red\">エニグマの森</span>へ向かったよ。<br> このあたりは、文鳥がジャマで<br> 通れなかったり、砂漠は熱くて<br> バテたりで、たいへんだろう?<br> さっき来てた子供らは、宿屋に<br> 泊まってたヴォークスの少年に<br> 文鳥のどかしかたを聞いてたよ。<br> 私は、文鳥のどかし方は知らない<br> のだが、上手な砂漠の歩き方なら<br> わかるよ。<br> でも、今はいそぐし、教えても<br> 意味が無いから、またあとでね。"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\c1ニャムネルトのエラそうなおじさん<br>「ムスクくんは、この村から<br> 出て行ったよ。<br> そうそう、キミらくらいの子供が<br> たずねてきたら、メッセージを<br> 伝えるように言われたんだ。<br> <span class=\"red\">砂漠では、時々アメフラシに<br> ふれながら歩くといい</span>そうだ。<br> 私なんか、そんなことまでして<br> 砂漠を歩きたいとは思わない<br> がねぇ。"
@@ -11191,10 +11191,10 @@
 - Japanese: "\\8b\\ccポット族の少女<br>「ツボって不幸?"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\ccポット族の宿屋<br>「うちは、宿屋かも知れません。<br> 空間がねじまがってしまって<br> わからなくなってしまいました。<br> もしも宿屋だったら、<br> <span class=\"red\">５ブラー</span>で伴まって行って<br> ください。"
+- Japanese: "\\8b\\ccポット族の宿屋<br>「うちは、宿屋かも知れません。<br> 空間がねじまがってしまって<br> わからなくなってしまいました。<br> もしも宿屋だったら、<br> <span class=\"red\">５ブラー</span>で泊まって行って<br> ください。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\ccポット族の宿屋<br>「宿屋です。<br> <span class=\"red\">５ブラー</span>で伴まれます。"
+- Japanese: "\\8b\\ccポット族の宿屋<br>「宿屋です。<br> <span class=\"red\">５ブラー</span>で泊まれます。"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\cbポット族の長<br>「ムスコのクラインが、みなに<br> めーわくをかけております。<br> ムスコはみなを楽しませようと<br> 空間のねじまげのケンキュウを<br> はじめました。<br> しかし、楽しみも長くは続きま<br> せん。楽しいことを終われば、<br> また、楽しくなるのです。<br> こうして、時は流れ、誰もが<br> ひとえに、みなさまのおかげで<br> 今にいたりました。<br> おりしも、太陽のめぐみが<br> さんさんとカガヤク８月、<br> もし、そうなら、どうしますか?"
@@ -11233,10 +11233,10 @@
 - Japanese: "\\8b\\cbポット族のおばぁさん<br>「次のねじまがりは<br> いつ頃になるかのぉ。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\ccポット族の伴まり客<br>「以前、<span class=\"red\">タンドーリ</span>に行ったことが<br> あります。<br> あそこは、迷いやすいので<br> 注意してください。<br> 行きは宝箱、帰りは迷いツボが<br> 目印になります。<br> 忘れないでください。<br> ４月１９日、旅の宿にて。<br> 愛をこめて。"
+- Japanese: "\\8b\\ccポット族の泊まり客<br>「以前、<span class=\"red\">タンドーリ</span>に行ったことが<br> あります。<br> あそこは、迷いやすいので<br> 注意してください。<br> 行きは宝箱、帰りは迷いツボが<br> 目印になります。<br> 忘れないでください。<br> ４月１９日、旅の宿にて。<br> 愛をこめて。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\ccポット族の伴まり客<br>「できることならば、<br> ツボになりたい。<br> あなたは、そう思っている。"
+- Japanese: "\\8b\\ccポット族の泊まり客<br>「できることならば、<br> ツボになりたい。<br> あなたは、そう思っている。"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\ccポット族の青年<br>「角ばったツボになりたい！<br> 空間がねじまがってる今が<br> チャンスのような気がする！"
@@ -11500,7 +11500,7 @@
 - Japanese: "\\8b\\d\\86\\3<br>「<span class=\"red\">運命の３匹のカエル</span>を<br> つかまえろって言ってるわ。<br> <span class=\"red\">運命の３匹のカエル</span>は<br> 他のカエルとは違うみたい。<br> どう違うかまでは、<br> よくわからなかったけど。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\d\\86\\3<br>「<span class=\"red\">運命のカエル</span>は、緑、青、赤<br> の祥に１匹ずつ現われる。<br> これを<span class=\"red\">３匹をつかまえた時に<br> 閉じた回廊が開く</span>んだって。"
+- Japanese: "\\8b\\d\\86\\3<br>「<span class=\"red\">運命のカエル</span>は、緑、青、赤<br> の順に１匹ずつ現われる。<br> これを<span class=\"red\">３匹をつかまえた時に<br> 閉じた回廊が開く</span>んだって。"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「ここにいる、運命のカエルじゃ<br> ないカエルは<br> 私たちが獲ったカエルの<br> 亡霊なんだって。"
@@ -11551,7 +11551,7 @@
 - Japanese: "\\8b\\d\\86\\3<br>「カラマリィ?"
   English: "\\8b\\0d\\86\\03\nCalamari?"
   Comments: ''
-- Japanese: "\\8b\\12\\86\\8<br>「ホシュウ用の魔動人形よ。<br> マジックドールとも言うわ。<br> 成宣の悪い子は、コイツと<br> 戦わなきゃいけないの。<br> それで負ければ、落第決定。<br> ブルーベリーは優等生だから<br> 関係ないけどね。"
+- Japanese: "\\8b\\12\\86\\8<br>「ホシュウ用の魔動人形よ。<br> マジックドールとも言うわ。<br> 成績の悪い子は、コイツと<br> 戦わなきゃいけないの。<br> それで負ければ、落第決定。<br> ブルーベリーは優等生だから<br> 関係ないけどね。"
   English: "\\8b\\12\\86\\08\nThe magical doll used for makeup \nclasses. Those with poor grades have\nto fight it.\nIf you lose, you'll flunk out for sure.\nAlthough this doesn't apply to you \nBlueberry since you're a model student.\n"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「オイラ、落第はできないっぴ！！<br> 落第なんてしたら‥‥‥<br> パパもママも、もうこの学校には<br> 通わせてくれないっぴ！！<br> オイラ、強くなりたいっぴ！！<br> マジックドールにも、キルシュや<br> \\85\\0にも勝てるように<br> なりたいっぴ！！"
@@ -11779,13 +11779,13 @@
   English: "\\8b\\0f\\86\\05\nMe too!"
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「ちょっと待ちなさい！！<br> ニ人で行かないでいいでしょ！?"
-  English: "\\8b\\acマドレーヌ先生\nWait just a moment!\nOnly one person needs to go!"
+  English: "\\8b\\acMiss Madeleine\nWait just a moment!\nOnly one person needs to go!"
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「あっ！！<br> オリーブ！！"
   English: "\\8b\\0f\\86\\05\nAh!\nOlive!"
   Comments: ''
-- Japanese: "\\8b\\acマドレーヌ先生<br>「なんだかな~<br> あ、そうそう、忘れてた！<br> <span class=\"red\">\\87\\e</span>を配りまーす。<br> 前の人から祥にまわして<br> くださーい。<br> <span class=\"red\">\\87\\e</span><span class=\"blue\">には、重要な情報が<br> 自動的に書きこまれるので、<br> 時々見るようにしてくださいね。</span>"
-  English: "\\8b\\acMiss Madeleine\nI wonder what he wanted?\nAh, yes, I almost forget!\nI'll be passing out the\n\\8e\\87\\0e\\8d."
+- Japanese: "\\8b\\acマドレーヌ先生<br>「なんだかな~<br> あ、そうそう、忘れてた！<br> <span class=\"red\">\\87\\e</span>を配りまーす。<br> 前の人から順にまわして<br> くださーい。<br> <span class=\"red\">\\87\\e</span><span class=\"blue\">には、重要な情報が<br> 自動的に書きこまれるので、<br> 時々見るようにしてくださいね。</span>"
+  English: "\\8b\\acMiss Madeleine\nI wonder what he wanted?\nAh, yes, I almost forget!\nI'll be passing out the\n\\8e\\87\\0e\\8d.\nPlease take one and pass it on.\nThe \\8e\\87\\0e\\8f will have\nimportant information automatically\nwritten to it so please check it from\ntime to time."
   Comments: ''
 - Japanese: "\\8b\\a8ヴァニラ<br>「やっぱりここにいたのね！！"
   English: "\\8b\\a8Vanilla\nSo you were here!"
@@ -11800,28 +11800,28 @@
   English: "\\8b\\10\\86\\06\n...\nOh, it's Olive..."
   Comments: ''
 - Japanese: "\\8b\\19\\86\\f<br>「お姉さんのこと<br> 考えてたんでしょ?"
-  English: "\\8b\\19\\86\\0f\nWere you thinking about\nyour sister?"
+  English: "\\8b\\19\\86\\0f\nYou were thinking about your\nsister weren't you?"
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「‥‥‥‥<br> お見通しか‥‥‥‥。<br> そこまで見すかされるのも<br> ツライもんがあるな。"
-  English: "\\8b\\10\\86\\06\n...\nYou \n\n"
-  Comments: ''
+  English: "\\8b\\10\\86\\06\n...\nIs it that obvious...\nIt's difficult you know, feeling\nlike I'm just being seen right through."
+  Comments: This is hard to translate.
 - Japanese: "\\8b\\19\\86\\f<br>「ずっと逃げてばかりじゃ<br> ダメよ‥‥‥‥。<br> <span class=\"red\">ヴァレンシア海岸</span>で何があったか<br> ちゃんと調べてみようよ‥‥‥。"
-  English: ''
+  English: "\\8b\\19\\86\\0f\nYou can't just run away forever...\nLet's figure out what exactly happened\nat \\8eValencia Beach\\8d..."
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「何もないよ。<br> 海岸にはただ、波が打ちよせて<br> いるだけさ。<br> 楽しく笑ってるヤツらを横目に<br> 見て、自分の血を呪うんだ。"
-  English: ''
+  English: "\\8b\\10\\86\\06\nNothing happened there.\nThere's only the waves crashing\ninto the shore.\nWhen I see those who laugh happily out\nof the corner of my eye, I curse my\nbloodline."
   Comments: ''
 - Japanese: "\\8b\\19\\86\\f<br>「そんなんじゃないよ‥‥。<br> わかるんだ‥‥。<br> 何かが起きるの。<br> 海岸で何かが起きて‥‥、<br> みんないなくなる‥‥！！"
-  English: ''
+  English: "\\8b\\19\\86\\0f\nThat's not true...\nI know that...\nSomething's going to happen.\nSomething's going to happen at the\nbeach and everyone's going to disappear!"
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「オレの姉のように‥‥‥?"
-  English: ''
+  English: "\\8b\\10\\86\\06\nYou mean like how my sister...?"
   Comments: ''
 - Japanese: "\\8b\\19\\86\\f<br>「助けて！！<br> みんなを助けて！！"
-  English: ''
+  English: "\\8b\\19\\86\\0f\nPlease!\nPlease save everyone!"
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\87\\e</span>をもらった。"
-  English: ''
+  English: "You received a \\8e\\87\\0e\\8d."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「ショコラちゃんは学校の近くに<br> 一人で住んでますの?"
   English: ''
@@ -12669,7 +12669,7 @@
 - Japanese: "\\8b\\cfマッドマン<br>「魔法を極めれば‥‥‥<br> 一つのプレーンすら<br> 作れるようになるんだなっす。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\cfマッドマン<br>「サービス満点。<br> 宿屋なんだなっす。<br> <span class=\"red\">５ブラー</span>で伴まれるんだなっす。"
+- Japanese: "\\8b\\cfマッドマン<br>「サービス満点。<br> 宿屋なんだなっす。<br> <span class=\"red\">５ブラー</span>で泊まれるんだなっす。"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\cfマッドマン<br>「お金がたりないんだなっす。"
@@ -13086,7 +13086,7 @@
 - Japanese: "\\8b\\d\\86\\3<br>「全ての魔法を覚えると<br> 光の魔法使いになれるって。<br> そんなこと言われても<br> あまりにも遠い道のりだわ。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\d\\86\\3<br>「<span class=\"red\">[icon]まつぼっくり</span>をたくさん拾うと<br> 現れる精霊がいるんですって。<br> <span class=\"red\">[icon]まつぼっくり</span>は、どんどん<br> 拾ったほうがいいって言ってる<br> わ。"
+- Japanese: "\\8b\\d\\86\\3<br>「<span class=\"red\">\\0\\eまつぼっくり</span>をたくさん拾うと<br> 現れる精霊がいるんですって。<br> <span class=\"red\">\\0\\eまつぼっくり</span>は、どんどん<br> 拾ったほうがいいって言ってる<br> わ。"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「石の精霊は、ミミズグミが<br> ほった穴から出てくる?<br> 何のことを言ってるのか<br> ちょっとよくわからないけど、<br> ミミズグミを獲った数と、<br> 石の精霊が出てくる<br> 条件に関係があるらしいわ。<br> ミミズグミは、どんどん<br> 獲ったほうがいいみたいね。"
@@ -13128,7 +13128,7 @@
 - Japanese: "\\8b\\d\\86\\3<br>「アミーゴは宇宙の外にいて<br> 力を分け与えてくれる‥‥‥?<br> 何を言ってるのか、私には<br> さっぱりわからない。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\d\\86\\3<br>「精霊を全て仲間にすることも<br> できるらしいわよ。<br> 仲間にする祥番が重要らしいわ。"
+- Japanese: "\\8b\\d\\86\\3<br>「精霊を全て仲間にすることも<br> できるらしいわよ。<br> 仲間にする順番が重要らしいわ。"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「ウォーターピープルは、昔は<br> 一人だったんだって。<br> そして、山よりも大きかったって<br> 言ってるわ。"
@@ -14280,7 +14280,7 @@
 - Japanese: "\\8b\\b6パペットのツボコレクター<br>「あっしは知識のツボの<br> コレクター。<br> ツボの知識を役に立てて<br> ください。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\c8ドワーフの宿屋<br>「ここはドワーフの宿。<br> ヒゲのかくれ家だべ。<br> 朝のヒゲそりは禁止だが、<br> <span class=\"red\">５ブラー</span>で伴まるべ?"
+- Japanese: "\\8b\\c8ドワーフの宿屋<br>「ここはドワーフの宿。<br> ヒゲのかくれ家だべ。<br> 朝のヒゲそりは禁止だが、<br> <span class=\"red\">５ブラー</span>で泊まるべ?"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\c8ドワーフの宿屋<br>「金が足りねぇだ。"
@@ -14316,7 +14316,7 @@
 - Japanese: "\\8b\\cc知識のツボ・シャリィ<br>「<span class=\"red\">カエルグミ</span>も<span class=\"red\">ミミズグミ</span>も<br> とればとるほど減っていく。<br> 最後にはいなくなるけど、<br> そんなにとる人は、めったに<br> いないでしょう。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\cc知識のツボ・サヴァ<br>「<span class=\"red\">バトル</span>のコマンド入力祥は<br> すばやさ祥。<br> 行動もすばやさ祥だから、<br> うまく考えて行動すると、<br> <span class=\"red\">コンボ</span>をねらえるよ。<br> たとえば、妥い人が精霊を<br> 呼んで、次の人が魔法を<br> 放つとかね。<br> パーティの中で、同じ属性の<br> 魔法を使える人がいないと<br> できないけどね。"
+- Japanese: "\\8b\\cc知識のツボ・サヴァ<br>「<span class=\"red\">バトル</span>のコマンド入力順は<br> すばやさ順。<br> 行動もすばやさ順だから、<br> うまく考えて行動すると、<br> <span class=\"red\">コンボ</span>をねらえるよ。<br> たとえば、速い人が精霊を<br> 呼んで、次の人が魔法を<br> 放つとかね。<br> パーティの中で、同じ属性の<br> 魔法を使える人がいないと<br> できないけどね。"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\cc知識のツボ・イクラァ<br>「<span class=\"red\">HP</span>が低い子や、<span class=\"red\">ぼうぎょ</span>が<br> 低い子は後ろに下げよう。<br> <span class=\"red\">メニュー</span>の<span class=\"red\">フォーメーション</span>で<br> <span class=\"red\">バトル</span>の時のならび方を<br> 変えられるよ。"
@@ -14415,13 +14415,13 @@
 - Japanese: "\\8b\\dcギュウヒ・オグラ<br>「この宮殿は挑む者の思いを<br> 反映するのであ~る！<br> おまえたちが、より困難な道を<br> 望めば、<span class=\"red\">ガラムマサラ</span>は<br> それに応えるのであ~る！！<br> そこでオマエたちに聞く！！<br> オマエたちは、この宮殿に<br> 何を望むかっ！?"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0  ヌルめのオマケ的な冒険<br>  それなりにハードな試昭<br>  オニのように辛く苦しい道"
+- Japanese: "\\8b\\0  ヌルめのオマケ的な冒険<br>  それなりにハードな試練<br>  オニのように辛く苦しい道"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\dcギュウヒ・オグラ<br>「<span class=\"red\">ヌル</span>めの<span class=\"red\">ガラムマサラ</span>には<br> <span class=\"red\">ラストのお楽しみがない</span>が‥‥<br> <span class=\"red\">ヌル</span>めでいいんじゃな?"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\dcギュウヒ・オグラ<br>「ハードな試昭‥‥‥‥、<br> <span class=\"red\">かなりキツイ</span>が、いいんじゃな?"
+- Japanese: "\\8b\\dcギュウヒ・オグラ<br>「ハードな試練‥‥‥‥、<br> <span class=\"red\">かなりキツイ</span>が、いいんじゃな?"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\dcギュウヒ・オグラ<br>「<span class=\"red\">ムボウ</span>にも、<span class=\"red\">オニモード</span>を<br> 選ぶか‥‥‥‥。<br> <span class=\"red\">オニモード</span>には、まさに<span class=\"red\">オニの<br> 仕打ち</span>がまってお~る！！<br> はっきり言って、<span class=\"red\">まだ誰も<br> オニモードを極めた者はおらん！</span><br> <span class=\"red\">クリアできるかどうかすら、<br> 誰にもわからん！</span><br> それでも、いいんじゃな?"
@@ -14541,250 +14541,250 @@
 - Japanese: "\\8b\\f\\86\\5<br>「ありがとう‥‥‥<br> みんな、ありがとう‥‥‥"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ミーロリ銀貨の数：<br>  <span class=\"red\">[icon]ミーロリ銀貨２枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eミーロリ銀貨の数：<br>  <span class=\"red\">\\0\\eミーロリ銀貨２枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ミーロリ銀貨の数：<br>  <span class=\"red\">[icon]ミーロリ銀貨３枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eミーロリ銀貨の数：<br>  <span class=\"red\">\\0\\eミーロリ銀貨３枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ミーロリ銀貨の数：<br>  <span class=\"red\">[icon]ミーロリ銀貨４枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eミーロリ銀貨の数：<br>  <span class=\"red\">\\0\\eミーロリ銀貨４枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ミーロリ銀貨の数：<br>  <span class=\"red\">[icon]ミーロリ銀貨６枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eミーロリ銀貨の数：<br>  <span class=\"red\">\\0\\eミーロリ銀貨６枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ミーロリ銀貨の数：<br>  <span class=\"red\">[icon]ミーロリ銀貨１２枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eミーロリ銀貨の数：<br>  <span class=\"red\">\\0\\eミーロリ銀貨１２枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ミーロリ銀貨の数：<br>  <span class=\"red\">[icon]ミーロリ銀貨２０枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eミーロリ銀貨の数：<br>  <span class=\"red\">\\0\\eミーロリ銀貨２０枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ミーロリ銀貨の数：<br>  <span class=\"red\">[icon]ミーロリ銀貨４０枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eミーロリ銀貨の数：<br>  <span class=\"red\">\\0\\eミーロリ銀貨４０枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]アルティ銀貨の数：<br>  <span class=\"red\">[icon]アルティ銀貨１枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eアルティ銀貨の数：<br>  <span class=\"red\">\\0\\eアルティ銀貨１枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]アルティ銀貨の数：<br>  <span class=\"red\">[icon]アルティ銀貨３枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eアルティ銀貨の数：<br>  <span class=\"red\">\\0\\eアルティ銀貨３枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]アルティ銀貨の数：<br>  <span class=\"red\">[icon]アルティ銀貨９枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eアルティ銀貨の数：<br>  <span class=\"red\">\\0\\eアルティ銀貨９枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]アルティ銀貨の数：<br>  <span class=\"red\">[icon]アルティ銀貨１４枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eアルティ銀貨の数：<br>  <span class=\"red\">\\0\\eアルティ銀貨１４枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]アルティ銀貨の数：<br>  <span class=\"red\">[icon]アルティ銀貨１９枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eアルティ銀貨の数：<br>  <span class=\"red\">\\0\\eアルティ銀貨１９枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]アルティ銀貨の数：<br>  <span class=\"red\">[icon]アルティ銀貨２７枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eアルティ銀貨の数：<br>  <span class=\"red\">\\0\\eアルティ銀貨２７枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ラシモフ銀貨の数：<br>  <span class=\"red\">[icon]ラシモフ銀貨１枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eラシモフ銀貨の数：<br>  <span class=\"red\">\\0\\eラシモフ銀貨１枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ラシモフ銀貨の数：<br>  <span class=\"red\">[icon]ラシモフ銀貨２枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eラシモフ銀貨の数：<br>  <span class=\"red\">\\0\\eラシモフ銀貨２枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ラシモフ銀貨の数：<br>  <span class=\"red\">[icon]ラシモフ銀貨５枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eラシモフ銀貨の数：<br>  <span class=\"red\">\\0\\eラシモフ銀貨５枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ラシモフ銀貨の数：<br>  <span class=\"red\">[icon]ラシモフ銀貨１０枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eラシモフ銀貨の数：<br>  <span class=\"red\">\\0\\eラシモフ銀貨１０枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ラシモフ銀貨の数：<br>  <span class=\"red\">[icon]ラシモフ銀貨２０枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eラシモフ銀貨の数：<br>  <span class=\"red\">\\0\\eラシモフ銀貨２０枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ラシモフ銀貨の数：<br>  <span class=\"red\">[icon]ラシモフ銀貨４０枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eラシモフ銀貨の数：<br>  <span class=\"red\">\\0\\eラシモフ銀貨４０枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]クレセント銀貨の数：<br>  <span class=\"red\">[icon]クレセント銀貨２枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eクレセント銀貨の数：<br>  <span class=\"red\">\\0\\eクレセント銀貨２枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]クレセント銀貨の数：<br>  <span class=\"red\">[icon]クレセント銀貨４枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eクレセント銀貨の数：<br>  <span class=\"red\">\\0\\eクレセント銀貨４枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]クレセント銀貨の数：<br>  <span class=\"red\">[icon]クレセント銀貨６枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eクレセント銀貨の数：<br>  <span class=\"red\">\\0\\eクレセント銀貨６枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]クレセント銀貨の数：<br>  <span class=\"red\">[icon]クレセント銀貨１０枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eクレセント銀貨の数：<br>  <span class=\"red\">\\0\\eクレセント銀貨１０枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]クレセント銀貨の数：<br>  <span class=\"red\">[icon]クレセント銀貨２０枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eクレセント銀貨の数：<br>  <span class=\"red\">\\0\\eクレセント銀貨２０枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]クレセント銀貨の数：<br>  <span class=\"red\">[icon]クレセント銀貨３０枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eクレセント銀貨の数：<br>  <span class=\"red\">\\0\\eクレセント銀貨３０枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ハモニック金貨の数：<br>  <span class=\"red\">[icon]ハモニック金貨１枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eハモニック金貨の数：<br>  <span class=\"red\">\\0\\eハモニック金貨１枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ハモニック金貨の数：<br>  <span class=\"red\">[icon]ハモニック金貨２枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eハモニック金貨の数：<br>  <span class=\"red\">\\0\\eハモニック金貨２枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ハモニック金貨の数：<br>  <span class=\"red\">[icon]ハモニック金貨３枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eハモニック金貨の数：<br>  <span class=\"red\">\\0\\eハモニック金貨３枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ハモニック金貨の数：<br>  <span class=\"red\">[icon]ハモニック金貨４枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eハモニック金貨の数：<br>  <span class=\"red\">\\0\\eハモニック金貨４枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ハモニック金貨の数：<br>  <span class=\"red\">[icon]ハモニック金貨５枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eハモニック金貨の数：<br>  <span class=\"red\">\\0\\eハモニック金貨５枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ハモニック金貨の数：<br>  <span class=\"red\">[icon]ハモニック金貨１０枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eハモニック金貨の数：<br>  <span class=\"red\">\\0\\eハモニック金貨１０枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ヘリオン金貨の数：<br>  <span class=\"red\">[icon]ヘリオン金貨３枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eヘリオン金貨の数：<br>  <span class=\"red\">\\0\\eヘリオン金貨３枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ヘリオン金貨の数：<br>  <span class=\"red\">[icon]ヘリオン金貨５枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eヘリオン金貨の数：<br>  <span class=\"red\">\\0\\eヘリオン金貨５枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ヘリオン金貨の数：<br>  <span class=\"red\">[icon]ヘリオン金貨７枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eヘリオン金貨の数：<br>  <span class=\"red\">\\0\\eヘリオン金貨７枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ヘリオン金貨の数：<br>  <span class=\"red\">[icon]ヘリオン金貨９枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eヘリオン金貨の数：<br>  <span class=\"red\">\\0\\eヘリオン金貨９枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ヘリオン金貨の数：<br>  <span class=\"red\">[icon]ヘリオン金貨１５枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eヘリオン金貨の数：<br>  <span class=\"red\">\\0\\eヘリオン金貨１５枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ヘリオン金貨の数：<br>  <span class=\"red\">[icon]ヘリオン金貨２１枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eヘリオン金貨の数：<br>  <span class=\"red\">\\0\\eヘリオン金貨２１枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]キャムティ金貨の数：<br>  <span class=\"red\">[icon]キャムティ金貨２枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eキャムティ金貨の数：<br>  <span class=\"red\">\\0\\eキャムティ金貨２枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]キャムティ金貨の数：<br>  <span class=\"red\">[icon]キャムティ金貨４枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eキャムティ金貨の数：<br>  <span class=\"red\">\\0\\eキャムティ金貨４枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]キャムティ金貨の数：<br>  <span class=\"red\">[icon]キャムティ金貨６枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eキャムティ金貨の数：<br>  <span class=\"red\">\\0\\eキャムティ金貨６枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]キャムティ金貨の数：<br>  <span class=\"red\">[icon]キャムティ金貨８枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eキャムティ金貨の数：<br>  <span class=\"red\">\\0\\eキャムティ金貨８枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]キャムティ金貨の数：<br>  <span class=\"red\">[icon]キャムティ金貨１０枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eキャムティ金貨の数：<br>  <span class=\"red\">\\0\\eキャムティ金貨１０枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]キャムティ金貨の数：<br>  <span class=\"red\">[icon]キャムティ金貨２０枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eキャムティ金貨の数：<br>  <span class=\"red\">\\0\\eキャムティ金貨２０枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ガニック金貨の数：<br>  <span class=\"red\">[icon]ガニック金貨２枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eガニック金貨の数：<br>  <span class=\"red\">\\0\\eガニック金貨２枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ガニック金貨の数：<br>  <span class=\"red\">[icon]ガニック金貨３枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eガニック金貨の数：<br>  <span class=\"red\">\\0\\eガニック金貨３枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ガニック金貨の数：<br>  <span class=\"red\">[icon]ガニック金貨８枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eガニック金貨の数：<br>  <span class=\"red\">\\0\\eガニック金貨８枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ガニック金貨の数：<br>  <span class=\"red\">[icon]ガニック金貨１０枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eガニック金貨の数：<br>  <span class=\"red\">\\0\\eガニック金貨１０枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ガニック金貨の数：<br>  <span class=\"red\">[icon]ガニック金貨６枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eガニック金貨の数：<br>  <span class=\"red\">\\0\\eガニック金貨６枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ガニック金貨の数：<br>  <span class=\"red\">[icon]ガニック金貨１２枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eガニック金貨の数：<br>  <span class=\"red\">\\0\\eガニック金貨１２枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]まつぼっくりの数：<br>  <span class=\"red\">[icon]まつぼっくり１個</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eまつぼっくりの数：<br>  <span class=\"red\">\\0\\eまつぼっくり１個</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]まつぼっくりの数：<br>  <span class=\"red\">[icon]まつぼっくり５個</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eまつぼっくりの数：<br>  <span class=\"red\">\\0\\eまつぼっくり５個</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]まつぼっくりの数：<br>  <span class=\"red\">[icon]まつぼっくり１０個</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eまつぼっくりの数：<br>  <span class=\"red\">\\0\\eまつぼっくり１０個</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]まつぼっくりの数：<br>  <span class=\"red\">[icon]まつぼっくり２０個</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eまつぼっくりの数：<br>  <span class=\"red\">\\0\\eまつぼっくり２０個</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]まつぼっくりの数：<br>  <span class=\"red\">[icon]まつぼっくり３０個</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eまつぼっくりの数：<br>  <span class=\"red\">\\0\\eまつぼっくり３０個</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]まつぼっくりの数：<br>  <span class=\"red\">[icon]まつぼっくり４０個</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eまつぼっくりの数：<br>  <span class=\"red\">\\0\\eまつぼっくり４０個</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]まつぼっくりの数：<br>  <span class=\"red\">[icon]まつぼっくり５０個</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eまつぼっくりの数：<br>  <span class=\"red\">\\0\\eまつぼっくり５０個</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]シビナのしっぽの数：<br>  <span class=\"red\">[icon]シビナのしっぽ５個</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\3シビナのしっぽの数：<br>  <span class=\"red\">\\0\\3シビナのしっぽ５個</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]シビナのしっぽの数：<br>  <span class=\"red\">[icon]シビナのしっぽ１０個</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\3シビナのしっぽの数：<br>  <span class=\"red\">\\0\\3シビナのしっぽ１０個</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]シビナのしっぽの数：<br>  <span class=\"red\">[icon]シビナのしっぽ２０個</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\3シビナのしっぽの数：<br>  <span class=\"red\">\\0\\3シビナのしっぽ２０個</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]シビナのしっぽの数：<br>  <span class=\"red\">[icon]シビナのしっぽ３０個</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\3シビナのしっぽの数：<br>  <span class=\"red\">\\0\\3シビナのしっぽ３０個</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]シビナのしっぽの数：<br>  <span class=\"red\">[icon]シビナのしっぽ５０個</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\3シビナのしっぽの数：<br>  <span class=\"red\">\\0\\3シビナのしっぽ５０個</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]シビナのしっぽの数：<br>  <span class=\"red\">[icon]シビナのしっぽ８０個</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\3シビナのしっぽの数：<br>  <span class=\"red\">\\0\\3シビナのしっぽ８０個</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ハモニック金貨の数：<br>  <span class=\"red\">[icon]ハモニック金貨２０枚</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eハモニック金貨の数：<br>  <span class=\"red\">\\0\\eハモニック金貨２０枚</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]カエルグミ青の数：<br>  <span class=\"red\">[icon]カエルグミ青２個</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\2カエルグミ青の数：<br>  <span class=\"red\">\\0\\2カエルグミ青２個</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]カエルグミ青の数：<br>  <span class=\"red\">[icon]カエルグミ青４個</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\2カエルグミ青の数：<br>  <span class=\"red\">\\0\\2カエルグミ青４個</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]カエルグミ青の数：<br>  <span class=\"red\">[icon]カエルグミ青１０個</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\2カエルグミ青の数：<br>  <span class=\"red\">\\0\\2カエルグミ青１０個</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]カエルグミ青の数：<br>  <span class=\"red\">[icon]カエルグミ青２０個</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\2カエルグミ青の数：<br>  <span class=\"red\">\\0\\2カエルグミ青２０個</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]カエルグミ青の数：<br>  <span class=\"red\">[icon]カエルグミ青３０個</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\2カエルグミ青の数：<br>  <span class=\"red\">\\0\\2カエルグミ青３０個</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]カエルグミ青の数：<br>  <span class=\"red\">[icon]カエルグミ青４０個</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\2カエルグミ青の数：<br>  <span class=\"red\">\\0\\2カエルグミ青４０個</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]マヒナのしっぽの数：<br>  <span class=\"red\">[icon]マヒナのしっぽ５個</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\3マヒナのしっぽの数：<br>  <span class=\"red\">\\0\\3マヒナのしっぽ５個</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]マヒナのしっぽの数：<br>  <span class=\"red\">[icon]マヒナのしっぽ１０個</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\3マヒナのしっぽの数：<br>  <span class=\"red\">\\0\\3マヒナのしっぽ１０個</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]マヒナのしっぽの数：<br>  <span class=\"red\">[icon]マヒナのしっぽ２０個</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\3マヒナのしっぽの数：<br>  <span class=\"red\">\\0\\3マヒナのしっぽ２０個</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]マヒナのしっぽの数：<br>  <span class=\"red\">[icon]マヒナのしっぽ３０個</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\3マヒナのしっぽの数：<br>  <span class=\"red\">\\0\\3マヒナのしっぽ３０個</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]マヒナのしっぽの数：<br>  <span class=\"red\">[icon]マヒナのしっぽ５０個</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\3マヒナのしっぽの数：<br>  <span class=\"red\">\\0\\3マヒナのしっぽ５０個</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]マヒナのしっぽの数：<br>  <span class=\"red\">[icon]マヒナのしっぽ８０個</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\3マヒナのしっぽの数：<br>  <span class=\"red\">\\0\\3マヒナのしっぽ８０個</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]まつぼっくりの数：<br>  <span class=\"red\">[icon]まつぼっくり５個</span>はらう<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\eまつぼっくりの数：<br>  <span class=\"red\">\\0\\eまつぼっくり５個</span>はらう<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ミミズグミ黄の数：<br>  <span class=\"red\">[icon]ミミズグミ黄５個</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\2ミミズグミ黄の数：<br>  <span class=\"red\">\\0\\2ミミズグミ黄５個</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ミミズグミ黄の数：<br>  <span class=\"red\">[icon]ミミズグミ黄１０個</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\2ミミズグミ黄の数：<br>  <span class=\"red\">\\0\\2ミミズグミ黄１０個</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ミミズグミ黄の数：<br>  <span class=\"red\">[icon]ミミズグミ黄１５個</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\2ミミズグミ黄の数：<br>  <span class=\"red\">\\0\\2ミミズグミ黄１５個</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ミミズグミ黄の数：<br>  <span class=\"red\">[icon]ミミズグミ黄２０個</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\2ミミズグミ黄の数：<br>  <span class=\"red\">\\0\\2ミミズグミ黄２０個</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ミミズグミ黄の数：<br>  <span class=\"red\">[icon]ミミズグミ黄３０個</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\2ミミズグミ黄の数：<br>  <span class=\"red\">\\0\\2ミミズグミ黄３０個</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\0 [icon]ミミズグミ黄の数：<br>  <span class=\"red\">[icon]ミミズグミ黄４０個</span>あげる<br>  キャンセル"
+- Japanese: "\\8b\\0 \\0\\2ミミズグミ黄の数：<br>  <span class=\"red\">\\0\\2ミミズグミ黄４０個</span>あげる<br>  キャンセル"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\0 所持金：ブラー<br>  <span class=\"red\">５０００ブラー</span>はらう<br>  キャンセル"
@@ -15213,7 +15213,7 @@
 - Japanese: "\\8b\\10\\86\\6<br>「‥‥‥‥"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\acマドレーヌ先生<br>「最強のエニグマはあなたと<br> 融合している。<br> 次に力を持つエキウロクリュは<br> キャンディと融合してる。<br> ウソだとバレない限りは、<br> エニグマを自在に操ることが<br> できるでしょうね。<br> どう?<br> この試昭を背負っていくのは<br> ガナッシュ、あなたなのよ。<br> できる?"
+- Japanese: "\\8b\\acマドレーヌ先生<br>「最強のエニグマはあなたと<br> 融合している。<br> 次に力を持つエキウロクリュは<br> キャンディと融合してる。<br> ウソだとバレない限りは、<br> エニグマを自在に操ることが<br> できるでしょうね。<br> どう?<br> この試練を背負っていくのは<br> ガナッシュ、あなたなのよ。<br> できる?"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「\\85\\0‥‥‥‥<br> やっとわかったよ。<br> もう魔法の力はいらない。<br> 魔法なんかなくても‥‥‥‥<br> みんなを信じることができる。<br> だから‥‥‥‥<br> ヤツを倒してくれ‥‥‥‥。<br> 次の１歩を踏み出すために。"
@@ -15642,7 +15642,7 @@
 - Japanese: "\\8b\\14\\86\\a<br>「??"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\15\\86\\b<br>「ボクとママとで、パナシェ山に<br> 芸術祭の準備に行った時‥‥‥‥<br> ママが氷の潮刻に熱中している<br> うちに、外は吹雪になったんだ。<br> 吹雪はそれから４日間も続いて、<br> 食べるものもなくなって、ママは<br> 助けを呼びに行くって‥‥‥‥<br> そのまま２度と戻らなかった‥。<br> その次の日に救助隊の人が来て<br> ボクは町へ帰ったけど、<br> ママは帰って来なかった。"
+- Japanese: "\\8b\\15\\86\\b<br>「ボクとママとで、パナシェ山に<br> 芸術祭の準備に行った時‥‥‥‥<br> ママが氷の彫刻に熱中している<br> うちに、外は吹雪になったんだ。<br> 吹雪はそれから４日間も続いて、<br> 食べるものもなくなって、ママは<br> 助けを呼びに行くって‥‥‥‥<br> そのまま２度と戻らなかった‥。<br> その次の日に救助隊の人が来て<br> ボクは町へ帰ったけど、<br> ママは帰って来なかった。"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「‥‥‥‥。"
@@ -16545,7 +16545,7 @@
 - Japanese: "\\8b\\dbキヤキスのツボ・ケタイーシ<br>「我はキヤキスのツボ。<br> 生命の再生を司る者。<br> そなたの持っておる<br> <span class=\"red\">\\87\\1d全て</span>と<br> <span class=\"red\">\\87\\13４個</span>を交換しよう。"
   English: ''
   Comments: ''
-- Japanese: "\\8b\\dbキヤキスのツボ・イーサクーハ<br>「我はキヤキスのツボ。<br> 生命の再生を司る者。<br> そなたの持っておる<br> <span class=\"red\">[icon]まつぼっくり全て</span>と<br> <span class=\"red\">\\87\\13１個</span>を交換しよう。"
+- Japanese: "\\8b\\dbキヤキスのツボ・イーサクーハ<br>「我はキヤキスのツボ。<br> 生命の再生を司る者。<br> そなたの持っておる<br> <span class=\"red\">\\0\\eまつぼっくり全て</span>と<br> <span class=\"red\">\\87\\13１個</span>を交換しよう。"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\dbキヤキスのツボ・ゴーマタ<br>「我はキヤキスのツボ。<br> 生命の再生を司る者。<br> そなたの持っておる<br> <span class=\"red\">\\87\\1e全て</span>と<br> <span class=\"red\">\\87\\13１個</span>を交換しよう。"
