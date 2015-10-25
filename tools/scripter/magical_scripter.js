@@ -221,6 +221,7 @@ function generateJapaneseScript() {
   };
 
   var character_count = 0;
+  var translated_character_count = 0;
   for (var ii = 2; ii < HEADER_LENGTH/2 - 1; ii++) {
     var state = {
       italics: false,
@@ -246,9 +247,14 @@ function generateJapaneseScript() {
       }
       state.idx += 2;
       character_count++;
+      if (yaml_script[ii].English) {
+        translated_character_count++;
+      }
     }
     yaml_script[ii].Japanese = state.text;
   }
+  console.log(translated_character_count, "out of", character_count, "characters translated!");
+  console.log("That's", translated_character_count / character_count*100, "%!");
 }
 
 function generateOriginalHeader() {
