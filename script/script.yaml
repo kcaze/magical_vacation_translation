@@ -3112,16 +3112,16 @@
   English: "\\8b\\acMiss Madeleine\nIt should be somewhere around the\nknuckle of your left hand's thumb.\nThere's two small buttons right?\nThe top one is the \\8estart button\\8d.\nThe bottom one is the \\8eselect button\\8d.\nIf you don't understand, you should read\nand study your game manual."
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「あははははは。<br> さっすが、\\85\\0~<br> それじゃあさぁ、<br> <span class=\"red\">ヘルプ</span>のことは知ってる?"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\nAhahaha.\nAs expected of \\85\\00.\nIn that case, do you know about\nthe \\8ehelp screen\\8d?"
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「あははははは。<br> 先生、おせっかいさんだったね。<br> エラそうに言っちゃったけど、<br> 本当は、先生の知ってることって<br> ほんのちょびっとなのよね。<br> \\85\\0はこれから<br> 先生の知らないことを<br> いっぱい覚えて、それから<br> 楽しいことは、ぜ~んぶ先生にも<br> 教えてね<span class=\"red\">♥</span>"
-  English: ''
-  Comments: ''
+  English: "\\8b\\acMiss Madeleine\nAhahaha.\nI was being presumptuous wasn't I.\nI may have spoken a bit arrogantly,\nbut in reality, I only know a paltry\namount.\n\\85\\00, I hope you learn a lot of\nthings that I don't know and teach\nme about all the fun things you learn!"
+  Comments: Missing heart symbol.
 - Japanese: "\\8b\\acマドレーヌ先生<br>「レストランの<span class=\"red\">メニュー</span>のことじゃ<br> ないのはわかってるかな?<br> 先生が言ってる<span class=\"red\">メニュー</span>は、<br> 自分自身がどう生きていくかが<br> 書かれた<span class=\"red\">メニュー</span>のことよ。<br> 心の目で見てごらん。<br> 小さなボタンがタテにニつ<br> ならんでるのが見えるよね?"
   English: "\\8b\\acMiss Madeleine\nI hope you know that it's not\nthe same as a restaurant's \\8emenu\\8d.\nThe \\8emenu\\8d I'm talking about is a\n\\8emenu\\8d where how you live you life\nis written inside. Take a look with your\ninner eye. Do you see two small buttons\nlined up vertically?"
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「<span class=\"red\">ヘルプ</span>ってのは、<span class=\"red\">メニュー</span>の時に<br> たよりになる説明のことなのよ。<br> 心の目で見てごらん。<br> たてにニつ、小さなボタンが<br> ならんでるでしょう?"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\nThe \\8ehelp screen\\8d is a sound\nexplanation you can find in the \\8emenu\\8d.\nTake a look with your inner eye.\nThere's two small buttons lined up\nvertically, right?"
   Comments: ''
 - Japanese: "\\8b\\c8MD職人・ウスター<br>「<span class=\"red\">マジックドール</span>っつったら<br> <span class=\"red\">コンボ</span>だべな。<br> 魂さ入れたヤツと同じ属性の<br> 魔法さ使うようになるでよ、<br> <span class=\"red\">マジックドール</span>にコール魔法さ<br> 唱えさせて、入魂したほうの<br> ヤツで魔法を打つだよ。<br> <span class=\"red\">マジックドール</span>はMPさ回復<br> しねぇんで、それがMPの節約<br> にもなるって寸法だべ。"
   English: ''
@@ -3130,7 +3130,7 @@
   English: "\\8b\\acMiss Madeleine\nThe one on top is called the\n\\8estart button\\8d. If you press it,\nyou'll open up the \\8emenu\\8d and be\nable to do things like make preparations\nduring your journey. Things you can do\nafter you open your \\8emenu\\8d include\nusing items, managing equipment, looking at\nyour maps, and also...\nWell, for more information, when you open your\n\\8emenu\\8d, you can check the \\8ehelp screen\\8d.\nBy the way, \\85\\00, do you know about the \\8ehelp\nscreen\\8d?"
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「それの、下のほうのボタンを<br> <span class=\"red\">セレクトボタン</span>って言うのよ。<br> <span class=\"red\">セレクトボタン</span>を押すと、<br> <span class=\"red\">ヘルプ</span>って言う、ちょっとした<br> 説明が表示されるの。<br> <span class=\"red\">メニュー</span>の使い方や、アイテムの<br> 効果など、<span class=\"red\">ヘルプ</span>を見るだけで<br> いろんなことがわかるわ。"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\nThe one on the bottom is called\nthe \\8eselect button\\8d.\nIf you press the \\8eselect button\\8d,\na short explanation called the\n\\8ehelp screen\\8d will appear.\nThe \\8ehelp screen\\8e will let you\nknow about how to use the menu, the\neffects of an item, and so forth."
   Comments: ''
 - Japanese: "\\8b\\ccココット<br>「こんちは、<br> ぼく、ココット。<br> <span class=\"red\">シール</span>集めにこってます。<br> もしかして、あなた、<span class=\"red\">シール</span>の<br> こと知りたがってるでしょ?"
   English: ''
@@ -7374,7 +7374,7 @@
     Ricebird Village & Spa
   Comments: "I think I'm missing some control character here."
 - Japanese: '<br>    カギがかかってる<br>'
-  English: ''
+  English: The door is locked.
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「どっちでもいいから、もう<br> 行こうぜ。<br> ブルーベリーのことが心配だ。"
   English: ''
