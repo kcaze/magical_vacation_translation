@@ -1,3 +1,10 @@
+Translation Notes
+=================
+*Cider is a romanticist. He should sound a bit like Shakespeare.
+*Candy is a valley girl.
+*Kirsche is a hothead. Maybe it makes sense to sound a bit like a cowboy, idk.
+
+
 Script Addresses
 =======
 0x00629A2C to be the base address of the script, including offsets.

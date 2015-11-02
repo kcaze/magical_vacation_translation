@@ -1,4 +1,5 @@
 1. Clear RAM after each dialogue box so the beginning doesn't have data from
-   last dialogue box.
+   last dialogue box. Add an 0xFFFF control character or something that clears
+   data.
 2. Increase the indentation after a newline.
 3. Fix how icons are displayed.

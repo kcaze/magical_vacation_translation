@@ -92,8 +92,10 @@
   English: ''
   Comments: ''
 - Japanese: '<br>  カギがかかっている'
-  English: ''
-  Comments: ''
+  English: |-
+
+    The door is locked.
+  Comments: Also probably a control character we need to insert here. The original formatting was done using spaces.
 - Japanese: ' つかまえようと思ったけど、<br> すでに たくさん持ちすぎてて<br> 失敗した。'
   English: ''
   Comments: ''
@@ -371,7 +373,7 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\29文鳥<br>「ちゅん！"
-  English: ''
+  English: "\\8b\\29Ricebird\nChirp!"
   Comments: ''
 - Japanese: ''
   English: ''
@@ -440,25 +442,25 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「‥‥‥‥<br> と、そういうことで、<br> 夜のキャンプファイヤーまで<br> 自由時間になりまーす。<br> それじゃあ、かいさーん！"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\n...\nand so you'll have free time from now \nuntil tonight's campfire.\nClass dismissed!"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「ドーナツいただきっ！！"
-  English: ''
+  English: "\\8b\\12\\86\\08\nI'm taking a donut!"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「！！！！！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n!!!"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「返すっぴー！！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\nGive it back!"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「みんな~！<br> まだ自由時間じゃないよ~！<br> 先生に怒られちゃうよ~！"
-  English: ''
+  English: "\\8b\\16\\86\\0c\nHey everyone!\nIt isn't free time yet!\nMiss Madeleine's going to get mad\nat us!"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「いいんだ いいんだ<br> あの先生、ぼーっとしてるから<br> 気がついてないって。"
-  English: ''
+  English: "\\8b\\0c\\86\\02\nIt's fine, don't worry about it.\nShe's never paying attention so\nshe won't notice."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「まったくもー！<br> ひどい人たち！"
-  English: ''
+  English: "\\8b\\16\\86\\0c\nSheesh!\nYou guys!"
   Comments: ''
 - Japanese: ''
   English: ''
@@ -482,7 +484,7 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「この北が波打ちぎわですの！<br> もう暗いから海に入ったりして<br> 遊んではいけませんのよ！"
-  English: ''
+  English: "\\8b\\11\\86\\07\nNorth of here is the water's edge.\nIt's dark already so don't go and\nplay in the sea!"
   Comments: ''
 - Japanese: ''
   English: ''
@@ -569,7 +571,7 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「あ~ん、やだやだ ヘンな海草！<br> ヌルヌルしてる~！<br> 足にまとわりついちゃって<br> 気持ち悪い~~~<br> きゃ~~~！！"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\nEwww~ \nYuck, what is this seaweed!\nIt's all slimy!\nIt feels gross wrapped around my legs!\nEwww~"
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「月の光に、銀貨が照らされて<br> 光っているよ~。<br> きっと、昔の文明が使ってた<br> <span class=\"red\">\\87\\f8</span>だね。<br> こんなものが落ちてるから<br> カイゾク伝説なんかが生まれ<br> たんだろうね。"
   English: ''
@@ -617,7 +619,7 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\ab文鳥<br>「ちゅん！"
-  English: ''
+  English: "\\8b\\abRicebird\nChirp!"
   Comments: ''
 - Japanese: "\\8b\\33ブキミな生き物<br>「しゅうー‥‥‥"
   English: ''
@@ -686,8 +688,8 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「あっ！！<br> ヘンなとこ見られたっ！！<br> あはははははは。<br> ‥‥‥‥。<br> あ、そうそう、<br> ところで\\85\\0さぁ、<br> <span class=\"red\">HP</span>って何のことか知ってる?"
-  English: ''
-  Comments: ''
+  English: "\\8b\\acMiss Madeleine\nAhhh!\nYou saw me doing something weird!\nAhahaha....\nOh, that's right, by the way \\85\\00,\ndo you know about \\8eHP\\8d?"
+  Comments: Same as in 1035.
 - Japanese: "\\8b\\acマドレーヌ先生<br>「さっすが、\\85\\0~！<br> いえ~！<br> それじゃ、次、<br> <span class=\"red\">MP</span>は何のことかわかる?"
   English: ''
   Comments: ''
@@ -2747,16 +2749,16 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「よう！<br> \\85\\0！<br> <span class=\"red\">この石、動きそう</span>だぜ！！<br> しかも、その向こうには<br> <span class=\"red\">洞窟らしきもの</span>が見えるんだ！！<br> いっしょにタンケンに行こうぜ！"
-  English: ''
+  English: "\\8b\\1a\\86\\10\nYo!\n\\85\\00!\n\\8eThis rock looks like it'll budge!\\8d\nPlus, I can see a \\8ecave-like thing\\8d\non the other side! Let's go explore it\ntogether!"
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「そうこなくっちゃ！！"
-  English: ''
+  English: "\\8b\\1a\\86\\10\nThat's the spirit!"
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「チッ！<br> おく病だなぁ！"
-  English: ''
+  English: "\\8b\\1a\\86\\10\nTch!\nWhat a coward!"
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「きっと、カイゾクが宝を<br> うめた洞窟だぜ！！<br> よーくさがしたら、まだ<br> 何か宝が残ってるかも<br> 知れないぜ！<br> ところで、オレたちだけで<br> 行くのも心細いから、<br> 他のヤツらにも声をかけようぜ！<br> 誰を仲間にするかはまかせる<br> けど、仲間にしたくないヤツには<br> 最初から声をかけるなよ。<br> 断っても勝手についてくる<br> ヤツとか、いると思うんだ。"
-  English: ''
+  English: "\\8b\\1a\\86\\10\nI bet it's a cave where pirates\nburied their treasure! If we\nsearched really hard, we might find\nsome treasure remaining.\nBy the way, I feel uneasy going with\njust the two of us, so let's ask the\nothers. I'll leave it up to you to\nchoose who we partner with, but if\nyou don't want to partner with someone,\nthen don't ask them in the first place.\nSome people will just follow you anyways\neven if you turn them down."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「ピスタチオちゃん‥‥‥‥。<br> 勝てるといいですの。<br> 誰とも別れたくありませんの。"
   English: ''
@@ -3104,10 +3106,10 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「あっ！！<br> ヘンなとこ見られたっ！！<br> あはははははは。<br> ‥‥‥‥。<br> あ、そうそう、<br> ところで\\85\\0さぁ、<br> <span class=\"red\">メニュー</span>について知ってる?"
-  English: ''
-  Comments: ''
+  English: "\\8b\\acMiss Madeleine\nAhhh!\nYou saw me doing something weird!\nAhahaha....\nOh, that's right, by the way \\85\\00,\ndo you know about the \\8emenu\\8d?"
+  Comments: Same as in 229.
 - Japanese: "\\8b\\acマドレーヌ先生<br>「ちょうど、左手の親指の<br> 関節のあたりかな。<br> 小さなボタンがニつあるでしょ?<br> 上のボタンが<span class=\"red\">スタートボタン</span>。<br> 下のボタンが<span class=\"red\">セレクトボタン</span>よ。<br> わからなかったら、マニュアルを<br> 読んでお勉強すること。"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\nIt should be somewhere around the\nknuckle of your left hand's thumb.\nThere's two small buttons right?\nThe top one is the \\8estart button\\8d.\nThe bottom one is the \\8eselect button\\8d.\nIf you don't understand, you should read\nand study your game manual."
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「あははははは。<br> さっすが、\\85\\0~<br> それじゃあさぁ、<br> <span class=\"red\">ヘルプ</span>のことは知ってる?"
   English: ''
@@ -3116,7 +3118,7 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「レストランの<span class=\"red\">メニュー</span>のことじゃ<br> ないのはわかってるかな?<br> 先生が言ってる<span class=\"red\">メニュー</span>は、<br> 自分自身がどう生きていくかが<br> 書かれた<span class=\"red\">メニュー</span>のことよ。<br> 心の目で見てごらん。<br> 小さなボタンがタテにニつ<br> ならんでるのが見えるよね?"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\nI hope you know that it's not\nthe same as a restaurant's \\8emenu\\8d.\nThe \\8emenu\\8d I'm talking about is a\n\\8emenu\\8d where how you live you life\nis written inside. Take a look with your\ninner eye. Do you see two small buttons\nlined up vertically?"
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「<span class=\"red\">ヘルプ</span>ってのは、<span class=\"red\">メニュー</span>の時に<br> たよりになる説明のことなのよ。<br> 心の目で見てごらん。<br> たてにニつ、小さなボタンが<br> ならんでるでしょう?"
   English: ''
@@ -3125,7 +3127,7 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「それの、上のほうのボタンを<br> <span class=\"red\">スタートボタン</span>って言うのよ。<br> そのボタンを押すと、<span class=\"red\">メニュー</span>が<br> 開いて、冒険のじゅんびをしたり<br> することができるのよ。<br> <span class=\"red\">メニュー</span>を開いてできるのは、<br> アイテムを使ったり装備したり、<br> 地図を見たり、それから‥‥<br> まぁ、くわしいことは、<br> <span class=\"red\">メニュー</span>を開けば、<span class=\"red\">ヘルプ</span>で<br> 確かめられるからいいか。<br> ところで\\85\\0、<br> <span class=\"red\">ヘルプ</span>のことは知ってる?"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\nThe one on top is called the\n\\8estart button\\8d. If you press it,\nyou'll open up the \\8emenu\\8d and be\nable to do things like make preparations\nduring your journey. Things you can do\nafter you open your \\8emenu\\8d include\nusing items, managing equipment, looking at\nyour maps, and also...\nWell, for more information, when you open your\n\\8emenu\\8d, you can check the \\8ehelp screen\\8d.\nBy the way, \\85\\00, do you know about the \\8ehelp\nscreen\\8d?"
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「それの、下のほうのボタンを<br> <span class=\"red\">セレクトボタン</span>って言うのよ。<br> <span class=\"red\">セレクトボタン</span>を押すと、<br> <span class=\"red\">ヘルプ</span>って言う、ちょっとした<br> 説明が表示されるの。<br> <span class=\"red\">メニュー</span>の使い方や、アイテムの<br> 効果など、<span class=\"red\">ヘルプ</span>を見るだけで<br> いろんなことがわかるわ。"
   English: ''
@@ -7367,8 +7369,10 @@
   English: ''
   Comments: ''
 - Japanese: '  ヴァレンシア・ビーチ・リゾート<br>   ライスバード・ヴィレッジ<br>       ＆ スパ'
-  English: ''
-  Comments: ''
+  English: |-
+    Valencia Beach Resort
+    Ricebird Village & Spa
+  Comments: "I think I'm missing some control character here."
 - Japanese: '<br>    カギがかかってる<br>'
   English: ''
   Comments: ''
@@ -11015,13 +11019,13 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「そ、そんなこと<br> ねぇよ‥‥‥。"
-  English: ''
+  English: "\\8b\\0c\\86\\02\nT-that's not true..."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「だってそうだもん。"
-  English: ''
+  English: "\\8b\\16\\86\\0c\nYes it is."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「ちがうって言ってるだろ！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\nNo it isn't!"
   Comments: ''
 - Japanese: ''
   English: ''
@@ -11893,28 +11897,28 @@
   English: "\\8b\\0e\\86\\0e\nMmm.\nMellow."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「<span class=\"red\">ヴァレンシア海岸</span>って言ったら<br> カイゾクだよな！ カイゾク！！<br> カイゾクがこのへんに宝を<br> うめたんだ！！<br> タンケンしに行こうぜ！！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\nWhen you think of \\8eValencia Beach\\8d,\nyou think of pirates! Pirates!\nPirates have buried treasure around\nhere!\nLet's go explore!"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「危険じゃないよ~！<br> 面白そうだよ~！<br> ペシュは行かなくてもいいから、<br> ３人で行こうよ~！"
-  English: ''
+  English: "\\8b\\16\\86\\0c\nIt's not dangerous!\nIt sounds interesting!\nIt's okay if you don't go, Peche.\nJust the 3 of us will go!"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「ちょっと待てよ。<br> ３人じゃフンイキが出ないだろ?<br> オレをリーダーにして、<br> ６人くらいのパーティで<br> 行こうぜ！！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\nWait up. It's not going to be very\nexciting if just the 3 of us go.\nLet's go in a party of 6, with me\nas the leader!"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「じゃあ、レモンとブルーベリーを<br> さそおうよ！<br> あのニ人、とっても仲良しだし！"
-  English: ''
+  English: "\\8b\\16\\86\\0c\nThen let's invite Lemon and\nBlueberry!\nThose two are really good friends."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「うーん<br> あのニ人もいいけど、<br> キャンディはどうする?<br> キャンディもさそおうぜ！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\nHmmm, those two are fine but\nhow about Candy?\nLet's invite Candy too!"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「え~<br> キャンディ~?<br> 最近、キルシュって、<br> キャンディのことばっかし~"
-  English: ''
+  English: "\\8b\\16\\86\\0c\nWhat? Candy?\nKirsche, lately you're always talking\nabout Candy."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「カッコいいわね。"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「このあたりに、カイゾクが<br> 宝をうめたって話があるんだ。<br> ワクワクするよなぁ。"
-  English: ''
+  English: "\\8b\\0c\\86\\02\nThere's stories about how pirates \nburied treasure around here.\nIt makes you excited doesn't it?"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「オマエら、ぞろぞろと<br> 連れだって何をしてるんだ！?"
   English: ''
@@ -11935,7 +11939,7 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「海の風って、気持ちいいね。<br> 他の風とどうちがうんだろう。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\nThe wind by the sea feels great doesn't \nit? I wonder how it's different from\nany other type of wind."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「あら、みんなでゾロゾロと<br> タンケン気分ってとこね?"
   English: ''
@@ -11953,7 +11957,7 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\e\\86\\4<br>「うーみー。"
-  English: ''
+  English: "\\8b\\0e\\86\\04\nThe sea."
   Comments: ''
 - Japanese: "\\8b\\e\\86\\4<br>「ぼうけん?"
   English: ''
@@ -11971,8 +11975,8 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「ハァ‥‥‥‥<br> 海ってせつない‥‥‥‥。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\0f\\86\\05\n*sigh*\nThe sea's so sad..."
+  Comments: "I feel \"sad\" is too simple a translation of \"せつない\" but I want this to be in line with Candy's character."
 - Japanese: "\\8b\\f\\86\\5<br>「あら、みんなで何やってるの?<br> どこかにタンケンにでも行くの?"
   English: ''
   Comments: ''
@@ -12019,7 +12023,7 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「海は、なつかしいニオイがする。<br> 体全部が海につつまれるような。<br> 目を閉じて、海の音だけ聞いて<br> いると、それだけで波の上を<br> ただよっているような気になる。"
-  English: ''
+  English: "\\8b\\12\\86\\08\nThe sea has a nostalgic sort of smell.\nIt's like your body is wrapped in it.\nWhen I close my eyes and listen to the\nsound of the sea, it's as if I'm floating\non top of the waves."
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「どうしたんだよ、オマエたち。<br> なんか、怪しいぞ。<br> まさか、カイゾクの宝を<br> さがしに行こうとかって<br> ワケじゃないよな?"
   English: ''
@@ -12049,7 +12053,7 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\13\\86\\9<br>「ハァ‥‥‥‥<br> 海に来ても、心の中は<br> くもったままだヌ~。"
-  English: ''
+  English: "\\8b\\13\\86\\09\n*sigh*...\nEven after coming to the sea, my\nI feel downcast."
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「よう！ カベルネ！<br> いつまで落ちこんでんだよ！"
   English: ''
@@ -12079,8 +12083,8 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「カベルネのヤツ、兄キのことを<br> 思い出して、落ちこんでるんだ。<br> 楽しませてやりたいとは<br> 思いつつも、何も手がない。<br> ダメだね、オレも。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\14\\86\\0a\nWhenever Cabernet recalls what\nhappened to his brother, he gets\ndepressed you know. I want to cheer\nhim up, but there's nothing I can do.\nI'm useless."
+  Comments: "The last sentence isn't quite right. It completely omits the オレも for one thing."
 - Japanese: "\\8b\\14\\86\\a<br>「どうした セサミ少年！<br> 目が輝いてるぜ！"
   English: ''
   Comments: ''
@@ -12109,8 +12113,8 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「夕焼けの海は<br> 恋をしているよう。<br> 空が海に恋をする時、<br> その中でふるえる小さな<br> ボクらは、星空の夢を見る。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\15\\86\\0b\nThe glow of the sunset on the\nocean is like love. As the sky\nand the ocean make love, we are\nshiveringly small and see dreams\nof a starry, starry night."
+  Comments: I think the implication here is really lovemaking (when the sky and sea make love).
 - Japanese: "\\8b\\15\\86\\b<br>「どうしたの?<br> 気合入ってるね。"
   English: ''
   Comments: ''
@@ -12133,7 +12137,7 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「キルシュって最近<br> キャンディに夢中なの。<br> 小さいころは、私のことを<br> およめさんにするって<br> 言ってたのに。<br> 忘れてるんだ、きっと。"
-  English: ''
+  English: "\\8b\\16\\86\\0c\nKirsche has been head over heels for Candy\nrecently. Even though when we were young,\nhe said that he would make me his wife.\nI bet he's forgotten all about it."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「あら、みんなで<br> 何してんの?"
   English: ''
@@ -12172,13 +12176,13 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>ウミノミズハ ナゼショッパイカ<br> ワカルカ?</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\nDo you know why seawater is\nsalty?"
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>オマエ、モノシリダナ。</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\nYou sure know a lot."
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>ショッパクナカッタラ<br> ミンナガノンデ ナクナルダロ?<br> ウミガ ナクナルト<br> コマルダロ?<br> ダカラ カミサマガ<br> ウミハ ショッパクシタンダ。</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\nIf it weren't salty, everyone\nwould drink it until it's gone.\nIf the ocean disappeared, we\nwould be in trouble.\nThat's why God made the sea salty."
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>ハナシハ キカセテモラッタ。<br> オレモ ツイテイクゼ。<br> イイダロ?</i>"
   English: ''
@@ -12196,7 +12200,7 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「どうしたらカラマリィに勝てるか<br> わからないっぴ‥‥‥‥。<br> 不安で不安で<br> しかたないっぴ‥‥‥‥。"
-  English: ''
+  English: "\\8b\\18\\86\\0e\nI don't know what to do to be\nable to beat Calamari...\nI can't help it but get worried \nand anxious and stressed..."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「みんな、どうしたっぴ！<br> ヤル気がにじみ出てるっぴ！"
   English: ''
@@ -12265,7 +12269,7 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「それはちょっと危険なことじゃ<br> ありませんの！?"
-  English: ''
+  English: "\\8b\\11\\86\\07\nIsn't that a little dangerous?"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「オレ、いま、<br> すげぇ ドキドキしてるよ。<br> なんか出るんじゃないか?<br> マジで。"
   English: ''
@@ -12295,8 +12299,8 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「私のチュウコクをムシする<br> つもりですのね！<br> ひどい人たちですの！"
-  English: ''
-  Comments: ''
+  English: "\\8b\\11\\86\\07\nYou plan on ignoring my warning\ndon't you!\nYou awful people!"
+  Comments: "I don't like this translation."
 - Japanese: "\\8b\\14\\86\\a<br>「ヴァレンシア海岸は危険な<br> 場所さ。<br> 毎年、誰かがあそこで<br> 消えちまってんだぜ！"
   English: "\\8b\\14\\86\\0a\nValencia Beach is a dangerous place.\nEvery year, someone who goes there\ndisappears!"
   Comments: ''
