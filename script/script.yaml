@@ -11915,85 +11915,85 @@
   English: "\\8b\\16\\86\\0c\nWhat? Candy?\nKirsche, lately you're always talking\nabout Candy."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「カッコいいわね。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\nThat's pretty cool."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「このあたりに、カイゾクが<br> 宝をうめたって話があるんだ。<br> ワクワクするよなぁ。"
   English: "\\8b\\0c\\86\\02\nThere's stories about how pirates \nburied treasure around here.\nIt makes you excited doesn't it?"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「オマエら、ぞろぞろと<br> 連れだって何をしてるんだ！?"
-  English: ''
+  English: "\\8b\\0c\\86\\02\nWhat are you guys doing\ntogether in a group like that!?"
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「キルシュのアニキ！！<br> オレたち今から<br> タンケンに行くんだ！！<br> カイゾクの宝をみつけたら<br> アニキにもわけてやるよ！！"
-  English: ''
+  English: "\\8b\\1a\\86\\10\nKirsche, bro!\nWe're going exploring!\nIf we find treasure, we'll\nbe sure to share with you, bro!"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「わけてやるだと！?<br> ふざけんな！！<br> オレも行くぜ！！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\nYou'll share it with me, you say!?\nYeah right!\nI'm going too!"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「フッ！！<br> オレを出し抜いて勝手なことを！<br> オマエがそんなヤツとは<br> 思わなかったよ！！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\nHmph!\nI didn't think you were the type\nto go and do things behind my back!"
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「宝をみつけたら、まっさきに<br> アニキに見せるから<br> 怒らないで待っててよ。"
-  English: ''
+  English: "\\8b\\1a\\86\\10\nIf we find treasure, we'll show\nit to you straight away. So don't\nget mad at us bro and just wait tight."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「宝なんて、キョーミないね。<br> ガキの遊びだよ。<br> ハン！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\nI don't care about treasure and\nstuff. That's all for children.\nHmph!"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「海の風って、気持ちいいね。<br> 他の風とどうちがうんだろう。"
   English: "\\8b\\0d\\86\\03\nThe wind by the sea feels great doesn't \nit? I wonder how it's different from\nany other type of wind."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「あら、みんなでゾロゾロと<br> タンケン気分ってとこね?"
-  English: ''
-  Comments: ''
+  English: "\\8b\\0d\\86\\03\nMy, you've all bandied together\nto go exploring aren't you?"
+  Comments: This needs to sound slightly condescending given 3981.
 - Japanese: "\\8b\\d\\86\\3<br>「レモンもいるんだったら、<br> 私も行こうかなぁ。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\nI guess I'll go too since Lemon's\ngoing."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「ごめんね、バカにしたんじゃ<br> ないのよ。<br> 気にしないで。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\nSorry, I wasn't trying to make\nfun of you guys. Just forget what\nI said."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「うふっ。<br> ありがとう。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\nTeehee, thanks."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「つまんないの。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\nThat's no fun."
   Comments: ''
 - Japanese: "\\8b\\e\\86\\4<br>「うーみー。"
   English: "\\8b\\0e\\86\\04\nThe sea."
   Comments: ''
 - Japanese: "\\8b\\e\\86\\4<br>「ぼうけん?"
-  English: ''
+  English: "\\8b\\0e\\86\\04\nAdventure?"
   Comments: ''
 - Japanese: "\\8b\\e\\86\\4<br>「行くー。"
-  English: ''
+  English: "\\8b\\0e\\86\\04\nGoing."
   Comments: ''
 - Japanese: "\\8b\\e\\86\\4<br>「がんばれー！"
-  English: ''
-  Comments: ''
+  English: "\\8b\\0e\\86\\04\nCiao!"
+  Comments: "To keep in line with Chocolat's character, I needed to use a monosyllabic word."
 - Japanese: "\\8b\\e\\86\\4<br>「おー！"
-  English: ''
+  English: "\\8b\\0e\\86\\04\nYeah!"
   Comments: ''
 - Japanese: "\\8b\\e\\86\\4<br>「むぅ。"
-  English: ''
+  English: "\\8b\\0e\\86\\04\nHmm."
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「ハァ‥‥‥‥<br> 海ってせつない‥‥‥‥。"
   English: "\\8b\\0f\\86\\05\n*sigh*\nThe sea's so sad..."
   Comments: "I feel \"sad\" is too simple a translation of \"せつない\" but I want this to be in line with Candy's character."
 - Japanese: "\\8b\\f\\86\\5<br>「あら、みんなで何やってるの?<br> どこかにタンケンにでも行くの?"
-  English: ''
+  English: "\\8b\\0f\\86\\05\nHey, whatcha all up to?\nAre you going exploring somewhere?"
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「こんな海岸でタンケンですって?<br> \\85\\0ってヘンな子。<br> 行ってらっしゃい。"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「ふーん。<br> ちょっとカッコいいかもね。<br> ６人もいれば、こわいもの<br> なしだろうけど、気をつけてね。"
-  English: ''
+  English: "\\8b\\0f\\86\\05\nHmm, that's kinda cool.\nWith 6 people, there's probably\nnothing to fear, but be careful\nanyways."
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「私も行こうかなぁ。<br> 危ないとこには行かないよね?"
-  English: ''
-  Comments: ''
+  English: "\\8b\\0f\\86\\05\nI guess I'll go too. Where we're\ngoing is safe right?"
+  Comments: 'Have to rephrase this as "safe" instead of "dangerous" to make yes/no choice make sense'
 - Japanese: "\\8b\\f\\86\\5<br>「それじゃ、私もー！"
-  English: ''
+  English: "\\86\\0f\\86\\05\nAlright, I'm going too!"
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「うーん、やっぱやめとこ。<br> がんばってね。"
-  English: ''
+  English: "\\8b\\0f\\86\\05\nHmm, on second thought, I guess\nI won't go. Good luck though."
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「アニキ！！<br> だまってる場合か！！<br> 言えよ！！<br> ガッツーンと！！"
   English: ''
@@ -12005,10 +12005,10 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「みんなで何をしてますの！?<br> まさか海岸のタンケンに<br> 行ったりするつもりですの！?"
-  English: ''
+  English: "\\8b\\11\\86\\07\nWhat is everyone doing!?\nYou aren't thinking of exploring\nthe coast are you!?"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「まぁ！！<br> 危険ですの！！<br> ケガだけは気をつけますのよ！"
-  English: ''
+  English: "\\8b\\11\\86\\07\nOh my, how dangerous!\nYou must be careful not to get hurt!"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「ペシュもいっしょに来るっぴ！！<br> オイラ、このメンツじゃ<br> ちょっと心配だっぴ！！"
   English: ''
@@ -12017,112 +12017,112 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「６人いるから平気だっぴ！！<br> 何もこわくないっぴ！！"
-  English: ''
-  Comments: ''
+  English: "\\8b\\18\\86\\0e\nWe'll be fine since there's 6\nof us! There's nothing to be\nafraid of!"
+  Comments: 'Talk to Peche with 6 people, including Pistachio.'
 - Japanese: "\\8b\\11\\86\\7<br>「勝手にすればいいですの！<br> キャンプファイヤーには<br> 遅れないようにするんですのよ！"
-  English: ''
+  English: "\\8b\\11\\86\\07\nDo whatever you want!\nJust make sure you are not\nlate to the campfire!"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「海は、なつかしいニオイがする。<br> 体全部が海につつまれるような。<br> 目を閉じて、海の音だけ聞いて<br> いると、それだけで波の上を<br> ただよっているような気になる。"
   English: "\\8b\\12\\86\\08\nThe sea has a nostalgic sort of smell.\nIt's like your body is wrapped in it.\nWhen I close my eyes and listen to the\nsound of the sea, it's as if I'm floating\non top of the waves."
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「どうしたんだよ、オマエたち。<br> なんか、怪しいぞ。<br> まさか、カイゾクの宝を<br> さがしに行こうとかって<br> ワケじゃないよな?"
-  English: ''
+  English: "\\8b\\12\\86\\08\nWhat's up, you guys?\nYou're acting fishy you know.\nYou're weren't thinking of looking\nfor the pirates' treasure were you?"
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「タンケンだぜ、タンケン。<br> イカスだろ?"
-  English: ''
-  Comments: ''
+  English: "\\8b\\14\\86\\0a\nWe're going exploring.\nGroovy right?"
+  Comments: 'Not sure about "groovy", but it needs to be something equally ridiculous.'
 - Japanese: "\\8b\\12\\86\\8<br>「イカシすぎだよ。<br> まさかアンタまで、こんな遊びが<br> 好きだとは思わなかったよ。"
-  English: ''
+  English: "\\8b\\12\\86\\08\nIt's too groovy.\nI didn't think that you'd be\ninterested in games like this."
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「はっはっは！<br> やってみると面白いぜ！"
-  English: ''
+  English: "\\8b\\14\\86\\0a\nHahaha!\nIf you just try it, I'm sure\nyou'll find it interesting!"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「はははっ！<br> どうかしてるよ！<br> でもまぁ、ちょうど<br> タイクツしてたとこだし、<br> 私も行こうかな。"
-  English: ''
+  English: "\\8b\\12\\86\\08\nHahaha!\nYou guys are nuts!\nBut hmm, I'm bored so I guess\nI'll go too."
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「あやしいなぁ。"
-  English: ''
+  English: "\\8b\\12\\86\\08\nDefinitely fishy."
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「よっしゃあ！<br> 行くかぁ！"
-  English: ''
+  English: "\\8b\\12\\86\\08\nOh yeah!\nLet's go!"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「はははは。<br> ジョウダンだよ。<br> オマエらだけで行ってこいよ。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\12\\86\\08\nHahaha.\nI was kidding.\nHave fun you all."
+  Comments: Is she being passive-aggressive?
 - Japanese: "\\8b\\f\\86\\5<br>「ははは<br> そりゃそうだ。"
-  English: ''
+  English: "\\8b\\0f\\86\\05\nHahaha.\nOf course not."
   Comments: ''
 - Japanese: "\\8b\\13\\86\\9<br>「ハァ‥‥‥‥<br> 海に来ても、心の中は<br> くもったままだヌ~。"
   English: "\\8b\\13\\86\\09\n*sigh*...\nEven after coming to the sea, my\nI feel downcast."
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「よう！ カベルネ！<br> いつまで落ちこんでんだよ！"
-  English: ''
+  English: "\\8b\\14\\86\\0a\nYo! Cabernet!\nHow long are you going to be\nmoping around!?"
   Comments: ''
 - Japanese: "\\8b\\13\\86\\9<br>「カシス‥‥‥‥。<br> 何やってるヌ~?"
-  English: ''
+  English: "\\8b\\13\\86\\09\nCassis...\nWhat are you doing?"
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「タンケンごっこ。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\14\\86\\0a\nMake-believe exploration."
+  Comments: 'I want to just remove the "make-believe" part.'
 - Japanese: "\\8b\\13\\86\\9<br>「タンケンごっこ！?"
-  English: ''
+  English: "\\8b\\13\\86\\09\nMake-believe exploration!?"
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「オレも、小さいころ<br> オヤジが死んでさ‥‥‥<br> すごいツライ思いをしたことが<br> あったよ。刃の魔法の達人で<br> 死ぬわけがないと思ってたし。<br> どうして死んだか、オフクロも<br> 教えてくれなくて、オレは<br> 城下町でケンカばかりしてたさ。<br> でも、城下町で手下のガキどもを<br> 集めて遊んでる時、ふっと<br> フッ切れたんだ。<br> オレがやるべきことは、<br> 人生を楽しむことなんだ。<br> オマエも、いつまでも落ち込んで<br> いないで、もっと楽しもうぜ。"
-  English: ''
+  English: "\\8b\\14\\86\\0a\nLook, when I was young, my dad\nalso died. I have painful memories\ntoo. I thought there was no way an\nexpert of blade magic could die. My\nmom didn't tell me how he died and I\nwould get into a lot of fights near the\ncastle. But once when I gathered all my\nsidekicks and played near the castle, I\nsuddenly was able to slay my demons.\nI realized I should enjoy life to the fullest.\nCabernet, don't mope around forever.\nCome have fun with us."
   Comments: ''
 - Japanese: "\\8b\\13\\86\\9<br>「ごめんヌ~。<br> 気にしてくれてたヌ~。<br> カシスの言う通り、<br> 早く兄キのことは忘れるヌ~。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\13\\86\\09\nI'm sorry~\nI made you all worry~\nI have to get over what happened\nto my brother like you said, Cassis."
+  Comments: I think this is an unused old version of 4023?
 - Japanese: "\\8b\\13\\86\\9<br>「ありがとうヌ~。<br> その通りヌ~。<br> ところで、そのタンケン<br> オレも行っていいヌ~?"
-  English: ''
+  English: "\\8b\\13\\86\\09\nYou're right, thanks~\nBy the way, is it okay if\nI go exploring too?"
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「もちろん！<br> 来いよ！<br> とうぜんだろ！"
-  English: ''
+  English: "\\8b\\14\\86\\0a\nOf course!\nCome with us!"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「そうですの。<br> どっちでもいいですの。<br> キャンプファイヤーの時間だけは<br> 守りますのよ。"
-  English: ''
+  English: "\\8b\\11\\86\\07\nIs that so.\nEither way is fine.\nSo long as you ensure you make\nit to the campfire on time."
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「カベルネのヤツ、兄キのことを<br> 思い出して、落ちこんでるんだ。<br> 楽しませてやりたいとは<br> 思いつつも、何も手がない。<br> ダメだね、オレも。"
   English: "\\8b\\14\\86\\0a\nWhenever Cabernet recalls what\nhappened to his brother, he gets\ndepressed you know. I want to cheer\nhim up, but there's nothing I can do.\nI'm useless."
   Comments: "The last sentence isn't quite right. It completely omits the オレも for one thing."
 - Japanese: "\\8b\\14\\86\\a<br>「どうした セサミ少年！<br> 目が輝いてるぜ！"
-  English: ''
+  English: "\\8b\\14\\86\\0a\nWhat's up, Sesame?\nYour eyes are gleaming!"
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「誰にも言うなよ！！<br> トクダネだぜ！！<br> 岩場の東のほうから<br> 向こうに行けるんだけど、<br> 洞窟みたいなのがあるんだ！！<br> ウワサに聞く、カイゾクが宝を<br> うめた洞窟に ちがいないよ！！<br> これから人を集めてタンケンさ！"
-  English: ''
+  English: "\\8b\\1a\\86\\10\nDon't tell anyone, alright?\nI have a real scoop!\nEast of the rocky area is\na cave-like place! It must be\nthe rumored cave where pirates\nburied treasure!\nLet's gather up people and go\nexploring!"
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「いいね、楽しそうで。<br> なんで、オレをさそわないの。"
-  English: ''
+  English: "\\8b\\14\\86\\0a\nGreat, that sounds fun.\nWhy aren't you inviting me?"
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「だって、カシス、<br> こう言うのバカにするじゃん。"
-  English: ''
+  English: "\\8b\\1a\\86\\10\nThat's 'cause Cassis, you were\nmaking fun of us about stuff like\nthis."
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「ははは。<br> オレって、そんなヤツだっけ?<br> ははは。"
-  English: ''
+  English: "\\8b\\14\\86\\0a\nHahaha.\nDid I do something like that?\nHahaha."
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「カシスも来るのか?"
-  English: ''
+  English: "\\8b\\1a\\86\\10\nAre you coming with us?"
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「いや、やめとく。<br> がんばってね。"
-  English: ''
+  English: "\\8b\\14\\86\\0a\nNah, I'll pass.\nGood luck though."
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「行くよ。<br> できれば、カベルネも<br> さそってくれよ。<br> 無理にとは言わないけどさ。"
-  English: ''
+  English: "\\8b\\14\\86\\0a\nYeah, I'm going too.\nIf possible, let's invite Cabernet too.\nI won't force you to though."
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「けっきょく、バカにされた<br> だけのような‥‥‥‥。"
-  English: ''
+  English: "\\8b\\1a\\86\\10\nSee, I feel like you just made\nfun of us..."
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「夕焼けの海は<br> 恋をしているよう。<br> 空が海に恋をする時、<br> その中でふるえる小さな<br> ボクらは、星空の夢を見る。"
   English: "\\8b\\15\\86\\0b\nThe glow of the sunset on the\nocean is like love. As the sky\nand the ocean make love, we are\nshiveringly small and see dreams\nof a starry, starry night."
   Comments: I think the implication here is really lovemaking (when the sky and sea make love).
 - Japanese: "\\8b\\15\\86\\b<br>「どうしたの?<br> 気合入ってるね。"
-  English: ''
+  English: "\\8b\\15\\86\\0b\nWhat's up? You all look spirited."
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「東のハズレに洞窟発見！<br> タンケンに行くのさ！"
-  English: ''
+  English: "\\8b\\1a\\86\\10\nWe found a cave on the east end!\nLet's go exploring!"
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「へ~、楽しそうだね~。<br> でも、ボクは関係ないや。<br> ボクは一人ここで、<br> 海の歌を歌うのさ。<br> 今しか歌えない歌を。<br> ん~。"
-  English: ''
+  English: "\\8b\\15\\86\\0b\nI see, sounds fun.\nBut, I'm not interested.\nI'm going to be here by myself,\nsinging the song of the sea.\nThe song that be sung nowhere else."
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「洞窟かぁ。<br> いいなぁ。<br> \\85\\0~。<br> ボクも行っていいよね?"
   English: ''
@@ -12140,40 +12140,40 @@
   English: "\\8b\\16\\86\\0c\nKirsche has been head over heels for Candy\nrecently. Even though when we were young,\nhe said that he would make me his wife.\nI bet he's forgotten all about it."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「あら、みんなで<br> 何してんの?"
-  English: ''
+  English: "\\8b\\16\\86\\0c\nOh, what are you all up to?"
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「洞窟を見つけたから、<br> これからタンケンに行くんだ。"
-  English: ''
+  English: "\\8b\\1a\\86\\10\nIf we manage to find a cave,\nwe're going to go explore it."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「よう！アランシア！<br> タンケンに行ってくるぜ！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\nYo! Arancia!\nLet's go exploring!"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「なんだか面白そう。<br> でも、私は行かな~い。<br> がんばってね~。"
-  English: ''
+  English: "\\8b\\16\\86\\0c\nSounds interesting.\nBut, I'm not going.\nGood luck though!"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「あ、そう。<br> 勝手に行けば。<br> 知らない！"
-  English: ''
-  Comments: ''
+  English: "\\8b\\16\\86\\0c\nIs that so.\nWell, go then.\nWhatever!"
+  Comments: Talk to Arancia with both Kirsche and Candy in the group.
 - Japanese: "\\8b\\16\\86\\c<br>「私も行く~！<br> いいでしょ?<br> ね?"
-  English: ''
+  English: "\\8b\\16\\86\\0c\nI'm going too!\nIt's fine, right?\nRight?"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「やった~！"
-  English: ''
+  English: "\\8b\\16\\86\\0c\nYay!"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「アランシアは、あぶないことは<br> しないほうがいいよ。<br> ここに残りな。"
-  English: ''
+  English: "\\8b\\0c\\86\\02\nArancia, it's too dangerous for\nyou. Just stay here, okay?"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「え~！！<br> つまんな~い！！"
-  English: ''
+  English: "\\8b\\16\\86\\0c\nWhat~\nThat's boring~"
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「アニキ！<br> まだ人をさそえるけど<br> 誰をさそう！?"
-  English: ''
+  English: "\\8b\\1a\\86\\10\nBro!\nWe still have room for more.\nWho should we invite?"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「そうだなぁ‥‥‥‥。<br> 誰でもいいけど‥‥‥‥<br> コテージのほうとか、<br> 行ってみるか。"
-  English: ''
+  English: "\\8b\\0c\\86\\02\nYou're right...\nI'm fine with anyone...\nWhy don't we try near the\ncottages?"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「なんで私は、さそって<br> もらえないんだろうなぁ。<br> ふん。"
-  English: ''
+  English: "\\8b\\16\\86\\0c\nWhy won't you guys invite\nme? Hmph."
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>ウミノミズハ ナゼショッパイカ<br> ワカルカ?</i>"
   English: "\\8b\\17\\86\\0d\nDo you know why seawater is\nsalty?"
@@ -12185,16 +12185,16 @@
   English: "\\8b\\17\\86\\0d\nIf it weren't salty, everyone\nwould drink it until it's gone.\nIf the ocean disappeared, we\nwould be in trouble.\nThat's why God made the sea salty."
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>ハナシハ キカセテモラッタ。<br> オレモ ツイテイクゼ。<br> イイダロ?</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\nI heard about what's going on.\nI'm joining you too.\nThat's okay right?"
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>オウ、ザンネンナガラ<br> パーティハ ６ニンマデダ。<br> ヘイホウノ ジョウシキダ。<br> オレノ サンカハ<br> アキラメテクレ。</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\nOh, what a shame. You can only have\n6 people in a party. That's common \nknowledge in the art of war.\nI'll give up on joining."
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>アンタナラ ソウイウト<br> オモッタゼ。</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\nI thought you'd say that."
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>ソレモ イイダロウ。<br> アンタノ ジユウサ。</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\nThat's fine too.\nIt's your choice."
   Comments: ''
 - Japanese: ''
   English: ''
@@ -12203,28 +12203,28 @@
   English: "\\8b\\18\\86\\0e\nI don't know what to do to be\nable to beat Calamari...\nI can't help it but get worried \nand anxious and stressed..."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「みんな、どうしたっぴ！<br> ヤル気がにじみ出てるっぴ！"
-  English: ''
-  Comments: ''
+  English: "\\8b\\18\\86\\0e\nWhat is everyone doing?\nYou're all exuding enthusiasm!"
+  Comments: "I don't like this translation"
 - Japanese: "\\8b\\1a\\86\\10<br>「おう、ピスタチオ！ 来いよ！<br> きたえてやるよ！"
-  English: ''
+  English: "\\8b\\1a\\86\\10\nOh, Pistachio! Join us!\nWe'll help you train!"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「どうしたっぴ！?<br> いったい何をする気だっぴ！?"
-  English: ''
+  English: "\\8b\\18\\86\\0e\nWhat's going on!?\nWhat exactly are you planning on\ndoing!?"
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「タンケンに行くんだ！！<br> カイゾクがほった穴だ！！<br> きっとガイコツやら、ハブやら<br> マングースやらが、そこらじゅう<br> うようよしてるぜ！！"
-  English: ''
-  Comments: ''
+  English: "\\8b\\1a\\86\\10\nWe're going exploring!\nThere's a cave dug by pirates!\nI'm sure it's crawling with skeletons,\nvipers, and mongooses!"
+  Comments: 'ハブ: https://en.wikipedia.org/wiki/Habu'
 - Japanese: "\\8b\\18\\86\\e<br>「ひぁ~~~~~！！<br> コワイっぴ~~~！！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\nEek! I'm scared!"
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「そんなことじゃ、ピスタチオは<br> 落第だな。<br> このキャンプを最後に<br> もう会えないってことか。"
-  English: ''
+  English: "\\8b\\1a\\86\\10\nWell then, Pistachio, you're going\nto flunk out.\nI guess I won't see you anymore after\ncamp."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「行くっぴ！！<br> オイラ落第はイヤだっぴ！！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\nI'll go! I don't want to\nflunk out!"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「‥‥‥‥と、思ったけど<br> こんな海岸にハブやマングースが<br> いるワケないっぴ。<br> オイラ、ゆっくりとキャンプの<br> 計画をねるっぴ。"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n...is what I thought but there's\nno way there are vipers or\nmongooses here on the coast.\nI'll just take my time and work out\na plan."
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「フンッ！！<br> シンコクなカオしやがって！！<br> キルシュのアニキのほうが<br> １００倍イカしてるぜ！！"
   English: ''
