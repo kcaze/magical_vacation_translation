@@ -46,13 +46,25 @@ Control Characters
 
 0x629A2C to 0x62C6A6-- Offsets into the script for specific dialogue. Each halfword indicates an index into the script. The halfwords are stored in increasing order in "sections". Once one "section" is finished, they start over again at 0x0000 but these are now offsets into the script base address + (number of sections read) * 0x10000. Things are packed VERY tightly. The next offset into the script indicates the end of the current one. There is no separate "end" offset and hence also no control code in the dialogue to indicate the end.
 
-
-0x0000B56A -- Beginning of subroutine to load next dialogue text. The parameter r0 passed indicates which offset to use.
+0x0000B564 -- Beginning of subroutine to load next dialogue text. The parameter r0 passed indicates which offset to use.
 0x0000B818 -- Does the comparison for control characters.
   0x0000B82C -- FF control character. Branches to 0x0000C2F6.
-  0x0000B844 -- Function jump table of control codes, goes from 0x80 to 0xA6 (26 control codes total).
+  0x0000B844 -- Function jump table of control codes, goes from 0x80 to 0xA6 (0x26 control codes total).
   NOTE: I can override some of the jump tables to define my own control codes!!!
 0x0000C18E -- Updating the script by 0x2 each read.
+
+0x0000B564 is called at 0x0001CDA4
+The beginning of the subroutine for that is at 0x0001CD5C, which is called from
+  -0x00000D4C
+  -0x00001062
+  -0x000170BC
+  -0x00017152
+  -0x0001CB1C
+  -0x0001CCD4
+  -0x0001CD0E
+  -0x0001CD48
+  -0x0001CDA4
+  -0x00023700
 
 0x02009720 and 0x020097A0 -- RAM holding location of script that current dialogue is reading from. 0x02009720 is the one that gets incremented after each character is drawn.
 0x0200999C -- RAM holding the end of the current dialogue.
