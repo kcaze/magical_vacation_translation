@@ -68,3 +68,7 @@ overriding this to double the maximum length of names. It branches to
 
 `0x00226F80` stores some offsets, indicating the beginning of the items table,
 beginning of the names table, etc.
+
+
+Place names:
+マサラティ -- Masala Chai

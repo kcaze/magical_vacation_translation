@@ -26,7 +26,10 @@
   English: ''
   Comments: ''
 - Japanese: ' 精霊の説明を読みますか?<br>  はい<br>  いいえ'
-  English: ''
+  English: |-
+    Read the spirit's explanation?
+    Yes
+    No
   Comments: ''
 - Japanese: "\\8b\\d9グラン・ドラジェ<br>「楽しいキャンプになるよう<br> 祈っておる。<br> その楽しさが、これからも<br> ずっと続くようにな。"
   English: "\\8b\\d9Principal Biscotti\nI pray that your camp may\nbe one filled with fun and\nthat the fun will continue\nevermore."
@@ -35,28 +38,28 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「<span class=\"red\">ヴァレンシア海岸</span>‥‥‥‥<br> あそこは、３年前の事件の後<br> すぐに閉鎖すべきだったわ。<br> よりにもよって、どうして<br> あんな場所でキャンプを<br> 続けるんですか?"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\n\"\\8eValencia Beach\\8d...\nThat place should have been locked\nafter the incident 3 years ago.\nWhy are we still continuing to have\ncamp there of all places?"
   Comments: ''
 - Japanese: "\\8b\\d9グラン・ドラジェ<br>「こちらの動きを<br> ヤツらに知られたくないんだ。<br> 子供たち全✈とは言わぬ。<br> 半分でいい。<br> 前線に出せる魔法使いとして<br> 育てて帰ってきてほしい。"
-  English: ''
+  English: "\\8b\\d9Principal Biscotti\n\"I don't want them to know about\nmy plans. I won't ask for all the\nchildren. Half is enough. I want\nthem to return, trained as wizards\nwho can fight on the front line."
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「半分！?<br> 他は死んでもいいって<br> おっしゃるんですか！?<br> それはあんまりです！！<br> 何かあったらすぐ、<br> 私の判断で学校に戻ります！！"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\n\"Half!?\nAre you saying that it's fine for\nthe others to die!?\nNo, I won't have that!\nIf anything were to happen, we would\nimmediately return to school on my\njudgment."
   Comments: ''
 - Japanese: "\\8b\\d9グラン・ドラジェ<br>「一刻を争うんじゃ。<br> 軍にはもう、頼れる者はおらん。<br> このままだと、１５年前の悪夢の<br> 再来‥‥‥‥<br> いや、こちらにはもうヤツらを<br> おさえこむ戦力がない‥‥‥‥<br> どうなるかは火を見るより<br> あきらか。<br> たのむ、マドレーヌ。<br> 戦争はもう始まっておるんじゃ。"
-  English: ''
+  English: "\\8b\\d9Principal Biscotti\n\"We will be fighting for only a\nsplit second. There are no reliable\nmembers of the army left. If this\ncontinues, the nightmare of 15 years\nago will once again...\nNo, we don't have the manpower to keep\nthem under control anymore...\nIt's clear as day what will happen.\nI implore of you, Madeleine.\nThe war is already beginning."
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「校長の考えはわかりました。<br> だけど、全✈連れて帰ります。<br> 一人も死なせたりするもん<br> ですか。"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\n\"Principal, I understand. However,\nI will take everyone and bring them\nback. There's no way I can let even\none person die."
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「あら、\\85\\0。<br> まだウロウロしてるの?<br> 他の子達と<br> バスに乗って待ってなさい。"
   English: "\\8b\\acMiss Madeleine\nAh, \\85\\00.\nAre you still loitering around?\nPlease wait on the bus with the others."
   Comments: ''
 - Japanese: "\\8b\\0  はい<br>  いいえ"
-  English: ''
+  English: "\\8b\\00 Yes\nNo"
   Comments: ''
 - Japanese: "\\8b\\0  はい<br>  いいえ"
-  English: ''
+  English: "\\8b\\00 Yes\nNo"
   Comments: ''
 - Japanese: '  アイテム１０  裏ダンジョン<br>  カエルフリー  追加キャラ<br>  パーティ    キャンセル'
   English: ''
@@ -65,7 +68,7 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\0 所持金：ブラー<br>  １０００ブラーはらう<br>  はらわない"
-  English: ''
+  English: "\\8b\\00 Money: Bura\nPay 1000 Bura\nDon't pay"
   Comments: ''
 - Japanese: "\\8b\\0 所持金：ブラー<br>  お金を受け取る<br>  そのままあずけてみる"
   English: ''
@@ -118,130 +121,132 @@
   English: ''
   Comments: ''
 - Japanese: '  <span class="red">火の精霊・トースト</span>と<br>  仲良くなった！'
-  English: ''
+  English: "You became friends with\n\\8eToast, the fire spirit\\8f!"
   Comments: ''
 - Japanese: '  <span class="red">風の精霊・エア</span>と<br>  仲良くなった！'
-  English: ''
+  English: "You became friends with\n\\8eAir, the wind spirit\\8f!"
   Comments: ''
 - Japanese: '  <span class="red">毒の精霊・ブー</span>と<br>  仲良くなった！'
-  English: ''
-  Comments: ''
+  English: "You became friends with\n\\8eBoo, the poison spirit\\8f!"
+  Comments: "I don't think it should be called Boo..."
 - Japanese: '  <span class="red">美の精霊・パウダー</span>と<br>  仲良くなった！'
-  English: ''
-  Comments: ''
+  English: "You became friends with\n\\8ePowder, the beauty spirit\\8f!"
+  Comments: Maybe it should be called Makeup?
 - Japanese: '  <span class="red">刃の精霊・スラッシュ</span>と<br>  仲良くなった！'
-  English: ''
+  English: "You became friends with\n\\8eSlash, the blade spirit\\8f!"
   Comments: ''
 - Japanese: '  <span class="red">音の精霊・ハミング</span>と<br>  仲良くなった！'
-  English: ''
+  English: "You became friends with\n\\8eHumming, the music spirit\\8f!"
   Comments: ''
 - Japanese: '  <span class="red">石の精霊・フリント</span>と<br>  仲良くなった！'
-  English: ''
+  English: "You became friends with\n\\8eFlint, the stone spirit\\8f!"
   Comments: ''
 - Japanese: '  <span class="red">虫の精霊・バズ</span>と<br>  仲良くなった！'
-  English: ''
+  English: "You became friends with\n\\8eBuzz, the bug spirit\\8f!"
   Comments: ''
 - Japanese: '  <span class="red">木の精霊・スティック</span>と<br>  仲良くなった！'
-  English: ''
+  English: "You became friends with\n\\8eStick, the tree spirit\\8f!"
   Comments: ''
 - Japanese: '  <span class="red">獣の精霊・ガル</span>と<br>  仲良くなった！'
-  English: ''
+  English: "You became friends with\n\\8eGrr, the beast spirit\\8f!"
   Comments: ''
 - Japanese: '  <span class="red">水の精霊・フロー</span>と<br>  仲良くなった！'
-  English: ''
+  English: "You became friends with\n\\8eFlow, the water spirit\\8f!"
   Comments: ''
 - Japanese: '  <span class="red">雷の精霊・テスラ</span>と<br>  仲良くなった！'
-  English: ''
+  English: "You became friends with\n\\8eTesla, the lightning spirit\\8f!"
   Comments: ''
 - Japanese: '  <span class="red">古の精霊・クロック</span>と<br>  仲良くなった！'
-  English: ''
+  English: "You became friends with\n\\8eClock, the ancient spirit\\8f!"
   Comments: ''
 - Japanese: '  <span class="red">闇の精霊・ニルヴァ</span>と<br>  仲良くなった！'
-  English: ''
+  English: "You became friends with\n\\8eNirva, the dark spirit\\8f!"
   Comments: ''
 - Japanese: '  <span class="red">光の精霊・ルクス</span>と<br>  仲良くなった！'
-  English: ''
+  English: "You became friends with\n\\8eLux, the light spirit\\8f!"
   Comments: ''
 - Japanese: '  <span class="red">愛の精霊・ウィッシュ</span>と<br>  仲良くなった！'
-  English: ''
+  English: "You became friends with\n\\8eWish, the love spirit\\8f!"
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\86\\2</span>が仲間になった！"
-  English: ''
+  English: "\n\\86\\02 joined the party!"
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\86\\3</span>が仲間になった！"
-  English: ''
+  English: "\n\\86\\03 joined the party!"
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\86\\4</span>が仲間になった！"
-  English: ''
+  English: "\n\\86\\04 joined the party!"
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\86\\5</span>が仲間になった！"
-  English: ''
+  English: "\n\\86\\05 joined the party!"
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\86\\6</span>が仲間になった！"
-  English: ''
+  English: "\n\\86\\06 joined the party!"
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\86\\7</span>が仲間になった！"
-  English: ''
+  English: "\n\\86\\07 joined the party!"
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\86\\8</span>が仲間になった！"
-  English: ''
+  English: "\n\\86\\08 joined the party!"
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\86\\9</span>が仲間になった！"
-  English: ''
+  English: "\n\\86\\09 joined the party!"
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\86\\a</span>が仲間になった！"
-  English: ''
+  English: "\n\\86\\0a joined the party!"
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\86\\b</span>が仲間になった！"
-  English: ''
+  English: "\n\\86\\0b joined the party!"
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\86\\c</span>が仲間になった！"
-  English: ''
+  English: "\n\\86\\0c joined the party!"
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\86\\d</span>が仲間になった！"
-  English: ''
+  English: "\n\\86\\0d joined the party!"
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\86\\e</span>が仲間になった！"
-  English: ''
+  English: "\n\\86\\0e joined the party!"
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\86\\f</span>が仲間になった！"
-  English: ''
+  English: "\n\\86\\0f joined the party!"
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\86\\10</span>が仲間になった！"
-  English: ''
+  English: "\n\\86\\10 joined the party!"
   Comments: ''
 - Japanese: "\\8b\\d8ピッツァ<br>「レッツ！！<br> テレポ~テ~ショ~ン！！<br> あなたがどこにいても、<br> シルクハットから、ハトのように<br> あなたを取り出しまっちゅ！！"
-  English: ''
-  Comments: ''
+  English: "\\8b\\d8Pizza\nLet's!\nTeleport!\nNo matter where you are, I'll pull\nyou out of my silk hat like a rabbit!"
+  Comments: Changed pigeon to rabbit.
 - Japanese: "\\8b\\d8ピッツァ<br>「これはミ~からの<br> プレゼントだよ！！"
-  English: ''
+  English: "\\8b\\d8Pizza\nThis is a present from yours truly!"
   Comments: ''
 - Japanese: "<br> <span class=\"red\">\\87\\1</span>をもらった！！"
-  English: ''
+  English: "\nObtained \\87\\01!"
   Comments: ''
 - Japanese: "\\8b\\15  『ちゅん！』<br>  『じゅいー』<br>  キャンセル"
   English: ''
   Comments: ''
 - Japanese: "\\8b\\d8ピッツァ<br>「<span class=\"red\">\\0\\eまつぼっくり</span>を<span class=\"red\">５個</span>払うと<br> ここをワープ先に登録できます。<br> この場所をワープ先に登録して<br> おくと、どこからでも ここに<br> ワープできるようになるよ。<br> ワープするには、まず<span class=\"red\">メニュー</span>の<br> <span class=\"red\">メモ</span>から、<span class=\"red\">ワールドマップ</span>の<br> <span class=\"red\">地図</span>を選ぶんだ。<br> 次に、行きたい場所に羽を<br> あわせて、<span class=\"red\">Aボタン</span>を押せば、<br> ワープできるよ。<br> 登録しちゃう?"
-  English: ''
+  English: "\\8b\\d8Pizza\n\"If you pay me \\8e5 \\00\\0ePine Cones\\8d, I'll\nregister this as a warp spot. Once this is\nregistered as a warp spot, you can warp to\nhere no matter where you are. To warp, first\nopen up the \\8ememo\\8d in your \\8emenu\\8d and\nselect the \\8eWorld Map\\8d.\nNext, align the quill with the place you want\nto go, press the \\8eA button\\8d, and you'll warp\nthere.\nDo you want to register this warp spot?"
   Comments: ''
 - Japanese: '<br> エニグマが死んでいる‥‥‥‥。'
-  English: ''
+  English: |-
+
+    The Enigma is dead...
   Comments: ''
 - Japanese: "\\8b\\d8ピッツァ<br>「<span class=\"red\">\\0\\eまつぼっくり</span>を<span class=\"red\">５個</span>払うと<br> ここをワープ先に登録できます。<br> この場所をワープ先に登録して<br> おくと、どこからでも ここに<br> ワープできるようになるよ。<br> 登録しちゃう?"
-  English: ''
+  English: "\\8b\\d8Pizza\n\"\\8b\\d8Pizza\nIf you pay me \\8e5 \\00\\0ePine Cones\\8d, I'll\nregister this as a warp spot. Once this is\nregistered as a warp spot, you can warp to\nhere no matter where you are.\nDo you want to register this warp spot?"
   Comments: ''
 - Japanese: "\\8b\\d8ピッツァ<br>「<span class=\"red\">\\0\\eまつぼっくり</span>が足りないよ~。"
-  English: ''
+  English: "\\8b\\d8Pizza\n\"You don't have enough \\8e\\00\\0ePine Cones\\8d."
   Comments: ''
 - Japanese: "\\8b\\d8ピッツァ<br>「OK！<br> 登録できたよ！"
-  English: ''
+  English: "\\8b\\d8Pizza\nOK! It's registered!"
   Comments: ''
 - Japanese: "\\8b\\d8ピッツァ<br>「それじゃ！<br> また今度！"
-  English: ''
+  English: "\\8b\\d8Pizza\nAnd with that!\nUntil next time!"
   Comments: ''
 - Japanese: "\\8b\\d8ピッツァ<br>「ここはすでにワープ先として<br> 登録されてまっちゅ！<br> シ~ユ~！"
-  English: ''
+  English: "\\8b\\d8Pizza\nThis is already registered as a warp\nspot! See you!"
   Comments: ''
 - Japanese: "\\8b\\0 所持金：ブラー<br>  <span class=\"red\">５ブラー</span>はらって泊まる<br>  キャンセル"
   English: ''
@@ -256,85 +261,93 @@
   English: ''
   Comments: ''
 - Japanese: '<br> 文鳥は首をかしげただけだった。'
-  English: ''
+  English: |-
+
+    The ricebird only cocked its head.
   Comments: ''
 - Japanese: "\\8b\\29文鳥<br>「ちゅ‥‥‥‥。"
-  English: ''
+  English: "\\8b\\29Ricebird\n\"Chirp..."
   Comments: ''
 - Japanese: '<br> 今はテレポートできないようです。'
-  English: ''
+  English: |-
+
+    It appears you can't teleport now.
   Comments: ''
 - Japanese: ''
   English: ''
   Comments: ''
 - Japanese: '<br>  内側からカギがかかってる'
-  English: ''
+  English: |-
+
+    It's locked from the inside.
   Comments: ''
 - Japanese: "\\8b\\0  闇のプレーン<br>  死のプレーン<br>  キャンセル"
-  English: ''
+  English: "\\8b\\00 Plane of Darkness\nPlane of Death\nCancel"
   Comments: ''
 - Japanese: "\\8b\\0  光のプレーン<br>  死のプレーン<br>  キャンセル"
-  English: ''
+  English: "\\8b\\00 Plane of Light\nPlane of Death\nCancel"
   Comments: ''
 - Japanese: "\\8b\\0  光のプレーン<br>  闇のプレーン<br>  キャンセル"
-  English: ''
+  English: "\\8b\\00 Plane of Light\nPlane of Darkness\nCancel"
   Comments: ''
 - Japanese: "\\8b\\0  光のプレーン<br>  魔法学校<br>  キャンセル"
-  English: ''
+  English: "\\8b\\00 Plane of Light\nWill-O'-Wisp Academy\nCancel"
   Comments: ''
 - Japanese: "\\8b\\0  闇のプレーン<br>  魔法学校<br>  キャンセル"
-  English: ''
+  English: "\\8b\\00 Plane of Darkness\nWill-O'-Wisp Academy\nCancel"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「学校へ帰るのは、みんなが<br> そろってからにしようぜ。"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"Let's wait for everyone before\nheading back."
   Comments: ''
 - Japanese: "\\8b\\0  氷の島へ<br>  沼の南へ<br>  キャンセル"
-  English: ''
+  English: "\\8b\\00 To the Ice Island\nTo the marsh's south\nCancel"
   Comments: ''
 - Japanese: "\\8b\\0  マサラティ村へ<br>  沼の南へ<br>  キャンセル"
-  English: ''
+  English: "\\8b\\00 To Masala Chai Village\nTo the marsh's south\nCancel"
   Comments: ''
 - Japanese: "\\8b\\0  マサラティ村へ<br>  氷の島へ<br>  キャンセル"
-  English: ''
+  English: "\\8b\\00 To Masala Chai Village\nTo the Ice Island\nCancel"
   Comments: ''
 - Japanese: '<br> 不思議な力がはたらいている！'
-  English: ''
+  English: |-
+
+    A mysterious power is at work!
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\86\\16</span>が仲間になった！"
-  English: ''
+  English: "\n\\86\\16 joined the party!"
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\86\\17</span>が仲間になった！"
-  English: ''
+  English: "\n\\86\\17 joined the party!"
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\86\\18</span>が仲間になった！"
-  English: ''
+  English: "\n\\86\\18 joined the party!"
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\86\\19</span>が仲間になった！"
-  English: ''
+  English: "\n\\86\\19 joined the party!"
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\86\\1a</span>が仲間になった！"
-  English: ''
+  English: "\n\\86\\1a joined the party!"
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\86\\1b</span>が仲間になった！"
-  English: ''
+  English: "\n\\86\\1b joined the party!"
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\86\\1c</span>が仲間になった！"
-  English: ''
+  English: "\n\\86\\1c joined the party!"
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\86\\1d</span>が仲間になった！"
-  English: ''
+  English: "\n\\86\\1d joined the party!"
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\86\\1e</span>が仲間になった！"
-  English: ''
+  English: "\n\\86\\1e joined the party!"
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\86\\1f</span>が仲間になった！"
-  English: ''
+  English: "\n\\86\\1f joined the party!"
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\86\\20</span>が仲間になった！"
-  English: ''
+  English: "\n\\86\\20 joined the party!"
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\86\\21</span>が仲間になった！"
-  English: ''
+  English: "\n\\86\\21 joined the party!"
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「おっそいぞ~！<br> いそいで~！"
   English: "\\8b\\acMiss Madeleine\nYou two are late!\nHurry up!"
@@ -352,7 +365,9 @@
   English: "\\8b\\12\\86\\08\n......"
   Comments: ''
 - Japanese: ' カベルネの帽子の中にいる<br> カエルの呪いで、カエルグミを<br> つかまえられなかった！！'
-  English: ''
+  English: |-
+    Because of curse of the frog in Cabernet's
+    hat, you couldn't catch the gummy frog.
   Comments: ''
 - Japanese: ''
   English: ''
@@ -361,13 +376,13 @@
   English: "\\8b\\a3Driver Balsamico\nReady..................\nSet....................\nGo.....................\n......................!"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「不安になってきたっぴ‥‥"
-  English: ''
+  English: "\\8b\\18\\86\\0e\nI'm getting worried..."
   Comments: ''
 - Japanese: ''
   English: ''
   Comments: ''
 - Japanese: "\\8b\\a3運転手のバルサミコ<br>「ヘイ！ ガキんちょども！<br> 海が見えてきたぜッ！"
-  English: ''
+  English: "\\8b\\a3Driver Balsamico\nHey! You twerps!\nWe can see the sea coming up!"
   Comments: ''
 - Japanese: ''
   English: ''
@@ -388,7 +403,7 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\13\\86\\9<br>「波の音って、ここちよい<br> ヌ~。"
-  English: ''
+  English: "\\8b\\13\\86\\09\nThe sound of the waves is pleasant."
   Comments: ''
 - Japanese: "\\8b\\c5通りすがりのブラウニー<br>「この、奇妙なものを<br> 蹴ってみるとよろしい。<br> うむ。"
   English: ''
