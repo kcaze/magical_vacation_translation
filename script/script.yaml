@@ -406,28 +406,45 @@
   English: "\\8b\\13\\86\\09\nThe sound of the waves is pleasant."
   Comments: ''
 - Japanese: "\\8b\\c5通りすがりのブラウニー<br>「この、奇妙なものを<br> 蹴ってみるとよろしい。<br> うむ。"
-  English: ''
+  English: "\\8b\\c5Passing Brownie\nFeel free to kick peculiar thing.\nYep."
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「ガナッシュたちは、この村のリー<br> ダーの船で対岸へ向かったよ。<br> そこから、ニャムネルトの村を<br> 通って<span class=\"red\">エニグマの森</span>へ行くん<br> だって。<br> 今は、<span class=\"red\">船は出はらってるけど<br> 数日したら、また戻る</span>はずさ。<br> そしたら、キミたちも<br> 南へ向かうといいよ。<br> それまでは宿に泊まって<br> 体を休めておくことだね。"
-  English: ''
+  English: "\\8b\\15\\86\\0b\n\"Ganache and the others were headed\nto the opposite shore on the village\nhead's boat. They said there were going\nto pass through the Felin's village and\ngo to \\8eEnigma Forest\\8d.\nRight now, \\8ethe boat is at sea, but it\nshould be back in a few days\\8d. When it's\nback, you can then head south. Until then,\nplease stay at the inn and rest your weary\nbodies."
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「ガナッシュたちは、この村のリー<br> ダーの船で対岸へ向かったよ。<br> そこから、ニャムネルトの村を<br> 通って<span class=\"red\">エニグマの森</span>へ行くん<br> だって。<br> 船に乗れるようになったら、<br> キミたちも南へ向かうといいよ。"
-  English: ''
+  English: "\\8b\\15\\86\\0b\n\"Ganache and the others were headed\nto the opposite shore on the village\nhead's boat. They said there were going\nto pass through the Felin's village and\ngo to \\8eEnigma Forest\\8d.\nOnce you're able to get on the boat, you\ncan then head south."
   Comments: ''
 - Japanese: "\\8b\\1bマジックドール<br>「ミニョ~ン"
-  English: ''
+  English: "\\8b\\1bMagic Doll\n\"Mignon"
   Comments: ''
 - Japanese: "\\8b\\13\\86\\9<br>「なんだかみんな、ソワソワしてる<br> ように見えるヌ~。<br> でも、もし何か事件が起きても<br> キソをしっかり覚えてれば<br> 平気だヌ~。<br> ひとつ！<br> <span class=\"red\">MPが少なくなったらミミズグミ<br> で回復</span>しておくヌ~。<br> ひとつ！<br> <span class=\"red\">ミミズグミは穴に逃げ込む前に<br> 素早く捕まえる</span>ヌ~！<br> ひとつ！<br> <span class=\"red\">いろんなしっぽは薬になる</span>ヌ~！<br> <span class=\"red\">マヒや毒はしっぽで回復</span>ヌ~！"
-  English: ''
+  English: "\\8b\\13\\86\\09\nIt looks like everyone's all\nnervous and uneasy. But, if something\nwere to happen, as long as you remember\nthe fundamentals, you'll be fine.\nOne!\n\\8eWhen you're low on MP, use a gummy\nworm to recover\\8d.\nTwo!\n\\8eCatch gummy worms quickly, before they\ndive into their holes\\8d.\nThree!\n\\8eVarious tails have medicinal effects\\8d!\n\\8eThey can cure paralysis, poison, and more!\\8d"
   Comments: ''
 - Japanese: ''
   English: ''
   Comments: ''
 - Japanese: 'カイゾクが残した手紙が落ちている！<br>読んでみますか?'
-  English: ''
+  English: |-
+    A letter left behind by pirates is
+    on the floor!
+    Read it?
   Comments: ''
 - Japanese: '『<i>しんあいなるゴメスよ、<br> おれのぶかは、だれも、カエルグミを<br> とらないで ぼうけんしているぜ。<br> しかも、みせでかってもいねぇぜ。<br> おまえもうみのおとこなら、<br> そのくらいのこんじょうみせてみろ。<br> ここだけのはなしだが、カエルグミを<br> つかまえずに ぼうけんしてると、<br> いいこともあるぜ。<br> おっと、これいじょうはひみつだ。<br> てめぇのちいせぇのーみそで<br> かんがえやがれ。<br> わっはっはっは。<br>        うみのおうじゃ<br>        べすぷっちさまより'
-  English: ''
+  English: |-
+    "To my beloved Gomez,
+    All of my vassal's are off adventuring
+    without catching any gummy frogs.
+    Furthermore, they don't buy any from shops.
+    If you consider yourself a man of the sea,
+    show me that you at least have the guts to do
+    that. Just between you and me, if you
+    don't catch any gummy frogs on your adventure,
+    something good will happen. I can't say
+    anything more than that. Just use your tiny
+    brain to think about it. Hahaha.
+
+    Sincerely,
+    The King of the Seas, Vespucci
   Comments: ''
 - Japanese: ''
   English: ''
@@ -448,13 +465,13 @@
   English: ''
   Comments: ''
 - Japanese: "<br>   <span class=\"red\">\\87\\16</span>をもらった！"
-  English: ''
+  English: "\nObtained \\87\\16!"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「かわりに、これをあげる。<br> 見た目はヘンだけど、<br> 使えば、いいことがあるわ。"
-  English: ''
+  English: "\\8b\\12\\86\\08\nIn return, I'll give you this.\nIt looks strange, but if you use it,\ngood things will happen."
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「わたしのことは気にしなくて<br> いいのよ‥‥。<br> ここにいれば、みんなが<br> 守ってくれるから。<br> あなたこそ気をつけてね‥‥。"
-  English: ''
+  English: "\\8b\\12\\86\\08\nDon't worry about me...\nIf I stay here, everyone will protect\nme. Rather, make sure you be careful..."
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「‥‥‥‥<br> と、そういうことで、<br> 夜のキャンプファイヤーまで<br> 自由時間になりまーす。<br> それじゃあ、かいさーん！"
   English: "\\8b\\acMiss Madeleine\n...\nand so you'll have free time from now \nuntil tonight's campfire.\nClass dismissed!"
@@ -487,19 +504,19 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「あっちの、林のほうにさ~<br> <span class=\"red\">カエルグミ</span>が いっぱいいたよ~<br> <span class=\"red\">カエルグミを食べると、<br> 体力を回復できる</span>んだよね~<br> つかまえたいな~"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Over there, in the forest, there were\na ton of gummy frogs! If you eat a\ngummy frog, you'll recover your HP. Man,\nI want to catch some."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「なんだって！?<br> <span class=\"red\">カエルグミ</span>！?<br> よ~し！ アランシア！<br> オマエはここにいろ！<br> マズはオレからだぁぁぁ！！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"Whatchu say!?\n\\8eGummy frogs\\8d!?\nAlright! Arancia!\nYou stay here! I'm going first!"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「あ~！ ズ~ル~イ~！<br> わたしが見つけたのに~！"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Ah! That's no fair!\nI was the one who found them first!"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「ねぇ~ キルシュ~"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Hey, Kirsche."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「この北が波打ちぎわですの！<br> もう暗いから海に入ったりして<br> 遊んではいけませんのよ！"
-  English: "\\8b\\11\\86\\07\nNorth of here is the water's edge.\nIt's dark already so don't go and\nplay in the sea!"
+  English: "\\8b\\11\\86\\07\n\"North of here is the water's edge.\nIt's dark already so don't go and\nplay in the sea!"
   Comments: ''
 - Japanese: ''
   English: ''
@@ -508,28 +525,28 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「わたし、体が弱いからあんまり<br> はしゃげないの。<br> 走り回って さわいでるみんなが<br> うらやましい。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\nMy body is quite frail so I can't\nprance around.\nI'm jealous of you all running around\nand having fun."
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「海っていいよな。<br> 波の音を 聞いてるだけで、<br> アタマ、カラッポになる。"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"The sea's great isn't it.\nJust by listening to the sound of\nthe waves, I'm able to clear my mind."
   Comments: ''
 - Japanese: ''
   English: ''
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>タスケテクレ~！</i><br> "
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"Save me!"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「みんなは‥‥<br> みんなは だいじょうぶ‥‥?"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"Is...\nIs everyone alright...?"
   Comments: ''
 - Japanese: "\\8b\\33ブキミな生き物<br>「しゃるるるる‥‥"
   English: ''
-  Comments: ''
+  Comments: I need to know what the creature looks like.
 - Japanese: "\\8b\\c\\86\\2<br>「よっしゃあ！<br> ケロケロ ゲットだぜ~！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"Yeah!\nGotcha, Croaker!"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「ケロケロちゃ~ん<br> 出ておいで~"
-  English: ''
+  English: "\\8b\\0c\\86\\02\nCroaker, come here~"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「オラオラオラオラオラ~！！<br> 待て待て待て待てコノォ！！"
   English: ''
