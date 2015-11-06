@@ -549,76 +549,76 @@
   English: "\\8b\\0c\\86\\02\nCroaker, come here~"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「オラオラオラオラオラ~！！<br> 待て待て待て待てコノォ！！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"Hey hey hey hey!\nWait wait wait you little!"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「<span class=\"red\">カエルグミを食べると<br> 体力を回復できる</span>のよ~<br> さっきまで たくさんいたけど<br> \\86\\2が来てから、<br> 隠れちゃったよ~<br> もうしばらくすれば<br> 出てくると思うよ~"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"\\8eIf you eat a gummy frog, you will\nrecover HP\\8d.\nThere were a lot around until just now,\nbut after \\86\\02 came, they all hid away.\nIf we wait for a bit, I think they'll\ncome back out."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「キルシュって ヘンだよね~<br> のーみそ カエルなみ~<br> <span class=\"red\">奥にもう一匹<br> トロいのがいる</span>のに~"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Kirsche, you're weird.\nYou're brain's on the level of a frog's.\n\\8eThere's a slow one deeper inside\\8d."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「オレのエモノだ！！<br> よこどりすんなっ！！<br> <span class=\"red\">奥にもう一匹いるから<br> そっちを ねらえ</span>よ！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"That's my prey!\nDon't snatch it away!\n\\8eThere's another one further\ninside so go after that one\\8d!"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「キャ―――――――ッ！！！"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"Eeeeeek!"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「！！！！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"!!!"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「助けて！！！<br> みんな 殺されちゃう！！！"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"Help!!!\nEveryone's going to be killed!!!"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「なんなの~~~！?<br> どうしちゃったの~~~！?"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"What's going on!?\nWhat happened exactly!?"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「！！！！<br> なんなんだ ソイツは！?"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"!!!\nWhat in the world is it up with it!?"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「そんなの知らないわよ！！<br> ご本人に 聞いてみれば！！"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"I don't know what you're talking about!\nWhy don't you ask him yourself!?"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「了解！ 下がってな！<br> 消しズミにしてやるッ！<br> \\86\\cはニ人の手当てを！<br> \\85\\0！ オマエは<br> マドレーヌ先生を探してくれ！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"Understood! Stand back!\nI'll extinguish it!\n\\86\\0c, treat those two's injuries!\n\\85\\00! You go search for Miss Madeleine!"
   Comments: ''
 - Japanese: "  クラスメートの<span class=\"red\">レモン</span>が、<br>  傷ついて たおれている！<br>  <span class=\"red\">\\87\\19</span>をあげますか?"
-  English: ''
+  English: "Your classmate \\8eLemon\\8d is gravely\nhurt! Give her the \\87\\19?"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「ここはオレひとりでいい！<br> 早く行け！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"Leave this to me! Hurry up and go!"
   Comments: ''
 - Japanese: "\\8b\\33ブキミな生き物<br>「しゃるるるる‥‥"
-  English: ''
+  English: "\\8b\\33Ominous creature\n\"Grrr..."
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「クッ‥‥！<br> ダメだ‥‥ 腕をやられた‥‥<br> \\85\\0、<br> <span class=\"red\">ヤツらは、こっちが動かなければ<br> 襲ってこない。<br> ヤバイと思ったら、うかつに動き<br> 回らずに、じっとしてるんだ。</span>"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"Augh...!\nIt's no use...I can't move my arm...\n\\85\\00\n\\8eIf we don't move, they won't come\nattack us. If the situation gets risky,\ndon't carelessly move around. Stay still\ninstead.\\8d"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「海岸のほうは たいへんなことに<br> なってるわ‥‥。<br> この気配だと、まわりは全部<br> ヤツらに かこまれたみたい‥"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"It's become quite a mess over\nat the beach...\nIt almost feels like we're completely\nsurrounded by them."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「なんなの‥‥?<br> なにが おきているの‥‥?"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"What...?\nWhat's going on...?"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「\\85\\0‥‥<br> レモンがケガをして大変なの！<br> <span class=\"red\">\\87\\19</span>を持ってない?<br> <span class=\"red\">持ってたらレモンに<br> わたして</span>あげて！"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"\\85\\00...\nLemon's really badly hurt!\nDo you have the \\8e\\87\\19\\8d?\n\\8eIf you have it, give it to Lemon!\\8d"
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「あ~ん、やだやだ ヘンな海草！<br> ヌルヌルしてる~！<br> 足にまとわりついちゃって<br> 気持ち悪い~~~<br> きゃ~~~！！"
   English: "\\8b\\acMiss Madeleine\nEwww~ \nYuck, what is this seaweed!\nIt's all slimy!\nIt feels gross wrapped around my legs!\nEwww~"
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「月の光に、銀貨が照らされて<br> 光っているよ~。<br> きっと、昔の文明が使ってた<br> <span class=\"red\">\\87\\f8</span>だね。<br> こんなものが落ちてるから<br> カイゾク伝説なんかが生まれ<br> たんだろうね。"
-  English: ''
+  English: "\\8b\\15\\86\\0b\n\"The silver coins are gleaming in\nthe moonlight. It must be the \\87\\f8\nthat the ancient civilization used.\nI bet it's because of this that legends\nabout pirates were born."
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「‥‥‥‥"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"..."
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「きゃ~~~！！<br> ナマコよ！ ナマコ！！<br> いや~~~ん！！<br> 中身出してる~~~~~~！！<br> ちょっとおいしそ~~~~~！！"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\n\"Eeek!\nIt's a sea cucumber! A sea cucumber!\nOooh!\nIt's insides are coming out!\nIt looks kind of delicious! "
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「何かあったらあったで<br> 楽しいと思うよ、オレは。"
-  English: ''
+  English: "\\8b\\14\\86\\0a\n\"If anything happened, it'd be fun\nI think."
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>ユウヒハ オレノ<br> タマシイノ イロ。<br> アカク モエツキテ、<br> セイジャクヘト カエルゼ。<br> ベイベ~ ナイテモイイノサ。<br> キセツガメグリ フユガオワレバ<br> ベイベ~ ケッコンシヨウ。<br> ソシテ フタリハ<br> タンポポノ ワタゲニ ナッテ<br> タビダツノサ ソラヘ。<br> ン~ ン~<br> ン~ ン~<br> ン~ ン~ ン~~~~</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"The sunset is the color of my\nsoul. It exhausts its red self\nback into stillness. Baby, it's\nokay to cry. As the seasons swirl\naround and winter ends. Baby, will\nyou marry me? And the two of us will\nbe like the fuzz of a dandelion and\nbegin our trip to the skies.\nHmm~ Hmm~\nHmm~ Hmm~\nHmm~ Hmm~ Hmmmmm~"
   Comments: ''
 - Japanese: ''
   English: ''
@@ -627,13 +627,13 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「コイツらは、オレがおさえる！<br> キズついた連中の 手当てを！"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"I'll fend this guy off!\nGo treat your injured friends! "
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「<span class=\"red\">いくら倒してもムダだ！！<br> コイツら、どんどん出てくる！！"
-  English: ''
+  English: "\\8b\\14\\86\\0a\n\"\\8eNo matter how many we defeat,\nit's futile! These guys just keep\ncoming!\\8d"
   Comments: ''
 - Japanese: "\\8b\\33ブキミな生き物<br>「ぷきゃあっ！！"
-  English: ''
+  English: "\\8b\\33Ominous creature\n\"Grrr!"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「ありがとう、\\85\\0‥‥<br> <span class=\"red\">\\87\\19</span>はとっておくよ。<br> もっとたいへんなことが<br> 起きるような気がしてきた‥‥。<br> あなたも気をつけてね。"
   English: ''
