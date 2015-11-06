@@ -72,3 +72,8 @@ beginning of the names table, etc.
 
 Place names:
 マサラティ -- Masala Chai
+
+People names:
+ギュウヒ・オグラ -- Bun Patti
+ヴォークス -- Canin
+ニャムネルト -- Felin

@@ -636,16 +636,16 @@
   English: "\\8b\\33Ominous creature\n\"Grrr!"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「ありがとう、\\85\\0‥‥<br> <span class=\"red\">\\87\\19</span>はとっておくよ。<br> もっとたいへんなことが<br> 起きるような気がしてきた‥‥。<br> あなたも気をつけてね。"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"Thanks, \\85\\00...\nTake the \\87\\19.\nI have a feeling that something\neven worse is going to happen...\nYou be careful."
   Comments: ''
 - Japanese: "\\8b\\19\\86\\f<br>「鳥の様子が少しヘン‥‥<br> 気のせいなら いいけど‥‥"
-  English: ''
+  English: "\\8b\\19\\86\\0f\n\"The birds are acting a bit strangely...\nI hope it's just my imagination..."
   Comments: ''
 - Japanese: "\\8b\\e\\86\\4<br>「と~り~"
-  English: ''
+  English: "\\8b\\0e\\86\\04\n\"Birdie~"
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「ちっくしょ~<br> 何かありそうなんだけどなぁ~"
-  English: ''
+  English: "\\8b\\1a\\86\\10\n\"Darn.\nIt looked like there was something."
   Comments: ''
 - Japanese: ''
   English: ''
@@ -654,67 +654,67 @@
   English: "\\8b\\abRicebird\nChirp!"
   Comments: ''
 - Japanese: "\\8b\\33ブキミな生き物<br>「しゅうー‥‥‥"
-  English: ''
+  English: "\\8b\\33Ominous creature\n\"Grrr..."
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「\\85\\0くん！"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\n\"\\85\\00!"
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「あ、あの~<br> 呼び出したりして ごめんね‥<br> \\86\\6、この前<br> 誕生日だったよね‥‥?"
-  English: ''
+  English: "\\8b\\0f\\86\\05\n\"Umm, excuse me.\nSorry for calling you out here...\nIt was your birthday recently wasn't\nit?"
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「誕生日?<br> もう、ずいぶん前だったけど‥<br> それがどうかしたの?"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"My birthday?\nIt was quite a while back...\nWhat about it?"
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「いや、その、じつは、その時<br> プレゼント用意してたんだけど<br> 渡せなくってさ‥‥<br> 今日、持ってきたんだ。<br> あははははは。"
-  English: ''
+  English: "\\8b\\0f\\86\\05\n\"No, it's just, umm, I prepared a\npresent for you back then but wasn't\nable to give it you...\nI brought it with me today.\nAhahaha."
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「あ、そう‥‥<br> ありがとう。"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"Oh, okay...\nThanks."
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「それで、えーと、<br> なんて言うかね、<br> わたしさぁ、あの‥‥"
-  English: ''
+  English: "\\8b\\0f\\86\\05\n\"And then, ummm, how do I say this,\nI, ummm..."
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「\\86\\5の誕生日<br> いつだったっけ?"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"\\86\\05, when was your birthday\nagain?"
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「え！? わたし！?<br> わたしは、来月だけど‥‥"
-  English: ''
+  English: "\\8b\\0f\\86\\05\n\"Huh!? Mine!? Mine is next month..."
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「それじゃその時に、オレから<br> 何かプレゼントするよ。"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"Then I'll prepare a present for\nyou too."
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「ほんと！?<br> うれし―――――<span class=\"red\">♥</span>"
-  English: ''
+  English: "\\8b\\0f\\86\\05\n\"Really!? That makes me so happy!"
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「それじゃ。"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"Okay, see you later then."
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「あああん！<br> ちょっと待って~！！<br> まだ ちょっとお話が<br> あるんだけど~！"
-  English: ''
+  English: "\\8b\\0f\\86\\05\n\"Ahhh!\nWait!\nThere's still something else I\nwanted to talk to you about!"
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「ごめん。後にしてくれないか。<br> 学校に帰ってから聞くよ。"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"Sorry. Can we talk later? Tell me\nonce we get back to school."
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「あ、あうううううう。<br> そうね‥‥ またあとでね‥‥"
-  English: ''
+  English: "\\8b\\0f\\86\\05\n\"Ah, ahhh.\nOkay...see you later then...\n"
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「プレゼント ありがとう。<br> 大切にするよ。"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"Thanks for the present.\nI'll treasure it."
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「ん、んーん！<br> 気をつかわなくていいの！<br> 気に入らなかったら捨ててね！"
-  English: ''
+  English: "\\8b\\0f\\86\\05\n\"No, n-no!\nYou don't have to be polite!\nIf you don't like it, you can\njust throw it away!"
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「ハァ‥‥。<br> ダメなのかなぁ‥ あたし。"
-  English: ''
+  English: "\\8b\\0f\\86\\05\n\"Ahhh...\nWhat's wrong with me..."
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「カニとたわむれたい‥‥。<br> ぐすっ。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\0f\\86\\05\n\"I want to play with a crab...\nTeehee."
+  Comments: "What? I'm confused."
 - Japanese: "\\8b\\10\\86\\6<br>「‥‥‥‥"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"..."
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「えー、"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\n\"Ummm,"
   Comments: ''
 - Japanese: ''
   English: ''
@@ -723,16 +723,16 @@
   English: "\\8b\\acMiss Madeleine\nAhhh!\nYou saw me doing something weird!\nAhahaha....\nOh, that's right, by the way \\85\\00,\ndo you know about \\8eHP\\8d?"
   Comments: Same as in 1035.
 - Japanese: "\\8b\\acマドレーヌ先生<br>「さっすが、\\85\\0~！<br> いえ~！<br> それじゃ、次、<br> <span class=\"red\">MP</span>は何のことかわかる?"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\n\"I'm impressed, \\85\\00!\nYay!\nThen, next, do you know about \\8eMP\\8d?"
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「<span class=\"red\">HP</span>って言うのは‥‥‥‥<br> 有名なファンタジー小説の<br> タイトルなんかじゃないぞ~。<br> <span class=\"red\">ヒットポイントの略</span>で、<br> 打たれ強さのことなんだ。<br> バトルなんかをやってる時に<br> <span class=\"red\">この数字が０になったら、倒れて<br> 戦えなくなる</span>から気をつけてね。<br> それじゃ、<span class=\"red\">MP</span>ってのは<br> 何のことか、わかるかな?"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\n\"\\8eHP\\8d is...\nWell, it's not the name of some\nfamous fantasy novel.\n\\8eIt's short for hit points\\8d and\ntells you how much you can withstand\nbeing hit. \\8eIf it drops to 0 when\nyou're in a battle, you'll collapse and\nbe unable to fight\\8d, so be careful.\nNext, do you know about \\8eMP\\8d?"
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「さっすが、\\85\\0~！<br> 勉強してんじゃ~ん！"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\n\"I'm impressed, \\85\\00!\nYou've been studying haven't you!"
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「<span class=\"red\">MP</span>って言うのは‥‥‥‥<br> 有名なヒゲのおじさんのパーティ<br> ゲームの略なんかじゃないぞ~。<br> <span class=\"red\">バトルなんかで、魔法をどれだけ<br> 使えるか示した数字</span>なんだ。<br> <span class=\"red\">魔法を使うと、数字がどんどん<br> 減っていって、０になると魔法を<br> 使えなくなる</span>から注意してね。<br> MPはバトル中にも、ちょっと<br> ずつ増えるから、使いすぎたら<br> しばらくぼうぎょするんだぞ。"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\n\"\\8eMP\\8d is...\nWell, it's not the abbreviation\nfor a famous party game involving\na man with a mustache.\n\\8eIt's a number that tells you how\nmuch magic you can use in battle\\8d.\n\\8eThe more magic you use, the more it\ndrops. If it drops down to 0, you won't\nbe able to use magic anymore\\8d, so be\ncareful. Your MP will slowly recover\nduring battles, so if you've run out,\njust stay on the defense for a while."
   Comments: ''
 - Japanese: ''
   English: ''
@@ -783,121 +783,121 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「\\85\\0！"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\n\"\\85\\00!"
   Comments: ''
 - Japanese: "\\8b\\dcギュウヒ・オグラ<br>「まずは、ヴォークス族の村<br> <span class=\"red\">マサラティ村</span>を目指すがよい！<br> <span class=\"red\">マサラティ村は、沼の岸沿いに<br> 北へ歩いたところ</span>じゃ！"
-  English: ''
+  English: "\\8b\\dcBun Patti\n\"First, you should aim for the Canin's\nMasala Tea Village! Masala Tea Village\ncan be reached by walking north along\nthe marsh."
   Comments: ''
 - Japanese: "\\8b\\dcギュウヒ・オグラ<br>「ニャムネルトの住む<span class=\"red\">タピオカティ<br> 村</span>に、そなたらの仲間がおる！<br> 行って合流するのじゃ！"
-  English: ''
+  English: "\\8b\\dcBun Patti\n\"Your friends are at Tapioca Tea\nVillage, the place where Felins live.\nYou should go there and reunite!"
   Comments: ''
 - Japanese: "\\8b\\dcギュウヒ・オグラ<br>「そなたらの担任は、<span class=\"red\">エニグマの<br> 森</span>の先におる！<br> 行って合流するのじゃ！"
-  English: ''
+  English: "\\8b\\dcBun Patti\n\"The one in charge is in Enigma\nForest! You should go there and\nreunite!"
   Comments: ''
 - Japanese: "\\8b\\dcギュウヒ・オグラ<br>「たくさんの仲間が、すぐそこ<br> まで来ている！<br> さがしだして合流するのじゃ！"
-  English: ''
+  English: "\\8b\\dcBun Patti\n\"A lot of your friends are just\naround the corner! You should go find\nthem and reunite!"
   Comments: ''
 - Japanese: "\\8b\\dcギュウヒ・オグラ<br>「オマエ達の仲間のニ人は死の<br> プレーンを目指しておる！<br> 止めるのじゃ！"
-  English: ''
+  English: "\\8b\\dcBun Patti\n\"Two of your friends are heading\ntowards the Plane of Death! You should\ngo stop them!"
   Comments: ''
 - Japanese: "\\8b\\dcギュウヒ・オグラ<br>「もはやオマエ達に私から<br> 教えることはない！<br> つき進むのじゃ！"
-  English: ''
+  English: "\\8b\\dcBun Patti\n\"There's nothing more for me to\ntell you! You should go and press\non!"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「うまいこと、エニグマの手から<br> のがれてるようだね‥‥。<br> くっくっく‥‥‥‥。"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"It looks like something delicious has\nslipped away from the Enigma's grasp.\nHeeheehee...."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「あっ！！！！<br> \\85\\0！！！！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"Ahhh!\n\\85\\00!"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「助かったっぴ~~~！！！<br> オイラ、海岸でとつぜんヘンな<br> 生き物に追いまわされて‥‥<br> でも、もうだいじょうぶだっぴ！<br> 仲間に会えたっぴ！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"I'm saved!!!\nSuddenly, a strange creature came out\nand chased me around the beach...\nBut it's all okay now!\nI've found my friends!"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「<i>こまったっぴ‥‥<br> はさまれたっぴ‥‥<br> 死んだフリしてるの<br> 見やぶられたら、オイラも<br> いよいよ 終わりだっぴ‥‥</i>"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"I'm in trouble...\nI'm surrounded...\nI'm playing dead, but if they see\nthrough it, then it'll be the end\nof the line for me..."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「‥‥‥‥‥‥"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"..."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「\\85\\0！！<br> ちょうどよかったっぴ！！<br> これから、<span class=\"red\">このモンスターと<br> 戦う</span>ところだっぴ！！<br> いっしょに戦うっぴ！！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"\\85\\00!\nGood timing!\nI'm about to \\8efight this monster\\8d!\nLet's fight together!"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「イエ~~~~~~~ッス！！<br> ブチかましてやるっぴ~~！！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"Yeeesss!\nI'm going to punch you hard!"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「<i>イジワル言っちゃ<br> イヤだっぴ~~~~~~ッ！！</i>"
-  English: ''
-  Comments: ''
+  English: "\\8b\\18\\86\\0e\n\"Don't say I'm being bullied!"
+  Comments: Totally missing context here.
 - Japanese: "\\8b\\18\\86\\e<br>「ひゃっほ~~~~~！！<br> オイラ 生きてるっぴ~~！！<br> 生きてるっぴ~~~~~！！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"Yahoo!\nI'm alive!\nAlive!"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「ところで\\85\\0どの！！<br> これからどっちに行くっぴ?<br> オイラのハナによると、<br> <span class=\"red\">西のほう</span>からは<span class=\"red\">アランシア</span>の<br> ニオイがするっぴ！！<br> <span class=\"red\">南</span>からは<span class=\"red\">カエルグミ</span>のニオイが<br> するから、南でカエルグミを<br> 獲ってから行ってもいいっぴ！！<br> ちなみにオイラ、<span class=\"red\">回復のツボ</span>の<br> 中のカエルグミをみつけるのが<br> 得意だっぴ！！<br> オイラがいれば、\\85\\0も<br> 旅が楽になるはずだっぴ！！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"By the way, \\85\\00!\nWhere are we headed now?\nAccording to my nose, \\8eArancia\\8d\nis in the \\8ewest\\8d.\nI smell \\8egummy frogs\\8d in the\n\\8esouth\\8d, so we could also go and\ncatch gummy frogs.\nSpeaking of which, I'm good at finding\ngummy frogs inside \\8ehealing pots\\8d!\n\\85\\00, with me around, your journey will\nbe easier!"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「\\86\\cのニオイがするっぴ！<br> こっちだっぴ！！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"It smells like \\86\\0c! This way!"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「ここを見るっぴ！ 穴だっぴ！<br> <span class=\"red\">洞窟の入り口</span>があるっぴ！<br> <span class=\"red\">この先に\\86\\cがいる</span>っぴ！<br> 行くしかないっぴ！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"Look here! It's a hole! There's an\n\\8eentrance to a cave\\8d! \\8e\\86\\0c\nis beyond here\\8d! We have to go!"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「イエ~~~~ッス！<br> イカスっぴ~~~~！！<br> シビレるっぴ~~~~！！"
-  English: ''
+  English: "\\8b\\18\\8e\\0e\n\"Yeeesss!\nI'm alive!\nI'm so excited!"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「イエ~~~~ッス！<br> \\86\\cは ほっとくっぴ！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"Yeeesss!\nJust leave \\86\\0c alone!"
   Comments: ''
 - Japanese: "\\8b\\dcギュウヒ・オグラ<br>「よろしい！！<br> 今日は、ここまでッ！！"
-  English: ''
+  English: "\\8b\\dcBun Patti\n\"Very well!\nThat's all for today!"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「ふっふっふ‥‥<br> こっちだよ‥‥<br> おいで‥‥"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Hehehe...\nOver here...\nCome over here..."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「\\86\\c‥‥?<br> どこかヘンだっぴ‥‥"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"\\86\\0c...?\nSomething's strange..."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「\\86\\c！ どうしたっぴ！?<br> 目つきが怪しいっぴ！?"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"\\86\\0c! What's wrong!?\nYou have a weird look in your eyes!"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「光の中なら、エニグマからも<br> のがれられるだろうけど、<br> わざわざこんな闇の中に<br> 友達を追ってくるなんて、<br> うぬぼれてるのかな?"
-  English: ''
-  Comments: ''
+  English: "\\8b\\16\\86\\0c\n\"If we were in the light, we could\nprobably escape from the Enigma. But\nto be chasing our friends into the\ndarkness, aren't you a bit conceited?\n"
+  Comments: "What's the context? Who's talking to whom?"
 - Japanese: "\\8b\\18\\86\\e<br>「エニグマ‥?<br> 海岸で襲ってきたヤツらっぴ?<br> 闇がどうしたっぴ?<br> ここはキケンだっぴか?"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"Enigma...?\nYou mean the things that attacked us\nat the beach? What about the darkness?\nIs it dangerous here?\n"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「何も知らないんだな。<br> まぁ、いいだろう。<br> エニグマは闇から生まれた<br> 生き物で、すさまじい魔力を<br> 持っている。<br> 敵にまわすとコワイ存在だが‥‥<br> 味方にすれば、無敵の強さを<br> 手に入れることになる‥‥"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"You don't anything do you?\nOh well, that's fine.\nEnigma are creatures born from\ndarkness that possess terrific\nmagical powers.\nThey're frightening beings to make\nenemies of but...\nIf you make them your ally, you will\nobtain unimaginable power."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「強くなれるっぴ！?<br> どうすればいいっぴ！?"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"I can become strong!?\nTell me how!"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「簡単さ。体を貸してやるだけさ。<br> 融合（ゆうごう）するのさ。"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"It's simple. Lend me your body.\nWe will perform fusion."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「ゆうごう‥?"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"Fusion...?"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「ああ、そうだ。<br> もう少し側に来なよ‥‥<br> 教えてやるよ‥‥"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Yes, that's right.\nCome just a bit closer...\nI'll show you how..."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「ピスタチオ！！<br> はなれろ！！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"Pistachio! Get away from her!"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「！?"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"!?"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c（?）<br>「ふっ‥‥<br> ジャマが入ったか‥‥"
-  English: ''
+  English: "\\8b\\16\\86\\0c (?)\n\"Ha...\nSomeone's come to interrupt us..."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「ソイツはアランシアじゃない。<br> ニセもんだ。<br> エニグマが化けてるんだ。"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"That's not Arancia. It's a fake.\nIt's a Enigma disguising itself."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「いや~ん<br> あたしって あんななの~?"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Nooo!\nAm I like that?"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「<i>あう?<br> あうあー?</i>"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"Huh?\nHuuuhhh?"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c（?）<br>「しかたない。<br> 力ずくで うばってやるッ！"
-  English: ''
+  English: "\\8b\\16\\86\\0c (?)\n\"You leave me with no choice.\nI'll just take you by force!"
   Comments: ''
 - Japanese: ''
   English: ''
@@ -918,16 +918,16 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「！?<br> \\86\\c‥‥?"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"!?\n\\86\\0c...?"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「あ！<br> \\86\\6~！"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Ah!\n\\86\\06!"
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「それに、\\86\\eに<br> \\85\\0‥‥"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"And \\86\\0e and \\85\\00 too..."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「オイラもいるっぴ！！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"I'm here too!"
   Comments: ''
 - Japanese: ''
   English: ''
