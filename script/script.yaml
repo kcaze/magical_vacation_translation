@@ -1026,154 +1026,158 @@
   English: "\\8b\\b4Tiramisu\n\"Even if you curse at the killer,\nthe dead won't come back to life.\nThere's nothing we can do for those\nwho died."
   Comments: ''
 - Japanese: "\\8b\\b2パペットの村長・シフォン<br>「はひゃ。<br> どなたさんでしたかの‥‥。"
-  English: ''
+  English: "\\8b\\b2Puppet Chief Angel Food Cake\n\"Huff.\nWho were you again..."
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「ぶしつけでもうしわけ無いが、<br> 遺跡を抜けたいんだ。<br> 許可をもらえないかな。"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"Pardon my rudeness, but I would like\nto cross the ruins. Could you please\ngrant me permission?"
   Comments: ''
 - Japanese: "\\8b\\b2パペットの村長・シフォン<br>「はひゃ。<br> 許可か。よかろう。<br> しかし、今日はもう遅いのぉ。<br> ミルフィーユ、遅いよのぉ?"
-  English: ''
+  English: "\\8b\\b2Puppet Chief Angel Food Cake\n\"Huff.\nPermission? Very well.\nHowever, it's growing late today.\nMille-feuille, it's late isn't it?"
   Comments: ''
 - Japanese: "\\8b\\b3ミルフィーユ<br>「そうですね、おじいさま。<br> ちょっとだけ遅いかもね。"
-  English: ''
+  English: "\\8b\\b3Mille-feuille\n\"I suppose so, grandfather. It is\na bit late."
   Comments: ''
 - Japanese: "\\8b\\b2パペットの村長・シフォン<br>「そうじゃの。<br> <span class=\"red\">明日また来てもらおう。</span><br> そしたら、そなたらに<br> わしの<span class=\"red\">モモヒキ</span>をあげよう。<br> それがあれば、のぉ、<br> 遺跡に入れるハズじゃ。<br> のぉ、ミルフィーユ。"
-  English: ''
+  English: "\\8b\\b2Puppet Chief Angel Food Cake\n\"I see. \\8eCome again tomorrow.\\8d Then,\nI'll give you my \\8etrousers\\8d. If you\nhave that, you should be able to enter\nthe ruins. Right, Mille-feuille?"
   Comments: ''
 - Japanese: "\\8b\\b3ミルフィーユ<br>「<span class=\"red\">モモヒキ</span>じゃありません。<br> おじいさま。<br> <span class=\"red\">\\87\\3</span>です。<br> <span class=\"red\">\\87\\3</span>を持つもの<br> だけが遺跡に入れるのです。"
-  English: ''
+  English: "\\8b\\b3Mille-feuille\n\"Not \\8etrousers\\8d, grandfather.\n\\8e\\87\\03\\8d.\nOnly those with the \\8e\\87\\03\\8d can\nenter the ruins."
   Comments: ''
 - Japanese: "\\8b\\b2パペットの村長・シフォン<br>「そうそう、<span class=\"red\">ウークルの</span>‥‥<br> それがあると、えー‥<br> 夜もあったかくて、ぐっすり<br> 眠れるんじゃったかの‥?"
-  English: ''
+  English: "\\8b\\b2Puppet Chief Angel Food Cake\n\"Ah right, the \\8eUkuru's\\8d...\nIf you have that then you...\nThe night's pretty warm...I feel\nlike I can sleep soundly..."
   Comments: ''
 - Japanese: "\\8b\\b3ミルフィーユ<br>「それは、<span class=\"red\">モモヒキ</span>。<br> おじいさまは ご心配なく。<br> <span class=\"red\">\\87\\3</span>は、明日<br> 私が おわたしして 遺跡にも<br> 案内してさしあげます。"
-  English: ''
+  English: "\\8b\\b3Mille-Feuille\n\"Those are \\8etrousers\\8d. Grandfather,\ndon't worry. Tomorrow, I'll hand them\nthe \\8e\\87\\03\\8d and guide them to the\nruins."
   Comments: ''
 - Japanese: "\\8b\\b2パペットの村長・シフォン<br>「おお、つれて行ってくれるか。<br> それはすまぬの。<br> 遺跡へ行くのも何年ぶりじゃ。"
-  English: ''
+  English: "\\8b\\b2Puppet Chief Angel Food Cake\n\"Oh, you'll take me there?\nSorry for making you do. I wonder\nhow many years since I last visited\nthe ruins."
   Comments: ''
 - Japanese: "\\8b\\b3ミルフィーユ<br>「案内してさしあげるのは、<br> おじいさまではなく旅の方です。<br> おじいさまは、ここでゆっくり<br> なさいませ。<br> お体に ひびきます。"
-  English: ''
+  English: "\\8b\\b3Mille-Feuille\n\"Not you Grandfather. I'm taking the\ntravelers there. Grandfather, just\ntake it easy and rest. Your body's\nshaking."
   Comments: ''
 - Japanese: "\\8b\\b2パペットの村長・シフォン<br>「おお、そうかそうか。<br> それがよかろう。<br> それじゃ、また明日来るがよい。"
-  English: ''
+  English: "\\8b\\b2Puppet Chief Angel Food Cake\n\"Oh, is that so. Very well. Come\nagain tomorrow then."
   Comments: ''
 - Japanese: "\\8b\\b2パペットの村長・シフォン<br>「おかえり ミルフィーユ。<br> どうじゃった?<br> また 事件かいのぉ?"
-  English: ''
+  English: "\\8b\\b2Puppet Chief Angel Food Cake\n\"You're back, Mille-feuille. What\nwas it? Another incident?"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「あ、そうだ。<br> この本、役に立つかも~。<br> 今までに戦ったことがある<br> モンスターの情報が<br> 浮き上がってくるんだよ~。"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Ah, that's right. This book might\ncome in handy. It records information\nabout all the monsters you've fought."
   Comments: ''
 - Japanese: "\\8b\\b3ミルフィーユ<br>「もうイヤ‥‥。<br> だれも 死なないで‥‥。"
-  English: ''
+  English: "\\8b\\b3Mille-Feuille\n\"No more...\nPlease, no more deaths..."
   Comments: ''
 - Japanese: "\\8b\\b3ミルフィーユ<br>「ここはトルーナ村の村長、<br> シフォン・トルーナの家です。<br> わたしはシフォンの孫娘の<br> ミルフィーユ。<br> よろしくね。"
-  English: ''
+  English: "\\8b\\b3Mille-Feuille\n\"This is the house of Troona Village's\nchief Angel Food Cake. I am Angel Food\nCake's granddaughter, Mille-Feuille.\nNice to meet you."
   Comments: ''
 - Japanese: "\\8b\\b3ミルフィーユ<br>「‥‥‥‥"
-  English: ''
+  English: "\\8b\\b3Mille-feuille\n\"..."
   Comments: ''
 - Japanese: "\\8b\\b2パペットの村長・シフォン<br>「外がさわがしいようじゃが、<br> また誰か殺されたのかの‥‥"
-  English: ''
+  English: "\\8b\\b2Puppet Chief Angel Food Cake\n\"It's pretty noisy outside. Did\nsomeone get killed again...?"
   Comments: ''
 - Japanese: "\\8b\\b3ミルフィーユ<br>「ただいま、おじいさま‥‥"
-  English: ''
+  English: "\\8b\\b3Mille-feuille\n\"Grandfather, I'm home..."
   Comments: ''
 - Japanese: "\\8b\\b2パペットの村長・シフォン<br>「ミルフィーユ‥‥<br> わしら古代のたみのまつえい、<br> ほろびるのが 運命かもしれん。<br> 運命ならば 神様がきめたこと。<br> なにを泣くことがあろう。"
-  English: ''
+  English: "\\8b\\b2Puppet Chief Angel Food Cake\n\"Mille-feuille...\nWe are the last descendants of the ancient\npeople and destruction might be our fate.\nIf it's our fate, it must be what god\ndestined for us. It is nothing to cry\nover."
   Comments: ''
 - Japanese: "\\8b\\b3ミルフィーユ<br>「そうよ、そのとおりよ。<br> また一人、仲間が殺されたわ。"
-  English: ''
+  English: "\\8b\\b3Mille-feuille\n\"Yes, exactly. Another puppet was\nkilled."
   Comments: ''
 - Japanese: "\\8b\\b2パペットの村長・シフォン<br>「うむ。<br> そうか。<br> それも運命かの‥‥"
-  English: ''
+  English: "\\8b\\b2Puppet Chief Angel Food Cake\n\"Yes. I see. That must also be fate..."
   Comments: ''
 - Japanese: "\\8b\\b3ミルフィーユ<br>「おじいちゃん！<br> わたし‥‥！"
-  English: ''
+  English: "\\8b\\b3Mille-feuille\n\"Grandfather, I...!"
   Comments: ''
 - Japanese: "\\8b\\b2パペットの村長・シフォン<br>「うむ。<br> ツラかろう。<br> 泣くがええ。<br> いくらでも泣くがええ。"
-  English: ''
+  English: "\\8b\\b2Puppet Chief Angel Food Cake\n\"Yes. It must be hard for you. It's\nokay to cry. Just cry it all out."
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「取り込み中、もうしわけないが‥"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"I'm sorry, but it's still importing..."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「ちょっと！ \\86\\6！<br> あとでもいいよ！ んもう！"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Hey wait! \\86\\06! Just leave it\ntill later! Sheesh!"
   Comments: ''
 - Japanese: "\\8b\\b3ミルフィーユ<br>「ごめんなさい‥‥"
-  English: ''
+  English: "\\8b\\b3Mille-feuille\n\"Sorry..."
   Comments: ''
 - Japanese: "\\8b\\b3ミルフィーユ<br>「はい、<span class=\"red\">\\87\\3</span>。"
-  English: ''
+  English: "\\8b\\b3Mille-feuille\n\"Yes, \\8e\\87\\03\\8d."
   Comments: ''
 - Japanese: "\\8b\\b3ミルフィーユ<br>「<span class=\"red\">遺跡まで案内します。<br> ついてきて。</span>"
-  English: ''
+  English: "\\8b\\b3Mille-feuille\n\"\\8eI will guide you to the ruins.\nPlease follow me.\\8d"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「オイラたち、いそいでないから<br> あとでもいいっぴ！<br> ‥‥‥"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"We're not in a rush, so you can\nleave it for later!\n..."
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「オレたち、よそものでしか<br> ないってことなんだよ。<br> やっかいばらいしたいのさ。"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"We're nothing but outsiders. They\nwant to drive us off."
   Comments: ''
 - Japanese: ' <br>   メモがある！<br> <br>『当方急用のため不在。<br> ベッドは自由に利用可能。<br> 利用者はカウンターに<br> <span class="red">５ブラー</span>を置いて行くこと。<br>            ティラミス'
-  English: ''
+  English: "There's a memo!\n\n\"I am away on urgent business.\nUse the bed at your own leisure.\nLeave \\8e5 Bura\\8d on the counter\nif you use the bed.\nTiramisu"
   Comments: ''
 - Japanese: "\\8b\\b4ティラミス<br>「オレが宿屋のあるじ<br> ティラミスだ。<br> わりぃな、まだやってねぇんだ。<br> また <span class=\"red\">あとできてくれ。</span>"
-  English: ''
+  English: "\\8b\\b4Tiramisu\n\"I'm the owner of the inn, Tiramisu.\nSorry, but the inn's not open right\nnow. \\8eCome again later\\8d."
   Comments: ''
 - Japanese: "\\8b\\b4ティラミス<br>「勝手にさわるんじゃない！<br> それは、オレの弟だ。<br> ２００年前に ガケから落ちて<br> 動かなくなったんだ。<br> 壊れないように、大切に大切に<br> 守ってきたんだ。<br> 勝手なマネはするな！"
-  English: ''
+  English: "\\8b\\b4Tiramisu\n\"Who said you could touch him!\nThat's my brother. 200 years ago,\nhe fell off a cliff and then stopped\nmoving. I've been trying very hard to\nkeep him from breaking. Don't just\ntouch him!"
   Comments: ''
 - Japanese: ' 返事がない<br> ただのパペットのようだ'
-  English: ''
+  English: |-
+    There is no reply.
+    It appears to just be a puppet.
   Comments: ''
 - Japanese: "\\8b\\b4ティラミス<br>「よう、村長に なにやら<br> 取り入った みたいだな。<br> 泊まっていくか?<br> <span class=\"red\">５ブラー</span>でいいぜ。"
-  English: ''
+  English: "\\8b\\b4Tiramisu\n\"Hey, it looks like the village\nchief likes you for some reason.\nDo you want to stay the night?\nIt'll be \\8e5 Bura\\8d."
   Comments: ''
 - Japanese: "\\8b\\b4ティラミス<br>「オレのハートを‥<br> 弟に‥‥<br> たの‥ む‥"
-  English: ''
+  English: "\\8b\\b4Tiramisu\n\"Please take my heart...\nand give it to...\nmy...brother..."
   Comments: ''
 - Japanese: "\\8b\\b3ミルフィーユ<br>「ティラミスッ！！！<br> 死んじゃだめッ！！！<br> もう誰も死なないで！！！<br> 誰も死んじゃダメ―――ッ！！"
-  English: ''
+  English: "\\8b\\b3Mille-feuille\n\"Tiramisu!!!\nYou can't die!!!\nNo one should die!!!\nI don't want anyone to die!!!"
   Comments: ''
 - Japanese: ' 返事がない<br> 息たえたようだ'
-  English: ''
+  English: |-
+    There is no reply.
+    It appears to be lifeless.
   Comments: ''
 - Japanese: "\\8b\\b3ミルフィーユ<br>「ティラミスがッ、自分のハートを<br> 取り出して弟にって！！"
-  English: ''
+  English: "\\8b\\b3Mille-feuille\n\"Tiramisu said he's going to take\nout his own heart and give it to his\nbrother!"
   Comments: ''
 - Japanese: "\\8b\\b3ミルフィーユ<br>「どうして‥‥?<br> どうしてなの‥‥?"
-  English: ''
+  English: "\\8b\\b3Mille-feuille\n\"Why...?\nJust why...?"
   Comments: ''
 - Japanese: "\\8b\\b3ミルフィーユ<br>「宿屋です。<br> 泊まって行かれますか?<br> <span class=\"red\">料金はいただいておりません</span>ので<br> えんりょなさらずにどうぞ。"
-  English: ''
+  English: "\\8b\\b3Mille-feuille\n\"This is the inn.\nDo you wish to stay the night?\nThere's no fee so there's no need\nto hold back."
   Comments: ''
 - Japanese: "\\8b\\b3ミルフィーユ<br>「????"
-  English: ''
+  English: "\\8b\\b3Mille-feuille\n\"???"
   Comments: ''
 - Japanese: "\\8b\\b3ミルフィーユ<br>「こっちです"
-  English: ''
+  English: "\\8b\\b3Mille-feuille\n\"This way."
   Comments: ''
 - Japanese: "\\8b\\b4ティラミス<br>「やぁ、ミルフィーユ。"
-  English: ''
+  English: "\\8b\\b4Tiramisu\n\"Hey, Mille-feuille."
   Comments: ''
 - Japanese: "\\8b\\b4ティラミス<br>「また一人死んだね‥‥<br> どう思う‥‥?"
-  English: ''
+  English: "\\8b\\b4Tiramisu\n\"Another puppet died huh...\nWhat do you think...?"
   Comments: ''
 - Japanese: "\\8b\\b3ミルフィーユ<br>「ティラミス‥‥<br> どう? って、どういうこと?<br> わからないの?<br> あなたは悲しくないの?"
-  English: ''
+  English: "\\8b\\b3Mille-feuille\n\"Tiramisu...\nWhat do you what do I think?\nDo you not understand?\nDo you not feel sorrow?"
   Comments: ''
 - Japanese: "\\8b\\b4ティラミス<br>「そうか‥‥。<br> つまり、キミは悲しいんだね?"
-  English: ''
+  English: "\\8b\\b4Tiramisu\n\"I see...\nIn other words, you feel sorrow don't\nyou?"
   Comments: ''
 - Japanese: "\\8b\\b3ミルフィーユ<br>「あたりまえじゃないの！！<br> 仲間が死んだのよ！！"
-  English: ''
+  English: "\\8b\\b3Mille-Feuille\n\"Of course I do!!! One of our\nfriends died you know!!!"
   Comments: ''
 - Japanese: "\\8b\\b4ティラミス<br>「あたりまえ‥‥?<br> あたりまえなんかじゃない。<br> ミルフィーユ‥‥<br> キミの中に、<br> ハートがあるってことさ‥‥"
-  English: ''
+  English: "\\8b\\b4Tiramisu\n\"Of course...?\nNo, it's not obvious to me.\nMille-feuille...\nInside of you, is a heart..."
   Comments: ''
 - Japanese: "\\8b\\b3ミルフィーユ<br>「????<br> なに????<br> どうしたの? ティラミス‥‥"
-  English: ''
+  English: "\\8b\\b3Mille-feuille\n\"???\nWhat???\nWhat's going on? Tiramisu..."
   Comments: ''
 - Japanese: "\\8b\\b4ティラミス<br>「生き物は、ハートがなくなったり<br> こわれたりした時に死ぬんだ。<br> 逆にいえば、死んだ生き物でも、<br> ハートを入れてやれば動き出す。"
   English: ''
