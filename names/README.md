@@ -72,8 +72,13 @@ beginning of the names table, etc.
 
 Place names:
 マサラティ -- Masala Chai
+ワクティ -- Hot Tea
+トルーナ -- Troona
+ベナコンチャ -- Benaconcha
+ミルフィ -- Mille-feuille
 
 People names:
 ギュウヒ・オグラ -- Bun Patti
 ヴォークス -- Canin
 ニャムネルト -- Felin
+シフォン -- Angel Food Cake
