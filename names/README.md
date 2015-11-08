@@ -82,3 +82,11 @@ People names:
 ヴォークス -- Canin
 ニャムネルト -- Felin
 シフォン -- Angel Food Cake
+愛の大使 -- Envoy of Love
+戦士風の愛の大使 -- Brave Envoy of Love
+タルト -- Tarte
+タタン -- Tatin
+ムスコさん -- Sonny
+
+Other names:
+愛のデッパリ -- Baby bump
