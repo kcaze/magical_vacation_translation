@@ -76,7 +76,8 @@ Place names:
 トルーナ -- Troona
 ベナコンチャ -- Benaconcha
 ミルフィ -- Mille-feuille
-レーミッツ -- Cold Honey Palace (冷蜜 perhaps?)
+レーミッツ -- Cold Honey Palace (No, this should be Fish Dumplings. It's つみれ backwards >.<)
+            (Should change this to Gnilpmud Palace)
 
 People names:
 ギュウヒ・オグラ -- Bun Patti
@@ -88,6 +89,9 @@ People names:
 タルト -- Tarte
 タタン -- Tatin
 ムスコさん -- Sonny
+ヌクマム -- Nuoc Mam
+ナンプラ -- Nam Pla
+キード・モンガ -- Hep Met (tempeh backwards) (It's がんもどき backwards)
 
 Other names:
 愛のデッパリ -- Baby bump
