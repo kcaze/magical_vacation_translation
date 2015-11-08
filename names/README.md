@@ -76,6 +76,7 @@ Place names:
 トルーナ -- Troona
 ベナコンチャ -- Benaconcha
 ミルフィ -- Mille-feuille
+レーミッツ -- Cold Honey Palace (冷蜜 perhaps?)
 
 People names:
 ギュウヒ・オグラ -- Bun Patti
