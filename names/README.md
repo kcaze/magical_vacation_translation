@@ -92,6 +92,7 @@ People names:
 ヌクマム -- Nuoc Mam
 ナンプラ -- Nam Pla
 キード・モンガ -- Hep Met (tempeh backwards) (It's がんもどき backwards)
+ピップルス -- The Mausses
 
 Other names:
 愛のデッパリ -- Baby bump
