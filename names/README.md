@@ -73,17 +73,18 @@ beginning of the names table, etc.
 Place names:
 マサラティ -- Masala Chai
 ワクティ -- Hot Tea
-トルーナ -- Troona
-ベナコンチャ -- Benaconcha
+トルーナ -- Troona (should be Oturan)
+ベナコンチャ -- Benaconcha (should be Wetsomus)
 ミルフィ -- Mille-feuille
 レーミッツ -- Cold Honey Palace (No, this should be Fish Dumplings. It's つみれ backwards >.<)
-            (Should change this to Gnilpmud Palace)
+            (Should change this to Erimust Palace)
+キード・モンガ -- Hep Met (should be Iko Domnag) (It's がんもどき backwards)
 
 People names:
 ギュウヒ・オグラ -- Bun Patti
 ヴォークス -- Canin
 ニャムネルト -- Felin
-シフォン -- Angel Food Cake
+シフォン -- Angel Food Cake (maybe just Angel Cake?)
 愛の大使 -- Envoy of Love
 戦士風の愛の大使 -- Brave Envoy of Love
 タルト -- Tarte
@@ -91,8 +92,30 @@ People names:
 ムスコさん -- Sonny
 ヌクマム -- Nuoc Mam
 ナンプラ -- Nam Pla
-キード・モンガ -- Hep Met (tempeh backwards) (It's がんもどき backwards)
 ピップルス -- The Mausses
+ヴァン・ブラン -- Vin Blanc
+ヴァン・ルージュ -- Vin Rouge
+ヴィグネット -- Vinaigrette Sauce
+ヴェルト -- Verte Sauce
+オロール -- Aurore Sauce
+カルディナル -- Cardinal Sauce
+グリビッシュ -- Gribiche Sauce
+サルミ -- Salmis Sauce
+ザンガラ -- Zingara Sauce
+シャスール -- Chasseur Sauce
+ジュヌヴォワーズ -- Genevoise Sauce
+ショロン -- Choron Sauce
+スービーズ -- Soubise Sauce
+スミタヌ -- Smitane Sauce
+ニューバーグ -- Newburg Sauce
+ビガラードソース -- Bigarade Sauce
+フォワイヨ -- Foyot Sauce
+ポワヴラード -- Poivrade Sauce
+マデール -- Madeira Sauce
+モルネー -- Mornay Sauce
+ロベール -- Robert Sauce
+マヨネーズ -- Mayonnaise Sauce
+
 
 Other names:
-愛のデッパリ -- Baby bump
+愛のデッパリ -- Baby bump (Not sure about this at all.)

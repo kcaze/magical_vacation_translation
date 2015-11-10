@@ -1996,145 +1996,145 @@
   English: ''
   Comments: idk how this works yet.
 - Japanese: "\\8b\\c6ピップルス一族<br>「モツァレラァァァァァッ。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"Mozzarellaaaaaa."
   Comments: ''
 - Japanese: "\\8b\\0 所持金：ブラー<br>  <span class=\"red\">１００００ブラー</span>はらう<br>  はらわない"
   English: ''
-  Comments: ''
+  Comments: idk how to handle this.
 - Japanese: "\\8b\\c7ピップルスの首領・パルメザン<br>「私が、ここの塔のあるじ、<br> パルメザンなのよ、もしかして~<br> あ~ ヒマで ヒマで も~<br> いそがしぃ~~~~~~<br> なのよも~ もしかして~"
-  English: ''
+  English: "\\8b\\c7Leader of the Mausses, Parmesan\n\"I am the head of this tower, Parmesan,\nmaybe. Ah, I'm so idle, so idle, so\nbusy, maybe."
   Comments: ''
 - Japanese: "\\8b\\c7ピップルスの首領・パルメザン<br>「あー、チミチミ！<br> そりはわしの<br> とくチューオーブンなので<br> ありマスのよ、もしかして~<br> ドワーフの親方に、<br> すンごい値段で作ってもらった<br> モノなのよ、もしかして~<br> でも、チミが、どーしても<br> 欲しいとゆーなら、売ってあげて<br> もイイのよ、もしかして~<br> <span class=\"red\">\\87\\1a１０個</span>と<br> 交換でどうでありマスかね~<br> もしかして~"
-  English: ''
+  English: "\\8b\\c7Leader of the Mausses, Parmesan\n\"Ah, you guys! That's my special\noven, maybe. I paid the boss of the\ndwarves a steep price to have it made,\nmaybe. But if you really really want\nit, I could sell it to you, maybe. I'll\ntrade it for \\8e10 \\87\\1a\\8d, maybe."
   Comments: ''
 - Japanese: "\\8b\\c7ピップルスの首領・パルメザン<br>「それでは がんばって<br> 集めてくるでありマス！<br> もしかして~"
-  English: ''
+  English: "\\8b\\c7Leader of the Mausses, Parmesan\n\"Then, try hard to gather enough,\nmaybe!"
   Comments: ''
 - Japanese: "\\8b\\c7ピップルスの首領・パルメザン<br>「それなら それでいーので<br> ありマス！<br> もしかして~"
-  English: ''
+  English: "\\8b\\c7Leader of the Mausses, Parmesan\n\"We have a deal then, maybe!"
   Comments: ''
 - Japanese: "\\8b\\c7ピップルスの首領・パルメザン<br>「<span class=\"red\">\\87\\1a１０個</span><br> もってくるのでありマ~ス"
-  English: ''
+  English: "\\8b\\c7Leader of the Mausses, Parmesan\n\"I'll be taking \\8e10 \\87\\1a\\8d."
   Comments: ''
 - Japanese: "\\8b\\c7ピップルスの首領・パルメザン<br>「約束通り、<span class=\"red\">\\87\\1a１０個</span><br> 持ってきたでありマスね~<br> それじゃあ、オーブン<br> おゆずりしマ~ス<br> もしかして~<br> <span class=\"red\">オーブンに声をかけて<br> 連れていってください</span>ね~<br> もしかして~"
-  English: ''
+  English: "\\8b\\c7Leader of the Mausses, Parmesan\n\"As promised, you brought me \\8e10\n\\87\\1a\\8d. Well then, here's your\noven, maybe. \\8eTalk to the oven and\nask it to join you\\8d, maybe."
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>オーブンニ カイゾーサレテ<br> シマイマシタ。</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"I was retooled into an oven."
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>カナリ、オリョウリ<br> オボエテキマシタ。</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"I've learned quite a few recipes."
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>アリガトウ ナノデ~ス<br> イッショウ オーブントシテ<br> イキテイク コトニナルカト<br> チョット フアンニ ナッテタ<br> デ~ス モシカシテ~</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"Thank you. I was getting worried\nI would spend the rest of my life\nas an oven, maybe."
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>タスケテモラッテ コウイウノモ<br> ナンデスガ‥‥<br> イロイロ カンガエタンダケド、<br> オレ、マバスノ ブヒンニナル<br> カクゴデキタ。</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"This is kind of awkward to say since\nyou saved me...\nBut I was thinking things over, and I'm\nready to turn into parts for the Magic Bus."
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>サキニ マバスヘ カエル。<br> マバスヲ‥‥ ミタラ‥‥<br> オレノコトヲ‥‥ エグッ‥‥<br> オモイダシテ‥‥<br> サヨウナラ ナノデ~ス！！</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"I'll return to the Magic Bus first.\nIf I see...the Magic Bus...\nI'll think of...myself...\nFarewell!"
   Comments: ''
 - Japanese: "\\8b\\a3バルサミコ<br>「いよう！ 青年！<br> ちょうどいい！<br> ついさっき、カフェオレを<br> ブンカイしてみたんだが、古くて<br> 使いモンにならねぇ！"
-  English: ''
+  English: "\\8b\\a3Balsamico\n\"Hey! Youths! You're just in time!\nJust now, I was tried taking Cafe au lait\napart but his parts are so rusty I can't use\nany of them!"
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>ケッ フルイノハ オマエノ<br> ウデジャ ネェノカ~?</i>"
-  English: ''
-  Comments: ''
+  English: "\\8b\\17\\86\\0d\n\"Tch, I bet it's your skills that\nare rusty."
+  Comments: 'I think this pun was kind of clever :P'
 - Japanese: "\\8b\\a3バルサミコ<br>「聞くところによると、どっかに<br> ドワーフの塔ってのがあって、<br> そこのドワーフは機械の<br> カイゾーが得意だって<br> 言うじゃねぇか。<br> そこで、たのみがあんだが、<br> カフェオレをその、ドワーフの<br> 塔ってとこに連れて行って、<br> 魔動力ジェネレーターにカイゾー<br> してもらってきてほしいんだ。<br> そうすりゃ、あとはどうにでも<br> なるってモンよ。<br> 誰と行ってもいいけど、<br> カフェオレを連れて行くの<br> だけは忘れるなよ。"
-  English: ''
+  English: "\\8b\\a3Balsamico\n\"According to what I've heard, there's\na dwarf's tower somewhere and the dwarfs\nthere are good at retooling. So, could I\nask you to take Cafe au lait to the dwarf's\ntower and have him retooled into a magical\nenergy generator? After that, I'm sure I can\nsomehow manage. You can go with anyone you\nwant but make sure you don't forget Cafe au\nlait."
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>マドウリョクジェネレーター<br> ケッコウナ ハナシダネ。<br> ナンニデモ ナリマストモ。<br> ミンナノ タメデスカラ、<br> ヨロコンデ。ハイ。<br> トクイノ ミートパイヲ<br> ゴチソウシテ アゲラレナクテ<br> ザンネンデス。</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"A magical energy generator is a pretty\nbig deal.  But I can become anything.\nNo one else can do this, so I'm happy to.\nYes. Too bad I won't be able to make you\nmy meat pie specialty anymore though."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「かわいそうかも‥‥"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"That's kind of sad..."
   Comments: ''
 - Japanese: "\\8b\\c8アルマンド<br>「ダメダメ 人間には<br> キョーミねえっぺ！<br> 帰って 帰って！"
-  English: ''
+  English: "\\8b\\c8Almond\n\"No, I'm not interested in humans!\nGo home! Go home!"
   Comments: ''
 - Japanese: "\\8b\\c8アルマンド<br>「おおっ！ 古代機械！<br> いいねぇ！ グ~だね~！<br> さぁ、はいってけれ！"
-  English: ''
+  English: "\\8b\\c8Almond\n\"Oh! An ancient machine! Nice! Good!\nCome on in!"
   Comments: ''
 - Japanese: "\\8b\\c8ヴァン・ブラン<br>「おおっ！<br> めんごいマシーンちゃん！！<br> あっしらの親方に カイゾーして<br> もらえば、もっとベッピンサンに<br> なれるべさ~！"
-  English: ''
+  English: "\\8b\\c8Vin Blanc\n\"Oh! You sorry machine! If I have\nour boss retool you, you'll be a\nbeauty!"
   Comments: ''
 - Japanese: "\\8b\\c8ヴァン・ルージュ<br>「いんやー、アンタ、なかなか<br> いいマシーン連れてるべさ！<br> ひゃ~~~！ もう！<br> カイゾーしてぇ~~~！！"
-  English: ''
+  English: "\\8b\\c8Vin Rouge\n\"Man, you guys brought us a pretty\ndarn good machine! Yeeesss! I want\nto retool it!"
   Comments: ''
 - Japanese: "\\8b\\c8ヴィグネット<br>「カイゾーするべ！"
-  English: ''
+  English: "\\8b\\c8Vinaigrette Sauce\n\"Let's retool you!"
   Comments: ''
 - Japanese: "\\8b\\c8ヴェルト<br>「なんか、ダンマツマの魔モノの<br> 声が聞こえた気がするだ‥‥‥"
-  English: ''
+  English: "\\8b\\c8Verte Sauce\n\"I thought I just heard the death\nthroes of some creature..."
   Comments: ''
 - Japanese: "\\8b\\c8オロール<br>「下からのテイキレンラクが<br> おくれてるべさ‥‥‥。<br> なにかあったべかぁ?"
-  English: ''
+  English: "\\8b\\c8Aurore Sauce\n\"We just received our periodic report\nfrom below...\nDid anything happen?"
   Comments: ''
 - Japanese: "\\8b\\c8カルディナル<br>「ここは、ドワーフの塔、<br> <span class=\"red\">キード・モンガ</span>だべさ。<br> ありがちな話だがよ、<br> ずーっと昔によ、<br> 光と闇の戦いがあったんだ。<br> その時、光の大天使様の<br> 武器を作ってたのが、<br> ここ、キード・モンガだべさ。"
-  English: ''
+  English: "\\8b\\c8Cardinal Sauce\n\"This is the dwarf's tower, \\8eIko\nDomnag\\8d. It sounds cliche, but a\nlong time ago, there was a war of\nlight and darkness. During that time,\nthe Angel of Light's weapon was forged\nhere, in Iko Domnag."
   Comments: ''
 - Japanese: "\\8b\\c8グリビッシュ<br>「大昔は、ここで、タイホーやら<br> 光の出る剣やら作ってたべさ。<br> ありがちな話だけんどもよ、<br> イニシエの１２戦士の武器も<br> ここで作ってたんだべさ。<br> はじめて、その話さ聞いたとき、<br> リアクションにこまったモン<br> だべさ。"
-  English: ''
+  English: "\\8b\\c8Gribiche Sauce\n\"Many eons ago, weapons like cannons \nand swords were created here. It sounds\ncliche, but the 12 warriors of antiquity\nhad their weapons forged here. When I first\nheard the story, I was shocked."
   Comments: ''
 - Japanese: "\\8b\\c8サルミ<br>「ケッ。何が楽しいべさ。<br> 機械が食えるわけでなし。<br> 来る日も 来る日も。"
-  English: ''
+  English: "\\8b\\c8Salmis Sauce\n\"Heh. Why's this fun you ask? Machines\ncan't eat and breathe yet. But someday,\nsomeday they will."
   Comments: ''
 - Japanese: "\\8b\\c8ザンガラ<br>「<span class=\"red\">\\87\\8</span>さ持ったモンしか<br> この扉さ開けらんね。<br> 内側からは、カンタンに開く<br> けんどもよ。"
-  English: ''
+  English: "\\8b\\c8Zingara Sauce\n\"Only those with the \\8e\\87\\08\\8d\ncan open this door. Although, you\ncan easily open it from the inside."
   Comments: ''
 - Japanese: "\\8b\\c8シャスール<br>「オレたちゃ職人！<br> ゼイタクなセツビはいらねぇべ！"
-  English: ''
+  English: "\\8b\\c8Chasseur Sauce\n\"We're artisans! We don't need any\nfancy pants equipment!"
   Comments: ''
 - Japanese: "\\8b\\c8ジュヌヴォワーズ<br>「ボンボヤ~ジュ！"
-  English: ''
+  English: "\\8b\\c8Genevoise Sauce\n\"Bon voyage!"
   Comments: ''
 - Japanese: "\\8b\\c8ショロン<br>「仕事が 好きッ！"
-  English: ''
+  English: "\\8b\\c8Choron Sauce\n\"I love work!"
   Comments: ''
 - Japanese: "\\8b\\c8スービーズ<br>「ウチュウをブッ壊すくれぇの<br> 巨大なタイホーが作りてぇだ！"
-  English: ''
+  English: "\\8b\\c8Soubise Suace\n\"I want to create a colossal cannon\nthat can crush the world!"
   Comments: ''
 - Japanese: "\\8b\\c8スミタヌ<br>「じゃまだ じゃまだ！<br> のけ！ コラ！"
-  English: ''
+  English: "\\8b\\c8Smitane Sauce\n\"Hey! You're in my way! Move over!"
   Comments: ''
 - Japanese: "\\8b\\c8ニューバーグ<br>「さっきからヤケに<br> 寒気がするだ‥‥‥"
-  English: ''
+  English: "\\8b\\c8Newburg Sauce\n\"Something's giving me the chills..."
   Comments: ''
 - Japanese: ''
   English: ''
   Comments: ''
 - Japanese: "\\8b\\c8ビガラード<br>「下から何かのぼってきたら<br> オラたちがタテになるだ。"
-  English: ''
+  English: "\\8b\\c8Bigarde Sauce\n\"If anything were to try to climb up\nfrom below, we will guard the area."
   Comments: ''
 - Japanese: "\\8b\\c8フォワイヨ<br>「ここに立ってるだけじゃ<br> ウデがなまっちまうだよ。"
-  English: ''
+  English: "\\8b\\c8Foyot Sauce\n\"If I just stand here, I'm going\nto get out of practice."
   Comments: ''
 - Japanese: "\\8b\\c8ポワヴラード<br>「えんじゅくの技、さえわたり！<br> 今、新しい時代の夜明け！<br> ドワーフ印でおなじみ<br> キード・モンガ<br> よろずカイゾー商会‥‥。<br> コピーはこんなんでええべか?"
-  English: ''
+  English: "\\8b\\c8Poivrade Sauce\n\"Freeze, mature skill!\nToday is the dawn of a new age!\nThe renowned retooling company,\nIko Domnag...\nI wonder if this is okay for the\nblurb."
   Comments: ''
 - Japanese: "\\8b\\c8マデール<br>「ドワーフとして、まじめに働いて<br> よろこびに満ちあふれた人生。<br> 幸せをかみしめて、<br> くいのない人生をまっとうして、<br> そしたら‥‥<br> 次はエルフに生まれ変わりてぇ。<br> たのむだ、神様。<br> どっかで聞いてるべ?"
-  English: ''
+  English: "\\8b\\c8Madeira Sauce\n\"As a dwarf, my working life is\nfilled with joy. I'll grasp happiness\nand live a proper life without regrets.\nIf I do that...\nI hope I can be reborn as an elf.\nPlease, God. Can you hear my words?"
   Comments: ''
 - Japanese: "\\8b\\c8モルネー<br>「仕事がつまって 手が放せない<br> ハナミズをふく ひまもねぇ<br> ヒゲにながれる ハナミズを<br> 根性でススって ちゅうじえん~<br> はー オレたちゃドワーフ<br> 働きゃ それでいい"
-  English: ''
+  English: "\\8b\\c8Mornay Sauce\n\"The works piling up\nMy hands are full\nI don't even have time\nTo blow my nose\nThe mucus is dripping\nDown my mustache\nTrying hard to sniffle\nGetting infections.\n*sigh* We dwarfs should only\nfocus on our work."
   Comments: ''
 - Japanese: "\\8b\\c8ロベール<br>「親方こわくて 気が休まらねぇ<br> トイレに走る ひまもねぇ<br> 人の１００倍 働いてー<br> ドカ汗かいたら わからねぇ~<br> はー オレたちゃドワーフ<br> 働きゃ それでいい"
-  English: ''
+  English: "\\8b\\c8Robert Sauce\n\"Scared of the boss\nCan't relax\nI don't even have time\nTo run to the toilet\nWorking with the force\nOf a 100 men\nSweating from exertion\nI don't know.\n*sigh* We dwarfs should only\nfocus on our work."
   Comments: ''
 - Japanese: "\\8b\\c8マヨネーズ<br>「外で何かおきてるみてぇだ<br> なっや。<br> だが、親方には知らせる<br> 必要はねぇ。<br> 親方は、何かあった時は<br> この塔といっしょに<br> 死ぬカクゴのある人だ。"
-  English: ''
+  English: "\\8b\\c8Mayonnaise Sauce\n\"Looks like something's happening outside.\nBut there's no need to let the boss know.\nThe boss is prepared to die with this\ntower, should anything ever happen."
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「大丈夫に決まってるでしょ?<br> 私一人でも平気なくらいよ。"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"Of course I'm okay. I'd be fine\neven if I were by myself."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「それじゃ、オイラたち、<br> 魔バスにもどるっぴ！<br> これ以上からむとヤバいっぴ！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"In that case, let's return to the\nMagic Bus. It'd be bad to get any further\ninvolved."
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「ん?<br> これ以上からむと<br> 何がヤバいって?"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"Hmm? What do you mean it'd be\nbad to get any further involved?"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「なんでもないっぴー！！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"Nothing!"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「やれやれだぜブラザー。<br> ま、ケガしないように<br> がんばれよ。"
   English: ''
