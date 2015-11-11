@@ -106,7 +106,7 @@ People names:
 ジュヌヴォワーズ -- Genevoise Sauce
 ショロン -- Choron Sauce
 スービーズ -- Soubise Sauce
-スミタヌ -- Smitane Sauce
+スミタヌ -- Smitane Sauce (?)
 ニューバーグ -- Newburg Sauce
 ビガラードソース -- Bigarade Sauce
 フォワイヨ -- Foyot Sauce
@@ -116,7 +116,7 @@ People names:
 ロベール -- Robert Sauce
 マヨネーズ -- Mayonnaise Sauce
 グレナデン -- Grenadine
-
+ピラニア -- Piranha
 
 Other names:
 愛のデッパリ -- Baby bump (Not sure about this at all.)

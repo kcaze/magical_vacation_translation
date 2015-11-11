@@ -35,6 +35,6 @@ for ii in range(len(spirits)):
     print(template_string.replace("*S0*", spirit0)
         .replace("*S1*", spirit1)
         .replace("*S2*", spirit2)
-        .replace("*T0*", type1)
+        .replace("*T0*", type1  )
         .replace("*T1*", type1)
         .replace("*T2*", type2))
