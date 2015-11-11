@@ -2440,70 +2440,70 @@
   English: "\\8b\\10\\86\\06\n\"Do you understand how to fight?"
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「お~い、\\85\\0~。<br> 聞いてくれよ~。<br> ガナッシュがオレ様に<br> 戦い方について<br> レクチャーするんだぜ~<br> オレを誰だと思ってんだよ。<br> ったくよ~。"
-  English: ''
+  English: "\\8b\\14\\86\\0a\n\"Hey, \\85\\00.\nListen to me.\nGanache was lecturing me on how\nto fight. Who does he think I am?\nGeez."
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「オレが 刃の魔法を極めたいと<br> 思ったのは 勝ちたいからさ。<br> とくに、１対１の戦いでね。<br> オレは逃げたくもねぇし、<br> 負けたくもねぇ。"
-  English: ''
+  English: "\\8b\\14\\86\\0a\n\"The reason I want to master blade\nmagic is because I want to win. Especially\nin 1 on 1 duels. I don't want to run away\nand I don't want to lose."
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「うかない顔してるわよ。<br> 何かあったんでしょ?<br> 話しなよ。"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"Why the long face? Did something\nhappen? You should talk about it."
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「‥‥‥‥‥‥。<br> ガナッシュが‥‥。<br> アイツ、カンがいいからな‥‥。<br> とにかく、気をつけておくよ。<br> そうそう、自分と同じ属性の<br> 敵に会ったら気をつけな。<br> 同じ属性同士だと<br> 魔法がまったく効かないんだ。<br> 忘れてると痛い目にあうぜ。<br> ブルーベリーから精霊の<br> 話も聞いておきなよ。<br> 役に立つよ。"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"...\nGanache...\nHe's really sharp...\nAnyhow, be careful. Especially if\nyou meet someone with the same\nelement as you. Those with the same\nelement won't even scratch each other\nwith their magic. Also, you should ask\nBlueberry about spirits. It'll come in\nhandy."
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「いいよ、<br> 話したくないなら、それで。<br> もっと 楽しいこと考えなよ。<br> その顔、見てらんないよ。<br> フフフッ。"
-  English: ''
+  English: "\\8b\\12\\86\\06\n\"Sure, if you don't want to talk.\nTry to look on the bright side of\nthings. That face doesn't suit you\nat all. Hahaha."
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「<span class=\"red\">同じ属性同士だと、魔法が<br> まったく効かない</span>んだ。<br> ブルーベリーから精霊の<br> 話も聞いておきなよ。<br> 役に立つよ。"
-  English: ''
+  English: "\\8b\\12\\86\\06\n\"\\8eThose with the same element won't\neven scratch each other with their magic.\\8d\nAlso, you should ask Blueberry about spirits.\nIt'll come in handy."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「何か、イヤなことが<br> 起きそうね。<br> <span class=\"red\">魔法を極めたかったら、精霊と<br> 仲良くなるといい</span>って、私の<br> おばあちゃんが 言ってたわ。<br> <span class=\"red\">戦闘中に 精霊を呼び出すと、<br> 魔法の威力が 何倍にもなる</span>ん<br> だって。<br> 私のおばあちゃん、コールフロー<br> って魔法で、７匹もの水の精霊を<br> 呼び出せたんですって。<br> 私も、おばあちゃんみたいに<br> 魔法を極めたい‥‥。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"It looks like something bad is\nhappening. My grandmother used to\nsay, \"\\8eIf you want to master magic,\nyou should become good friends with spirits\\8d\".\n\\8eIf you summon spirits in battle, your\nmagic's power will multiply.\\8d. My\ngrandmother used a spell called Call Flow and\nsummoned 7 water spirits. I want to master\nmagic just like my grandmother..."
   Comments: ''
 - Japanese: "\\8b\\98闇の精霊・ニルヴァ<br>「オレ様の助けギャ<br> ほしいギャ‥‥?<br> オレ様は弱いヤツは<br> キライだギャ。<br> オレと勝負するギャ‥‥。"
-  English: ''
+  English: "\\8b\\98Dark spirit, Nirva\n\"You want my help...? I hate those\nwho are weak. Fight me..."
   Comments: ''
 - Japanese: '<br>  <span class="red"></span>をみつけた！'
-  English: ''
-  Comments: ''
+  English: 'Found <CC?>!'
+  Comments: Missing control code
 - Japanese: "\\8b\\14\\86\\a<br>「能力値の意味についても<br> レクチャーしてやれよ。<br> ついでだからさ。"
-  English: ''
+  English: "\\8b\\14\\86\\0a\n\"While we're at it, I'll teach you\nabout experience points too."
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「オレはオレが必要と思った<br> ことだけを伝えている。<br> 言いたいことがあるなら、<br> 自分で言ってくれよ。"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"I only said what I think is necessary.\nIf there's something you want said, say\nit yourself."
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「ガンコなオッサンだなぁ。"
-  English: ''
+  English: "\\8b\\14\\86\\0a\n\"He's one stubborn old geezer."
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「オッサンだと?<br> オレのほうが１コ下だぞ！"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"Old geezer? I'm one year younger\nyou know!"
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「三年前、ガナッシュの姉貴も<br> このキャンプに参加したんだが、<br> そこから戻ってから、すっかり<br> おかしくなっちまって、コイツも<br> ピリピリしてるんだ。<br> ま、確かに世の中何が起きるか<br> わかんねぇし、戦いにそなえて<br> 心の準備をしておこうぜ。<br> 聞いておくことはねぇかい?"
-  English: ''
+  English: "\\8b\\14\\86\\0a\n\"Three years ago, Ganache's sister also\nwent to this camp, but after she returned\nhome, she went crazy. Anyhow, it's uncertain\nwhat will happen in the world, so it's good\nto prepare yourself for war. Is there anything\nyou want to ask about?"
   Comments: ''
 - Japanese: "\\8b\\0  力   守り  MP回復率<br>  速さ  精神  キャンセル"
-  English: ''
-  Comments: ''
+  English: "\\8b\\00 Strength Defense MP Recovery\nSpeed Spirit Cancel"
+  Comments: How do these work?
 - Japanese: "\\8b\\14\\86\\a<br>「<span class=\"red\">力</span>ってのは、キックやパンチの<br> 物理的な攻撃力のことさ。<br> 魔法が効かない相手もいるから、<br> そんな時はキックやパンチで<br> 倒すしかねぇ。<br> カフェオレやキルシュが<br> 高いぜ。"
-  English: ''
+  English: "\\8b\\14\\86\\0a\n\"\\8eStrength\\8d is the attack power of\nphysical attacks like kicks and punches.\nThere are enemies who are resistant to magic,\nso in those cases you need to use your kicks\nand punches. Cafe au lait and Kirsche have\nhigh strength."
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「<span class=\"red\">守り</span>ってのは、物理攻撃に対する<br> 強さのことさ。<br> ショコラが守りは高いぜ。<br> 守りの高いヤツは前に立たせる<br> のがいいな。"
-  English: ''
+  English: "\\8b\\14\\86\\0a\n\"\\8eDefense\\8 is how well you can withstand\nphysical attacks. Chocolat's defense is high.\nYou should let those with high defense stand\nin the front row."
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「<span class=\"red\">MP回復率</span>ってのは、バトルの時<br> どのくらいMPが回復するかだ。<br> これが高いと、バトルで魔法を<br> ガンガンうっても平気だ。"
-  English: ''
+  English: "\\8b\\14\\86\\0a\n\"\\8eMP Recovery\\8d is how much MP\nyou recover during battle. If this is\nhigh, then you can keep using magic\nin battle without worry."
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「<span class=\"red\">速さ</span>は、素早さのことで、これが<br> 高ければ速く行動できる。<br> バトル中、敵の攻撃を受ける前に<br> HPを回復させたい時なんかは<br> 素早いヤツに回復させるのさ。<br> ピスタチオなんか、それしか<br> 能がないんだけど、けっこう<br> チョウホウするぜ。"
-  English: ''
+  English: "\\8b\\14\\86\\0a\n\"\\8eSpeed\\8d is a measure of how fast\nyou are able to act. During battle, if\nyou want to recover HP before the enemies\nattack, you should let someone with speedy\ndo the recovering. This is Pistachio's only\nstrong suit, but he's quite good at it."
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「<span class=\"red\">精神</span>が高いと、魔法の攻撃で<br> ダメージが少なくなる。<br> ブルーベリーなんかが高いんだ。<br> 彼女、体は弱いけど、シンは<br> しっかりしてるからな。"
-  English: ''
+  English: "\\8b\\14\\86\\0a\n\"If you have a high \\8espirit\\8d, the\ndamage from magic attacks will be reduced.\nBlueberry has a high spirit. Her body might\nbe weak, but her heart is sturdy and strong."
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「ま、何もないといいね。<br> あってもいいけどさ。"
-  English: ''
+  English: "\\8b\\14\\86\\0a\n\"I guess there's nothing you want\nto ask about then. If something comes\nup, that's fine too."
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「うっせーなぁ。"
-  English: ''
+  English: "\\8b\\14\\86\\0a\n\"Shut up."
   Comments: ''
 - Japanese: ''
   English: ''
@@ -2560,70 +2560,70 @@
   English: ''
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\87\\96</span>を<span class=\"red\">１個</span>獲得！<br> <br> 身体にはることで、バトルの時<br> １ターンに１ポイントのHPを<br> 回復するアイテムだ。"
-  English: ''
+  English: "\nObtained \\8e1 \\87\\96\\8d!\n\nIf you stick it on your body, during\nbattle, you'll recover 1 HP each turn."
   Comments: ''
 - Japanese: "\\8b\\b8トルティーヤ<br>「のけっ！"
-  English: ''
+  English: "\\8b\\b8Tortilla\n\"Out of my way!"
   Comments: ''
 - Japanese: "\\8b\\b9タルト<br>「のけっ！"
-  English: ''
+  English: "\\8b\\b9Tarte\n\"Out of my way!"
   Comments: ''
 - Japanese: "\\8b\\baタタン<br>「のけっ！"
-  English: ''
+  English: "\\8b\\baTatin\n\"Out of my way!"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「あっ！！"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"Ahhh!"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「みんなー！！<br> たいへんですの―――！！<br> ブルーベリーちゃんが具合が悪く<br> なって、動けなくなって、<br> それから‥‥ それから‥‥"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"Everyone!\nThere's a problem!\nBlueberry's didn't feel so well, and\nthen she wasn't able to move, and then...\nand then..."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「それからどうしたっぴ！！<br> おちついて話すっぴ！！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"And then!?\nCalm down then talk!"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「そうよ、ペシュちゃん。<br> 最初からちゃんと話して。"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"That's right, Peche. Slow down and\nstart at the beginning."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「あ、あ、あ、<br> あうあー<br> 最初って、<br> どのへんからですの~?"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"Ah, ah, ah, ahhh.\nI don't know what the beginning\nis."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「やれやれだぜブラザー。<br> まず、レモンがいっしょじゃ<br> ないワケから話しな。"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"Oh boy. First, start by telling\nus why Lemon wasn't with you."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「えーと、３人で門のとこで<br> エニグマに襲われそうになって<br> レモンちゃんがオトリになって<br> 私たちを逃がしてくれましたの。"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"Ummm, the 3 of us were attacked\nby Enigma at the gate. Lemon used\nherself as a decoy and let us escape."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「それで?"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"And then?"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「この<span class=\"red\">宮殿の地下</span>で<br> 待ち合わせてたんだけど、<br> ブルーベリーちゃんが具合が悪く<br> なって、レモンちゃんも来ない<br> から、誰か呼んでこようと‥‥"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"We were planning to gather at the\n\\8epalace basement\\8d, but Blueberry's\nfelt ill and Lemon didn't come, so I\nthought to call for help..."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「誰か呼んでこようと思って、<br> それで どうしてたの?"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"You thought to call for help and\nthen what happened?"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「迷子になってましたの‥‥"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"I got lost..."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「たよりにならないっぴ。"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"You're so unreliable."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「ピスタチオちゃんに言われたく<br> ありませんの！"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"Pistachio, you're not one to talk!"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「はい、はい、はい、はい。<br> わかった わかった。<br> で、ブルーベリーが、<br> <span class=\"red\">この宮殿の地下</span>にいるんだな?<br> で、それを、助けに行くと。"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"Okay, okay, okay. Anyways.\nSo, Blueberry is in \\8ethe basement of\nthis palace\\8d right? So, let's go\nsave her."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「最初から<br> そう言いましたの‥‥"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"That's what I said at first..."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「言ってないっぴ。"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"No you it wasn't."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「ピスタチオちゃんのお耳は<br> 虫の穴ですのッ！?"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"Pistachio, do you have water in\nyour ears or something!?"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「虫の穴じゃないっぴ！！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"No I don't!"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「フゥ~。<br> 相変わらずコワイお姉さんだ。"
   English: ''
