@@ -2617,7 +2617,7 @@
   English: "\\8b\\11\\86\\07\n\"That's what I said at first..."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「言ってないっぴ。"
-  English: "\\8b\\18\\86\\0e\n\"No you it wasn't."
+  English: "\\8b\\18\\86\\0e\n\"No it wasn't."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「ピスタチオちゃんのお耳は<br> 虫の穴ですのッ！?"
   English: "\\8b\\11\\86\\07\n\"Pistachio, do you have water in\nyour ears or something!?"
@@ -2626,88 +2626,88 @@
   English: "\\8b\\18\\86\\0e\n\"No I don't!"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「フゥ~。<br> 相変わらずコワイお姉さんだ。"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"Hoo boy. Fierce as always."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「エニグマはもう<br> いないわよ、レモン。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"The Enigma are gone, Lemon."
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「いない?<br> いないってことは‥‥<br> オマエたちでやったのか?"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"They're gone?\nThey're gone...\nDid we do it?"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「そーゆーことだっぴ。<br> 先をいそぐっぴ。<br> カフェオレはどこに行ったっ<br> ぴ！?"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"Yeah we did it. Let's hurry on\nahead. Where did Cafe au lait go?"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「<span class=\"red\">裏門</span>のドワーフたちが古代機械が<br> どうのと言ってたから‥‥<br> その先に行ってみる必要がある<br> と思って、ブルーベリーたちを<br> むかえに来たんだ。<br> そしたら、エニグマとはちあわせ<br> してしまってこのザマさ。<br> さっき、裏門からパンくずを<br> まきながら来たから、それを<br> たどれば 簡単に行けるハズだ。<br> エニグマにやられて 寝てる間に<br> トリに食われてしまったかも<br> 知れないけどね。<br> ‥‥‥‥‥‥<br> しかしこれじゃ‥‥<br> 人数が多すぎやしないか?"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"The dwarfs at the \\8eback gate\\8d\nsaid something about an ancient\nmachine...\nSo we thought to go there and found\nBlueberry and the others. And then\nwe bumped into some Enigmas. We put\ndown breadcrumbs as we came from the\nback gate so if we follow those, we\nshould be able to get there easily.\nWe might be eaten in our sleep by\nEnigmas though.\n...\nBut now...\ndon't we have too many people?"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「たしかに、あまり人数が多いと<br> 逆に危険だ。"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"That's true. With too many people,\nit might actually turn out to be more\ndangerous."
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「<span class=\"red\">チームをわけて、一部は<br> 魔バスで待機しよう</span>。<br> あの中なら、モンスターも襲って<br> 来ないし安全だ。"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"\\8eLet's split up into teams and have\none team wait on the Magic Bus.\\8d.\nMonsters won't attack the bus, so we're\nsafe there."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「私、残るのはイヤよ。<br> 戦うわ。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"I don't want to stay behind. I'll\nfight."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「ブルーベリーちゃん‥‥"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"Blueberry..."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「ありがとう、いつも<br> 気をつかってもらって。<br> でも、私だけ残るのはイヤ。<br> 絶対にイヤ！"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"Thanks for always looking out for me.\nBut I don't want to be the only sitting\nout! I don't want that!"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「そうだ、\\85\\0、<br> これだけは覚えておいて。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"Oh yeah, \\85\\00. Make sure you\nremember this."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「<span class=\"red\">私とレモンって、仲は良いけど<br> 精霊の相性は良くない</span>の。<br> 私は水で、レモンは雷でしょ?<br> <span class=\"red\">水の精霊は、雷の精霊を打ち消す<br> 効果を持っている</span>のよ。<br> <span class=\"red\">雷の精霊テスラと、水の精霊<br> フローが場に出ている時に、<br> レモンが雷の魔法を使うと‥‥<br> フローはテスラを打ち消して、<br> いっしょに消えてしまって、<br> 魔法の威力は１倍のまま</span>なの。<br> だから、精霊を呼ぶときは<br> ちゃんとそのへんを考えてから<br> 呼んでね。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"\\8eLemon and I are good friends, but\nour spirits don't have good synergy.\\8d\nMine is water and Lemon's is electric.\n\\8eWater spirits hold the power to negate\nelectric spirits. When both the electric\nspirit Tesla and the water spirit Flow\nare summoned and Lemon uses electric magic...\nFlow will cancel out with Tesla and they'll\nboth disappear, so the magic's power will be\nunchanged.\\8d So be sure to think think about\nthat when you summon spirits."
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「さっき回ったよ。"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"We walked around earlier."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「そうだっけ?<br> でへへ。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"Did we? Ehehe."
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「OK。<br> 行こう、ブルーベリー。"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"OK. Let's go, Blueberry."
   Comments: ''
 - Japanese: "\\8b\\38まものの声<br>「<i>ひゃっひゃっひゃっひゃっ。</i>"
-  English: ''
+  English: "\\8b\\38Magical creature's voice\n\"Heeheeheehee."
   Comments: ''
 - Japanese: "\\8b\\c8ヌクマム<br>「やんだー<br> たすけてけろー"
-  English: ''
+  English: "\\8b\\c8Nuoc Mam\n\"Nooo. Heeelp."
   Comments: ''
 - Japanese: "\\8b\\38まもの<br>「<i>なんだ――――ッ！?<br> オマエたちわ―――ッ！?<br> オマエらも、ドワーフみてぇに<br> クルクルまわしてやろう<br> か―――――――――ッ！?</i>"
-  English: ''
+  English: "\\8b\\38Magical Creature\n\"What!? You guys!? I'll make you\nspin around too, like the dwarfs."
   Comments: ''
 - Japanese: "\\8b\\38まもの<br>「<i>くるくるくるくる‥‥<br> くるくるくるくる‥‥</i>"
-  English: ''
+  English: "\\8b\\38Magical Vacation\n\"Round and round...\nRound and round..."
   Comments: ''
 - Japanese: "\\8b\\38まもの<br>「<i>ひゃ――――――――ッ<br> はっはっはっは―――ッ！！<br> サイコ――――――だぜッ！！<br> い―――――まわりっぷり！！<br> イカスゼ~ オマエよ~！！</i>"
-  English: ''
+  English: "\\8b\\38Magical creature\n\"Heee. Hahaha! This is the best!\nSpin round and round! Don't die\non me you all!"
   Comments: ''
 - Japanese: "\\8b\\38まもの<br>「<i>でも もう あきた。<br> 殺すゼよ。</i>"
-  English: ''
+  English: "\\8b\\38Magical Creature\n\"But, I'm bored of this now. Time\nto kill you."
   Comments: ''
 - Japanese: "\\8b\\38まもの<br>「<i>なんだとォォォォォォ―――<br> ――――ッ！！！！<br> ゆるせんぞ！！オマエ！！<br> 殺―――――――ッす！！</i>"
-  English: ''
+  English: "\\8b\\38Magical creature\n\"What'd you say!!!\nI'm won't forgive you!!!\nI'll kill you!!!"
   Comments: ''
 - Japanese: "\\8b\\c8ヌクマム<br>「いんやー！！<br> たすかっただー！！"
-  English: ''
+  English: "\\8b\\c8Nuoc Mam\n\"Nooo! Save me!"
   Comments: ''
 - Japanese: "\\8b\\c8ナンプラ<br>「もー、感謝カンゲキ<br> アメアラレだべ~。"
-  English: ''
+  English: "\\8b\\c8Nam Pla\n\"Wow, let me shower you in gratitude."
   Comments: ''
 - Japanese: "\\8b\\c8ヌクマム<br>「アイツは、ブッチーネ３世<br> っつー、バケモンでよ~<br> ドワーフをまわしはじめたら<br> 死ぬまで やめねんだー。"
-  English: ''
+  English: "\\8b\\c8Nuoc Mam\n\"He's Butchine the 3rd, a monster.\nOnce he starts making dwarfs spins, they\ncan't stop until they die."
   Comments: ''
 - Japanese: "\\8b\\c8ナンプラ<br>「いんや、命びろいしたないや。"
-  English: ''
+  English: "\\8b\\c8Nam Pla\n\"Yeah, you really saved our lives."
   Comments: ''
 - Japanese: "\\8b\\c8ヌクマム<br>「んだずー。<br> 命のおん人だ。<br> この門は自由に通ってけれ。"
-  English: ''
+  English: "\\8b\\c8Nuoc Mam\n\"Hear hear. You're our savior. Feel\nfree to pass through this gate."
   Comments: ''
 - Japanese: "\\8b\\c8ナンプラ<br>「金は後でええだな?"
-  English: ''
+  English: "\\8b\\c8Nam Pla\n\"We'll worry about the money later, eh?"
   Comments: ''
 - Japanese: "\\8b\\c8ヌクマム<br>「んだず。<br> 後でええだ。"
   English: ''

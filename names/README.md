@@ -117,6 +117,7 @@ People names:
 マヨネーズ -- Mayonnaise Sauce
 グレナデン -- Grenadine
 ピラニア -- Piranha
+ブッチーネ -- Butchine
 
 Other names:
 愛のデッパリ -- Baby bump (Not sure about this at all.)
