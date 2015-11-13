@@ -2890,148 +2890,148 @@
   English: "\\8b\\ccWandering Pot\n\"The interactions between magical\nelements is complicated isn't it.\nWe each try to learn a bit of it.\nIn other words, those pots who aren't\nenthusiastic about learning magic are\nfakes."
   Comments: ''
 - Japanese: "\\8b\\ccさすらいポット族<br>「<span class=\"red\">火は風に強い</span>！<br> なぜって?<br> そんなことは知りません！"
-  English: "\\8b\\ccWandering Pot\n\"\\8eFire is strong against wind!\\8d\nWhy?\nHow should I know!?"
+  English: "\\8b\\ccWandering Pot\n\"\\8eFire beats wind!\\8d\nWhy?\nHow should I know!?"
   Comments: ''
 - Japanese: "\\8b\\ccさすらいポット族<br>「<span class=\"red\">風は毒に強い</span>！<br> なぜって?<br> 吹き飛ばすからだろ?"
-  English: ''
+  English: "\\8b\\ccWandering Pot\n\"\\8eWind beats poison!\\8d\nWhy?\nBecause it blows it away right?"
   Comments: ''
 - Japanese: "\\8b\\ccさすらいポット族<br>「<span class=\"red\">毒は美に強い</span>！<br> なぜって?<br> 毒りんごでキレイなお姫様を<br> 眠らせたりするだろ?。"
-  English: ''
+  English: "\\8b\\ccWandering Pot\n\"\\8ePoison beats beauty!\\8d\nWhy?\nBecause the poisoned apple put the\nprincess to sleep right?"
   Comments: ''
 - Japanese: "\\8b\\ccさすらいポット族<br>「<span class=\"red\">美は刃に強い</span>！<br> なぜって?<br> 美しさが剣に勝るのさ。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\ccWandering Pot\n\"\\8eBeauty beats blade!\\8d\nWhy?\nBecause beauty is stronger than swords."
+  Comments: Am I missing something here?
 - Japanese: "\\8b\\ccさすらいポット族<br>「<span class=\"red\">刃は音に強い</span>！<br> なぜって?<br> なぜでもいいんだ！"
-  English: ''
+  English: "\\8b\\ccWandering Pot\n\"\\8eBlade beats sound!\\8d\nWhy?\nDoes it matter?"
   Comments: ''
 - Japanese: "\\8b\\ccさすらいポット族<br>「<span class=\"red\">音は石に強い</span>！<br> なぜって?<br> おとうさんに聞いてみなさい。"
-  English: ''
+  English: "\\8b\\ccWandering Pot\n\"\\8eSound beats rock!\\8d\nWhy?\nGo ask your dad."
   Comments: ''
 - Japanese: "\\8b\\ccさすらいポット族<br>「<span class=\"red\">石は虫に強い</span>！<br> なぜって?<br> 石をかじれる虫なんか<br> いねぇってことじゃないの?"
-  English: ''
+  English: "\\8b\\ccWandering Pot\n\"\\8eStone beats bug!\\8d\nWhy?\nBecause bugs don't eat rocks right?"
   Comments: ''
 - Japanese: "\\8b\\ccさすらいポット族<br>「<span class=\"red\">虫は木に強い</span>！<br> なぜって?<br> 食いあらしてボロボロにするって<br> ことなんじゃないの?"
-  English: ''
+  English: "\\8b\\ccWandering Pot\n\"\\8eBug beats tree!\\8d\nWhy?\nBecause they eat it away right?"
   Comments: ''
 - Japanese: "\\8b\\ccさすらいポット族<br>「<span class=\"red\">木は獣に強い</span>！<br> なぜって?<br> うーん、<br> 木がなければ 生き物は生きて<br> いけないってことかなぁ。"
-  English: ''
+  English: "\\8b\\ccWandering Pot\n\"\\8eTree beats beast!\\8d\nWhy?\nUmmm, maybe it's because animals\ncan't live without trees?"
   Comments: ''
 - Japanese: "\\8b\\ccさすらいポット族<br>「<span class=\"red\">獣は水に強い</span>！<br> なぜって?<br> 飲んじゃうってことじゃない?"
-  English: ''
+  English: "\\8b\\ccWandering Pot\n\"\\8eBeast beats water!\\8d\nWhy?\nBecause they drink it all right?"
   Comments: ''
 - Japanese: "\\8b\\ccさすらいポット族<br>「<span class=\"red\">水は雷に強い</span>！<br> なぜって?<br> なぜだろう。"
-  English: ''
+  English: "\\8b\\ccWandering Pot\n\"\\8eWater beats electric!\\8d\nWhy?\nGood question."
   Comments: ''
 - Japanese: "\\8b\\ccさすらいポット族<br>「<span class=\"red\">雷は古に強い</span>！<br> なぜって?<br> そう言えば、古の機械文明が<br> 雷にうたれて ほろんだって<br> 言うよなァ。"
-  English: ''
+  English: "\\8b\\ccWandering Pot\n\"\\8eElectric beats ancient!\\8d\nWhy?\nThey say that ancient machines were\ndestroyed be lighting don't they."
   Comments: ''
 - Japanese: "\\8b\\ccさすらいポット族<br>「<span class=\"red\">古は火に強い</span>！<br> なぜって?<br> 機械だから、熱くねぇんだよ！"
-  English: ''
+  English: "\\8b\\ccWandering Pot\n\"\\8eAncient beats fire!\\8d\nWhy?\nBecause machines don't feel the heat!"
   Comments: ''
 - Japanese: "\\8b\\ccさすらいポット族<br>「<span class=\"red\">闇はいろんなものに強い</span>！<br> なぜって?<br> しょうがねぇんだ。<br> そう言うモノなんだ。"
-  English: ''
+  English: "\\8b\\ccWandering Pot\n\"\\8eDarkness beats all!\\8d\nWhy?\nThat's just the way it is."
   Comments: ''
 - Japanese: "\\8b\\ccさすらいポット族<br>「<span class=\"red\">光は闇に強い</span>！<br> なぜって?<br> そーゆーモンだろ。"
-  English: ''
+  English: "\\8b\\ccWandering Pot\n\"\\8eLight beats dark!\\8d\nWhy?\nThat's how it's always been."
   Comments: ''
 - Japanese: "\\8b\\ccさすらいポット族<br>「<span class=\"red\">愛は強くも弱くもない</span>！<br> なぜって?<br> 愛はすべてをつつみこむのさ。"
-  English: ''
+  English: "\\8b\\ccWandering Pot\n\"\\8eNothing beats love!\\8d\nWhy?\nBecause everything is engulfed\nin love."
   Comments: ''
 - Japanese: "\\8b\\ccさすらいポット族<br>「道に迷わないようにするには<br> ポットのむきを変えるのが一番。<br> パンくずなんかまいても<br> 文鳥が食べるだけですって。"
-  English: ''
+  English: "\\8b\\ccWandering Pot\n\"To avoid getting lost, it's best\nto use the directions the pots face.\nEven if you leave breadcrumbs behind,\nthe ricebirds will eat them all."
   Comments: ''
 - Japanese: "\\8b\\ccさすらいポット族<br>「ならば、<span class=\"red\">わが一族の<br> 向きに気をつけてください</span>。<br> <span class=\"red\">われらの見る先に、<br> ペシュとブルーベリーが<br> おります</span>でしょう。"
-  English: ''
+  English: "\\8b\\ccWandering Pot\n\"\\8ePay attention to the direction\nwe face. We're looking towards the\ndirection where Peche and Blueberry\nare.\\8d"
   Comments: ''
 - Japanese: "\\8b\\ccさすらいポット族<br>「さようですか。<br> はい。"
-  English: ''
+  English: "\\8b\\ccWandering Pot\n\"Is that so? Yes."
   Comments: ''
 - Japanese: "\\8b\\ccさすらいポット族<br>「シールはからだに<br> はって使う！"
-  English: ''
+  English: "\\8b\\ccWandering Pot\n\"Stick seals on your body to use them!"
   Comments: ''
 - Japanese: "\\8b\\ccさすらいポット族<br>「どーどーはトリくさいです。"
-  English: ''
+  English: "\\8b\\ccWandering Pot\n\"Dodos stink like birds."
   Comments: ''
 - Japanese: "\\8b\\ccさすらいポット族<br>「オタマジャクシは<br> ナマズの子なんだよ。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\ccWandering Pot\n\"Hey, did you know that cows\njump over the moon?"
+  Comments: The original Japanese references a folk tale.
 - Japanese: "\\8b\\ccさすらいポット族<br>「死ぬときは、はげしく<br> 割られて死にたい。"
-  English: ''
+  English: "\\8b\\ccWandering Pot\n\"When I die, I want to die with\na lot of cracks."
   Comments: ''
 - Japanese: "\\8b\\ccさすらいポット族<br>「誰か、まゆげを書いて<br> くれないかなぁ。"
-  English: ''
+  English: "\\8b\\ccWandering Pot\n\"Won't someone draw some eyebrows on\nme?"
   Comments: ''
 - Japanese: "\\8b\\ccさすらいポット族<br>「こぼれそう。"
-  English: ''
+  English: "\\8b\\ccWandering Pot\n\"I think I'm about to spill."
   Comments: ''
 - Japanese: "\\8b\\ccさすらいポット族<br>「のんびりさんなボク。"
-  English: ''
+  English: "\\8b\\ccWandering Pot\n\"I'm so carefree."
   Comments: ''
 - Japanese: "\\8b\\ccさすらいポット族<br>「カエルをいれないで。<br> いれたら放置しないで。"
-  English: ''
+  English: "\\8b\\ccWandering Pot\n\"Please don't put any frogs in me.\nIf you do, don't leave them in there."
   Comments: ''
 - Japanese: "\\8b\\ccさすらいポット族<br>「むかしは、つけものとか<br> つけていました。"
-  English: ''
+  English: "\\8b\\ccWandering Pot\n\"In the past, I was used to pickle\nfood."
   Comments: ''
 - Japanese: "\\8b\\ccさすらいポット族<br>「カマで焼かれたのは<br> かれこれ３０年前です。"
-  English: ''
+  English: "\\8b\\ccWandering Pot\n\"I was fired in a kiln over 30\nyears ago."
   Comments: ''
 - Japanese: "\\8b\\ccさすらいポット族<br>「『未来へのボクのてがみ』など<br> 入れられて、土にうめられたい。"
-  English: ''
+  English: "\\8b\\ccWandering Pot\n\"I want someone to make me a time capsule\nand bury me."
   Comments: ''
 - Japanese: "\\8b\\ccさすらいポット族<br>「さびしいと、<br> ワレそうになります。"
-  English: ''
+  English: "\\8b\\ccWandering Pot\n\"When I feel lonely, I feel like I'm\ngoing to crack apart."
   Comments: ''
 - Japanese: "\\8b\\ccさすらいポット族<br>「あ~く~ま~"
-  English: ''
-  Comments: ''
+  English: "\\8b\\ccWandering Pot\n\"Devil."
+  Comments: devil
 - Japanese: "\\8b\\ccさすらいポット族<br>「魔法つかいたい！"
-  English: ''
+  English: "\\8b\\ccWandering Pot\n\"I want to be able to use magic!"
   Comments: ''
 - Japanese: "\\8b\\ccさすらいポット族<br>「ツボであることを<br> ちょーえつ したい。"
-  English: ''
+  English: "\\8b\\ccWandering Pot\n\"I want to transcend being a pot."
   Comments: ''
 - Japanese: "\\8b\\ccさすらいポット族<br>「ツボにはヘソがないんです。<br> あたりまえか。<br> ははは。"
-  English: ''
+  English: "\\8b\\ccWandering Pot\n\"Pots don't have belly buttons.\nI guess that's obvious.\nHahaha."
   Comments: ''
 - Japanese: "\\8b\\ccさすらいポット族<br>「ボク、<br> ウコンくさいでしょ?<br> ウコンがいっぱい入ってるから。<br> ウコンって、カレーのざいりょう<br> だよ。知ってる?"
-  English: ''
+  English: "\\8b\\ccWandering Pot\n\"I reek of tumeric don't I?\nThat's because there's a lot of tumeric\ninside of me. Did you know that tumeric\nis an ingredient in curry?"
   Comments: ''
 - Japanese: "\\8b\\bb愛のかりゅうど<br>「愛でふにゃふにゃに<br> なりたい。"
-  English: ''
+  English: "\\8b\\bbHunter of Love\n\"I want to go limp with love."
   Comments: ''
 - Japanese: "\\8b\\bb愛のかりゅうど<br>「愛はとうといの。"
-  English: ''
+  English: "\\8b\\bbHunter of Love\n\"Love is precious."
   Comments: ''
 - Japanese: "\\8b\\bb愛のかりゅうど<br>「どーどーも<br> キライじゃないんだよね。"
-  English: ''
+  English: "\\8b\\bbHunter of Love\n\"I don't hate dodos."
   Comments: ''
 - Japanese: "\\8b\\bb愛のかりゅうど<br>「私も鳥になりたいですの。<br> でも、どーどーはイヤですの。<br> ラブバードがいいなぁ。"
-  English: ''
+  English: "\\8b\\bbHunter of Love\n\"I want to become a bird. But not\na dodo. A lovebird would be nice."
   Comments: ''
 - Japanese: "\\8b\\bb愛のかりゅうど<br>「世の中に 悪い人なんて<br> そんなには いませんの。<br> いるのは、<br> ちょっと自分勝手な人、<br> ちょっとまわりが見えてない人。"
-  English: ''
+  English: "\\8b\\bbHunter of Love\n\"There aren't evil people in the world.\nThere are only people who are a bit rash\nand who don't look at those around him."
   Comments: ''
 - Japanese: "\\8b\\bb愛のかりゅうど<br>「愛について語るのをはずかしがる<br> 人が多いけど‥‥<br> 私なんか、愛の大使ですから。<br> ここにいるだけではずかしい。"
-  English: ''
+  English: "\\8b\\bbHunter of Love\n\"Many people are embarrassed when they\ndiscuss love...\nSince I'm an Envoy of Love, I'm embarrassed\njust by existing."
   Comments: ''
 - Japanese: "\\8b\\bb愛のかりゅうど<br>「ひょんなことから‥‥って<br> 言う時の、<br> 『ひょん』になりたい。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\bbHunter of Love\n\"I put the cute in execute."
+  Comments: ひょんなことから is some phrase where people often ask about what the ひょん is.
 - Japanese: "\\8b\\bb愛のかりゅうど<br>「今日も たくさんのアリを<br> ふんでしまいましたの。<br> 命のとうとさを語り、愛に生き、<br> でもアリをよけられない。<br> こんな私は どうでしょう。"
-  English: ''
+  English: "\\8b\\bbHunter of Love\n\"Today, I stepped on a bunch of ants.\nI preach about the value of life and\nliving with compassion, but I cannot\navoid stepping on ants. What does that\nmake me?"
   Comments: ''
 - Japanese: "\\8b\\bb愛のかりゅうど<br>「朝、起きたら、デッパリに<br> リボンが結んでありましたの。<br> いいことおきるかも<span class=\"red\">♥</span>"
-  English: ''
-  Comments: ''
+  English: "\\8b\\bbHunter of Love\n\"This morning, when I woke up, there\nwas a ribbon tied to my bump. Something\ngood might happen."
+  Comments: WTF is デッパリ?
 - Japanese: "\\8b\\b9愛の大使<br>「ここは、光の宮殿<br> レーミッツです。<br> 村長の許可が無い人は<br> 入れません。"
-  English: ''
+  English: "\\8b\\b9Envoy of Love\n\"This is the palace of light,\nGnilpmud. Those who have not been granted\npermission from the village chief may not\nenter."
   Comments: ''
 - Japanese: "\\8b\\b9愛の大使<br>「われらは、愛の大使ッ！<br> 仕事は門番ッ！"
-  English: ''
+  English: "\\8b\\b9Envoy of Love\n\"We are the Envoys of Love! Our mission\nis to guard the gate!"
   Comments: ''
 - Japanese: "\\8b\\99ウィッシュ<br>「あなたとは、いっしょに<br> いたくないの。<br> さようなら‥‥"
-  English: ''
+  English: "\\8b\\99Wish\n\"I don't want to be together with you.\nFarewell..."
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス一族<br>「オカシラがドワーフから<br> 買い取った古代メカ‥‥<br> 死んじまったダチに<br> そっくりなんだ‥‥<br> オカシラの下で 一生<br> オーブンとして働かせるのは<br> かわいそうで かわいそうで‥‥<br> アンタ、オカシラから<br> あの古代メカを買いとって<br> やってくれないか?<br> オレにできることなら<br> なんでも手をかすぜ。"
   English: ''
