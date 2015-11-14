@@ -115,9 +115,16 @@ People names:
 モルネー -- Mornay Sauce
 ロベール -- Robert Sauce
 マヨネーズ -- Mayonnaise Sauce
+ウスター -- Worcestershire Sauce
 グレナデン -- Grenadine
 ピラニア -- Piranha
 ブッチーネ -- Butchine
+ココット -- Cocotte ("Shirred Eggs" in French)
 
 Other names:
 愛のデッパリ -- Baby bump (Not sure about this at all.)
+キララ -- Mica
+入魂 -- Bewitch
+
+Other things:
+ほにゃ -- Hoolala (what pots say)

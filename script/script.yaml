@@ -3073,76 +3073,76 @@
   English: "\\8b\\c8MD Artisan, Worcestershire Sauce\n\"So you see...\nDarn, where should I start\nexplaining from?"
   Comments: ''
 - Japanese: "\\8b\\0  ５つの材料   能力値<br>  組みこみ方   魂の入魂<br>  うんちく    キャンセル"
-  English: ''
-  Comments: ''
+  English: '<CC?>'
+  Comments: How to translate these?
 - Japanese: "\\8b\\0  シェル     ジェム<br>  フルーツ    キララ<br>  ガット     キャンセル"
-  English: ''
+  English: '<CC?>'
   Comments: ''
 - Japanese: "\\8b\\0  タイプ     パワー倍率<br>  パワーリミット 必要パワー<br>  キャンセル"
-  English: ''
+  English: '<CC?>'
   Comments: ''
 - Japanese: "\\8b\\c8MD職人・ウスター<br>「そうそう、マジックドールに<br> 組みこむ材料はな‥‥<br> <span class=\"red\">シェル</span>、<span class=\"red\">ジェム</span>、<span class=\"red\">フルーツ</span>、<br> それから、<span class=\"red\">キララ</span>、<span class=\"red\">ガット</span>、<br> この５つが必要なんだべさ。"
-  English: ''
+  English: "\\8b\\c8MD Artisan, Worcestershire Sauce\n\"Right right, the parts that go into\nMagic Dolls are...\n\\8eShell\\8d, \\8eGem\\8d, \\8eFruit\\8d,\nand also \\8eMica\\8d and \\8eGut\\8d.\nThese are the 5 parts you need."
   Comments: ''
 - Japanese: "\\8b\\c8MD職人・ウスター<br>「マジックドールの能力は、<br> <span class=\"red\">タイプ</span>、<span class=\"red\">パワー倍率</span>、<br> <span class=\"red\">パワーリミット</span>、<span class=\"red\">必要パワー</span>で<br> あらわされるんだべさ。"
-  English: ''
+  English: "\\8b\\c8MD Artisan, Worcestershire Sauce\n\"A Magic Doll's power is determined by\nits \\8etype\\8d, \\8epower multiplier\\8d,\n\\8epower limit\\8d, and \\8epower usage\\8d."
   Comments: ''
 - Japanese: "\\8b\\c8MD職人・ウスター<br>「<span class=\"red\">シェル</span>は、マジックドールの<br> 外殻を強化するべさ。<br> <span class=\"red\">\\87\\66</span>とかなんとか、<br> ほにゃららシェルっつー名前で<br> 呼ばれるモンなんだべさ。"
-  English: ''
+  English: "\\8b\\c8MD Artisan, Worcestershire Sauce\n\"\\8eShells\\8d are used to strengthen\nthe Magic Dolls outer body. They're\nthings like \\8e\\87\\66\\8d."
   Comments: ''
 - Japanese: "\\8b\\c8MD職人・ウスター<br>「<span class=\"red\">ジェム</span>は、<span class=\"red\">入魂</span>した魂から<br> 力を引き出す宝石のことだべさ。<br> <span class=\"red\">\\87\\6f</span>やら<span class=\"red\">\\87\\72</span>やら<br> なんでもええべさ。"
-  English: ''
+  English: "\\8b\\c8MD Artisan, Worcestershire Sauce\n\"\\8eGems\\d are used to draw out the\npower after the Magic Doll is \\8ebewitched\\8d.\nThings like \\8e\\87\\6f\\8d and \\8e\\87\\72\\8d\nwork fine."
   Comments: ''
 - Japanese: "\\8b\\c8MD職人・ウスター<br>「<span class=\"red\">フルーツ</span>で魔法の力が<br> 流れやすいようにするだ。<br> <span class=\"red\">\\87\\75</span>やら、<br> <span class=\"red\">\\87\\77</span>やら、<br> いろいろあるでよ、<br> いろんな<span class=\"red\">フルーツ</span>をためすと<br> いいだーな。"
-  English: ''
+  English: "\\8b\\c8MD Artisan, Worcestershire Sauce\n\"\\8eFruits\\8d let the magical juice flow\nsmoothly. There's a lot of types such as\n\\8e\\87\\75\\8d and \\8e\\87\\77\\8d. You should\ntry out a variety of different \\8efruits\\8d."
   Comments: ''
 - Japanese: "\\8b\\c8MD職人・ウスター<br>「<span class=\"red\">キララ</span>は、ジェムで引き出した<br> 力をぞーふくすんだー。<br> ぞーふく、わかるか?<br> 大きくするんだべさ。<br> <span class=\"red\">\\87\\7d</span>に、<span class=\"red\">\\87\\7f</span>、<br> いろいろあるでよ。"
-  English: ''
+  English: "\\8b\\c8MD Artisan, Worcestershire Sauce\n\"\\8eMica\\8d are used to amplify the\npower that gems draw out. Do you know\nwhat amplify means? It means to make\nstronger. There's a lot of types like\n\\8e\\87\\7d\\8d and \\8e\\87\\7f\\8d."
   Comments: ''
 - Japanese: "\\8b\\c8MD職人・ウスター<br>「<span class=\"red\">ガット</span>は、キンニクみてぇな<br> モンだべさ。<br> キララでぞーふくされた力で<br> のびたり、ちぢんだりして<br> ボディを動かすんだ。<br> <span class=\"red\">\\87\\82</span>やら<br> <span class=\"red\">\\87\\83</span>やら、<br> いろいろあるでよ。<br> とにかく、ためしてみれ。"
-  English: ''
+  English: "\\8b\\c8MD Artisan, Worcestershire Sauce\n\"\\8eGuts\\8d act somewhat like muscle.\nIt lets the body grow and shrink\naccording to the power amplified by mica.\nThere are a lot of types such as \\8e\\87\\82\\8d\nand \\8e\\87\\83\\8d. Just try them out."
   Comments: ''
 - Japanese: "\\8b\\c8MD職人・ウスター<br>「<span class=\"red\">パワー倍率</span>ってなぁ、どのくれぇ<br> パワーを出せるかって数字だべ。<br> マジックドールはよ、<br> <span class=\"red\">入魂</span>っつってな、魂を入れないと<br> 動かねんだ、これが。<br> <span class=\"red\">入魂</span>っつーのは、仲間の魂を<br> マジックドールに入れるって<br> ことだべさ。<br> 魂を入れるっつっても、もとの<br> 仲間が死ぬワケじゃねぇんで<br> 安心してけろ。<br> 魂のコピーさとるみてぇなこと<br> だべさ。<br> コピーな。<br> わかるか?"
-  English: ''
+  English: "\\8b\\c8MD Artisan, Worcestershire Sauce\n\"\\8ePower multiplier\\8d is a number that\nmeasures how much power you can channel.\nMagic dolls don't move unless you \\8ebewitch\\8d\nthem. \\8eBewitching\\8d means to insert an\nally's soul into the Magic Doll. Even though\nyou're inserting their soul, it doesn't mean\nyour ally dies so don't worry. It's like their\nsoul gets copied. Just a copy. Got it?"
   Comments: ''
 - Japanese: "\\8b\\c8MD職人・ウスター<br>「<span class=\"red\">タイプ</span>ってなぁ、見てくれの。<br> ことだべな。<br> たいした意味は無いんだけんども<br> カッコええマジックドールを連れ<br> てたほうがハクが付くだぁな。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\c8MD Artisan, Worcestershire Sauce\n\"\\8eType\\8d means, well. You see.\nIt doesn't really mean anything but if\nyou bring a stylish Magic Doll around\nwith you, your appraisal goes up."
+  Comments: 'Maybe "Type" should be changed to "Style"?'
 - Japanese: "\\8b\\c8MD職人・ウスター<br>「<span class=\"red\">パワーリミット</span>はパワーを引き<br> 出せるゲンカイのことだぁな。<br> そもそもマジックドールは<br> 仲間のキャラの魂を<span class=\"red\">入魂</span>して<br> 動いてんだべさ。<br> で、パワーリミットが低いと、<br> せっかく強ぇ仲間の魂を<br> <span class=\"red\">入魂</span>してもだなぁ、<br> ソイツをうまく引き出して<br> くんねぇんだべさ。"
-  English: ''
+  English: "\\8b\\c8MD Artisan, Worcestershire Sauce\n\"\\8ePower limit\\8d indicates how much\npower you can draw out. Magic Dolls rely\non \\8ebewitching\\8d them with an ally's\nsoul. So, if you're power limit is low,\nthen it's no good to \\8ebewitch\\8d with a\nstrong ally's soul. You won't be able to\nuse their full power."
   Comments: ''
 - Japanese: "\\8b\\c8MD職人・ウスター<br>「マジックドールを動かすのに<br> 必要なパワーのことだべさ。<br> マジックドールに、５つの<br> 材料を組みこむと、仲間の魂を<br> <span class=\"red\">入魂</span>できるようになるべ。<br> だけんども、仲間の<span class=\"red\">能力値</span>が<br> <span class=\"red\">必要パワー</span>より低いと、<br> うまく動かねんだ、これが。<br> だから、最初はあんまり<br> トッポいマジックドール作っても<br> しょうがねぇべさ。<br> 小さいパワーでも動かせる、<br> それなりのモンを作って<br> ガマンするしかねぇ。"
-  English: ''
+  English: "\\8b\\c8MD Artisan, Worcestershire Sauce\n\"Magic Dolls require some power in order\nto operate. Once you combine the 5 parts,\nyou can \\8ebewitch\\8d a Magic Doll with an ally's\nsoul. But if your ally's \\8eexperience points\\8d\nis lower than the \\8epower usage\\8d, then\nthe Magic Doll won't operate well. So in\nthe beginning, there's not much point in creating\na flashy Magic Doll. You have to start small\nand be patient."
   Comments: ''
 - Japanese: "\\8b\\a3バルサミコ<br>「スマン！！<br> ちょっと今、調子が悪ィんだ。<br> ワープはちょっと後にしてくれ！"
-  English: ''
+  English: "\\8b\\a3Balsamico\n\"Sorry! I'm feeling a bit sick right now.\nLet's warp later!"
   Comments: ''
 - Japanese: "\\8b\\c8MD職人・ウスター<br>「組みこみは、<span class=\"red\">防具そうび</span>と<br> 同じようりょうだべさ。<br> メニュー画面で、組みかえる<br> マジックドールさ選んで、<br> <span class=\"red\">防具そうび</span>のページにして<br> あれや、これや、材料を<br> 組みこめばええんだ。<br> カンタンだけども、これが<br> また、じゅうようなことでよ、<br> 材料を<span class=\"red\">５種類組みこまないと<br> 魂の入魂ができねぇ</span>だよ。<br> スキマから、ス~ッと<br> ヌけちまうんだ、これが。"
-  English: ''
+  English: "\\8b\\c8MD Artisan, Worcestershire Sauce\n\"Parts take up the same space as your\n\\8eequipment\\8d. In the menu, select\nthe Magic Doll you want to add parts\nto and choose your parts on the\n\\8eequipment\\8d page. It might sound simple,\nbut it's important since \\8eyou can't\nbewitch your Magic Doll unless you\nadd the 5 parts\\8d. It's easy to forget\nthis."
   Comments: ''
 - Japanese: "\\8b\\c8MD職人・ウスター<br>「<span class=\"red\">魂の入魂</span>は、<span class=\"red\">５種類の材料</span>を<br> 組みこまないとできねぇ。<br> <span class=\"red\">５種類の材料</span>を組みこんでも、<br> 魂を入れないとヘボのままで<br> な~んにもできねぇんだ。<br> <span class=\"red\">魂の入魂</span>は、メニューさ開いて<br> <span class=\"red\">プロフィール</span>の<span class=\"red\">霊魂</span>のとこさ、<br> カーソルあわせてAボタン。<br> まぁ、アタマでゴチャゴチャ<br> 考えるより、いろいろとやって<br> みるのが一番だべさ。<br> ちょっとやそっとじゃ<br> 壊れやしねぇから<br> とにかくやってみれ。"
-  English: ''
+  English: "\\8b\\c8MD Artisan, Worcestershire Sauce\n\"You can't \\8ebewitch\\8d a Magic Doll\nunless you add the \\8e5 parts\\8d. And\neven if you add the \\8e5 parts\\8d, it'll\nremain a weakling until you \\8ebewitch\\8d it.\nTo \\8ebewitch\\8d your Magic Doll, open\nthe main menu, select the \\8espirits\\8d item\nin the \\8eprofile\\8d and press the A button.\nAt any rate, it's easier to just try things\nout instead of getting all mixed up in your\nhead. You won't break anything by doing things\nwrong so just give it a try."
   Comments: ''
 - Japanese: "\\8b\\c8MD職人・ウスター<br>「あー、そっだそっだ、<br> コレを持っていくといいだぁな。<br> マジックドールのことさ<br> いろいろ書いてあるだ。<br> まぁ、あせるこたね<br> ちーっとずつ覚えて行け。<br> それじゃ、よろしくたのむべさ。"
-  English: ''
+  English: "\\8b\\c8MD Artisan, Worcestershire Sauce\n\"Ah, right right, take this with you.\nIt has all sorts of things about Magic\nDolls written in it. There's no need\nto rush so just learn it a bit at a time.\nWell then, take care."
   Comments: ''
 - Japanese: "\\8b\\c8MD職人・ウスター<br>「オメたち、そんなゾロゾロいたら<br> オラのマジックドールさ<br> いる場所なかんべさ。<br> 人数へらしてこォ。"
-  English: ''
+  English: "\\8b\\c8MD Artisan, Worcestershire Sauce\n\"There's no room for my Magic Doll with\nthis large group you have. Reduce the\nnumber of people and then come back."
   Comments: ''
 - Japanese: "\\8b\\c8MD職人・ウスター<br>「ちゃんと人数へらして<br> 来たべかー?"
-  English: ''
+  English: "\\8b\\c8MD Artisan, Worcestershire Sauce\n\"Have you reduced the number of people\nnow?"
   Comments: ''
 - Japanese: "\\8b\\c8MD職人・ウスター<br>「いんや、もー<br> ココロハレバレ。<br> なんか、聞いておくことは<br> ねぇが?"
-  English: ''
+  English: "\\8b\\c8MD Artisan, Worcestershire Sauce\n\"Man, I just feel good today. Is\nthere anything you wanted to ask me?"
   Comments: ''
 - Japanese: "\\8b\\c8MD職人・ウスター<br>「ほっだらな、<br> <span class=\"red\">MDに組みこむ素材は、<br> そのへんに落ちてる</span>ハズ<br> だから、さがしてくれや。<br> よろしくたのんだでよ。"
-  English: ''
+  English: "\\8b\\c8MD Artisan, Worcestershire Sauce\n\"Look, \\8ethere should be MD parts just\nlying around here\\8d so go search around.\nI'm counting on you."
   Comments: ''
 - Japanese: "\\8b\\1bマジックドール<br>「ミョィィィィィ~ン"
-  English: ''
+  English: "\\8b\\1bMagic Doll\n\"Mignon."
   Comments: ''
 - Japanese: "\\8b\\c8MD職人・ウスター<br>「うそこくでね！！<br> そんなゾロゾロいたら、<br> オラのめんごい<br> サーディンちゃんが<br> ふんづけられるだよ！！"
-  English: ''
+  English: "\\8b\\c8MD Artisan, Worcestershire Sauce\n\"You liar! With this many members in\nyour group, there ain't room for my\nlittle Sardine to join!"
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「あっ！！<br> ヘンなとこ見られたっ！！<br> あはははははは。<br> ‥‥‥‥。<br> あ、そうそう、<br> ところで\\85\\0さぁ、<br> <span class=\"red\">メニュー</span>について知ってる?"
   English: "\\8b\\acMiss Madeleine\nAhhh!\nYou saw me doing something weird!\nAhahaha....\nOh, that's right, by the way \\85\\00,\ndo you know about the \\8emenu\\8d?"
@@ -3163,7 +3163,7 @@
   English: "\\8b\\acMiss Madeleine\nThe \\8ehelp screen\\8d is a sound\nexplanation you can find in the \\8emenu\\8d.\nTake a look with your inner eye.\nThere's two small buttons lined up\nvertically, right?"
   Comments: ''
 - Japanese: "\\8b\\c8MD職人・ウスター<br>「<span class=\"red\">マジックドール</span>っつったら<br> <span class=\"red\">コンボ</span>だべな。<br> 魂さ入れたヤツと同じ属性の<br> 魔法さ使うようになるでよ、<br> <span class=\"red\">マジックドール</span>にコール魔法さ<br> 唱えさせて、入魂したほうの<br> ヤツで魔法を打つだよ。<br> <span class=\"red\">マジックドール</span>はMPさ回復<br> しねぇんで、それがMPの節約<br> にもなるって寸法だべ。"
-  English: ''
+  English: "\\8b\\c8MD Artisan, Worcestershire Sauce\n\"When you think of \\8eMagic Dolls\\8d, you\nthink of \\8ecombos\\8d. When you use magic\nthat's the same element as the soul you\nbewitched with, you can have the\n\\8eMagic Doll\\8d use call magic and then\nattack with the soul you bewitched with.\nSince \\8eMagic Dolls\\8d can't recover MP,\nthat'll also let you conserve MP."
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「それの、上のほうのボタンを<br> <span class=\"red\">スタートボタン</span>って言うのよ。<br> そのボタンを押すと、<span class=\"red\">メニュー</span>が<br> 開いて、冒険のじゅんびをしたり<br> することができるのよ。<br> <span class=\"red\">メニュー</span>を開いてできるのは、<br> アイテムを使ったり装備したり、<br> 地図を見たり、それから‥‥<br> まぁ、くわしいことは、<br> <span class=\"red\">メニュー</span>を開けば、<span class=\"red\">ヘルプ</span>で<br> 確かめられるからいいか。<br> ところで\\85\\0、<br> <span class=\"red\">ヘルプ</span>のことは知ってる?"
   English: "\\8b\\acMiss Madeleine\nThe one on top is called the\n\\8estart button\\8d. If you press it,\nyou'll open up the \\8emenu\\8d and be\nable to do things like make preparations\nduring your journey. Things you can do\nafter you open your \\8emenu\\8d include\nusing items, managing equipment, looking at\nyour maps, and also...\nWell, for more information, when you open your\n\\8emenu\\8d, you can check the \\8ehelp screen\\8d.\nBy the way, \\85\\00, do you know about the \\8ehelp\nscreen\\8d?"
@@ -3172,22 +3172,22 @@
   English: "\\8b\\acMiss Madeleine\nThe one on the bottom is called\nthe \\8eselect button\\8d.\nIf you press the \\8eselect button\\8d,\na short explanation called the\n\\8ehelp screen\\8d will appear.\nThe \\8ehelp screen\\8e will let you\nknow about how to use the menu, the\neffects of an item, and so forth."
   Comments: ''
 - Japanese: "\\8b\\ccココット<br>「こんちは、<br> ぼく、ココット。<br> <span class=\"red\">シール</span>集めにこってます。<br> もしかして、あなた、<span class=\"red\">シール</span>の<br> こと知りたがってるでしょ?"
-  English: ''
+  English: "\\8b\\ccCocotte\n\"Hello, I'm Cocotte. I collect\n\\8eseals\\8d. Do you want to learn\nabout \\8eseals\\8d?"
   Comments: ''
 - Japanese: "\\8b\\ccココット<br>「ほにゃ。<br> 魔法の水あげます。"
-  English: ''
+  English: "\\8b\\ccCocotte\n\"Hoolala. Let me give you some\nmagic water."
   Comments: ''
 - Japanese: "\\8b\\ccココット<br>「<span class=\"red\">シール</span>ってのはね、精霊の絵が<br> 描かれた<span class=\"red\">シール</span>のことさ。<br> <span class=\"red\">属性シール</span>とも言うんだ。<br> 使い方はカンタン！<br> 体にペタっとはるだけ！<br> <span class=\"red\">シールをはるだけで、<br> その属性の攻撃に対して、<br> ちょびっと強くなる</span>んだ。<br> バトルで魔法を使った時も、<span class=\"red\">その<br> 属性のシールがはってあると、<br> 経験値がちょっと増える</span>！<br> つーまーりー、木の魔法を早く<br> 覚えたい人は、木の<span class=\"red\">シール</span>を<br> 体にはればいいのさ！<br> 同じ種類の<span class=\"red\">シール</span>を何枚も<br> はってもいいし、いろんな種類の<br> <span class=\"red\">シール</span>をベタベタはってもいい。<br> <span class=\"red\">シール</span>の使い方は自由さ。"
-  English: ''
+  English: "\\8b\\ccCocotte\n\"\\8eSeals\\8d are \\8eseals\\8d with pictures\nof spirits drawn on them. They're also\ncalled \\8eelemental seals\\8d. It's easy\nto use them! Just stick them on your\nbody! \\8eJust by sticking them on your body,\nyou'll become a bit stronger against attacks\nof that element\\8d. And when you use magic\nin battle, \\8eif you have a seal of that\nelement stuck on, you'll receive a bit more\nexperience points\\8d! Sooo, if someone wants\nto quickly learn tree magic, they should stick\non a tree \\8eseal\\8d! You can stick on many\ncopies of the same \\8eseal\\8d or you can stick\non all sorts of different \\8eseals\\8d. It's up\nto you how to use \\8eseals\\8d."
   Comments: ''
 - Japanese: "\\8b\\ccココット<br>「そうだ、あまった<span class=\"red\">シール</span>が<br> あるから、あげるよ！"
-  English: ''
+  English: "\\8b\\ccCocotte\n\"Right, I have an extra \\8eseal\\8d so\nI'll give it to you!"
   Comments: ''
 - Japanese: "\\8b\\ccココット<br>「あ、そうそう、ボクの背中に<br> 何かラクガキがしてあるから<br> それも読んでおいてね。<br> <span class=\"red\">シール</span>とは関係ないけど。"
-  English: ''
+  English: "\\8b\\ccCocotte\n\"Oh, by the way, there are some scribbles\non my back that you should read. It\ndoesn't have anything to do with \\8eseals\\8d\nthough."
   Comments: ''
 - Japanese: "\\8b\\b5パペットの道具屋<br>「毎度ありがとうございま~す。<br> シャツやくつなどのアイテムは<br> <span class=\"red\">メニュー</span>の<span class=\"red\">防具そうび</span>で<br> そうびするのを忘れないでね。"
-  English: ''
+  English: "\\8b\\b5Puppet's Shopowner\n\"Thank you very much. Come again.\nDon't forget to equip your shirts\nand shoes on the \\8eequipment\\8d\npage in the \\8emenu\\8d."
   Comments: ''
 - Japanese: "\\8b\\b7ガトー（村長）<br>「ムスコは旅に出たと<br> 聞きました。<br> いや、こうなることは<br> わかっておりましたひゃ。<br> しかし、いずれ、もっと大きい<br> 愛の大使になって帰ってくると<br> 信じてますひゃ。"
   English: ''
