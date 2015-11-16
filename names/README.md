@@ -79,6 +79,7 @@ Place names:
 レーミッツ -- Cold Honey Palace (No, this should be Fish Dumplings. It's つみれ backwards >.<)
             (Should change this to Erimust Palace)
 キード・モンガ -- Hep Met (should be Iko Domnag) (It's がんもどき backwards)
+レヒカフ -- nifkrahs (Shark Fin backwards)
 
 People names:
 ギュウヒ・オグラ -- Bun Patti
@@ -125,6 +126,7 @@ People names:
 デミグラ -- Demi-glace Sauce
 ベシャメル -- Bechamel Sauce
 アングレーズ -- Anglaise Sauce
+メース -- Mace (if there's no other character called nutmeg, that might be a better translation).
 
 Other names:
 愛のデッパリ -- Baby bump (Not sure about this at all.)

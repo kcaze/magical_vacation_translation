@@ -3340,98 +3340,100 @@
   English: "\\8b\\13\\86\\09\n\"It doesn't matter. I'm not afraid anymore.\nGoing forward, let's continue to work together."
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「エイ！ エイ！<br> オ~~~~~！<br> な~んてね。<br> ハハッ。"
-  English: ''
+  English: "\\8b\\15\\86\\06\n\"Ole! Ole! Ole!\nHaha."
   Comments: ''
 - Japanese: ''
   English: ''
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「まだ、ショコラもセサミも<br> みつかっていないだろ?<br> さっさと行こうぜ。"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"We still haven't found Chocolat or\nSesame right? Let's hurry up then."
   Comments: ''
 - Japanese: "\\8b\\19\\86\\f<br>「私もさがしに行く！"
-  English: ''
+  English: "\\8b\\19\\86\\0f\n\"I'll go search too!"
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「さがすって行っても、<br> アテはあるの‥?<br> ここって、闇のプレーン<br> なんでしょ?"
-  English: ''
+  English: "\\8b\\0f\\86\\05\n\"Do we know where we're headed...?\nThis is the Plane of Darkness right?"
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「そうだね。<br> 何が飛び出すかわからないのに<br> なんの計画もなしに動くなんて<br> 相当なうぬぼれ屋さんか‥‥<br> おバカさんだね。"
-  English: ''
+  English: "\\8b\\15\\86\\0b\n\"That's true. We'd be pretty conceited\nto just wander around without a plan, knowing\nthat something could jump out at us at any time.\nWe're kind of idiots aren't we."
   Comments: ''
 - Japanese: ''
   English: ''
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「あわわわわわわわ。<br> そうゆー言い方をしなくても、<br> だから、ほら、あれよ、<br> ほら、その、えーと、<br> なによ、ほら。"
-  English: ''
+  English: "\\8b\\0f\\86\\05\n\"Ahhhhhh.\nYou don't have to say it that way.\nBecause, you know, since, ummm, that,\nummm, you know."
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「ここは、<span class=\"red\">レヒカフ沼</span>の<br> ほとりだ。<br> 子供のころに何度か来たことが<br> ある‥‥。<br> 両親と、そして姉といっしょに。<br> 東に歩けば、<span class=\"red\">犬族ヴォークス</span>の<br> <span class=\"red\">マサラティ村</span>に出るはずだ。"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"This is the bank of \\8eNifkrahs Swamp\\8d.\nWhen I was a child, I came here often...\nWith my parents and my sister. If you walk\ntowards the east, you'll arrive at the Canin's\nMasala Chai Village."
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「な~んだ、もう。<br> ちゃんと考えているじゃな~い。<br> そうとわかれば、もう<br> モタモタしてることないよね?<br> 行こう、ね?"
-  English: ''
+  English: "\\8b\\0f\\86\\05\n\"Sheesh, what is it? You're not really\nthinking hard are you. Let's not dawdle\nanymore, alright? Let's go, alright?"
   Comments: ''
 - Japanese: ''
   English: ''
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「みんなは<span class=\"red\">マサラティ村</span>に<br> 残るといい。<br> ショコラとセサミはオレが<br> さがしてくるよ。"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"Everyone can just stay at \\8eMasala Chai\nVillage\\8d. I'll go look for Chocolat and\nSesame."
   Comments: ''
 - Japanese: "\\8b\\bdヴォークスの船番<br>「ようやく船がもどった<br> ところだ。<br> どうやってもどったかは秘密だ。<br> ちょっと、整備してからなら<br> 使わせてやるよ。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\bdCanin Boat Owner\n\"The boat's finally returned. It's a\nmystery how it returns. Let me set it up\nand then you can use it."
+  Comments: "I think there's probably a more idiomatic way of saying 船番 in English."
 - Japanese: "\\8b\\f\\86\\5<br>「あ~ん！<br> 置いていかないでよ~！<br> あなたがタヨリなんだから~！！<br> あなたヌキのメンツなんて、<br> もう、ヒドイもんよ！"
-  English: ''
+  English: "\\8b\\0f\\86\\05\n\"No! Don't just leave us here and go!\nWe're relying on you! Without you, we're\nnothing!"
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「なんだよ、それ~。<br> やる気なくすなぁ~。<br> ボクの魔法だって<br> それなりに決まってるの<br> 見てないの~！?"
-  English: ''
+  English: "\\8b\\15\\86\\0b\n\"What? Don't lose motivation. My magic's\nnothing special."
   Comments: ''
 - Japanese: '<br>  メースが使ってる船だ'
-  English: ''
+  English: |-
+
+    It's the boat Mace used.
   Comments: ''
 - Japanese: "\\8b\\beシナモン<br>「ヘンなドワーフね‥‥‥‥。<br> まったく、どうしたのかしら。"
-  English: ''
+  English: "\\8b\\beCinnamon\n\"He's a weird dwarf...\nSheesh, I wonder what happened.\n"
   Comments: ''
 - Japanese: "\\8b\\beシナモン<br>「あら、はじめまして。<br> 私はシナモン。<br> <span class=\"red\">マサラティ村</span>の者です。<br> ところで、先ほど村のほうでも<br> 何人か旅の方を見ましたけど、<br> お知り合いですか?"
-  English: ''
+  English: "\\8b\\beCinnamon\n\"My, nice to meet you. I'm Cinnamon.\nI'm a member of \\8eMasala Chai Village\\8d.\nBy the way, I saw a couple travelers in\nthe village earlier. Are they your friends?"
   Comments: ''
 - Japanese: "\\8b\\beシナモン<br>「もしお知り合いでしたら<br> 彼らを止めたほうがいいかも。<br> 彼ら、<span class=\"red\">レヒカフ沼の南</span>に<br> わたるって言ってましたから。"
-  English: ''
+  English: "\\8b\\beCinnamon\n\"If they're your friends, you should go\nstop them. They said they're going to head\ntowards South Nifkrahs Swamp."
   Comments: ''
 - Japanese: "\\8b\\beシナモン<br>「なんでも、<span class=\"red\">エニグマの森</span>に<br> 行くんですってよ。<br> 私はこれで！<br> 村の人に見られたくないの！"
-  English: ''
+  English: "\\8b\\beCinnamon\n\"They said they're headed towards \\8eEnigma\nForest\\8d no matter what.\nWell, I need to head off!\nI don't want to be seen by the villagers!"
   Comments: ''
 - Japanese: "\\8b\\beシナモン<br>「理由は聞いてないわ。<br> でも、わけありみたいね。<br> とにかくいそぐから、<br> これで！"
-  English: ''
+  English: "\\8b\\beCinnamon\n\"I didn't ask you why, but it seems like\nthey had their reasons. Anyways, I'm in\na rush, so see you!"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「オレたちくらいの子供か?<br> だったらガナッシュたちだ！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"Kids like us? It must be Ganache and\nthe others!"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「きっと、ガナッシュ達ね。"
-  English: ''
+  English: "\\8b\\0d\\86\\0e\n\"Yeah, it must be Ganache and the\nothers."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「ガナッシュちゃんたちですの！"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"It's Ganache and the others!"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「たぶん、私達の友達だわ。<br> ガナッシュに、キャンディに、<br> オリーブに、それから‥‥"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"It's probably our friends. Ganache,\nCandy, Olive, and..."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「う~ん、もしかしたら<br> そうかも~。<br> でも、わかんな~い。"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Hmm, maybe. But, I don't know."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「オイラ、旅人の知り合いなんて<br> いないっぴ‥‥。<br> それよりも、シナモンさん‥‥<br> キレイだっぴ‥‥"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"I don't know anything about other\ntravelers. That aside, Cinnamon...\nYou're pretty..."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「なんだって！?<br> 沼を！?<br> いったい、どうやって！?"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"What!? The marsh!? How!?"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「あいかわらずむちゃなこと<br> やるわね。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"They're being unreasonable as usual."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「沼！? 沼って、ヒルとか‥‥<br> フンゾゾ虫とか‥‥<br> いろんなヘンな虫がいるんじゃ<br> ありませんの！?"
-  English: ''
-  Comments: ''
+  English: "\\8b\\11\\86\\07\n\"The swamp!? Aren't there leeches and...\nsilverfishes and...\na lot of other bugs!?"
+  Comments: 'フンゾゾ虫 is https://en.wikipedia.org/wiki/Thysanura'
 - Japanese: "\\8b\\14\\86\\a<br>「まったく、いつになったら<br> ケリがつくのか‥‥‥‥。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\14\\86\\0a\n\"Man, when will things end...?"
+  Comments: Not sure about this at all.
 - Japanese: "\\8b\\bdヴォークスの少年<br>「コイツがテコでも動かないと<br> ヒョウバンの<span class=\"red\">闇の桜文鳥</span>だ。<br> コイツさえ動かせれば、<br> 闇のプレーンで自由に旅が<br> できるようになるんだ。<br> ハァハァ。"
   English: ''
   Comments: ''
