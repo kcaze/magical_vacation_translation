@@ -120,6 +120,11 @@ People names:
 ピラニア -- Piranha
 ブッチーネ -- Butchine
 ココット -- Cocotte ("Shirred Eggs" in French)
+パッション -- Passion Fruit
+モイロロト -- Omiagan (nagaimo backwards)
+デミグラ -- Demi-glace Sauce
+ベシャメル -- Bechamel Sauce
+アングレーズ -- Anglaise Sauce
 
 Other names:
 愛のデッパリ -- Baby bump (Not sure about this at all.)
