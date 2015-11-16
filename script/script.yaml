@@ -3642,115 +3642,115 @@
   English: "\\8b\\12\\86\\08\n\"Hmm...\nHere's another awful adult."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「そうね~。<br> かなわぬ恋よね~、きっと。"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Yeah. Definitely unrequited love."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「ハァ‥‥<br> オイラもせつないっぴ‥‥"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"*sigh*...\nI'm feeling sad too..."
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>オオット！ ダレデイ！<br> クチヲ ハサムノハ！?</i>"
-  English: ''
-  Comments: ''
+  English: "\\8b\\17\\86\\0d\n\"Hey there! Who're you!? What's with\nyou cutting us off!?"
+  Comments: idk what 口を挟む means.
 - Japanese: "\\8b\\bfメース<br>「‥‥‥?"
-  English: ''
+  English: "\\8b\\bfMace\n\"...?"
   Comments: ''
 - Japanese: "\\8b\\bdヴォークスの宿屋<br>「メースちゃんの両親が死んだのは<br> 村の者のせいさね。<br> メースちゃんの目を正面から<br> 見れる大人は一人もいないの<br> さね。"
-  English: ''
+  English: "\\8b\\bdCanin Inn Owner\n\"Mace, it's the villagers' fault that\nyour parents died. There's not a single\nadult here that can look you straight in\nthe eye."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「どう言うことですか?<br> 話してください。"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"What do you mean? Tell us more."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「どう言うこと?"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"What do you mean?"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「????"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"???"
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「‥‥‥"
-  English: ''
+  English: "\\8b\\bfMace\n\"..."
   Comments: ''
 - Japanese: "\\8b\\bdヴォークスの宿屋<br>「ウーズ熱は<span class=\"red\">\\87\\a</span>さえ<br> あれば、カンタンになおせる。<br> 沼の真ん中の<span class=\"red\">氷の島</span>の洞窟に<br> グラッシの花があり、その花が<br> <span class=\"red\">\\87\\a</span>を実らせることも<br> みんな知っておる。<br> ただ、誰にも、それをとりに行く<br> 度胸がなかったんじゃ。<br> 大昔の言い伝えをひっぱりだして<br> きて、やれ『悪魔の熱だ』とか、<br> 『呪いの熱』だとかさわいで、<br> 誰も<span class=\"red\">\\87\\a</span>を取りに<br> 行こうとは、しなかったのさ。<br> それだけの話さね。"
-  English: ''
+  English: "\\8b\\bdCanin Inn Owner\n\"If we had the \\8e\\87\\0a\\8d, then\nwe could easily cure the Ooze Fever.\nIn the middle of the swamp, there's\na glacial flower in the cave in the\n\\8eIce Island\\8d. It's common knowledge\nthat that flower produces the \\8e\\87\\0a\\8d.\nIt's just that no one is brave enough to\ngo there and find it. Everyone always talks\nabout the legends of the past, like how it's\nthe \"Devil's Fever\" or the \"Cursed Fever\", but\nno one has ever tried to go find the\n\\8e\\87\\0a\\8d. That's all."
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「旅の人の前でそんなことを<br> 言わないでください‥‥。<br> 知ってましたよ。<br> そのことで村人をせめるなと言う<br> のが、父の最後の言葉でした。<br> 自分のために命をかけろとは<br> 言えないでしょう?<br> 父は笑ってましたよ‥‥。"
-  English: ''
+  English: "\\8b\\bfMace\n\"Don't say such things in front of the\ntravelers...\nI knew that already. My father's last words\nwere to not blame the villagers. No one would\nbe risking their lives for their own benefit.\nMy father smiled as he said that..."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「だったら、ますます村の連中に<br> わからせてやらなきゃ！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"If that's the case, we need to let\nthe villagers know!"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「あなたのお父さんって、<br> 最後までリーダーだったのね。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"Your father was a real leader until\nthe end."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「だったらなおさら 村の人に<br> わかってもらいたいですの！"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"Then we need to let the villagers\nunderstand!"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「自分の命がかかってるときに<br> カッコつけんじゃねぇよ‥‥。<br> 自分の命がすくえねぇヤツに<br> 誰の命がすくえるって言うんだ?"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"Don't try to show off when your life's\nat stake...\nYou couldn't save your own life, but you\nsaid you'll save the lives of others?"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「うわ~。<br> そうぜつ~。"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Wow, that's heroic."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「シナモンさんなら、<br> きっとわかってくれるっぴ‥‥"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"I'm sure that Cinnamon would understand..."
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>ク~ッ！<br> ナカセルネェ~！<br> ナカセルジャネェ~カ！<br> コンチクショイッ！！</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"Urgh! I'm not going to cry! I'm not\ngoing to cry! Darn it!"
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「村の人にわかってもらうために<br> 大切なのは、言葉ではなく、<br> ボクが何をするかなんです。"
-  English: ''
+  English: "\\8b\\bfMace\n\"What's important for the villagers to know\nis not hollow words, but what I'm going to\ndo."
   Comments: ''
 - Japanese: "\\8b\\bdヴォークスの宿屋<br>「大人になったね‥‥<br> メースちゃん。<br> ご両親がなくなった時は<br> あんなに小さかったのに<br> ね‥‥。<br> ゴメンね、おじさん、<br> なんにもしてあげられ<br> なくて‥‥。<br> 今日は泊まって行きな。<br> みんなもいっしょに‥‥。<br> タダでいいからね。"
-  English: ''
+  English: "\\8b\\bdCanin Inn Owner\n\"You've grown up...Mace.\nYou were really young when your parents\npassed away...\nI'm sorry that I didn't do anything...\nStay the night.\nEveryone else too...\nIt'll be on me."
   Comments: ''
 - Japanese: "\\8b\\bdヴォークスの宿屋<br>「ここは宿屋です。<br> <span class=\"red\">５ブラー</span>でお休みになれます。<br> 泊まって行かれますか?"
-  English: ''
+  English: "\\8b\\bdCanin Inn Owner\n\"This is the inn. It'll be 5 bura to\nrest here. Will you stay?"
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「どうして会わせて<br> もらえないんですか?<br> 教えてください。"
-  English: ''
+  English: "\\8b\\bfMace\n\"Why won't you let me meet with her?\nPlease, tell me why."
   Comments: ''
 - Japanese: "\\8b\\bdヴォークスの男<br>「それはだな‥‥、<br> えー、<br> シナモン様は今、お病気で<br> ふせっておられるゆえにだな、<br> また後日たずねられるが良い。"
-  English: ''
+  English: "\\8b\\bdCanin Man\n\"That's because...\nUmm, Ms. Cinnamon is sick in bed. Come\nagain tomorrow."
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「病気?<br> 本当に病気なんですか！?"
-  English: ''
+  English: "\\8b\\bfMace\n\"Sick? Is she really sick!?"
   Comments: ''
 - Japanese: "\\8b\\bdヴォークスの男<br>「言うにことかいて！<br> 本当に病気かだと！?<br> 私がウソをついていると<br> 言いたいのか！?"
-  English: ''
+  English: "\\8b\\bdCanin Man\n\"That's what I said! Is she really sick!?\nAre you trying to say that I'm lying!?"
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「いえ、そんなつもりでは‥‥<br> せめて病名だけでも‥‥"
-  English: ''
+  English: "\\8b\\bfMace\n\"No, that's not what I meant...\nAt least tell me the name of her sickness.."
   Comments: ''
 - Japanese: "\\8b\\bdヴォークスの男<br>「病名は‥‥<br> ウーズ熱だ。<br> オマエみたいなヤツと<br> コソコソ会ってるから<br> こんなことになるんだ。"
-  English: ''
+  English: "\\8b\\bdCanin Man\n\"It's...the Ooze Fever. This all happened\nbecause she kept meeting you in secret."
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「う、うそだ‥‥<br> そんなことが‥‥"
-  English: ''
+  English: "\\8b\\bfMace\n\"N-no way...\nThat can't be true..."
   Comments: ''
 - Japanese: "\\8b\\bdヴォークスの男<br>「とにかく立ち去れ。<br> ジャマだ。"
-  English: ''
+  English: "\\8b\\bdCanin Man\n\"Anyhow, leave. You're a nuisance."
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「取ってきます‥‥"
-  English: ''
+  English: "\\8b\\bfMace\n\"I'll go find it..."
   Comments: ''
 - Japanese: "\\8b\\bdヴォークスの男<br>「なんだってぇ~???"
-  English: ''
+  English: "\\8b\\bdCanin Man\n\"What did you say!?"
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「<span class=\"red\">\\87\\a</span>‥‥<br> 取ってきます‥‥"
-  English: ''
+  English: "\\8b\\bfMace\n\"The \\8e\\87\\0a\\8d...\nI'll find it and bring it back..."
   Comments: ''
 - Japanese: "\\8b\\bdヴォークスの男<br>「<span class=\"red\">\\87\\a</span>‥‥<br> まさか‥‥！！<br> <span class=\"red\">ジェラ風穴</span>に入るのか！?"
-  English: ''
+  English: "\\8b\\bdCanin Man\n\"The \\8e\\87\\0a\\8d...\nYou don't mean...!\nAre you going to \\8eGelato Cave\\8d!?"
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「待っててください。<br> 必ずもどります。"
-  English: ''
+  English: "\\8b\\bfMace\n\"Please wait for me. I will definitely\nreturn."
   Comments: ''
 - Japanese: "\\8b\\bdヴォークスの男<br>「ちょっとまて！！<br> おい！！<br> <span class=\"red\">\\87\\a</span>など取ってきても<br> あんなモノは効かんぞ！！<br> ウーズ熱はなおらんのだ！！<br> わかってるのか！！"
-  English: ''
+  English: "\\8b\\bdCanin Man\n\"Wait a second! Hey! Even if you bring back\nthe \\8e\\87\\0a\\8d, it won't work!\nThe Ooze Fever can't be cured!\nYou understand!?"
   Comments: ''
 - Japanese: "\\8b\\bdヴォークスの男<br>「フン。<br> 勝手にのたれ死ねばいいさ。"
-  English: ''
+  English: "\\8b\\bdCanin Man\n\"Hmph. Well, he can just go off and die for\nall I care."
   Comments: ''
 - Japanese: "\\8b\\bdヴォークスの男<br>「今は入れることができない。<br> 引きとってくれ。"
-  English: ''
+  English: "\\8b\\bdCanin Man\n\"You can't enter now. Please leave."
   Comments: ''
 - Japanese: "\\8b\\bdヴォークスの宿屋<br>「ひさしぶりのおきゃく様が<br> いらしてましてね。<br> ああ、いそがしい。"
   English: ''

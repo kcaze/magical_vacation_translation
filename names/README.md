@@ -80,6 +80,7 @@ Place names:
             (Should change this to Erimust Palace)
 キード・モンガ -- Hep Met (should be Iko Domnag) (It's がんもどき backwards)
 レヒカフ -- Nifkrahs (Shark Fin backwards)
+ジェラ風穴 -- Gelato Cave
 
 People names:
 ギュウヒ・オグラ -- Bun Patti
