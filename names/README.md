@@ -79,7 +79,7 @@ Place names:
 レーミッツ -- Cold Honey Palace (No, this should be Fish Dumplings. It's つみれ backwards >.<)
             (Should change this to Erimust Palace)
 キード・モンガ -- Hep Met (should be Iko Domnag) (It's がんもどき backwards)
-レヒカフ -- nifkrahs (Shark Fin backwards)
+レヒカフ -- Nifkrahs (Shark Fin backwards)
 
 People names:
 ギュウヒ・オグラ -- Bun Patti
@@ -132,6 +132,7 @@ Other names:
 愛のデッパリ -- Baby bump (Not sure about this at all.)
 キララ -- Mica
 入魂 -- Bewitch
+ウーズ熱 -- Ooze Fever
 
 Other things:
 ほにゃ -- Hoolala (what pots say)
