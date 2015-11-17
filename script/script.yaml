@@ -3753,193 +3753,193 @@
   English: "\\8b\\bdCanin Man\n\"You can't enter now. Please leave."
   Comments: ''
 - Japanese: "\\8b\\bdヴォークスの宿屋<br>「ひさしぶりのおきゃく様が<br> いらしてましてね。<br> ああ、いそがしい。"
-  English: ''
+  English: "\\8b\\bdCanin Inn Owner\n\"A guest I haven't seen in a while is\nstaying, you see. Ah, I'm so busy."
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「‥‥‥"
-  English: ''
+  English: "\\8b\\bfMace\n\"..."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「オイ！！<br> しっかりしろ！！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"Hey! Hang in there!"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「！！！！！！！<br> しっかりして！！<br> 起きて！！"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"!!!\nHang in there! Wake up!"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「どうしましたのっ！?<br> だいじょうぶですのっ！?"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"What happened!? Are you okay!?"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「オイ！！ オマエ！！<br> だいじょうぶか！?<br> しっかりしろ！！"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"Hey! You! Are you okay!? Hang in there!"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「どうしちゃったの！?"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"What happened!?"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「<i>あ~~~~~っ！！<br> 死んでるっぴ！！<br> 誰か死んでるっぴ！！</i>"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"Ah! Dead! Someone's dead!"
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>アソコニ ダレカ<br> タオレテルゼ！！</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"Someone's collapsed over there!"
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「‥‥‥<br> ここは、どこ‥‥?<br> あなたたちは‥‥<br> ‥‥‥‥‥‥‥‥"
-  English: ''
+  English: "\\8b\\bfMace\n\"...\nWhere am I...?\nYou guys are...\n..."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「だいじょうぶか、アイツ‥‥。"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"Is he okay...?"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「無茶するわね‥‥。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"That was rash of you..."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「だいじょうぶですの?<br> 心配ですの。"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"Are you okay? We're worried."
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「帰りはワープ屋にたのめば<br> ひとっとびだ。<br> なんとかなるだろう‥‥。"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"When we return, we'll ask the warp\nshop for one warp. I'm sure we'll make\ndo somehow..."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「や~~~~ん<br> だいじょうぶかしら~~~?"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Ahhh, are you okay?"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「生きてるっぴ！！<br> 死んでないっぴ！！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"You're alive! You're not dead!"
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>ガンバレ！！<br> ショウネン！！</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"Cheer up! Canin youth!"
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>ガナッシュタチダナ。<br> マチガイナイ。</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"It's Ganache and the others. There's no\nmistaking it."
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「この実を、シナモンに‥‥。<br> お願いします‥‥。"
-  English: ''
+  English: "\\8b\\bfMace\n\"Give this seed to Cinnamon...\nPlease..."
   Comments: ''
 - Japanese: "\\8b\\bdヴォークスの男<br>「バ、バカな‥‥。<br> <span class=\"red\">ジェラ風穴</span>からわざわざ‥‥。"
-  English: ''
+  English: "\\8b\\bdCanin Man\n\"W-what in the...\nYou went all the way to \\8eGelato Cave\\8d..."
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「お願いします。<br> この実をすりつぶして<br> シナモンに飲ませてください！"
-  English: ''
+  English: "\\8b\\bfMace\n\"Please. Grind this seed and have Cinnamon\ndrink it!"
   Comments: ''
 - Japanese: "\\8b\\bdヴォークスの男<br>「いや、いかん！<br> そんなもので熱はなおらん！<br> ウーズ熱にかかったのは、<br> オマエみたいな悪魔とこそこそ<br> 会ったりしたせいだ。"
-  English: ''
+  English: "\\8b\\bdCanin Man\n\"No, that will not do! That won't cure\nthe fever! She caught the Ooze Fever\nbecause she was hanging around with a demon\nlike you in secret."
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「ボクは悪魔じゃない！！"
-  English: ''
+  English: "\\8b\\bfMace\n\"I'm not a demon!"
   Comments: ''
 - Japanese: "\\8b\\bdヴォークスの男<br>「シナモン様をたぶらかしておいて<br> 何をエラそうに！<br> オマエはその実をダシにして<br> シナモン様に会いたいだけでは<br> ないか！<br> 見え透いているぞ！"
-  English: ''
+  English: "\\8b\\bdCanin Man\n\"How dare you say that, after you went\nand seduced Cinnamon! You just want to\nuse that seed as an excuse to meet with\nCinnamon! That's right, I see right through\nyour plans!"
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「どうしてわかってくれないんだ！<br> もし本当に彼女がウーズ熱なら、<br> 早くこの実を飲ませないと‥‥！"
-  English: ''
+  English: "\\8b\\bfMace\n\"Why won't you understand!? If she\nreally has come down with the Ooze Fever,\nthen she needs to quickly drink this seed."
   Comments: ''
 - Japanese: "\\8b\\bdヴォークスの男<br>「わかった、わかった。<br> その実はあずかろう。<br> そして、オマエがこの村を出て<br> 行くと約束するなら、その実を<br> シナモン様に飲んでいただこう。<br> それでいいだろう?"
-  English: ''
+  English: "\\8b\\bdCanin Man\n\"Alright, alright. I'll take hold of the seed.\nAnd if you swear to leave the village, I'll\nhave Cinnamon drink the seed. Got it?"
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「‥‥‥‥<br> そんな‥‥‥‥。"
-  English: ''
+  English: "\\8b\\bfMace\n\"...\nBut..."
   Comments: ''
 - Japanese: "\\8b\\bdヴォークスの男<br>「シナモン様を助けたいのは<br> 私も同じだ。<br> もっとも、私は、そんな実で<br> ウーズ熱がおさまるとは<br> 思っていないがな。"
-  English: ''
+  English: "\\8b\\bfCanin Man\n\"I also want to save Ms. Cinnamon. Not\nthat I believe that a seed like this could\ncure the Ooze Fever though."
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「シナモンは、本当に<br> ウーズ熱なんですね‥‥?"
-  English: ''
+  English: "\\8b\\bfMace\n\"Did Cinnamon really come down with the\nOoze Fever?"
   Comments: ''
 - Japanese: "\\8b\\bdヴォークスの男<br>「ああ、そうだ。"
-  English: ''
+  English: "\\8b\\bdCanin Man\n\"Yeah, she did."
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「だったら、これを‥‥。<br> シナモンに‥‥。"
-  English: ''
+  English: "\\8b\\bfMace\n\"Then, give this...\nto Cinnamon..."
   Comments: ''
 - Japanese: "\\8b\\bdヴォークスの男<br>「村を出るのか！?<br> はっきり聞かせてもらおう！"
-  English: ''
+  English: "\\8b\\bdCanin Man\n\"Are you going to leave the village!?\nLet me hear you say it!"
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「さようなら。<br> もうニ度と来ない。<br> シナモンには‥‥<br> シナモンには、何も言わないで。<br> それじゃ。"
-  English: ''
+  English: "\\8b\\bfMace\n\"Farewell. I won't come again. Don't...\nDon't tell Cinnamon anything.\nBye."
   Comments: ''
 - Japanese: "\\8b\\bdヴォークスの男<br>「ハッ。<br> バカなヤツ。"
-  English: ''
+  English: "\\8b\\bdCanin Man\n\"Hah. What an idiot."
   Comments: ''
 - Japanese: "\\8b\\bdヴォークスの宿屋<br>「お金がたりないようです。"
-  English: ''
+  English: "\\8b\\bdCanin Inn Owner\n\"It looks like you don't have enough\nmoney."
   Comments: ''
 - Japanese: "\\8b\\bdヴォークスの男<br>「ようやくやっかい者が<br> 片付いたよ。"
-  English: ''
+  English: "\\8b\\bdCanin Man\n\"Looks like we finally got rid of that\ntroublesome youth."
   Comments: ''
 - Japanese: "\\8b\\bdヴォークスの宿屋<br>「また来てくださいね。"
-  English: ''
+  English: "\\8b\\bdCanin Inn Owner\n\"Please come again."
   Comments: ''
 - Japanese: "\\8b\\beシナモン<br>「あら、おひさしぶり。<br> 近頃、お父様が家から出して<br> くれなくて‥‥。"
-  English: ''
+  English: "\\8b\\beCinnamon\n\"My, it's been a while.\nRecently, father hasn't been letting me\nleave the house..."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「熱は出てないようだな‥‥。<br> シナモンがウーズ熱だってのは<br> メースを追いはらうための<br> 口実でしかなかったんだな。"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"It doesn't look like you has a fever...\nSaying that Cinnamon came down with the\nOoze Fever must just have been an excuse to\ndrive away Mace."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「シナモン、ぜんぜん元気そう。<br> やっぱりウソだったのね‥‥。<br> この町の人たちは、そこまでして<br> メースを追いはらいたいの！?"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"Cinnamon, you look really healthy.\nIt was a lie after all huh...\nDo the people in this village want to\ndrive Mace away that badly?"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「シナモンちゃん、ウーズ熱は<br> どうなりましたの?<br> メースちゃんが命がけでとって<br> きたクスリがありますの！"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"Cinnamon, how is the Ooze Fever?\nWe have medicine that Mace risked his\nlife for!"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「アンタがここに閉じこめられてる<br> 間に何があったか知ってるかい?<br> メースが村から追い出されたよ。<br> かわいそうに。"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"Do you know what happened during the\ntime you've been stuck in here? Mace was\ndriven away from the village. Poor Mace."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「シナモンさん、<br> ウーズ熱なおったの~?<br> せっかくメースが取ってきて<br> くれたのに~。<br> ちょっとざんねん~。"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Cinnamon, have you recovered from the Ooze\nFever? But Mace went through all that trouble\nto get the cure for you. It's kind of a shame."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「シナモンさん‥‥。<br> ウーズ熱はなおったっぴ?<br> メースとオイラで、命がけで<br> <span class=\"red\">\\87\\a</span>を取って<br> 来たっぴ。"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"Cinnamon...\nHave you recovered from the Ooze Fever?\nMace and I, we risked our lives to get\nthe \\8e\\87\\0a\\8d."
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>ナニモ シラナインデヤンノ。<br> ノンキナモンダゼ ベイベー。</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"You didn't know anything did you? Baby,\nhow carefree."
   Comments: ''
 - Japanese: "\\8b\\0\\85\\0<br>「‥‥‥‥"
-  English: ''
+  English: "\\8b\\00\\85\\00\n\"..."
   Comments: ''
 - Japanese: "\\8b\\beシナモン<br>「‥‥なに??<br> ‥‥なんのこと??<br> ‥‥なんなの??<br> わからない‥‥"
-  English: ''
+  English: "\\8b\\beCinnamon\n\"...what?\n...what are you talking about?\n...what do you mean?\nI don't understand..."
   Comments: ''
 - Japanese: "\\8b\\beシナモン<br>「お父様！！<br> いったいどういうこと！?<br> 私がここにいた間に<br> 何がおこったの！?<br> 説明して！！"
-  English: ''
+  English: "\\8b\\beCinnamon\n\"Father! What's the meaning of this!?\nWhat happened while I was here!? Tell me!"
   Comments: ''
 - Japanese: "\\8b\\bcヴォークスの指導者・ジンジャー<br>「私もくわしくは<br> 知らされていない。<br> ただひとつだけ言えるのは、<br> メースという男は、ほかの誰より<br> 勇気を持っていたってことだ‥。<br> すまない‥‥。<br> こんな父親でゆるしてくれ‥‥。"
-  English: ''
+  English: "\\8b\\bcCanin Leader, Ginger\n\"I don't know the specifics myself either.\nBut if there's one thing I can say, it's\nthat the man named Mace is braver than anyone\nelse...\nI'm sorry...\nPlease forgive a father like me..."
   Comments: ''
 - Japanese: "\\8b\\beシナモン<br>「わからない‥！<br> なんなの、それ！！<br> そんな説明じゃ、なにも<br> わかんないっ！！"
-  English: ''
+  English: "\\8b\\beCinnamon\n\"I don't understand! What are you saying!?\nI don't get your explanation at all!"
   Comments: ''
 - Japanese: "\\8b\\bcヴォークスの指導者・ジンジャー<br>「しかたがないんだ‥‥。<br> 私だって、つらいさ‥‥。<br> 見てのとおり、この村の男たちは<br> メースやシナモンほどに、心が<br> 大人になりきっていない。<br> メースがこの村にいても、<br> 何も良いことはないだろう。<br> 旅の人‥‥、<br> シナモンはきっと、村外れの<br> メースの家に向かったはず。<br> もし、あの娘が、メースの後を<br> 追うと言い出したら、これを<br> わたしてくれ‥‥。"
-  English: ''
+  English: "\\8b\\bcCanin Leader, Ginger\n\"I had no choice...\nIt was a painful choice for me too...\nAs you can see, the men in this village\nare not mature, like Cinnamon and Mace. Even\nif Mace stayed here, nothing would come out\nof it. Travelers...\nI'm sure Cinnamon has headed towards Mace's\nhouse. If my daughter says she'll chase after\nMace, please hand her this..."
   Comments: ''
 - Japanese: "  ジンジャーさんから<br>  <span class=\"red\">\\87\\fd</span>を<span class=\"red\">１０枚<br>  </span>受け取った"
-  English: ''
+  English: "Received \\8e10 \\87\\fd\\8d from\nGinger."
   Comments: ''
 - Japanese: "\\8b\\bcヴォークスの指導者・ジンジャー<br>「これを売って装備を<br> ととのえるよう、<br> 伝えておいてほしい。"
-  English: ''
+  English: "\\8b\\bcCanin Leader, Ginger\n\"Tell her to sell this and buy equipment."
   Comments: ''
 - Japanese: "\\8b\\bcヴォークスの指導者・ジンジャー<br>「勝手ばかり言ってすまない。<br> よろしくたのむ。"
-  English: ''
+  English: "\\8b\\bcCanin Leader, Ginger\n\"I'm sorry for being so selfish. Thank\nyou for your help."
   Comments: ''
 - Japanese: "\\8b\\beシナモン<br>「いないわ。<br> どこに行ったの、メース‥‥。<br> いつもどって来るの‥‥?"
-  English: ''
+  English: "\\8b\\beCinnamon\n\"He's not here. Where did you go, Mace...?\nWhen will you return...?"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「シナモン、<br> 落ち着いて聞いてくれ。<br> メースはもう、この村には<br> もどってこない。"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"Cinnamon, calm down and listen to us.\nMace is not going to return to this village\nanymore."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「シナモン、聞いて。<br> メースはもうもどってこないわ。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"Cinnamon, listen. Mace is not coming back."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「シナモンちゃん、<br> 全部教えてあげるから、<br> 落ち着いて聞いてね。"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"Cinnamon, we'll tell you everything, so\nplease calm down and listen, okay?"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「今までのこと、全部<br> 教えてやるよ。<br> 聞きたいだろ?"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"We'll tell you everything that's happened.\nYou want to know, right?"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「あのね、シナモンさん‥‥<br> 実はね‥‥"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Hey, Cinnamon...\nActually..."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「キレイなお姉さんに<br> かくしごとはできないっぴ‥‥。<br> 何もかも教えるっぴ‥‥。"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"I can't hide anything from someone as\npretty as you...\nI'll tell you everything..."
   Comments: ''
 - Japanese: "\\8b\\beシナモン<br>「メースはどうしたんですか！?<br> 知ってたら教えてください！！"
-  English: ''
+  English: "\\8b\\beCinnamon\n\"What happened to Mace!? If you know,\nthen tell me already!"
   Comments: ''
 - Japanese: "\\8b\\beシナモン<br>「聞かせて！<br> 何もかも聞かせて！<br> 彼は生きてるの！?<br> どこへ行ったの！?"
-  English: ''
+  English: "\\8b\\beCinnamon\n\"Tell me! Tell me everything!\nIs he alive!? Where did he go!?"
   Comments: ''
 - Japanese: "  \\85\\0たちは、<br>  今までのことをすべて話し‥‥<br>  ジンジャーさんから受け取った<br>  <span class=\"red\">\\87\\fd</span><span class=\"red\">１０枚</span>を<br>  シナモンにわたした。  "
   English: ''
