@@ -3942,46 +3942,46 @@
   English: "\\8b\\beCinnamon\n\"Tell me! Tell me everything!\nIs he alive!? Where did he go!?"
   Comments: ''
 - Japanese: "  \\85\\0たちは、<br>  今までのことをすべて話し‥‥<br>  ジンジャーさんから受け取った<br>  <span class=\"red\">\\87\\fd</span><span class=\"red\">１０枚</span>を<br>  シナモンにわたした。  "
-  English: ''
+  English: "\\85\\00 and the others explained\neverything that has happened so far...\nThey handed the \\8e10 \\87\\fd\\8d\nthat Ginger gave them to Cinnamon."
   Comments: ''
 - Japanese: "\\8b\\beシナモン<br>「お父さん‥‥。<br> 私、行きます‥‥。<br> 彼をさがして、<br> いっしょに帰ってきます‥‥。"
-  English: ''
+  English: "\\8b\\beCinnamon\n\"Father...\nI, I will go...\nI will go find him and return home\ntogether..."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「アンタのお父さんも、<br> 悪い人じゃない。<br> 一人で無理はせずに、いっしょに<br> メースをさがすようにたのんだら<br> どうだ?"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"Your father isn't a bad person. Why don't\nyou avoid being rash and try looking for\nMace together?"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「そうは言っても、一人で<br> 旅立つのは危険ね‥‥。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"But travelling by yourself is dangerous..."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「本当に一人でメースちゃんを<br> さがしに行きますの?"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"Are you really going to look for Mace\nall by yourself?"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「だいじょうぶかい?<br> 本当に一人で行くのかい?"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"Will you be okay? Are you really going\nby yourself?"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「ひとりで行くなんて~<br> りっぱです~"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Going alone. That's wonderful."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「あぶないっぴ！！<br> 一人じゃムリだっぴ！！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"It's dangerous! You can't go alone!"
   Comments: ''
 - Japanese: ''
   English: ''
   Comments: ''
 - Japanese: "\\8b\\beシナモン<br>「‥‥‥‥‥‥‥‥"
-  English: ''
+  English: "\\8b\\beCinnamon\n\"..."
   Comments: ''
 - Japanese: "\\8b\\beシナモン<br>「みなさん、お気づかい<br> ありがとうございます。<br> でも‥‥<br> きっとこれが私の運命<br> なんだよね‥‥。"
-  English: ''
+  English: "\\8b\\beCinnamon\n\"Everyone, thanks for your kindness.\nBut...\nThis must be my fate..."
   Comments: ''
 - Japanese: "\\8b\\beシナモン<br>「機会があったら、また<br> どこかで会いましょう。<br> さようなら。"
-  English: ''
+  English: "\\8b\\beCinnamon\n\"If we have the chance, I hope we meet\nagain somewhere. Farewell."
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>ナニカ ヘンナオトガ‥‥</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"I hear some strange sound..."
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「そうだ‥‥<br> 思い出した‥‥<br> 花をとったんだ‥‥<br> 帰らなきゃ‥‥"
-  English: ''
+  English: "\\8b\\bfMace\n\"That's right...\nI remember now...\nI found the flower...\nI need to head back..."
   Comments: ''
 - Japanese: ''
   English: ''
@@ -3990,10 +3990,12 @@
   English: ''
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\87\\47</span>を<span class=\"red\">１個</span>獲得！"
-  English: ''
+  English: "\nObtained \\8e1 \\87\\47\\8d!"
   Comments: ''
 - Japanese: '<br>      宝箱は空だった'
-  English: ''
+  English: |-
+
+    The chest is empty.
   Comments: ''
 - Japanese: ''
   English: ''
@@ -4008,7 +4010,7 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\c8MD職人・ウスター<br>「あ、そっだなや、わすれてだ。<br> 金さわたしとぐ。<br> <span class=\"red\">\\87\\f9</span>さ<span class=\"red\">２０枚</span>あるだ。<br> どこさの店かでブラーにかえて、<br> 好きに使うとええだ。<br> ところでなんか聞いとくことは<br> なかんべか?"
-  English: ''
+  English: "\\8b\\c8MD Artisan, Worcestershire Sauce\n\"Ah, that's right, I forgot. Let me pay\nyou. Here's \\8e20 \\87\\f9\\8d. You can\nexchange it for bura at a store and then\nuse it however you like. By the way, is\nthere anything you'd like to ask me?"
   Comments: ''
 - Japanese: ''
   English: ''
@@ -4098,148 +4100,148 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「それは、ずっと前にいただいた<br> マジックドールでぺたん。<br> シナモンがいない寂しさを<br> まぎらわしてくれるでぺたん。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\bfMace\n\"That's the Magic Doll I received a long time\nago. It helped distract me from my loneliness\nwith Cinnamon gone."
+  Comments: I probably need to give the Konjac some speech tics so Mace can copy them here.
 - Japanese: "\\8b\\18\\86\\e<br>「キレイなお姉さんだっぴ‥‥<span class=\"red\">♥</span>"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"She's gorgeous..."
   Comments: ''
 - Japanese: "\\8b\\b3ミルフィーユ<br>「‥‥‥?<br> どうかしましたか?"
-  English: ''
+  English: "\\8b\\b3Mille-feuille\n\"...?\nIs something the matter?"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「お姉さん<span class=\"red\">♥</span><br> ステキだっぴ<span class=\"red\">♥</span>"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"Miss.\nYou're beautiful."
   Comments: ''
 - Japanese: "\\8b\\b3ミルフィーユ<br>「ありがとう。<br> あなたもステキよ。<br> あなたみたいなキュートな子に<br> 会うの、８００年の人生の中でも<br> はじめてよ。"
-  English: ''
+  English: "\\8b\\b3Mille-feuille\n\"Thanks. You're beautiful too. In the 800\nyears I've been alive, I have never met\na kid as cute as you."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「８００年！！！<br> それじゃお姉さんじゃなくて<br> おばあさんだっぴ！！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"800 years! Then you're not a miss but\na granny!"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「ピスタチオ~！！<br> しつれいよ~！！<br> パペットは年を取らないのッ！"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Pistachio! That's rude! Puppets don't\nage!"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「え~~~~~ッ！?<br> それじゃ、奥にいるヒゲの<br> パペットは~~~ッ！?"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"What!? Then what about the puppet inside\nwith the beard!?"
   Comments: ''
 - Japanese: "\\8b\\b3ミルフィーユ<br>「あの人は私のおじいちゃん。<br> この村の村長で、<br> 生まれた時から白いヒゲの<br> おじいちゃんだったわ。<br> パペットはみんな生まれた時から<br> ず~っと、何も変わらないのよ。"
-  English: ''
+  English: "\\8b\\b3Mille-feuille\n\"That person is my grandfather. He's the\nchief of this village and has had a white\nlong beard since the day he was born. Puppets\ndon't change since the day they are born."
   Comments: ''
 - Japanese: "\\8b\\b2シフォン<br>「はひゃ?<br> ミルフィーユや、ごはんかの?"
-  English: ''
+  English: "\\8b\\b2Angel Food Cake\n\"Huh, whazzat?\nMille-feuille, is dinner ready?"
   Comments: ''
 - Japanese: "\\8b\\b3ミルフィーユ<br>「なんでもありませんわ<br> おじいさま。<br> ごはんはさっき食べましたから、<br> ゆっくりおくつろぎ下さいませ。"
-  English: ''
+  English: "\\8b\\b3Mille-feuille\n\"Nothing, grandfather. You already ate\ndinner earlier, so just rest and relax."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「ここは、ふしぎな町だな‥‥。<br> 時間が止まっていて‥‥<br> それでいて、少しずつ壊れて<br> 行くような‥‥"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"This is a strange town...\nIt's like time has stopped...\nAnd little by little, it's falling apart..."
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「そろそろ行くぜ。"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"Let's get going."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「そうよ~<br> 今日はみんないるから~<br> また今度 ニ人きりで会う約束<br> しときなよ~<br> 年上だけど、ステキよ~<span class=\"red\">♥</span>"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Yeah. Everyone's here today. But you should\ngo on a date together, with just the two of\nyou. She might be older than you, but she's\nbeautiful."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「そんなんじゃないっぴ！<br> 行くっぴ！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"It's not like that! Let's go!"
   Comments: ''
 - Japanese: "\\8b\\38まもの<br>「<i>うお――――――――ッ！！<br> ゆるせ―――――――ん！！<br> ゆるせんぞ―――――ッ！！<br> おぼえておけよ―――ッ！！</i>"
-  English: ''
+  English: "\\8b\\38Magical Creature\n\"Nooooo! I won't forgive you! I won't\nlet this slide! I'll have my revenge!"
   Comments: ''
 - Japanese: "\\8b\\3aヘイルクラブ<br>「<i>がっしょん がっしょん</i>"
-  English: ''
+  English: "\\8b\\3aHailcrab\n\"*click clack* *click clack*"
   Comments: ''
 - Japanese: ' カシスがカエルグミを<br> こっそり拾っておいてくれた！'
-  English: ''
+  English: 'Cassis secretly picked up a gummy frog!'
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\87\\33</span>を<span class=\"red\">１個</span>獲得！<br> <br> \\0\\5のアイコンがついているのは<br> 頭に装備するアイテムだ。<br>"
-  English: ''
+  English: "\nObtained one \\8e\\87\\33\\8d!\n\nThe \\00\\05 icon stands for headwear."
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\87\\3d</span>を<span class=\"red\">１個</span>獲得！<br> <br> \\0\\6のアイコンがついているのは<br> 腕に装備するアイテムだ。<br>"
-  English: ''
+  English: "\nObtained one \\8e\\87\\3d\\8d!\n\nThe \\00\\06 icon stands for wrists."
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\87\\47</span>を<span class=\"red\">１個</span>獲得！<br> <br> \\0\\7のアイコンがついているのは<br> 体に装備するアイテムだ。<br>"
-  English: ''
+  English: "\nObtained one \\8e\\87\\47\\8d!\n\nThe \\00\\07 icon stands for clothing."
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\87\\51</span>を<span class=\"red\">１個</span>獲得！<br> <br> \\0\\8のアイコンがついているのは<br> 足に装備するアイテムだ。<br>"
-  English: ''
+  English: "\nObtained one \\8e\\87\\51\\8d!\n\nThe \\00\\08 icon stands for shoes."
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\87\\5b</span>を<span class=\"red\">１個</span>獲得！<br> <br> \\0\\9のアイコンがついているのは<br> アクセサリーだ。<br>"
-  English: ''
+  English: "\nObtained one \\8e\\87\\5b\\8d!\n\nThe \\00\\09 icon stands for accessories."
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\87\\19</span>を<span class=\"red\">１個</span>獲得！<br> <br> 食べるとHPを回復する<br> アイテムだ。<br>"
-  English: ''
+  English: "\nObtained one \\8e\\87\\19\\8d!\n\nEating it will recover your HP."
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\87\\1c</span>を<span class=\"red\">１個</span>獲得！<br> <br> 食べるとMPを回復する<br> アイテムだ。<br>"
-  English: ''
+  English: "\nObtained one \\8e\\87\\1c\\8d!\n\nEating it will recover your MP."
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「ちょっと待て！！<br> 金が足りねぇよ！！<br> 落としたんじゃないか！?<br> 誰か拾ってるかも知れねぇぜ！！<br> <span class=\"red\">マサラティ村</span>に戻って、手当たり<br> しだいに聞いてみようぜ！！"
-  English: ''
+  English: "\\8b\\14\\86\\0a\n\"Wait a moment! We don't have enough\nmoney! Did we drop it all somewhere!?\nSomeone might have picked it up! Let's\nreturn to \\8eMasala Chai Village\\8d, heal\nup, and then ask around!"
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「ホラよ。<br> <span class=\"red\">カエルグミ</span>だ。<br> 取っときな。"
-  English: ''
+  English: "\\8b\\14\\86\\0a\n\"Look. It's a \\8egummy frog\\8d. Go catch\nit."
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「キマジメに人の言いなりに<br> ならなくていいんだぜ。<br> 上手に生きて行こうぜ。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\14\\86\\0a\n\"You don't have to become so serious.\nLet's just live well."
+  Comments: Probably completely wrong translation.
 - Japanese: "\\8b\\c5ブラウニーの道具屋<br>「それは、ドワーフからもらった<br> マジックドールですじゃ。"
-  English: ''
+  English: "\\8b\\c5Brownie Shop Owner\n\"That's a Magic Doll I received from\na dwarf."
   Comments: ''
 - Japanese: "\\8b\\c5ブラウニーの道具屋<br>「<span class=\"red\">３０００００ブラー</span>でなら<br> 売ってもいいですじゃ。"
-  English: ''
+  English: "\\8b\\c5Brownie Shop Owner\n\"If you have \\8e300000 bura\\8d, then\nI'll sell it to you."
   Comments: ''
 - Japanese: "\\8b\\c5ブラウニーの道具屋<br>「おお、本当に売れるとは<br> 思わなんだ。"
-  English: ''
+  English: "\\8b\\c5Brownie Shop Owner\n\"Oh, you really thought I was going\nto sell it?"
   Comments: ''
 - Japanese: "\\8b\\c5ブラウニーの道具屋<br>「そりゃそうじゃ。<br> そんなモンに<br> <span class=\"red\">３０００００ブラー</span>も出す<br> ヤツはおらんじゃろ。"
-  English: ''
+  English: "\\8b\\c5Brownie Shop Owner\n\"Of course. Who would pay \\8e300000 bura\\8d\nfor something like this?"
   Comments: ''
 - Japanese: '  MD０２－ボニートが<br>  仲間になった！'
-  English: ''
+  English: 'MD-02 Bonito joined your party!'
   Comments: ''
 - Japanese: "\\8b\\c5ブラウニーの道具屋<br>「金が足りんですじゃ。"
-  English: ''
+  English: "\\8b\\c5Brownie Shop Owner\n\"You don't have enough money."
   Comments: ''
 - Japanese: "\\8b\\c5ブラウニーの道具屋<br>「人数が多すぎるようじゃ。<br> 出なおして来い。"
-  English: ''
+  English: "\\8b\\c5Brownie Shop Owner\n\"There's too many customers right now.\nCome back later and try again."
   Comments: ''
 - Japanese: '  MD０４－フラウンダが<br>  仲間になった！'
-  English: ''
+  English: 'MD-04 Flounder joined the party!'
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「やぁ、おひさしぶりで<br> ぺたん。<br> ボクは、しばらくここで<br> くらすことにしたでぺたん。<br> ‥‥‥‥。<br> なんだか、言葉づかいが<br> ヘンになったでぺたこん。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\bfMace\n\"Yo, it's been a while. I've decided\nto live here for the time being...\nSomehow, my speech has gotten weird."
+  Comments: 'Yeah, definitely need to figure out speech tics for Konjacs.'
 - Japanese: "\\8b\\bfメース<br>「やっとシナモンもみつかったで<br> ぺたん。<br> ここは、くらしやすいから<br> 一生いてもいいと思ってるで<br> ぺたこん。"
-  English: ''
+  English: "\\8b\\bfMace\n\"I finally found Cinnamon. Since this\nis a comfortable place to live, I thought\nwe could stay here together for the rest of\nour lives."
   Comments: ''
 - Japanese: "\\8b\\beシナモン<br>「お久しぶりですね。<br> 私、早く<span class=\"red\">マサラティ村</span>に<br> 帰りたいんだけど‥‥‥‥<br> メースが、ここを気に<br> いっちゃってて‥‥‥‥。<br> そう言えば、彼の部屋には<br> 精霊がいたのよ。<br> まだ、いるのかしら‥‥。<br> 気になるなぁ。"
-  English: ''
+  English: "\\8b\\beCinnamon\n\"It's been a while. I want to return\nto \\8eMasala Chai Village\\8d as soon\nas possible but...\nBut Mace said he really likes it here...\nSpeaking of which, there was a spirit in\nhis room.\nI wonder if it's still there...\nI'm curious."
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「それは、ずっと前にいただいた<br> マジックドールでぺたん。<br> 今はシナモンもいっしょで、<br> 心強いので、連れていっても<br> かまわないでぺたん。<br> 連れて行くでぺたこんか?"
-  English: ''
+  English: "\\8b\\bfMace\n\"That's the Magic Doll I received a\nlong time ago. It's reassuring to have\nCinnamon here, so I don't mind if you\ntake it. Do you want to take it with you?"
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「それじゃ、フラウンダ、<br> 長い間ありがとうでぺたん。<br> たっしゃでくらすぺたん！"
-  English: ''
+  English: "\\8b\\bfMace\n\"Farewell, Flounder. Thank you for\nall this time. Stay strong and healthy!"
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「そうですか。<br> それもいいでぺたん。"
-  English: ''
+  English: "\\8b\\bfMace\n\"Is that so. That's fine too."
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「人数が多すぎるぺたん。<br> 人数を減らしてくるぺたん。"
-  English: ''
+  English: "\\8b\\bfMace\n\"You have too many people in your party.\nCome back when you have fewer people."
   Comments: ''
 - Japanese: '  宝箱の中にモンスターが<br>  ひそんでいた！！<br>'
-  English: ''
+  English: 'A monster was hiding in the chest!'
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「その宝箱にはモンスターが<br> 入ってるだけだぜ！！<br> ま、どうしても開けて<br> 確かめたいって言うんなら<br> 止めはしないけどな。"
-  English: ''
+  English: "\\8b\\1a\\86\\10\n\"There's nothing but a monster in that\nchest! I won't stop you though if you\nreally want to open it up to check."
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「マジかよ‥‥‥‥。"
-  English: ''
+  English: "\\8b\\12\\86\\06\n\"Are you serious..."
   Comments: ''
 - Japanese: "\\8b\\13\\86\\9<br>「おおお！！<br> 宝箱ヌ~！！<br> フンイキばっちりだヌ~！！"
-  English: ''
+  English: "\\8b\\13\\86\\09\n\"Oh!!! It's a treasure chest! This is\nso exciting!"
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「どうせ中身はカラだぜ。<br> 世の中、そんなモンさ。"
-  English: ''
+  English: "\\8b\\14\\86\\0a\n\"I'm sure there's nothing inside. That's\nhow the world works."
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「あれがカイゾクの宝~！?<br> ウソくさいなぁ~。"
   English: ''
