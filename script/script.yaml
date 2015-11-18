@@ -4714,19 +4714,19 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\9c刃の精霊・スラッシュ<br>「取引成立でありますな。"
-  English: ''
+  English: "\\8b\\9cBlade spirit, Slash\n\"This completes our exchange."
   Comments: ''
 - Japanese: "\\8b\\9c刃の精霊・スラッシュ<br>「持ってないようであるが、<br> おからかい申されとるのか?"
-  English: ''
+  English: "\\8b\\9cBlade spirit, Slash\n\"It looks like you don't have enough.\nAre you mocking me?"
   Comments: ''
 - Japanese: "\\8b\\9c刃の精霊・スラッシュ<br>「あいわかりもうした。"
-  English: ''
+  English: "\\8b\\9cBlade spirit, Slash\n\"I see."
   Comments: ''
 - Japanese: "\\8b\\95石の精霊・フリント<br>「オレは石の精霊・フリントで<br> ごっつーん！<br> たすかったでごっつーん！"
-  English: ''
+  English: "\\8b\\95Stone spirit, Flint\n\"Pow! I'm the stone spirit, Flint!\nPow! You saved me!"
   Comments: ''
 - Japanese: "\\8b\\95石の精霊・フリント<br>「オレは石の精霊・フリントで<br> ごっつーん！！<br> たのみがあるでごっつーん！！<br> <span class=\"red\">\\87\\1a</span>が<span class=\"red\">個</span><br> 欲しいでごっつーん！！<br> ゆずって欲しいでごっつーん！！"
-  English: ''
+  English: "\\8b\\95Stone spirit, Flint\n\"Pow! I'm the stone spirit Flint!\nPow! I have a favor to ask!\nPow! I want \\8e<CC?> \\87\\1a\\8d!"
   Comments: ''
 - Japanese: ''
   English: ''
@@ -4744,19 +4744,19 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\95石の精霊・フリント<br>「ありがとうでごっつーん！！<br> 感謝するでごっつーん！！"
-  English: ''
+  English: "\\8b\\95Stone spirit, Flint\n\"Pow! Thank you!"
   Comments: ''
 - Japanese: "\\8b\\95石の精霊・フリント<br>「持ってないでごっつんかー！！<br> ざんねんでごっつーん！！"
-  English: ''
+  English: "\\8b\\95Stone spirit, Flint\n\"Pow! You don't have enough!\nPow! How disappointing! "
   Comments: ''
 - Japanese: "\\8b\\95石の精霊・フリント<br>「しょうがないでごっつーん！！<br> ほかをあたるでごっつーん！！"
-  English: ''
-  Comments: ''
+  English: "\\8b\\95Stone spirit, Flint\n\"Pow! Oh well!\nPow! I'll just ask someone else!"
+  Comments: Not sure about the second sentence.
 - Japanese: "\\8b\\a2虫の精霊・バズ<br>「オイラ、虫の精霊・バズでちー。<br> たすかったでちー。<br> 一時はどうなるかと<br> 思ったでちー。"
-  English: ''
+  English: "\\8b\\a2Bug spirit, Buzz\n\"I'm the bug spirit Buzzzz.\nYou saved mezzz.\nFor a second there, I was worried about\nwhat would happenzzz."
   Comments: ''
 - Japanese: "\\8b\\a2虫の精霊・バズ<br>「オイラ、虫の精霊・バズでちー。<br> たのみがあるでちー。<br> <span class=\"red\">\\87\\1c</span>が<span class=\"red\">個</span><br> 欲しいでちー。<br> くれでちー。"
-  English: ''
+  English: "\\8b\\a2Bug spirit, Buzz\n\"I'm the bug spirit Buzzzz.\nI have a requestzzz.\nCould you give me \\8e<CC?> \\87\\1czzz\\8d?"
   Comments: ''
 - Japanese: ''
   English: ''
@@ -4774,19 +4774,19 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\a2虫の精霊・バズ<br>「ありがとうでちー。"
-  English: ''
+  English: "\\8b\\a2Bug spirit, Buzz\n\"Thank youzzz."
   Comments: ''
 - Japanese: "\\8b\\a2虫の精霊・バズ<br>「持ってないのに『はい』なんて<br> 言わないでほしいでちー。"
-  English: ''
+  English: "\\8b\\a2Bug spirit, Buzz\n\"I wish you wouldn't say yes when you\ndon't have enoughzzz."
   Comments: ''
 - Japanese: "\\8b\\a2虫の精霊・バズ<br>「しょぼーん"
-  English: ''
-  Comments: ''
+  English: "\\8b\\a2Bug spirit, Buzz\n\"Buzzzz."
+  Comments: 'It means roughly "sad". Or maybe "I must be patient"?'
 - Japanese: "\\8b\\a1獣の精霊・ガル<br>「オイラ、獣の精霊・ガルでがす。<br> 感謝するでがす。"
-  English: ''
+  English: "\\8b\\a1Beast spirit, Grr\n\"I'm the beast spirit, Grr. I'd like\nto thank you."
   Comments: ''
 - Japanese: "\\8b\\a1獣の精霊・ガル<br>「オイラ、獣の精霊・ガルでがす。<br> たのみがあるでがす。<br> オイラ、<span class=\"red\">\\87\\20</span>が<br> <span class=\"red\">個</span>欲しいでがす。<br> ゆずってほしいでがす。"
-  English: ''
+  English: "\\8b\\a1Beast spirit, Grr\n\"I'm the beast spirit, Grr. I have\na request for you. I'd like \\8e<CC?>\n\\87\\20\\8d. Could you give me them?"
   Comments: ''
 - Japanese: ''
   English: ''
@@ -4804,19 +4804,19 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\a1獣の精霊・ガル<br>「ありがとうでがす。<br> いっぱい感謝するでがす。"
-  English: ''
+  English: "\\8b\\a1Beast spirit, Grr\n\"Thank you. I'm full of gratitude\nright now."
   Comments: ''
 - Japanese: "\\8b\\a1獣の精霊・ガル<br>「たんねぇでがす！<br> たんねぇでがす！！<br> なにがたんねぇかっつーと<br> アンタのせいじつさが<br> たんねぇんでがす！！"
-  English: ''
+  English: "\\8b\\a1Beast spirit, Grr\n\"It's not enough! It's lacking!\nYou're lacking honesty!"
   Comments: ''
 - Japanese: "\\8b\\a1獣の精霊・ガル<br>「んんんんんんんんんッ！！<br> しんぼーするでがす！！<br> こらえるでがす！！"
-  English: ''
+  English: "\\8b\\a1Beast spirit, Grr\n\"Nnngh! I must endure! I must be patient!"
   Comments: ''
 - Japanese: "\\8b\\94水の精霊・フロー<br>「ぼくは、なんて言うか、この<br> 水の精霊・フローなんだよね。<br> たすけてくれてありがとうね。"
-  English: ''
+  English: "\\8b\\94Water spirit, Flow\n\"I'm, how do I say this, the water\nspirit, like, Flow. Thanks for saving\nme."
   Comments: ''
 - Japanese: "\\8b\\94水の精霊・フロー<br>「こんにちは。<br> 水の精霊・フローです。<br> なんて言うか、この、<br> <span class=\"red\">\\87\\fa</span>が<span class=\"red\">枚</span><br> ほしい時があるよね?<br> もしそれが、今だとしたら、<br> キミはゆずってくれるかい?"
-  English: ''
+  English: "\\8b\\94Water spirit, Flow\n\"Hello. I'm the water spirit Flow\nHow do I say this, like, do you ever\nfeel like asking for \\8e<CC?> \\87\\fa\\8d?\nIf this were such a moment, would you\nmind giving me some?"
   Comments: ''
 - Japanese: ''
   English: ''
@@ -4834,16 +4834,16 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\94水の精霊・フロー<br>「ありがとね。<br> 仲良くしようね。"
-  English: ''
+  English: "\\8b\\94Water spirit, Flow\n\"Thanks. I hope we get along well."
   Comments: ''
 - Japanese: "\\8b\\94水の精霊・フロー<br>「足りないんだよね。"
-  English: ''
+  English: "\\8b\\94Water spirit, Flow\n\"It's not enough is it."
   Comments: ''
 - Japanese: "\\8b\\94水の精霊・フロー<br>「なんて言うか、それが<br> キミの生き様って言うのかな。<br> だったら、それはそれで<br> いいと思うんだよね。"
-  English: ''
+  English: "\\8b\\94Water spirit, Flow\n\"How do I say this, I guess that's\nhow you choose to live. If that's the\ncase, then I guess that's fine, I think."
   Comments: ''
 - Japanese: "\\8b\\9a雷の精霊・テスラ<br>「びーかびかびかびかびかびか！<br> オイラ、雷の精霊・テスラ。<br> たすけてくれて感謝だびか！"
-  English: ''
+  English: "\\8b\\9aElectric spirit, Tesla\n\"Craaackle crackle crackle!\nI'm the electric spirit Tesla.\nThanks for saving me!"
   Comments: ''
 - Japanese: "\\8b\\9a雷の精霊・テスラ<br>「びーかびかびかびかびかびか！<br> オイラ、雷の精霊・テスラ。<br> <span class=\"red\">\\87\\fc</span>を集めてるびか！<br> <span class=\"red\">枚</span>ばかし ゆずってほしい<br> びかびかっ！"
   English: ''
