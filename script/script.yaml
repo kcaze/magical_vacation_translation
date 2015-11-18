@@ -4418,130 +4418,132 @@
   English: "\nYou found a \\8elove spirit, Wish\\8d!"
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス一族<br>「おお！！<br> カプチーノ‥‥！！<br> ‥‥‥<br> いや、ちがったな。<br> アイツはもう死んだんだ‥‥。<br> オレの人ちがいだ。<br> すまねぇ。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"Oh! Cappuccino...!\n...\nNo, my bad.\nHe's already dead...\nI mistook you for the wrong person.\nSorry."
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス一族<br>「例の古代メカは<br> 自由になったみたいだな。<br> ようやくスッキリしたよ。<br> 天国にいるカプチーノのヤツも<br> よろこんでるはずさ。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"It looks like the ancient mech's been\nfreed. He's finally independent now.\nI'm sure Cappuccino, who's in heaven, is\nalso pleased."
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\87\\1a</span>を<span class=\"red\">１個</span>もらった！！"
-  English: ''
+  English: "\nReceived \\8e1 \\87\\1a\\8d!"
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス一族<br>「よろしくたのむぜ。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"I'm counting on you."
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>ハイハイ ノンビリシテナイデ<br> サッサト イキマショウカネ。<br> イキマショ イキマショ。</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"Okay, okay, can we stop lazing around\nand go? Let's go already, let's go."
   Comments: ''
 - Japanese: ' <i>がっしょーん！！<br> がっしょーん！！</i>'
-  English: ''
-  Comments: ''
+  English: 'Crash! Crash!'
+  Comments: idk if this is the right SFX.
 - Japanese: '<br>  開きそうにない'
-  English: ''
+  English: |-
+
+    It doesn't look like it can be opened.
   Comments: ''
 - Japanese: "\\8b\\c3ニャムネルトの男<br>「その鳥にさわるな！！"
-  English: ''
+  English: "\\8b\\c3Felin Man\n\"Don't touch that bird!"
   Comments: ''
 - Japanese: "\\8b\\c3ニャムネルトの男<br>「すまない。<br> おどかす気はなかったんだ。"
-  English: ''
+  English: "\\8b\\c3Felin Man\n\"Sorry. I didn't mean to scare you."
   Comments: ''
 - Japanese: "\\8b\\c3ニャムネルトの男<br>「オレの名前はネクター。<br> タピオカティ村の生まれだけど、<br> 今は、村からはなれてるんだ。"
-  English: ''
+  English: "\\8b\\c3Felin Man\n\"My name's Nectar. I was born in Tapioca\nTea Village, but I'm now separated from\nthe village."
   Comments: ''
 - Japanese: "\\8b\\c3ネクター<br>「どーどーって、１０００年も<br> 生きるんだぜ。<br> 信じられるかい?"
-  English: ''
+  English: "\\8b\\c3Nectar\n\"Dodos live for over 1000 years you\nknow. Do you believe me?"
   Comments: ''
 - Japanese: "\\8b\\c3ネクター<br>「そして１０００年ののちに<br> もとの姿にもどる。<br> 呪われる前の‥‥<br> どーどーになる前の<br> 本当の姿にね。"
-  English: ''
+  English: "\\8b\\c3Nectar\n\"And then after 1000 years, they return\nto their original selves. The self before\nthey were cursed...\nTheir true selves, the ones before they were\nturned into a dodo."
   Comments: ''
 - Japanese: "\\8b\\c3ネクター<br>「このどーどーも、もしかしたら<br> 人間や、精霊かも知れない。<br> それなのに！！<br> どーどーの肉や血が<br> クスリになるからって、<br> つかまえる連中がいるんだ！！<br> そんな 可愛そうなどーどーを<br> 安全な場所に集めて<br> 守ってやるのがオレの仕事さ。"
-  English: ''
+  English: "\\8b\\c3Nectar\n\"This dodo might also turn out to be\na human or spirit. But despite that!\nThere are people who hunt and capture\ndodos and use their flesh and blood for\nas medicine. It's my job to gather these\npoor dodos in a safe haven and protect\nthem."
   Comments: ''
 - Japanese: "\\8b\\c3ネクター<br>「神様からもらった<br> 大切な仕事なんだ。"
-  English: ''
+  English: "\\8b\\c3Nectar\n\"It's an important job that god\nentrusted me with."
   Comments: ''
 - Japanese: "\\8b\\c3ネクター<br>「それじゃ。<br> オレはこれで。<br> おいで！<br> どーどー！"
-  English: ''
+  English: "\\8b\\c3Nectar\n\"Well, I'll be off then. Come! Dodo!"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「いや~ん！<br> びっくり~！"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Nooo! I was surprised!"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「とつぜん 何だっぴ~！?"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"What happened so suddenly!?"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「??"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"???"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「<span class=\"red\">タピオカティ村</span>だっぴか！<br> <span class=\"red\">ニャムネルト</span>の村だっぴ！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"It's \\8eTapioca Tea Village\\8d! It's\nthe village of the \\8eFelins\\8d!"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「<span class=\"red\">タピオカティ村</span>‥‥<br> 闇のプレーンにあるのよね‥‥。"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"\\8eTapioca Tea Village...\\8d\nIt's in the Plane of Darkness isn't it..."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「ふーん。"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"Hmm."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「知ってるわ。<br> おばあちゃんから、<br> よく聞いたもの。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"I know. My grandmother used to always\ntell me about it."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「それって、おとぎ話じゃなくて<br> 本当のことですの！?"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"So it isn't that just a fairy tale and\nis actually real!?"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「にわかには信じがたい<br> 話だっぴ‥‥"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"It's sudden, but I want to believe it..."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「だまって聞けよ。<br> ったくもう！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"Shut up and listen! Geez!"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「うんうん。<br> 大人ってきたねぇよな。<br> ゆるせねぇぜ。"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"Yeah. Adults are filthy. I can't forgive\nthem."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「たいへんな仕事をしてるのね。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"You're working on something really\nhard huh."
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス一族<br>「こっちは<span class=\"red\">パテシエ</span>だけが通れる<br> 抜け穴なのでありマス。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"This is a cave that only Patissiers can\npass through."
   Comments: ''
 - Japanese: "\\8b\\93火の精霊・トースト<br>「こんちは。<br> 火の精霊・トーストです。<br> 出会ってすぐこう言うのも<br> なんですが、<span class=\"red\">\\87\\f7</span>を<br> <span class=\"red\">枚</span>いただけませんか?"
-  English: ''
-  Comments: ''
+  English: "\\8b\\93Fire spirit, Toast\n\"Hello. I'm the fire spirit, Toast.\nThis is sudden, but could I have\n\\8e<CC?> \\87\\f7\\8d?"
+  Comments: Missing control code
 - Japanese: ''
   English: ''
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「ダメだ‥‥‥‥。<br> どこにもない‥‥‥‥。<br> このままでは、こんにゃく様の<br> 村はなくなってしまう‥‥‥‥。"
-  English: ''
+  English: "\\8b\\bfMace\n\"It's no use...\nI can't find it anywhere...\nAt this rate, the konjac's village will\nbe no more..."
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「！！！！！！"
-  English: ''
+  English: "\\8b\\bfMace\n\"!!!"
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「このニオイは、<br> <span class=\"red\">\\87\\d</span>！！！<br> あなたたち、<span class=\"red\">\\87\\d</span>を<br> 持っているんですね！！<br> お願いです！！<br> その<span class=\"red\">\\87\\d</span>を<br> こんにゃく様にあげてください！"
-  English: ''
+  English: "\\8b\\bfMace\n\"This smell must be \\8e\\87\\0d\\8d!\nYou're holding \\8e\\87\\0d\\8d! Please!\nPlease give that \\8e\\87\\0d\\8d to the\nkonjacs!"
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「やった！！！！<br> 言ってみるもんですね！！<br> それじゃ、<span class=\"red\">クガンデ村</span>まで<br> 来てもらえますか！?<br> こうしちゃいられない！！<br> こんにゃく様に知らせなければ！"
-  English: ''
+  English: "\\8b\\bfMace\n\"Yes! I knew it was worth asking!\nWill you come with to \\8eUkagned Village\\8d!?\nWe can't just stay here! I must let the\nkonjac know!"
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「ハァ‥‥‥‥。<br> そうですか‥‥‥‥。<br> しょうがないか‥‥‥‥。"
-  English: ''
+  English: "\\8b\\bfMace\n\"*sigh*...\nIs that so...\nIf you insist..."
   Comments: ''
 - Japanese: "\\8b\\99愛の精霊・ウィッシュ<br>「こんにちは。<br> 私、愛の精霊・ウィッシュ。"
-  English: ''
+  English: "\\8b\\99Love spirit, Wish\n\"Hello. I'm the love spirit, Wish."
   Comments: ''
 - Japanese: "\\8b\\93火の精霊・トースト<br>「ありがとう！<br> ボクら、友達だね！"
-  English: ''
+  English: "\\8b\\93Fire spirit, Toast\n\"Thanks! We're friends right!"
   Comments: ''
 - Japanese: "\\8b\\93火の精霊・トースト<br>「たりないです。<br> またいつか会いましょう。"
-  English: ''
+  English: "\\8b\\93Fire spirit, Toast\n\"That's not enough. Let's meet\nagain someday."
   Comments: ''
 - Japanese: "\\8b\\93火の精霊・トースト<br>「それはざんねん。"
-  English: ''
+  English: "\\8b\\93Fire spirit, Toast\n\"That's a shame."
   Comments: ''
 - Japanese: "\\8b\\96風の精霊・エア<br>「こんにちは。<br> あのね、風の精霊・エアなの。<br> あのね、おねがいがあるの。<br> あのね、<span class=\"red\">\\87\\f9</span>が<br> <span class=\"red\">枚</span>ほしいの。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\96Wind spirit, Air\n\"Hello. Hey, I'm the wind spirit, Air.\nHey, I have a favor to ask. Hey, I want\n\\8e<CC?> \\87\\f9\\8d."
+  Comments: Missing control code.
 - Japanese: "\\8b\\bfメース<br>「何度も聞いて申しわけないと<br> 思うけど‥‥‥‥<br> その<span class=\"red\">\\87\\d</span>を<br> こんにゃく様にプレゼントして<br> くれませんか?"
-  English: ''
+  English: "\\8b\\bfMace\n\"I'm sorry for asking you over and over\nbut...\nCould you give that \\8e\\87\\0d\\8d to the\nkonjac as a present?"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「うふふっ。<br> ま、こんなものよね。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"Hahaha. Well, that's how it is."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「カイゾクの宝って<br> <span class=\"red\">\\0\\eまつぼっくり</span>ですの！?"
   English: ''

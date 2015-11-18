@@ -128,6 +128,9 @@ People names:
 ベシャメル -- Bechamel Sauce
 アングレーズ -- Anglaise Sauce
 メース -- Mace (if there's no other character called nutmeg, that might be a better translation).
+カプチーノ -- Cappuccino
+パテシエ -- Patissier
+クガンデ -- Ukagned (Dengaku backwards)
 
 Other names:
 愛のデッパリ -- Baby bump (Not sure about this at all.)
