@@ -4546,31 +4546,31 @@
   English: "\\8b\\0d\\86\\03\n\"Hahaha. Well, that's how it is."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「カイゾクの宝って<br> <span class=\"red\">\\0\\eまつぼっくり</span>ですの！?"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"Is the pirate's treasure\n\\8e\\00\\0e Pinecones\\8d!?"
   Comments: ''
 - Japanese: "\\8b\\13\\86\\9<br>「<span class=\"red\">\\0\\eまつぼっくり</span>ヌ~！?<br> ドキドキしてソンしたヌ~！！"
-  English: ''
+  English: "\\8b\\13\\86\\09\n\"\\8e\\00\\0e Pinecones!?\\8d I got\nall excited over nothing!"
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「ひゅ~！！<br> <span class=\"red\">\\0\\eまつぼっくり</span>だって！?<br> リスかネズミにとっては<br> すごい宝物かも知れないけどね！"
-  English: ''
+  English: "\\8b\\15\\86\\0b\n\"What!? \\8e\\00\\0e Pinecones\\8d!?\nThis might be an amazing treasure to\nsquirrels or mice though!"
   Comments: ''
 - Japanese: "\\8b\\96風の精霊・エア<br>「ありがとう。<br> なかよくなりました。"
-  English: ''
+  English: "\\8b\\96Wind spirit, Air\n\"Thanks. We're friends now."
   Comments: ''
 - Japanese: "\\8b\\96風の精霊・エア<br>「あのね、たりないの。<br> またきてくださいね。"
-  English: ''
+  English: "\\8b\\96Wind spirit, Air\n\"Hey, it's not enough. Come back again."
   Comments: ''
 - Japanese: "\\8b\\96風の精霊・エア<br>「あらら。"
-  English: ''
+  English: "\\8b\\96Wind spirit, Air\n\"Oh my."
   Comments: ''
 - Japanese: "\\8b\\99愛の精霊・ウィッシュ<br>「あなたのハートの<br> ぬくもりを感じます。"
-  English: ''
+  English: "\\8b\\99Love spirit, Wish\n\"I can feel the warmth of your\nheart."
   Comments: ''
 - Japanese: "\\8b\\a0木の精霊・スティック<br>「オラ、木の精霊<br> スティックぐり。<br> <span class=\"red\">まつぼっくり</span>はオラの兄弟ぐり。<br> <span class=\"red\">まつぼっくり</span>を<span class=\"red\">個</span> オラに<br> わたすぐり。 "
-  English: ''
-  Comments: ''
+  English: "\\8b\\a0Tree spirit, Stick\n\"I'm the tree spirit, stick. \\8ePinecones\\8d\nare my siblings. Please give me \\8e<CC?>\nPinecones\\8d."
+  Comments: Missing control code
 - Japanese: "\\8b\\16\\86\\c<br>「\\0\\e<span class=\"red\">まつぼっくり</span>~！?<br> いや~ん がっかり~"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"\\8e\\00\\0e Pinecones!?\\8d\nWhat, that's such a disappointment."
   Comments: ''
 - Japanese: ''
   English: ''
@@ -4588,16 +4588,16 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\a0木の精霊・スティック<br>「ありがとうぐり。<br> オメェ、いいヤツぐり。"
-  English: ''
+  English: "\\8b\\a0Tree spirit, Stick\n\"Thanks. You're a good fella."
   Comments: ''
 - Japanese: "\\8b\\a0木の精霊・スティック<br>「たんねぇぐり。<br> 気持ちだけじゃダメぐり。"
-  English: ''
+  English: "\\8b\\a0Tree spirit, Stick\n\"That's not enough. It's not just\nabout the thought."
   Comments: ''
 - Japanese: "\\8b\\a0木の精霊・スティック<br>「あっさりと ことわられるのも<br> さびしいぐり。"
-  English: ''
+  English: "\\8b\\a0Tree spirit, Stick\n\"You make me lonely with how you\nturned me down so quickly."
   Comments: ''
 - Japanese: "\\8b\\9e音の精霊・ハミング<br>「こんにちは♪<br> 私、音の精霊・ハミング♪<br> <span class=\"red\">\\87\\fb</span>を<span class=\"red\">枚</span><br> 私にくれないかしら♪"
-  English: ''
+  English: "\\8b\\9eSound spirit, Humming\n\"Hello. I'm the sound spirit, Humming.\nWon't you give me \\8e<CC?> \\87\\fb\\8d?"
   Comments: ''
 - Japanese: ''
   English: ''
@@ -4618,25 +4618,25 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\9e音の精霊・ハミング<br>「ありがと~♪"
-  English: ''
+  English: "\\8b\\9eSound spirit, Humming\n\"Thanks."
   Comments: ''
 - Japanese: "\\8b\\9e音の精霊・ハミング<br>「たりない~♪"
-  English: ''
+  English: "\\8b\\9eSound spirit, Humming\n\"It's not enough."
   Comments: ''
 - Japanese: "\\8b\\9e音の精霊・ハミング<br>「つまんないな~♪"
-  English: ''
+  English: "\\8b\\9eSound spirit, Humming\n\"How boring."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「なんだか、木のニオイが<br> するっぴ。<br> うれしいような、<br> ドキドキするような、<br> とてもいいニオイだっぴ。<br> このあたり、何かあるっぴ！<br> 少し調べてみるっぴ！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"I smell some sort of tree. It's a\nreally nice smell that makes me happy\nand excited. There's something around here!\nLet's search around!"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「ブキミなニオイがするっぴ！！<br> 何かいるっぴ！！<br> 気をつけたほうがいいっぴ！！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"It smells ominous around here!\nSomething's here! We should be careful!"
   Comments: ''
 - Japanese: "\\8b\\9b毒の精霊・ブー<br>「<i>おこーんにーちワっ。<br> 毒の精霊・ブーざーんす。<br> たすけていただいて<br> 感謝するざ~んす。</i>"
-  English: ''
+  English: "\\8b\\9bPoison spirit, Boo\n\"Heeellooo. I'm the poison spirit Booooo.\nThanks for saving meeee."
   Comments: ''
 - Japanese: "\\8b\\9b毒の精霊・ブー<br>「<i>おこーんにーちワっ。<br> 毒の精霊・ブーざーんす。<br> ミーは、</i><span class=\"red\">\\87\\1f</span><i>が<br> 大好きなんざんす。<br> もし よろしかったら、<br> </i><span class=\"red\">\\87\\1f</span><i>を</i><span class=\"red\">個</span><i>ほど<br> ゆずってもらえないざんすか?</i>"
-  English: ''
+  English: "\\8b\\9bPoison spirit, Boo\n\"Heeellooo. I'm the poison spirit, Boooo.\nI looove \\8e\\87\\1f\\8d. If possible, could\nyou give meeeee \\8e<CC?> \\87\\1f\\8d?"
   Comments: ''
 - Japanese: ''
   English: ''
@@ -4654,19 +4654,19 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\9b毒の精霊・ブー<br>「<i>まぁ~ これはどうも<br> ありがと~ざ~んす。<br> アナタ、けっこー<br> イカしてるざ~んす。</i>"
-  English: ''
+  English: "\\8b\\9bPoison spirit, Boo\n\"Well, thaaanks for thissss.\nYou are quite a goooood guy."
   Comments: ''
 - Japanese: "\\8b\\9b毒の精霊・ブー<br>「<i>あらあらあらあら。<br> たりてないざんすよ~。<br> 持ってもいないのに<br> ミエはっちゃって。<br> お気持ちだけありがとうざんす。</i>"
-  English: ''
+  English: "\\8b\\9bPoison spirit, Boo\n\"Heeeeeyyyy, that's not enough.\nI can teeeell you don't have enoughhhh.\nThanks anywaaaayyyys."
   Comments: ''
 - Japanese: "\\8b\\9b毒の精霊・ブー<br>「<i>あらあら、ざんねんざんす。<br> しーゆーあげ~ん。<br> またね~。</i>"
-  English: ''
+  English: "\\8b\\9bPoison spirit, Boo\n\"What a shaaame. Seeeee yooouuu\nagain. Byeeeee."
   Comments: ''
 - Japanese: "\\8b\\9d美の精霊・パウダー<br>「われは 美の精霊・パウダー‥‥<br> そなたに感謝する‥‥"
-  English: ''
+  English: "\\8b\\9dBeauty spirit, Powder\n\"I am the beauty spirit Powder...\nI am indebted to you..."
   Comments: ''
 - Japanese: "\\8b\\9d美の精霊・パウダー<br>「われは 美の精霊・パウダー‥‥<br> われは のぞむ‥‥<br> そなたが<span class=\"red\">\\87\\fe</span>を<span class=\"red\">個</span><br> われにあたえんことを‥‥"
-  English: ''
+  English: "\\8b\\9dBeauty spirit, Powder\n\"I am the beauty spirit Powder...\nWhat I desire is...\nfor you to give me \\8e<CC?> \\87\\fe\\8d..."
   Comments: ''
 - Japanese: ''
   English: ''
@@ -4682,21 +4682,21 @@
   Comments: ''
 - Japanese: ''
   English: ''
-  Comments: ''
+  Comments: "What's with these blanks? Are they missing control codes?"
 - Japanese: "\\8b\\9d美の精霊・パウダー<br>「そなたは われの<br> しんらいを得た‥‥"
-  English: ''
+  English: "\\8b\\9dBeauty spirit, Powder\n\"You have gained my trust..."
   Comments: ''
 - Japanese: "\\8b\\9d美の精霊・パウダー<br>「持っていないではないか‥‥<br> 己を知れ、愚か者よ‥‥"
-  English: ''
+  English: "\\8b\\9dBeauty spirit, Powder\n\"You don't have enough do you...\nYou miserable fool..."
   Comments: ''
 - Japanese: "\\8b\\9d美の精霊・パウダー<br>「<i>そなたに 呪いあれ‥‥</i>"
-  English: ''
+  English: "\\8b\\9dBeauty spirit, Powder\n\"I will curse you..."
   Comments: ''
 - Japanese: "\\8b\\9c刃の精霊・スラッシュ<br>「ありがたい、若者よ。<br> たすかりもうした。"
-  English: ''
+  English: "\\8b\\9cBlade spirit, Slash\n\"Thank you, young one. You've saved me."
   Comments: ''
 - Japanese: "\\8b\\9c刃の精霊・スラッシュ<br>「それがしは 刃の精霊<br> 名はスラッシュ。<br> 戦いの時、力になってやる<br> かわりに、<span class=\"red\">\\87\\fd</span>を<br> <span class=\"red\">枚</span>いただきたい。"
-  English: ''
+  English: "\\8b\\9cBlade spirit, Slash\n\"I am the blade spirit, Slash.\nIn exchange for lending you my power\nduring battle, I'd like \\8e<CC?> \\87\\fd\\8d."
   Comments: ''
 - Japanese: ''
   English: ''
