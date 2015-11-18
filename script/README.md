@@ -3,6 +3,7 @@ Translation Notes
 *Cider is a romanticist. He should sound a bit like Shakespeare.
 *Candy is a valley girl.
 *Kirsche is a hothead. Maybe it makes sense to sound a bit like a cowboy, idk.
+*Maybe "ancient spirit" should be "antiquity spirit"?
 
 
 Script Addresses

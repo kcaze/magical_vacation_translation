@@ -4846,7 +4846,7 @@
   English: "\\8b\\9aElectric spirit, Tesla\n\"Craaackle crackle crackle!\nI'm the electric spirit Tesla.\nThanks for saving me!"
   Comments: ''
 - Japanese: "\\8b\\9a雷の精霊・テスラ<br>「びーかびかびかびかびかびか！<br> オイラ、雷の精霊・テスラ。<br> <span class=\"red\">\\87\\fc</span>を集めてるびか！<br> <span class=\"red\">枚</span>ばかし ゆずってほしい<br> びかびかっ！"
-  English: ''
+  English: "\\8b\\9aElectric spirit, Tesla\n\"Craaackle crackle crackle!\nI'm the electric spirit Tesla. You've\nbeen collecting \\8e\\87\\fc\\8d haven't you!\nWould you mind giving me \\8e<CC?>\\8d?\nCrackle!"
   Comments: ''
 - Japanese: ''
   English: ''
@@ -4864,19 +4864,19 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\9a雷の精霊・テスラ<br>「びーかびかびかびかびかびか！！<br> 感謝感謝感謝感謝感謝感謝ッ！！"
-  English: ''
+  English: "\\8b\\9aElectric spirit, Tesla\n\"Craaackle crackle crackle!\nThaaanks thanks thanks!"
   Comments: ''
 - Japanese: "\\8b\\9a雷の精霊・テスラ<br>「たりないびか。<br> ちゃんと数えろでびか。"
-  English: ''
+  English: "\\8b\\9aElectric spirit, Tesla\n\"That's not enough. Make sure you\ncount properly. Crackle."
   Comments: ''
 - Japanese: "\\8b\\9a雷の精霊・テスラ<br>「びーかびかびかびかびかびか！！<br> 帰るッ！！"
-  English: ''
+  English: "\\8b\\9aElectric spirit, Tesla\n\"Craaackle crackle crackle! Go home!"
   Comments: ''
 - Japanese: "\\8b\\9f古の精霊・クロック<br>「ありがとうございます。<br> 私は古の精霊・クロック。<br> 『古』は『いにしえ』と<br> 読みもうす。<br> おぼえておいてくだされ。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\9fAncient spirit, Clock\n\"Thank you very much. I am the ancient\nspirit Clock. \"Ancient\" means \"old\".\nPlease remember that."
+  Comments: 'How about changing it to "Antiquity spirit"?'
 - Japanese: "\\8b\\9f古の精霊・クロック<br>「こんにちは。<br> 私は古の精霊・クロック。<br> <span class=\"red\">\\87\\f8</span>をごぞんじかな?<br> あれは、我らがまだ若かった頃、<br> ベナコンチャの民が作ったもの。<br> 近頃はあまり見なくなったが、<br> もし持っておられるなら、<br> <span class=\"red\">枚</span>おゆずり願えないか?"
-  English: ''
+  English: "\\8b\\9fAncient spirit, Clock\n\"Hello. I am the ancient spirit, Clock.\nDo you know of \\8e\\87\\f8s\\8d?\nThey are created by the people of Wetsomus\nwhen I was still young. I haven't seen very\nmany of them around recently, so if you have\nany, could I ask you to give me \\8e<CC?>\\8d\nof them?"
   Comments: ''
 - Japanese: ''
   English: ''
@@ -4894,109 +4894,175 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\9f古の精霊・クロック<br>「ありがたい。<br> あなたは大切な友達だ。"
-  English: ''
+  English: "\\8b\\9fAncient spirit, Clock\n\"Thank you. You are an important\nfriend of mine."
   Comments: ''
 - Japanese: "\\8b\\9f古の精霊・クロック<br>「持っておられぬか。<br> ふむ。"
-  English: ''
+  English: "\\8b\\9fAncient spirit, Clock\n\"You don't have enough do you. I see."
   Comments: ''
 - Japanese: "\\8b\\9f古の精霊・クロック<br>「さようか。<br> それもよろしかろう。"
-  English: ''
+  English: "\\8b\\9fAncient spirit, Clock\n\"Is that so? Very well then."
   Comments: ''
 - Japanese: "\\8b\\97光の精霊・ルクス<br>「闇にそまらぬものにだけ<br> 力を貸しましょう。"
-  English: ''
+  English: "\\8b\\97Light spirit, Lux\n\"I will only lend my power to those\nwho have not been tainted by darkness."
   Comments: ''
 - Japanese: "\\8b\\97光の精霊・ルクス<br>「あなたには けがれなき<br> ハートがやどっています。"
-  English: ''
+  English: "\\8b\\97Light spirit, Lux\n\"Your body houses a pure heart."
   Comments: ''
 - Japanese: "\\8b\\97光の精霊・ルクス<br>「あなたは闇を知りすぎました。"
-  English: ''
+  English: "\\8b\\97Light spirit, Lux\n\"You are steeped in darkness."
   Comments: ''
 - Japanese: "\\8b\\bb愛のかりゅうど<br>「こんにちは。<br> 愛のかりゅうどです。<br> このへんには、<span class=\"red\">精霊</span>がたくさん<br> いたのですが、エニグマの魔力で<br> 姿を変えられてしまいました。<br> 今では<span class=\"red\">精霊</span>たちは、<br> みにくい<span class=\"red\">どーどー</span>の姿に<br> なりはてています。<br> 私は、彼らをもとの姿にもどす<br> 魔法が使えるのですが、彼らは<br> 人をおそれています。<br> 近よるに近よれず、<br> こうしてつったっているのです。<br> ああ、だれか‥‥、<br> あのどーどーを、私のそばまで<br> おいたててくれないかなぁ。"
-  English: ''
+  English: "\\8b\\bbHunter of Love\n\"Hello. I'm a Hunter of Love.\nThere are a lot of \\8espirits\\8d around\nhere, but they've all been transformed by\nEnigmas. Right now, the \\8espirits\\8d have\nturned into ugly \\8edodos\\8d. My magic is\nable to return them to their original form,\nbut they are afraid of humans. They come\nclose, but not too close.\nOh, won't someone...\nbring these dodos to my side?"
   Comments: ''
 - Japanese: ''
   English: ''
   Comments: ''
 - Japanese: "\\8b\\c6謎のピップル<br>「ちっくしょう‥‥<br> 宝箱の場所はわかってっから<br> 門さえ開けば なんとか<br> なるんだけどなぁ‥‥<br> ブツブツ‥‥ "
-  English: ''
-  Comments: ''
+  English: "\\8b\\c6Shady Mauss\n\"Darn it...\nI know where the treasure chests are so\nif I could only open the gate...\n*grumble**grumble*..."
+  Comments: "I'm not really sure if \"Mausses\" is like the plural for their race and \"Mauss\" the singular or what. The pun doesn't really work unless you use \"The Mausses\"."
 - Japanese: "\\8b\\c6謎のピップル<br>「ジャマだ！<br> のけ！"
-  English: ''
+  English: "\\8b\\c6Shady Mauss\n\"You! Outta my way!"
   Comments: ''
 - Japanese: '  ピスタチオ登場<br>  シナモン登場<br>  キャンセル'
-  English: ''
-  Comments: ''
+  English: |-
+    Pistachio
+    Cinnamon
+    Cancel
+  Comments: 'Probably missing control code. Also, idk context.'
 - Japanese: '  ニセアランシア<br>  カシス登場<br>  キャンセル'
-  English: ''
+  English: |-
+    Fake Arancia
+    Cassis
+    Cancel
   Comments: ''
 - Japanese: '  トルーナ村<br>  メース、だめ<br>  キャンセル'
-  English: ''
+  English: |-
+    Oturan Village
+    Mace, no
+    Cancel
   Comments: ''
 - Japanese: '  殺人事件発生<br>  メース決心<br>  キャンセル'
-  English: ''
-  Comments: ''
+  English: |-
+    Murder scene
+    Mace's determination
+    Cancel
+  Comments: Are these debug menu things perhaps????
 - Japanese: '  ミルフィーユの案内・村<br>  メース、しおしお<br>  キャンセル'
-  English: ''
+  English: |-
+    Mille-feuille's tour, village
+    Mace, dejected
+    Cancel
   Comments: ''
 - Japanese: '  ミルフィーユの案内・遺跡<br>  ニャムネルトの村<br>  キャンセル'
-  English: ''
+  English: |-
+    Mille-feuille's tour, ruins
+    Felin village
+    Cancel
   Comments: ''
 - Japanese: '  ミルフィーユの案内・ボス<br>  どーどーラスト<br>  キャンセル'
-  English: ''
-  Comments: ''
+  English: |-
+    Mille-feuille's tour, boss
+    Last dodo
+    Cancel
+  Comments: "Okay, I'm pretty sure this is a debug menu thing. Yay!!!!"
 - Japanese: '  トルーナでの結まつ<br>  ガナッシュ組、シードル脱落<br>  キャンセル'
-  English: ''
+  English: |-
+    Oturan conclusion
+    Ganache's group, Cider's fall
+    Cancel
   Comments: ''
 - Japanese: '  文鳥ケ原<br>  セサミ仲間<br>  キャンセル'
-  English: ''
-  Comments: ''
+  English: |-
+    Ricebird plains
+    Sesame joins
+    Cancel
+  Comments: DEBUG
 - Japanese: '  ガトーの家<br>  エニグマの森で<br>  キャンセル'
-  English: ''
+  English: |-
+    Gateau's house
+    Enigma Forest
+    Cancel
   Comments: ''
 - Japanese: '  宮殿入り口（フラグOK）<br>  MD０２仲間になる<br>  キャンセル'
-  English: ''
+  English: |-
+    Palace entrance (flag OK)
+    MD-02 joins
+    Cancel
   Comments: ''
 - Japanese: '  ムスコのけいこく<br>  きょーふのツボ空間<br>  キャンセル'
-  English: ''
+  English: |-
+    Sonny's warning
+    Pot of fear's space
+    Cancel
   Comments: ''
 - Japanese: '  ペシュ、仲間に<br>  <br>  キャンセル'
-  English: ''
+  English: |-
+    Peche joins
+
+    Cancel
   Comments: ''
 - Japanese: '  ブルーベリー、仲間に<br>  <br>  キャンセル'
-  English: ''
+  English: |-
+    Blueberry joins
+
+    Cancel
   Comments: ''
 - Japanese: '  レモン、仲間に<br>  <br>  キャンセル'
-  English: ''
+  English: |-
+    Lemon joins
+
+    Cancel
   Comments: ''
 - Japanese: '  ブッチーネ３せい<br>  <br>  キャンセル'
-  English: ''
+  English: |-
+    Puccini the 3rd
+
+    Cancel
   Comments: ''
 - Japanese: '  ラッシー登場<br>  <br>  キャンセル'
-  English: ''
+  English: |-
+    Lassi's appearance
+
+    Cancel
   Comments: ''
 - Japanese: '  チーズの塔１F<br>  <br>  キャンセル'
-  English: ''
+  English: |-
+    Cheese tower 1F
+
+    Cancel
   Comments: ''
 - Japanese: '  チーズの塔最上階<br>  <br>  キャンセル'
-  English: ''
+  English: |-
+    Cheese tower top floor
+
+    Cancel
   Comments: ''
 - Japanese: '  ドワーフの塔手前<br>  <br>  キャンセル'
-  English: ''
+  English: |-
+    Dwarf tower's entrance
+
+    Cancel
   Comments: ''
 - Japanese: '  ドワーフの塔てっぺん<br>  <br>  キャンセル'
-  English: ''
+  English: |-
+    Dwarf tower summit
+
+    Cancel
   Comments: ''
 - Japanese: '  魔バス<br>  <br>  キャンセル'
-  English: ''
+  English: |-
+    Magic Bus
+
+    Cancel
   Comments: ''
 - Japanese: "\\8b\\c6謎のピップル<br>「ちっくしょう‥‥<br> 宝箱、見えてるのに‥‥"
-  English: ''
+  English: "\\8b\\c6Shady Mauss\n\"Darn it...\nI can see the chest..."
   Comments: ''
 - Japanese: "\\8b\\c6謎のピップル<br>「ひとがねらってた宝箱を<br> とるんじゃねぇぜ。"
-  English: ''
+  English: "\\8b\\c6Shady Mauss\n\"Don't take chests other people have\nhad their eyes on."
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\0\\eまつぼっくり</span>をひろった！"
-  English: ''
+  English: "\nPicked up a \\8e\\00\\0e Pinecone\\8d!"
   Comments: ''
 - Japanese: "\\8b\\b9愛の大使<br>「この上には\\0\\e<span class=\"red\">まつぼっくり</span>が<br> たくさん落ちてるんだ。<br> まつぼっくりが欲しいなら<br> 上がってもいいだろうが、<br> 他にはなんにもねぇぞ。<br> まぁ、期待はせんことだ。"
   English: ''
