@@ -131,6 +131,11 @@ People names:
 カプチーノ -- Cappuccino
 パテシエ -- Patissier
 クガンデ -- Ukagned (Dengaku backwards)
+フランボワーズ -- Framboise
+ラズベリー -- Raspberry
+チキータ -- Chiquita (banana brand)
+マンゴスチン -- Mangosteen
+ドロ -- Syrup?
 
 Other names:
 愛のデッパリ -- Baby bump (Not sure about this at all.)

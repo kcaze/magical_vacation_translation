@@ -5065,46 +5065,46 @@
   English: "\nPicked up a \\8e\\00\\0e Pinecone\\8d!"
   Comments: ''
 - Japanese: "\\8b\\b9愛の大使<br>「この上には\\0\\e<span class=\"red\">まつぼっくり</span>が<br> たくさん落ちてるんだ。<br> まつぼっくりが欲しいなら<br> 上がってもいいだろうが、<br> 他にはなんにもねぇぞ。<br> まぁ、期待はせんことだ。"
-  English: ''
+  English: "\\8b\\b9Envoy of Love\n\"There's a lot of \\8e\\00\\0e Pinecones\\8d\nstrewn about above. If you want pinecones\nthen head on up, but there's nothing else\nthere. At least, don't expect anything else."
   Comments: ''
 - Japanese: "\\8b\\b9愛の大使<br>「最近、モンスターが増えたので<br> 見まわっているのだ。<br> このへんに出てくるモンスターで<br> 気をつけなきゃならないのは‥‥<br> <span class=\"red\">アロリーナ</span>、<span class=\"red\">ベルチャーム</span>、<br> <span class=\"red\">ノーマジーン</span>、この３種類。<br> コイツらには魔法がきかないから<br> キックでたおすのだ。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\b9Envoy of Love\n\"Recently, there's been an increase in\nmonsters so I've been keeping watch.\nThe monsters you need to be careful of\naround here are...\n\\8eArolina, Bellcham, Normjin\\8d, these 3.\nMagic isn't effective against them, so use\nyour kicks to take them down."
+  Comments: Need to finalize monster names.
 - Japanese: "<br>  <span class=\"red\">\\87\\f8</span>をひろった！"
-  English: ''
+  English: "\nPicked up \\8e\\87\\f8\\8d!"
   Comments: ''
 - Japanese: ''
   English: ''
   Comments: ''
 - Japanese: "\\8b\\c8MD職人・フランボワーズ<br>「オレら、<span class=\"red\">キード・モンガ</span>で<br> マジックドールさ作ってただよ。<br> だども、新しいボスの考えで<br> マジックドールはもう作らね<br> っつーことになってよ、<br> みんなクビになっただ。"
-  English: ''
+  English: "\\8b\\c8MD Artisan, Framboise\n\"I created Magic Dolls at \\8eIko Domnag\\8d.\nBut the new boss doesn't want to create\nMagic Dolls so we've all lost our jobs."
   Comments: ''
 - Japanese: "\\8b\\c8MD職人・ラズベリー<br>「マジックドールの素材の<br> 組み合わせにゃあなぁ<br> ベストな組み合わせって<br> ものはないんだ。<br> <span class=\"red\">パワー倍率</span>が２００％だと、<br> 能力値は、<span class=\"red\">入魂</span>したヤツの<br> 能力の２倍になる。<br> だども、実際には、能力値から<br> <span class=\"red\">必要パワー</span>を引いた値の２倍だか<br> ら、２倍にゃなんねぇ。<br> たとえば、<span class=\"red\">必要パワー</span>が２０<br> <span class=\"red\">パワー倍率</span>２００％のMDに<br> 力２５のヤツを<span class=\"red\">入魂</span>したとする。<br> そうすると、MDの力は<br> （２５－２０）Ｘ２００％で<br> １０にしかならん。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\c8MD Artisan, Raspberry\n\"There's no one best way to combine\nthe parts for a Magic Doll. If the\n\\8ePower Multiplier\\8d is 200%, then\nthe it'll have 2 times the power of the\nsoul used to \\8ebewitch\\8d it. But, you need\nto subtract the \\8ePower Requirement\\8d first,\nso you won't actually get 2 times the power.\nFor example, if you had a \\8ePower Requirement\\8d\nof 20 and a \\8ePower Multiplier\\8d of 200% and\n\\8ebewitched\\8d your Magic Doll with a soul with\n25 power, then the Magic Doll's power would be\n(25-20)*200% which only equals 10."
+  Comments: Need to standardize magic doll terms.
 - Japanese: "\\8b\\c8MD職人・クランベリー<br>「マジックドールに<span class=\"red\">入魂</span>する時は<br> 装備のぶんは関係ねぇんだ。<br> いいもん装備して、強くなった<br> つもりでも、中身がヘボければ<br> マジックドールにゃ反映されね。<br> キモに命じとけな。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\c8MD Artisan, Cranberry\n\"The equipment of the soul you \\8ebewitch\\8d\na Magic Doll with doesn't matter. Even if\nyou equipped the soul with good equipment,\nit won't be reflected in your Magic Doll.\n"
+  Comments: This is hard to translate. Omitted the last sentence currently.
 - Japanese: "\\8b\\c8MD職人・マンゴー<br>「素材は、どれが良くて、どれが<br> 悪いとはイチガイに言えねぇ。<br> できるだけ、同じような<br> グレードでそろえた方が<br> ええだな。<br> ヘボい素材はヘボい素材と<br> 組み合わせたほうが、むしろ<br> ちゃんと使えたりする。<br> 素材がヘボいか、良品だかは<br> <span class=\"red\">ヘルプ</span>で見るとええ。"
-  English: ''
+  English: "\\8b\\c8MD Artisan, Mango\n\"There's no rule for which parts are good\nand which are bad. If possible, you should\ncombine parts that are of the same quality.\nIf you combine poor parts with poor parts,\nyou'll find it quite usable. To check the\nquality of a part, you should look at the\n\\8ehelp\\8d menu."
   Comments: ''
 - Japanese: "\\8b\\c8MD職人・ライチ<br>「<span class=\"red\">シェル</span>は全部で８種類あるだ。<br> ヘボいモンから順に<br>  １ <span class=\"red\">\\87\\65</span><br>  ２ <span class=\"red\">\\87\\66</span><br>  ３ <span class=\"red\">\\87\\67</span><br>  ４ <span class=\"red\">\\87\\68</span><br>  ５ <span class=\"red\">\\87\\69</span><br>  ６ <span class=\"red\">\\87\\6a</span><br> あとは、なんだったかな?<br> 忘れただ。"
-  English: ''
+  English: "\\8b\\c8MD Artisan, Lychee\n\"There are 8 types of \\8eshells\\8d.\nIn increasing order of quality they are\n1 \\8e\\87\\65\\8d\n2 \\8e\\87\\66\\8d\n3 \\8e\\87\\67\\8d\n4 \\8e\\87\\68\\8d\n5 \\8e\\87\\69\\8d\n6 \\8e\\87\\6a\\8d\nWhat came next again? I forgot."
   Comments: ''
 - Japanese: "\\8b\\c8MD職人・チキータ<br>「<span class=\"red\">ジェム</span>は全部で８種類あるだ。<br> ヘボいモンから順に<br>  １ <span class=\"red\">\\87\\6d</span><br>  ２ <span class=\"red\">\\87\\6e</span><br>  ３ <span class=\"red\">\\87\\6f</span><br>  ４ <span class=\"red\">\\87\\70</span><br>  ５ <span class=\"red\">\\87\\71</span><br>  ６ <span class=\"red\">\\87\\72</span><br> あとは、なんだったかな?<br> 忘れただ。"
-  English: ''
+  English: "\\8b\\c8MD Artisan, Chiquita\n\"There are 8 types of \\8egems\\8d.\nIn increasing order of quality they are\n1 \\8e\\87\\6d\\8d\n2 \\8e\\87\\6e\\8d\n3 \\8e\\87\\6f\\8d\n4 \\8e\\87\\70\\8d\n5 \\8e\\87\\71\\8d\n6 \\8e\\87\\72\\8d\nWhat came next again? I forgot."
   Comments: ''
 - Japanese: "\\8b\\c8MD職人・パイナポー<br>「MDに使える<span class=\"red\">フルーツ</span>は、<br> ヘボいほうから順に<br>  １ <span class=\"red\">\\87\\75</span><br>  ２ <span class=\"red\">\\87\\76</span><br>  ３ <span class=\"red\">\\87\\77</span><br>  ４ <span class=\"red\">\\87\\78</span><br>  ５ <span class=\"red\">\\87\\79</span><br>  ６ <span class=\"red\">\\87\\7a</span><br> あと２つくれぇあったような<br> 気がするが、忘れただ。"
-  English: ''
+  English: "\\8b\\c8MD Artisan, Pineapple\n\"There are 8 types of \\8efruits\\8d Magic Dolls\ncan use. In increasing order of quality they are\n1 \\8e\\87\\75\\8d\n2 \\8e\\87\\76\\8d\n3 \\8e\\87\\77\\8d\n4 \\8e\\87\\78\\8d\n5 \\8e\\87\\79\\8d\n6 \\8e\\87\\7a\\8d\nI feel like there were 2 more, but I forgot what\nthey were."
   Comments: ''
 - Japanese: "\\8b\\c8MD職人・マンゴスチン<br>「<span class=\"red\">キララ</span>は、グレードが５段階<br> あって、ヘボい順で言うと‥‥<br>  １ <span class=\"red\">\\87\\7d</span><br>  ２ <span class=\"red\">\\87\\7e</span><br>  ３ <span class=\"red\">\\87\\7f</span><br> あとのニつは、見ればそれと<br> わかるだ。<br> 最高のキララは輝いてるだ。"
-  English: ''
+  English: "\\8b\\c8MD Artisan, Mangosteen\n\"There are 5 grades of \\8emica\\8d Magic Dolls\ncan use. In increasing order of quality they are\n1 \\8e\\87\\7d\\8d\n2 \\8e\\87\\7e\\8d\n3 \\8e\\87\\7f\\8d\nThere are 2 more that I'd recognize if I\nsaw them. The best mica glitters."
   Comments: ''
 - Japanese: "\\8b\\c8MD職人・フィグ<br>「<span class=\"red\">ガット</span>は、グレードが５段階<br> あって、ヘボい順で言うと‥‥<br>  １ <span class=\"red\">\\87\\82</span><br>  ２ <span class=\"red\">\\87\\83</span><br>  ３ <span class=\"red\">\\87\\84</span><br> あとニつほどあるらしいが、<br> オラ、見たことね。"
-  English: ''
+  English: "\\8b\\c8MD Artisan, Fig\n\"There are 5 grades of \\8egut\\8d Magic Dolls\ncan use. In increasing order of quality they are\n1 \\8e\\87\\82\\8d\n2 \\8e\\87\\83\\8d\n3 \\8e\\87\\84\\8d\nThere are two more, but I've never seen\nthem."
   Comments: ''
 - Japanese: "\\8b\\c8MD職人・カカオ<br>「MDは個体によって<br> ちょっとずつ個性があるだ。<br> MD０５－サーディンは、<br> 速さがちょっと速ぇんだな。<br> 闇のプレーンに行っちまった<br> ドロっつーのが作ったMDは<br> 別の能力が高かったべさ。"
-  English: ''
+  English: "\\8b\\c8MD Artisan, Cocoa\n\"Each Magic Doll has is a bit different\nin its own way. MD-05 Sardine's speed\nis a bit faster than normal. Syrup, who\nwent to the Plane of Darkness, made other\nMagic Dolls that are stronger in other\nareas."
   Comments: ''
 - Japanese: ''
   English: ''
@@ -5122,19 +5122,19 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\b5パペット族の通りすがり<br>「あらあら、今日はみかけない人に<br> よく会う日だわ。"
-  English: ''
+  English: "\\8b\\b5Puppet Passerby\n\"Today I've been meeting a lot of\nunfamiliar faces."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「??????<br> パペットだっぴか！?"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"???\nPuppet!?"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「この先に、パペットが住んでる<br> <span class=\"red\">トルーナ村</span>があるの。<br> きっと、そこの人よ。"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Ahead is the puppet's village, \\8eOturan\nVillage\\8d. It must be someone from there."
   Comments: ''
 - Japanese: "\\8b\\b5パペット族の通りすがり<br>「まぁ、よくごぞんじですこと。<br> さっき、黒いフードをかぶった<br> 人を<span class=\"red\">トルーナ村</span>でみかけたけど<br> その人のお知り合い?"
-  English: ''
+  English: "\\8b\\b5Puppet Passerby\n\"Yes, I do know about it. I saw\nsomeone in \\8eOturan Village\\8d with\na black hood on. Are you acquaintances\nwith that person?"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「黒いフード?<br> ガナッシュだっぴ！！<br> ガナッシュがいるっぴ！！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"A black hood? It's Ganache! Ganache\nis here!"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「たぶんガナッシュだわ！<br> 私たちの友達です！<br> ほかには、誰か‥‥‥‥<br> 私たちくらいの歳の子、<br> 見ませんでした?"
   English: ''
