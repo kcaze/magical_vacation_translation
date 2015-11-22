@@ -17,6 +17,9 @@ lsl r1, r1, 0x05
 .org 0x0800BFD0
 add r1, 0x20
 
+.org 0x080BD5C8
+lsr r1, r1, 0x0B
+
 .org 0x087DFA50
 .incbin names/item_names.bin
 

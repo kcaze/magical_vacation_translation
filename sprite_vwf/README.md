@@ -86,3 +86,11 @@ this is actually a reference to the stack. In particular, [sp, 0x0C] is where th
 address is...
 
 0x000B6842 is where the address of the next glyph is incremented and updated.
+
+
+80B1B72 to 80B1BA4 does sprite drawing for item icons
+80B5E0A is roughly the area where sprite drawing is done for item names.
+0x3007E48 is where the glyphs for item names is stored.
+item names are stored as tiles, not sprites!
+
+The only sprite things are in the menu. Most other text are tiles.
