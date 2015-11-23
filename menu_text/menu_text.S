@@ -2,7 +2,7 @@
 .open "hacked.gba", 0x08000000
 
 ; Insert translated menu text
-.org 0x087C25C4
+.org 0x087C229C
 .incbin menu_text/menu_text.bin
 
 ; Disable the check that aborts drawing if a glyph has value > 0x0FFF
@@ -14,9 +14,10 @@ b 0x80B65C4
 .org 0x080B681C
 add r0, 0x10
 
-;---------------------------------------------;
-; Hijack the routine at 0x080BEBD8 to use ours.
-;---------------------------------------------;
+; NOTE: Registers that can't be modified: r1, r4, r5, r6, r13.
+; If any of these are modified, then things break when we return.
+
+; Hijack the routine at 0x080BEBD8 to jump to ours
 .org 0x080BEBE0
 mov r2, 0x08
 lsl r2, r2, 0x08
@@ -27,8 +28,8 @@ lsl r2, r2, 0x08
 add r2, 0x00
 mov r15, r2
 
+; Our custom drawing routine
 .org 0x087E1B00
-; Registers that can't be touched: r1, r4, r5, r6, r13.
 glyph1:
 mov r2, r3
 lsr r2, 0x08
@@ -65,6 +66,7 @@ return:
   add r5, sp, 0x10 ; Necessary in the original function, but branched over.
   ldr r0, =0x080BEC0C
   mov r15, r0
+  
 .pool
 
 .close

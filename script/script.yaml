@@ -5137,172 +5137,174 @@
   English: "\\8b\\18\\86\\0e\n\"A black hood? It's Ganache! Ganache\nis here!"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「たぶんガナッシュだわ！<br> 私たちの友達です！<br> ほかには、誰か‥‥‥‥<br> 私たちくらいの歳の子、<br> 見ませんでした?"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"It's probably Ganache! He's our\nfriend! Who else was there...\nDid you see someone else around our\nage?"
   Comments: ''
 - Japanese: "\\8b\\b5パペット族の通りすがり<br>「そうね‥‥‥‥<br> このへんでは見かけないけど、<br> <span class=\"red\">ワクティ村</span>のあたりで<br> 見かけたって人がいたわよ。"
-  English: ''
+  English: "\\8b\\b5Puppet Passerby\n\"Hmm...\nI haven't seen anyone like you around\nhere, but someone has in \\8eHot Tea Village\\8d."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「<span class=\"red\">ワクティ村</span>?"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"\\8eHot Tea Village\\8d?"
   Comments: ''
 - Japanese: "\\8b\\b5パペット族の通りすがり<br>「<span class=\"red\">愛の大使</span>の村よ。<br> <span class=\"red\">トルーナ村</span>からは、<br> <span class=\"red\">ベナコンチャ遺跡</span>を<br> 通り抜けて行くの。"
-  English: ''
+  English: "\\8b\\b5Puppet Passerby\n\"The village of the \\8eEnvoys of Love\\8d.\nYou can get there from \\8eOturan Village\\8d\nby cutting through the \\8eWetsomus Ruins\\8d."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「<span class=\"red\">ベナコンチャ遺跡</span>?"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"\\8eWetsomus Ruins\\8d?"
   Comments: ''
 - Japanese: "\\8b\\b5パペット族の通りすがり<br>「<span class=\"red\">トルーナ村</span>の西にある、<br> 古代遺跡よ。<br> <span class=\"red\">トルーナ村</span>の南から出ると<br> 行けるわ。"
-  English: ''
+  English: "\\8b\\b5Puppet Passerby\n\"They're some ancient ruins to the west\nof \\8eOturan Village\\8d. You can get there\nfrom \\8eOturan Village\\8d's south exit."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「<span class=\"red\">トルーナ村</span>‥‥‥‥<br> <span class=\"red\">ベナコンチャ遺跡</span>‥‥‥‥<br> <span class=\"red\">ワクティ村</span>‥‥‥‥<br> アタマ、こんぐらがって<br> きたっぴ！！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"\\8eOturan Village\\8d...\n\\8eWetsomus Ruins\\8d...\n\\8eHot Tea Village\\8d...\nMy head's spinning!"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「うーん‥‥‥‥<br> ちょっとコンランしてるけど、<br> <span class=\"red\">トルーナ村</span>にガナッシュが<br> いるのはまちがいなさそうね。<br> 行きましょう！"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Hmm...\nI'm a little disoriented but it looks\nlike Ganache is definitely at \\8eOturan\nVillage\\8d. Let's go then!"
   Comments: ''
 - Japanese: "\\8b\\b5パペット族の通りすがり<br>「ここのすぐ南が<span class=\"red\">トルーナ村</span>。<br> パペットの村よ。<br> トルーナの南から、<span class=\"red\">古代遺跡<br> ベナコンチャ</span>を抜けて、<br> <span class=\"red\">ワクティ村</span>へ行けるわ。"
-  English: ''
+  English: "\\8b\\b5Puppet Passerby\n\"\\8eOturan Village\\8d is south of here.\nIt's the puppet's village. Going south of\n\\8eOturan Village\\8d and cutting through\n\\8eWetsomus Ruins\\8d will get you to\n\\8eHot Tea Village\\8d."
   Comments: ''
 - Japanese: ''
   English: ''
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「ふぁぁぁ‥‥‥。<br> ごめんなさい‥‥‥‥。<br> 先生、ちょっとだけ<br> 横になるね‥‥‥‥。"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\n\"Oof...\nSorry...\nI need to just rest for a little bit..."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「先生！?<br> どうかしましたの！?<br> だいじょうぶですの！?"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"Miss Madeleine!? What's wrong!?\nAre you okay!?"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「つかれてるんだよ。<br> そっとしてやりな。"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"She's just tired. Let her be."
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「一人で闇のプレーンを<br> 走り回ってたからね。<br> しばらくは、ボクらだけで<br> やってみようよ。"
-  English: ''
+  English: "\\8b\\15\\86\\0b\n\"She's been running around the Plane\nof Darkness all by herself. It'll be\nup to us for the time being."
   Comments: ''
 - Japanese: "\\8b\\13\\86\\9<br>「キャンディとガナッシュを<br> さがしに行くヌ~。"
-  English: ''
+  English: "\\8b\\13\\86\\09\n\"Let's go find Candy and Ganache."
   Comments: ''
 - Japanese: "\\8b\\b4ティラミス<br>「金が足りないようだな。<br> また あとで来な。"
-  English: ''
+  English: "\\8b\\5Tiramisu\n\"You don't have enough money. Come\nback again."
   Comments: ''
 - Japanese: '<br>   お金が足りないみたい。'
-  English: ''
+  English: |-
+
+    It looks like you don't have enough money.
   Comments: ''
 - Japanese: ' カウンターに<span class="red">５ブラー</span>置いて<br> 勝手に泊まって行きますか?'
-  English: ''
+  English: "Leave \\8e5 bura\\8d on the counter\nand stay the night?"
   Comments: ''
 - Japanese: "\\8b\\ce古代機械<br>「<i>シンニュウシャ ハッケン‥‥<br> シンニュウシャ ハッケン‥‥</i>"
-  English: ''
+  English: "\\8b\\ceAncient Machine\n\"Intruder alert! Intruder alert!"
   Comments: ''
 - Japanese: "\\8b\\ce古代機械<br>「<i>プシュ~‥‥</i>"
-  English: ''
-  Comments: ''
+  English: "\\8b\\ceAncient Machine\n\"Oof..."
+  Comments: 'Trying to incorporate "oof" more as an interjection. Not sure how it is though.'
 - Japanese: "\\8b\\f\\86\\5<br>「あ~！！<br> \\85\\0たち~！！"
-  English: ''
+  English: "\\8b\\0f\\86\\05\n\"Ah! \\85\\00 and the others!"
   Comments: ''
 - Japanese: "\\8b\\13\\86\\9<br>「お~<br> いたヌ~。<br> 見たことのある顔ヌ~。"
-  English: ''
+  English: "\\8b\\13\\86\\09\n\"Oh. You're here. A familiar face."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「ん???<br> キャンディに、カベルネ‥‥"
-  English: ''
+  English: "\\8b\\0cc\\86\\02\n\"Hmm? Candy and Ganache..."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「あら、みんなそろって<br> 見つかったわね。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"My, everyone's all gathered together."
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「コイツはラッキーだな。<br> 次々と仲間がみつかるな。"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"This guy's lucky. Let's go find\nthe rest of our buddies."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「あ~<br> シードルに、オリーブも~<br> 元気だった~！?"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Ah! Cider and Olive! How are you feeling!?"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「みんなだいじょうぶだっぴか！?"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"Is everyone alright!?"
   Comments: ''
 - Japanese: "\\8b\\d1エニグマ<br>「ひっひっひ‥‥"
-  English: ''
+  English: "\\8b\\d1Enigma\n\"Heeheehee..."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「いったい何がおきたんだッ！?"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"What's going on exactly!?"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「こんなときに！<br> どうしてっ！?"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"Of all times! Why now!?"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「なんなんですの~ッ！?"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"What is it!?"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「チッ‥‥！<br> なんてこった！"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"Tch...! What a mess!"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「！！！！！"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"!!!"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「ひあ~~~~~~~ッ！！！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"Ahhh!!!"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「みんな~！！<br> さがしてましたの！！"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"Everyone! We were looking for you!"
   Comments: ''
 - Japanese: "\\8b\\d1エニグマ<br>「闇のプレーンにつれて行って<br> やる‥‥<br> おとなしくするんだな‥‥"
-  English: ''
-  Comments: ''
+  English: "\\8b\\d1Enigma\n\"I'll take you to the Plane of Darkness...\nDon't struggle..."
+  Comments: "I don't like my translation for おとなしくする"
 - Japanese: "\\8b\\c\\86\\2<br>「ふざけんな！！<br> 返りうちだ！！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"Yeah right! The tables have turned!"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「‥‥‥<br> ヤバいわ、\\85\\0‥‥。<br> 今までのとは、ケタがちがう‥。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"...\nThis is bad, \\85\\00...\nThis one's on a completely different level..."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「こまりましたの‥‥‥！！<br> どうすればいいんですの！?"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"We're in trouble! What do we do!?"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「戦うしかないってことね‥‥。"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"Guess we have no choice but to fight..."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「あわわわわわわわ‥‥<br> こわいけど、他のみんなを<br> 助けるためにも、闇のプレーンに<br> 行ったほうがいいかも‥‥"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Ahhh...\nI'm scared, but for the sake of everyone\nelse, maybe I should just go to the Plane\nof Darkness..."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「<i>行くっぴ~！！<br> 行きたいっぴ~！！<br> 戦うのイヤだっぴ~！！</i>"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"I'll go! I want to go! Fighting's bad!"
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「手を貸そうか?"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"Will you lend us a hand?"
   Comments: ''
 - Japanese: "\\8b\\d1エニグマ<br>「チッ‥‥<br> はさまれたか‥‥"
-  English: ''
+  English: "\\8b\\d1Enigma\n\"Tch...\nI'm surrounded huh..."
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「待て！！"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"Hold it!"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「ガナッシュ！！<br> やめろ！！<br> 深追いするな！！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"Ganache! Stop it! You're chasing it\ntoo far!"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「ガナッシュ！！"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"Ganache!"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「ガナッシュちゃんっ！！"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"Ganache!"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「カッコつけすぎなんだよ！！<br> あのバカッ！！"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"He's trying too hard! That idiot!"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「どうして~！?<br> ガナッシュ~！?"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Why!? Ganache!?"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「<i>あわわわわわわわ‥‥</i>"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"Ahhh..."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「まいったな‥‥<br> 闇のプレーンか‥‥"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"That really did it...\nThe Plane of Darkness huh..."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「フゥ‥‥<br> 行かなきゃいけないみたいね。<br> 私たちも、闇のプレーンに‥‥。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"Hmm...\nIt looks like we have to go. To the\nPlane of Darkness..."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「<i>行きたくないっぴ！！<br> オイラ、イヤだっぴ！！</i>"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"I don't want to go! I don't like\nit!"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「弱虫‥‥"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"You coward..."
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「魔バスが動いたら<br> 彼らを探さなきゃね。"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"Once the Magic Bus works again, we\nhave to go search for them."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「‥‥‥<br> あんまり帰るの遅くなると<br> パパやママが心配する<br> だろうなぁ‥‥"
   English: ''
