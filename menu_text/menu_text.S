@@ -31,8 +31,9 @@ mov r15, r2
 ; Our custom drawing routine
 .org 0x087E1B00
 glyph1:
+mov r0, 0xFF
 mov r2, r3
-lsr r2, 0x08
+and r2, r0
 lsl r2, 0x04
 ldr r0, =0x08604200
 add r0, r0, r2
@@ -46,9 +47,8 @@ ldr r2, [r0, 0x0C]
 str r2, [sp, 0x14]
 
 glyph2:
-mov r0, 0xFF
 mov r2, r3
-and r2, r0
+lsr r2, 0x08
 lsl r2, 0x04
 ldr r0, =0x08604200
 add r0, r0, r2
@@ -66,7 +66,7 @@ return:
   add r5, sp, 0x10 ; Necessary in the original function, but branched over.
   ldr r0, =0x080BEC0C
   mov r15, r0
-  
+
 .pool
 
 .close
