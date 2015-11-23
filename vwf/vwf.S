@@ -43,14 +43,6 @@ nop
 .org 0x0800CFE8
 bx r4
 
-;----------------------;
-; Insert the font data ;
-;----------------------;
-; Our vwf glyph data is offset by 0x100 so we inject at 0x086035AC + 0x400 =
-; 0x086039AC
-.org 0x086039AC
-.incbin vwf/font.bin
-
 ;-----------------------------------------;
 ; Insert control character function table ;
 ;-----------------------------------------;
@@ -143,7 +135,7 @@ draw_glyph_begin:
     ; r3 = Row of 1 bpp glyph
     ; r4 = Row of 2's and F's
     ;-------------------------------------------------
-    ldr r7, =0x086039AC
+    ldr r7, =0x08603900
     lsl r0, 0x04
     add r0, r0, r7
     ldr r7, =0x0203FFF0
@@ -289,10 +281,6 @@ return:
   mov r15, r0
 
 .pool
-
-; Table storing widths of each character
-.org 0x087DF900
-.incbin vwf/glyph_widths.bin
 
 ; Newline control character routine. Cleans up the ram and then branches back to
 ; original newline routine.
