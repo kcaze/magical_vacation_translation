@@ -5307,128 +5307,128 @@
   English: "\\8b\\12\\86\\08\n\"Once the Magic Bus works again, we\nhave to go search for them."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「‥‥‥<br> あんまり帰るの遅くなると<br> パパやママが心配する<br> だろうなぁ‥‥"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"...\nIf I go home too late, mom and dad are\ngoing to be worried..."
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「もうすぐ魔バスが動く<br> ようになるから。<br> そしたら、先に帰ってもいいよ。"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"It looks like the Magic Bus will work\nagain soon. We can return to school first\nif we want."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「んーん！！<br> いいの！！<br> 私だけ帰っても、ガナッシュや<br> キャンディが帰らなかったら<br> 同じことだもの！"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"No! It's okay! There's no difference if only\nI go back while Ganache and Candy are still\nout there!"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「同じじゃないっぴ‥‥"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"There is a difference..."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「行きますか。<br> ここにいてもしょうがない。"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"Let's go then. There's no point staying\nhere."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「行きましょう。<br> 行くとこはもう決まったわ。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"Let's go. That's what we decided."
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>オ~<br> ミンナ~ キイテクレ~<br> オレサマ ダイカツヤク<br> ナンダゼ~！！</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"Oh! Everyone, listen! I played a\nhuge role!"
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>ガウ―――――――ン！！</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"Wooo!"
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「キャァァァァァァァッ！！！"
-  English: ''
+  English: "\\8b\\0f\\86\\05\n\"Eeek!!!"
   Comments: ''
 - Japanese: "\\8b\\ccポット族の若者<br>「い~感じで<br> 雨水がたまってます。<br> ぐいっと飲んでくだせぇ。"
-  English: ''
+  English: "\\8b\\ccPot Youth\n\"It feels nice, being filled with\nrain water. Please drink a lot."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「オイラ、<span class=\"red\">コールスティック</span>って<br> 魔法、知ってるっぴ！！<br> <span class=\"red\">コールスティック</span>を使えば、<br> バトルのときに、<span class=\"red\">木の精霊・<br> スティック</span>を呼べるっぴ！<br> <span class=\"red\">スティック</span>がいれば、<span class=\"red\">木の魔法の<br> 威力が２倍</span>になるんだっぴ！！<br> わかったっぴか?"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"I know how to use the magic \\8eCall\nStick\\8d! If I use \\8eCall Stick\\8d\nduring battle, the \\8etree spirit,\nStick\\8d will be summoned! With \\8eStick\\8d\nthe \\8epower of tree magic will be doubled\\8d!\nGot it?"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「<span class=\"red\">コールスティック</span>を使えば、<br> <span class=\"red\">スティック</span>を呼べるっぴ！<br> <span class=\"red\">スティック</span>がいれば、<span class=\"red\">木の魔法の<br> 威力が２倍</span>になるんだっぴ！！<br> わかったっぴか?"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"If I use \\8eCall Stick\\8d during battle,\nthe \\8etree spirit, Stick\\8d will be summoned!\nWith \\8eStick\\8d the \\8epower of tree magic\nwill be doubled\\8d! Got it?"
   Comments: ''
 - Japanese: "\\8b\\e\\86\\4<br>「ミーミーズー。<br> みーつーけーたー。"
   English: "\\8b\\0e\\86\\04\nFound.\nWorm."
   Comments: ''
 - Japanese: " いつの間にか、ショコラが<br> <span class=\"red\">\\87\\1c</span>を<span class=\"red\">１匹</span>つかまえて<br> いたらしい！！<br> <span class=\"red\">\\87\\1c</span>を<span class=\"red\">１個</span>獲得！！"
-  English: ''
+  English: "It looks like Chocolat caught\n\\8e1 \\87\\1c\\8d!\nObtained \\8e1 \\87\\1c\\8d!"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「イエ~~~~~~ッス！！<br> わかってもらえたっぴ~~！！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"Yes! You understood me!"
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「やれやれだな‥‥"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"Good grief..."
   Comments: ''
 - Japanese: "\\8b\\b4ティラミス<br>「‥‥‥<br> なぜだ、ミルフィーユ‥‥！<br> なぜ、殺されるとわかって<br> 帰ってくるんだ！"
-  English: ''
+  English: "\\8b\\b4Tiramisu\n\"...\nWhy, Mille-feuille...!\nWhy did you come back, knowing that\nyou'll be killed!?"
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「心があるからさ。"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"Because I have a heart."
   Comments: ''
 - Japanese: "\\8b\\b4ティラミス<br>「なんだとぉッ！?"
-  English: ''
+  English: "\\8b\\b4Tiramisu\n\"What!?"
   Comments: ''
 - Japanese: "\\8b\\b4ティラミス<br>「オマエはッ！?<br> 一人で先に行ったんじゃッ！?"
-  English: ''
+  English: "\\8b\\b4Tiramisu\n\"You have a heart!? Even though you\nwent off by yourself!?"
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「フッ‥‥。<br> 戻って来ちゃ悪いかい?"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"Hmm...\nShould I have not returned?"
   Comments: ''
 - Japanese: "\\8b\\b4ティラミス<br>「何が言いたいんだ?<br> オレを止める気か?"
-  English: ''
+  English: "\\8b\\b4Tiramisu\n\"What are you trying to say?\nAre you trying to stop me?"
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「ミルフィーユがもどってきて<br> うれしいかい?<br> それだけ聞いておこうと<br> 思ってね‥‥。"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"Aren't you happy Mille-feuille returned?\nThat's all I have to ask..."
   Comments: ''
 - Japanese: "\\8b\\b4ティラミス<br>「オマエには関係無い。<br> これ以上 口出しするな。"
-  English: ''
+  English: "\\8b\\b4Tiramisu\n\"It has nothing to do with you. You\nbetter not say anything else."
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「ティラミス！<br> ミルフィーユをどうする気だッ！"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"Tiramisu!\nWhat are you planning to do to\nMille-feuille!?"
   Comments: ''
 - Japanese: "\\8b\\b4ティラミス<br>「オレの村でオレが何をしようが<br> オマエには関係無い！！<br> ヤツがノコノコ帰って来た以上<br> オレは‥‥！<br> オレは‥‥！！"
-  English: ''
+  English: "\\8b\\b4Tiramisu\n\"What I do in my village has nothing\nto do with you lot! She came back so\nnonchalantly, I'm going to...!\nI'm going to...!!!"
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「アンタはクズだ。"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"You're a piece of trash."
   Comments: ''
 - Japanese: "\\8b\\b4ティラミス<br>「オレがクズだって?<br> ハッ！<br> クズでけっこう！<br> 笑ってくれ！<br> 指さして笑ってくれ！"
-  English: ''
+  English: "\\8b\\b4Tiramisu\n\"You're calling me a piece of trash?\nHah!\nI'm fine with that!\nLaugh at me!\nPoint at me and laugh!"
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「アンタがミルフィーユを<br> 殺す気なら、<br> オレはアンタの息の根を<br> 止める。<br> どうするかは、自分で決めな。"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"If you plan on killing Mille-feuille,\nI will end your life. You can decide\nwhat happens."
   Comments: ''
 - Japanese: "\\8b\\b4ティラミス<br>「バカなボウヤだ‥‥。<br> オレのことを笑ったヤツは‥‥<br> みんな死んだ‥‥。<br> スラッ―――――――シュ！！"
-  English: ''
+  English: "\\8b\\b4Tiramisu\n\"You're a foolish boy...\nAll those who laughed at me...\nThey all died...\nSlash!"
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「こんな決着しか<br> つけられないなんて‥‥<br> ニルヴァッ！！"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"To reach such a conclusion...\nNirva!"
   Comments: ''
 - Japanese: "\\8b\\b4ティラミス<br>「ニルヴァ??<br> 闇の使い手なのかッ！?"
-  English: ''
+  English: "\\8b\\b4Tiramisu\n\"Nirva? You use darkness!?"
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「終わりだ、ティラミス。<br> 弟に会わせてやる。"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"It's over, Tiramisu. I'll reunite you\nwith your brother."
   Comments: ''
 - Japanese: "\\8b\\b4ティラミス<br>「や、やめろ！！<br> ちょ、ちょっと待ってくれ！！"
-  English: ''
+  English: "\\8b\\b4Tiramisu\n\"S-stop it! W-wait a moment!"
   Comments: ''
 - Japanese: "\\8b\\b4ティラミス<br>「クッ‥‥<br> クソッ‥‥<br> オレは‥ ムダには‥‥<br> 死なん‥‥！！<br> 弟に‥‥"
-  English: ''
+  English: "\\8b\\b4Tiramisu\n\"Damn...\nDamn it...\nI'm going to... die...\nin vain...!\nBrother..."
   Comments: ''
 - Japanese: "\\8b\\b3ミルフィーユ<br>「ティラミス！！<br> 死んじゃダメ！！<br> ハートなんてないのよ！！<br> 取り出せないものなの！！"
-  English: ''
+  English: "\\8b\\b3Mille-feuille\n\"Tiramisu! Don't die! There's no such\nthing as a heart! It's not something\nyou can extract!"
   Comments: ''
 - Japanese: "\\8b\\b4ティラミス<br>「ミルフィーユ‥‥<br> うれしい‥‥<br> キミがいて‥‥<br> キミに会えて‥‥<br> オレの‥‥<br> 気持ち‥‥<br> ハート‥‥<br> 弟に‥‥"
-  English: ''
+  English: "\\8b\\b4Tiramisu\n\"Mille-feuille...\nI'm happy...\nThat you're here...\nThat I saw you again...\nMy...\nheart and...\nfeelings...\nTell my brother..."
   Comments: ''
 - Japanese: "\\8b\\ce古代機械<br>「<i>ヘンナ トリヤ イキモノ<br> ヤッカイナレンチュウガ<br> タクサンイテ コマッテル。<br> オレガ ヨビダス</i><span class=\"red\">モンスターニ<br> カテタラ ドイテヤル</span><i>。<br> ドウダ?<br> タタカウキ アルカ?</i>"
-  English: ''
+  English: "\\8b\\ceAncient Machine\n\"There are a lot of annoying birds\nand creatures here. If \\8eyou can defeat\nthese monsters, I'll move out of your way\\8d.\nWhat do you think?\nDo you feel like fighting?"
   Comments: ''
 - Japanese: "\\8b\\ce古代機械<br>「<i>ヘンナ トリヤ イキモノ<br> ヤッカイナレンチュウガ<br> タクサンイテ コマッテル。<br> オレガ ヨビダス</i><span class=\"red\">モンスターニ<br> カテタラ アイテムヤル</span><i>。<br> ドウダ?<br> タタカウキ アルカ?</i>"
-  English: ''
+  English: "\\8b\\ceAncient Machine\n\"There are a lot of annoying birds\nand creatures here. If \\8eyou can defeat\nthese monsters, I'll give you an item\\8d.\nWhat do you think?\nDo you feel like fighting?"
   Comments: ''
 - Japanese: '<br>  <span class="red"></span>を<span class="red">３つ</span>もらった！！'
-  English: ''
+  English: "Received \\8e3 <CC?>\\8d!"
   Comments: ''
 - Japanese: ''
   English: ''
-  Comments: ''
+  Comments: Missing control codes?
 - Japanese: ''
   English: ''
   Comments: ''
