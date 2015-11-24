@@ -136,6 +136,17 @@ People names:
 チキータ -- Chiquita (banana brand)
 マンゴスチン -- Mangosteen
 ドロ -- Syrup?
+ジョワンビル -- Joinville (sauce)
+ソイ -- Soy (sauce)
+ホワイト -- White (sauce)
+ヴィネガー -- Vinegar (sauce), there's already vinegrette though...
+ブッタネスカ -- Puttanesca (sauce)
+アラビアータ -- Arrabbiata (sauce)
+カルボナーラ -- Carbonara (sauce)
+ジュノベーゼ -- Pesto (sauce)
+和風キノコ -- Wafu (sauce) (dropping the mushroom)
+タルタル -- Tartar (sauce)
+ボロネーズ -- Bolognese (sauce)
 
 Other names:
 愛のデッパリ -- Baby bump (Not sure about this at all.)

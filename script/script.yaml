@@ -5439,124 +5439,126 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\ce古代機械<br>「<i>オマエ、ツヨイ。<br> アイテム ヤル。</i>"
-  English: ''
+  English: "\\8b\\ceAncient Machine\n\"You're strong. Here's an item."
   Comments: ''
 - Japanese: "\\8b\\ce古代機械<br>「<i>オマエ、ツヨイ。<br> ドイテ ヤル。</i>"
-  English: ''
+  English: "\\8b\\ceAncient Machine\n\"You're strong. I'll move out of\nthe way."
   Comments: ''
 - Japanese: "\\8b\\ce古代機械<br>「<i>オマエ、ヘボ。</i>"
-  English: ''
+  English: "\\8b\\ceAncient Machine\n\"You're weak."
   Comments: ''
 - Japanese: "\\8b\\ce古代機械<br>「<i>オマエ、リッパ。</i>"
-  English: ''
+  English: "\\8b\\ceAncient Machine\n\"You're amazing."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「ツボの底に<span class=\"red\"></span>が<br> <span class=\"red\">３匹</span>入ってたっぴ！！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"There were \\8e3 <CC?>\\8d in the\nbottom of the pot!"
   Comments: ''
 - Japanese: '<br>   かたく閉ざされている'
-  English: ''
+  English: |-
+
+    It's tightly shut.
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「ツボの底に<span class=\"red\"></span>が<br> <span class=\"red\">２匹</span>入ってたぜ！！<br> さっすが、オレ！！<br> よく見てるよなぁ！！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"There were \\8e2 <CC?\\8d in\nthe bottom of the pot! I'm so good!\nI have great eyesight!"
   Comments: ''
 - Japanese: ''
   English: ''
   Comments: ''
 - Japanese: "\\8b\\b6パペット<br>「オレんちは ほら<br> 見ての通りのボロ家さ。<br> 今、旅のこんにゃく様に<br> 使ってもらってんだ。"
-  English: ''
+  English: "\\8b\\b6Puppet\n\"My house is, as you can see, quite\nrun-down. Right now, it's being occupied\nby the Travelling Konjac."
   Comments: ''
 - Japanese: "\\8b\\b6パペット<br>「もしかして、奥の宝箱<br> 取っただろ?"
-  English: ''
+  English: "\\8b\\b6Puppet\n\"Did you happen to take the chest inside?"
   Comments: ''
 - Japanese: "\\8b\\b6パペット<br>「まぁ、どうせ使わないから<br> いいんだ。<br> 気にすんな。"
-  English: ''
+  English: "\\8b\\b6Puppet\n\"Well, I wasn't using it anyways.\nDon't worry about it."
   Comments: ''
 - Japanese: "\\8b\\b6パペット<br>「ウソツキだな、オマエ。<br> 宝なんてどうでもいいのさ。<br> くれてやるよ。<br> なんか、またちょっと世の中が<br> イヤになっちまったよ。"
-  English: ''
+  English: "\\8b\\b6Puppet\n\"You're lying. I don't care about the\ntreasure, so you can have it. Somehow,\nI get the feeling something bad's going\nto happen in the world."
   Comments: ''
 - Japanese: "\\8b\\13\\86\\9<br>「なななななななッ！！<br> なんだヌ~！！"
-  English: ''
+  English: "\\8b\\13\\86\\09\n\"W-w-w-what!? What is it!?"
   Comments: ''
 - Japanese: "\\8b\\19\\86\\f<br>「イヤァァァァァァァァッ！！<br> たすけてぇぇぇぇぇっ！！"
-  English: ''
+  English: "\\8b\\19\\86\\0f\n\"Nooo!!! Help!!!"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「見てくださいですの！！<br> ミミズの穴の中に<br> <span class=\"red\"></span>が<br> 落ちてましたの！！"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"Take a look! There's a <CC?> inside\nthe worm's hole!"
   Comments: ''
 - Japanese: "\\8b\\c8ジョワンビル<br>「ヒゲはキライだべか?"
-  English: ''
+  English: "\\8b\\c8Joinville\n\"Do you hate beards?"
   Comments: ''
 - Japanese: "\\8b\\c8ソイ<br>「ここの仕事はキビシイぞ。<br> もー、キビシくて、キビシくて、<br> 何人もやめて行っただ。<br> だけんども、やめたらやめたで<br> その後にはしつこいイヤガラセ<br> があるんだ、これが。<br> 他の村では働けねぇよーに、<br> ネまわしする、いんわゆる、<br> 『ヒゲのオキテ』ってヤツだ。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\c8Soy\n\"The work here's rough. It's so rough that\nmany people have up and left. But if you\nleave, you'll be harassed constantly about\nit. It's the \"law of the beard\" that you can't\nwork in other villages."
+  Comments: "I don't really understand the Japanese"
 - Japanese: "\\8b\\c8ホワイト<br>「オラ、むかしはここで<br> カントクさやってただ。<br> 今じゃもう、カントクはやめち<br> まったんだけど、ヒゲだけは<br> そらねーかんな。"
-  English: ''
+  English: "\\8b\\c8White\n\"In the past, I used to be the director\nhere. Now, I've resigned from being\ndirectory but I'm not going to shave this\nbeard."
   Comments: ''
 - Japanese: "\\8b\\c8ヴィネガー<br>「ヒクウテイ作りてぇけど、<br> 作れねぇだ。<br> パテントの問題があってよ。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\c8Vinegar\n\"I want to create an airship but I can't.\nThere's a problem with patents."
+  Comments: I feel like this wanted to be a Final Fantasy Cid reference...
 - Japanese: "\\8b\\c8ブッタネスカ<br>「ヒゲはえたか?"
-  English: ''
+  English: "\\8b\\c8Puttanesca\n\"Have you grown a beard yet?"
   Comments: ''
 - Japanese: "\\8b\\c8アラビアータ<br>「カゼひくと、もー、<br> ハナの下ガビガビになるだ。"
-  English: ''
+  English: "\\8b\\c8Arrabbiata\n\"Whenever I get a cold, man,\nmy nose gets all stuffy."
   Comments: ''
 - Japanese: "\\8b\\c8カルボナーラ<br>「オラもうこの仕事イヤでイヤで<br> たまんねぇんだけんどよ、<br> この塔から出てセイコウした<br> ドワーフはいねんだな。<br> わっはっは。"
-  English: ''
+  English: "\\8b\\c8Carbonara\n\"I really hate this job and can't stand\nit but, there haven't been any dwarfs\nthat left the tower and became successful.\nHahaha."
   Comments: ''
 - Japanese: "\\8b\\c8ジュノベーゼ<br>「ベリーナイス。<br> いい感じだべさ。<br> 何が?<br> 聞かれるとこまるけんどよ。"
-  English: ''
+  English: "\\8b\\c8Pesto\n\"Tres bien. Very nice.\nWhat is?\nI don't know."
   Comments: ''
 - Japanese: "\\8b\\c8和風キノコ<br>「いそがしくて、いそがしくて、<br> しあわせ~。"
-  English: ''
+  English: "\\8b\\c8Wafu\n\"I'm happy being so busy."
   Comments: ''
 - Japanese: "\\8b\\39タルタルちゃん<br>「はが―――――――っ！！"
-  English: ''
+  English: "\\8b\\39Tartar\n\"Idiot!"
   Comments: ''
 - Japanese: "\\8b\\c8ボロネーズ<br>「おめぇ、サイミンジュツさ<br> 信じるべか?<br> オラは信じねぇだ。<br> アホくせ。"
-  English: ''
+  English: "\\8b\\c8Bolognese\n\"Do you believe in hypnosis? I don't.\nEven though I'm a fool."
   Comments: ''
 - Japanese: "\\8b\\c8アラビアータ<br>「オメェはカエルだ~。<br> カエルだ~。<br> さ~、はしりまわって<br> ゲロゲロ鳴くだ~。<br> カエルになってきただ~。"
-  English: ''
+  English: "\\8b\\c8Arrabbiata\n\"You are a frog. A frog.\nNow, jump in circles and croak.\nYou've become a frog."
   Comments: ''
 - Japanese: "\\8b\\c8ボロネーズ<br>「‥‥<br> うぐっ‥‥<br> ゲロゲ~ロ‥‥<br> ゲロゲ~ロ‥‥"
-  English: ''
+  English: "\\8b\\c8Bolognese\n\"...\nUgh...\nRibbit...\nRibbit..."
   Comments: ''
 - Japanese: "\\8b\\c8ボロネーズ<br>「ゲロゲ~ロ！<br> ゲロゲ~ロ！"
-  English: ''
+  English: "\\8b\\c8Bolognese\n\"Ribbit ribbit!\nRibbit ribbit!"
   Comments: ''
 - Japanese: "\\8b\\c8アラビアータ<br>「ざっとこんなモンだべさ。<br> これがサイミンジュツだ。"
-  English: ''
+  English: "\\8b\\c8Arrabbiata\n\"This is what it's like. This is\nhypnosis."
   Comments: ''
 - Japanese: "\\8b\\c8ボロネーズ<br>「ゲロゲ~‥‥‥！！"
-  English: ''
+  English: "\\8b\\c8Bolognese\n\"Ribbit ribbit!"
   Comments: ''
 - Japanese: "\\8b\\c8アラビアータ<br>「オ、オラなんにも知らねぇ。<br> オラかんけいね。"
-  English: ''
+  English: "\\8b\\c8Arrabbiata\n\"I-it has nothing to do with me.\nI didn't do anything."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「出やがったなっ！！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"It's appeared!"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「キャァ―――――――ッ！！！"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"Eeek!!!"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「な、な、な、<br> なにか来ましたの‥‥‥！"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"S-s-something's coming...!"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「なに！?<br> ものすごい冷気！！"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"What!? It's some really cold air!"
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「来るぜ！<br> ちゃんと見てるかい！?"
-  English: ''
+  English: "\\8b\\14\\86\\0a\n\"It's coming! Do you see it!?"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「でた~~~~~~~っ！！<br> 敵よ！ 敵ッ！！"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"It's here! It's an enemy! An enemy!"
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>テキサンノオデマシダ！<br> ウゲン ダンマクイソゲ！</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"Enemies have appeared! Starboard, fire!"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「なんか出たっぴ~~~~！！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"Something's appeared!"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「娘より村がだいじなんだな。<br> 娘は放っておくんだな。<br> 村の連中が、メースを受け入れ<br> ないからなんて言って、娘には<br> 何もしてやれないんだな！！"
   English: ''
