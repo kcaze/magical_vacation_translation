@@ -6121,19 +6121,19 @@
   English: "\\8b\\c0Musk\n\"I see...\nIt's true that I haven't seen\nany around here..."
   Comments: ''
 - Japanese: "\\8b\\c1ニャムネルトの道具屋<br>「大きな声じゃ言えないが<br> ‥‥<br> ‥‥‥の ‥‥‥に<br> ‥‥‥が<br> ‥‥‥‥‥らしいぜ。"
-  English: ''
+  English: "\\8b\\c1Felin Inn Owner\n\"I can't say this in a loud voice but\n...\nAt the...\nof...\nthere's a...\nthey say."
   Comments: ''
 - Japanese: "\\8b\\c0ムスク<br>「あんなところに‥‥?<br> でも、なんで?<br> あそこは、モンスターがウヨウヨ<br> いるハズじゃ‥‥?"
-  English: ''
+  English: "\\8b\\c0Musk\n\"In a place like that...?\nBut, why?\nThere should be a lot of monsters\ncrawling about there...?"
   Comments: ''
 - Japanese: "\\8b\\c1ニャムネルトの道具屋<br>「そんなこたぁ知らないよ。<br> もしつかまえに行くんなら、<br> あまったヤツは買うぜ。"
-  English: ''
+  English: "\\8b\\c1Felin Shop Owner\n\"I don't know why. If you're going to\ncatch them, I'll buy any extras off of\nyou."
   Comments: ''
 - Japanese: "\\8b\\c0ムスク<br>「はははは。<br> ご親切にどうも。<br> いろいろとありがとう。"
-  English: ''
+  English: "\\8b\\c0Musk\n\"Hahaha. Thank you for your kindness.\nThanks for everything."
   Comments: ''
 - Japanese: "\\8b\\c0ムスク<br>「ごめん、先をいそぐんだ。"
-  English: ''
+  English: "\\8b\\c0Musk\n\"Sorry, but I'm in a hurry."
   Comments: ''
 - Japanese: ''
   English: ''
@@ -6148,82 +6148,91 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\c0ムスク<br>「だめだね。"
-  English: ''
+  English: "\\8b\\c0Musk\n\"It's no good huh."
   Comments: ''
 - Japanese: "\\8b\\d3こんにゃく様<br>「あっ！<br> こんにちはでぺたん！<br> 私はこれから、生まれ育った<br> <span class=\"red\">クガンデ村</span>をめざすで<br> ぺたん！<br> <span class=\"red\">\\87\\d</span>はまた今度<br> さがすことにしたぺたん！<br> さよならでぺたん！！"
-  English: ''
+  English: "\\8b\\d3Mister Konjac\n\"Ah! Hello there! I'm heading towards\nmy birthplace, \\8eUkagned Village\\8d!\nI'll look for a \\8e\\87\\0d\\8d next time!\nFarewell!"
   Comments: ''
 - Japanese: ''
   English: ''
   Comments: ''
 - Japanese: '  北 <span class="red">ワクティ村</span><br>  南 <span class="red">レーミッツ宮殿</span><br>  東 <span class="red">文鳥温泉</span>'
-  English: ''
+  English: "North: \\8eHot Tea Village\\8d\nSouth: \\8eErimust Palace\\8d\nEast: \\8eRicebird Springs\\8d"
   Comments: ''
 - Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">回復の泉</span><br> 現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
-  English: ''
+  English: "\\8b\\abRicebird Dad\n\"This is the \\8eSpring of Healing\\8d.\nThe number of guests who have visited\nhere is...\n<CC?>"
   Comments: ''
 - Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">大浴場</span><br> 現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
-  English: ''
+  English: "\\8b\\abRicebird Dad\n\"This is the \\8eLarge Bathtub\\8d.\nThe number of guests who have visited\nhere is...\n<CC?>"
   Comments: ''
 - Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">大岩温泉</span><br> 現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
-  English: ''
+  English: "\\8b\\abRicebird Dad\n\"This is the \\8eStone Spring\\8d.\nThe number of guests who have visited\nhere is...\n<CC?>"
   Comments: ''
 - Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">石灰棚温泉</span><br> 現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
-  English: ''
+  English: "\\8b\\abRicebird Dad\n\"This is the \\8eLime Spring\\8d.\nThe number of guests who have visited\nhere is...\n<CC?>"
   Comments: ''
 - Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">五右衛門風呂</span><br> 現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
-  English: ''
+  English: "\\8b\\abRicebird Dad\n\"This is the \\8eGoemon Bath\\8d.\nThe number of guests who have visited\nhere is...\n<CC?>"
   Comments: ''
 - Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">滝の湯</span><br> 現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
-  English: ''
+  English: "\\8b\\abRicebird Dad\n\"This is the \\8eWaterfall Bath\\8d.\nThe number of guests who have visited\nhere is...\n<CC?>"
   Comments: ''
 - Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">ジャグジー</span><br> 現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
-  English: ''
+  English: "\\8b\\abRicebird Dad\n\"This is the \\8eJacuzzi\\8d.\nThe number of guests who have visited\nhere is...\n<CC?>"
   Comments: ''
 - Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">ローマ大理石風呂</span><br> 現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
-  English: ''
+  English: "\\8b\\abRicebird Dad\n\"This is the \\8eRoman Marbled Bath\\8d.\nThe number of guests who have visited\nhere is...\n<CC?>"
   Comments: ''
 - Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">ジャングル風呂</span><br> 現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
-  English: ''
+  English: "\\8b\\abRicebird Dad\n\"This is the \\8eJungle Bath\\8d.\nThe number of guests who have visited\nhere is...\n<CC?>"
   Comments: ''
 - Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">ひのき風呂</span><br> 現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
-  English: ''
+  English: "\\8b\\abRicebird Dad\n\"This is the \\8eCypress Bath\\8d.\nThe number of guests who have visited\nhere is...\n<CC?>"
   Comments: ''
 - Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">宝石の泉</span><br> 現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
-  English: ''
+  English: "\\8b\\abRicebird Dad\n\"This is the \\8eJeweled Bath\\8d.\nThe number of guests who have visited\nhere is...\n<CC?>"
   Comments: ''
 - Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">ハーレム風呂</span><br> 現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\abRicebird Dad\n\"This is the \\8eHarem Bath\\8d.\nThe number of guests who have visited\nhere is...\n<CC?>"
+  Comments: Ehh....
 - Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">アジアンリゾート</span><br> 現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
-  English: ''
+  English: "\\8b\\abRicebird Dad\n\"This is the \\8eAsian Resort\\8d.\nThe number of guests who have visited\nhere is...\n<CC?>"
   Comments: ''
 - Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">御殿風呂</span><br> 現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
-  English: ''
+  English: "\\8b\\abRicebird Dad\n\"This is the \\8ePalace Bath\\8d.\nThe number of guests who have visited\nhere is...\n<CC?>"
   Comments: ''
 - Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">赤池地獄</span><br> 現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
-  English: ''
+  English: "\\8b\\abRicebird Dad\n\"This is the \\8eBlood Bath of Hell\\8d.\nThe number of guests who have visited\nhere is...\n<CC?>"
   Comments: ''
 - Japanese: "\\8b\\ab文鳥のオヤジ<br>「ここは<span class=\"red\">ドラム缶風呂</span><br> 現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
-  English: ''
+  English: "\\8b\\abRicebird Dad\n\"This is the \\8eDrum Can Bath\\8d.\nThe number of guests who have visited\nhere is...\n<CC?>"
   Comments: ''
 - Japanese: "\\8b\\ab「現在までにお泊まりになられた<br> お客様の数は‥‥‥‥<br> <span class=\"red\"></span>人でございます。"
-  English: ''
+  English: "\\8b\\ab\n\"The number of guests who have visited\nhere is...\n<CC?>"
   Comments: ''
 - Japanese: ''
   English: ''
   Comments: ''
 - Japanese: '  回復の泉    大浴場<br>  大岩温泉    石灰棚温泉<br>  五右衛門風呂  そのた'
-  English: ''
-  Comments: ''
+  English: |-
+    Healing Springs Large Bathtub
+    Stone Spring Lime Spring
+    Goemon Bath More
+  Comments: Not sure how this works in the game...
 - Japanese: '  滝の湯     ジャグジー<br>  ローマ風呂   ジャングル<br>  ひのき風呂   そのた'
-  English: ''
-  Comments: ''
+  English: |-
+    Waterfall Bath Jacuzzi
+    Roman Bath Jungle
+    Cypress Bath More
+  Comments: Probably missing control codes..
 - Japanese: '  宝石の泉    ハーレム<br>  アジアン    御殿風呂<br>  赤池地獄    その他'
-  English: ''
+  English: |-
+    Jeweled Bath Harem Bath
+    Asian Bath Palace Bath
+    Blood Bath More
   Comments: ''
 - Japanese: '  ドラム缶    その他'
-  English: ''
+  English: Drum Can More
   Comments: ''
 - Japanese: ''
   English: ''

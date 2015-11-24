@@ -81,6 +81,7 @@ Place names:
 キード・モンガ -- Hep Met (should be Iko Domnag) (It's がんもどき backwards)
 レヒカフ -- Nifkrahs (Shark Fin backwards)
 ジェラ風穴 -- Gelato Cave
+クガンデ -- Ukagned Village
 
 People names:
 ギュウヒ・オグラ -- Bun Patti
