@@ -147,6 +147,9 @@ People names:
 和風キノコ -- Wafu (sauce) (dropping the mushroom)
 タルタル -- Tartar (sauce)
 ボロネーズ -- Bolognese (sauce)
+ムスク -- Musk (not really a food...)
+フェンネル -- Fennel
+ガンベジ -- Sausage (can't tell what this name is, but it should be a pizza topping)
 
 Other names:
 愛のデッパリ -- Baby bump (Not sure about this at all.)

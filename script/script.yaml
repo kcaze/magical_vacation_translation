@@ -5666,142 +5666,142 @@
   English: "\\8b\\beCinnamon\n\"Thank you. But really, it's fine."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「そんなこと言っても！！<br> かわいそうだっぴ！！<br> 一人で旅立たせるなんて<br> かわいそうだっぴ！！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"Don't say that! I feel sorry for you!\nI feel sorry that you have to leave\nall alone!"
   Comments: ''
 - Japanese: "\\8b\\beシナモン<br>「ありがとう。<br> でも、いいの。<br> メースが私のために命をかけて<br> くれたように、私も彼をさがす<br> ために命をかけてみる。<br> 私は彼に‥‥、んーん、<br> <span class=\"red\">マサラティ村</span>の人たちにも<br> 本音を全部ぶつけたいの。<br> 彼は悪魔なんかじゃないって、<br> 全身全霊をかけて言いたいの。"
-  English: ''
+  English: "\\8b\\beCinnamon\n\"Thank you. But it's fine.\nJust as how Mace risked his life for\nmy sake, I'll risk my life to search\nfor him. I want to tell him...\nno, I want to tell all of \\8eMasala\nChai Village\\8d how I truly feel. I\nwant to shout that he's not a demon\nfrom the depths of my heart."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「ダメですの！！<br> 一人で行くなんて！！<br> 危険すぎますの！！"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"You can't! Don't go by yourself!\nIt's too dangerous!"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「気持ちはわかるけど、<br> あせりはきんもつよ。<br> もう少し考えてみたら<br> どうかしら?"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"I understand how you feel but don't\nbe so impatient. Why don't you think\nthings over a bit more first?"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「でもでもでも~<br> 危険じゃないの~?<br> 途中まででもいいから<br> 私たちといっしょに行こうよ~"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"But but but, isn't it dangerous?\nEven if it's only for partway, let\nus accompany you."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「おい、\\85\\0<br> どうする?<br> この闇のプレーンで、一人で<br> 旅立つなんてクレイジーだぜ！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"Hey, \\85\\00, what do we do?\nIt's crazy to set out on a trip\nin the Plane of Darkness alone!"
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「どーするも、こーするも<br> 本人が望んでんだから。<br> しょうがねぇじゃん。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\14\\86\\0a\n\"No matter what we do, in the end,\nit's your own decision. We can't\nchange that."
+  Comments: Better ideas for translation here?
 - Japanese: "\\8b\\17\\86\\d<br>「<i>マッタクダゼ ベイベー！<br> キック マイ アッス！<br> ヤリキレネェキブンダゼ。</i>"
-  English: ''
-  Comments: ''
+  English: "\\8b\\17\\86\\0d\n\"Really, baby! Kick me! This is too\nmuch for me!"
+  Comments: "I don't think \"kick my ass\" is good. Cafe au Lait should probably use some french words instead? idk"
 - Japanese: "\\8b\\12\\86\\8<br>「止めてもムダのようだね。"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"I guess it's futile to try to\nstop you."
   Comments: ''
 - Japanese: "\\8b\\beシナモン<br>「メースが私のために命をかけて<br> くれたように‥‥<br> 私も彼をさがす<br> ために命をかけてみる。<br> 私は彼に‥‥<br> んーん、彼だけじゃなくて、<br> マサラティ村の人にも<br> 本音を全部ぶつけていきたいの。<br> 彼は悪魔なんかじゃないって、<br> 全身全霊をかけて言いたいの。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\beCinnamon\n\"Just as how Mace risked his life for\nmy sake, I'll risk my life to search\nfor him. I want to tell him...\nno, I want to tell all of \\8eMasala\nChai Village\\8d how I truly feel. I\nwant to shout that he's not a demon\nfrom the depths of my heart."
+  Comments: Mostly the same as 1850.
 - Japanese: "\\8b\\14\\86\\a<br>「アンタが本気なら、<br> もう止めはしないぜ。<br> GOOD LUCK！<br> 死ぬなよ、シナモン！"
-  English: ''
+  English: "\\8b\\14\\86\\0a\n\"If you're dead serious, we won't\ntry to stop you anymore. Good luck!\nDon't die on us, Cinnamon!"
   Comments: ''
 - Japanese: "\\8b\\c1ニャムネルトの宿屋<br>「ここは宿屋よ。<br> 見ての通り、オンボロだけど、<br> 泊まりたかったら、５ブラー<br> はらってね。"
-  English: ''
+  English: "\\8b\\c1Felin Inn Owner\n\"This is the inn. As you can see,\nit's a bit of a shack, but if you\nwant to stay the night, please pay\n5 bura."
   Comments: ''
 - Japanese: "\\8b\\c1ニャムネルトの宿屋<br>「お金が足りないみたいよ。"
-  English: ''
+  English: "\\8b\\c1Felin Inn Owner\n\"It looks like you don't have\nenough money."
   Comments: ''
 - Japanese: "\\8b\\c1ニャムネルトの宿屋<br>「また来てね。"
-  English: ''
+  English: "\\8b\\c1Felin Inn Owner\n\"Come again."
   Comments: ''
 - Japanese: "\\8b\\c1ニャムネルトの青年<br>「南へ行くと<span class=\"red\">タピオカティ村</span>だ。<br> オレたち<span class=\"red\">ニャムネルト</span>の村だ。<br> 妹が宿屋をやってるから<br> よろしくな。"
-  English: ''
+  English: "\\8b\\c1Felin Youth\n\"If you head south, you'll find\n\\8eTapioca Tea Village\\8d. It's our\nvillage, the\\8eFelin's\\8d village.\nMy sister owns the inn there."
   Comments: ''
 - Japanese: "\\8b\\a6ピラニア<br>「セ~ンキュ~！<br> ありがとよ！<br> いつか何かのカタチで<br> かえしてやるから<br> 気長に待ってな。"
-  English: ''
+  English: "\\8b\\a6Piranha\n\"Thank you! Thank you!\nI'll repay it to you in some\nshape or form someday so wait\npatiently."
   Comments: ''
 - Japanese: "\\8b\\c3ネクター<br>「何者だ！！"
-  English: ''
+  English: "\\8b\\c3Nectar\n\"Who is it!?"
   Comments: ''
 - Japanese: "\\8b\\c0ムスク<br>「おおっと‥‥‥‥。<br> それはこっちのセリフさ。<br> キミこそ村では見かけない顔じゃ<br> ないか。<br> こんなとこで何をしてるんだい?"
-  English: ''
+  English: "\\8b\\c0Musk\n\"Hey there...\nThat's my line. I haven't seen you\naround the village before. What are\nyou doing in a place like this?"
   Comments: ''
 - Japanese: "\\8b\\c3ネクター<br>「オレはこの先の地底ジャングルを<br> 守っている。<br> 用が無いなら帰れ。"
-  English: ''
+  English: "\\8b\\c3Nectar\n\"I'm protecting the underground jungle\nup ahead. If you don't have business\nhere, leave."
   Comments: ''
 - Japanese: "\\8b\\c0ムスク<br>「そんなふうに言わなくても<br> 帰るよ。<br> 今度、村へも遊びに来なよ。<br> キミとは話があいそうだ。<br> それじゃあ。"
-  English: ''
+  English: "\\8b\\c0Musk\n\"I don't need you to tell me to leave.\nIf you have time, come visit the\nvillage. I think we'd get along.\nSee you."
   Comments: ''
 - Japanese: "\\8b\\c0ムスク<br>「チッ。<br> 顔を覚えられた‥‥‥‥。<br> このまま行くわけには<br> いかないな‥‥‥‥。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\c0Musk\n\"Tch. I was seen...\nI need to do something about this..."
+  Comments: Very non-literal translation and also not very accurate.
 - Japanese: "\\8b\\3bフェンネル<br>「ぐるるる‥‥‥‥。"
-  English: ''
+  English: "\\8b\\3bFennel\n\"Grrr..."
   Comments: ''
 - Japanese: "\\8b\\c0ムスク<br>「そうだ！！"
-  English: ''
+  English: "\\8b\\c0Musk\n\"That's it!"
   Comments: ''
 - Japanese: "\\8b\\c5ガンベジ<br>「ここで働いてるブラウニーは<br> よく寝るのです。<br> 寝てる間、霊体がフ~っと<br> 体からぬけだして、そのへんを<br> さまよっておりますです。<br> 起きれば霊体は体に<br> もどりますです。"
-  English: ''
+  English: "\\8b\\c5Sausage\n\"The Brownies that work here sleep\na lot. While they're asleep, their\nsoul slips from their body and wanders\naround. Once they wake up, their soul\nreturns."
   Comments: ''
 - Japanese: "\\8b\\c5オニオン<br>「くかーっ"
-  English: ''
+  English: "\\8b\\c5Onion\n\"Zzz..."
   Comments: ''
 - Japanese: "\\8b\\c5オニオン<br>「お！！<br> 寝てしまった！！<br> いかんいかん。<br> うむ。"
-  English: ''
+  English: "\\8b\\c5Onion\n\"Oh! I dozed off! That's no good.\nYep."
   Comments: ''
 - Japanese: "\\8b\\c5オニオン<br>「いや、寝てもいいんじゃ。<br> いいじゃないか。<br> うむ。"
-  English: ''
+  English: "\\8b\\c5Onion\n\"Wait, it's okay to fall sleep.\nYes, it's okay.\nYep."
   Comments: ''
 - Japanese: "\\8b\\c5オニオンの霊体<br>「わしは働きものじゃなぁ。<br> うむ。"
-  English: ''
+  English: "\\8b\\c5Onion's soul\n\"I'm a hardworking person.\nYep."
   Comments: ''
 - Japanese: "\\8b\\c5ポモドロ<br>「むにゃむにゃ‥‥‥‥"
-  English: ''
+  English: "\\8b\\c5Pomodoro\n\"Zzzz-ZZzzz-hngGGggh-Ppbhww..."
   Comments: ''
 - Japanese: "\\8b\\c5ポモドロ<br>「ふあ~~~~~~。<br> よう寝たわい。<br> さて、仕事じゃ‥‥‥‥。<br> えー、なにをするんだったかな。"
-  English: ''
+  English: "\\8b\\c5Pomodoro\n\"*yawn*\nI slept well.\nNow then, time to work...\nUmm, what was I supposed to do again?"
   Comments: ''
 - Japanese: "\\8b\\c5ポモドロ<br>「仕事仕事‥‥‥‥<br> えー、何をするんだったかな?<br> ま、ええわい。<br> うろうろしてよ。"
-  English: ''
+  English: "\\8b\\c5Pomodoro\n\"Work, work...\nUmm, what was I supposed to do again?\nWell, whatever. I'll just wander around."
   Comments: ''
 - Japanese: "\\8b\\c5ポモドロの霊体<br>「仕事はいやじゃ~<br> もう働くのいやじゃ~"
-  English: ''
+  English: "\\8b\\c5Pomodoro's soul\n\"I'm through with work.\nI don't want to work anymore."
   Comments: ''
 - Japanese: "\\8b\\c5アンチョビ<br>「ギリギリ‥‥‥‥"
-  English: ''
-  Comments: ''
+  English: "\\8b\\c5Anchovy\n\"ZzzZzz..."
+  Comments: I should probably come up with more interesting snores...
 - Japanese: "\\8b\\c5アンチョビ<br>「ありゃ?<br> 寝てしもうたか。<br> いかんのう。"
-  English: ''
+  English: "\\8b\\c5Anchovy\n\"Whazzat?\nDid I fall asleep?\nThat's no good."
   Comments: ''
 - Japanese: "\\8b\\c5アンチョビ<br>「眠いのう。"
-  English: ''
+  English: "\\8b\\c5Anchovy\n\"I'm sleepy."
   Comments: ''
 - Japanese: "\\8b\\c5アンチョビの霊体<br>「ひゃ~っはっはっは~<span class=\"red\">♥</span><br> わしはモテるんじゃ~<span class=\"red\">♥</span>"
-  English: ''
+  English: "\\8b\\c5Anchovy's soul\n\"Hahaha~\nI'm so popular~"
   Comments: ''
 - Japanese: "\\8b\\c5ベーコン<br>「すこ――――っ"
-  English: ''
+  English: "\\8b\\c5Bacon\n\"ZzZzZz"
   Comments: ''
 - Japanese: "\\8b\\c5ベーコン<br>「むにゃむにゃ‥‥‥‥<br> おはようさん‥‥‥‥"
-  English: ''
+  English: "\\8b\\c5Bacon\n\"ZzZzZz...\nGood mooorning..."
   Comments: ''
 - Japanese: "\\8b\\c5ベーコン<br>「寝て、起きて<br> 寝て、起きて‥‥‥‥<br> めんどくさいから<br> どっちかでええんじゃけどの。"
-  English: ''
+  English: "\\8b\\c5Bacon\n\"Falling asleep and then waking up.\nFalling asleep and then waking up...\nIt's tiresome so I wish I could just\ndo one or the other."
   Comments: ''
 - Japanese: "\\8b\\c5ベーコンの霊体<br>「がーがーがー<br> わしはアヒルじゃ。<br> がーがーがー"
-  English: ''
+  English: "\\8b\\c5Bacon's soul\n\"Quack quack quack.\nI'm a duck.\nQuack quack quack."
   Comments: ''
 - Japanese: "\\8b\\c5ペパロニ<br>「ふぃ~~~~~‥‥‥‥"
-  English: ''
+  English: "\\8b\\c5Pepperoni\n\"Zzzzzzz..."
   Comments: ''
 - Japanese: "\\8b\\c5ペパロニ<br>「ほげ~<br> また寝ちまったわい。"
-  English: ''
+  English: "\\8b\\c5Pepperoni\n\"Huh~\nDid I fall asleep again?"
   Comments: ''
 - Japanese: "\\8b\\c5ペパロニ<br>「あんまり働くとドワーフに<br> なっちまうって言うからな。<br> 今日はもう、働かんでおこう。"
-  English: ''
+  English: "\\8b\\c5Pepperoni\n\"They say that if you work too much,\nyou'll turn into a dwarf. So I'm not\ngoing to work any more for the rest of\ntoday."
   Comments: ''
 - Japanese: "\\8b\\c5ペパロニの霊体<br>「うにゃにゃ~ん<br> うにゃにゃにゃにゃ~ん"
-  English: ''
+  English: "\\8b\\c5Pepperoni's soul\n\"Zzzzzz\nZzzzzzZzzzz"
   Comments: ''
 - Japanese: "\\8b\\0 \\0\\eミーロリ銀貨の数：<br>  ミーロリ銀貨２枚あげる<br>  キャンセル"
-  English: ''
+  English: "\\8b\\00 \\00\\0eNumber of Ignis Coins: <CC?>\nGive 2 Ignis Coins\nCancel"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「気をつけんのは<br> そっちだろうが！！<br> 魚のクセに<br> ナメんじゃねぇぞ！！"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"You're the one who ought to be\ncareful! Don't make fun of me just\ncause I'm a fish!"
   Comments: ''
 - Japanese: ''
   English: ''
@@ -6069,7 +6069,7 @@
   Comments: ''
 - Japanese: ''
   English: ''
-  Comments: ''
+  Comments: Is this all blank space or are there control codes going on?
 - Japanese: ''
   English: ''
   Comments: ''
@@ -6086,34 +6086,39 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\c8和風キノコ<br>「コイツをおめぇにやるだ。<br> オラの魂だ。"
-  English: ''
+  English: "\\8b\\c8Wafu\n\"This is for you. It's my soul."
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\87\\8</span>をもらった！"
-  English: ''
+  English: "\nReceived \\8e\\87\\88\\8d!"
   Comments: ''
 - Japanese: '  下までの直通の扉です。<br>  進みますか?'
-  English: ''
+  English: |-
+    It's a door that leads directly down.
+    Continue?
   Comments: ''
 - Japanese: '  こわれたスイッチ。<br>  特に意味はなさそうだ。'
-  English: ''
+  English: |-
+    It's a broken switch.
+    It doesn't look like it has any
+    particular meaning to it.
   Comments: ''
 - Japanese: "\\8b\\c0ムスク<br>「おいで、フェンネル。<br> ごめんな。<br> オマエにも苦労かけるな。"
-  English: ''
+  English: "\\8b\\c0Musk\n\"Come here Fennel. Sorry, I\nput you through a lot."
   Comments: ''
 - Japanese: "\\8b\\3bフェンネル<br>「ぐるるる"
-  English: ''
+  English: "\\8b\\3bFennel\n\"Grrr."
   Comments: ''
 - Japanese: "\\8b\\c0ムスク<br>「仕事だよ、フェンネル。<br> おいで。"
-  English: ''
+  English: "\\8b\\c0Musk\n\"It's time for work, Fennel.\nCome here boy."
   Comments: ''
 - Japanese: "\\8b\\c0ムスク<br>「こっちだよ。"
-  English: ''
+  English: "\\8b\\c0Musk\n\"Over here."
   Comments: ''
 - Japanese: "\\8b\\c1ニャムネルトの道具屋<br>「アレはもうあつかってないんだ。<br> 値段が上がっちゃってね。<br> ここ数ケ月で、ものすごく少なく<br> なったらしくてね。<br> 自分でさがしてみなよ。<br> まだ何羽か残ってるだろ?"
-  English: ''
+  English: "\\8b\\c1Felin Shop Owner\n\"We don't stock that anymore.\nThe price skyrocketed you see.\nThey've become incredibly rare\nthese past months.\nGo find it on your own.\nThere should still be a couple\nleft out there."
   Comments: ''
 - Japanese: "\\8b\\c0ムスク<br>「そうですか‥‥。<br> たしかに、このへんではもう<br> 見かけなくなりましたね‥‥。"
-  English: ''
+  English: "\\8b\\c0Musk\n\"I see...\nIt's true that I haven't seen\nany around here..."
   Comments: ''
 - Japanese: "\\8b\\c1ニャムネルトの道具屋<br>「大きな声じゃ言えないが<br> ‥‥<br> ‥‥‥の ‥‥‥に<br> ‥‥‥が<br> ‥‥‥‥‥らしいぜ。"
   English: ''
