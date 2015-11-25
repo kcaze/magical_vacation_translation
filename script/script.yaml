@@ -6433,127 +6433,130 @@
   English: "\\8b\\11\\86\\07\n\"Cafe au lait! You got this!"
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>‥‥‥<br> シクシクシク‥‥。</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"...\n*sniffle* *sniffle*..."
   Comments: ''
 - Japanese: "\\8b\\a3バルサミコ<br>「それじゃ、オレは<span class=\"red\">召喚機</span>を<br> カイゾーしてくらぁ。"
-  English: ''
+  English: "\\8b\\a3Balsamico\n\"Then, I'll get started on retooling\nthe \\8esummoning machine\\8d."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「で?<br> 誰と行くの?"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"So, who's going?"
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>ソレデハ ボウシガステキナ<br> \\85\\0サンニ‥‥<br> ２０００テン‥‥</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"2000 points to...\n\\85\\00 with the lovely hat..."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「ボケてる場合じゃねぇだろ‥‥。<br> "
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"This isn't the time to be so\nchildish..."
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「\\85\\0<br> それでいい?"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"\\85\\00 is that okay with you?"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「あなたなら、そう言うと<br> 思ったわ。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"I thought you'd say that."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「カフェオレのことも考えてあげて<br> \\85\\0‥‥‥。<br> あなたは誰にとっても特別な<br> 存在なの。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"Consider Cafe au lait as well,\n\\85\\00...\nYou have a special place in everyone's\nhearts."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「\\85\\0と‥‥<br> もう一人は?"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"\\85\\00 and...\nwho's the other person?"
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>ソウダンシテモ<br> イーデスカ~?</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"Can we discuss this first?"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「キンチョー感ないなぁ。<br> 心がなごんできたよ。"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"I don't really feel nervous at all.\nRather, I'm pretty calm right now."
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>デ、ドウスル?<br> モウヒトリ。<br> オレトシテハ、ブルーベリー<br> レモン、アランシア‥‥‥<br> アタリノダネェ<br> キレイドコロヲ ハベラセテ‥‥<br> ヘッヘッヘッヘ‥‥‥。<br> ドウスルヨ ダレニスルヨ?</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"So, what do we do? We need one more.\nI'm personally thinking about one of\nBlueberry, Lemon, or Arancia...\nI get to see their pretty faces...\nHehehe...\nSo, who do we choose?"
   Comments: ''
 - Japanese: '  キルシュ   ブルーベリー<br>  ペシュ    レモン<br>  アランシア  ピスタチオ'
-  English: ''
-  Comments: ''
+  English: |-
+    Kirsche Blueberry
+    Peche Lemon
+    Arancia Pistachio
+  Comments: "Control code needed I'm guessing."
 - Japanese: "\\8b\\c\\86\\2<br>「おっしゃー！！<br> 行くぜーッ！！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"Oh yeah! Let's go!"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「りょうかい。<br> 行きましょう。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"Understood. Let's go."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「わかりましたの！！<br> 行きますの！！"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"Got it! Let's go!"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「わかったわ。<br> 行きましょう。"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"Got it. Let's go."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「え~~~~~~~ッ！！<br> なんで あたしがぁ~~?"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Whaaaat!? Why me?"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「<i>オイラだっぴか~~~~~ッ！?</i>"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"Meeeeeee!?"
   Comments: ''
 - Japanese: "\\8b\\a3バルサミコ<br>「魔バスが修理できたら<br> すぐむかえに行くからなー。<br> それまでがんばれよー。"
-  English: ''
+  English: "\\8b\\a3Balsamico\n\"Once the Magic Bus's fixed, we'll\nhead straight out there for you guys.\nGood luck until then."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「ガナッシュと、キャンディと、<br> それから、えー<br> とにかくまぁ、みんなさがして<br> おけばいいんだろ?<br> まかせとけって！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"We're looking to find Ganache,\nCandy, and ummm, at any rate, we just\nneed to find them right? Leave it to\nus!"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「できるだけ早くしてね。<br> ちょっと心配だわ。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"Let's hurry as much as possible.\nI'm worried."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「まかせなさいですの！"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"Leave it to us!"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「やるだけやってみるわ。<br> どうなるかわからないけどね。"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"Let's try our best. I don't know\nwhat'll happen though."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「とにかくやってみる~。<br> ちょっと不安かなぁ。"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Let's give it a try. I'm a bit\nworried though."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「<i>オイラ、なにしてるっぴ‥‥?<br> どうしてオイラがここに‥‥?</i>"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"What am I doing...?\nWhy am I here...?"
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>ソレデハ ミナサン！！<br> ジュンビハ イーデスカ！?</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"Well then everyone! Are you ready!?"
   Comments: ''
 - Japanese: "\\8b\\a3バルサミコ<br>「死ぬなよ~！"
-  English: ''
+  English: "\\8b\\a3Balsamico\n\"Don't die on us!"
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>ヤミノプレーンニ<br> ツイタゼ~</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"We've arrived at the Plane of Darkness."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「今、ガナッシュ達の声<br> しなかったか?<br> とにかく急ごう！<br> ここでのんびりしてるわけには<br> 行かない。<br> まずは、<span class=\"red\">ギュウヒ・オグラ</span>を<br> さがそうぜ。<br> <span class=\"red\">レヒカフ沼の南西</span>だ。"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"Did you just hear Ganache's voice too?\nLet's hurry! We can't just loaf around\nhere. We need to first search for\n\\8eBun Patti\\8d. He's at the \\8esouthwest\nNifkrahs Swamp\\8d."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「今、ガナッシュ達の声が<br> 聞こえたわ。<br> いそぎましょう！<br> ‥‥‥<br> と、その前に‥‥<br> <span class=\"red\">ギュウヒ・オグラ</span>をさがした方が<br> いいかしら‥‥。<br> <span class=\"red\">レヒカフ沼の南西</span>でしたっけ?"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"I just heard Ganache's voice. Let's\nhurry!\n...\nBut before that...\nI wonder if we should search for\n\\8eBun Patti\\8d first...\nThe \\8esouthwest Nifkrahs Swamp\\8d\nwas it?"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「闇のプレーン‥‥<br> はじめて来ましたの‥‥<br> とにかく、<br> <span class=\"red\">ギュウヒ・オグラ</span>ちゃんを<br> さがしますの！！<br> <span class=\"red\">レヒカフ沼の南西</span>にいるって話<br> ですの！！"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"The Plane of Darkness...\nThis is my first time here...\nAnyways, let's go find \\8eBun\nPatti\\8d! I heard he's in the\n\\8esouthwest Nifkrahs Swamp\\8d!"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「行こう。<br> 行くしかないんだ。<br> とりあえず、<span class=\"red\">ギュウヒ・オグラ</span>を<br> あたってみよう。<br> <span class=\"red\">レヒカフ沼の南西</span>だ。"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"Let's go. We don't have a choice\nAt any rate, let's go meet \\8eBun\nPatti\\8d. He's in the \\8esouthwest\nNifkrahs Swamp\\8d."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「いや~ん<br> なんだかイヤな感じ~<br> 早く<span class=\"red\">ギュウヒ・オグラ</span>を<br> さがしましょう。<br> <span class=\"red\">レヒカフ沼の南西</span>よ。"
-  English: ''
+  English: "\\8b\\17\\86\\0c\n\"Ahhh. This place feels icky.\nLet's hurry up and find \\8eBun\nPatti\\8d. He's at the \\8esouthwest\nNifkrahs Swamp\\8d."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「<i>ははははは。<br> ははははははは。<br> 行くっぴ。<br> </i><span class=\"red\">レヒカフ沼の南西</span><i>だっぴ。<br> ギュウヒちゃ~ん。<br> オグラちゃ~ん。<br> ははは。<br> ははははは。</i>"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"Hahahahaha.\nHahahahahaha.\nLet's go.\n\\8eSouthwest Nifkrahs Swamp\\8d.\nBun.\nPatti.\nHahahaha.\nHahahahahahaha."
   Comments: ''
 - Japanese: "\\8b\\a3バルサミコ<br>「闇のプレーンに行ったら、<br> <span class=\"red\">ギュウヒ・オグラ</span>をさがしな。<br> <span class=\"red\">ギュウヒ・オグラ</span>は、以前は<br> この学校で各プレーンの地理に<br> ついて教えていたんだ。<br> 今は引退して闇のプレーンに<br> いるって話だ。<br> まずは<span class=\"red\">ギュウヒ・オグラ</span>をさがし<br> て、<span class=\"red\">闇のプレーンの地図</span>をもらう<br> といい。<br> ギュウヒ・オグラは<span class=\"red\">レヒカフ沼の<br> 南西</span>あたりにいるって話だ。"
-  English: ''
+  English: "\\8b\\a3Balsamico\n\"Once you get to the \\8ePlane of\nDarkness\\8d, go find \\8eBun Patti\\8d.\n\\8eBun Patti\\8d used to teach at this\nschool about the geography of each plane.\nHe's retired now, but I heard he's living\nin the Plane of Darkness. First, you should\ngo find \\8eBun Patti\\8d and get the \\8ePlane\nof Darkness Map\\8d from him. I heard that he's\nliving near the \\8esouthwest Nifkrahs Swamp\\8d."
   Comments: ''
 - Japanese: "\\8b\\dcなぞの虫<br>「わ~た~し~は~<br> い~も~む~し~<br> い~も~む~し~<br> ご~ろ ごろ~"
-  English: ''
+  English: "\\8b\\dcMysterious Bug\n\"I. am. a.\ncaterpillar.\ncaterpillar.\n*gurgle*.\n*gurgle*."
   Comments: ''
 - Japanese: "\\8b\\dcなぞの虫<br>「ムムッ！！<br> そなたらは！！<br> 魔法学校ウィルオウィスプの<br> 生徒ではないか！?"
-  English: ''
+  English: "\\8b\\dcMysterious Bug\n\"Huh!\nYou guys are!?\nYou're students of Will-o-Wisp\nAcademy!"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「‥‥‥<br> たしかにその通りだが、<br> オマエはなんだ?"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"...\nThat's true but, who are you?"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「たしかにそうだけど<br> あなたは‥‥?"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"That's true but you're...?"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「よくわかりましたの！<br> たしかにそうですの！<br> なんでわかりましたの?"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"Indeed! That is true! How did\nyou know?"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「たしかに、そうだけど、<br> アンタ、なにモンだよ。"
   English: ''
