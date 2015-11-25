@@ -6295,139 +6295,142 @@
   English: ''
   Comments: ''
 - Japanese: '<br>何か落ちてるけど、これ以上持てない！'
-  English: ''
+  English: |-
+
+    There's something on the ground, but you
+    don't have room to hold any more!
   Comments: ''
 - Japanese: "\\8b\\a3バルサミコ<br>「いいね~<br> バッチシだよ。<br> コレで闇のプレーンだろうが、<br> もとの世界へだろうが自由に<br> 行けるわなぁ。<br> １回は。"
-  English: ''
+  English: "\\8b\\a3Balsamico\n\"That's good. Just perfect.\nWith this we can warp anywhere, to the\nPlane of Darkness, or to where we\ncame from. Only once though."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「さっそく闇のプレーンに<br> 行くぜ！<br> カクゴはできてるか！?"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"Let's hurry to the Plane of Darkness!\nAre you all ready!?"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「ちょいまて、キルシュ。<br> バルサミコ、今、なんつった?"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"Wait a moment, Kirsche. Balsamico,\nwhat did you say just now?"
   Comments: ''
 - Japanese: "\\8b\\a3バルサミコ<br>「闇のプレーンだろうが、<br> もとの世界へだろうが<br> 自由に行けるわなぁ。<br> １回は。"
-  English: ''
+  English: "\\8b\\a3Balsamico\n\"With this we can warp anywhere, to the\nPlane of Darkness, or to where we\ncame from. Only once though."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「１回だけだっぴか?"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"Only once?"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「闇のプレーンになんか<br> 何度も行きたくねぇよ。<br> １回でいいだろ?<br> さっさと行こうぜ！<br> のんびりしてられるかよ！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"I don't want to go to the Plane\nof Darkness more than once anyways.\nOnce is enough right? Let's go already!\nWhy are we lazing around!?"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「キルシュ、あなた<br> アタマ使ってる?<br> 一度っきりってことは<br> 行ったらもう帰れないって<br> ことじゃないの?"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"Kirsche, do you even have a brain?\nIf we can only warp once, doesn't that\nmean once we go, we won't be able to come\nback?"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「でもそれじゃ、ガナッシュたちを<br> 助けに行けないじゃな~い?"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Then doesn't that mean we can't save\nGanache and the others?"
   Comments: ''
 - Japanese: "\\8b\\a3バルサミコ<br>「カフェオレのトランスが<br> １回しかもたねぇからよぉ。<br> 学校にもどって魔バスを<br> ちゃんと修理すりゃ<br> なんとかなるんじゃねぇの?"
-  English: ''
+  English: "\\8b\\a3Balsamico\n\"The power transformer in Cafe\nau Lait can only be used once.\nIf we return to school, we could\nprobably properly fix up the Magic Bus\nor something."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「つまり帰るしかないってこと<br> だっぴ。"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"So in other words, we have to go\nback."
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>マァ、ソウイウコトダ。<br> ココハカエルシカナイト。</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"Yeah, I guess so. We have to\ngo back."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「魔バスの修理ってどのくらい<br> かかるんだ?<br> ガナッシュやキャンディは<br> だいじょうぶなのか?"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"How long will repairing the Magic\nBus take? I wonder if Ganache and\nCandy are okay..."
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「あせったってしょうがないよ。<br> カクジツな方法を選ぼう。<br> 帰るよ、学校に。"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"Hurrying's not going to get us\nanywhere. Let's pick the safe and sure\nmethod. We're going back to school."
   Comments: ''
 - Japanese: "\\8b\\a3バルサミコ<br>「りょ~~~~~~かい！<br> 行くぜっ！<br> ワ―――――――――――――<br> ――――――――――――――<br> ―――――――――――ップ！"
-  English: ''
+  English: "\\8b\\a3Balsamico\n\"Understoooood!\nLet's go!\nWaaaaaaaaaarrrrrrrrrrppppp!"
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>イッ‥‥‥‥！！<br> イッ‥‥‥‥！！！<br> イヒャ――――――――――<br> ―――――――――――ッ！！</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"Ahhh...!\nAhhh...!!\nAaaaahhhhhhhhhh!!!"
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>プシュ~~~~‥‥‥</i>"
-  English: ''
-  Comments: ''
+  English: "\\8b\\17\\86\\0d\n\"Pshh...."
+  Comments: Definitely not the right onomatopoeia here.
 - Japanese: "\\8b\\d\\86\\3<br>「ついたわ。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"We're here."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「ふ~。<br> それじゃ、オイラはこれで‥‥"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"Whew. Well then, I'll just..."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「キャンプを途中でやめたら<br> 退学だぜ！<br> それでもいいのか?"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"If you give up in the middle of camp,\nyou'll flunk out! Are you okay with that?"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「あの時とは、ぜんぜん<br> ジョウキョウがちがうっぴ！！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"The situation's completely different\nnow though!"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「‥‥‥‥<br> そうかなぁ‥‥‥‥。<br> 校長先生は全部知っていたんじゃ<br> ないかなぁ。"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"...\nI wonder...\nWhat if the principal knew about\nall this?"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「????"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"???"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「知っててオイラたちを<br> キャンプに向かわせたっぴか！?"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"Are you saying he made us go\nto camp knowing this would happen!?"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「この学校の卒業生の<br> ５人に１人はエニグマつき‥‥<br> もし、それが本当なら、<br> もうすぐ戦争がはじまるって<br> のもありえない話じゃないわ。"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Among the 5 people who've graduated\nfrom this school, 1 was possessed by\nan Enigma...\nIf that's true, then it wouldn't be too\nfar-fetched to say that a war will break\nout soon."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「大人たちじゃカイケツできない<br> 何かをさがさせるために<br> 危険をしょうちで、私たちを<br> エニグマに会わせたのかも<br> 知れないね‥‥‥‥。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\0d\\86\\03\n\"Maybe the adults knew about the dangers\nand made us face the Enigmas to help them\nfind a solution to their problem..."
+  Comments: 'Significant rewording here, but it kinda works I think.'
 - Japanese: "\\8b\\a3バルサミコ<br>「よく気がついたじゃねぇか、<br> 少年少女よ。<br> 実は、魔バスを光のプレーンに<br> 送り込んだのは、エニグマじゃ<br> なくて、校長なんだ。<br> この国のほかの魔法使いは<br> 誰一人として、敵か味方か<br> わからねぇ。<br> いざって時に、<br> グラン・ドラジェが頼れるのは、<br> オマエらだけなんだ。"
-  English: ''
+  English: "\\8b\\a3Balsamico\n\"You're sharp aren't you, boys and girls.\nIn fact, it wasn't the Enigmas that sent\nthe Magic Bus to the Plane of Light, it\nwas the principal. We don't know if any\nof the other wizards in this country are\nour friends or foes. When the time comes,\nPrincipal Biscotti can only rely on you\nall."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「‥‥‥‥<br> ハァ‥‥‥‥。<br> なんだか、気が遠くなって<br> 来たわ。<br> だけど、大人たちに頼れないって<br> わかった以上、私たちでなんとか<br> しなきゃ！！"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"...\nRight...\nSomehow, I feel really distanced\nfrom it all. But, besides learning\nthat we can't rely on the adults, we\nneed to do something!"
   Comments: ''
 - Japanese: "\\8b\\a3バルサミコ<br>「いそぐんだったら、オレが<br> <span class=\"red\">召喚機</span>を動かしてやるぜ！<br> <span class=\"red\">召喚機</span>ってのは、他のプレーン<br> から生き物を呼び出したりする<br> 機械なんだが、<br> カイゾーすれば、こっちから<br> 向こうに、生き物を送りこめる<br> ようにもなる。"
-  English: ''
+  English: "\\8b\\a3Balsamico\n\"If you want to hurry, I'll go\nready up the \\8esummoning machine\\8d!\nThe \\8esummoning machine\\8d is a\ndevice used to summon creatures from\nforeign planes, but we can retool it\nto send creatures from this plane to\nother ones."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「それじゃ、じゅんばんに<br> 一人ずつ行くかーっ！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"Then we can go one by one!"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「オイラはイヤだっぴ！！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"I don't want to!"
   Comments: ''
 - Japanese: "\\8b\\a3バルサミコ<br>「おおっと、あせるなよ！<br> 行けるのはカフェオレだけだ！"
-  English: ''
+  English: "\\8b\\a3Balsamico\n\"Hey there, don't be so hasty! Only\nCafe au lait will be able to go!"
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>オレカ‥‥<br> ガックシ‥‥</i>"
-  English: ''
-  Comments: ''
+  English: "\\8b\\17\\86\\0d\n\"Me huh...\n*creak*..."
+  Comments: What is gakkushi?
 - Japanese: "\\8b\\a3バルサミコ<br>「ドワーフにカイゾーしてもらった<br> ジェネレーターにだなぁ<br> <span class=\"red\">召喚機</span>の魔道パルスを流して<br> なんか、タービンを逆回転させる<br> わけよ。"
-  English: ''
+  English: "\\8b\\a3Balsamico\n\"It's because the generator the dwarfs\nretooled can reverse the turbines and\nchannel the magic pulse backwards in the\n\\8esummoning machine\\8d."
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>セツメイガ アバウト<br> ナンデスケド‥‥。<br> シクシク‥‥。</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"That's a pretty sloppy explanation...\n*sniffle* *sniffle*..."
   Comments: ''
 - Japanese: "\\8b\\a3バルサミコ<br>「で、カフェオレにガナッシュらを<br> さがしておいてもらう。<br> 魔バスが修理できたら<br> すぐに助けに行く。<br> これでいいだろ?"
-  English: ''
+  English: "\\8b\\a3Balsamico\n\"So, Cafe au lait will go search for\nGanache and the rest. Once the Magic\nBus is fixed, we'll go rescue them.\nSounds good?"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「だけど、カフェオレだけが<br> 行ったところで！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"But Cafe au lait will be going by\nhimself!"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「私も行くよ。<br> カフェオレといっしょに<span class=\"red\">召喚機</span>に<br> 入ればいっしょに行けるだろ?"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"I'll go too. I just need to get\nin the \\8esummoning machine\\8d together\nwith Cafe au lait right?"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「私も！！"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"I'll go too!"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「私も行きますの！"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"I'm going too!"
   Comments: ''
 - Japanese: "\\8b\\a3バルサミコ<br>「そんなに何人も入れねぇ。<br> せいぜい３人だろ。"
-  English: ''
+  English: "\\8b\\a3Balsamico\n\"You can't fit that many people in it.\nAt most, you'd fit 3 people."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「じゃあ、私とレモン！"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"Then how about Lemon and me!"
   Comments: ''
 - Japanese: "\\8b\\a3バルサミコ<br>「誰と行くかは、カフェオレが<br> 決めな。<br> カフェオレが一番たよれる<br> ヤツを選ぶといい。"
-  English: ''
+  English: "\\8b\\a3Balsamico\n\"Cafe au lait'll decide who goes.\nCafe au lait, you can pick the most\nreliable ones."
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>イカナイッテノハ<br> ダメデスカ‥‥?<br> ダメデスネ‥‥。<br> ワカッテマシタ‥‥。<br> シクシクシク‥‥。</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"Can I not go...?\nI guess I have to...\nI understand...\n*sniffle* *sniffle*..."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「カフェオレちゃん！<br> がんば！"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"Cafe au lait! You got this!"
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>‥‥‥<br> シクシクシク‥‥。</i>"
   English: ''
