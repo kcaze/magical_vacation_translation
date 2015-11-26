@@ -82,6 +82,7 @@ Place names:
 レヒカフ -- Nifkrahs (Shark Fin backwards)
 ジェラ風穴 -- Gelato Cave
 クガンデ -- Ukagned Village
+ゲアラヴァ -- Ega Aruba Village (Aburaage backwards)
 
 People names:
 ギュウヒ・オグラ -- Bun Patti
@@ -152,6 +153,8 @@ People names:
 フェンネル -- Fennel
 ガンベジ -- Sausage (can't tell what this name is, but it should be a pizza topping)
 リヨネーズ -- Lyonnaise (sauce)
+ボンバーポット -- Bomber Pot
+はじけるポット -- Burster Pot
 
 Other names:
 愛のデッパリ -- Baby bump (Not sure about this at all.)
