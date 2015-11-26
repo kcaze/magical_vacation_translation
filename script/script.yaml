@@ -6559,145 +6559,145 @@
   English: "\\8b\\11\\86\\07\n\"Indeed! That is true! How did\nyou know?"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「たしかに、そうだけど、<br> アンタ、なにモンだよ。"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"That's true, but who are you?"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「たしかにそうだけど~<br> どうしてわかったの~?"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"That's true but, how did you know?"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「オイラ、ピスタチオだっぴ。<br> アンタはナニモノだっぴ?"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"I'm Pistachio. Who're you?"
   Comments: ''
 - Japanese: "\\8b\\dcなぞの虫<br>「聞いておどろけ！<br> 私は魔法界のオーソリティ！<br> ギュウヒ・オグラであ~る！<br> わ~た~し~は~<br> な~ん~で~も~<br> し~って~い~る~<br> な~ぜ~な~ら~<br> わ~た~し~は~<br> オ~ソ~リ~ティ~"
-  English: ''
+  English: "\\8b\\dcMysterious Bug\n\"You'll be surprised to hear!\nI am an authority of the magical world!\nBun Patti is my name!\nI. Know. Everything.\nWhy? Because. I'm. An. Authority."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「げげっ！<br> アンタが！?"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"*splutter*!\nYou!?"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「え~~~~~~~~~~~~<br> ~~~~~~~~~っ！?<br> 本当にぃ~~~~~~っ！?"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"Whaaaaaat!? Reaaaaally!?"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「まぁ！<br> そうでしたの！<br> 私たち、ギュウヒちゃんを<br> さがしてましたの！"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"My! Is that so! We were looking for\nBun Patti!"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「なんだってぇ――――――<br> ―――――――――ッ！?<br> あ、いや、<br> しつれいしました。<br> あの、わたしたち、実は<br> 先生をさがしてたんです。<br> いや、あの、その、<br> はははははは。"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"What did you say!?\nAh, no, sorry. Umm, we were\nactually looking for our teacher.\nNo, umm, you see, hahaha."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「いや~ん<br> 虫なの~！?<br> イモ虫なの~！?"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Eek! Are you a bug!? A caterpillar!?"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「<i>ははははははは！<br> ムシだっぴ！<br> イモムシだっぴ！</i>"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"Hahahahahaha!\nYou're a bug!\nJust a caterpillar!"
   Comments: ''
 - Japanese: "\\8b\\dcギュウヒ・オグラ<br>「そなたらの思いは<br> わかってお~る！！<br> なんてったって私は<br> オーソリティッ！！"
-  English: ''
+  English: "\\8b\\dcBun Patti\n\"I know what you are all thinking!\nFor I am an authority!"
   Comments: ''
 - Japanese: "\\8b\\dcギュウヒ・オグラ<br>「私はオーソリティ！<br> 何でも見ている！"
-  English: ''
+  English: "\\8b\\dcBun Patti\n\"I'm an authority! I see all!"
   Comments: ''
 - Japanese: "  ギュウヒ・オグラから<br>  <span class=\"red\">\\87\\9</span>をもらった！<br>"
-  English: ''
+  English: "Received \\8e\\87\\09\\8d from Bun Patti!"
   Comments: ''
 - Japanese: "\\8b\\dcギュウヒ・オグラ<br>「そなたらのベンギをはかって、<br> ここはすでに登録しておいた！<br> 私のカンでは、そなたらの<br> 担任のマドレーヌ先生と<br> クラスメイト８人は‥‥<br> 闇のプレーンに来ておーる！！<br> そしてなんと、闇の存在が<br> おまえ達をねらっておーる！！<br> ここから、沼の外周をつたって<br> 北へ行けば、ヴォークスの住む<br> <span class=\"red\">マサラティ村</span>へと出よう！<br> まずは、<span class=\"red\">マサラティ村</span>を<br> 目指すがよい！"
-  English: ''
+  English: "\\8b\\dcBun Patti\n\"For your convenience, I've already\nregistered this spot! According to\nmy senses, your teacher, Miss Madeleine,\nand 8 of your classmates have...\ncome to the Plane of Darkness!\nAnd by god, the darkness is targeting you\nall! From here, if you walk north along the\noutside of the swamp, you'll arrive at\n\\8eMasala Chai Village\\8d here the Canin live!\nFirst, head towards \\8eMasala Chai Village\\8d!"
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>ヤミノプレーンノ オソロシサヲ<br> カイマミタヨウナ キガスル‥‥</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"I feel like I've caught a glimpse\nof how frightening the Plane of Darkness\nis..."
   Comments: ''
 - Japanese: "\\8b\\dcなぞの虫<br>「何をしておるかっ！！<br> いっしょに歌わんか！！"
-  English: ''
+  English: "\\8b\\dcMysterious Bug\n\"What are you doing! Won't you\nsing with me!?"
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「ふざけんな――――！！<br> オレのことはまた<br> 知らんふりかよ――――！！"
-  English: ''
+  English: "\\8b\\1a\\86\\10\n\"Stop messing around! You're\npretending like you don't know\nme again!"
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「やっていいことと悪いことが<br> あるんだぜ、セサミ。<br> ちゃんとわかってんのか?"
-  English: ''
+  English: "\\8b\\14\\86\\0a\n\"There are things that are okay to do\nand things that are not okay, Sesame.\nDo you really understand?"
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「ムスクさんは、オレがエニグマに<br> 追いまわされてる時に<br> 助けてくれたんだ！！<br> オマエら、オレがエニグマに<br> 連れていかれた時、<br> 何もしてくれなかったじゃ<br> ないか――――！！"
-  English: ''
+  English: "\\8b\\1a\\86\\10\n\"Musk saved me when I was being chased\naround by Enigmas! When Enigmas took me\naway, you all didn't do anything!"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「それは、オマエがいつまでも<br> 虫に夢中になってるからだろ。<br> もっと、まわりを見ろよ。"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"That's you were always absorbed in\nthose bugs of yours. You should be more\naware of your surroundings."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「それは、あなたも悪いのよ。<br> 私たちがさそっても、あなたは<br> 虫の方を追いかけて行ったわ。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"You're at fault too. Even when \nwe reached out to you, you just\nwent around and chased bugs."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「私たちは悪くありませんの！！<br> セサミちゃんが虫ばっかり<br> 追いかけてるからですの！！"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"We're not at fault!\nIt's because Sesame you kept\nchasing bugs around!"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「人のせいばかりにするなよ。<br> 虫のことしか目に入ってなかった<br> くせに、いまさら何だよ。"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"Stop blaming other people.\nYou paid attention to nothing but\nbugs, so what are you saying?"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「人のせいばかりにして<br> いいのかな~?<br> セサミが、虫のことばっかりしか<br> 考えてないで、まわりを見てない<br> からこうなったのよ。"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Do you think it's okay for you\nto blame it all on other people?\nThis all happened because all you\nthought about were bugs and you didn't\npay attention to around you."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「エニグマに追いまわされたのは<br> オイラも同じだっぴ！！<br> セサミは虫を追いまわしてばかり<br> いるから、ヒドイ目にあうっぴ！<br> はんせいするっぴ！！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"We were chased around by Enigmas\ntoo! Sesame, you got into trouble\nbecause all you did was chase bugs\naround! You should think about\nwhat you did!"
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「セサミの目は、虫の目なんだよ。<br> まわりのことなんて、<br> 何も見えてないのさ。"
-  English: ''
+  English: "\\8b\\15\\85\\0b\n\"Sesame your eyes are like an\ninsects. You don't pay attention\naround you at all."
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「虫をバカにするな――――！！"
-  English: ''
+  English: "\\8b\\1a\\86\\10\n\"Don't look down on insects!"
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「虫をバカにしたんじゃないの！<br> キミをバカにしたの！"
-  English: ''
+  English: "\\8b\\15\\86\\0b\n\"We're not looking down on insects!\nWe're looking down on you!"
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「もういいよ、行くぜ。<br> セサミももう、一人でいるのは<br> こりただろ?"
-  English: ''
+  English: "\\8b\\14\\86\\0a\n\"Whatever, let's go. Sesame, you've\nlearned from this experience now right?"
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「うるさ――――――――い！！<br> オマエらなんか、エニグマと<br> 融合して、ひねりつぶして<br> やる――――！！"
-  English: ''
+  English: "\\8b\\1a\\86\\10\n\"Shut up already! I'll fuse with an\nEnigma and then squash all of you!"
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「待てよ！！<br> セサミ！！"
-  English: ''
+  English: "\\8b\\14\\86\\0a\n\"Wait! Sesame!"
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「‥‥‥‥。"
-  English: ''
+  English: "\\8b\\15\\86\\0b\n\"..."
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>シードル、サッキノハ<br> イイスギダッタナ。</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"Cider, I think you were too harsh\nthere."
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「‥‥‥‥。<br> つい思ってること全部<br> 言っちゃった‥‥‥‥。<br> まずかったな‥‥‥‥。"
-  English: ''
+  English: "\\8b\\15\\86\\0b\n\"...\nI just said was on my mind...\nMaybe I shouldn't have..."
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「過ぎたことさ。<br> しょうがないよ。<br> 信じよう。"
-  English: ''
+  English: "\\8b\\14\\86\\0a\n\"That was too much. But there's\nnot much we can do now. Let's just\nbelieve in him."
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「セサミ、本当にエニグマと<br> 融合するつもりかな?"
-  English: ''
+  English: "\\8b\\15\\86\\0b\n\"I wonder if Sesame is really\nplanning to fuse with an Enigma?"
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「わからねぇ。<br> とりあえず、文鳥のどかし方を<br> 覚えて、<span class=\"red\">エニグマの森</span>へ<br> 向かおう。"
-  English: ''
+  English: "\\8b\\14\\86\\0a\n\"Who knows. For now, let's learn\nhow to get the ricebirds out of the\nway and head to \\8eEnigma Forest\\8d."
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>ブンチョウノ ドカシカタヲ<br> シッテルヤツハ<br> サバクニ イルンダロ?<br> ダッタラ マズ ムスクニ<br> サバクノ アルキカタヲ<br> キカナイト ダメダナ。</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"The person who knows how to make\nricebirds get out of the way is in\nthe desert right? If that's the case,\nwe need to first ask Musk about how\nto cross the desert."
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「????"
-  English: ''
+  English: "\\8b\\15\\86\\0b\n\"???"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「セサミか！?"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"Is that Sesame!?"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「もしかして、セサミの声?"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"Could that be Sesame's voice?"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「セサミちゃんの声ですの！！"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"It's Sesame's voice!"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「????<br> セサミか??"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"???\nSesame?"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「セサミ！?<br> セサミなの！?"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Sesame!? Is it Sesame!?"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「セサミの声だっぴ！！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"It's Sesame's voice!"
   Comments: ''
 - Japanese: '  穴の中からモンスターが<br>  あらわれた！！<br>'
-  English: ''
+  English: 'A monster appeared from the hole!'
   Comments: ''
 - Japanese: '  ガラクタの中から<br>  <span class="red"></span>をみつけた'
-  English: ''
+  English: 'Found a <CC?> among the rubbish.'
   Comments: ''
 - Japanese: ''
   English: ''
@@ -6712,31 +6712,31 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「ひゃっは―――――ッ！！<br> ムシがいっぱいだ――ッ！！"
-  English: ''
+  English: "\\8b\\1a\\86\\10\n\"Whoo! There's a lot of bugs!"
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「ぎゃぁぁぁぁぁぁ―――――――<br> ―――――――――――ッ！！"
-  English: ''
+  English: "\\8b\\1a\\86\\10\n\"Eeeek!"
   Comments: ''
 - Japanese: "\\8b\\d3こんにゃく様の声<br>「どうしたでぺたん！！<br> だいじょうぶでぺたこんか！?<br> うぎゃっ！！"
-  English: ''
+  English: "\\8b\\d3Mister Konjac's voice\n\"What's wrong!? Are you okay!?\nAhhh!"
   Comments: ''
 - Japanese: "\\8b\\c8リヨネーズ<br>「ここから西は<br> ドワーフの土地だベ。<br> めんごい機械とドワーフしか<br> はいっちゃなんねーの！<br> わがったが！?"
-  English: ''
+  English: "\\8b\\c8Lyonnaise\n\"West of here is the land of\nthe dwarfs. There's only lovely\nlittle machines and dwarfs there!\nGot it!?"
   Comments: ''
 - Japanese: "\\8b\\c8リヨネーズ<br>「おー、めんごい古代機械ちゃん。<br> さぁ、通って、通って。"
-  English: ''
+  English: "\\8b\\c8Lyonnaise\n\"Oh, my lovely little baby. Go ahead,\ngo ahead."
   Comments: ''
 - Japanese: ''
   English: ''
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「セサミ！?<br> どうかしたのかしら！?"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"Sesame!? What happened!?"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「セサミちゃんの声ですの！！<br> 事件ですの！?"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"It's Sesame's voice! Did something\nhappen!?"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「！！！！！<br> どうしたんだ！?"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"!!!\nWhat happened!?"
   Comments: ''
 - Japanese: ''
   English: ''
@@ -6748,13 +6748,13 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「ちょっともどって<br> みましょう！"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"Let's try going back for a\nbit!"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「セサミちゃん！！<br> 今行きますの！！"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"Sesame! We're heading there now!"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「とりあえずもどって<br> 様子を見よう！！"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"At any rate, let's head back\nand check up on him!"
   Comments: ''
 - Japanese: ''
   English: ''
@@ -6766,13 +6766,13 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「だいじょうぶ！?<br> いったい何があったの！?"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"Are you okay!? What in the world\nhappened!?"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「だいじょうぶですの！?<br> なにがありましたの！?"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"Are you okay!? What happened!?"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「いったいどうしたんだ！?<br> ぜんぶ話すんだ！！"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"What happened exactly!? Tell us\neverything!"
   Comments: ''
 - Japanese: ''
   English: ''
@@ -6781,25 +6781,25 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「こ‥‥<br> こ‥、こん‥‥<br> こんにゃくがしゃべったぁ――<br> ――――――――――――――<br> ―――――――――――ッ！！"
-  English: ''
+  English: "\\8b\\1a\\86\\08\n\"The...\nthe...\nK-konjac spoooooke!"
   Comments: ''
 - Japanese: "\\8b\\d3こんにゃく様<br>「いきなりぶつかってきて<br> 何を言うでぺたこ―――ん！！"
-  English: ''
+  English: "\\8b\\d3Mister Konjac\n\"What are you saying after you\nbumped into me!?"
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「だって、ほら‥‥<br> こんにゃくが‥‥"
-  English: ''
+  English: "\\8b\\1a\\86\\10\n\"But, look...\nThe konjac..."
   Comments: ''
 - Japanese: ''
   English: ''
-  Comments: ''
+  Comments: "What's with all these blanks? Presumably there's some control code going on?"
 - Japanese: "\\8b\\d\\86\\3<br>「まったくもう！！<br> そんなことであんな大声を！<br> まぎらわしいんだからっ！<br> こんにゃく様がしゃべるのなんて<br> あたりまえでしょ！"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"Sheesh! You were shouting over something\nlike this!? That was misleading! Of course\nMister Konjacs can speak!"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「‥‥‥。<br> なーんだ‥‥。<br> セサミちゃん、こんにゃく様を<br> はじめて見たんですのね。<br> あきれましたの。"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"...\nIs that it...\nSesame, this is the first time you've\nseen a Mister Konjac huh. You were\nshocked weren't you."
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「そんなことかよ‥‥。<br> まったく‥‥。<br> この世界では、こんにゃくだって<br> ツボだってしゃべるんだよ。<br> わかってなかったの?"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"Is that all...?\nGeez...\nDidn't you know that in this world,\neven konjacs and pots can speak?"
   Comments: ''
 - Japanese: ''
   English: ''
@@ -6808,25 +6808,25 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\d3こんにゃく様<br>「大事な用事があるのに~~！<br> こんなとこで足止めされるのは<br> ごめんなさいでぺたこ――――<br> ――――――――――ん！！"
-  English: ''
-  Comments: ''
+  English: "\\8b\\d3Mister Konjac\n\"I have something urgent I must attend\nto! Sorry for keeping you here for\nsomething like this!"
+  Comments: Not sure about second sentence.
 - Japanese: "\\8b\\1a\\86\\10<br>「こんにゃくが<br> しゃべってんだぜ！！<br> どうなってんだよ！！！<br> フシギじゃねぇのかよ！！<br> オイ！！"
-  English: ''
+  English: "\\8b\\1a\\86\\10\n\"The konjac spoke! What's going on!?\nIsn't it strange!? Hey!"
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「‥‥‥。<br> やっぱりいいです。<br> ボクがどうかしてました。<br> はははははは。"
-  English: ''
+  English: "\\8b\\1a\\86\\10\n\"...\nNevermind.\nI'll do something about it.\nHahaha."
   Comments: ''
 - Japanese: ''
   English: ''
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「ふざけるのも<br> いいかげんにして！"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"Cut it out already!"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「はいはい、そうですの。<br> フシギですの。<br> 私たちはもう行くから、<br> 一人で いっぱいなやんで<br> いるといいですの。"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"Yes yes. It's strange.\nWe're going on ahead so you can\njust stay here and worry about it\nby yourself."
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「バカバカしい。<br> さよなら。"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"What a load of nonsense. See you."
   Comments: ''
 - Japanese: ''
   English: ''
@@ -6835,37 +6835,37 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「ムシちゃ~ん、出ておいで~。<br> はははははは。"
-  English: ''
+  English: "\\8b\\1a\\86\\10\n\"Come little buggy~\nHahaha."
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「ぺたーん とか‥‥。<br> ぺたこーん とか‥‥。<br> ‥‥‥‥‥。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\1a\\86\\10\n\"Untranslated yet, dialogue 2234."
+  Comments: "Need to decide on konjac's speech style here."
 - Japanese: "\\8b\\d3こんにゃく様<br>「そうでぺたんか‥‥‥<br> ここにもないでぺたんか‥‥"
-  English: ''
+  English: "\\8b\\d3Mister Konjac\n\"Is that so...\nThere's none here either huh..."
   Comments: ''
 - Japanese: "\\8b\\c6ピップルスの道具屋<br>「<span class=\"red\">\\87\\d</span>なんて、<br> 聞いたこともないです。<br> どんなもんなんでしょう。"
-  English: ''
+  English: "\\8b\\c6The Mausses Shop Owner\n\"I haven't heard of anything such as\na \\8e\\87\\8d\\8d. I wonder what kind of\nthing it is."
   Comments: ''
 - Japanese: "\\8b\\d3こんにゃく様<br>「ハァ‥‥<br> いや、実は私、<br> <span class=\"red\">\\87\\d</span>をさがして<br> 旅をしているんでぺたん。<br> このプレーンには、どこにも<br> 売ってないのがわかったで<br> ぺたん。<br> しょうがないでぺたん。<br> ハァ‥‥。<br> タメイキ タメイキ。"
-  English: ''
+  English: "\\8b\\d3Mister Konjac\n\"*sigh*\nYou see, I've travelling around\nin search of a \\8e\\87\\0d\\8d. I guess\nI've learned that they're not sold\nanywhere in this plane. I guess there's\nnothing I can do about it.\n*sigh*...\nInhale...exhale..."
   Comments: ''
 - Japanese: ''
   English: ''
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「セサミの声だわ‥‥。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"It's Sesame's voice..."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「セサミちゃんの声ですの<br> ‥‥。"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"It's Sesame's voice..."
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「セサミ‥‥‥‥?"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"Sesame...?"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「セサミがいたのって、<br> このへんよね?"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"Sesame was around here right?"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「ちょっとさがしてみよう！"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"Let's go look for him!"
   Comments: ''
 - Japanese: ''
   English: ''

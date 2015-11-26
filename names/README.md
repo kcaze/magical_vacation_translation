@@ -151,6 +151,7 @@ People names:
 ムスク -- Musk (not really a food...)
 フェンネル -- Fennel
 ガンベジ -- Sausage (can't tell what this name is, but it should be a pizza topping)
+リヨネーズ -- Lyonnaise (sauce)
 
 Other names:
 愛のデッパリ -- Baby bump (Not sure about this at all.)
