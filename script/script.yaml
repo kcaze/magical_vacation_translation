@@ -7488,22 +7488,22 @@
   English: "\\8b\\ba???\n\"You, get out of that weird vehicle\nand talk to us out here!"
   Comments: ''
 - Japanese: "\\8b\\b9?????<br>「たいど悪ィぞ！！"
-  English: ''
+  English: "\\8b\\b9???\n\"I don't like your attitude!"
   Comments: ''
 - Japanese: "\\8b\\b8?????<br>「いや、たいどはたしかに<br> よくないが、<br> 悪いヤツではなさそうだ。<br> 村のものに説明がつけば<br> それでいい。<br> 我々がなっとくできるこたえを<br> 聞かせてもらいたい。<br> オマエはどこから来たんだ?"
-  English: ''
+  English: "\\8b\\b8???\n\"Well, his attitude is certainly bad\nbut, he doesn't look like an evildoer.\nIf we explain it to the villagers, it'll\nbe fine. Give us an explanation that can\nconvince us. Where are you from?"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「今、バルサミコの声が聞こえた<br> ような気がする~"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"I feel like I heard Balsamico's\nvoice just now."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「ああ、オレも聞こえたよ。<br> ピスタチオ、オマエは?"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"Ah, me too. What about you, Pistachio?"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「文鳥の声に、文鳥のニオイが<br> するだけだっぴ。"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"I only hear and smell the ricebirds."
   Comments: ''
 - Japanese: "\\8b\\a3バルサミコ<br>「しょうがねぇなぁ。<br> ちゃんと聞いてろよ。<br> さっきから何度も説明してる<br> だろ?"
-  English: ''
+  English: "\\8b\\a3Balsamico\n\"Alright alright. Then listen\ncarefully here. I already explained\nthis over and over didn't I?"
   Comments: ''
 - Japanese: '  ヴァレンシア・ビーチ・リゾート<br>   ライスバード・ヴィレッジ<br>       ＆ スパ'
   English: |-
@@ -7514,19 +7514,19 @@
   English: The door is locked.
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「どっちでもいいから、もう<br> 行こうぜ。<br> ブルーベリーのことが心配だ。"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"Either way's fine so let's go\nalready. I'm worried about Blueberry."
   Comments: ''
 - Japanese: ''
   English: ''
   Comments: ''
 - Japanese: "\\8b\\beシナモン<br>「あら、おひさしぶり。"
-  English: ''
+  English: "\\8b\\beCinnamon\n\"My, it's been a while."
   Comments: ''
 - Japanese: "\\8b\\beシナモン<br>「ここに、つい最近までメースが<br> 泊まっていたらしいんだけど‥‥<br> その先がどこへ行ったか<br> わからなくって‥‥‥‥<br> メースがどこへ行ったか、<br> 心当たりはありませんか！?"
-  English: ''
+  English: "\\8b\\beCinnamon\n\"It looks like Mace was living here\nuntil just recently but...\nI don't know where he went next...\nDo you happen to have any idea where\nMace might have gone!?"
   Comments: ''
 - Japanese: "\\8b\\0  こんにゃく様の村にいる<br>  どこかでのたれ死んだ<br>  わからない"
-  English: ''
+  English: "\\8b\\00 He's in the Konjac's village\nHe hanged himself somewhere\nI don't know"
   Comments: ''
 - Japanese: ''
   English: ''
@@ -7560,7 +7560,7 @@
   Comments: ''
 - Japanese: ''
   English: ''
-  Comments: ''
+  Comments: "What's with these blanks????"
 - Japanese: ''
   English: ''
   Comments: ''
@@ -7568,61 +7568,61 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\beシナモン<br>「<span class=\"red\">\\87\\d</span>が見つかった<br> のね！！<br> ありがとう、私も行くわ！！<br> さようなら！！"
-  English: ''
+  English: "\\8b\\beCinnamon\n\"You found a \\8e\\87\\0d\\8d! Thanks,\nI'm going to go now! See you!"
   Comments: ''
 - Japanese: "\\8b\\beシナモン<br>「そう言うことも、あるかも<br> 知れないわね。<br> 覚悟はできているわ。"
-  English: ''
+  English: "\\8b\\beCinnamon\n\"You might be right. I've prepared\nmyself for the worst."
   Comments: ''
 - Japanese: "\\8b\\beシナモン<br>「そうなの‥‥‥‥。<br> ありがとう。<br> 自分でさがしてみるわ。"
-  English: ''
+  English: "\\8b\\beCinnamon\n\"I see...\nThanks.\nI'll try searching on my own."
   Comments: ''
 - Japanese: "\\8b\\a4ツリーマン<br>「こんにちは。<br> ボクたち、ツリーマン。<br> ここは<span class=\"red\">ツリーマンの森</span>です。<br> そんだけ。"
-  English: ''
+  English: "\\8b\\a4Treeman\n\"Hello. We're Treemen. This is the\n\\8eTreeman Forest\\8d. That's all I have\nfor you."
   Comments: ''
 - Japanese: "\\8b\\a4ツリーマン<br>「こんにちは。<br> <span class=\"red\">ツリーマンの森</span>へようこそ。"
-  English: ''
+  English: "\\8b\\a4Treeman\n\"Hello. Welcome to \\8eTreeman Forest\\8d."
   Comments: ''
 - Japanese: "\\8b\\a4ツリーマン<br>「<span class=\"red\">エニグマの森</span>にも、最近はあまり<br> 強いエニグマはいないんだ。<br> ほんの数日前まで、スゴイのが<br> ニ匹火花を散らしてたけど‥‥<br> 見なくなっちゃったなぁ。<br> どこに行ったんだろ?"
-  English: ''
-  Comments: ''
+  English: "\\8b\\a4Treeman\n\"Recently there haven't been any\nstrong Enigmas, even in \\8eEnigma Forest\\8d.\nJust a couple days ago, there were two\nreally strong ones showering fireworks but...\nI haven't seen them recently.\nI wonder where they went."
+  Comments: 火花を散らしてた?
 - Japanese: "\\8b\\a4ツリーマン<br>「エニグマは死んでもすぐ<br> 生き返るんだよね。"
-  English: ''
+  English: "\\8b\\a4Treeman\n\"Even if an Enigma dies, it comes\nback to life immediately."
   Comments: ''
 - Japanese: "\\8b\\a4ツリーマン<br>「以前は、もっとたくさんの<br> エニグマがこの森にいたんだ。<br> でも、彼らはいろんなプレーンの<br> いろんな生き物と融合して、それ<br> ぞれのプレーンに行ったきりさ。"
-  English: ''
+  English: "\\8b\\a4Treeman\n\"In the past, there used to be\neven more Enigmas living here. But\nthey fused with living beings from\nother planes and have since scattered\nacross the planes."
   Comments: ''
 - Japanese: "\\8b\\a4ツリーマン<br>「マドレーヌちゃんにも、本当は<br> エニグマが憑いてるんだって。<br> だからマドレーヌちゃんは、<br> いざとなると、スゴい魔法を<br> 使えるんだって。"
-  English: ''
+  English: "\\8b\\a4Treeman\n\"They say even Madeleine is\npossessed by an Enigma. That's\nwhy when it matters, she's able to\nunleash some terrific magic."
   Comments: ''
 - Japanese: "\\8b\\a4ツリーマン<br>「森の奥に、<span class=\"red\">こんにゃく様</span>の住む<br> <span class=\"red\">クガンデ村</span>があったんだけど‥‥<br> みんないなくなっちゃったんだ。"
-  English: ''
+  English: "\\8b\\a4Treeman\n\"Further inside the forest there's\nthe \\8eUkagned Village\\8d where the\n\\8eMister Konjacs\\8d live...\nBut they've all disappeared. "
   Comments: ''
 - Japanese: "\\8b\\a4ツリーマン<br>「こんにゃく様は、生まれた時から<br> 物知りなんだ。<br> すごいよね。"
-  English: ''
+  English: "\\8b\\a4Treeman\n\"Mister Konjacs are full of knowledge\nfrom the day they were born. It's quite\namazing."
   Comments: ''
 - Japanese: "\\8b\\a4ツリーマン<br>「昔はエニグマもこんなに悪くは<br> なかったよ。<br> 物質界で魔法学校を作った<br> グラン・ドラジェに魔法を教えた<br> のはエニグマなんだよ。"
-  English: ''
+  English: "\\8b\\a4Treeman\n\"In the past, Enigmas weren't such\nevil creatures. Principal Biscotti\nwho created the magic academy learned\nmagic from Enigmas you know."
   Comments: ''
 - Japanese: "\\8b\\a4ツリーマン<br>「昔はこの森へも、魔法学校から<br> 何人もの留学生が来てたよ。"
-  English: ''
+  English: "\\8b\\a4Treeman\n\"In the past, there were many students\nfrom Will-o-Wisp Academy that came to\nthis forest to study."
   Comments: ''
 - Japanese: "\\8b\\a4ツリーマン<br>「さっきマドレーヌが来てたよ。<br> ひさしぶりに会ったんだけど‥‥<br> あの子、大人っぽくなったね。<br> ちょっとドキドキしちゃった。"
-  English: ''
+  English: "\\8b\\a4Treeman\n\"Madeleine was here earlier. It's\nbeen a long time since I last saw her...\nShe's really matured hasn't she.\nMy heart fluttered."
   Comments: ''
 - Japanese: "\\8b\\a4ツリーマン<br>「マドレーヌ‥‥‥‥。<br> まだ独身なんだよね?"
-  English: ''
+  English: "\\8b\\a4Treeman\n\"Madeleine...\nShe's still unmarried isn't she?"
   Comments: ''
 - Japanese: "\\8b\\a4ツリーマン<br>「一番強いエニグマは、<br> 死のプレーンに行っちゃったよ。<br> 死のプレーンは、なんだかコワい<br> 感じの場所だけど、誕生をつかさ<br> どる場所でもあるんだ。<br> エニグマは、何度も何度も<br> 生まれかわって、そのたびに<br> 強くなって行くんだ。"
-  English: ''
+  English: "\\8b\\a4Treeman\n\"The strongest Enigma has gone to\nthe Plane of Death. The Plane of\nDeath seems like a scary place but\nit's also the place that governs\nthe creation of life. Enigmas are\nreborn over and over and come back\nstronger each time."
   Comments: ''
 - Japanese: "\\8b\\a4ツリーマン<br>「エニグマも、ボクらも、<br> 他のどんな命だって、<br> 何度でも、何度でも、<br> 死んではまた生き返る。<br> それが命の本質さ。"
-  English: ''
+  English: "\\8b\\a4Treeman\n\"Enigmas, Treemen, other living\nbeings, we all are reborn over\nand over. That is the essence of\nlife."
   Comments: ''
 - Japanese: "\\8b\\a4ツリーマン<br>「つい最近、物質界に行った<br> エニグマがいたけど、<br> グラン・ドラジェって魔法使いに<br> 倒されたらしいね。"
-  English: ''
+  English: "\\8b\\a4Treeman\n\"Recently, there were some Enigma\nthat stepped foot into the material\nworld, but I heard they were defeated\nby a wizard called Principal Biscotti."
   Comments: ''
 - Japanese: "\\8b\\a4ツリーマン<br>「グラン・ドラジェって、３００年<br> 前に魔法学校を作った人だよね。<br> 物質界の人なのに長生きだなー。"
-  English: ''
+  English: "\\8b\\a4Treeman\n\"Principal Biscotti founded\nWill-o-Wisp Academy over 300 years ago.\nFor a man of the material world, he\nsure has a long life."
   Comments: ''
 - Japanese: ''
   English: ''
@@ -7634,25 +7634,25 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\cc知識のツボ・フグ<br>「<span class=\"red\">成績表</span>には、あなたの冒険の<br> 成果が自動的に記録されます。<br> 勝率などが記録されてるので<br> なんとな~く、逃げちゃいけない<br> ような気がしてきます。"
-  English: ''
+  English: "\\8b\\ccInformation Pot, Fugu\n\"The results of your adventure are\nautomatically recorded in the\n\\8ereport card\\8d. Your win rate and\nother such information are recorded\nso it makes you feel like you shouldn't\nrun away doesn't it?"
   Comments: ''
 - Japanese: "\\8b\\cc知識のツボ・キャパマキィ<br>「ケーブルをつないでゲームを<br> はじめると‥‥‥‥<br> <span class=\"red\">レッツ温泉</span>で他の人のカセットの<br> 温泉に入ることができるのです。"
-  English: ''
+  English: "\\8b\\ccInformation Pot, Kappamaki\n\"If you connect using a link cable\nand start the game...\nYou can enter the other person's\nhot spring using with \\8eLet's Hot\nSpring\\8d."
   Comments: ''
 - Japanese: "\\8b\\cc知識のツボ・プトマキィ<br>「ケーブルをつないでゲームを<br> はじめると‥‥‥‥<br> <span class=\"red\">レッツたいせん</span>で、他の人の<br> パーティと対戦ができます。<br> 当然といえば当然なんですが、<br> 強いほうが勝ちます。"
-  English: ''
+  English: "\\8b\\ccInformation Pot, Futomaki\n\"If you connect using a link cable\nand start the game...\nYou battle the other person's party\nusing \\8eLet's Battle\\8d. This is\nobvious, but the stronger party's\ngoing to win."
   Comments: ''
 - Japanese: "\\8b\\cc知識のツボ・ダーティマキィ<br>「ケーブルをつないでゲームを<br> はじめると‥‥‥‥<br> <span class=\"red\">レッツアミーゴ</span>で友達のキャラを<br> アミーゴに登録できます。<br> すると、そのキャラの使える魔法<br> を、自分のキャラに装備させる<br> ことができるようになります。"
-  English: ''
+  English: "\\8b\\ccInformation Pot, Datemaki\n\"If you connect using a link cable\nand start the game...\nYou can register your friend's\ncharacter as an amigo using \\8eLet's\nAmigo\\8d. If you do that, you'll be\nable to use their character's magic\ntoo."
   Comments: ''
 - Japanese: "\\8b\\cc知識のツボ・アワビュー<br>「レッツ対戦で勝率を上げると<br> <span class=\"red\">称号</span>が上がって行きます。<br> <span class=\"red\">称号</span>が上がると、能力値に<br> プラス修正がつくので、<br> ちょっとうれしい。"
-  English: ''
+  English: "\\8b\\ccInformation Pot, Awabi\n\"If you increase your win rate in\nLet's Battle, then your \\8ereputation\\8d\nwill go up. If your \\8ereputation\\8d goes\nup, your abilities will get a boost so\nit's quite nice."
   Comments: ''
 - Japanese: "\\8b\\cc知識のツボ・エンギャウア<br>「<span class=\"red\">レッツアミーゴ</span>すると、アミーゴ<br> の属性の魔法を覚えます。<br> 覚えるのは<span class=\"red\">コール魔法</span>だけだけど<br> それを使いつづけると、もっと<br> いろんな魔法も覚えます。"
-  English: ''
+  English: "\\8b\\ccInformation Pot, Engawa\n\"If you use \\8eLet's Amigo\\8d,\nyou'll learn your amigo's element's\nmagic. You'll only learn the\n\\8eCall spell\\8d, but if you keep\nusing that, you'll be able to learn\nmore magic."
   Comments: ''
 - Japanese: "\\8b\\cc知識のツボ・マヒマヒ<br>「アミーゴの<span class=\"red\">極意</span>をセットすると<br> アミーゴの魔法を使えるよ！<br> でも、<span class=\"red\">極意</span>で使えるようになった<br> 魔法は、どんなに使っても属性<br> レベルがアップしないんだ。"
-  English: ''
+  English: "\\8b\\ccInformation Pot, Mahimahi\n\"If you set your secret to your\namigo's, you'll be able to use\ntheir magic! But if you use magic\nfrom their \\8esecret\\8d, you won't\nbe able to level up that element\nno matter how many times you use it."
   Comments: ''
 - Japanese: ''
   English: ''

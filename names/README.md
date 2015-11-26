@@ -155,6 +155,13 @@ People names:
 リヨネーズ -- Lyonnaise (sauce)
 ボンバーポット -- Bomber Pot
 はじけるポット -- Burster Pot
+フグ -- Fugu
+キャパマキィ -- Kappamaki
+プトマキィ -- Futomaki
+ダーティマキィ -- Datemaki
+アワビュー -- Awabi
+エンギャウア -- Engawa
+マヒマヒ -- Mahimahi
 
 Other names:
 愛のデッパリ -- Baby bump (Not sure about this at all.)
