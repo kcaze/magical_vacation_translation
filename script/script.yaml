@@ -8092,154 +8092,156 @@
   English: "\\8b\\18\\86\\0e\n\"Why me!?"
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>アトハ \\85\\0<br> オマエニ マカセルワ。</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"I'll leave it up to you\n\\85\\00."
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「なんじゃ、そりゃ。"
-  English: ''
+  English: "\\8b\\1a\\86\\10\n\"What's up with that."
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「まぁ、いいか。<br> 主役もああ言ってることだし、<br> \\85\\0が決めてくれ。<br> これ以上 ややこしくなるの<br> もうイヤだ。<br> ああ、そうそう、<br> パーティは今まで通り、<br> ６人までで行こうね。<br> パーティの入れ替えは<br> 魔バスでできるってこと<br> 忘れないでね。<br> カフェオレもちょっと<br> 壊れかかってるけど、<br> ばんばん使っていいからね。<br> とりあえず、ガナッシュ達を<br> 探して、みんなが待ってる<br> ことを伝えてちょうだい。<br> それじゃ！<br> GOOD LUCK！"
-  English: ''
+  English: "\\8b12\\86\\08\n\"Isn't it fine? If that's what\nthe hero says, then let's have\n\\85\\00 decide. Let's not make\nthis any more complicated.\nOh right, like before, we can\nonly have up to 6 people in the\nparty. Don't forget that we can\nswap out people at the Magic Bus.\nCafe au lait's a bit banged up,\nbut you can still use him. For now,\nlet's find Ganache and the others\nand tell them that everyone's waiting\nfor them.\nSee you then!\nGood luck!\neveryone's "
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「それじゃ\\85\\0、<br> オイラはここに残るっぴ！！<br> それでいいっぴか！?"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"\\85\\00, I'll just stay here!\nIs that okay!?"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「あうう。<br> ちょっとさびしいっぴ。"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"Ah, I feel kind of unloved..."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「<i>なんで―――――――ッ！?</i>"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"Whyyyyyy!?"
   Comments: ''
 - Japanese: ''
   English: ''
   Comments: ''
 - Japanese: "\\8b\\a7パイライト<br>「<i>そのマッドマンなら、ドワーフに<br> つれられてひのやまへいったプ。</i>"
-  English: ''
+  English: "\\8b\\a7Pyrite\n\"If you're looking for that Mudman,\nhe was taken away by dwarfs to the\nfire mountain."
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「火の山?<br> どうして?"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"Fire mountain? Why?"
   Comments: ''
 - Japanese: "\\8b\\a7パイライト<br>「<i>なんだ、しらないプ?<br> めずらしいプ！<br> マッドマンのはらのなかには<br> ほーせきがはいっていると<br> いーつたわってるプ。<br> マッドマンはつちでできてるけど<br> カチカチになってて、オノでも<br> こわれないプ。<br> でも、ひであぶるとー！<br> ボロボロとくずれて、なかの<br> ほーせきもとりだせるプ。</i>"
-  English: ''
+  English: "\\8b\\a7Pyrite\n\"What, don't you know?\nIt's because he's really rare!\nIt's said that inside a mudman's\nstomach are jewels. Mudmen are made\nof soil, but they became really stiff\nand hard and can't be cracked even by\nan axe. But if you cook them!\nThey'll crumble and you can get to the\njewel inside."
   Comments: ''
 - Japanese: "\\8b\\13\\86\\9<br>「あの、ぼーっとしたショコラに<br> そんな秘密があるヌ~‥‥。"
-  English: ''
+  English: "\\8b\\13\\86\\09\n\"I didn't know that Chocolat had\nsuch a secret..."
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「ガナッシュー！！<br> カベルネー！！"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\n\"Ganache! Cabernet!"
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「先生！！"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"Miss Madeleine!"
   Comments: ''
 - Japanese: "\\8b\\13\\86\\9<br>「ショコラがたいへんヌ~！！<br> ドワーフにさらわれて<span class=\"red\">モルビエ<br> 火山</span>に連れて行かれたヌ~！！"
-  English: ''
+  English: "\\8b\\13\\86\\09\n\"Chocolat's in trouble! He was\nkidnapped by dwarfs and taken to\n\\8eMt. Morbier\\8d!"
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「ショコラが！?<br> まさか、宝石目当て！?"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\n\"Chocolat!? Don't tell me they're\nafter his jewel!?"
   Comments: ''
 - Japanese: "\\8b\\a7パイライト<br>「<i>おお、こっちのおねーさんは<br> しってるプ。<br> まぁ、しっててとーぜんプ。<br> やみのプレーンではみんな<br> しってるプ。<br> そんじゃ、これでプ。<br> ププププププププ‥‥‥‥。</i>"
-  English: ''
-  Comments: ''
+  English: "\\8b\\a7Pyrite\n\"Oh, this lady here knows. Well,\nthat's normal. Everyone from the\nPlane of Darkness knows. Alright,\nsee you guys."
+  Comments: "Missing the pu's."
 - Japanese: "\\8b\\acマドレーヌ先生<br>「ところで、<br> オリーブとキャンディは‥‥?"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\n\"By the way, what about Olive\nand Candy...?"
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「いっしょじゃなかったん<br> ですか！?"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"Weren't they together with you!?"
   Comments: ''
 - Japanese: "\\8b\\13\\86\\9<br>「まさか、ニ人ともオレ達を<br> 追ってきたヌ~?"
-  English: ''
+  English: "\\8b\\13\\86\\09\n\"Did they come chase after us?"
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「‥‥<br> どうしよう‥‥。<br> マズいわね‥‥。"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\n\"...\nWhat to do...\nThis is bad..."
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「先生！！<br> ショコラをたのみます！！"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"Miss Madeleine! We'll leave\nChocolat to you!"
   Comments: ''
 - Japanese: "\\8b\\13\\86\\9<br>「オイラも行くヌ~！！"
-  English: ''
+  English: "\\8b\\13\\86\\09\n\"I'm going too!"
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「無事でいてね‥‥。<br> みんな‥‥。"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\n\"Stay safe...\nEveryone..."
   Comments: ''
 - Japanese: '<br>  死んでる‥‥‥‥'
-  English: ''
+  English: |-
+
+    It's on its last breath...
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「どけ！！"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"Outta the way!"
   Comments: ''
 - Japanese: "\\8b\\13\\86\\9<br>「どくヌ~！！"
-  English: ''
+  English: "\\8b\\13\\86\\09\n\"Move over!"
   Comments: ''
 - Japanese: "\\8b\\c8クアトロフォルマッジ<br>「オラ、いったい‥‥<br> なんで、こんなとこに‥‥‥‥"
-  English: ''
+  English: "\\8b\\c8Quattro Formaggi\n\"Why am I...\nhere..."
   Comments: ''
 - Japanese: "\\8b\\c8クアトロフォルマッジ<br>「終わったら、もとどおりに<br> してやるべさ~。<br> ちょっとだけ ガマンして<br> くんろー。"
-  English: ''
+  English: "\\8b\\c8Quattro Formaggi\n\"I'll put things back to how they\nwere when I'm done. You can wait\na bit can't ya?"
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「ショコラを放しなさい！！"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\n\"Let go of Chocolat!"
   Comments: ''
 - Japanese: "\\8b\\c8クアトロフォルマッジ<br>「追っ手が来たべさ！！<br> 逃げるべさー！！"
-  English: ''
+  English: "\\8b\\c8Quattro Formaggi\n\"Someone's chasing us! Run away!"
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「待ちなさい！<br> こら~！"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\n\"Wait a moment! Hey!"
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「さぁ、もう逃げられないわよ。<br> カクゴしなさ~い！"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\n\"Now, there's no where left for you\nto run.\nPrepare yourself!"
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「ほんとにもう‥‥‥‥<br> バカなんだから。<br> ま、しょうがないか‥‥‥‥。<br> また次の人生で会えるのを<br> 楽しみにしてるよ。<br> さよなら‥‥‥‥。"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\n\"Really...\nWhat an idiot.\nOh well...\nI look forward to meeting\nyou after you reborn.\nFarewell..."
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「それじゃ、先生はショコラと<br> 先に魔バスにもどってるね。<br> みんなも、ヨリ道しないで<br> まっすぐもどってくるんだぞ。"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\n\"Well now, I'll take Chocolat\nand return to the Magic Bus.\nEveryone head straight back too.\nDon't take any detours along the\nway."
   Comments: ''
 - Japanese: "\\8b\\3cでっかいけもの<br>「<i>ありがてぇ。<br> アンタ、いい人だ。<br> これから、アンタのことを<br> アニキと呼ばせてくで。</i>"
-  English: ''
+  English: "\\8b\\3cGiant Beast\n\"Thanks. You're a good person.\nI'll call you brother from now on."
   Comments: ''
 - Japanese: "\\8b\\3cでっかいけもの<br>「<i>ありがてぇ。<br> アンタ、いい人だ。<br> これから、アンタのことを<br> アネゴと呼ばせてくで。</i>"
-  English: ''
+  English: "\\8b\\3cGiant Beast\n\"Thanks. You're a good person.\nI'll call you sister from now on."
   Comments: ''
 - Japanese: "\\8b\\3cでっかいけもの<br>「<i>さすがアニキ！！<br> ハートを感じるぜ！！<br> ハートと言えば、</i><span class=\"red\">リギニオ密林</span><i>で<br> ハートのカタチの精霊を見た<br> ことがあるぜ！！</i>"
-  English: ''
+  English: "\\8b\\3cGiant Beast\n\"Brother! I feel your heart!\nI see the shape of your heart\nand it looks like \\8eIrigino\nThicket\\8d!"
   Comments: ''
 - Japanese: "\\8b\\3cでっかいけもの<br>「<i>さすがアネゴ！！<br> ハートを感じるぜ！！<br> ハートと言えば、</i><span class=\"red\">リギニオ密林</span><i>で<br> ハートのカタチの精霊を見た<br> ことがあるぜ！！</i>"
-  English: ''
+  English: "\\8b\\3cGiant Beast\n\"Sister! I feel your heart!\nI see the shape of your heart\nand it looks like \\8eIrigino\nThicket\\8d!"
   Comments: ''
 - Japanese: "\\8b\\3cでっかいけもの<br>「<span class=\"red\">リギニオ密林</span><i>でハート型の<br> 精霊を見たことがあるぜ！！<br> ハートだぜハート！！<br> オレも愛に生きるぜ！！</i>"
-  English: ''
+  English: "\\8b\\3cGiant Being\n\"Your heart's shape looked like\n\\8eIrigino Thicket\\8d! It's your\nheart, your heart! I too live for\nlove!"
   Comments: ''
 - Japanese: "\\8b\\3cでっかいけもの<br>「<i>ふが――――っ！！</i>"
-  English: ''
+  English: "\\8b\\3cGiant Beast\n\"Roaaaar!"
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「あら、\\85\\0。<br> 来てたの?"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\n\"My, \\85\\00. You came?"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「先生、そのエニグマ‥‥‥<br> 光のプレーンにいたヤツ?"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"Miss Madeleine, that Enigma...\nWas it the one in the Plane of Light?"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「先生、だいじょうぶですか?<br> ショコラもだいじょうぶ?"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"Miss Madeleine, are you okay?\nIs Chocolat okay?"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「みんな無事ですのね！！"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"Everyone's safe and sound right!?"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「先生、なんか、<br> スゴイ魔法使いましたね?<br> あれって、光の魔法?<br> 先生って、光系だったんだ。"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"Miss Madeleine, you used some amazing\nmagic didn't you? Is that light magic?\nSo you're a light user."
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「そのエニグマ、ずっとチャンスを<br> さがしてたんだ。<br> ショコラと融合して、オレたちに<br> ホウフクするチャンスを。<br> でも、融合ってフシギだなぁ。<br> エニグマの本性が出てない時は<br> 融合する前のドワーフと<br> 変わらなかったぞ。"
-  English: ''
+  English: "\\8b\\14\\86\\0a\n\"That Enigma was biding its time.\nIt was looking for the chance to\nfuse with Chocolat and exact revenge\non us. But fusion's strange huh. When\nthe Enigma's real nature didn't appear,\nhe looked just like a dwarf before\nfusion."
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「でも、たいしたことなかったね<br> そのエニグマ。<br> 先生一人でやっつけちゃったよ。"
-  English: ''
+  English: "\\8b\\15\\86\\0b\n\"That Enigma was a real pushover.\nMiss Madeleine took care of it\nby herself."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「とにかく、先生もショコラも<br> 無事でよかった！"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Anyhow, Miss Madeleine and Chocolat\nare both safe!"
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>ア~‥‥‥‥<br> アツイ‥‥‥‥</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"Hot...\nSo hot..."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「ショコラは無事だっぴか！?<br> 他のみんなはどこだっぴ！?"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"Chocolat, are you okay!?\nWhere are the others!?"
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「あ！！<br> そうだ！！<br> ガナッシュたちが‥‥！<br> こんなとこでのんびり<br> していられないわ！<br> とりあえず、魔バスにもどり<br> ましょう！！"
   English: ''

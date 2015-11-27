@@ -83,6 +83,8 @@ Place names:
 ジェラ風穴 -- Gelato Cave
 クガンデ -- Ukagned Village
 ゲアラヴァ -- Ega Aruba Village (Aburaage backwards)
+モルビエ火山 -- Mt. Morbier
+リギニオ密林 -- Irigino Thicket
 
 People names:
 ギュウヒ・オグラ -- Bun Patti
@@ -162,6 +164,8 @@ People names:
 アワビュー -- Awabi
 エンギャウア -- Engawa
 マヒマヒ -- Mahimahi
+マッドマン -- Mudman
+クアトロフォルマッジ -- Quattro Formaggi
 
 Other names:
 愛のデッパリ -- Baby bump (Not sure about this at all.)
