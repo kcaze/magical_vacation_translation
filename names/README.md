@@ -86,6 +86,7 @@ Place names:
 モルビエ火山 -- Mt. Morbier
 リギニオ密林 -- Irigino Thicket
 キスニカこうざん -- Ikay Ikus Mine (decided to change kanisuki to sukiyaki so it's more recognizable)
+シブスト城 -- Chiboust Castle
 
 People names:
 ギュウヒ・オグラ -- Bun Patti
