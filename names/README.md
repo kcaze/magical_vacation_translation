@@ -85,6 +85,7 @@ Place names:
 ゲアラヴァ -- Ega Aruba Village (Aburaage backwards)
 モルビエ火山 -- Mt. Morbier
 リギニオ密林 -- Irigino Thicket
+キスニカこうざん -- Ikay Ikus Mine (decided to change kanisuki to sukiyaki so it's more recognizable)
 
 People names:
 ギュウヒ・オグラ -- Bun Patti
@@ -172,6 +173,25 @@ Other names:
 キララ -- Mica
 入魂 -- Bewitch
 ウーズ熱 -- Ooze Fever
+
+Monster names:
+
+いなまずん -- Thorzeus, or maybe Thoron or Thorgon.
+
+ダミーゴースト -- Dummy Ghost
+クロバティー -- Black Batty
+アンスティンガー -- Unbox (undead + box jellyfish)
+ボロファントム --
+ガルシューム --
+ブッチョン
+スウィーティ -- Sweety?
+パラダック -- Paradux
+
+ザフロピーク
+
+アラクネイラ
+パラズネイラ
+
 
 Other things:
 ほにゃ -- Hoolala (what pots say)
