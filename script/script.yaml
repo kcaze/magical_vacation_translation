@@ -9361,10 +9361,10 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「カフェオレ！！<br> 待って！！<br> ヤケをおこさないで！！"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"Cafe au lait! Wait up! Don't\ngive up!"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「カフェオレちゃん！！<br> どうしましたの！！<br> いっしょに帰りますの！！"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"Cafe au lait!\nWhat's wrong!?\nLet's go back together!"
   Comments: ''
 - Japanese: ''
   English: ''
@@ -9373,19 +9373,19 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\c5親切なブラウニー<br>「洞窟の中で石を蹴っていて、<br> うっかり出口をふさいだ時‥‥<br> どうすればいいか知ってるか?"
-  English: ''
+  English: "\\8b\\c5Kind Brownie\n\"Do you know what you should do when...\nyou kick a rock and accidentally\ntrap yourself inside the cave?"
   Comments: ''
 - Japanese: "\\8b\\c5親切なブラウニー<br>「うむ。<br> エライ。"
-  English: ''
+  English: "\\8b\\c5Kind Brownie\n\"Yes. Excellent."
   Comments: ''
 - Japanese: "\\8b\\c5親切なブラウニー<br>「ワープすりゃいいんじゃ。<br> ワープ屋さんにワープ先を<br> 登録してもらっとるじゃろ?<br> まつぼっくり５個はらって。"
-  English: ''
+  English: "\\8b\\c5Kind Brownie\n\"Just warp. You've registered\nwarp spots haven't you? The ones\nwhere you pay 5 pinecones."
   Comments: ''
 - Japanese: ''
   English: ''
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「カフェオレは魔バスに<br> もどるって言ってたよな！?<br> 私たちも、あとを追おう！"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"Cafe au lait said he's\nreturning to the Magic Bus didn't\nhe!? Let's chase after him!"
   Comments: ''
 - Japanese: ''
   English: ''
@@ -9394,28 +9394,32 @@
   English: ''
   Comments: ''
 - Japanese: '  <span class="red">ラ・ロッシュ</span>の外へ出る<br>  キャンセル'
-  English: ''
+  English: |-
+    Exit the Tour de La Roche
+    Cancel
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「この町では、<span class=\"red\">コイン</span>の取引は<br> 禁止だ。<br> 店で<span class=\"red\">金貨</span>や<span class=\"red\">銀貨</span>を売るんじゃ<br> ねぇぞ。<br> わかったな。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"In this town, using \\8ecoins\\8d for\nbusiness is forbidden. Don't sell\nyour \\8egold coins\\8d and \\8esilver coins\\8d\nhere. Got it?"
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「てめぇ、<span class=\"red\">コイン</span>を<br> 売りやがったな?<br> この町が<span class=\"red\">コイン</span>売買禁止と<br> 知ってて売りやがったのか?"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"You...\nYou sold a \\8ecoin\\8d didn't you?\nYou sold a \\8ecoin\\8d knowing full\nwell that it's prohibited in this\ntown didn't you?"
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「はっはっは！<br> アンタ、この道のモンだな。<br> 一目見りゃ、わかるぜ。<br> オレたちのカシラが、オマエの<br> 持ってる<span class=\"red\">金貨</span>や<span class=\"red\">銀貨</span>を<br> 高く買ってくれるはずだ。<br> オカシラは、<span class=\"red\">ラ・ロッシュ塔</span>の<br> 最上階にいるはずだ。<br> オレが会わせてやるよ。<br> だが、すぐには会えねぇ。<br> オカシラの命をねらってる<br> ヤツはゴマンといるからな。<br> まずは、塔の入り口の男に、<br> <span class=\"red\">\\87\\87</span>をわたしな。<br> あとは指示にしたがえばいい。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\c6The Mausses\n\"Hahaha!\nYou're from around these parts.\nI can tell just by looking at you.\nI'm sure our boss will buy your\n\\8egold coins\\8d and \\8esilver coins\\8d\nfor a hefty sum. The boss resides in\nthe top floor of the \\8eTour de La\nRoche\\8d. I'll have you meet him.\nBut, it won't be easy.\nThere's a lot of people who want his\nlife. First, hand this \\8e\\87\\87\\8d\nover to the man at the tower's entrance.\nAfter that, just follow instructions."
+  Comments: Not sure about the second sentence.
 - Japanese: "\\8b\\c6ピップルス<br>「チッ。<br> 旅行者か。<br> しっかり覚えておけ！！<br> 今度、<span class=\"red\">コイン</span>を店で売ったら、<br> ロッシュの一本橘から‥‥<br> ドポンだ。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"Tch. Travellers huh.\nDon't forget!\nIf you sell a \\8ecoin\\8d again,\nwe'll throw you off a tree near\nthe Tour de La Roche..."
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「オカシラは気前のいい男だ。<br> 抜け目なくかせいで行きな。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\c6The Mausses\n\"The boss is a generous man.\nGo forth without overlooking that."
+  Comments: Not sure about meaning of second sentence.
 - Japanese: "\\8b\\c6ピップルス<br>「どうした、オカシラには<br> 会ってねぇようだな。<br> さては、しくじったか?<br> ちゃんと話を聞いて、<br> ちゃんと人の動きを見るんだ。<br> また、塔の入り口から<br> やりなおしだ。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"It looks like you haven't\nmet the boss yet.\nYou failed this time didn't you?\nMake sure pay attention to what Mausses\nsay and how they move.\nTry again from the tower's entrance."
   Comments: ''
 - Japanese: '<br>  <span class="red"></span>を受け取った！'
-  English: ''
+  English: |-
+
+    Received <CC?>!
   Comments: ''
 - Japanese: ''
   English: ''
@@ -9424,25 +9428,46 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\a7パイライト<br>「<i>コマの動きにしたがって<br> 進むのです！<br> ひかってるキングからはじめて<br> 黒のキングを落とすのです！<br> とちゅう、みかたのコマに<br> さわりながら行くのです！<br> まちがったら最初から<br> なのです！</i>"
-  English: ''
+  English: "\\8b\\a7Pyrite\n\"Follow the pawn's movement and\nadvance! Start from the shining\nking and finish at the black king!\nAlong the way, brush shoulders with\nyour fellow pawns! If you make a mistake,\nyou'll have to start over from the\nbeginning!"
   Comments: ''
 - Japanese: 'キング：<br> 縦・横・斜めに１マス移動できます。'
-  English: ''
+  English: |-
+    King:
+    Can move 1 square horizontally,
+    vertically, or diagonally.
   Comments: ''
 - Japanese: 'クィーン：<br> 縦・横・斜めに何マスでも移動でき<br> ます。'
-  English: ''
+  English: |-
+    Queen:
+    Can move any number of squares
+    horizontally, vertically, or
+    diagonally.
   Comments: ''
 - Japanese: 'ビショップ：<br> 斜めに何マスでも移動できます。'
-  English: ''
+  English: |-
+    Bishop:
+    Can move any number of squares
+    diagonally.
   Comments: ''
 - Japanese: 'ナイト<br> 縦もしくは横２マス目のとなりの<br> マスに移動できます。<br> それと、移動先の間にあるコマを<br> 飛び越えて移動できます'
-  English: ''
+  English: |-
+    Knight:
+    Can move to 2 squares horizontally
+    and 1 vertically or 2 squares vertically
+    and 1 horizontally.
+    Also, while moving, it can jump over other
+    pieces.
   Comments: ''
 - Japanese: 'ルーク：<br> 縦・横に何マスでも移動できます。'
-  English: ''
+  English: |-
+    Rook:
+    Can move any number of squares
+    horizontally or vertically.
   Comments: ''
 - Japanese: 'ポーン：<br> 前方に１マス移動できます。'
-  English: ''
+  English: |-
+    Pawn:
+    Can move forward 1 square.
   Comments: ''
 - Japanese: ''
   English: ''

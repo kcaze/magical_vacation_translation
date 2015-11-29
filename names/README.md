@@ -196,6 +196,9 @@ Monster names:
 アラクネイラ
 パラズネイラ
 
+A bunch of the enigma names have official versions in the localization of
+Magical Starsign, e.g. http://magicalstarsignmagicalvacation.wikia.com/wiki/Equillekrew
+
 
 Other things:
 ほにゃ -- Hoolala (what pots say)
