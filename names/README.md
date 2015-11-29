@@ -169,6 +169,7 @@ People names:
 マッドマン -- Mudman
 クアトロフォルマッジ -- Quattro Formaggi
 エシャロット -- Shallot
+ガーシュイン -- Gershwin
 
 Other names:
 愛のデッパリ -- Baby bump (Not sure about this at all.)
