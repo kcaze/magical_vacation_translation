@@ -87,6 +87,7 @@ Place names:
 リギニオ密林 -- Irigino Thicket
 キスニカこうざん -- Ikay Ikus Mine (decided to change kanisuki to sukiyaki so it's more recognizable)
 シブスト城 -- Chiboust Castle
+ラロッシュの塔 -- Tour de La Roche
 
 People names:
 ギュウヒ・オグラ -- Bun Patti
