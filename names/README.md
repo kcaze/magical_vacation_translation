@@ -183,7 +183,7 @@ Monster names:
 
 ダミーゴースト -- Dummy Ghost
 クロバティー -- Black Batty
-アンスティンガー -- Unbox (undead + box jellyfish)
+アンスティンガー -- Unbox Jellyfish(undead + box jellyfish)
 ボロファントム --
 ガルシューム --
 ブッチョン
