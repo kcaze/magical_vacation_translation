@@ -3,6 +3,7 @@
 
 80B62F4 -- This is the function that we want to hijack.
 Parameters are r2 = glyph value. Copies the glyph data into [sp]
+r5 is also important.
 
 DMAs to copy into tile is
 80A0BC2 <-- This copies new data into tiles 2 for the top half
@@ -10,6 +11,14 @@ DMAs to copy into tile is
 
 2036924 stores the destination of the DMA for 80A0BC2. This is updated
 at 80BD854, called from 80B618A.
+
+0x000BEC2C -- Beginning of subroutine for drawing glyph data to obj tiles:
+  r0 -- Address in RAM to write the next glyph data to. It draws each 16x16 block
+        as two 16x8 blocks. i.e. the subroutine is called twice per glyph.
+  r1 -- Stores an address in RAM with the values (see below) of the
+        16x8 block to draw, one row per byte. The data begins at 0x03007DDC
+  r2 -- The palette color to use.
+  r3 -- A flag of some sort.
 
 Outline
 =======

@@ -1,7 +1,27 @@
 .gba
 .open "hacked.gba", 0x08000000
 
-.org 0x080B6306
+; These 2 are used to clear the ram first I believe.
+.org 0x080B6338
+nop
+nop
+
+.org 0x080B634E
+nop
+nop
+
+.org 0x080B62FE
+; Hijack the routine at 0x080B62F4 to jump to ours
+;mov r2, 0x08
+;lsl r2, r2, 0x08
+;add r2, 0x7E
+;lsl r2, r2, 0x08
+;add r2, 0x1C
+;lsl r2, r2, 0x08
+;add r2, 0x00
+;mov r15, r2
+
+.org 0x087E1C00
 ldr r0, [r2]
 str r0, [sp]
 
@@ -26,10 +46,29 @@ str r0, [sp, 0x20]
 ldr r0, [r2, 0x1C]
 str r0, [sp, 0x24]
 
-add r0, sp, 0x18
-mov r8, r0
+ldr r0, =0x0203698C
+mov r1, sp
+mov r2, 0x0F
+mov r3, 0x03
 
-.org 0x080B64BC
-nop
+mov r7, pc
+add r7, r7, 0x7
+mov lr, r7
+ldr r7, =0x80BEC2C
+mov pc, r7
+
+return:
+  ldr r0, =0x080B6372
+  mov r15, r0
+
+.pool
+
+; Disable x-coordinate update
+; .org 0x080B64BC
+; nop
+
+; Disable DMA
+; .org 0x080A0BCA
+; nop
 
 .close
