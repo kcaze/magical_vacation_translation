@@ -9482,13 +9482,16 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「<span class=\"red\">\\87\\87</span>だ。<br> 金はもらうぞ。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"Here's the \\8e\\87\\87\\8d.\nI'll be taking my money now."
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「<span class=\"red\">５００ブラー</span>払えば、<br> <span class=\"red\">\\87\\87</span>はオレが用意する。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"Hand over \\8e500 bura\\8d and\nI'll get you a \\8e\\87\\87\\8d."
   Comments: ''
 - Japanese: '  <span class="red"></span>をわたしますか?<br>    はい<br>    いいえ'
-  English: ''
+  English: |-
+    Hand over <CC?>?
+    Yes
+    No
   Comments: ''
 - Japanese: ''
   English: ''
@@ -9500,22 +9503,22 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「どこかに誰か、<br> ひそんでやがるなっ！?"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"Someone's hiding around here\nsomewhere!"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「何かいるわ‥‥‥‥。<br> 気をつけて‥‥‥‥。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"There's something here...\nBe careful..."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「ゆだんしちゃいけませんの！?<br> 何かいますの！?"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"Don't let your guard down!\nSomething's here!"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「イヤな気配だ‥‥‥‥。"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"I have a bad feeling..."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「いや~ん。<br> なんだか気味悪~い。"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Nooo. It feels kinda creepy."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「<i>来なけりゃよかったっぴ。</i>"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"We shouldn't have come here."
   Comments: ''
 - Japanese: ''
   English: ''
@@ -9524,103 +9527,109 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>ナンダ????<br> コノ アヤシイワライゴエハ?</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"What???\nWhat's up with this creepy laugh?"
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>サッキノ ドワーフダ！！</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"It's the dwarf from before!"
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「どういう意味があるか知らないが<br> 受けとっておくぜ。<br> ありがとよ。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"I don't know what meaning this has,\nbut please take it.\nThank you."
   Comments: ''
 - Japanese: '<br>  やめておいた。'
-  English: ''
+  English: |-
+
+    You gave up.
   Comments: ''
 - Japanese: '<br> わたすべきものをもってなかった。'
-  English: ''
+  English: |-
+
+    You didn't receive the item.
   Comments: ''
 - Japanese: '<br>  シールはもらえなかった。'
-  English: ''
+  English: |-
+
+    You didn't receive the seal.
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「話は聞いてるぜ。<br> オカシラに会うんだって?<br> １階のギャプロンに<br> <span class=\"red\">\\87\\88</span>をわたしな。<br> 話をつけてくれるはずさ。<br> ギャプロンは <span class=\"red\">同じ場所で<br> くるくるまわってる</span>から<br> すぐわかるハズだ。<br> まちがえるなよ。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"I heard about you. You're\ntrying to meet the boss?\nHand this \\8e\\87\\88\\8d over\nto Gaperon on the 1st floor.\nGaperon \\8espins round and round\nin the same spot\\8d so he's\neasy to recognize. Don't get\nit wrong."
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「話は聞いてるぜ。<br> オカシラに会うんだって?<br> １階のバラカに<br> <span class=\"red\">\\87\\89</span>をわたしな。<br> 話をつけてくれるはずさ。<br> 入り口の近くで、<span class=\"red\">チーズに<br> かこまれて、しあわせそう<br> にしてるヤツ</span>がバラカだ。<br> まちがえるなよ。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"I heard about you. You're\ntrying to meet the boss?\nHand this \\8e\\87\\89\\8d over\nto Baraka on the 1st floor.\nBaraka's the one who's \\8e\nsurrounded by cheese near\nthe entrance\\8d. Don't get\nit wrong."
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「話は聞いてるぜ。<br> オカシラに会うんだって?<br> ２階のヌシャテルに<br> <span class=\"red\">\\87\\8a</span>をわたしな。<br> 話をつけてくれるはずさ。<br> ヌシャテルは、<span class=\"red\">とにかく足が<br> 速い</span>んだ。<br> 見ればすぐわかるぜ。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"I heard about you. You're\ntrying to meet the boss?\nHand this \\8e\\87\\8a\\8d over\nto Neufchatel on the 2nd floor.\nNeufchatel's the one who \\8e\nwalks quickly\\8d. It's obvious\nonce you see him."
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「話は聞いてるぜ。<br> オカシラに会うんだって?<br> ２階のクロミエに<br> <span class=\"red\">\\87\\8b</span>をわたしな。<br> 話をつけてくれるはずさ。<br> クロミエはオレとちがって<br> のんびり屋だからな。<br> <span class=\"red\">ゆっくり歩いてる</span>のが、<br> クロミエだ。<br> まちがえるなよ。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"I heard about you. You're\ntrying to meet the boss?\nHand this \\8e\\87\\8b\\8d over\nto Coulommiers on the 2nd floor.\nCoulommiers is different from me.\nHe's the one who \\8etakes his time\nwhen walking\\8d. Don't get it\nwrong."
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「話は聞いてるぜ。<br> オカシラに会うんだって?<br> ２階のマンステールに<br> <span class=\"red\">\\87\\8c</span>をわたしな。<br> 話をつけてくれるはずさ。<br> マンステールは、<span class=\"red\">小心者で<br> いつもキョロキョロしてる</span>よ。<br> まちがえるなよ。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"I heard about you. You're\ntrying to meet the boss?\nHand this \\8e\\87\\8c\\8d over\nto Muenster on the 2nd floor.\nMuenster the one who's \\8ea\ncoward, so he always looks left\nand right\\8d. Don't get it wrong."
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「話は聞いてるぜ。<br> オカシラに会うんだって?<br> ３階のリヴァロに<br> <span class=\"red\">\\87\\8d</span>をわたしな。<br> 話をつけてくれるはずさ。<br> ヤツは落ち着きがねぇんだ。<br> <span class=\"red\">右に左に走り回ってる</span>ヤツが<br> リヴァロだ。<br> まちがえるなよ。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"I heard about you. You're\ntrying to meet the boss?\nHand this \\8e\\87\\8d\\8d over\nto Livarot on the 3rd floor.\nLivarot is restless so he's the one\nwho \\8e keeps running left and right\\8d.\nDon't get it wrong."
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「話は聞いてるぜ。<br> オカシラに会うんだって?<br> ３階のタレッジョに<br> <span class=\"red\">\\87\\8e</span>をわたしな。<br> 話をつけてくれるはずさ。<br> タレッジョは、<span class=\"red\">１歩あるくごとに<br> 休む</span>んだ。<br> まちがえるなよ。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"I heard about you. You're\ntrying to meet the boss?\nHand this \\8e\\87\\8e\\8d over\nto Taleggio on the 3rd floor.\nTaleggio is the one who \\8e\ntakes a rest after each step\\8d.\nDon't get it wrong."
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「話は聞いてるぜ。<br> オカシラに会うんだって?<br> ３階のマリボーに<br> <span class=\"red\">\\87\\8f</span>をわたしな。<br> 話をつけてくれるはずさ。<br> ヤツはカビのことになると<br> やけに話が長いんだ。<br> まったくイヤになるぜ。<br> <span class=\"red\">誰にも相手にされず、<br> マドギワでぼーっとしてる</span><br> ことが多いんだけどな。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\c6The Mausses\n\"I heard about you. You're\ntrying to meet the boss?\nHand this \\8e\\87\\8f\\8d over\nto Maribo on the 3rd floor.\nOnce he gets moldy, it's really\nicky. Anyways, he's the one\nwho \\8edoesn't talk to anyone\nand likes to stare of into space\nby the window\\8d."
+  Comments: "Don't really get the description"
 - Japanese: "\\8b\\c6ピップルス<br>「話は聞いてるぜ。<br> オカシラに会うんだって?<br> ４階のダナブルーに<br> <span class=\"red\">\\87\\90</span>をわたしな。<br> 話をつけてくれるはずさ。<br> ヤツははずかしがりさ。<br> <span class=\"red\">話しかけるとソッポを向く</span><br> ヤツがダナブルーだ。<br> まちがえるなよ。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"I heard about you. You're\ntrying to meet the boss?\nHand this \\8e\\87\\90\\8d over\nto Danish Blue on the 4th floor.\nHe's quite shy so he's the one\nwho \\8elooks the other way when you\ntalk to him\\8d. Don't get it\nwrong."
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「話は聞いてるぜ。<br> オカシラに会うんだって?<br> ４階のスティルトンに<br> <span class=\"red\">\\87\\91</span>をわたしな。<br> 話をつけてくれるはずさ。<br> <span class=\"red\">テーブルのまわりをぐるぐる<br> 走りまわってる</span>ヤツが<br> スティルトンだ。<br> たまに、ほかのピップルに<br> ひっかかって、じっとしてる<br> 時もあるが、ごあいきょうだ。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"I heard about you. You're\ntrying to meet the boss?\nHand this \\8e\\87\\91\\8d over\nto Stilton on the 4th floor.\nHe's the one who \\8eruns circles\naround the table\\8d. Sometimes\nhe gets blocked another Mauss\nand just stands there. It's quite\nentertaining."
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「話は聞いてるぜ。<br> オカシラに会うんだって?<br> ５階のサムソーに<br> <span class=\"red\">\\87\\92</span>をわたしな。<br> 話をつけてくれるはずさ。<br> ヤツはカッコつけなんだ。<br> <span class=\"red\">１歩あるくごとにクルっと<br> まわる</span>んだぜ。<br> まちがえるなよ。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"I heard about you. You're\ntrying to meet the boss?\nHand this \\8e\\87\\92\\8d over\nto Samso on the 5th floor.\nHe likes to show off so he's \nthe one who \\8espins around in\na circle after each step\\8d.\nDon't get it wrong."
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「話は聞いてるぜ。<br> オカシラに会うんだって?<br> ５階のカテョカヴァッロに<br> <span class=\"red\">\\87\\93</span>をわたしな。<br> 話をつけてくれるはずさ。<br> <span class=\"red\">カエルグミみてぇな動きを<br> する</span>ヤツがカテョカヴァッロだ。<br> まちがえるなよ。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"I heard about you. You're\ntrying to meet the boss?\nHand this \\8e\\87\\93\\8d over\nto Caciocavallo on the 5th floor.\nHe's the one who \\8ebehaves like\na gummy frog\\8d. Don't get it wrong."
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「話は聞いてるぜ。<br> オカシラに会うんだって?<br> ６階のパルミジャーノに<br> <span class=\"red\">\\87\\94</span>をわたしな。<br> 話をつけてくれるはずさ。<br> <span class=\"red\">ボスの部屋の前の三人の<br> うち、真ん中にいる</span>のが<br> パルミジャーノだ。<br> まちがえるなよ。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"I heard about you. You're\ntrying to meet the boss?\nHand this \\8e\\87\\94\\8d over\nto Parmigiano on the 6th floor.\nHe's the one who's \\8ein the middle\namong the three people in front of\nthe boss's room\\8d. Don't get it\nwrong."
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「ウワサは聞いてるぜ。<br> エニグマを倒したんだって?<br> だけど、覚えておきな。<br> エニグマは死なねぇんだ。<br> ムダなんだよ。<br> アンタらが何をやっても。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"I've heard the rumors. They\nsay you're here to take down\nthe Enigma? But remember this.\nEnigmas do not die. It's a\nwaste of effort. No matter what\nyou do."
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「<span class=\"red\">ドワーフの塔</span>では、昔は<br> いろんなスゲェもんを作ってた。<br> 今はまるでダメなんじゃないか。<br> 古代機械をトースターにカイゾー<br> して売ってるテイドだからな。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"In the past, all sorts of amazing\nthings were created at the \\8edwarf's\ntower\\8d. Nowadays they're completely\nuseless though. They retool ancient\nmachines into toasters and sell them\njust to get by."
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「チーズにかこまれて<br> しあわせ~"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"I'm so happy to be surrounded by\ncheese~"
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「チーズを作って売ってるんだ。<br> カラダにいいんだぜ。<br> いっぱい食えよ。<br> 死ぬまで食っていいからな。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"I make cheese and sell them.\nIt's good for your health.\nEat up. Eat it until you die."
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「どんなチーズが好きかな?<br> しろカビ、あおカビ‥‥<br> ハードに、セミハードに<br> ウォッシュに、スモーク‥‥<br> あああ、ヨダレでる‥‥。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"What type of cheese do you like?\nWhite mold or blue mold...\nHard or semihard...\nWashed-rind or smoked...\nAhhh, I'm salivating..."
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「ドワーフってなぁ、なんだな。<br> みんな同じで見分けがつかねぇ。<br> ヒゲなんかはやすから、<br> みんな同じカオに<br> 見えちまうんだ。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"Dwarfs you know, they all look the\nsame. I can't tell them apart.\nThey all grow a beard so their faces\nall look alike."
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「チーズ作って、売る。<br> カタギな商売だろ?"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"I make and sell cheese.\nI'm a great businessman aren't I?"
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「カビはえそう。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\c6The Mausses\n\"Looks like the mold will grow."
+  Comments: idk
 - Japanese: "\\8b\\c6ピップルス<br>「パンにはえたカビは<br> 食べちゃだめ。<br> カビってのは、モノによって<br> カラダにいいものと、悪いモノが<br> あるんだ。<br> チーズにはえてる、青いカビや<br> 白いカビは、おいしいチーズを<br> 作るために大切なものなんだ。<br> カビは、チーズを作るだけで<br> なくて、いろんな食べ物を作る<br> のにとっても役に立つのさ。<br> たとえば‥‥‥<br> 今はちょっと思い出せないけど<br> 本当だぜ。<br> それから、クスリにもなる。<br> でも、気をつけなきゃダメだぜ。<br> 逆に、毒にもなるからな。<br> とりあえず、パンにはえた<br> カビは食わない方がいいと<br> 思うよ。<br> チーズにはえたカビは‥‥<br> うーん‥‥<br> やっぱ、食べちゃだめかなぁ。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"You can't eat the mold that\ngrows on bread. Whether or not\nmold is good for you depends on\nwhere the mold grows. There's\nwhite and blue mold that grows on\ncheese and is an important part\nin making delicious cheese. Mold\nisn't just useful for making cheese,\nit helps with all sorts of food.\nFor example...\nI can't think of any others right now,\nbut it's true. It's also used as\nmedicine. But you have to be careful.\nIt can also act as a poison. Anyways,\njust make sure you don't eat the mold\nthat grows on bread.\nThe mold on cheese is...\nhmm...\nmaybe you shouldn't eat it either."
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「いろんなヤツらと取引するから<br> いろんな通貨が必要なんだ。<br> 中でもたいせつなのが<br> カエルグミ。<br> だれでも受け取るからね。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"Since I trade with all sorts\nof people, I need a variety of\ncurrencies. Among them, gummy\nfrogs are very important. That's\nbecause everyone's willing to accept\ngummy frogs."
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「オレたち、チーズにたかるムシの<br> ことをバグって言うんだ。<br> バグだらけさ。<br> ちくしょう！<br> 笑ってやる！<br> はっはっはっはっはー！！"
-  English: ''
-  Comments: ''
+  English: "\\8b\\c6The Mausses\n\"We call the insects that swarm\naround cheese bugs. It's full\nof bugs. Darn it! Why won't\nyou laugh!?\nHahahahaha!"
+  Comments: Is there actually a joke here....?
 - Japanese: "\\8b\\c6ピップルス<br>「ヤクザな道に進んでも<br> お父さんお母さんを大切に。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"Even if I join a gang, I won't\nforget about my mom and dad."
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「悪いことやって、ヒドイ目に<br> あうのは、自分自身だろ?<br> そのカクゴがあるなら、<br> ドロボウとかになっても<br> かまわねぇと思うよ。<br> でも、カワイソウな人からは<br> 盗んじゃダメ。<br> それは、心の問題だから。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"When you do something bad and\nget punished for it, it's your\nfault isn't it? I'm prepared\nfor that so even if I became a\nthief, I wouldn't mind. But I\nwouldn't steal from poor people.\nThat's an ethical issue."
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「オレのダチの背中に<br> 耳がはえた夢を見た。<br> しかも人間の耳だ！！！<br> おーまいが――――ッ！！"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"I had a dream where I grew\nears on my back. They were\nhuman ears too! Sacrebleu!"
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「オレたちゃしょせん、<br> 血ヘドをはくまで‥‥‥‥、<br> えー、<br> なんだっけ?<br> うーん。<br> この先がカッコいいのになぁ。<br> 決まらないなぁ。"
   English: ''

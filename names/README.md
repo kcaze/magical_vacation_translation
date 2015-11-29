@@ -171,6 +171,19 @@ People names:
 クアトロフォルマッジ -- Quattro Formaggi
 エシャロット -- Shallot
 ガーシュイン -- Gershwin
+ギャプロン -- Gaperon (cheese)
+バラカ -- Baraka (cheese)
+ヌシャテル -- Neufchatel (cheese)
+クロミエ -- Coulommiers (cheese)
+マンステール -- Muenster (cheese)
+リヴァロ -- Livarot (cheese)
+タレッジョ -- Taleggio (cheese)
+マリボー -- Maribo (cheese)
+ダナブルー -- Danish Blue (cheese)
+スティルトン -- Stilton (cheese)
+サムソー -- Samso (cheese)
+カテョカヴァッロ -- Caciocavallo (cheese)
+パルミジャーノ -- Parmigiano (cheese)
 
 Other names:
 愛のデッパリ -- Baby bump (Not sure about this at all.)
