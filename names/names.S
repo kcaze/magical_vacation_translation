@@ -20,6 +20,14 @@ add r1, 0x20
 .org 0x080BD5C8
 lsr r1, r1, 0x0B
 
+; Change check that glyph value < 0x0FFF to 0xFFFF
+.org 0x080B5DB2
+.word 0xFFFF0000 ; 0xFFFF0000 instead of 0x0000FFFF because of byte order
+
+; This inserts an 0xF for whatever reason so we're deleting that
+.org 0x80B5DEC
+nop
+
 .org 0x087DFA50
 .incbin names/item_names.bin
 

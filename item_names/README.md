@@ -26,3 +26,9 @@ Hijack 80B62F4.
 Disable the DMA at 80A0BC2 and manually DMA in our hijack.
 Disable the x-coordinate increment at 80B64BC and also handle that
 ourselves.
+
+
+Subroutines to understand:
+0x080BEC84: Unsure what this does. It looks like some crazy crazy stack manipulation. I think this is what does the text welding.
+0x080B6388: Does some sort of RAM clearing stuff.
+0x080BEC2C: This unpacks 1bpp glyph data into 4bpp.
