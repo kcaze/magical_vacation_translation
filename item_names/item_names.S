@@ -60,13 +60,37 @@ mov lr, r4
 ldr r4, =0x80BEC2C
 mov pc, r4
 
+ldr r0, =0x0203694C
+mov r1, sp
+add r1, 0x08
+mov r2, 0x0F
+mov r3, 0x01 ; Number of 8x8 blocks to translate
+
+; The following essentially does the same thing as
+; bl 0x080BEC2C.
+mov r4, pc
+add r4, r4, 0x7
+mov lr, r4
+ldr r4, =0x80BEC2C
+mov pc, r4
+
 ; DMA
 ldr r0, =0x040000D4
 ldr r1, =0x0203692C
 str r1, [r0, 0x00]
 ldr r1, =0x06008980
 str r1, [r0, 0x04]
-ldr r1, =0x80000020
+ldr r1, =0x80000010
+str r1, [r0, 0x08]
+ldr r1, [r0, 0x08]
+
+; DMA
+ldr r0, =0x040000D4
+ldr r1, =0x0203694C
+str r1, [r0, 0x00]
+ldr r1, =0x06008D80
+str r1, [r0, 0x04]
+ldr r1, =0x80000010
 str r1, [r0, 0x08]
 ldr r1, [r0, 0x08]
 

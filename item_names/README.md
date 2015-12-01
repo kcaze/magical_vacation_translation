@@ -20,15 +20,32 @@ at 80BD854, called from 80B618A.
   r2 -- The palette color to use.
   r3 -- A flag of some sort.
 
-Outline
-=======
-Hijack 80B62F4.
-Disable the DMA at 80A0BC2 and manually DMA in our hijack.
-Disable the x-coordinate increment at 80B64BC and also handle that
-ourselves.
 
 
 Subroutines to understand:
 0x080BEC84: Unsure what this does. It looks like some crazy crazy stack manipulation. I think this is what does the text welding.
 0x080B6388: Does some sort of RAM clearing stuff.
 0x080BEC2C: This unpacks 1bpp glyph data into 4bpp.
+
+
+Rough outline
+=======
+*Disable DMA at 0x080A0BCA.
+
+*Hijack 0x080B62F4, the subroutine that takes a glyph value and
+converts it into the 4bpp tile data and stores it in RAM. This is
+called for each glyph in order and so we branch to our VWF
+routine here.
+
+*In the call to 0x080B62F4, r1 can be used to compute the tile index
+the game originally expects to draw the glyph to and r2 contains the
+glyph data. To compute the tile index from r1, do (r1 - 0x0203CF80)/2.
+
+*In our VWF, we store 4 variables in RAM: the index of the tile to
+draw to (a halfword), the number of pixels remaining from the previous call to our vwf routine, the last glyph of the previous call to our
+vwf routine, and finally a begin of string flag. Each item string has
+an ending EOF character which indicates for the begin of string flag
+to be set. This way, we can use r1 to get the correct beginning tile
+index when we begin to draw a string.
+
+*Edge cases: If (r1 == 0x0203CF80), then this is some weird empty call the game does. Ignore it and just return. It's important that we do not disable the begin of string flag.
