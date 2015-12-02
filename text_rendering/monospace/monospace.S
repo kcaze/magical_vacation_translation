@@ -1,10 +1,6 @@
 .gba
 .open "hacked.gba", 0x08000000
 
-; Insert translated menu text
-.org 0x087C229C
-.incbin menu_text/menu_text.bin
-
 ; Disable the check that aborts drawing if a glyph has value > 0x0FFF
 .org 0x080B659C
 b 0x80B65C4

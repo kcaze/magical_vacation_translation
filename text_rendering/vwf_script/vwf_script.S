@@ -47,7 +47,7 @@ bx r4
 ; Insert control character function table ;
 ;-----------------------------------------;
 .org 0x0800B844
-.incbin vwf/control_characters.bin
+.incbin text_rendering/vwf_script/control_characters.bin
 
 ;---------------------------------------------------;
 ; Hijack the old glyph drawing routine and use ours ;

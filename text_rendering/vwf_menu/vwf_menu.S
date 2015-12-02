@@ -13,6 +13,7 @@ nop
 nop
 nop
 
+; Where we hijack the routine to call ours.
 .org 0x080B62FE
 ; r1 = ([r0]-0x06008000)/2, the tile index.
 ldr r1, [r0]
@@ -209,9 +210,5 @@ ldr r0, =0x080B6372
 mov r15, r0
 
 .pool
-
-; Disable x-coordinate update
-; .org 0x080B64BC
-; nop
 
 .close

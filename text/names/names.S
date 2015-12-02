@@ -1,11 +1,7 @@
-; This injects the English names for stuff.
+; TODO: A lot of the changes here aren't well documented / seem to nat make much
+;       sense.
 .gba
 .open "hacked.gba", 0x08000000
-
-; We changed the item offset from 0x390 to
-; 0x087DFA50 - 0x8226F7C = 0x5B8AD4
-.org 0x08226F7C
-.incbin names/name_offsets.bin
 
 ;------------;
 ; Item Names ;
@@ -27,14 +23,5 @@ lsr r1, r1, 0x0B
 ; This inserts an 0xF for whatever reason so we're deleting that
 .org 0x80B5DEC
 nop
-
-.org 0x087DFA50
-.incbin names/item_names.bin
-
-;--------------;
-; People Names ;
-;--------------;
-.org 0x0822A1EC
-.incbin names/people_names.bin
 
 .close
