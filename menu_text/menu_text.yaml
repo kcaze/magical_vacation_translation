@@ -1,89 +1,89 @@
 - Japanese: "ステータス\\ffff"
-  English: "Status\\ff\\ff"
+  English: Status
   Comments: ''
 - Japanese: "防具そうび\\ffff"
-  English: "Equipment\\ff\\ff"
+  English: Equipment
   Comments: ''
 - Japanese: "魔法そうび\\ffff"
-  English: "Magic\\ff\\ff"
+  English: Magic
   Comments: ''
 - Japanese: "魔法レベル\\ffff"
-  English: "Magic Level\\ff\\ff"
+  English: Magic Level
   Comments: ''
 - Japanese: "プロフィール\\ffff"
-  English: "Profile\\ff\\ff"
+  English: Profile
   Comments: ''
 - Japanese: "MDパーツセット\\ffff"
-  English: "Set MD Parts\\ff\\ff"
+  English: Set MD Parts
   Comments: ''
 - Japanese: "回復アイテム\\ffff"
-  English: "Recovery Items\\ff\\ff"
+  English: Recovery Items
   Comments: ''
 - Japanese: "そうびアイテム\\ffff"
-  English: "Equipment\\ff\\ff"
+  English: Equipment
   Comments: ''
 - Japanese: "MDパーツ\\ffff"
-  English: "MD Parts\\ff\\ff"
+  English: MD Parts
   Comments: ''
 - Japanese: "その他のアイテム\\ffff"
-  English: "Other Items\\ff\\ff"
+  English: Other Items
   Comments: ''
 - Japanese: "精霊いちらん\\ffff"
-  English: "Spirits\\ff\\ff"
+  English: Spirits
   Comments: ''
 - Japanese: "ワールドマップ\\ffff"
-  English: "World Map\\ff\\ff"
+  English: World Map
   Comments: ''
 - Japanese: "なんでもファイル\\ffff"
-  English: "All Files\\ff\\ff"
+  English: All Files
   Comments: ''
 - Japanese: "成績表\\ffff"
-  English: "Report Card\\ff\\ff"
+  English: Report Card
   Comments: ''
 - Japanese: "魔法の手帳\\ffff"
-  English: "Magic Notebook\\ff\\ff"
+  English: Magic Notebook
   Comments: ''
 - Japanese: "モンスター図鑑\\ffff"
-  English: "Bestiary\\ff\\ff"
+  English: Bestiary
   Comments: ''
 - Japanese: "種族図鑑\\ffff"
-  English: "Species\\ff\\ff"
+  English: Species
   Comments: ''
 - Japanese: "MD辞典\\ffff"
-  English: "MD Dictionary\\ff\\ff"
+  English: MD Dictionary
   Comments: ''
 - Japanese: "キャンプ場\\ffff"
-  English: "Campgrounds\\ff\\ff"
+  English: Campgrounds
   Comments: ''
 - Japanese: "ヴァレンシア海岸\\ffff"
-  English: "Valencia Beach\\ff\\ff"
+  English: Valencia Beach
   Comments: ''
 - Japanese: "光のプレーン\\ffff"
-  English: "Plane of Light\\ff\\ff"
+  English: Light Realm
   Comments: ''
 - Japanese: "闇のプレーン\\ffff"
-  English: "Plane of Darkness\\ff\\ff"
+  English: Dark Realm
   Comments: ''
 - Japanese: "死のプレーン\\ffff"
-  English: "Plane of Death\\ff\\ff"
+  English: Abyssal Realm
   Comments: ''
 - Japanese: "バトル回数\\ffff"
-  English: "Battles\\ff\\ff"
+  English: "Battles \\1f\\00"
   Comments: ''
 - Japanese: "勝率\\ffff"
-  English: ''
+  English: "Victories \\1f\\00"
   Comments: ''
 - Japanese: "逃走\\ffff"
-  English: ''
+  English: "Escapes \\1f\\00"
   Comments: ''
 - Japanese: "気絶\\ffff"
-  English: ''
+  English: "Deaths\\1f\\00"
   Comments: ''
 - Japanese: "最高精霊コンボ\\ffff"
-  English: ''
+  English: "Largest Combo \\1f\\00"
   Comments: ''
 - Japanese: "評価\\ffff"
-  English: ''
+  English: "Rating\\1f\\00"
   Comments: ''
 - Japanese: "仲良くなった精霊\\ffff"
   English: ''
@@ -110,7 +110,7 @@
   English: ''
   Comments: ''
 - Japanese: "回\\ffff"
-  English: ''
+  English: "times \\1f\\00"
   Comments: ''
 - Japanese: "個\\ffff"
   English: ''
@@ -122,7 +122,7 @@
   English: ''
   Comments: ''
 - Japanese: "倍\\ffff"
-  English: ''
+  English: "times \\1f\\00"
   Comments: ''
 - Japanese: "名前\\ffff"
   English: ''

@@ -106,6 +106,8 @@ function parseEnglish(english) {
     }
     parsed.push(curr.charCodeAt(0));
   }
+  parsed.push(0xff);
+  parsed.push(0xff);
   return parsed;
 }
 
