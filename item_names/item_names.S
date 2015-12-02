@@ -129,6 +129,7 @@ ldr r0, =0x087DF900
 ldrb r0, [r0, r1]
 ldrb r2, [r6, 0x02]
 add r2, r2, r0
+add r2, 0x01
 mov r3, 0x07
 and r3, r2
 strb r3, [r6, 0x02]
@@ -161,6 +162,7 @@ ldrb r2, [r6, 0x02]
 ldr r3, =0x087DF900
 ldrb r3, [r3, r1]
 sub r2, r3, r2
+add r2, 0x01
 ; r1 = address of glyph data
 lsl r1, r1, 0x04
 ldr r0, =0x08603900
