@@ -61,7 +61,7 @@ function exportBinary() {
 
   var binary = new Uint8Array(yaml.length*name_length);
   for (var ii = 0; ii < yaml.length; ii++) {
-    var english = parseEnglish(yaml[ii].English + '\\1F');
+    var english = parseEnglish(yaml[ii].English);
     if (english.length > name_length) {
       console.log('Object ', ii, '\'s name is too long! Truncating...');
     }
@@ -97,6 +97,9 @@ function parseEnglish(english) {
     }
     parsed.push(curr.charCodeAt(0));
   }
+  // Insert EOS
+  parsed.push(0x00);
+  parsed.push(0x1F);
   return parsed;
 }
 
