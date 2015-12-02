@@ -2,637 +2,637 @@
   English: Empty
   Japanese: "なし\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff"
 '1':
-  English: Map of Light
+  English: "\\00\\00Map of Light"
   Japanese: "\\0\\0光の地図\\ff\\ff\\ff\\ff\\ff\\ff"
 '2':
-  English: Small Ocarina
+  English: "\\00\\00Small Ocarina"
   Japanese: "\\0\\0小さいオカリナ"
 '3':
-  English: "Ukuru's Feather"
+  English: "\\00\\00Ukuru's Feather"
   Japanese: "\\0\\0ウークルの羽\\ff\\ff"
 '4':
-  English: Magnifying Glass
+  English: "\\00\\00Magnifying Glass"
   Japanese: "\\0\\0虫メガネ\\ff\\ff\\ff\\ff\\ff\\ff"
 '5':
-  English: Palace Key
+  English: "\\00\\00Palace Key"
   Japanese: "\\0\\0宮殿のカギ\\ff\\ff\\ff\\ff"
 '6':
-  English: Bestiary
+  English: "\\00\\0dBestiary"
   Japanese: "\\0\\dモンスター図鑑"
 '7':
-  English: Cheese Knife
+  English: "\\00\\00Cheese Knife"
   Japanese: "\\0\\0チーズナイフ\\ff\\ff"
 '8':
-  English: "Artisan's Soul"
+  English: "\\00\\00Artisan's Soul"
   Japanese: "\\0\\0職人の魂\\ff\\ff\\ff\\ff\\ff\\ff"
 '9':
-  English: Map of Darkness
+  English: "\\00\\00Map of Darkness"
   Japanese: "\\0\\0闇の地図\\ff\\ff\\ff\\ff\\ff\\ff"
 '10':
-  English: Ice Seed
+  English: "\\00\\00Ice Seed"
   Japanese: "\\0\\0アイスシード\\ff\\ff"
 '11':
-  English: Species Encyclopedia
+  English: "\\00\\0dSpecies Encyclopedia"
   Japanese: "\\0\\d種族図鑑\\ff\\ff\\ff\\ff\\ff\\ff"
 '12':
-  English: Water Veil
+  English: "\\00\\00Water Veil"
   Japanese: "\\0\\0水のヴェール\\ff\\ff"
 '13':
-  English: Konjac Root
+  English: "\\00\\00Konjac Root"
   Japanese: "\\0\\0こんにゃくイモ"
 '14':
-  English: Magic Handbook
-  Japanese: "\\0\\d魔法の手宗\\ff\\ff\\ff\\ff"
+  English: "\\00\\0dMagic Handbook"
+  Japanese: "\\0\\d魔法の手帳\\ff\\ff\\ff\\ff"
 '15':
-  English: MD Dictionary
+  English: "\\00\\0dMD Dictionary"
   Japanese: "\\0\\dMD辞典\\ff\\ff\\ff\\ff\\ff\\ff"
 '16':
-  English: Map of Death
+  English: "\\00\\00Map of Death"
   Japanese: "\\0\\0死の地図\\ff\\ff\\ff\\ff\\ff\\ff"
 '17':
-  English: Light Veil
+  English: "\\00\\00Light Veil"
   Japanese: "\\0\\0光のヴェール\\ff\\ff"
 '18':
-  English: Darkness Veil
+  English: "\\00\\00Darkness Veil"
   Japanese: "\\0\\0闇のヴェール\\ff\\ff"
 '19':
-  English: Abyssal Stone
+  English: "\\00\\00Abyssal Stone"
   Japanese: "\\0\\0黄泉の石\\ff\\ff\\ff\\ff\\ff\\ff"
 '20':
-  English: Preparation
+  English: "\\00\\00Preparation"
   Japanese: "\\0\\0予備\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff"
 '21':
-  English: Holey Leaf
+  English: "\\00\\01Holey Leaf"
   Japanese: "\\0\\1あなあきはっぱ"
 '22':
-  English: Warty Leaf
+  English: "\\00\\01Warty Leaf"
   Japanese: "\\0\\1イボイボはっぱ"
 '23':
-  English: Spiky Leaf
+  English: "\\00\\01Spiky Leaf"
   Japanese: "\\0\\1ギザギザはっぱ"
 '24':
-  English: Lumpy Leaf
+  English: "\\00\\01Lumpy Leaf"
   Japanese: "\\0\\1でこぼこはっぱ"
 '25':
-  English: Green Gummy Frog
+  English: "\\00\\02Green Gummy Frog"
   Japanese: "\\0\\2カエルグミ緑\\ff\\ff"
 '26':
-  English: Blue Gummy Frog
+  English: "\\00\\02Blue Gummy Frog"
   Japanese: "\\0\\2カエルグミ青\\ff\\ff"
 '27':
-  English: Red Gummy Frog
+  English: "\\00\\02Red Gummy Frog"
   Japanese: "\\0\\2カエルグミ赤\\ff\\ff"
 '28':
-  English: Yellow Gummy Worm
+  English: "\\00\\02Yellow Gummy Worm"
   Japanese: "\\0\\2ミミズグミ黄\\ff\\ff"
 '29':
-  English: Red Gummy Worm
+  English: "\\00\\02Red Gummy Worm"
   Japanese: "\\0\\2ミミズグミ赤\\ff\\ff"
 '30':
-  English: Depoison Tail
+  English: "\\00\\03Depoison Tail"
   Japanese: "\\0\\3ドクナのしっぽ"
 '31':
-  English: Denumb Tail
+  English: "\\00\\03Denumb Tail"
   Japanese: "\\0\\3シビナのしっぽ"
 '32':
-  English: Deparalyze Tail
+  English: "\\00\\03Deparalyze Tail"
   Japanese: "\\0\\3マヒナのしっぽ"
 '33':
-  English: Stoneoff Tail
+  English: "\\00\\03Stoneoff Tail"
   Japanese: "\\0\\3セキナのしっぽ"
 '34':
-  English: Wakey Tail
+  English: "\\00\\03Wakey Tail"
   Japanese: "\\0\\3フッカのしっぽ"
 '35':
-  English: Fire Bomb
+  English: "\\00\\04Fire Bomb"
   Japanese: "\\0\\4ファイアーボム"
 '36':
-  English: Liquid Bomb
+  English: "\\00\\04Liquid Bomb"
   Japanese: "\\0\\4リキッドボム\\ff\\ff"
 '37':
-  English: Pebble Bomb
+  English: "\\00\\04Pebble Bomb"
   Japanese: "\\0\\4ペブルボム\\ff\\ff\\ff\\ff"
 '38':
-  English: Wind Bomb
+  English: "\\00\\04Wind Bomb"
   Japanese: "\\0\\4ウインドボム\\ff\\ff"
 '39':
-  English: Light Bomb
+  English: "\\00\\04Light Bomb"
   Japanese: "\\0\\4ライトボム\\ff\\ff\\ff\\ff"
 '40':
-  English: Abyss Bomb
+  English: "\\00\\04Abyss Bomb"
   Japanese: "\\0\\4アビスボム\\ff\\ff\\ff\\ff"
 '41':
-  English: Love Bomb
+  English: "\\00\\04Love Bomb"
   Japanese: "\\0\\4ラヴボム\\ff\\ff\\ff\\ff\\ff\\ff"
 '42':
-  English: Spark Bomb
+  English: "\\00\\04Spark Bomb"
   Japanese: "\\0\\4スパークボム\\ff\\ff"
 '43':
-  English: Poison Bomb
+  English: "\\00\\04Poison Bomb"
   Japanese: "\\0\\4ポイズンボム\\ff\\ff"
 '44':
-  English: Razor Bomb
+  English: "\\00\\04Razor Bomb"
   Japanese: "\\0\\4レイザーボム\\ff\\ff"
 '45':
-  English: Rainbow Bomb
+  English: "\\00\\04Rainbow Bomb"
   Japanese: "\\0\\4レインボウボム"
 '46':
-  English: Sonic Bomb
+  English: "\\00\\04Sonic Bomb"
   Japanese: "\\0\\4ソニックボム\\ff\\ff"
 '47':
-  English: Retro Bomb
+  English: "\\00\\04Retro Bomb"
   Japanese: "\\0\\4レトロボム\\ff\\ff\\ff\\ff"
 '48':
-  English: Leaf Bomb
+  English: "\\00\\04Leaf Bomb"
   Japanese: "\\0\\4リーフボム\\ff\\ff\\ff\\ff"
 '49':
-  English: Life Bomb
+  English: "\\00\\04Life Bomb"
   Japanese: "\\0\\4ライフボム\\ff\\ff\\ff\\ff"
 '50':
-  English: Bug Bomb
+  English: "\\00\\04Bug Bomb"
   Japanese: "\\0\\4バグボム\\ff\\ff\\ff\\ff\\ff\\ff"
 '51':
-  English: Bandana
+  English: "\\00\\05Bandana"
   Japanese: "\\0\\5バンダナ\\ff\\ff\\ff\\ff\\ff\\ff"
 '52':
-  English: Tulip Hat
+  English: "\\00\\05Tulip Hat"
   Japanese: "\\0\\5チューリップ\\ff\\ff"
 '53':
-  English: Wool Cap
+  English: "\\00\\05Wool Cap"
   Japanese: "\\0\\5ウールのぼうし"
 '54':
-  English: Helmet
+  English: "\\00\\05Helmet"
   Japanese: "\\0\\5ヘルメット\\ff\\ff\\ff\\ff"
 '55':
-  English: Full Face
+  English: "\\00\\05Full Face"
   Japanese: "\\0\\5フルフェイス\\ff\\ff"
 '56':
-  English: Cat Mask
+  English: "\\00\\05Cat Mask"
   Japanese: "\\0\\5ネコマスク\\ff\\ff\\ff\\ff"
 '57':
-  English: Antenna
+  English: "\\00\\05Antenna"
   Japanese: "\\0\\5アンテナ\\ff\\ff\\ff\\ff\\ff\\ff"
 '58':
-  English: Mohawk Helmet
+  English: "\\00\\05Mohawk Helmet"
   Japanese: "\\0\\5モヒカンヘルム"
 '59':
-  English: Super Afro
+  English: "\\00\\05Super Afro"
   Japanese: "\\0\\5スーパーアフロ"
 '60':
-  English: Parabola
+  English: "\\00\\05Parabola"
   Japanese: "\\0\\5パラボラ\\ff\\ff\\ff\\ff\\ff\\ff"
 '61':
-  English: Magic Wrist
+  English: "\\00\\06Magic Wrist"
   Japanese: "\\0\\6マジックリスト"
 '62':
-  English: Baobab Wrist
+  English: "\\00\\06Baobab Wrist"
   Japanese: "\\0\\6バオバブリング"
 '63':
-  English: Silver Ring
+  English: "\\00\\06Silver Ring"
   Japanese: "\\0\\6シルバーリング"
 '64':
-  English: Gold Ring
+  English: "\\00\\06Gold Ring"
   Japanese: "\\0\\6ゴールドリング"
 '65':
-  English: Platinum Ring
+  English: "\\00\\06Platinum Ring"
   Japanese: "\\0\\6プラチナリング"
 '66':
-  English: Hand Paws
+  English: "\\00\\06Hand Paws"
   Japanese: "\\0\\6肉球ハンド\\ff\\ff\\ff\\ff"
 '67':
-  English: Gorgon Brace
+  English: "\\00\\06Gorgon Brace"
   Japanese: "\\0\\6ゴルゴンリング"
 '68':
-  English: Quartz Lens
+  English: "\\00\\06Quartz Lens"
   Japanese: "\\0\\6クォーツレンズ"
 '69':
-  English: Demon Brace
+  English: "\\00\\06Demon Brace"
   Japanese: "\\0\\6デイモンリング"
 '70':
-  English: Fluorite
+  English: "\\00\\06Fluorite"
   Japanese: "\\0\\6フローライト\\ff\\ff"
 '71':
-  English: Vinyl Shirt
+  English: "\\00\\07Vinyl Shirt"
   Japanese: "\\0\\7ビニールシャツ"
 '72':
-  English: Tour Shirt
+  English: "\\00\\07Tour Shirt"
   Japanese: "\\0\\7旅人のシャツ\\ff\\ff"
 '73':
-  English: Hide Armor
+  English: "\\00\\07Hide Armor"
   Japanese: "\\0\\7革のジャケット"
 '74':
-  English: Chain Mail
+  English: "\\00\\07Chain Mail"
   Japanese: "\\0\\7チェーンメイル"
 '75':
-  English: Lizard Skin
+  English: "\\00\\07Lizard Skin"
   Japanese: "\\0\\7リザードスキン"
 '76':
-  English: Cat Tights
+  English: "\\00\\07Cat Tights"
   Japanese: "\\0\\7ネコタイツ\\ff\\ff\\ff\\ff"
 '77':
-  English: Lynx Shirt
+  English: "\\00\\07Lynx Shirt"
   Japanese: "\\0\\7パンサーシャツ"
 '78':
-  English: Plate Mail
+  English: "\\00\\07Plate Mail"
   Japanese: "\\0\\7プレートメイル"
 '79':
-  English: Heavy Metal
+  English: "\\00\\07Heavy Metal"
   Japanese: "\\0\\7ヘビーメタル\\ff\\ff"
 '80':
-  English: Frog Shirt
+  English: "\\00\\07Frog Shirt"
   Japanese: "\\0\\7カエルのシャツ"
 '81':
-  English: Wooden Clogs
+  English: "\\00\\08Wooden Clogs"
   Japanese: "\\0\\8木のくつ\\ff\\ff\\ff\\ff\\ff\\ff"
 '82':
-  English: Hiking Shoes
+  English: "\\00\\08Hiking Shoes"
   Japanese: "\\0\\8旅人のくつ\\ff\\ff\\ff\\ff"
 '83':
-  English: Cleats
+  English: "\\00\\08Cleats"
   Japanese: "\\0\\8スパイク\\ff\\ff\\ff\\ff\\ff\\ff"
 '84':
-  English: Curly Toed Shoes
+  English: "\\00\\08Curly Toed Shoes"
   Japanese: "\\0\\8つまさきくるん"
 '85':
-  English: Rubber Soles
+  English: "\\00\\08Rubber Soles"
   Japanese: "\\0\\8ラバーソウル\\ff\\ff"
 '86':
-  English: Paw Boots
+  English: "\\00\\08Paw Boots"
   Japanese: "\\0\\8肉球ブーツ\\ff\\ff\\ff\\ff"
 '87':
-  English: Mechaboots
+  English: "\\00\\08Mechaboots"
   Japanese: "\\0\\8鉄のゲタ\\ff\\ff\\ff\\ff\\ff\\ff"
 '88':
-  English: Bird Boots
+  English: "\\00\\08Bird Boots"
   Japanese: "\\0\\8オストリッチ\\ff\\ff"
 '89':
-  English: Glass Slippers
+  English: "\\00\\08Glass Slippers"
   Japanese: "\\0\\8ガラスのくつ\\ff\\ff"
 '90':
-  English: Heaven Boots
+  English: "\\00\\08Heaven Boots"
   Japanese: "\\0\\8楽園ブーツ\\ff\\ff\\ff\\ff"
 '91':
-  English: Hair Clip
+  English: "\\00\\09Hair Clip"
   Japanese: "\\0\\9ぱっちんどめ\\ff\\ff"
 '92':
-  English: Headband
+  English: "\\00\\09Headband"
   Japanese: "\\0\\9カチューシャ\\ff\\ff"
 '93':
-  English: Red Ribbon
+  English: "\\00\\09Red Ribbon"
   Japanese: "\\0\\9赤いリボン\\ff\\ff\\ff\\ff"
 '94':
-  English: Lapis Earrings
+  English: "\\00\\09Lapis Earrings"
   Japanese: "\\0\\9ラピスのピアス"
 '95':
-  English: Jade Earrings
+  English: "\\00\\09Jade Earrings"
   Japanese: "\\0\\9ヒスイのピアス"
 '96':
-  English: Cat Bell
+  English: "\\00\\09Cat Bell"
   Japanese: "\\0\\9ネコすず\\ff\\ff\\ff\\ff\\ff\\ff"
 '97':
-  English: Skull Ribbon
+  English: "\\00\\09Skull Ribbon"
   Japanese: "\\0\\9ドクロのリボン"
 '98':
-  English: "Gorgon's Eye"
+  English: "\\00\\09Gorgon's Eye"
   Japanese: "\\0\\9石の魚\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff"
   Comments: This is a Legend of Mana reference.
 '99':
-  English: Ear Plugs
+  English: "\\00\\09Ear Plugs"
   Japanese: "\\0\\9みみせん\\ff\\ff\\ff\\ff\\ff\\ff"
 '100':
-  English: Dog Snout
+  English: "\\00\\09Dog Snout"
   Japanese: "\\0\\9イヌハナ\\ff\\ff\\ff\\ff\\ff\\ff"
 '101':
-  English: Scampi Shell
+  English: "\\00\\0aScampi Shell"
   Japanese: "\\0\\aスカンピシェル"
 '102':
-  English: Crab Shell
+  English: "\\00\\0aCrab Shell"
   Japanese: "\\0\\aクラブシェル\\ff\\ff"
 '103':
-  English: Tortoise Shell
+  English: "\\00\\0aTortoise Shell"
   Japanese: "\\0\\aトータスシェル"
 '104':
-  English: Chimera Shell
+  English: "\\00\\0aChimera Shell"
   Japanese: "\\0\\aキメラシェル\\ff\\ff"
 '105':
-  English: Black Shell
+  English: "\\00\\0aBlack Shell"
   Japanese: "\\0\\aブラックシェル"
 '106':
-  English: Silver Shell
+  English: "\\00\\0aSilver Shell"
   Japanese: "\\0\\aシルバーシェル"
 '107':
-  English: Dragon Shell
+  English: "\\00\\0aDragon Shell"
   Japanese: "\\0\\aドラゴンシェル"
 '108':
-  English: "Yurero's Shell"
+  English: "\\00\\0aYurero's Shell"
   Japanese: "\\0\\aユーレロシェル"
   Comment: What does Yurero mean?
 '109':
-  English: Glass Marble
+  English: "\\00\\0aGlass Marble"
   Japanese: "\\0\\aガラスだま\\ff\\ff\\ff\\ff"
 '110':
-  English: Rose Quartz
+  English: "\\00\\0aRose Quartz"
   Japanese: "\\0\\aローズクォーツ"
 '111':
-  English: Amethyst
+  English: "\\00\\0aAmethyst"
   Japanese: "\\0\\aアメジスト\\ff\\ff\\ff\\ff"
 '112':
-  English: Tourmaline
+  English: "\\00\\0aTourmaline"
   Japanese: "\\0\\aトルマリン\\ff\\ff\\ff\\ff"
 '113':
-  English: Sapphire
+  English: "\\00\\0aSapphire"
   Japanese: "\\0\\aサファイア\\ff\\ff\\ff\\ff"
 '114':
-  English: Ruby
+  English: "\\00\\0aRuby"
   Japanese: "\\0\\aルビー\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff"
 '115':
-  English: Diamond
+  English: "\\00\\0aDiamond"
   Japanese: "\\0\\aダイヤモンド\\ff\\ff"
 '116':
-  English: Orichalcum
+  English: "\\00\\0aOrichalcum"
   Japanese: "\\0\\aオリハルコン\\ff\\ff"
 '117':
-  English: Orange
+  English: "\\00\\0aOrange"
   Japanese: "\\0\\aオレンジの実\\ff\\ff"
 '118':
-  English: Papaya
+  English: "\\00\\0aPapaya"
   Japanese: "\\0\\aパパイヤの実\\ff\\ff"
 '119':
-  English: Apple
+  English: "\\00\\0aApple"
   Japanese: "\\0\\aりんごの実\\ff\\ff\\ff\\ff"
 '120':
-  English: Muscat
+  English: "\\00\\0aMuscat"
   Japanese: "\\0\\aマスカットの実"
 '121':
-  English: Lychee
+  English: "\\00\\0aLychee"
   Japanese: "\\0\\aライチの実\\ff\\ff\\ff\\ff"
 '122':
-  English: Cherry
+  English: "\\00\\0aCherry"
   Japanese: "\\0\\aチェリーの実\\ff\\ff"
 '123':
-  English: Blackcurrant
+  English: "\\00\\0aBlackcurrant"
   Japanese: "\\0\\aカシスの実\\ff\\ff\\ff\\ff"
 '124':
-  English: Durian
+  English: "\\00\\0aDurian"
   Japanese: "\\0\\aドリアンの実\\ff\\ff"
 '125':
-  English: Red Mica
+  English: "\\00\\0aRed Mica"
   Japanese: "\\0\\a赤いキララ\\ff\\ff\\ff\\ff"
 '126':
-  English: Yellow Mica
+  English: "\\00\\0aYellow Mica"
   Japanese: "\\0\\a黄色いキララ\\ff\\ff"
 '127':
-  English: White Mica
+  English: "\\00\\0aWhite Mica"
   Japanese: "\\0\\a白いキララ\\ff\\ff\\ff\\ff"
 '128':
-  English: Shining Mica
+  English: "\\00\\0aShining Mica"
   Japanese: "\\0\\a光るキララ\\ff\\ff\\ff\\ff"
 '129':
-  English: Sparkling Mica
+  English: "\\00\\0aSparkling Mica"
   Japanese: "\\0\\a輝くキララ\\ff\\ff\\ff\\ff"
 '130':
-  English: Wool Fibers
+  English: "\\00\\0aWool Fibers"
   Japanese: "\\0\\aウールのせんい"
 '131':
-  English: "Sheep's Gut"
+  English: "\\00\\0aSheep's Gut"
   Japanese: "\\0\\aひつじのガット"
 '132':
-  English: Leather String
+  English: "\\00\\0aLeather String"
   Japanese: "\\0\\a皮ひも\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff"
 '133':
-  English: "Dragon's Beard"
+  English: "\\00\\0aDragon's Beard"
   Japanese: "\\0\\aりゅうのひげ\\ff\\ff"
 '134':
-  English: Nyam Worm
+  English: "\\00\\0aNyam Worm"
   Japanese: "\\0\\aニャムワーム\\ff\\ff"
   Comment: My best romanization attempt.
 '135':
-  English: Fire Seal
+  English: "\\00\\0bFire Seal"
   Japanese: "\\0\\b火のシール\\ff\\ff\\ff\\ff"
 '136':
-  English: Wind Seal
+  English: "\\00\\0bWind Seal"
   Japanese: "\\0\\b風のシール\\ff\\ff\\ff\\ff"
 '137':
-  English: Poison Seal
+  English: "\\00\\0bPoison Seal"
   Japanese: "\\0\\b毒のシール\\ff\\ff\\ff\\ff"
 '138':
-  English: Beauty Seal
+  English: "\\00\\0bBeauty Seal"
   Japanese: "\\0\\b美のシール\\ff\\ff\\ff\\ff"
 '139':
-  English: Blade Seal
+  English: "\\00\\0bBlade Seal"
   Japanese: "\\0\\b刃のシール\\ff\\ff\\ff\\ff"
 '140':
-  English: Sound Seal
+  English: "\\00\\0bSound Seal"
   Japanese: "\\0\\b音のシール\\ff\\ff\\ff\\ff"
 '141':
-  English: Stone Seal
+  English: "\\00\\0bStone Seal"
   Japanese: "\\0\\b石のシール\\ff\\ff\\ff\\ff"
 '142':
-  English: Insect Seal
+  English: "\\00\\0bInsect Seal"
   Japanese: "\\0\\b虫のシール\\ff\\ff\\ff\\ff"
 '143':
-  English: Wood Seal
+  English: "\\00\\0bWood Seal"
   Japanese: "\\0\\b木のシール\\ff\\ff\\ff\\ff"
 '144':
-  English: Beast Seal
+  English: "\\00\\0bBeast Seal"
   Japanese: "\\0\\b獣のシール\\ff\\ff\\ff\\ff"
 '145':
-  English: Water Seal
+  English: "\\00\\0bWater Seal"
   Japanese: "\\0\\b水のシール\\ff\\ff\\ff\\ff"
 '146':
-  English: Thunder Seal
+  English: "\\00\\0bThunder Seal"
   Japanese: "\\0\\b雷のシール\\ff\\ff\\ff\\ff"
 '147':
-  English: Ancient Seal
+  English: "\\00\\0bAncient Seal"
   Japanese: "\\0\\b古のシール\\ff\\ff\\ff\\ff"
 '148':
-  English: Darkness Seal
+  English: "\\00\\0bDarkness Seal"
   Japanese: "\\0\\b闇のシール\\ff\\ff\\ff\\ff"
 '149':
-  English: Light Seal
+  English: "\\00\\0bLight Seal"
   Japanese: "\\0\\b光のシール\\ff\\ff\\ff\\ff"
 '150':
-  English: Love Seal
+  English: "\\00\\0bLove Seal"
   Japanese: "\\0\\b愛のシール\\ff\\ff\\ff\\ff"
 '151':
-  English: Leather Cap
+  English: "\\00\\05Leather Cap"
   Japanese: "\\0\\5レザーキャップ"
 '152':
-  English: Leather Wrist
+  English: "\\00\\06Leather Wrist"
   Japanese: "\\0\\6レザーバンド\\ff\\ff"
 '153':
-  English: Leather Mantle
+  English: "\\00\\07Leather Mantle"
   Japanese: "\\0\\7レザーマント\\ff\\ff"
 '154':
-  English: Leather Boots
+  English: "\\00\\08Leather Boots"
   Japanese: "\\0\\8レザーブーツ\\ff\\ff"
 '155':
-  English: Leather Earrings
+  English: "\\00\\09Leather Earrings"
   Japanese: "\\0\\9レザーピアス\\ff\\ff"
 '156':
-  English: Thief Hat
+  English: "\\00\\05Thief Hat"
   Japanese: "\\0\\5シーブスハット"
 '157':
-  English: Thief Ring
+  English: "\\00\\06Thief Ring"
   Japanese: "\\0\\6シーブスリング"
 '158':
-  English: Thief Mantle
+  English: "\\00\\07Thief Mantle"
   Japanese: "\\0\\7シーブスマント"
 '159':
-  English: Thief Boots
+  English: "\\00\\08Thief Boots"
   Japanese: "\\0\\8シーブスブーツ"
 '160':
-  English: Thief Earrings
+  English: "\\00\\09Thief Earrings"
   Japanese: "\\0\\9シーブスピアス"
 '161':
-  English: Winged Hat
+  English: "\\00\\05Winged Hat"
   Japanese: "\\0\\5ウィングハット"
 '162':
-  English: Winged Bangle
+  English: "\\00\\06Winged Bangle"
   Japanese: "\\0\\6ウィングリスト"
 '163':
-  English: Winged Shirt
+  English: "\\00\\07Winged Shirt"
   Japanese: "\\0\\7ウィングシャツ"
 '164':
-  English: Winged Boots
+  English: "\\00\\08Winged Boots"
   Japanese: "\\0\\8ウィングブーツ"
 '165':
-  English: Winged Studs
+  English: "\\00\\09Winged Studs"
   Japanese: "\\0\\9ウィングピアス"
 '166':
-  English: Force Hat
+  English: "\\00\\05Force Hat"
   Japanese: "\\0\\5フォースハット"
 '167':
-  English: Force Ring
+  English: "\\00\\06Force Ring"
   Japanese: "\\0\\6フォースリング"
 '168':
-  English: Force Cloak
+  English: "\\00\\07Force Cloak"
   Japanese: "\\0\\7フォースマント"
 '169':
-  English: Force Boots
+  English: "\\00\\08Force Boots"
   Japanese: "\\0\\8フォースブーツ"
 '170':
-  English: Force Studs
+  English: "\\00\\09Force Studs"
   Japanese: "\\0\\9フォースピアス"
 '171':
-  English: Sage Hat
+  English: "\\00\\05Sage Hat"
   Japanese: "\\0\\5知者のぼうし\\ff\\ff"
 '172':
-  English: Sage Brace
+  English: "\\00\\06Sage Brace"
   Japanese: "\\0\\6知者のうでわ\\ff\\ff"
 '173':
-  English: Sage Robe
+  English: "\\00\\07Sage Robe"
   Japanese: "\\0\\7知者のマント\\ff\\ff"
 '174':
-  English: Sage Shoes
+  English: "\\00\\08Sage Shoes"
   Japanese: "\\0\\8知者のくつ\\ff\\ff\\ff\\ff"
 '175':
-  English: Sage String
+  English: "\\00\\09Sage String"
   Japanese: "\\0\\9知者の指輪\\ff\\ff\\ff\\ff"
 '176':
-  English: Misty Cap
+  English: "\\00\\05Misty Cap"
   Japanese: "\\0\\5ミスティハット"
 '177':
-  English: Misty Ring
+  English: "\\00\\06Misty Ring"
   Japanese: "\\0\\6ミスティリング"
 '178':
-  English: Misty Cloak
+  English: "\\00\\07Misty Cloak"
   Japanese: "\\0\\7ミスティマント"
 '179':
-  English: Misty Boots
+  English: "\\00\\08Misty Boots"
   Japanese: "\\0\\8ミスティブーツ"
 '180':
-  English: Misty Studs
+  English: "\\00\\09Misty Studs"
   Japanese: "\\0\\9ミスティピアス"
 '181':
-  English: Philosopher Hat
+  English: "\\00\\05Philosopher Hat"
   Japanese: "\\0\\5賢者のぼうし\\ff\\ff"
 '182':
-  English: Philosopher Brace
+  English: "\\00\\06Philosopher Brace"
   Japanese: "\\0\\6賢者のうでわ\\ff\\ff"
 '183':
-  English: Philosopher Cloak
+  English: "\\00\\07Philosopher Cloak"
   Japanese: "\\0\\7賢者のふく\\ff\\ff\\ff\\ff"
 '184':
-  English: Philosopher Shoes
+  English: "\\00\\08Philosopher Shoes"
   Japanese: "\\0\\8賢者のくつ\\ff\\ff\\ff\\ff"
 '185':
-  English: Philosopher Pendant
+  English: "\\00\\09Philosopher Pendant"
   Japanese: "\\0\\9賢者の首かざり"
 '186':
-  English: Magic Hat
+  English: "\\00\\05Magic Hat"
   Japanese: "\\0\\5マジカルハット"
 '187':
-  English: Magic Bangle
+  English: "\\00\\06Magic Bangle"
   Japanese: "\\0\\6マジカルリング"
 '188':
-  English: Magic Cloak
+  English: "\\00\\07Magic Cloak"
   Japanese: "\\0\\7マジカルマント"
 '189':
-  English: Magic Boots
+  English: "\\00\\08Magic Boots"
   Japanese: "\\0\\8マジカルブーツ"
 '190':
-  English: Magic Studs
+  English: "\\00\\09Magic Studs"
   Japanese: "\\0\\9マジカルピアス"
 '191':
-  English: Black Hat
+  English: "\\00\\05Black Hat"
   Japanese: "\\0\\5ブラックハット"
 '192':
-  English: Black Ring
+  English: "\\00\\06Black Ring"
   Japanese: "\\0\\6ブラックリング"
 '193':
-  English: Black Cloak
+  English: "\\00\\07Black Cloak"
   Japanese: "\\0\\7ブラックマント"
 '194':
-  English: Black Boots
+  English: "\\00\\08Black Boots"
   Japanese: "\\0\\8ブラックブーツ"
 '195':
-  English: Black Studs
+  English: "\\00\\09Black Studs"
   Japanese: "\\0\\9ブラックピアス"
 '196':
-  English: White Hat
+  English: "\\00\\05White Hat"
   Japanese: "\\0\\5ホワイトハット"
 '197':
-  English: White Ring
+  English: "\\00\\06White Ring"
   Japanese: "\\0\\6ホワイトリング"
 '198':
-  English: White Cloak
+  English: "\\00\\07White Cloak"
   Japanese: "\\0\\7ホワイトマント"
 '199':
-  English: White Boots
+  English: "\\00\\08White Boots"
   Japanese: "\\0\\8ホワイトブーツ"
 '200':
-  English: White Studs
+  English: "\\00\\09White Studs"
   Japanese: "\\0\\9ホワイトピアス"
 '201':
-  English: Brownie Hat
+  English: "\\00\\05Brownie Hat"
   Japanese: "\\0\\5ブラウニハット"
 '202':
-  English: Brownie Ring
+  English: "\\00\\06Brownie Ring"
   Japanese: "\\0\\6ブラウニリング"
 '203':
-  English: Brownie Robe
+  English: "\\00\\07Brownie Robe"
   Japanese: "\\0\\7ブラウニマント"
 '204':
-  English: Brownie Boots
+  English: "\\00\\08Brownie Boots"
   Japanese: "\\0\\8ブラウニブーツ"
 '205':
-  English: Brownie Studs
+  English: "\\00\\09Brownie Studs"
   Japanese: "\\0\\9ブラウニピアス"
 '206':
-  English: Washbasin
+  English: "\\00\\05Washbasin"
   Japanese: "\\0\\5せんめんき\\ff\\ff\\ff\\ff"
 '207':
-  English: Towel
+  English: "\\00\\06Towel"
   Japanese: "\\0\\6てぬぐい\\ff\\ff\\ff\\ff\\ff\\ff"
 '208':
-  English: Bathrobe
+  English: "\\00\\07Bathrobe"
   Japanese: "\\0\\7ゆかた\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff"
 '209':
-  English: Slippers
+  English: "\\00\\08Slippers"
   Japanese: "\\0\\8ゲタ\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff"
 '210':
-  English: Bath Set
+  English: "\\00\\09Bath Set"
   Japanese: "\\0\\9おふろセット\\ff\\ff"
 '211':
   English: ''
@@ -743,31 +743,31 @@
   English: ''
   Japanese: "\\0\\dウィッシュキー"
 '247':
-  English: Ignis Coin
+  English: "\\00\\0eIgnis Coin"
   Japanese: "\\0\\eミーロリ銀貨\\ff\\ff"
   Comment: This is for the fire spirit so Ignis = latin for fire.
 '248':
-  English: Antiqua Coin
+  English: "\\00\\0eAntiqua Coin"
   Japanese: "\\0\\eアルティ銀貨\\ff\\ff"
 '249':
-  English: Ventus Coin
+  English: "\\00\\0eVentus Coin"
   Japanese: "\\0\\eラシモフ銀貨\\ff\\ff"
 '250':
-  English: Aqua Coin
+  English: "\\00\\0eAqua Coin"
   Japanese: "\\0\\eクレセント銀貨"
 '251':
-  English: Vox Coin
+  English: "\\00\\0eVox Coin"
   Japanese: "\\0\\eハモニック金貨"
 '252':
-  English: Tonitrus Coin
+  English: "\\00\\0eTonitrus Coin"
   Japanese: "\\0\\eヘリオン金貨\\ff\\ff"
 '253':
-  English: Gladius Coin
+  English: "\\00\\0eGladius Coin"
   Japanese: "\\0\\eキャムティ金貨"
 '254':
-  English: Decor Coin
+  English: "\\00\\0eDecor Coin"
   Japanese: "\\0\\eガニック金貨\\ff\\ff"
 '255':
-  English: Pine Cone
+  English: "\\00\\0ePine Cone"
   Japanese: "\\0\\eまつぼっくり\\ff\\ff"
 length: 256

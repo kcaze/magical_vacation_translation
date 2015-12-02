@@ -37,9 +37,9 @@ converts it into the 4bpp tile data and stores it in RAM. This is
 called for each glyph in order and so we branch to our VWF
 routine here.
 
-*In the call to 0x080B62F4, r1 can be used to compute the tile index
+*In the call to 0x080B62F4, r0 can be used to compute the tile index
 the game originally expects to draw the glyph to and r2 contains the
-glyph data. To compute the tile index from r1, do (r1 - 0x0203CF80)/2.
+glyph data.
 
 *In our VWF, we store 4 variables in RAM: the index of the tile to
 draw to (a halfword), the number of pixels remaining from the previous call to our vwf routine, the last glyph of the previous call to our
@@ -48,4 +48,9 @@ an ending EOF character which indicates for the begin of string flag
 to be set. This way, we can use r1 to get the correct beginning tile
 index when we begin to draw a string.
 
-*Edge cases: If (r1 == 0x0203CF80), then this is some weird empty call the game does. Ignore it and just return. It's important that we do not disable the begin of string flag.
+*Edge cases: If ([r0] == 0x06008000), then this is some weird empty call the game does. Ignore it and just return. It's important that we do not disable the begin of string flag.
+
+0x0203FFF4: index of tile to draw to (2 bytes)
+0x0203FFF6: number of pixels remaining (1 byte)
+0x0203FFF7: remaining glyph's value (1 byte)
+0x0203FFF8: flag set to 0 if beginning of a string (1 byte)
