@@ -41,75 +41,45 @@ mov r15, r0
 ; INVARIANTS: r5 = glyph value, r6 = RAM address 0x0203FFF4
 mov r5, r2
 ldr r6, =0x0203FFF4
-ldrb r3, [r6, 0x04]
+ldrb r3, [r6, 0x03]
 cmp r3, 0x00
 bne not_string
 ; Update the tile index in RAM and set inside_string flag.
 strh r1, [r6, 0x00]
 mov r1, 0x01
-strb r1, [r6, 0x04]
+strb r1, [r6, 0x03]
 not_string:
 
 draw_glyph:
-; Copy remaining. This will work even for the last glyph, since
-; we have are guaranteed an EOS character.
-;ldrb r1, [r6,] 
-
-; Set r2 to the address of the first glyph
+; Set r1 to the address of the first glyph
 mov r0, 0xFF
-mov r2, r5
-and r2, r0
-; Set flag on end-of-string character, 0x1F
-cmp r2, 0x1F
-bne not_eos
-mov r1, 0x00
-strb r1, [r6, 0x04]
-not_eos:
-lsl r2, r2, 0x04
+mov r1, r5
+and r1, r0
+lsl r1, r1, 0x04
 ldr r0, =0x08603900
-add r2, r2, r0
+add r1, r1, r0
 
-; Copy top half of the 1bpp data onto stack
-ldr r0, [r2, 0x00]
-str r0, [sp, 0x00]
-ldr r0, [r2, 0x04]
-str r0, [sp, 0x04]
+; Copy glyph data onto stack with a shift depending on width of
+; remaining glyph.
+ldrb r2, [r6, 0x02]
+mov r3, 0x00
+copy_data_loop:
+  ldrb r0, [r1, r3]
+  lsl r0, r2
+  ldr r4, =0x0203692C
+  ldrb r4, [r4, r3]
+  orr r0, r4
+  ldr r4, =0x0203692C
+  strb r0, [r4, r3]
+  add r3, 0x01
+  cmp r3, 0x10
+  blt copy_data_loop
 
-; Copy bottom half of the 1bpp data onto stack
-ldr r0, [r2, 0x08]
-str r0, [sp, 0x08]
-ldr r0, [r2, 0x0C]
-str r0, [sp, 0x0C]
-
-; Clear the RAM.
-mov r0, 0x00
-mov r1, 0x00
-ldr r2, =0x0203692C
-loop:
-  str r1, [r2, r0]
-  add r0, 0x04
-  cmp r0, 0x40
-  blt loop
-
-ldr r0, =0x0203692C
-mov r1, sp
-mov r2, 0x0F
-mov r3, 0x01 ; Number of 8x8 blocks to translate
-
-; The following essentially does the same thing as
-; bl 0x080BEC2C.
-mov r4, pc
-add r4, r4, 0x7
-mov lr, r4
-ldr r4, =0x80BEC2C
-mov pc, r4
-
-ldr r0, =0x0203694C
-mov r1, sp
-add r1, 0x08
-mov r2, 0x0F
-mov r3, 0x01 ; Number of 8x8 blocks to translate
-
+; Call 0x080BEC2C to translate from 1bpp to 4bpp.
+ldr r0, =0x0203693C ; Destination
+ldr r1, =0x0203692C ; Source
+mov r2, 0x0F ; Font color
+mov r3, 0x02 ; Number of 8x8 blocks to translate
 ; The following essentially does the same thing as
 ; bl 0x080BEC2C.
 mov r4, pc
@@ -121,7 +91,7 @@ mov pc, r4
 ; DMA top half
 ldr r0, =0x040000D4
 ; Store the RAM source
-ldr r1, =0x0203692C
+ldr r1, =0x0203693C
 str r1, [r0, 0x00]
 ; Compute and store the tile destination
 ldr r1, =0x06008000
@@ -134,10 +104,10 @@ ldr r1, =0x80000010
 str r1, [r0, 0x08]
 ldr r1, [r0, 0x08]
 
-; DMA second half
+; DMA bottom half
 ldr r0, =0x040000D4
 ; Store the RAM source
-ldr r1, =0x0203694C
+ldr r1, =0x0203695C
 str r1, [r0, 0x00]
 ; Compute and store the tile destination
 ldr r1, =0x06008000
@@ -151,10 +121,82 @@ ldr r1, =0x80000010
 str r1, [r0, 0x08]
 ldr r1, [r0, 0x08]
 
+; Compute offset for next glyph
+mov r0, 0xFF
+mov r1, r5
+and r1, r0
+ldr r0, =0x087DF900
+ldrb r0, [r0, r1]
+ldrb r2, [r6, 0x02]
+add r2, r2, r0
+mov r3, 0x07
+and r3, r2
+strb r3, [r6, 0x02]
+cmp r2, 0x08
+blt no_carryover
+
+sub r2, 0x08
 ; Increment tile index
 ldrh r1, [r6, 0x00]
 add r1, 0x01
 strh r1, [r6, 0x00]
+; Clear the RAM.
+mov r0, 0x00
+mov r1, 0x00
+ldr r2, =0x0203692C
+clear_ram_loop:
+  str r1, [r2, r0]
+  add r0, 0x04
+  cmp r0, 0x50
+  blt clear_ram_loop
+
+; Copy remaining. This will work even for the last glyph, since
+; we have are guaranteed an EOS character.
+; r2 = width of glyph - number of pixels remaining
+;    = pixels to shift
+mov r0, 0xFF
+mov r1, r5
+and r1, r0
+ldrb r2, [r6, 0x02]
+ldr r3, =0x087DF900
+ldrb r3, [r3, r1]
+sub r2, r3, r2
+; r1 = address of glyph data
+lsl r1, r1, 0x04
+ldr r0, =0x08603900
+add r1, r1, r0
+; Shift and then copy over remaining glyph's data.
+mov r3, 0x00
+ldr r4, =0x0203692C
+copy_remaining_data_loop:
+  ldrb r0, [r1, r3]
+  lsr r0, r2
+  strb r0, [r4, r3]
+  add r3, 0x01
+  cmp r3, 0x10
+  blt copy_remaining_data_loop
+
+no_carryover:
+
+mov r0, 0xFF
+mov r1, r5
+and r1, r0
+; Set flag on end-of-string character, 0x1F
+cmp r1, 0x1F
+bne not_eos
+mov r2, 0x00
+strh r2, [r6, 0x02]
+; Clear the RAM.
+mov r0, 0x00
+mov r1, 0x00
+ldr r2, =0x0203692C
+clear_ram_loop_:
+  str r1, [r2, r0]
+  add r0, 0x04
+  cmp r0, 0x50
+  blt clear_ram_loop_
+not_eos:
+
 
 lsr r5, r5, 0x08
 cmp r5, 0x00
