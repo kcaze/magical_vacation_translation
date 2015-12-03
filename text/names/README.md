@@ -184,6 +184,7 @@ People names:
 サムソー -- Samso (cheese)
 カテョカヴァッロ -- Caciocavallo (cheese)
 パルミジャーノ -- Parmigiano (cheese)
+とくめいきぼう -- Anonymous Hope (not sure)
 
 Other names:
 愛のデッパリ -- Baby bump (Not sure about this at all.)

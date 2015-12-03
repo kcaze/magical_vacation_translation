@@ -9881,19 +9881,19 @@
   English: "\\8b\\0c\\86\\02\n\"Man, you even deceived us.\nWhat a guy."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「これから、どうするっぴ?<br> このあたりにはもう<br> 誰もいないっぴ。"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"What are we going to do now?\nThere's no one around here anymore."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「そうね~、<span class=\"red\">トルーナ村</span>の村長に<br> 遺跡に入る許可をもらって、<br> 遺跡を抜けて‥‥‥‥<br> え~と‥‥‥‥"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Yeah, after getting permission\nto enter the ruins from the chief\nof \\8eOturan Village\\8d and then\ngoing through the ruins is...\nUmm..."
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「<span class=\"red\">ワクティ村</span>だ。<br> 愛の大使の村があるはず。"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"\\8eHot Tea Village\\8d. It\nshould be the village of the\nEnvoys of Love"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「よっしゃあ！！<br> そうと決まれば行くぜ！！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"Alright! Now that we've decided,\nlet's go!"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「オレのことは気にするな！！<br> 戦える！！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"Don't worry about me! I can\nfight too!"
   Comments: ''
 - Japanese: ''
   English: ''
@@ -9947,139 +9947,148 @@
   English: ''
   Comments: ''
 - Japanese: '  文鳥ケ原まで行く<br>  キャンセル'
-  English: ''
+  English: |-
+    Go to the Ricebird Plains
+    Cancel
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「コインがなきゃ、ラロッシュの塔<br> には入れねぇぜ。<br> オレが<span class=\"red\">\\87\\19</span>３個と<br> 交換に、<span class=\"red\">\\87\\f7</span>を１個<br> ゆずってやるよ。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"If you don't have coins you won't\nbe able to enter the Tour de La Roche.\nIf you trade 3 \\8e\\87\\19\\8d with me,\nI'll give you 1 \\8e\\87\\f7\\8d."
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「これを店で売りな。<br> そしたら、悪そうなヤツが<br> からんで来るんで、強気で<br> 受けこたえするんだ。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\c6The Mausses\n\"Don't sell this at any of the\nshops. If you do, some bad people\nwill come and get you."
+  Comments: |-
+    not sure if I captured the meaning of the
+    second sentence.
 - Japanese: "\\8b\\c6ピップルス<br>「<span class=\"red\">\\87\\19</span>３個と交換だ。<br> 都合してきな。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"It's a deal then. I'm trading\nfor 3 of your \\8e\\87\\19\\8d."
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「あそこには、近づかないのが<br> 一番だからな。<br> アンタは利口だ。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"It's best if you don't go\nnear there. You're good kids."
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「<span class=\"red\">ラ・ロッシュ</span>に入りたいか?"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"Do you want to enter the\n\\8eTour de La Roche\\8d?"
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「ヤツらが禁止してることを<br> やればいいんだ。<br> ヤツらは、いつでも目を<br> 光らせているさ。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"Just do something they forbid.\nTheir eyes are always gleaming\nyou know.\n"
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\87\\f7</span>を１個もらった。"
-  English: ''
+  English: "\nReceived 1 \\8e\\87\\f7\\8d."
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「オレも昔は<span class=\"red\">ラ・ロッシュの塔</span>で<br> はたらいていたんだ。<br> はたらくと言っても、<br> コインを集めて、他の町に<br> 売りに行くだけさ。<br> その金でミルクを買うんだ。<br> そしてチーズを別のヤツが作る。<br> そのチーズを売りに行くのは<br> また別のヤツの仕事だ。"
-  English: ''
+  English: "\\8b\\c6The Mausses\n\"I used to work in the \\8eTour\nde La Roche\\8d. But my work consisted\nof collecting coins and selling them\nto other towns. I then used the money\nto buy milk. Someone else made the\ncheese. And someone else sold the\ncheese."
   Comments: ''
 - Japanese: "\\8b\\37ダブハスネルA<br>「クッ‥‥‥‥"
-  English: ''
+  English: "\\8b\\37Dabuhasuneru A\n\"Urgh..."
   Comments: ''
 - Japanese: "\\8b\\37ダブハスネルB<br>「人間ごときが‥‥‥<br> なぜにッ‥‥‥！！"
-  English: ''
+  English: "\\8b\\37Dabuhasuneru B\n\"How could a human...\nWhy...!?"
   Comments: ''
 - Japanese: "\\8b\\37ダブハスネルC<br>「死すべき定めの者に<br> 勝利はない。<br> 人間の体はほろびる。<br> だが、われらは不死身だ。<br> ゆっくりとやればよい。"
-  English: ''
+  English: "\\8b\\37Dabuhasuneru C\n\"There is no victory for those\ndestined to die. The body of\nhumans will perish. But we are\nimmortal. We can take our time."
   Comments: ''
 - Japanese: "\\8b\\37ダブハスネルB<br>「ゆっくりと！?<br> このままでは<br> 何度でもこのクツジョクを<br> 味わうだけだぞ‥‥！！"
-  English: ''
+  English: "\\8b\\37Dabuhasuneru B\n\"Take our time!?\nAt this rate, we're going to repeat\nthis over and over like a broken\nrecord!"
   Comments: ''
 - Japanese: "\\8b\\37ダブハスネルA<br>「宿主をさがすと言うのか‥‥?<br> 光のプレーンで宿主に<br> なりうる知的生命はいない。"
-  English: ''
+  English: "\\8b\\37Dabuhasuneru A\n\"Are you saying we should find\na host...?\nThere is no intelligent lifeform\nin the Light Realm that's a suitable\nhost."
   Comments: ''
 - Japanese: "\\8b\\37ダブハスネルB<br>「このさいドワーフでいい！！"
-  English: ''
+  English: "\\8b\\37Dabuhasuneru B\n\"At this point, even a dwarf is fine!"
   Comments: ''
 - Japanese: "\\8b\\37ダブハスネルC<br>「バカな！！<br> 魔法も使えぬ生物と融合した<br> ところで、たいした力は<br> 得られぬ！！<br> むしろ危険だ！！<br> 肉体の死にまきこまれれば、<br> われらの命もあやうい！！"
-  English: ''
+  English: "\\8b\\37Dabuhasuneru C\n\"Don't be an idiot!\nIf we fuse with a creature that can't\nuse magic, we won't obtain a lot of\npower!\nIn fact, it's dangerous!\nIf the host's body dies, our lives\nwill be at risk too!"
   Comments: ''
 - Japanese: "\\8b\\37ダブハスネルB<br>「今だけだ‥‥‥。<br> ヤツらに死の恐怖を‥‥‥。"
-  English: ''
+  English: "\\8b\\37Dabuhasuneru B\n\"It'll just be for now...\nSo we can teach them to fear\ndeath..."
   Comments: ''
 - Japanese: "\\8b\\ce古代機械<br>「<i>ヘンナ トリヤ イキモノ<br> ヤッカイナレンチュウガ<br> タクサンイテ コマッテル。<br> オレガ ヨビダスモンスターニ<br> カテタラ </i><span class=\"red\">ホメテヤル</span><i>。<br> ドウダ?<br> タタカウキ アルカ?</i>"
-  English: ''
-  Comments: ''
+  English: "\\8b\\ceAncient Machine\n\"There are a lot of annoying birds\nand creatures here. If \\8eyou can defeat\nthese monsters, I'll praise you\\8d.\nWhat do you think?\nDo you feel like fighting?"
+  Comments: 'This needs to be consistent with another dialogues 1768, 1769.'
 - Japanese: "\\8b\\ce古代機械<br>「<i>オマエ エライ！！</i>"
-  English: ''
+  English: "\\8b\\ceAncient Machine\n\"Good job!"
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「バッカだなぁ‥‥‥‥。<br> どこに行くかわかんねぇんだぞ。<br> まったく‥‥‥。"
-  English: ''
+  English: "\\8b\\1a\\86\\\\10\n\"We're idiots...\nWe don't even know where they went.\nGeez..."
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「ああああああああああッ！！"
-  English: ''
+  English: "\\8b\\1a\\86\\10\n\"Ahhhhh!"
   Comments: ''
 - Japanese: "\\8b\\c8とくめいきぼう<br>「くっくっくっく‥‥‥‥。<br> まちわびたぞ‥‥‥‥。<br> くっくっくっく‥‥‥‥。"
-  English: ''
+  English: "\\8b\\c8Anonymous Hope\n\"Hehehe....\nI'm tired of waiting you know...\nHehehe..."
   Comments: ''
 - Japanese: "\\8b\\c8無名のドワーフ<br>「この北に、ドワーフの塔<br> <span class=\"red\">キード・モンガ</span>があるべ。<br> だども、あそこはエリートしか<br> はいれねんだ。<br> オレたちゃオチコボレよ。"
-  English: ''
+  English: "\\8b\\c8Nameless Dwarf\n\"North of here is the dwarf's tower,\n\\8eIko Domnag\\8d.\nBut only the elite can enter there.\nWe're just nobodies."
   Comments: ''
 - Japanese: "\\8b\\c8無名のドワーフ<br>「ここは、<span class=\"red\">ゲアラヴァ村</span>、<br> ドワーフの村だ。<br> いー人たちが住んでる<br> いー町だー。"
-  English: ''
+  English: "\\8b\\c8Nameless Dwarf\n\"This is \\8eEga Aruba Village\\8d.\nIt's the dwarf's village.\nIt's a good village where good people\nlive."
   Comments: ''
 - Japanese: "\\8b\\c8無名のドワーフ<br>「ワザを持ってるモンだけが<br> 塔で働けるだよ。"
-  English: ''
+  English: "\\8b\\c8Nameless Dwarf\n\"Only those with skills can work\nin the tower."
   Comments: ''
 - Japanese: "\\8b\\c8無名のドワーフ<br>「塔でアクセク働くよりよぉ、<br> ここでのーんびりしてぇんだ。"
-  English: ''
+  English: "\\8b\\c8Nameless Dwarf\n\"I'd rather relax here than\nbe up in the tower working my\nbutt off."
   Comments: ''
 - Japanese: "\\8b\\c8無名のドワーフ<br>「何か作った時の<br> じゅーじつカンっちゅうの?<br> アレは、金では買えねぇ<br> よろこびがあるべさ。"
-  English: ''
+  English: "\\8b\\c8Nameless Dwarf\n\"You know the sense of accomplishment\nyou get when you create something?\nThat there's a joy you can't buy\nwith money."
   Comments: ''
 - Japanese: "\\8b\\c8無名のドワーフ<br>「オラたち、塔の連中に<br> 見下されてる気がするだ。"
-  English: ''
+  English: "\\8b\\c8Nameless Dwarf\n\"I feel like we're looked down\nupon by the those in the tower."
   Comments: ''
 - Japanese: "\\8b\\c8無名のドワーフ<br>「ドワーフのカオはみんな同じに<br> 見えるというヤツがいるが‥‥<br> まったくその通りだべさ！！<br> カオがちがうことに、なんか<br> 意味さあんのか！?"
-  English: ''
+  English: "\\8b\\c8Nameless Dwarf\n\"Some say we dwarfs all look\nthe same but...\nthat's exactly right!\nIs there any point in looking\ndifferent!?"
   Comments: ''
 - Japanese: "\\8b\\c8無名のドワーフ<br>「技もねぇのに、独立なんか<br> するモンじゃねぇべ。<br> オラ、もう一度キード・モンガに<br> もどって働きてぇだ‥‥‥‥。"
-  English: ''
+  English: "\\8b\\c8Nameless Dwarfs\n\"I don't have the skills, but I\ndon't want to be independent.\nMan, I want to go back to Iko\nDomnag to work..."
   Comments: ''
 - Japanese: "\\8b\\c8無名のドワーフ<br>「ドワーフの背のタケは<br> １２０センチ！<br> そのうち２センチは<br> 足の裏のカワ！<br> しょーみ、１１８センチ！"
-  English: ''
+  English: "\\8b\\c8Nameless Dwarf\n\"Dwarfs are 4 feet tall!\nAn inch of that comes from the\nskin on the soles of our feet!\nSo we're actually 3 feet and\n11 inches tall!"
   Comments: ''
 - Japanese: "\\8b\\c8見覚えあるドワーフ<br>「<span class=\"red\">キード・モンガ</span>に入れりゃ<br> なぁ~。<br> エンジンカッターでも<br> ユアツプレスでも<br> なんでもあんだけどよ~。<br> あ、いやいや、<br> こっちの話しだベさ。<br> おめーさにゃ、カンケーねぇ。"
-  English: ''
+  English: "\\8b\\c8Familiar Dwarf\n\"If only I could enter \\8eIko\nDomnag\\8d.\nThey have engine cutters and\noil presses, and just about everything.\nAh, don't mind me. This has nothing\nto do with you lot."
   Comments: ''
 - Japanese: "\\8b\\c8無名のドワーフ<br>「あにすっだ！！<br> 手にこぼれただ！！"
-  English: ''
-  Comments: ''
+  English: "\\8b\\c8Nameless Dwarf\n\"It's my brother!\nIDK SECOND LINE 3287"
+  Comments: What does the second line mean?
 - Japanese: '聞き覚えのある声<br>「んご‥‥‥‥<br> んごご‥‥‥‥'
-  English: ''
+  English: |-
+    Familiar Voice
+    "Hey...
+    Hey...
   Comments: ''
 - Japanese: "\\8b\\c8見覚えあるドワーフ<br>「そこにさわるんでね！！<br> そこには、コワ~い魔モノが<br> とじこめてあるだ！！"
-  English: ''
+  English: "\\8b\\c8Familiar Dwarf\n\"Don't touch that! There's a real\nscary monster locked up in there!"
   Comments: ''
 - Japanese: "\\8b\\c8とくめいきぼう<br>「このエレベーターを<br> 使うためには‥‥<br> カエルグミを全部オラに<br> あずけなきゃなんねぇんだ<br> ‥‥‥‥。<br> さぁ、あずけてけろ。"
-  English: ''
+  English: "\\8b\\c8Anonymous Wish\n\"To use this elevator...\nyou'll need to leave all your\ngummy frogs with me...\nAlright, hand them over."
   Comments: ''
 - Japanese: ' カエルグミを全部、とくめいの<br> ドワーフにあずけた！<br>'
-  English: ''
+  English: |-
+    Handed all the gummy frogs to
+    the anonymous dwarf!
   Comments: ''
 - Japanese: "\\8b\\c8とくめいきぼう<br>「くっくっくっく‥‥‥。<br> オレの勝ちだ‥‥‥。<br> 悪く思うなよ‥‥。"
-  English: ''
+  English: "\\8b\\c8Anonymous Wish\n\"Hehehe...\nI've won...\nDon't think poorly of me..."
   Comments: ''
 - Japanese: ' あずけていたカエルグミを<br> 取りかえした！'
-  English: ''
+  English: 'All the gummy frogs were replaced!'
   Comments: ''
 - Japanese: "\\8b\\c8とくめいきぼう<br>「オマエたち、こんなとこで<br> あにしてるだー。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\c8Anonymous Wish\n\"You guys better be surprised."
+  Comments: What is あにする? To be surprised?
 - Japanese: "\\8b\\c\\86\\2<br>「このカフェオレをカイゾーして<br> もらいに行くんだ。<br> 入り口でちゃんと<br> 許可はもらってるぜ。"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"We're going to get this Cafe au lait\nretooled. We received permission at\nthe entrance."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「?????<br> あなたこそ何してるの?<br> 少しヘンよ?"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"???\nWhat are you doing?\nYou're acting strangely."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「私たち、ここのエラい人を<br> さがしてますの！！<br> 早く会って、カフェオレちゃんを<br> カイゾーしてもらわないと<br> いけませんの！！"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"We're looking for this famous\nperson! We need to hurry up and\nmeet with him so he can retool\nCafe au lait!"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「アンタには関係ないだろ?<br> ジャマしに来たの?"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"This doesn't have anything to do\nwith you. Are you here to get in\nour way?"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「あ~ん<br> 何も悪いことはしてないです~"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Nooo. We didn't do anything wrong."
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>オレヲ カイゾーシテモライニ<br> ヤッテキタンダ。<br> モンク アルノカ?</i>"
   English: ''
