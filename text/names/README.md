@@ -204,6 +204,7 @@ Monster names:
 ブッチョン
 スウィーティ -- Sweety?
 パラダック -- Paradux
+タルタルちゃん -- Tartar Terrier
 
 ザフロピーク
 

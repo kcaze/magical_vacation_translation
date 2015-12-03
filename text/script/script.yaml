@@ -10241,94 +10241,97 @@
   English: "\\8b\\c9Mustached boss, Grenadine\n\"Hmph. I knew that from the start.\nYou lot aren't actually Enigmas are\nyou? Enigmas that have forgotten how\nto return to the Dark Realm?"
   Comments: ''
 - Japanese: "\\8b\\c9ヒゲの親方・グレナデン<br>「どっちにしても、ここでは<br> もう危険なモンは作らん。<br> 帰ってけろ。"
-  English: ''
+  English: "\\8b\\c9Mustached boss, Grenadine\n\"Either way, we don't make dangerous\nthings here. Go home."
   Comments: ''
 - Japanese: "\\8b\\c9ヒゲの親方・グレナデン<br>「オラたちの仕事でよ、<br> いっぱい人が死んだだよ。<br> オマエらに何か作ってやっても<br> 人を殺すだけで、<br> 生かしやしねぇだ。"
-  English: ''
+  English: "\\8b\\c9Mustached boss, Grenadine\n\"Lots of dwarfs have died working\nour jobs. I wouldn't allow myself to\nlive if I created something for you\njust so you could kill others."
   Comments: ''
 - Japanese: "\\8b\\c9ヒゲの親方・グレナデン<br>「オマエら、何モンかと戦って<br> るべ?"
-  English: ''
+  English: "\\8b\\c9Mustached boss, Grenadine\n\"What is it that you lot are fighting?"
   Comments: ''
 - Japanese: "\\8b\\c9ヒゲの親方・グレナデン<br>「それはオマエたちが、戦うことが<br> 好きだからだべさ。"
-  English: ''
+  English: "\\8b\\c9Mustached boss, Grenadine\n\"You're fighting because you enjoy\nit."
   Comments: ''
 - Japanese: "\\8b\\c9ヒゲの親方・グレナデン<br>「好きでもないのに、しかたなく<br> 戦うだか?"
-  English: ''
+  English: "\\8b\\c9Mustached boss, Grenadine\n\"You don't enjoy it, but you have\nno choice but to fight?"
   Comments: ''
 - Japanese: "\\8b\\c9ヒゲの親方・グレナデン<br>「ケッ‥‥‥<br> だいたいはけんとーついただ。<br> どうせ、誰かを助けるためとか<br> 言うんじゃなかんべか?"
-  English: ''
+  English: "\\8b\\c9Mustached boss, Grenadine\n\"Heh...\nI think I've examined you enough.\nYou're going to say you need it\nin order to save someone aren't you?"
   Comments: ''
 - Japanese: "\\8b\\c9ヒゲの親方・グレナデン<br>「誰かを助ける‥‥‥。<br> ‥‥‥。"
-  English: ''
+  English: "\\8b\\c9Mustached boss, Grenadine\n\"To save someone...\n..."
   Comments: ''
 - Japanese: "\\8b\\c9ヒゲの親方・グレナデン<br>「誰かを助けに、闇のプレーンに<br> 行くだか??"
-  English: ''
+  English: "\\8b\\c9Mustached boss, Grenadine\n\"It's because you need to save someone\nthat you're going to the Dark Realm?"
   Comments: ''
 - Japanese: "\\8b\\c9ヒゲの親方・グレナデン<br>「するってぇと、オマエたちの<br> 助けようとしてるヤツってなぁ<br> エニグマにでもさらわれて、<br> 闇のプレーンにいるとでも<br> 言うだか?"
-  English: ''
+  English: "\\8b\\c9Mustached boss, Grenadine\n\"So you're saying that this fella\nyou're trying to save was taken away\nby the Enigma and is now in the Dark\nRealm?"
   Comments: ''
 - Japanese: "\\8b\\c9ヒゲの親方・グレナデン<br>「反対に言うと、<br> エニグマにさらわれたヤツが<br> 助けようとした、オマエを<br> 闇のプレーンでさらわれただか?"
-  English: ''
+  English: "\\8b\\c9Mustached Boss, Grenadine\n\"Put another way, you lot are going\nto the Dark Realm to save the fella\nwho was kidnapped by the Enigmas?"
   Comments: ''
 - Japanese: "\\8b\\c9ヒゲの親方・グレナデン<br>「うーん、わかったような<br> わからんような‥‥‥。<br> では、こうしよう！！<br> オマエたちのウデを見せてくれ！"
-  English: ''
-  Comments: ''
+  English: "\\8b\\c9Mustached boss, Grenadine\n\"Hmm, I kind of get it but I kind\nof don't...\nAlright, let's do this!\nShow me you lot have got guts of steel!"
+  Comments: Rewriting 腕 to guts so that the pun works.
 - Japanese: "\\8b\\c9ヒゲの親方・グレナデン<br>「ええのかー?<br> ここは、ボケのポイントだべー。<br> だれもボケんでええのか?<br> 次へ行くだぞー。"
-  English: ''
+  English: "\\8b\\c9Mustached boss, Grenadine\n\"Okay? This is your last chance\nto back out. You all good? We're\ngonna start now then."
   Comments: ''
 - Japanese: " \\85\\0はそでをまくって<br> ウデを見せてみた。"
-  English: ''
-  Comments: ''
+  English: "\\85\\00 and the others rolled up\ntheir shirts and showed their stomachs."
+  Comments: "Pluralizing so that we can avoid the gender pronoun issue\nwith \\85\\00."
 - Japanese: "\\8b\\c9ヒゲの親方・グレナデン<br>「そのウデじゃ~<br> なかんべさ~！！"
-  English: ''
+  English: "\\8b\\c9Mustached boss, Grenadine\n\"That ain't what I meant by guts!\nI didn't mean your stomachs!"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「‥‥‥‥"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"..."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「‥‥‥‥"
-  English: ''
+  English: "\\8b\\0d\\86\\03\n\"..."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「‥‥‥‥"
-  English: ''
+  English: "\\8b\\11\\86\\07\n\"..."
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「‥‥‥‥"
-  English: ''
+  English: "\\8b\\12\\86\\08\n\"..."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「‥‥‥‥"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"..."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「‥‥‥‥"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"..."
   Comments: ''
 - Japanese: "\\8b\\c9ヒゲの親方・グレナデン<br>「オラたちのサイコーケッサク！！<br> タルタルちゃんと戦うだ！！<br> みごと、これに勝てたら、<br> オマエたちを本物とみとめるだ！<br> ただし！！<br> 負けたら死ぬことになる！！<br> ガチンコの勝負だべ！！<br> やってみるだか！?"
-  English: ''
+  English: "\\8b\\c9Mustached boss, Grenadine\n\"I want you to fight with our\nTartar Terrier! If you beat it,\nI'll accept your request!\nHowever!\nIf you lose, it'll be your death!\nIt's a real fight to the death!\nAre you going to do it!?"
   Comments: ''
 - Japanese: "\\8b\\c9ヒゲの親方・グレナデン<br>「ならば行くぞ！！<br> いでよ！！<br> タルタルちゃん！！"
-  English: ''
+  English: "\\8b\\c9Mustached boss, Grenadine\n\"Then let's go!\nCome here boy!\nMy Tartar Terrier!"
   Comments: ''
 - Japanese: "\\8b\\c9ヒゲの親方・グレナデン<br>「オマエらの目的は<br> おおかた、わかっただ。<br> さぁ、タルタルちゃんと<br> 戦って、力を見せてけれ！！"
-  English: ''
+  English: "\\8b\\c9Mustached boss, Grenadine\n\"I think I mostly get what your\ngoal is. Now, fight our Tartar\nTerrier and show us your strength!"
   Comments: ''
 - Japanese: "\\8b\\c9ヒゲの親方・グレナデン<br>「ハナシになんね。<br> 帰ってけれ。"
-  English: ''
+  English: "\\8b\\c9Mustached boss, Grenadine\n\"That won't do. Go home."
   Comments: ''
 - Japanese: "\\8b\\c9ヒゲの親方・グレナデン<br>「フガイない。<br> 帰ってけれ。"
-  English: ''
+  English: "\\8b\\c9Mustached boss, Grenadine\n\"You disappoint me. Go home."
   Comments: ''
 - Japanese: "\\8b\\c9ヒゲの親方・グレナデン<br>「帰ってけれ。"
-  English: ''
+  English: "\\8b\\c9Mustached boss, Grenadine\n\"Go home."
   Comments: ''
 - Japanese: "\\8b\\c9ヒゲの親方・グレナデン<br>「スンばらスィ！！<br> オマエたちならやれる！！<br> ソイツをカイゾーしてやるだ！！<br> 今の機能とカタチは、そのままで<br> やってやるだでよ！！"
-  English: ''
+  English: "\\8b\\c9Mustached boss, Grenadine\n\"Wonderful!\nYou lot can really do it!\nI'll retool him for you!\nI'll keep his current abilities and\nappearance for you too!"
   Comments: ''
 - Japanese: "\\8b\\c9ヒゲの親方・グレナデン<br>「ドワーフのワザは<br> ドワーフのモンだ。<br> 他のモンに使わす気はねぇ。<br> 帰ってけれ。"
-  English: ''
+  English: "\\8b\\c9Mustached boss, Grenadine\n\"The dwarf's techniques belong to\nthe dwarfs. We don't plan on letting\nanyone else use them. Go home."
   Comments: ''
 - Japanese: "\\8b\\c9ヒゲの親方・グレナデン<br>「ワケわかんね。<br> 帰ってけれ。"
-  English: ''
+  English: "\\8b\\c9Mustached boss, Grenadine\n\"You make no sense. Go home."
   Comments: ''
 - Japanese: '  文鳥ケ原まで行く<br>  塔の出口まで行く<br>  キャンセル'
-  English: ''
+  English: |-
+    Go to the Ricebird Plains
+    Go to the tower exit
+    Cancel
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「カリを返すぜ。<br> ここでケリを付けさせてもらう。"
   English: ''
