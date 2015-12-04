@@ -11193,40 +11193,40 @@
   English: "The door won't open unless you become\nfriends with the \\8elove spirit, Wish\\8d!"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「闇の精霊ニルヴァだっぴ！！<br> ニルヴァが呼び出す敵と戦って<br> 勝てば、ニルヴァと仲良くなれる<br> けど、すごく強いっぴ！！<br> 今はかかわらないほうが<br> いいっぴ！！<br> だけど、\\85\\0が<br> どうしても戦うって言うなら<br> 止めないっぴ！！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"It's the dark spirit Nirva!\nIf we defeat the enemies that\nNirva summons, she'll become friends\nwith us but they're very strong!\nIt's better if we don't get involved\nnow! But if \\85\\00 you really want\nto fight, I won't stop you!"
   Comments: ''
 - Japanese: "\\8b\\0  戦う<br>  立ち去る"
-  English: ''
+  English: "\\8b\\00 Fight\nLeave"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「マドレーヌ先生って、<br> あんなにスゴかったんだ‥‥‥。"
-  English: ''
+  English: "\\8b\\0c\\86\\02\nI didn't know Miss Madeleine was\nthat powerful..."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「先生って、本当はすごい魔法を<br> 使えたのね‥‥‥‥。<br> 実技のほうは、からっきし<br> なのかと思ってたわ‥‥‥‥。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\nMiss Madeleine actually can use\nreally strong magic...\nI had thought that she was completely\nincapable of actually casting magic..."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「スゴいですの‥‥‥‥。<br> 先生の魔法‥‥‥‥。<br> スゴすぎますの‥‥‥‥。"
-  English: ''
+  English: "\\8b\\11\\86\\07\nThat's amazing...\nMiss Madeleine's magic...\nIt's unbelievable..."
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「先生が魔法を使うところ<br> はじめて見た‥‥‥‥。<br> あんなにスゴいなんて<br> 思いもしなかった‥‥‥‥。"
-  English: ''
+  English: "\\8b\\12\\86\\08\nThis is the first time I've seen\nMiss Madeleine use magic...\nI didn't think it would be this\namazing..."
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「化けモンだな‥‥‥‥。<br> 強すぎる‥‥‥‥。"
-  English: ''
+  English: "\\8b\\14\\86\\0a\nShe's a monster...\nThat's way too strong..."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「なんか、いつものぼーっとしてる<br> 先生じゃないみた~い。<br> スゴいかも知んな~い。<br> なんか、ダメかも知れない。<br> どうしよ~。<br> いや~ん、ドキドキしちゃ~う。"
-  English: ''
+  English: "\\8b\\16\\86\\0c\nIt's like she's different from her\nusual spaced out self.\nThat's pretty amazing.\nBut it's also kind of not.\nAhh, this makes me kind of nervous."
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>センセイ‥‥‥‥<br> スゴスギ‥‥‥‥</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\nMiss Madeleine...\nWow..."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「今のはなんだっぴか‥‥?<br> 本当に先生がやったっぴか‥‥?"
-  English: ''
+  English: "\\8b\\18\\86\\0e\nWhat happened just now...?\nDid Miss Madeleine really do that...?"
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「ズルい‥‥‥‥。<br> 先生、ズルい‥‥‥‥。<br> あんな魔法を使えるくせに<br> なんで教えてくれないんだ<br> よ――――っ！！"
-  English: ''
+  English: "\\8b\\1a\\86\\10\nThat's not fair...\nThat's not fair, Miss Madeleine...\nIf you could use such strong magic,\nwhy didn't you teach us!?"
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「先生ってふだんは優しいけど<br> 本当の力はスゴいんだなぁ。"
-  English: ''
+  English: "\\8b\\15\\86\\0b\nMiss Madeleine's usually very kind\nbut her true power is amazing."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「そ、そんなこと<br> ねぇよ‥‥‥。"
   English: "\\8b\\0c\\86\\02\nT-that's not true..."
@@ -11241,76 +11241,79 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\ccクライン<br>「私が幼い頃、父の部屋には<br> 愛の精霊がいました。<br> 今もいるでしょうか。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\ccKlein\nWhen I was young, there was a love\nspirit in my dad's room. I wonder\nif it's still there."
+  Comments: "Too bad this doesn't work perfectly in English. It's Klein BOTTLE not Klein POT."
 - Japanese: "\\8b\\c6ピップルス<br>「オレのエモノだっ！！<br> 手を出すなっ！！"
-  English: ''
+  English: "\\8b\\c6 The Mausses\nThat's my prey! Hands off it!"
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「塔の入り口の男に、<br> <span class=\"red\">\\87\\87</span>をわたしな。<br> あとは指示にしたがえばいい。"
-  English: ''
+  English: "\\8b\\c6The Mausses\nHand the \\8e\\87\\87\\8d over to\nthe man at the tower's entrance.\nAfter that, just follow instructions."
   Comments: ''
 - Japanese: "\\8b\\c6ピップルス<br>「１階のギャプロンに<br> <span class=\"red\">\\87\\88</span>をわたしな。<br> ギャプロンは 同じ場所で<br> くるくるまわってるから<br> すぐわかるハズだ。<br> まちがえるなよ。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\c6The Mausses\nHand this \\8e\\87\\88\\8d over\nto Gaperon on the 1st floor.\nGaperon \\8espins round and round\nin the same spot\\8d so he's\neasy to recognize. Don't get\nit wrong."
+  Comments: Be consistent with 3123.
 - Japanese: "\\8b\\e\\86\\4<br>「ああ――――――――っ！！"
-  English: ''
+  English: "\\8b\\0e\\86\\04\n\"Ahhh!"
   Comments: ''
 - Japanese: "\\8b\\c8クアトロフォルマッジ<br>「くっくっく‥‥‥‥<br> この時を待っていたぞ。<br> オマエは、このマッドマンの<br> 知り合いのようだが、運が<br> なかったな。"
-  English: ''
+  English: "\\8b\\c8Quattro Formaggi\nHehehe...\nI've been waiting for this moment.\nIt looks like you're friends with\nthis mudman, but your luck's run out."
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「運がないのは、<br> あなたの方じゃなくって?<br> 私、この子たちに魔法を<br> 教えてる先生なのよ。<br> こう見えても、強いのよ。"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\nI believe it is your luck that's\nrun out. I'm the teacher in charge\nof these children. I might look\nweak, but I'm very strong you know."
   Comments: ''
 - Japanese: "\\8b\\c8クアトロフォルマッジ<br>「くっくっくっく‥‥！<br> 少しは魔法を使えるようだな。<br> だが、そのうぬぼれが命取りだ。<br> オマエは、このマッドマンの心を<br> 開かせるためのイケニエになる<br> んだ。<br> オマエをじわじわといたぶり、<br> コイツが、恐怖と悲しみとで<br> 心にスキを見せた時、<br> オレはコイツと一つになる。"
-  English: ''
+  English: "\\8b\\c8Quattro Formaggi\n\"Hehehe...!\nIt looks like you can use some\nmagic huh. But that hubris will\nlead to your loss. You'll be the\nsacrifice necessary to open this\nmudman's heart.\nAs you stand there, I'm peering\ninto the fear and sadness in his\nheart and will become one with him."
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「ノウガキはいいから、<br> ショコラをはなしなさい。<br> でないと、痛い目にあうわよ。"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\n\"I've had enough of your bragging\nso let go of Chocolat already. If\nyou don't, you're going to regret it."
   Comments: ''
 - Japanese: "\\8b\\c8クアトロフォルマッジ<br>「教えてやろう‥‥‥<br> 恐怖は、突然にやってくる‥‥‥<br> たとえば、オマエの魔法が<br> 少しもきかないとわかった時<br> ‥‥‥‥。<br> やってみろ‥‥‥‥。<br> 最高のパワーで‥‥‥‥。<br> このオレに力を示してみろ！！"
-  English: ''
+  English: "\\8b\\c8Quattro Formaggi\n\"I'll show you...\nWhat it's like for fear to strike...\nWhen you understand that your magic\ndoes not even scratch...\nGive it a try...\nUse your strongest magic...\nShow me your strength!"
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「だいじょうぶ?<br> 生きてる?"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\n\"Are you okay? Are you still alive?"
   Comments: ''
 - Japanese: "\\8b\\c8クアトロフォルマッジ<br>「‥‥‥‥。"
-  English: ''
+  English: "\\8b\\c8Quattro Formaggi\n..."
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「いくらなんでも<br> ユダンしすぎよ。<br> こんな戦い方を見せるなんて<br> 教育に悪いわッ！<br> 行こう、ショコラ！"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\nYou were definitely not prepared.\nThis kind of fighting isn't good\nfor the children's education!\nLet's go, Chocolat!"
   Comments: ''
 - Japanese: "\\8b\\c8クアトロフォルマッジ<br>「ちくしょ――――っ！！"
-  English: ''
+  English: "\\8b\\c8Quattro Formaggi\nDamn it!"
   Comments: ''
 - Japanese: "\\8b\\acマドレーヌ先生<br>「まだわからないのっ！?"
-  English: ''
+  English: "\\8b\\acMiss Madeleine\nDo you still not understand!?"
   Comments: ''
 - Japanese: '  文鳥ケ原へ行く<br>  トピアリー入口へ行く<br>  キャンセル'
-  English: ''
+  English: |-
+    Go to the ricebird plains
+    Go to the topiary maze's entrance
+    Cancel
   Comments: ''
 - Japanese: "\\8b\\c0ムスク<br>「ああ、ごめんごめん。<br> 話が長くてわかり<br> づらかったろう?<br> 妹のココアに<span class=\"red\">メモ</span>を<br> わたしておくから、あとは<br> 妹に聞いておくれ。<br> それじゃ。"
-  English: ''
+  English: "\\8b\\c0Musk\nAh, sorry. My explanation got\npretty long-winded so I imagine\nit was hard to follow. I've handed\na \\8ememo\\8d to my sister Cocoa, so\nyou can ask her later.\nSee you later."
   Comments: ''
 - Japanese: "\\8b\\c0ムスク<br>「キミたち、見かけない顔だね。<br> さっきもキミたちくらいの子供が<br> 何人か、この村を通って、東の<br> <span class=\"red\">エニグマの森</span>へ向かったよ。<br> このあたりは、文鳥がジャマで<br> 通れなかったり、砂漠は熱くて<br> バテたりで、たいへんだろう?<br> さっき来てた子供らは、宿屋に<br> 泊まってたヴォークスの少年に<br> 文鳥のどかしかたを聞いてたよ。<br> 私は、文鳥のどかし方は知らない<br> のだが、上手な砂漠の歩き方なら<br> わかるよ。<br> でも、今はいそぐし、教えても<br> 意味が無いから、またあとでね。"
-  English: ''
+  English: "\\8b\\c0Musk\nYou all are some familiar faces.\nJust now, some kids around your age\npassed through the village and headed\neast towards \\8eEnigma Forest\\8d.\nAround here, the ricebirds get in your\nway and the desert is so hot it wears\nyou out. The kids who were here earlier\nlearned how to get the ricebirds to\nmove out of the way from a Canin youth\nat the inn. I don't know how to get the\nricebirds to move, but I do know how to\ntraverse the desert.\nI'm in a hurry though and there's no point\nin teaching you so see you later."
   Comments: ''
 - Japanese: "\\8b\\c1ニャムネルトのエラそうなおじさん<br>「ムスクくんは、この村から<br> 出て行ったよ。<br> そうそう、キミらくらいの子供が<br> たずねてきたら、メッセージを<br> 伝えるように言われたんだ。<br> <span class=\"red\">砂漠では、時々アメフラシに<br> ふれながら歩くといい</span>そうだ。<br> 私なんか、そんなことまでして<br> 砂漠を歩きたいとは思わない<br> がねぇ。"
-  English: ''
+  English: "\\8b\\c1Felin Old Man\n\"Musk left this village. He told\nme that if kids like you were to\nvisit, I should relay the following\nmessage. \\8eIn the desert, occasionally\ntouch a Nudibrainch as you walk\\8d.\nI wouldn't have thought to do something\nlike that while walking through the desert\nyou know."
   Comments: ''
 - Japanese: "\\8b\\c1ニャムネルトのエラそうなおじさん<br>「キミたち、ムスクくんを<br> たずねて来たのかね?"
-  English: ''
+  English: "\\8b\\c1Felin Old Man\n\"You all are here to find Musk\naren't you?"
   Comments: ''
 - Japanese: '  洞窟の外へ出る<br>  <span class="red">タピオカティ村</span>へ行く<br>  キャンセル'
-  English: ''
+  English: "Go outside the cave\nGo to \\8eTapioca Tea Village\\8d\nCancel"
   Comments: ''
 - Japanese: "\\8b\\c1ニャムネルトのエラそうなおじさん<br>「だったら出て行きなさい。<br> この部屋は私のものだ。"
-  English: ''
+  English: "\\8b\\c1Felin Old Man\n\"Then please leave. This house is\nmy property now."
   Comments: ''
 - Japanese: "\\8b\\c2ココア<br>「兄さんからあずかった<br> <span class=\"red\">メモ</span>を読む?"
-  English: ''
+  English: "\\8b\\c2Cocoa\n\"Do you want to read the \\8ememo\\8d\nmy brother left with me?"
   Comments: ''
 - Japanese: '・ジャングルの文鳥は、カンタンには<br> どかない。<span class="red">文鳥のどかし方はヴォー<br> クスが知ってる</span>。<br>・キミたちの仲間らしき子供たちは、<br> 村の南東の出口から出て、<span class="red">エニグマの<br> 森</span>へ向かった。<br>・文鳥のどかし方を知ってる<span class="red">ヴォークス<br> の少年は、クムヤムト砂漠のほら穴へ<br> 向かった</span>。<br>・<span class="red">砂漠を安全に歩くのは、今は無理</span>。<br> その時が来たら教えてあげるので<br> 待っていてほしい。'
-  English: ''
+  English: "-The ricebirds in the jungle won't\nmove out of your way easily. \\8eCanins\nknow how to get them to move\\8d.\n-The kids who looked like your friends\ntook the southeast exit and headed towards\n\\8eEnigma Forest\\8d.\n-The \\8eCanin youth\\8d that knows how to\nget the ricebirds to move headed towards\na \\8ecave in the Muy Mot Desert\\8d.\n-\\8eIt's impossible to cross the desert\nsafely right now\\8d. When the time comes,\nI'll teach you how so please wait until\nthen."
   Comments: ''
 - Japanese: "\\8b\\c0ムスク<br>「やぁ、砂漠の歩き方は<br> もうわかったかい?<br> 砂漠を安全に歩くには、<br> 時々<span class=\"red\">アメフラシに声を<br> かけるといい</span>んだ。<br> アメフラシが雨を<br> ふらせてくれる。<br> もしくは、<span class=\"red\">\\87\\c</span>が<br> あればいいんだけどな。"
   English: ''

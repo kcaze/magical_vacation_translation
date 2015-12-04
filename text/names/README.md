@@ -189,6 +189,7 @@ People names:
 アメフラシ -- Nudibrainch or Purple Rainer (the pun is lost in direct translation, so these are some attempts at restoring it)
 闇の桜文鳥 -- Ricebirds in the Dark Realm (I'm thinking this might want to be Dark Ricebirds instead?)
 ムース -- Mousse
+クムヤムト -- Muy Mot (tom yum backwards)
 
 Other names:
 愛のデッパリ -- Baby bump (Not sure about this at all.)
