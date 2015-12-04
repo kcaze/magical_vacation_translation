@@ -185,6 +185,7 @@ People names:
 カテョカヴァッロ -- Caciocavallo (cheese)
 パルミジャーノ -- Parmigiano (cheese)
 とくめいきぼう -- Anonymous Hope (not sure)
+アメフラシ -- Nudibrainch or Purple Rainer (the pun is lost in direct translation, so these are some attempts at restoring it)
 
 Other names:
 愛のデッパリ -- Baby bump (Not sure about this at all.)
