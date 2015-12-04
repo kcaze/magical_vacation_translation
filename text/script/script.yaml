@@ -10706,154 +10706,158 @@
   English: "\\8b\\10\\86\\06\n\"This is good medicine.\nIn 2 or 3 days, Mille-feuille will\nbecome free and she'll also come\nto understand what it means to have\na heart."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「ガナッシュ‥‥‥<br> 知らないの‥‥‥?"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Ganache...\nDon't you know...?"
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「え‥‥‥???<br> 知らないって‥‥‥???"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"Huh...?\nWhat do you mean...?"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「<i>死んだっぴ‥‥‥。<br> ティラミスは死んだっぴ‥‥！</i>"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n\"He's dead...\nTiramisu is dead...!"
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「そんな‥‥‥！！<br> まさか‥‥‥！！"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"No...!\nHow can that be...!"
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「命にかかわるような<br> キズじゃない‥‥！！<br> そんな深手は負わせて<br> いない‥‥！！"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\"It wasn't a fatal wound...!\nIt wasn't very deep...!"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「ガナッシュ！！"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"Ganache!"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「ガナッシュ‥‥‥。"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"Ganache..."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「ガナッシュはウソはついて<br> いないと思う。<br> きっと、ちゃんと手かげんしてる<br> ハズよ‥‥‥。"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"I don't think Ganache is lying...\nI'm sure he did hold back..."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「ガナッシュのミジョテーを<br> くらって、パニックになって<br> 自分の胸からハートを<br> 取り出そうとしたんだっぴ<br> ‥‥‥。<br> ガナッシュのせいとも、<br> そうでないとも<br> いいきれないっぴ。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\18\\86\\0e\n\"After being by your Mijoter,\nhe went into a panic and tried\nto remove his heart...\nYou could argue that it's your\nfault and at the same time it's\nnot."
+  Comments: The name of the dark spell is subject to change.
 - Japanese: "\\8b\\c\\86\\2<br>「そうだな‥‥‥。<br> アイツ、ヤケをおこすような<br> ヤツじゃないけど、<br> 放っておくわけにも<br> 行かないな。<br> オレたちも行こう。"
-  English: ''
+  English: "\\8b\\0c\\86\\02\n\"That's true...\nHe's not one to despair, but\nwe can't just leave him alone\neither. Let's go."
   Comments: ''
 - Japanese: ''
   English: ''
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「ダメよ~<br> ミルフィーユをほっとけないわ。<br> <span class=\"red\">トルーナ村</span>へもどりましょう！"
-  English: ''
+  English: "\\8b\\16\\86\\0c\n\"No, we can't. We can't just leave\nMille-feuille alone. Let's return to\n\\8eOturan Village\\8d!"
   Comments: ''
 - Japanese: '  遺跡の入口まで行く<br>  キャンセル'
-  English: ''
+  English: |-
+    Go to the ruins' entrance
+    Cancel
   Comments: ''
 - Japanese: '  宮殿の入口まで行く<br>  キャンセル'
-  English: ''
+  English: |-
+    Go to the palace entrance
+    Cancel
   Comments: ''
 - Japanese: "\\8b\\bdヴォークスの元気な子供<br>「この村のリーダーは金貨を<br> いっぱい持ってるんだよ！！<br> リーダーは気前がよくて、<br> リッパな人には金貨を何枚も<br> あげちゃうんだ！！<br> 時々、リーダーからもらった<br> 金貨を捨てちゃう人がいるん<br> だけど、なってないよなー！<br> リーダーがあげた金貨を<br> 捨てるヤツがいたら、ボクが<br> ひろって返してやる！！"
-  English: ''
+  English: "\\8b\\bdCanin Child\n\"The leader of this village has\na lot of gold coins! He's very\ngenerous and gives out gold coins\nto good people! Sometimes there\nare people who throw away the gold\ncoins they receive from the leader,\nbut I think that's unacceptable!\nIf anyone throws away a gold coin\nI'll pick it up and return it to\nthem."
   Comments: ''
 - Japanese: "\\8b\\bdヴォークスの元気な子供<br>「リーダーからもらった金貨を<br> 捨てちゃダメだよ！！<br> これ、集めてきたから、<br> 大切にしまっときな！！"
-  English: ''
+  English: "\\8b\\bdCanin Child\n\"You can't throw away gold coins\nyou receive from the leader! You\nshould collect and treasure them!"
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\87\\fd</span>を受け取った。"
-  English: ''
+  English: "\nReceived \\8e\\87\\fd\\8d."
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>カンタンジャネェカ！！<br> 『チュン！』<br> 『ジュイー』<br> コレデイインダロ?</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\n\"That's so simple!\n\"Chirp!\"\n\"Cheeep\"\nIs that it?"
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「‥‥‥‥。"
-  English: ''
+  English: "\\8b\\bfMace\n\"..."
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「おめぇのは機械音に<br> なってるだろうが。<br> 『ちゅん！』<br> 『じゅいー』<br> とまぁ、こんな感じか?"
-  English: ''
+  English: "\\8b\\14\\86\\0a\nYour voice is too mechanical.\n\"Chirp!\"\n\"Cheep\"\nHow does that sound?"
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「うーん‥‥‥‥。<br> それもちょっと<br> ニュアンスが違うなぁ。<br> もっとこう、切なく求めて<br> むげに振りきるような‥‥‥<br> なんて言うのかなぁ‥‥‥‥"
-  English: ''
+  English: "\\8b\\bfMace\nHmm...\nThat's also a bit off.\nThere's more of a sad pleading\ntone and a bit of flatness...\nHow do I explain this..."
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「切なく‥‥‥‥?<br> なんだ、それ?"
-  English: ''
+  English: "\\8b\\14\\86\\0a\nSad...?\nWhat do you mean?"
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「『ちゅん！』<br> 『じゅいー』<br> でしょ?"
-  English: ''
+  English: "\\8b\\15\\86\\0b\n\"Chirp!\"\n\"Cheep\"\nLike that right?"
   Comments: ''
 - Japanese: "\\8b\\bfメース<br>「そうそう！<br> それ！"
-  English: ''
+  English: "\\8b\\bfMace\nYeah, yeah! Just like that!"
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「何だよそれ！?<br> 同じじゃないのかよ！?"
-  English: ''
+  English: "\\8b\\14\\86\\0a:\nWhat!? That was the same!"
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>ブンチョウガカリ<br> ケッテイダ。</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d:\nLooks like we've found our ricebird\nexpert."
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「文鳥係か‥‥。<br> そう言えば、小学生の時<br> ニワトリ係をやってたよ。"
-  English: ''
+  English: "\\8b\\15\\86\\0b:\nRicebird expert huh...\nSpeaking of which, when I was in\nelementary school, I was put in\ncharge of looking after the chickens."
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「ジャマなツボだなぁ‥‥‥。<br> 消えちゃえばいいのに‥‥‥。"
-  English: ''
+  English: "\\8b\\0f\\86\\05:\nWhat an annoying pot...\nIf only it could disappear..."
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「何！?<br> どうしたの！?<br> 何が起こったの！?"
-  English: ''
+  English: "\\8b\\0f\\86\\05:\nWhat!?\nWhat happened!?"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「‥‥‥‥。<br> 何が起こったんだ！?<br> キャンディがやったのか！?"
-  English: ''
+  English: "\\8b\\0c\\86\\02:\n...\nWhat happened!?\nDid Candy do this!?"
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「わからないわ！?<br> こんなことはじめてだもの！！"
-  English: ''
+  English: "\\8b\\0f\\86\\05:\nI don't know!\nThis is the first time something\nlike this has happened!"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「！！！！！！<br> いったい何が起きたの！?"
-  English: ''
+  English: "\\8b\\0d\\86\\03:\n!!!\nWhat in the world happened!?"
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「何！?<br> わからないわ！！<br> 私がやったの！?"
-  English: ''
+  English: "\\8b\\0f\\86\\05:\nWhat!?\nI don't get it!\nI did this!?"
   Comments: ''
 - Japanese: "\\8b\\e\\86\\4<br>「おおお。<br> きーえーたー。"
-  English: ''
+  English: "\\8b\\0e\\86\\04:\nOhhhhh.\nDisappeared."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「ポットちゃんが消えましたの！！<br> いったい何が起きましたの！?"
-  English: ''
+  English: "\\8b\\11\\86\\07:\nThe pot disappeared! What in\nthe world is happening!?"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「なっ！?<br> 何が起きたんだ！?"
-  English: ''
+  English: "\\8b\\12\\86\\08:\nWhat!? What happened!?"
   Comments: ''
 - Japanese: "\\8b\\13\\86\\9<br>「ツボが消えたヌ~！！<br> いったい何が起きたヌ~！！"
-  English: ''
+  English: "\\8b\\13\\86\\09:\nThe pot disappeared! What in the\nworld!?"
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「うおっ！！<br> 何だ、今のは！?<br> キャンディがやったのか！?"
-  English: ''
+  English: "\\8b\\14\\86\\0a:\nWoah! What was that just now!?\nDid Candy do that!?"
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「‥‥‥‥?<br> 何‥‥‥‥?<br> 何が起きたの‥‥‥‥?"
-  English: ''
+  English: "\\8b\\15\\86\\0b:\n...?\nWhat...?\nWhat happened...?"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「キャァ~~~~~！！<br> ツボが消えたわ~~！！<br> どうして~~~~！！"
-  English: ''
+  English: "\\8b\\16\\86\\0c:\nEeeeek!\nThe pot disappeared!\nWhyyyy!?"
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>ツボガ キエタ！！<br> イッタイドウシテダ！?</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d:\nThe pot disappeared!\nWhat in the world!?"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「！！！！！！！<br> ツボが消えたっぴ！！！<br> 心霊現象だっぴ！！！<br> オバケの仕業だっぴ！！！"
-  English: ''
+  English: "\\8b\\18\\86\\0e:\n!!!\nThe pot disappeared!\nThis is something supernatural!\nGhosts are behind this!"
   Comments: ''
 - Japanese: "\\8b\\19\\86\\f<br>「キャンディ！！<br> ツボが消えたわ！！"
-  English: ''
+  English: "\\8b\\19\\86\\0f:\nCandy!\nThe pot disappeared!"
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「ん?<br> どうした、キャンディ?<br> 何かあったのか?"
-  English: ''
+  English: "\\8b\\1a\\86\\10:\nHmm?\nHey Candy?\nDid something happen?"
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「ツボが消えたの‥‥‥‥。<br> 消えればいいのにって<br> 思っただけなのに‥‥‥‥。<br> ツボが消えたのよっ！！"
-  English: ''
+  English: "\\8b\\0f\\86\\05:\nThe pot disappeared...\nAll I did was wish that the\npot would go away...\nAnd then it really vanished!"
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「バッカだなぁ、キャンディは！<br> この世界では、<br> こんにゃくはしゃべるし、<br> ツボは消えるんだぜ。<br> いちいち驚くなよ。"
-  English: ''
+  English: "\\8b\\1a\\86\\10:\nSilly Candy! In this world,\nkonjacs speak and pots disappear.\nYou don't need to be surprised\nat each and every little thing."
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>（消えろっ‥‥‥‥！！）"
-  English: ''
+  English: "\\8b\\0f\\86\\05\n(Go away...!)"
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>（やっぱりそうだわ！！<br> 思っただけで現実になる！！）"
-  English: ''
+  English: "\\8b\\0f\\86\\05\n(It's true! Just by wishing something,\nit becomes reality!)"
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>（心の中で思っただけで<br> ツボが消えたわ‥‥‥‥<br> どう言うこと???）"
-  English: ''
+  English: "\\8b\\0f\\86\\05\n(Just by wishing in my heart, the\npot vanished...\nWhat does this mean?)"
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>（‥‥‥‥）"
-  English: ''
+  English: "\\8b\\0f\\86\\05\n(...)"
   Comments: ''
 - Japanese: "\\8b\\19\\86\\f<br>「‥‥‥‥。<br> 穴の中に何かいる‥‥‥‥。<br> でもだいじょうぶ。<br> 襲っては来ないわ。<br> 怖がらせなければいいの。"
   English: ''

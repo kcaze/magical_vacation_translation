@@ -217,6 +217,21 @@ Monster names:
 A bunch of the enigma names have official versions in the localization of
 Magical Starsign, e.g. http://magicalstarsignmagicalvacation.wikia.com/wiki/Equillekrew
 
+Magic Names:
+
+Electric
+コールテスラ -- Call Tesla
+パチパチ -- Clap
+フラッシャー -- Flash
+クリアクロック -- Clear Clock
+ライトニング -- Lightning
+ダブルテスラ -- Double Tesla
+サンダースパーク -- Thunder Spark
+
+Ancient
+コールクロック -- Call Clock
+ねじロボ --
+ぜんまいロボ
 
 Other things:
 ほにゃ -- Hoolala (what pots say)
