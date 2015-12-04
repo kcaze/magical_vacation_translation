@@ -80,6 +80,7 @@ Place names:
             (Should change this to Erimust Palace)
 キード・モンガ -- Hep Met (should be Iko Domnag) (It's がんもどき backwards)
 レヒカフ -- Nifkrahs (Shark Fin backwards)
+氷の島 -- Ice Island
 ジェラ風穴 -- Gelato Cave
 クガンデ -- Ukagned Village
 ゲアラヴァ -- Ega Aruba Village (Aburaage backwards)
