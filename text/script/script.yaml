@@ -11316,22 +11316,24 @@
   English: "-The ricebirds in the jungle won't\nmove out of your way easily. \\8eCanins\nknow how to get them to move\\8d.\n-The kids who looked like your friends\ntook the southeast exit and headed towards\n\\8eEnigma Forest\\8d.\n-The \\8eCanin youth\\8d that knows how to\nget the ricebirds to move headed towards\na \\8ecave in the Muy Mot Desert\\8d.\n-\\8eIt's impossible to cross the desert\nsafely right now\\8d. When the time comes,\nI'll teach you how so please wait until\nthen."
   Comments: ''
 - Japanese: "\\8b\\c0ムスク<br>「やぁ、砂漠の歩き方は<br> もうわかったかい?<br> 砂漠を安全に歩くには、<br> 時々<span class=\"red\">アメフラシに声を<br> かけるといい</span>んだ。<br> アメフラシが雨を<br> ふらせてくれる。<br> もしくは、<span class=\"red\">\\87\\c</span>が<br> あればいいんだけどな。"
-  English: ''
+  English: "\\8b\\c0Musk\nHave you learned how to traverse\nthe desert now? To safely walk in\nthe desert, make sure you occasionally\n\\8ereach out to a nudibrainch\\8d.\nNudibrainches will make it rain.\nAlternatively, if you have a\n\\8e\\87\\0c\\8d, that'll work too.\n"
   Comments: ''
 - Japanese: "\\8b\\dbふしぎなツボ<br>「<span class=\"red\">\\87\\11</span>を持たぬもの<br> 魂の再生は出来ぬ。<br> 去れ。"
-  English: ''
+  English: "\\8b\\dbStrange Pot\nThose without a \\8e\\87\\11\\8d cannot\nreincarnate their souls. Leave."
   Comments: ''
 - Japanese: ' ふしぎなプレッシャーで<br> 押し返される‥‥‥‥。'
-  English: ''
+  English: |-
+    You are forced back by some strange
+    pressure...
   Comments: ''
 - Japanese: "\\8b\\c1ニャムネルトのエラそうなおじさん<br>「部屋の借り手がみつからん。<br> うーん。"
-  English: ''
+  English: "\\8b\\c1Felin Old Man\nI can't find my house's tenant.\nHmm."
   Comments: ''
 - Japanese: "\\8b\\c8MD職人・ドロ<br>「オラ、マジックドール職人の<br> ドロだべ。<br> もとは光のプレーンさいたども<br> 数年前にちょっとした事故で<br> 闇のプレーンさ来ちまっただ。<br> こっちでも、それなりの材料が<br> あったでよ、マジックドールさ<br> 作ってみたがよ、<br> あんまり、デキが良ぐねんで、<br> やさぐれてんのよ。<br> まぁ、ヘボいマシンだけど、<br> 気に入ったら、持ってって<br> ええだぞ。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\c8MD artisan, Mud\nI'm Mud, a Magic Doll artisan.\nI was originally from the Light\nRealm, but ran into a bit of an\naccident a few years ago and came\nto the Dark Realm. I've found some\nacceptable parts here too and tried\nto make a Magic Doll but couldn't\nmake a good one so I'm now sulking here.\nIt's a pretty poor machine, but if\nyou've taken a liking to it, feel\nfree to bring it along with you."
+  Comments: 'Name should probably not be "Mud"'
 - Japanese: "\\8b\\c8MD職人・ドロ<br>「あー、そっだそっだ、<br> コレを持っていくといいだぁな。<br> マジックドールのことさ<br> いろいろ書いてあるだ。<br> まぁ、あせるこたね<br> ちーっとずつ覚えて行け。<br> それじゃ、よろしくたのむべさ。"
-  English: ''
+  English: "\\8b\\c8MD artisan, Mud\nAh, that's right. Take this.\nIt has all sorts of information\nabout Magic Dolls in it. There's\nno need to rush so just learn a\nlittle bit at a time. Well then,\nbest of luck."
   Comments: ''
 - Japanese: ''
   English: ''
@@ -11346,109 +11348,111 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\ccポット族の男<br>「オレってイカス！！"
-  English: ''
+  English: "\\8b\\ccMale Pot\nI'm cool!"
   Comments: ''
 - Japanese: "\\8b\\ccポット族の男<br>「お呼びでない！?"
-  English: ''
-  Comments: ''
+  English: "\\8b\\ccMale Pot\nYou're not inviting me!?"
+  Comments: not sure about translation
 - Japanese: "\\8b\\ccポット族のぼんやりしたヤツ<br>「ここは、<span class=\"red\">タンドーリ</span>の入口。<br> カエルがいっぱいいます。<br> タンドーリの中のカエルは<br> ぶつかっただけで獲れちゃうよ。<br> 便利なんだか、不便なんだか。"
-  English: ''
+  English: "\\8b\\ccAbsent-minded Pot \n\"This is the entrance to \\8eTandoori\\8d.\nThere's a lot of frogs here. You'll\ncatch the frogs in Tandoori just by\nbumping into them. It's kind of\nconvenient but kind of not."
   Comments: ''
 - Japanese: "\\8b\\ccポット族の男<br>「空間がねじまがったおかげで<br> スゴいわざを身につけたぞ！！<br> 名付けて、<span class=\"red\">友達召喚</span>！！<br> さぁ！！<br> 利用してくれ！！"
-  English: ''
+  English: "\\8b\\ccMale Pot\nI learned an amazing technique thanks\nto space being warped! I'll call it,\n\\8eFriend Summon\\8d!\nNow!\nUse it!"
   Comments: ''
 - Japanese: "\\8b\\ccポット族の男<br>「空間がもとにもどったら、<br> 友達召喚ができなくなった！！"
-  English: ''
+  English: "\\8b\\ccMale Pot\nAfter space went back to normal,\nI can't summon friends anymore!"
   Comments: ''
 - Japanese: "\\8b\\ccポット族のおばさん<br>「クラインってヤツのせいで<br> 空間がねじまがっちゃったわ！<br> 誰に話しかけてから<br> 場所を移動したかで、<br> 行ける先が変わるのよ！<br> すごくめんどくさいわ！"
-  English: ''
+  English: "\\8b\\ccGrandma Pot\nBecause of Klein, space has\nbeen warped! Depending on who you\ntalk to before leaving the village,\nyour destination will change!\nIt's really bothersome!"
   Comments: ''
 - Japanese: "\\8b\\ccポット族のおばさん<br>「空間がねじまがってたほうが<br> スリリングでよかったわね。"
-  English: ''
+  English: "\\8b\\ccGrandma Pot\nIt was more thrilling when space\nwas warped wasn't it."
   Comments: ''
 - Japanese: "\\8b\\ccポット族のガンコもの<br>「東！！<br> 東のほう！！<br> 東のほうがどうしたんだっけな<br> ‥‥‥‥。<br> 空間がねじまがっちまって<br> 頭の中もハチャメチャ！<br> あとでまた聞いてくれ！"
-  English: ''
+  English: "\\8b\\ccStubborn Pot\nEast!\nTo the east!\nWhat was to the east again...?\nSince space was warped, the inside\nof my head has also gotten warped.\nAsk me again later!"
   Comments: ''
 - Japanese: "\\8b\\ccポット族のガンコもの<br>「そう、東へ行って北へ登ると<br> <span class=\"red\">モイロロト村</span>へ行くのじゃ！！<br> さっき、若いのがニ人、<br> <span class=\"red\">モイロロト村</span>を目指したよ。<br> <span class=\"red\">モイロロト村</span>の長老は、死の世界<br> で迷わないための、とってもいい<br> アイテムを持っとるからの。<br> しかし、外から来た人間に<br> わたしてくれるかどうか。"
-  English: ''
+  English: "\\8b\\ccStubborn Pot\nRight, if you head east and then\nnorth, you arrive at \\8eOmiagan Village\\8d!\nThere were two young people heading\ntowards \\8eOmiagan Village\\8d earlier.\nThe elder at \\8eOmiagan Village\\8d has a\nvery nice item that prevents you from getting\nlost in the Abyssal Realm. But I wonder if\nhe would give it to outsiders."
   Comments: ''
 - Japanese: "\\8b\\ccポット族のお調子者<br>「クラインのヤツが、他のプレーン<br> に行きたいとか言ってさぁ<br> なんかヘンなマシーンを<br> 作っちゃったんだけど、<br> ボウソウしたらしいんだ。<br> それで、このへんの空間は<br> ぐちゃぐちゃなのさ。<br> 面白ぇから、いいんだけどね。"
-  English: ''
+  English: "\\8b\\ccFickle Pot\nKlein said he wanted to go to\nother realms and made some sort\nof weird machine but, it looks like\nit got out of control. As a result,\nspace has become all twisted. It's\npretty interesting so I'm fine with\nit though."
   Comments: ''
 - Japanese: "\\8b\\ccポット族のお調子者<br>「クラインのマシーンは<br> ダメになったって?<br> それでもヤツは<br> こりてねぇだろうな~。"
-  English: ''
+  English: "\\8b\\ccFickle Pot\nKlein's machine stopped working\nyou say? Well, I'm sure he hasn't\nlearned his lesson yet."
   Comments: ''
 - Japanese: "\\8b\\ccポット族の娘<br>「ツボの中にも、たくさんの<br> 生き物が住んでいます。<br> ツボの中にも世界があるんです。<br> 逆に言うと、世界はツボの中に<br> あるんです。<br> 私たちは、ツボの中に住む<br> 小さな虫なんです。"
-  English: ''
+  English: "\\8b\\ccDaughter Pot\nThere are lots of living creatures\ninside pots. There's a whole world\ninside of pots. You could also say,\nthe world is just the inside of a\npot.\nWe're just tiny insects living in the\ninside of a pot."
   Comments: ''
 - Japanese: "\\8b\\ccポット族の娘<br>「私の中は、空間があって、<br> 空間の部分は私じゃないけど、<br> 空間の部分がなければ、私は<br> ツボじゃなくなるから、実は<br> 空間の部分も私なのかしら。<br> じゃあ、私の中の水や、コケや<br> ボウフラや、カエルグミたちは<br> 私なの?"
-  English: ''
+  English: "\\8b\\ccDaughter Pot\nInside of me there is emptiness.\nThe emptiness is not a part of me,\nbut without that emptiness, I wouldn't\nbe a pot, so maybe that emptiness is\na part of me after all. Then would the\nwater, moss, bugs, and gummy frogs inside\nof me also be a part of me?"
   Comments: ''
 - Japanese: "\\8b\\ccポット族の少年<br>「ぐうぜんだけど、<br> <span class=\"red\">タンドーリ</span>に行けたよ！！<br> まず、<span class=\"red\">西の出口のとこにいる<br> ツボ</span>に話しかけて、そのまま<br> <span class=\"red\">西の出口から出る</span>んだ。<br> そうすると、<span class=\"red\">村の長の部屋</span>に<br> 出るから、<span class=\"red\">村の長に話しかける</span>。<br> 次に、<span class=\"red\">村の真ん中の鉄塔のとこの<br> じいさんに話しかけ</span>て、そのまま<br> どこからでもいいから村を出る。<br> 場所をうつる前に、誰に話し<br> かけたかが、ジュウヨウな<br> ポイントになってる気がする。"
-  English: ''
+  English: "\\8b\\ccYouthful Pot\nBy coincidence, I somehow made it\nto \\8eTandoori\\8d! First, talk to\n\\8ethe pot at the west exit\\8d and\nthen continue on and \\8etake the west\nexit\\8d. Once you do that, you'll arrive\nat the \\8evillage chief's house\\8d. Next,\n\\8etalk to the village chief\\8d. After that,\n\\8etalk to the old man by the metal tower\nin the center of the village\\8d and then\nleave the village from any of the exits.\nThe key is who you talked to right before\nyou leave the village."
   Comments: ''
 - Japanese: "\\8b\\ccポット族の少年<br>「空間のねじれは直ったけど、<br> ボクはねじれたままでいたい。"
-  English: ''
+  English: "\\8b\\ccYouthful Pot\nThe warped space has been fixed,\nbut I wanted it to stay warped."
   Comments: ''
 - Japanese: "\\8b\\ccポット族のおじさん<br>「クラインは、南のほうの<br> <span class=\"red\">タンドーリ</span>にいるよ。<br> <span class=\"red\">タンドーリ</span>ってのは、かつての<br> ツボ捨て場なんだけど、<br> 今は、すっかりダンジョンさ。<br> もっとも、どうやれば南に<br> 行けるかなんて、わかんない<br> けどね。"
-  English: ''
+  English: "\\8b\\ccGrandpa Pot\nKlein's in \\8eTandoori\\8d to the\nsouth. \\8eTandoori\\8d used to be\na dumping ground for pots, but now\nit's turned into a whole dungeon.\nFurthermore, I have no idea what it\ntakes to go south."
   Comments: ''
 - Japanese: "\\8b\\ccポット族のおじさん<br>「空間がもとにもどったねぇ。<br> これはこれで、いいねぇ。"
-  English: ''
+  English: "\\8b\\ccGrandpa Pot\nSpace has returned to normal hasn't\nit. This is the way it should be."
   Comments: ''
 - Japanese: "\\8b\\ccポット族のおばさん<br>「さっきも、みなれぬ男の子と<br> 女の子を見かけたけど、<br> 空間がねじまがったせいで<br> どっかから現れちゃったん<br> だろうねぇ。<br> どっちに行ったか‥‥‥‥<br> 空間がねじまがっちゃって<br> よくわかんないわ！"
-  English: ''
+  English: "\\8b\\ccGrandma Pot\nI saw an unfamiliar boy and girl\nearlier but I wonder where they\nappeared from, with space being\nwarped and all.\nI wonder where they went...\nI'm really confused since space is\nwarped!"
   Comments: ''
 - Japanese: "\\8b\\ccポット族のおばさん<br>「さっき、見なれない子供が<br> 東へ向かったわよ。<br> なんでも、死んでしまった<br> エニグマに会いに行くん<br> ですって。<br> エニグマは、死んでもすぐ<br> フッカツするって言うから、<br> <span class=\"red\">魔窟</span>にいるんじゃないかしら。<br> 死んだ人は、<span class=\"red\">モギナスの魔窟</span>って<br> 場所を通って、また他の世界に<br> よみがえるのよ。<br> おぼえといてね。"
-  English: ''
+  English: "\\8b\\ccGrandma Pot\nThe unfamiliar children headed\neast. They said they had to meet\nthe dead Enigma no matter what. Since\nEnigmas revive immediately after they\ndie, I wonder if he's in the \\8egrotto\\8d.\nThose who die pass through the \\8eDrazzig\nGrotto\\8d and are reborn somewhere else in\nthe world. Keep that in mind."
   Comments: ''
 - Japanese: "\\8b\\ccポット族の少女<br>「私のおじいちゃんが、空間の<br> ねじまがりのことはくわしいよ。<br> ねじまがった空間の上手な<br> 歩き方は、おじいちゃんに<br> 聞けばいいわ。<br> どこに行ったのかなぁ。<br> いつもは、<span class=\"red\">村の真ん中の鉄塔</span>の<br> とこにいるんだけどな。"
-  English: ''
+  English: "\\8b\\ccMiss Pot\nMy grandpa knows quite a bit about\nthe warped space. If you want to know\nabout how to walk around in warped\nspace, you should talk to grandpa.\nI wonder where he went. He's always\nnear the \\8emetal tower in the center\nof the village\\8d."
   Comments: ''
 - Japanese: "\\8b\\ccポット族の少女<br>「ツボって不幸?"
-  English: ''
+  English: "\\8b\\ccMiss Pot\nDo you think pots are unfortunate?"
   Comments: ''
 - Japanese: "\\8b\\ccポット族の宿屋<br>「うちは、宿屋かも知れません。<br> 空間がねじまがってしまって<br> わからなくなってしまいました。<br> もしも宿屋だったら、<br> <span class=\"red\">５ブラー</span>で泊まって行って<br> ください。"
-  English: ''
+  English: "\\8b\\ccInn Owner Pot\nThis might be the inn.\nSince space is warped, I don't\nreally know. If this is the inn,\nyou can stay the night for \\8e5\nbura\\8d."
   Comments: ''
 - Japanese: "\\8b\\ccポット族の宿屋<br>「宿屋です。<br> <span class=\"red\">５ブラー</span>で泊まれます。"
-  English: ''
+  English: "\\8b\\ccInn Owner Pot:\nThis is the inn. You can stay the\nnight for \\8e5 bura\\8d."
   Comments: ''
 - Japanese: "\\8b\\cbポット族の長<br>「ムスコのクラインが、みなに<br> めーわくをかけております。<br> ムスコはみなを楽しませようと<br> 空間のねじまげのケンキュウを<br> はじめました。<br> しかし、楽しみも長くは続きま<br> せん。楽しいことを終われば、<br> また、楽しくなるのです。<br> こうして、時は流れ、誰もが<br> ひとえに、みなさまのおかげで<br> 今にいたりました。<br> おりしも、太陽のめぐみが<br> さんさんとカガヤク８月、<br> もし、そうなら、どうしますか?"
-  English: ''
-  Comments: ''
+  English: "\\8b\\cbChief Pot\nMy son Klein has really caused trouble\nfor everyone. He's started his experiment\nto warp space in an attempt to entertain\npeople.\nHowever, entertainment doesn't last for long.\nWhen something fun ends, it becomes fun\nagain. As time flows, we are here today\nbecause of everyone's efforts. Just then,\nthe sun's blessing shines radiantly in\nthe month of August. If that were the case,\nwhat would you do?\n"
+  Comments: |-
+    What is being said here????
+    I don't think there's a joke...
 - Japanese: "\\8b\\cbポット族の長<br>「うーん。<br> あなたの言ってることは<br> よくわからない。"
-  English: ''
+  English: "\\8b\\cbChief Pot\nHmmm. I don't quite understand\nwhat you are saying."
   Comments: ''
 - Japanese: "\\8b\\cbポット族の長<br>「それでは、私の気が<br> おさまりません。<br> いいですか、もう一度<br> よーく、聞いてください。<br> 私のムスコは空間を<br> ねじまげて遊んでいたのです。<br> そこへ、あなたがたが現れて、<br> 私の村の現実から目をそらし、<br> どこへ行こうと言うのですか。<br> 私は事実だけを言っているの<br> ではなく、それはむしろ<br> 事実なのです。<br> でなければ、それは<br> なんですか！?"
-  English: ''
+  English: "\\8b\\cbChief Pot\nI won't be silenced, alright?\nListen carefully to me once more.\nMy son has warped space for fun.\nAnd then you all appeared. Are you\nsaying you'll pretend like you saw\nnothing and wander off elsewhere?\nIt is the truth that I speak nothing\nbut the truth. If that is not the truth,\nthen tell me, what is it!?"
   Comments: ''
 - Japanese: "\\8b\\cbポット族の長<br>「うーん。<br> ねじまがっているのは<br> あなた自身ではないのかと<br> そんな思いさえもノウリを<br> 横切りました。"
-  English: ''
+  English: "\\8b\\cbChief Pot\nHmmm. It's crossed my mind\nthat maybe it's you that is\nwarped."
   Comments: ''
 - Japanese: "\\8b\\cbポット族の長<br>「これはどうも、<br> ごメイワクをおかけしました。<br> 一時はどうなることかと<br> 思いましたが、もとに<br> もどりました。<br> 以前のことは忘れて<br> ください。<br> 今の私が本当の私です。<br> 私は、人生で３０回くらい<br> そう言って来ました。"
-  English: ''
+  English: "\\8b\\cbChief Pot\nThank you and my apologies for\ncausing you trouble. I was\nworried about what would happen\nbut all is well now. Please forget\nthe past. The self standing before\nyou now is my true self. In my\nlifetime, I have had to say that about\n30 times."
   Comments: ''
 - Japanese: "\\8b\\cbポット族の長<br>「ところで、あなたがたの<br> ご友人らしき方々。<br> この町の東へ出て、<br> 北の<span class=\"red\">モイロロト村</span>へ<br> 向かいました。<br> 目的は、ケルレンドゥの<br> フッカツのためだとか。<br> ヤバい話のようだったので、それ<br> 以上は聞くフリだけしてました。<br> カラ返事をしながら、<br> こんな大人になってしまった<br> 自分に笑みすらももれました。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\cbChief Pot\nBy the way, about your the two\nthat seemed like your friends.\nThey left the village from the east and\nheaded north towards \\8eOmiagan Village\\8d.\nI wonder if their objective is Kerendu's\nrevival. I shouldn't talk about this so\npretend like I know nothing more. It's\nlaughable how I've grown old as I reply\nso absentmindedly."
+  Comments: Enigma name not finalized.
 - Japanese: "\\8b\\ccポット族の長の娘<br>「ツボの町の空間がねじまがって、<br> 父の意識もねじまがりました。<br> こんな父こそが、<br> ツボの中のツボと思い知る<br> 今日このごろです。"
-  English: ''
+  English: "\\8b\\ccChief Pot's Daughter\nThe space in the pots' village has\nbeen warped and so has my father's\nconsciousness. Today my father has\nrealized that he is a pot within a\npot."
   Comments: ''
 - Japanese: "\\8b\\ccポット族の長の娘<br>「ようやく、すべてが<br> まともにもどりました。"
-  English: ''
+  English: "\\8b\\ccChief Pot's Daughter\nAt last everything is back to\nnormal."
   Comments: ''
 - Japanese: "\\8b\\cbポット族の老人<br>「空間のねじまがりは、<br> ポットがゲンインじゃ。<br> 心の目で見ると、ポットには<br> 内も外もないんじゃ。<br> すなわち、すべてのポットは<br> すべてのポットの中にある。<br> つまり、ポットはポットに<br> つながっておるということ<br> なんじゃ。<br> いろんなポットに話しかける<br> ことで、空間のねじまがり<br> 具合は変わって行くじゃろう。<br> ポットに話しかけては<br> あっちに行ったり、<br> こっちに来たりしてみるがええ。"
-  English: ''
+  English: "\\8b\\cbOld Pot\nPots are the cause of the warping\nof space. In the mind's eye, pots\nhave neither inside nor outside.\nIn other words, every pot lies in\nthe inside of every other pot. That\nmeans that all pots are connected.\nAs you talk to different pots, the\nstate of the warped space would\nchange I guess. You should try\ntalking to pots and then walking\naround."
   Comments: ''
 - Japanese: "\\8b\\cbポット族の老人<br>「昔、ある剣士がこう言った。<br> 『ツボの中にもサンゼン世界』<br> すなわち、ツボの中にも<br> 世界が見えると言うことじゃ。<br> 世界は、一つのカタチをもって<br> あたえられたものではない。<br> それを見るから、<br> そこにあるのじゃ。<br> 意識が世界を作るのじゃ。"
-  English: ''
+  English: "\\8b\\cbOld Pot\nLong ago, there was a swordsman\nwho said, \"Inside of a pot is the\ncosmos\". In other words, you can\nsee the world from inside a pot.\nThe world is not something with\na single shape. It is because you\nsee it that it is there. The world\nis made from our consciousness."
   Comments: ''
 - Japanese: "\\8b\\cbポット族のおばぁさん<br>「こんなにもハデな、空間の<br> ねじまがりは５０年ぶりじゃ。"
-  English: ''
+  English: "\\8b\\cbGranny Pot\nI haven't seen such a brilliant\nwarping of space in 50 years."
   Comments: ''
 - Japanese: "\\8b\\cbポット族のおばぁさん<br>「次のねじまがりは<br> いつ頃になるかのぉ。"
-  English: ''
+  English: "\\8b\\cbGranny Pot\nI wonder when the next warping\nwill be."
   Comments: ''
 - Japanese: "\\8b\\ccポット族の泊まり客<br>「以前、<span class=\"red\">タンドーリ</span>に行ったことが<br> あります。<br> あそこは、迷いやすいので<br> 注意してください。<br> 行きは宝箱、帰りは迷いツボが<br> 目印になります。<br> 忘れないでください。<br> ４月１９日、旅の宿にて。<br> 愛をこめて。"
   English: ''

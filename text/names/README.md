@@ -89,6 +89,10 @@ Place names:
 キスニカこうざん -- Ikay Ikus Mine (decided to change kanisuki to sukiyaki so it's more recognizable)
 シブスト城 -- Chiboust Castle
 ラロッシュの塔 -- Tour de La Roche
+タンドーリ -- Tandoori
+クムヤムト -- Muy Mot (tom yum backwards)
+モイロロト -- Omiagan (nagaimo backwards)
+モギナスの魔窟 -- Drazzig Grotto (gizzard backwards)
 
 People names:
 ギュウヒ・オグラ -- Bun Patti
@@ -131,7 +135,6 @@ People names:
 ブッチーネ -- Butchine
 ココット -- Cocotte ("Shirred Eggs" in French)
 パッション -- Passion Fruit
-モイロロト -- Omiagan (nagaimo backwards)
 デミグラ -- Demi-glace Sauce
 ベシャメル -- Bechamel Sauce
 アングレーズ -- Anglaise Sauce
@@ -189,7 +192,7 @@ People names:
 アメフラシ -- Nudibrainch or Purple Rainer (the pun is lost in direct translation, so these are some attempts at restoring it)
 闇の桜文鳥 -- Ricebirds in the Dark Realm (I'm thinking this might want to be Dark Ricebirds instead?)
 ムース -- Mousse
-クムヤムト -- Muy Mot (tom yum backwards)
+ドロ -- Mud (I don't think it should be mud though... that's not a food)
 
 Other names:
 愛のデッパリ -- Baby bump (Not sure about this at all.)
