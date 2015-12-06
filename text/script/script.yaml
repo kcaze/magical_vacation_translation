@@ -11700,37 +11700,37 @@
     Cancel
   Comments: ''
 - Japanese: "\\8b\\cbポット族の長<br>「そうだ！<br> むしろ、こうしよう！<br> あなたが、南の<span class=\"red\">タンドーリ</span>に<br> 行き、クラインの遊びを<br> やめさせるとしたら、<br> 私は外にいる先代の<br> ツボに、あなたがたが<br> 会うように望む。<br> 倒置法。"
-  English: ''
+  English: "\\8b\\cbChief Pot\nThat's right! Let's do this instead!\nIf you head south to \\8eTandoori\\8d\nand stop Klein's mischief, I'll pray\nfor the pots outside to meet you.\nInversion."
   Comments: ''
 - Japanese: "\\8b\\cbポット族の長<br>「あなたとの会話は<br> とてもつかれます。"
-  English: ''
+  English: "\\8b\\cbChief Pot\nTalking with you has tired\nme out."
   Comments: ''
 - Japanese: "\\8b\\cbポット族の長<br>「こんな私ですみません。"
-  English: ''
+  English: "\\8b\\cbChief Pot\nSorry for being like this."
   Comments: ''
 - Japanese: "\\8b\\cc迷いツボ<br>「割れたくない‥‥‥‥。<br> 割れるのだけはいやだ‥‥‥‥。"
-  English: ''
+  English: "\\8b\\ccLost Pot\nI don't want to be shattered...\nAnything but that..."
   Comments: ''
 - Japanese: "\\8b\\cc迷いツボ<br>「さかだちして、中身をぜんぶ<br> ぶちまけてぇよぉー！！"
-  English: ''
+  English: "\\8b\\ccLost Pot\nI want to turn upside down and\njust empty my insides!"
   Comments: ''
 - Japanese: "\\8b\\a5ウォーターピープル<br>「コがハペけ ヘペけのペ<br> すレペ さバめケ プク。"
-  English: ''
+  English: "\\8b\\c5Water People\nAgus ka gepeyac demiret ramaro\nnepago botiy epe geb no, *bubble*."
   Comments: ''
 - Japanese: "\\8b\\a5ウォーターピープル<br>「タらナいマ ハにハにゼ<br> ぎガんカ ぬケけル プク。"
-  English: ''
+  English: "\\8b\\a5Water People\nGa pute sani lune. Hapig arima\nusigexa sirie dasid ideh, *bubble*."
   Comments: ''
 - Japanese: "\\8b\\a5ウォーターピープル<br>「なダナ んダ ギぶン<br> ナだナ だンだ んー プク。"
-  English: ''
+  English: "\\8b\\a5Water People\nGicomit lien adiris ley denidie\nsases! Udil pi aronohit ciev, *bubble*."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「<span class=\"red\">運命の３匹のカエル</span>を<br> つかまえろって言ってるわ。<br> <span class=\"red\">運命の３匹のカエル</span>は<br> 他のカエルとは違うみたい。<br> どう違うかまでは、<br> よくわからなかったけど。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\nShe says to catch the \\8e3\nfrogs of fate\\8d. The \\8e3\nfrogs of fate\\8d are different\nfrom the other frogs it seems.\nI'm not sure how though."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「<span class=\"red\">運命のカエル</span>は、緑、青、赤<br> の順に１匹ずつ現われる。<br> これを<span class=\"red\">３匹をつかまえた時に<br> 閉じた回廊が開く</span>んだって。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\nThe \\8efrogs of fate\\8d appear in\nthe order green, blue, red. She\nsays that \\8ewhen we catch all 3,\nthe locked corridor shall open\\8d."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「ここにいる、運命のカエルじゃ<br> ないカエルは<br> 私たちが獲ったカエルの<br> 亡霊なんだって。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\nShe says the frogs here that are\nnot the frogs of fate are the souls\nof frogs that we have caught."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「ピスタチオ！！<br> \\85\\0！！<br> なにやってんだ！?<br> もうバスが来るぜ！！"
   English: "\\8b\\0c\\86\\02\nPistachio!\n\\85\\00!\nWhat are you guys doing!?\nThe bus is here!"
@@ -12203,7 +12203,7 @@
   English: "\\8b\\0f\\86\\05\nHey, whatcha all up to?\nAre you going exploring somewhere?"
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「こんな海岸でタンケンですって?<br> \\85\\0ってヘンな子。<br> 行ってらっしゃい。"
-  English: ''
+  English: "\\8b\\0f\\86\\05\nYou're going to explore the beach?\n\\85\\00 you're a weird kid.\nGo on ahead."
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「ふーん。<br> ちょっとカッコいいかもね。<br> ６人もいれば、こわいもの<br> なしだろうけど、気をつけてね。"
   English: "\\8b\\0f\\86\\05\nHmm, that's kinda cool.\nWith 6 people, there's probably\nnothing to fear, but be careful\nanyways."
@@ -12218,13 +12218,13 @@
   English: "\\8b\\0f\\86\\05\nHmm, on second thought, I guess\nI won't go. Good luck though."
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「アニキ！！<br> だまってる場合か！！<br> 言えよ！！<br> ガッツーンと！！"
-  English: ''
+  English: "\\8b\\1a\\86\\10\nBro! This ain't the time to stay\nsilent! Say it! Say it with gusto!"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「うるさいぞ、セサミ！！<br> 少しだまってろ！！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\nWill you be quiet, Sesame!?\nYou're really annoying!"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「もうすぐキャンプファイヤー<br> ですの！<br> 遅れちゃいけませんのよ！"
-  English: ''
+  English: "\\8b\\11\\86\\07\nThe campfire's going to begin soon!\nDon't be late!"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「みんなで何をしてますの！?<br> まさか海岸のタンケンに<br> 行ったりするつもりですの！?"
   English: "\\8b\\11\\86\\07\nWhat is everyone doing!?\nYou aren't thinking of exploring\nthe coast are you!?"
