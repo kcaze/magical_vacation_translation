@@ -11455,244 +11455,249 @@
   English: "\\8b\\cbGranny Pot\nI wonder when the next warping\nwill be."
   Comments: ''
 - Japanese: "\\8b\\ccポット族の泊まり客<br>「以前、<span class=\"red\">タンドーリ</span>に行ったことが<br> あります。<br> あそこは、迷いやすいので<br> 注意してください。<br> 行きは宝箱、帰りは迷いツボが<br> 目印になります。<br> 忘れないでください。<br> ４月１９日、旅の宿にて。<br> 愛をこめて。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\ccGuest Pot\nI've been to \\8eTandoori\\8d before.\nIt's easy to get lost there so be\ncareful. The landmarks to look out\nfor are treasure chests when entering\nand lost pots when leaving.\nDon't forget.\nApril 19th, at the inn.\nWith love."
+  Comments: "What's special about April 19th? "
 - Japanese: "\\8b\\ccポット族の泊まり客<br>「できることならば、<br> ツボになりたい。<br> あなたは、そう思っている。"
-  English: ''
+  English: "\\8b\\ccGuest Pot\nIf I could, I'd like to be a\npot. That's what you're thinking."
   Comments: ''
 - Japanese: "\\8b\\ccポット族の青年<br>「角ばったツボになりたい！<br> 空間がねじまがってる今が<br> チャンスのような気がする！"
-  English: ''
+  English: "\\8b\\ccYouth Pot\nI want to be an angular pot!\nI feel like now's my chance,\nwith space being warped and\nall."
   Comments: ''
 - Japanese: "\\8b\\ccポット族の青年<br>「オレは丸いツボのままだ！！<br> これでいいのか！！"
-  English: ''
+  English: "\\8b\\ccYouth Pot\nI'm still a round pot! This\nisn't okay!"
   Comments: ''
 - Japanese: "\\8b\\ccポット族のくだまき<br>「世の中、べんりだったり<br> ふべんだったりするよね。<br> 逆に言うと、ふべんだったり<br> べんりだったりするのが<br> 世の中なんだよね。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\ccDrunk Pot\nThe world is convenient at times\nand inconvenient at times isn't it?\nIn other words, it is the world precisely\nbecause it is convenient at times and\ninconvenient at times."
+  Comments: くだをまく = to grumble while drinking.
 - Japanese: "\\8b\\ccポット族のくだまき<br>「自分が幸せだということを<br> みとめない人は不幸だよね。<br> 逆に言えば、自分の幸せを<br> みとめることが、幸福になる<br> 一番の方法なんだ。"
-  English: ''
+  English: "\\8b\\ccDrunk Pot\nThose who take their happiness for\ngranted are those who are unhappy.\nIn other words, recognizing one's\nhappiness is the surest way of becoming\nhappy."
   Comments: ''
 - Japanese: "\\8b\\ccポット族のひやかし<br>「時々、ゴミを入れる人がいます。<br> こまってます。<br> 道ばたに捨てろ！<br> とも言えないでしょ。"
-  English: ''
+  English: "\\8b\\ccTeasing Pot\nSometimes there are people who throw\ngarbage into me. It's annoying.\nJust throw it onto the ground!\nI guess I can't really say that."
   Comments: ''
 - Japanese: "\\8b\\ccポット族のひやかし<br>「なんか、誰かにゴミを<br> いれられた気がするんだよね。"
-  English: ''
+  English: "\\8b\\ccTeasing Pot\nI feel like someone's thrown garbage\ninto me."
   Comments: ''
 - Japanese: "\\8b\\ccポット族の宿屋<br>「お金がたりません。"
-  English: ''
+  English: "\\8b\\ccInn Owner Pot\nYou don't have enough money."
   Comments: ''
 - Japanese: "\\8b\\ccポット族の宿屋<br>「また来てください。"
-  English: ''
+  English: "\\8b\\ccInn Owner Pot\nPlease come again."
   Comments: ''
 - Japanese: "\\8b\\cc迷いツボ<br>「ツボの中しか見えません。"
-  English: ''
+  English: "\\8b\\ccLost Pot\nI see nothing but the inside of a\npot."
   Comments: ''
 - Japanese: "\\8b\\cc迷いツボ<br>「海の中には、裏返しになった<br> ツボがたくさんいるらしいんだ。<br> まるでジゴクだな。"
-  English: ''
+  English: "\\8b\\ccLost Pot\nI heard that there are a lot of\npots inside the sea that are flipped\ninside-out. That sounds like it would\nbe a nightmare."
   Comments: ''
 - Japanese: "\\8b\\cc迷いツボ<br>「オレのダチでよぉ、<br> ツボが裏返るシュンカンを<br> 見たってヤツがいるんだ。<br> すっげぇ、気持ち悪くて、<br> はいちまったらしいぜ。"
-  English: ''
+  English: "\\8b\\ccLost Pot\nI have a friend who goes to watch\npots turn inside-out. It's apparently\nreally really gross."
   Comments: ''
 - Japanese: "\\8b\\cc迷いツボ<br>「オレのダチはこう言ったんだ。<br> 愛されるツボか、そうでない<br> ツボかは、中に何が入ってるか<br> で決まるって。<br> かぐわしい香水が入ったツボは<br> 愛されるが、ゴミやウンコが<br> 入ったツボはきらわれるって。 <br> だけど、ツボに何を入れるかは<br> 持ち主しだいだろ?<br> オレたちじゃどうしようもない。"
-  English: ''
+  English: "\\8b\\ccLost Pot\nMy friend told me this. Whether\na pot is loved or not depends on\nwhat's inside of it. Pots brimming\nwith fragrant perfumes are loved\nbut pots filled with garbage are\nnot. But what goes in a pot is decided\nby the pot's owner isn't it? There's\nnothing we pots can do about it."
   Comments: ''
 - Japanese: "\\8b\\cc迷いツボ<br>「世の中には、ツボを平らにして、<br> 裏返せる人もいるんだ！<br> かなりウソっぽいよな！"
-  English: ''
+  English: "\\8b\\ccLost Pot\nThere are people in this world who\nwill flatten pots and turn them\ninside-out! It sounds unbelievable\ndoesn't it!?"
   Comments: ''
 - Japanese: "\\8b\\cc迷いツボ<br>「ツボを裏返したら、<br> どうなってるか知ってるかい?"
-  English: ''
+  English: "\\8b\\ccLost Pot\nDo you know what happens when a\npot is turned inside-out?"
   Comments: ''
 - Japanese: "\\8b\\cc迷いツボ<br>「考えただけでも<br> ゾッとするよね。"
-  English: ''
+  English: "\\8b\\ccLost Pot\nJust thinking about it will\nmake you feel sick."
   Comments: ''
 - Japanese: "\\8b\\cc迷いツボ<br>「赤黒くて、ブヨブヨで、<br> ヌルヌルしてて‥‥‥‥<br> キュウバンがついた足が<br> ニョロ~っと８本も<br> はえているんだ――――ッ！！"
-  English: ''
+  English: "\\8b\\ccLost Pot\nThey turn reddish-brown, get all\nflabby and slimy and...\nthey grow eight wriggly legs with\nsuction cups on the ends!"
   Comments: ''
 - Japanese: "\\8b\\ccクライン<br>「ダメだ‥‥‥‥<br> またやっちまった‥‥‥‥。"
-  English: ''
+  English: "\\8b\\ccKlein\nThis is no good...\nI did it again..."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「どうしたんだよ<br> 何をやったんだ?"
-  English: ''
+  English: "\\8b\\0c\\86\\02\nWhat happened? What did you do again?"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「あなたがクラインね。<br> ガスパチョ村の長のムスコさん。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\nYou must be Klein, the son of\nGazpacho Village's village chief."
   Comments: ''
 - Japanese: "\\8b\\e\\86\\4<br>「あ――――?"
-  English: ''
+  English: "\\8b\\0e\\86\\04\nHuh?"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「どうしましたの?<br> 何をしてますの?"
-  English: ''
+  English: "\\8b\\11\\86\\07\nWhat happened? What's going on?"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「あんたのおかげで、こっちは<br> 足止めを食ってんだ。<br> 落ち込んでないで<br> なんとかしてくれよ。"
-  English: ''
+  English: "\\8b\\12\\86\\08\nBecause of you, we're stuck here.\nStop moping around and do something\nabout it."
   Comments: ''
 - Japanese: "\\8b\\13\\86\\9<br>「落ち込んでる場合じゃないヌ~。<br> どうしたのか話すヌ~。"
-  English: ''
+  English: "\\8b\\13\\86\\09\nThis is no time to be moping.\nTell us what happened."
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「ダメなヤツほど、何かあった時に<br> 自分をせめるんだよな。<br> それで、何が解決する<br> ワケでもないのによ。"
-  English: ''
+  English: "\\8b\\14\\86\\0a\nOnly idiots spend all their time\nblaming themselves when something\nhappens. Even though it doesn't\nhelp solve anything."
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「なにをやってしまったか<br> 知らないけど、<br> ボクらに言ってみなよ。<br> 力になれるかも知れないよ。"
-  English: ''
+  English: "\\8b\\15\\86\\0b\nI don't know what you did exactly,\nbut why don't you tell us? We might\nbe able to help."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「落ち込んでばかりじゃダメよ。<br> 力になってあげるから、<br> 何があったか教えて。"
-  English: ''
+  English: "\\8b\\16\\86\\0c\nThere's no use being all depressed\nabout it. We'll help you out so\ntell us what happened."
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>コノヘンノ クウカンガ<br> オカシクナッタノ<br> スベテ アンタノセイダロ?<br> ムラビトハミンナコマッテルゼ。</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\nIt's your fault the space around\nhere's been warped isn't it? All\nthe villagers are bothered by it\nyou know."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「‥‥‥‥。"
-  English: ''
+  English: "\\8b\\18\\86\\0e\n..."
   Comments: ''
 - Japanese: "\\8b\\19\\86\\f<br>「どうしたの?<br> 何か困ってるの?"
-  English: ''
+  English: "\\8b\\19\\86\\0f\nWhat's wrong? Is there something\ntroubling you?"
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「かかわって、いいものやら<br> 悪いものやら。"
-  English: ''
+  English: "\\8b\\1a\\86\\10\nI wonder if we're doing more harm\nthan good by getting involved."
   Comments: ''
 - Japanese: "\\8b\\ccクライン<br>「ちょうどいい。<br> 実は、たのみがあるんだ‥‥‥。<br> オレは、空間をねじまげて<br> 自由に旅ができるような<br> マシーンを作ったんだが、<br> コイツは、ツボたちの思いを<br> エネルギーにしてるんだ。<br> だが、ツボたちの思いは<br> たいして強くねぇ。<br> じゅうぶんにエネルギーを<br> チャージできねぇんだ。<br> いでよ！！<br> ツボゴーレム！！"
-  English: ''
+  English: "\\8b\\ccKlein\nYou came at just the right time.\nYou see, I have a favor to ask of\nyou...\nI've created a machine that lets me\nwarp space and travel freely but it\nrequires the pots' mental reserves\nas a source of energy. However, pots\ndon't have very strong minds. It's not\nenough to charge the machine.\nCome!\nPot Golem!"
   Comments: ''
 - Japanese: "\\8b\\ccクライン<br>「さぁ！！<br> 戦え！！<br> オマエたちの生きる意思で<br> 空間を切りきざめ！！"
-  English: ''
+  English: "\\8b\\ccKlein\nAlright! You shall fight!\nCut apart space with your will\nto live!"
   Comments: ''
 - Japanese: "\\8b\\ccクライン<br>「‥‥‥‥。"
-  English: ''
+  English: "\\8b\\ccKlein\n..."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「てめぇ！！<br> いきなり何しやがるんだ！！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\nWhat's wrong with you! Why'd\nyou do this so suddenly!?"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「まったく！！<br> どういうつもりよ！！"
-  English: ''
+  English: "\\8b\\0d\\86\\03\nGeez! What are you doing!?"
   Comments: ''
 - Japanese: "\\8b\\e\\86\\4<br>「うあ――――！"
-  English: ''
+  English: "\\8b\\0e\\86\\04\nAhhh!"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「危険すぎますの！！"
-  English: ''
+  English: "\\8b\\11\\86\\07\nThat was way too dangerous!"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「それがアンタのやり方って<br> ことだな。<br> よーくわかったよ。"
-  English: ''
+  English: "\\8b\\12\\86\\08\nSo that's how you do things. I\nsee how it is."
   Comments: ''
 - Japanese: "\\8b\\13\\86\\9<br>「まったく！<br> じょーだんじゃないヌ~！！"
-  English: ''
+  English: "\\8b\\13\\86\\09\nSheesh! This isn't a joke!"
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「とんでもねぇヤツだぜ！！<br> まったくよう！！"
-  English: ''
+  English: "\\8b\\14\\86\\0a\nThat was one outrageous golem!\nWhat's wrong with you!?"
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「シャレになってないよ！<br> ほんとに！"
-  English: ''
+  English: "\\8b\\15\\86\\0b\nThat wasn't cool! Seriously!"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「なんでこんなとこで<br> こんな目にあうのよ~！<br> 信じられな~い！"
-  English: ''
+  English: "\\8b\\16\\86\\0c\nWhy did we have to do that!?\nUnbelievable!"
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>ガガガガガガガガガ！！！<br> ビックリシタナァ モウ！！</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\nAhhhhhh! That scared me!"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「<i>オイラ、自分の身の上に<br> 泣けてきたっぴ‥‥‥‥。</i>"
-  English: ''
+  English: "\\8b\\18\\86\\0e\nI think I wet myself..."
   Comments: ''
 - Japanese: "\\8b\\19\\86\\f<br>「なんなのよ！<br> ほんとに！"
-  English: ''
+  English: "\\8b\\19\\86\\0f\nWhat's with you!? Seriously!"
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「ヤベぇよ、このオッサン！！<br> 死ぬかと思ったよ！！"
-  English: ''
+  English: "\\8b\\1a\\86\\10\nThis guy's crazy! I thought we\nwere going to die!"
   Comments: ''
 - Japanese: "\\8b\\ccクライン<br>「すまぬ。"
-  English: ''
+  English: "\\8b\\ccKlein\nSorry."
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「あやまってすむかよ！！<br> こっちは命がけだったんだ！！"
-  English: ''
+  English: "\\8b\\0c\\86\\02\nDo you think an apology's going to\ncut it!? We almost risked our lives\nhere!"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「人に命がけの勝負をさせておいて<br> その一言だけ！?<br> お話にならないわ！！"
-  English: ''
+  English: "\\8b\\0d\\86\\03\nThat's all you have to say when\nour lives were at stake!? That's\nnot okay!"
   Comments: ''
 - Japanese: "\\8b\\e\\86\\4<br>「う――――！"
-  English: ''
+  English: "\\8b\\0e\\86\\04\nWhy you!"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「ゆるしませんの！！"
-  English: ''
+  English: "\\8b\\11\\86\\07\nI'm not forgiving you!"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「許せると思う！?"
-  English: ''
+  English: "\\8b\\12\\86\\08\nDo you think we'll forgive you for\nthat!?"
   Comments: ''
 - Japanese: "\\8b\\13\\86\\9<br>「許せるわけないヌ~！！"
-  English: ''
+  English: "\\8b\\13\\86\\09\nThere's no way we'd forgive you!"
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「今度はこっちの番だ！！<br> わかってんだろ！?"
-  English: ''
+  English: "\\8b\\14\\86\\0a\nNext time you'll get a taste of\nyour own medicine! Got it!?"
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「もういいよ、行こうよ。<br> イヤだよ。"
-  English: ''
+  English: "\\8b\\15\\86\\0b\nEnough, let's go already. I don't\nwant to be here any longer."
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「そんなあやまりかたじゃ<br> 許さないっ！"
-  English: ''
+  English: "\\8b\\16\\86\\0c\nI'm not going to forgive you when\nyou apologize like that."
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>マッタクダ！！</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\nReally!"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「すまぬではすまないっぴ。"
-  English: ''
+  English: "\\8b\\18\\86\\0e\nYou're not actually sorry."
   Comments: ''
 - Japanese: "\\8b\\19\\86\\f<br>「ふんっ！"
-  English: ''
+  English: "\\8b\\19\\86\\0f\nHmph!"
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「カクゴはできてんだろうな！<br> オッサン！"
-  English: ''
+  English: "\\8b\\1a\\86\\10\nYou're ready aren't you, old man!"
   Comments: ''
 - Japanese: "\\8b\\ccクライン<br>「割ってくれ。"
-  English: ''
+  English: "\\8b\\ccKlein\nShatter me."
   Comments: ''
 - Japanese: "\\8b\\1\\85\\1<br>「‥‥‥‥！?"
-  English: ''
+  English: "\\8b\\01\\85\\01\n...!?"
   Comments: ''
 - Japanese: "\\8b\\ccクライン<br>「人生にいっぺんのくいなし！！<br> 割ってくれ！！"
-  English: ''
+  English: "\\8b\\ccKlein\nI have no regrets!\nShatter me!"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「割ってくれと<br> 言われても‥‥‥‥<br> どうする‥‥‥‥?<br> 割る‥‥‥‥?"
-  English: ''
+  English: "\\8b\\0c\\86\\02\nHe's telling us to shatter him but...\nWhat should we do...?\nShould we shatter him...?"
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「割ってくれと<br> 言われても‥‥‥‥<br> どうする‥‥‥‥?<br> 割る‥‥‥‥?"
-  English: ''
+  English: "\\8b\\0d\\86\\03\nHe's telling us to shatter him but...\nWhat should we do...?\nShould we shatter him...?"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「割ってくれと<br> 言われても‥‥‥‥<br> そんな‥‥‥‥<br> 割りますの‥‥‥‥?<br> 本当に割りますの‥‥‥‥?"
-  English: ''
+  English: "\\8b\\11\\86\\07\nHe's telling us to shatter him but...\nWe can't...\nAre we shattering him...?\nAre we really shattering him...?"
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「どうする‥‥‥‥?<br> 割る‥‥‥‥?"
-  English: ''
+  English: "\\8b\\12\\86\\08\nWhat do we do...?\nDo we shatter him...?"
   Comments: ''
 - Japanese: "\\8b\\13\\86\\9<br>「割ってくれと<br> 言われてもヌ~‥‥‥‥<br> どうするヌ~‥‥‥‥?<br> 割るヌ~‥‥‥‥?"
-  English: ''
+  English: "\\8b\\13\\86\\09\nHe's telling us to shatter him but...\nWhat should we do...?\nShould we shatter him...?"
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「いさぎのいいことで‥‥‥<br> それじゃひとつ‥‥‥<br> 割りますか。<br> ぱかんと。"
-  English: ''
+  English: "\\8b\\14\\86\\0a\nThat's a brave thing to say...\nThen...\nShall we shatter him?\nWith one swift blow."
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「どうする‥‥‥‥?<br> 割る‥‥‥‥?"
-  English: ''
+  English: "\\8b\\15\\86\\0b\nWhat should we do...?\nShatter him...?"
   Comments: ''
 - Japanese: "\\8b\\16\\86\\c<br>「割っちゃえ！ 割っちゃえ！<br> ぱかーんと！"
-  English: ''
+  English: "\\8b\\16\\86\\0c\nLet's shatter him!\nWith a loud swing!"
   Comments: ''
 - Japanese: "\\8b\\17\\86\\d<br>「<i>キャァ~~~~！！<br> ホントニ ワルノ~！?</i>"
-  English: ''
+  English: "\\8b\\17\\86\\0d\nAhhhh! Are we really shattering him!?"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「割るっぴか！?<br> 本当に割るっぴか~！！<br> \\85\\0！！<br> 割るっぴか~！?"
-  English: ''
+  English: "\\8b\\18\\86\\0e\nAre we shattering him!?\nAre we really!?\n\\85\\00!\nAre we shattering him!?"
   Comments: ''
 - Japanese: "\\8b\\19\\86\\f<br>「どうする‥‥‥‥?<br> 割る‥‥‥‥?"
-  English: ''
+  English: "\\8b\\19\\86\\0f\nWhat do we do...?\nShould we shatter him...?"
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「よ~し！！<br> それじゃあ、割るぜ！！<br> \\85\\0！！<br> 割るぜ！！"
-  English: ''
+  English: "\\8b\\1a\\86\\10\nAlright!\nLet's shatter him!\n\\85\\00!\nLet's shatter him!"
   Comments: ''
 - Japanese: "\\8b\\ccクライン<br>「ありがとうございましたッ！！<br> シツレイしまッす！！"
-  English: ''
+  English: "\\8b\\ccKlein\nThank you very much! Without further\nado then!"
   Comments: ''
 - Japanese: ' クラインが割ってくれと言ってます。<br> 割りますか?'
-  English: ''
+  English: |-
+    Klein told you to shatter him.
+    Will you shatter him?
   Comments: ''
 - Japanese: '  ダンジョンの外へ出る<br>  ガスパチョ村へ行く<br>  キャンセル'
-  English: ''
+  English: |-
+    Go outside the dungeon
+    Go to Gazpacho Village
+    Cancel
   Comments: ''
 - Japanese: "\\8b\\cbポット族の長<br>「そうだ！<br> むしろ、こうしよう！<br> あなたが、南の<span class=\"red\">タンドーリ</span>に<br> 行き、クラインの遊びを<br> やめさせるとしたら、<br> 私は外にいる先代の<br> ツボに、あなたがたが<br> 会うように望む。<br> 倒置法。"
   English: ''

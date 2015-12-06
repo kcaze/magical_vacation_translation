@@ -93,6 +93,7 @@ Place names:
 クムヤムト -- Muy Mot (tom yum backwards)
 モイロロト -- Omiagan (nagaimo backwards)
 モギナスの魔窟 -- Drazzig Grotto (gizzard backwards)
+ガスパチ -- Gazpacho
 
 People names:
 ギュウヒ・オグラ -- Bun Patti
