@@ -207,6 +207,7 @@ People names:
 シブッカ -- Elak (Kale backwards, randomly decided on Kale because it's
                 green since I can't make sense of the Japanese name)
 ズネヨーマ -- Oyam (Mayo backwards)
+リノオア -- Reval (Laver backwards)
 
 
 Other names:

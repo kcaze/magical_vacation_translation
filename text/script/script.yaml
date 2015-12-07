@@ -12780,55 +12780,61 @@
   English: "\\8b\\c5Passing Brownie\n\\8eOyam\\8d's last.\nYeah, \\8eOyam\\8d's definitely last.\nThat's right.\nI forgot why, but that's what my\ngut tells me."
   Comments: ''
 - Japanese: "\\8b\\dbキヤコタのツボ・ギーネ<br>「ワレはカギなり。<br> <span class=\"red\">カエルグミ</span>をささげるが良い。"
-  English: ''
+  English: "\\8b\\dbIkay Okat Pot, Igen\nWe are the gatekeepers.\nOffer us \\8egummy frogs\\8d."
   Comments: ''
 - Japanese: "\\8b\\dbキヤコタのツボ・スカンテ<br>「ワレはカギなり。<br> <span class=\"red\">カエルグミ</span>をささげるが良い。"
-  English: ''
+  English: "\\8b\\dbIkay Okat Pot, Arupmet\nWe are the gatekeepers.\nOffer us \\8egummy frogs\\8d."
   Comments: ''
 - Japanese: "\\8b\\dbキヤコタのツボ・ガウショニベ<br>「ワレはカギなり。<br> <span class=\"red\">カエルグミ</span>をささげるが良い。"
-  English: ''
+  English: "\\8b\\dbIkay Okat Pot, Regnig\nWe are the gatekeepers.\nOffer us \\8egummy frogs\\8d."
   Comments: ''
 - Japanese: "\\8b\\dbキヤコタのツボ・ツベッキャ<br>「ワレはカギなり。<br> <span class=\"red\">カエルグミ</span>をささげるが良い。"
-  English: ''
+  English: "\\8b\\dbIkay Okat Pot, Ecuttel\nWe are the gatekeepers.\nOffer us \\8egummy frogs\\8d."
   Comments: ''
 - Japanese: "\\8b\\dbキヤコタのツボ・コター<br>「ワレはカギなり。<br> <span class=\"red\">カエルグミ</span>をささげるが良い。"
-  English: ''
+  English: "\\8b\\dbIkay Okat Pot, Supotco\nWe are the gatekeepers.\nOffer us \\8egummy frogs\\8d."
   Comments: ''
 - Japanese: "\\8b\\dbキヤコタのツボ・リノオア<br>「ワレはカギなり。<br> <span class=\"red\">カエルグミ</span>をささげるが良い。"
-  English: ''
+  English: "\\8b\\dbIkay Okat Pot, Reval\nWe are the gatekeepers.\nOffer us \\8egummy frogs\\8d."
   Comments: ''
 - Japanese: "\\8b\\dbキヤコタのツボ・シブッカ<br>「ワレはカギなり。<br> <span class=\"red\">カエルグミ</span>をささげるが良い。"
-  English: ''
+  English: "\\8b\\dbIkay Okat Pot, Elak\nWe are the gatekeepers.\nOffer us \\8egummy frogs\\8d."
   Comments: ''
 - Japanese: "\\8b\\dbキヤコタのツボ・ズネヨーマ<br>「ワレはカギなり。<br> <span class=\"red\">カエルグミ</span>をささげるが良い。"
-  English: ''
+  English: "\\8b\\dbIkay Okat Pot, Oyam\nWe are the gatekeepers.\nOffer us \\8egummy frogs\\8d."
   Comments: ''
 - Japanese: "どれをささげますか?<br>  <span class=\"red\">\\87\\19</span>  <span class=\"red\">\\87\\1a</span><br>  <span class=\"red\">\\87\\1b</span>  キャンセル"
-  English: ''
+  English: "Offer which gummy frog?\n\\87\\19 \\87\\1a\n\\87\\1b Cancel"
   Comments: ''
 - Japanese: '<br> キヤコタのツボが消えた！！'
-  English: ''
+  English: |-
+
+    The Ikay Okat Pot vanished!
   Comments: ''
 - Japanese: '<br>  アイテムを持っていません'
-  English: ''
+  English: |-
+
+    You don't have any of that item.
   Comments: ''
 - Japanese: "\\8b\\cfマッドマン<br>「オムザネイルの呪いで、村の<br> 者が消えてしまったんだなっす。<br> オレたちは、オムザネイルの<br> とくべつな許可で死のプレーンに<br> いるんだなっす。<br> 死のプレーンには、宝石を盗みに<br> 来る連中がいなくて、とっても<br> 平和なんだなっす。<br> だけど、バカなヤツが一人、<br> 他のモンに<span class=\"red\">\\87\\12</span>を<br> わたしてしまったから<br> オムザネイルがおこったんだ<br> なっす。"
-  English: ''
+  English: "\\8b\\cfMudman\nBecause of Omuzaneiru's curse, everyone\nin the village has vanished. We're still\nhere because we have Omuzaneiru's\npermission to remain in the Abyssal Realm.\nThe Abyssal Realm is very peaceful, with\nno thieves out there trying to steal\ntreasure. But there's an idiot who angered\nOmuzaneiru by giving away his \\8e\\87\\12\\8d\nto outsiders."
   Comments: ''
 - Japanese: "\\8b\\40オムザネイル<br>「死者の国の平和を<br> みだす者‥‥‥‥。<br> 許さじ。"
-  English: ''
+  English: "\\8b\\40Omuzaneiru\nThose who have disturbed the peace\nin the Abyssal Realm...\nshall not be forgiven."
   Comments: ''
 - Japanese: ' キヤコタのツボはしずかに<br> カエルをのみこんだ‥‥'
-  English: ''
+  English: |-
+    The Ikay Okat Pot silently consumed
+    the frog...
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「‥‥‥‥。<br> \\85\\0‥‥‥‥、<br> 来てるのか‥‥‥‥?"
-  English: ''
+  English: "\\8b\\10\\86\\06\n...\n\\85\\00...\nYou've come..."
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「??????<br> わかるの‥‥‥‥?"
-  English: ''
+  English: "\\8b\\0f\\86\\05\n???\nYou can tell...?"
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「おそかったよ‥‥‥‥。<br> \\85\\0‥‥‥‥、<br> もう、オレを止められない。<br> 決めたんだ。<br> オレは姉と同じ闇に落ちる。<br> あの人の手を引いて、<br> 戦場へでも、ジゴクへでもいい<br> オレたちの場所をさがしに行く。<br> もしオレを止めたいなら<br> オレと同じ闇まで落ちて来い。"
-  English: ''
+  English: "\\8b\\10\\86\\06\n\\85\\00...\nYou're too late...\nYou can't stop me now.\nI've already decided.\nI'm going to descend into the same\ndarkness as my sister. In tow, we\nshall search for where we belong,\neven if it means crossing through\nnightmares and battlefields. If you\nwish to stop me, then join me in\nmy descent into the darkness."
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「‥‥‥‥。<br> 私を見て、ガナッシュ。<br> あなたを生かしてあげてるのは<br> 私よ‥‥‥‥。<br> 私を見ないんだったら、<br> あなたなんか、消えていいのよ。"
   English: ''
