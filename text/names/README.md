@@ -94,6 +94,7 @@ Place names:
 モイロロト -- Omiagan (nagaimo backwards)
 モギナスの魔窟 -- Drazzig Grotto (gizzard backwards)
 ガスパチ -- Gazpacho  
+コヴォマカ -- Okobamak (kamaboko backwards)
 
 People names:
 ギュウヒ・オグラ -- Bun Patti
@@ -194,6 +195,19 @@ People names:
 闇の桜文鳥 -- Ricebirds in the Dark Realm (I'm thinking this might want to be Dark Ricebirds instead?)
 ムース -- Mousse
 ドロ -- Mud (I don't think it should be mud though... that's not a food)
+ヌガーリバー -- Nougat
+カシュー -- Cashew
+ガルバンゾ -- Garbanzo
+キヤコタ -- Ikay Okat (takoyaki backwards)
+ギーネ -- Igen (negi backwards)
+スカンテ -- Arupmet (tempura backwards)
+コター -- Supotco (Octopus backwards)
+ツベッキャ -- Ecuttel (Lettuce backwards)
+ガウショニベ -- Regnig (Ginger backwards)
+シブッカ -- Elak (Kale backwards, randomly decided on Kale because it's
+                green since I can't make sense of the Japanese name)
+ズネヨーマ -- Oyam (Mayo backwards)
+
 
 Other names:
 愛のデッパリ -- Baby bump (Not sure about this at all.)
