@@ -1,3 +1,24 @@
+Addresses
+=========
+0x08226F7C contains offsets into names. Byte offsets into 0x08226F7C.
+Names are fixed width, each taking up exactly 16 bytes.
+
+0x0000008 = N/A
+0x000000C = N/A
+0x000003C = Monster attacks (0x08226FB8)
+0x0000390 = Item names (0x0822730C)
+0x0001394 = Status effects (0x08228310)
+0x00014C8 = Spell names (0x08228444)
+0x0001D7C = Monster names(0x08228CF8)
+0x0003260 = Party member names (0x0822A1DC)
+0x00034A4 = Male sign, female sign, question mark (0x0822A420)
+0x00034D8 = Spirit names (0x0822A454)
+0x00035EC = Species names (0x0822A568)
+0x0003730 = Element names (0x0822A6AC)
+0x0003854 = Place names (0x0822A7D0)
+0x0005478 = Ranking names [on the report card] (0x0822C3F4)
+
+
 Character Names
 ===============
 |Address|Japanese Name|English Name|

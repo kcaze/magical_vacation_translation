@@ -1,3 +1,26 @@
+Addresses
+=========
+0x087C2254 contains offsets into text. Byte offsets into 0x087C2254.
+The text here is not fixed width so there is a table at the beginning
+of each section to give indices for the beginning of words.
+
+0x00000010 = N/A
+0x00000048 = Menu text offset table (0x087C229C)
+0x00000370 = Menu text (0x087C25C4)
+0x00001F3C = Item descriptions offset table (0x087C4190)
+0x00002374 = Item descriptions (0x087C45C8)
+0x000091DC = Magic notebook offset table (0x087CB430)
+0x0000927C = Magic notebook (0x087CB4D0)
+0x0000B188 = Profiles offset (0x087CD3DC)
+0x0000B3C8 = Profiles (0x087CD61C)
+0x00017DB4 = Name selection kanji offset table (0x087DA008)
+0x00017F1C = Name selection kanji (0x087DA170)
+0x00018CD8 = Initial element descriptions offset table (0x087DAF2C)
+0x00018CF4 = Initial element descriptions (0x087DAF48)
+0x000194F4 = N/A
+
+
+
 Location of Text Data
 =====================
 Menu text lies between 0x087C229C and 0x087C418F.
