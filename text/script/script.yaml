@@ -12837,82 +12837,85 @@
   English: "\\8b\\10\\86\\06\n\\85\\00...\nYou're too late...\nYou can't stop me now.\nI've already decided.\nI'm going to descend into the same\ndarkness as my sister. In tow, we\nshall search for where we belong,\neven if it means crossing through\nnightmares and battlefields. If you\nwish to stop me, then join me in\nmy descent into the darkness."
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「‥‥‥‥。<br> 私を見て、ガナッシュ。<br> あなたを生かしてあげてるのは<br> 私よ‥‥‥‥。<br> 私を見ないんだったら、<br> あなたなんか、消えていいのよ。"
-  English: ''
+  English: "\\8b\\0f\\86\\05\n...\nLook at me, Ganache.\nI'm the one who's allowing you to\nlive...\nIf you don't look at me,\nthen I might just erase your\nexistence."
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「キャンディ‥‥‥‥<br> 感じたことをちゃんと<br> 言えるようになったね。<br> なんでだろう‥‥‥‥、<br> こんなにもイヤな場所にいるのに<br> 悪いことばかりじゃない。<br> ときめきすら感じている。"
-  English: ''
+  English: "\\8b\\10\\86\\06\nCandy...\nYou're finally able to say how\ntruly feel.\nI wonder why...\nEven though this is such an awful\nplace, it's not all bad. I even\nfeel a stirring in my heart."
   Comments: ''
 - Japanese: '  ピラミッドの外へ出る<br>  モイロロト村へ行く<br>  キャンセル'
-  English: ''
+  English: |-
+    Go outside the pyramid
+    Go to Omiagan Village
+    Cancel
   Comments: ''
 - Japanese: "\\8b\\cfマッドマン<br>「オムザネイルの呪いで<br> 町の人が消えたんだなっす！<br> オレっちが、外から来たモンに<br> <span class=\"red\">\\87\\12</span>をわたしたから、<br> 怒ったんだなっす。<br> もう、オムザネイルに支配<br> されるのは、コリゴリなんだ<br> なっす！<br> このプレーンは、もともと<br> オレっちらのプレーンなんだ<br> なっす！！<br> 誰かオムザネイルを<br> やっつけてほしいんだ<br> なっす！！！"
-  English: ''
+  English: "\\8b\\cfMudman\nBecause of Omuzaneiru's curse, those\nin this village have disappeared! He\ngot angry when I handed my \\8e\\87\\12\\8d\nto some outsiders. I can't stand being\ncontrolled by Omuzaneiru like this! This\nrealm used to be our realm you know!\nI wish someone would get rid of Omuzaneiru!"
   Comments: ''
 - Japanese: "\\8b\\cfマッドマン<br>「ほんとだなっす！?<br> オレっちら助かるだなっす！?<br> そしたら、アンタには<br> <span class=\"red\">\\87\\11</span>をやるだなっす！<br> これを持ってると、星のフリを<br> して、<span class=\"red\">星の洞窟・ラキューオ</span>に<br> 入れるんだなっす。<br> <span class=\"red\">星の洞窟・ラキューオ</span>のどこかに<br> <span class=\"red\">闇の大精霊・ブラックカラント</span>が<br> いるんだなっす。<br> <span class=\"red\">ブラックカラント</span>から、<br> <span class=\"red\">\\87\\12</span>をもらえば<br> <span class=\"red\">死の回廊</span>に行けるんだなっす。"
-  English: ''
+  English: "\\8b\\cfMudman\nReally!? Are we really saved!?\nIn that case, let me give you the\n\\8e\\87\\11\\8d! With this, you can\npretend to be a star and enter the\n\\8eStar Cavern, Arko\\8d. Somewhere\ninside the \\8eStar Cavern, Arko\\8d\nis the \\8eGreat Dark Spirit,\nBlackcurrant\\8d. After you receive\nthe \\8e\\87\\12\\8d from \\8eBlackcurrant\\8d,\nyou'll be able to go to the \\8eCorridor\nof Death\\8d."
   Comments: ''
 - Japanese: "\\8b\\cfマッドマン<br>「悲しいんだなっす。"
-  English: ''
+  English: "\\8b\\cfMudman\nI'm sad."
   Comments: ''
 - Japanese: "\\8b\\cfマッドマン<br>「オムザネイルさえいなければ<br> この町も平和なんだなっす。<br> 誰にでも<span class=\"red\">\\87\\11</span>を<br> あげてたころのように<br> もどれるんだなっす。"
-  English: ''
+  English: "\\8b\\cfMudman\nThis village would be nice and peaceful\nif only Omuzaneiru were gone. If he were\ngone, we'd be able to freely give anyone\n\\8e\\87\\11\\8ds. "
   Comments: ''
 - Japanese: "\\8b\\cfマッドマン<br>「助かったんだなっす。<br> <span class=\"red\">\\87\\11</span>をあげるんだ<br> なっす。<br> これがあれば、星のフリして<br> <span class=\"red\">星の洞窟・ラキューオ</span>に入れ<br> るんだなっす。<br> <span class=\"red\">ラキューオ</span>には、<span class=\"red\">闇の大精霊・<br> ブラックカラント</span>がいるんだ<br> なっす。<br> <span class=\"red\">ブラックカラント</span>に<br> <span class=\"red\">\\87\\12</span>をもらえば、<br> <span class=\"red\">死の回廊</span>に入れるんだなっす。"
-  English: ''
+  English: "\\8b\\cfMudman\nYou saved us. Here's a \\8e\\87\\11\\8d.\nWith this, you can pretend to be a star\nand enter the \\8eStar Cavern, Arko\\8d.\nSomewhere inside the \\8eStar Cavern, Arko\\8d\nis the \\8eGreat Dark Spirit,\nBlackcurrant\\8d. After you receive\nthe \\8e\\87\\12\\8d from \\8eBlackcurrant\\8d,\nyou'll be able to go to the \\8eCorridor\nof Death\\8d."
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\87\\11</span>をもらった！"
-  English: ''
+  English: "\nReceived \\8e\\87\\11\\8d!"
   Comments: ''
 - Japanese: "\\8b\\cfマッドマン<br>「<span class=\"red\">闇の大精霊</span>は、星を全部<br> 消さないと見えないんだなっす。<br> 星は死んだ人の魂なんだなっす。<br> 聖者や英雄は、<span class=\"red\">ラキューオ</span>で、<br> 星に生まれ変わるんだなっす。<br> うまれたばかりの星は、とまどっ<br> ているから、やさしく声をかけて<br> あげるといいんだなっす。<br> 「あなたは、新しいプレーンの<br>  主になりました。」と言って<br> あげるといいんだなっす。<br> いや、口に出さなくとも、<br> 心にその気持ちがあるだけで<br> いいんだなっす。<br> そうすると、星は自分の立場に<br> 気がついて、空へ上がって行く<br> んだなっす。<br> とにかく、<span class=\"red\">全ての星に声をかけて<br> あげる</span>ことだなっす。"
-  English: ''
+  English: "\\8b\\cfMudman\nYou have to get rid of all\nthe stars before you'll be able\nto see the \\8eGreat Dark Spirit\\8d.\nStars are the souls of people who\nhave died. Heroes and saints are\nreborn into stars at \\8eArko\\8d.\nStars that have just been reborn are\nin a bit of a daze, so talk to them\ngently. Say something along the lines\nof, \"You belong to a new realm now\".\nYou don't even have to say it if you\nfeel it strongly enough in your heart.\nIf you do that, the star will realize\nwhere it must go and ascend. In summary,\nmake sure you \\8etalk to each and every\nstar\\8d."
   Comments: ''
 - Japanese: "\\8b\\cfマッドマン<br>「オムザネイルは、ずっと西の<br> <span class=\"red\">ピラミッド</span>にいるだなっす。<br> オムザネイルを倒してきて<br> ほしいんだなっす。"
-  English: ''
+  English: "\\8b\\cfMudman\nOmuzaneiru is in the \\8epyramid\\8d\nto the west. Could you go and defeat\nhim for us?"
   Comments: ''
 - Japanese: "\\8b\\cfマッドマン<br>「オレっちら、土から生まれたんだ<br> なっす。<br> 人間も星もみんな、土から<br> 生まれるんだなっす。<br> ちがう?"
-  English: ''
+  English: "\\8b\\cfMudman\nWe're born from mud. Humans and stars\ntoo are born from mud. Right?"
   Comments: ''
 - Japanese: "\\8b\\cfマッドマン<br>「大地に耳をあてると、星の<br> 歴史がわかるんだなっす。"
-  English: ''
+  English: "\\8b\\cfMudman\nIf you press your ear against the\nground, you'll understand the planet's\nhistory."
   Comments: ''
 - Japanese: "\\8b\\cfマッドマン<br>「オレっちは、この星の小さな<br> サイボーの一つなんだなっす。<br> 星の中で生まれ、星の中で<br> 死ぬ、小さなサイボーなんだ<br> なっす。<br> 鳥も、動物も、人間も、木も、<br> 石も、やさしさも、にくしみも、<br> 小さなサイボーなんだなっす。"
-  English: ''
+  English: "\\8b\\cfMudman\nWe're but a small clump of cells\non this planet. We're a small clump\nof cells that is born and dies on this\nplanet.\nBirds, animals, humans, trees, stones,\nkindness, and hatred are all just tiny\nclumps of cells."
   Comments: ''
 - Japanese: "\\8b\\cfマッドマン<br>「オレっちら、一生を終えることを<br> 死ぬとは言わないんだなっす。<br> 星にかえると言うんだなっす。<br> カラダも、ココロも、星にとけて<br> もどって行くんだなっす。"
-  English: ''
+  English: "\\8b\\cfMudman\nWe don't say that we die when our\nlife is over. We say that we're\nturning back into the planet. Our\nbody and our soul melt back into\nthe planet."
   Comments: ''
 - Japanese: "\\8b\\cfマッドマン<br>「オレっちらもう、生きる死ぬとは<br> かけはなれてるんだなっす。<br> だから、死のプレーンにいても<br> 自然体なんだなっす。"
-  English: ''
+  English: "\\8b\\cfMudman\nWe've distanced ourselves from\nlife and death. That's why we're\nso relaxed even in the Abyssal\nRealm."
   Comments: ''
 - Japanese: "\\8b\\cfマッドマン<br>「この宇宙には、いろんな<br> プレーンがあるんだなっす。<br> 魔法使いたちはやがて、それぞれ<br> のプレーンが、天空の星にあると<br> 気がつくんだなっす。<br> そして、それからずっと先に<br> なると、星が魂の火だと気がつく<br> んだなっす。<br> そして、さらにずっと先になって<br> 星が、未来の自分だと気がつく<br> んだなっす。<br> そしてプレーンを生み出している<br> のは自分だと言うことに気づき、<br> 最後に、自分が宇宙であることを<br> さとるんだなっす。<br> その時、あらゆる魔法が使える<br> ようになるんだなっす。"
-  English: ''
+  English: "\\8b\\cfMudman\nThere's a lot of realms in this\nuniverse. Wizards from the past\nrealized that the stars in the sky\nare different realms. After that,\nthey realized that the stars in the\nsky are our souls. And after even\nthat, they realized that the stars\nin the sky are our future selves.\nAnd then they realized that when a\nnew realm is born, it is they that\nare born. Finally, they were\nenlightened. They understood that they\nwere the universe.\nAt that point, they became able to\nuse all the magic in the universe."
   Comments: ''
 - Japanese: "\\8b\\cfマッドマン<br>「目を閉じると、星が見えるんだ<br> なっす。<br> まるで、まばたきするたびに<br> 宇宙を生み出しているみたい<br> だなっす。"
-  English: ''
+  English: "\\8b\\cfMudman\nIf you close your eyes, you can\nsee the stars.\nIt's almost as if every time you\nblink, a new universe is being born."
   Comments: ''
 - Japanese: "\\8b\\cfマッドマン<br>「草が生えるのは<br> うれしいんだなっす。<br> その草に、虫や鳥が来るのは<br> もっとうれしいんだなっす。"
-  English: ''
+  English: "\\8b\\cfMudman\nI'm happy that grass grows. I'm\neven happier when birds and\ninsects flock to the grass."
   Comments: ''
 - Japanese: "\\8b\\cfマッドマン<br>「水面にうつった太陽が<br> 太陽で無いとしたら、<br> 砂の上に書いた太陽が<br> 太陽でないとしたら、<br> 空にうつった太陽も<br> 太陽じゃないんだなっす。"
-  English: ''
+  English: "\\8b\\cfMudman\nIf we accept that the sun\nreflected in the water is not\nthe sun, and we accept that the\nsun written in the sand is not\nthe sun, then the sun in the sky\nis also not the sun."
   Comments: ''
 - Japanese: "\\8b\\cfマッドマン<br>「<span class=\"red\">星の洞窟</span>は、<span class=\"red\">ピラミッド</span>の<br> ちょっと先なんだなっす。<br> 死んでしまった魂は、<br> 生き物として生まれ変わらずに<br> 星として生まれ変わることが<br> あるんだなっす。"
-  English: ''
+  English: "\\8b\\cfMudman\nThe \\8eStar Cavern\\8d is just a bit\nfurther on ahead from the \\8epyramid\\8d.\nSouls that have died aren't reborn as\nliving beings but are reborn as stars."
   Comments: ''
 - Japanese: "\\8b\\cfマッドマン<br>「星が全て、天空へ消えたとき<br> 闇の大精霊が現れるんだなっす。"
-  English: ''
+  English: "\\8b\\cfMudman\nWhen each and every star has ascended\ninto the sky, the Great Dark Spirit will\nappear."
   Comments: ''
 - Japanese: "\\8b\\cfマッドマン<br>「魔法を極めれば‥‥‥<br> 一つのプレーンすら<br> 作れるようになるんだなっす。"
-  English: ''
+  English: "\\8b\\cfMudman\nIf you master magic...\nyou would be able to create new\nrealms."
   Comments: ''
 - Japanese: "\\8b\\cfマッドマン<br>「サービス満点。<br> 宿屋なんだなっす。<br> <span class=\"red\">５ブラー</span>で泊まれるんだなっす。"
-  English: ''
+  English: "\\8b\\cfMudman\nWelcome to our 5 star hotel.\nYou can stay the night for \\8e5 bura\\8d."
   Comments: ''
 - Japanese: "\\8b\\cfマッドマン<br>「お金がたりないんだなっす。"
-  English: ''
+  English: "\\8b\\cfMudman\nYou don't have enough money."
   Comments: ''
 - Japanese: "\\8b\\cfマッドマン<br>「また来るんだなっす。"
-  English: ''
+  English: "\\8b\\cfMudman\nPlease come again."
   Comments: ''
 - Japanese: ''
   English: ''

@@ -95,6 +95,7 @@ Place names:
 モギナスの魔窟 -- Drazzig Grotto (gizzard backwards)
 ガスパチ -- Gazpacho  
 コヴォマカ -- Okobamak (kamaboko backwards)
+ラキューオ -- Arko (Okra backwards)
 
 People names:
 ギュウヒ・オグラ -- Bun Patti
