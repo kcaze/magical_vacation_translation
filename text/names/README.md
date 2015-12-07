@@ -214,6 +214,7 @@ Monster names:
 スウィーティ -- Sweety?
 パラダック -- Paradux
 タルタルちゃん -- Tartar Terrier
+ブッチーネ3世 -- Buccine III (Italian for conches)
 
 ザフロピーク
 

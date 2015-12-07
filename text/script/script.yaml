@@ -12233,10 +12233,10 @@
   English: "\\8b\\11\\86\\07\nOh my, how dangerous!\nYou must be careful not to get hurt!"
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「ペシュもいっしょに来るっぴ！！<br> オイラ、このメンツじゃ<br> ちょっと心配だっぴ！！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\nPeche, come with us! With only\nthis few people, I'm a bit worried!"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「しょうがありませんの。<br> 行ってあげますの。"
-  English: ''
+  English: "\\8b\\11\\86\\07\nIf you insist. I'll go with\nyou."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「６人いるから平気だっぴ！！<br> 何もこわくないっぴ！！"
   English: "\\8b\\18\\86\\0e\nWe'll be fine since there's 6\nof us! There's nothing to be\nafraid of!"
@@ -12347,13 +12347,13 @@
   English: "\\8b\\15\\86\\0b\nI see, sounds fun.\nBut, I'm not interested.\nI'm going to be here by myself,\nsinging the song of the sea.\nThe song that be sung nowhere else."
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「洞窟かぁ。<br> いいなぁ。<br> \\85\\0~。<br> ボクも行っていいよね?"
-  English: ''
+  English: "\\8b\\15\\86\\0b\nA cave huh. Sounds nice.\n\\85\\00, can I go too?"
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「そうこなくっちゃ！"
-  English: ''
+  English: "\\8b\\15\\86\\0b\nRight on!"
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「ちぇっ！<br> つまんないの！"
-  English: ''
+  English: "\\8b\\15\\86\\0b\nTch! You're no fun."
   Comments: ''
 - Japanese: ''
   English: ''
@@ -12449,76 +12449,76 @@
   English: "\\8b\\18\\86\\0e\n...is what I thought but there's\nno way there are vipers or\nmongooses here on the coast.\nI'll just take my time and work out\na plan."
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「フンッ！！<br> シンコクなカオしやがって！！<br> キルシュのアニキのほうが<br> １００倍イカしてるぜ！！"
-  English: ''
+  English: "\\8b\\1a\\86\\10\nHmph! You're being all serious!\nKirsche, your brother's a hundred\ntimes cooler!"
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「ここだ‥‥‥‥"
-  English: ''
+  English: "\\8b\\10\\86\\06\nHere it is..."
   Comments: ''
 - Japanese: "\\8b\\19\\86\\f<br>「何かわかるの‥‥‥‥?"
-  English: ''
+  English: "\\8b\\19\\86\\0f\nDid you figure something out...?"
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「近づかないほうがいい。<br> ここはヤバすぎる‥‥‥。"
-  English: ''
+  English: "\\8b\\10\\86\\06\nWe better not get close to it.\nThis place is dangerous..."
   Comments: ''
 - Japanese: "\\8b\\19\\86\\f<br>「いったい、何があるの‥‥‥?"
-  English: ''
+  English: "\\8b\\19\\86\\0f\nWhat exactly is here...?"
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「闇‥‥‥‥。<br> はてしない、暗闇が‥‥‥‥。"
-  English: ''
+  English: "\\8b\\10\\86\\06\nDarkness...\nDarkness that never ends..."
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「どけよ、ガナッシュ！！<br> オレが見つけた穴だぞ！！"
-  English: ''
+  English: "\\8b\\1a\\86\\10\nOutta the way, Ganache!\nI found this cave first!"
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「オリーブ‥‥‥‥<br> こんなとこで、何してるのよ！<br> ニ人だけで別行動なんて<br> 良くないと思わないのっ！?"
-  English: ''
+  English: "\\8b\\0f\\86\\05\nOlive...\nWhat are you doing here!?\nI don't think you two should be\nmoving about on your own!"
   Comments: ''
 - Japanese: "\\8b\\19\\86\\f<br>「えっ！?<br> 私！?"
-  English: ''
+  English: "\\8b\\19\\86\\0f\nHuh!? Me!?"
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「行くんだったら、カクゴを<br> 決めろよ、セサミ。<br> 何が出るかわからないぜ。"
-  English: ''
+  English: "\\8b\\10\\86\\06\nIf you're going, you better brace\nyourself, Sesame. Something might\njust jump out of the shadows."
   Comments: ''
 - Japanese: "\\8b\\1a\\86\\10<br>「おどかすなよ‥‥‥‥。<br> ビビるじゃねぇか‥‥‥‥。"
-  English: ''
+  English: "\\8b\\1a\\86\\10\nDon't try to scare me...\nI'm not afraid..."
   Comments: ''
 - Japanese: "\\8b\\19\\86\\f<br>「気をつけてね‥‥‥‥。"
-  English: ''
+  English: "\\8b\\19\\86\\0f\nBe careful then..."
   Comments: ''
 - Japanese: "\\8b\\19\\86\\f<br>「洞窟の中にあるのは<br> 闇じゃないわ‥‥‥。<br> ガナッシュは洞窟じゃなくて、<br> 自分の心の中を見たのよ<br> ‥‥‥‥。"
-  English: ''
+  English: "\\8b\\19\\86\\0f\nIt's not darkness that's inside\nthe cave...\nWhat Ganache was looking at wasn't\nthe inside of the cave, it was the\ninside of his heart..."
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「この海岸に来て、<br> ずっと感じてる。<br> ここに、オレがこえなければ<br> いけないものがあるって。"
-  English: ''
+  English: "\\8b\\10\\86\\06\nI've felt it ever since we arrived\nat the beach. That there's something\nwe must overcome here."
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「それはちょっと危険なことじゃ<br> ありませんの！?"
   English: "\\8b\\11\\86\\07\nIsn't that a little dangerous?"
   Comments: ''
 - Japanese: "\\8b\\c\\86\\2<br>「オレ、いま、<br> すげぇ ドキドキしてるよ。<br> なんか出るんじゃないか?<br> マジで。"
-  English: ''
+  English: "\\8b\\0c\\86\\02\nI'm so nervous right now.\nDon't you think something'll just\nappear? Seriously."
   Comments: ''
 - Japanese: "\\8b\\d\\86\\3<br>「ブキミなところね‥‥‥‥。<br> 来なければ良かった。<br> 足がふるえちゃう。"
-  English: ''
+  English: "\\8b\\0d\\86\\03\nIt's creepy here...\nI shouldn't have come.\nMy legs are shaking."
   Comments: ''
 - Japanese: "\\8b\\e\\86\\4<br>「う――――<br> こわい――――。"
-  English: ''
+  English: "\\8b\\0e\\86\\04\nIt's scary here..."
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「はははは<br> なんてことないよ！<br> ただの洞窟だ！<br> やっほ――――！"
-  English: ''
+  English: "\\8b\\0f\\86\\05\nHahaha! You got me all worked up!\nIt's just a cave! Yahoo!"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「ブキミですの‥‥。<br> 何か出るかも知れませんの‥‥。"
-  English: ''
+  English: "\\8b\\11\\86\\07\nIt's creepy here...\nIt feels like something might jump\nout at you..."
   Comments: ''
 - Japanese: "\\8b\\12\\86\\8<br>「イヤな空気だ‥‥‥。<br> 体にまとわりつくよう‥‥‥。"
-  English: ''
+  English: "\\8b\\12\\86\\08\nThere's something about the air\nhere...\nLike it's wrapping itself around\nyou..."
   Comments: ''
 - Japanese: "\\8b\\13\\86\\9<br>「ドキドキしてきたヌ~。<br> ハートがハレツしそうだヌ~。<br> 体が、ふ、ふ、ふ、ふ、<br> ふるえるヌ~。"
-  English: ''
+  English: "\\8b\\13\\86\\09\nI'm getting really nervous.\nMy heart feels like it's about\nto explode. And my body's\ns-s-s-s-shaking."
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「なんにもねぇよ！<br> セサミ少年！<br> あるのは、よどんだ空気だけ。<br> 気がめいるだけだー。"
-  English: ''
+  English: "\\8b\\14\\86\\0a\nThere's nothing here at all!\nSesame! All that's here is\nstagnant air and water. It's\ngloomy in here."
   Comments: ''
 - Japanese: "\\8b\\15\\86\\b<br>「大地はなぜ、光を<br> とざすんだろう。<br> 大地が、ボクらから<br> かくさなきゃいけないモノって<br> なんなんだろうね‥‥‥。<br> お宝なのか‥‥‥‥、<br> 死の恐怖なのか‥‥‥‥。"
-  English: ''
+  English: "\\8b\\15\\86\\0b\nI wonder why caves don't let in\nlight. What is it that caves are\ntrying to hide from us...?\nIs it treasure or is it...\nthe fear of death...?"
   Comments: ''
 - Japanese: "\\8b\\11\\86\\7<br>「私のチュウコクをムシする<br> つもりですのね！<br> ひどい人たちですの！"
   English: "\\8b\\11\\86\\07\nYou plan on ignoring my warning\ndon't you!\nYou awful people!"
@@ -12542,40 +12542,44 @@
   English: "\\8b\\19\\86\\0f\nI'm feeling uneasy about this...\nI hope the things Cassis said don't\nactually happen..."
   Comments: ''
 - Japanese: "\\8b\\18\\86\\e<br>「カシスがクルクルまわって<br> ないっぴ！！"
-  English: ''
+  English: "\\8b\\18\\86\\0e\nCassis isn't spinning around!"
   Comments: ''
 - Japanese: "\\8b\\14\\86\\a<br>「いいじゃねぇかよ。<br> 気にするなよ。"
-  English: ''
+  English: "\\8b\\14\\86\\0a\nIt's fine. Don't sweat it."
   Comments: ''
 - Japanese: "\\8b\\38ブッチーネ３世<br>「<i>オマエらがここに来ることは<br> わかってたんだ。<br> ヤセイのカンってヤツよ。<br> 待ってたぜよ。<br> ドワーフからヘンな機械を<br> うばって来たぜよ。<br> 今日という今日こそは、<br> イタイ目にあわせてくれる<br> ぜよ―――――――ッ！！</i>"
-  English: ''
+  English: "\\8b\\38Buccine III\nI knew that you would come here.\nIt's my wild instinct. I've been\nwaiting for you. I'm here to steal\nthe weird machine from the dwarfs.\nToday, I'm going to really make you\nhurt!"
   Comments: ''
 - Japanese: '  マジックドールが一体だけ<br>  まだ使えそうだ！<br>  連れて行きますか?'
-  English: ''
+  English: |-
+    There's still one Magic Doll that
+    looks usable! Take it with you?
   Comments: ''
 - Japanese: '  MD０３－マッケレルが<br>  仲間になった！'
-  English: ''
+  English: |-
+    MD-03 Mackerel joined the
+    party!
   Comments: ''
 - Japanese: "\\8b\\38ブッチーネ３世<br>「<i>くるくるくるくる‥‥<br> くるくるくるくる‥‥</i>"
-  English: ''
+  English: "\\8b\\38Buccine III\nRound and round and round...\nround and round and round..."
   Comments: ''
 - Japanese: "\\8b\\2aガーディアン<br>「テキハッケン‥‥‥‥！！<br> テキハッケン‥‥‥‥！！<br> ハイジョスル‥‥‥‥！！<br> ハイジョスル‥‥‥‥！！"
-  English: ''
+  English: "\\8b\\2aGuardian\nEnemy detected!\nEnemy detected!\nCommencing extermination!\nCommencing extermination!"
   Comments: ''
 - Japanese: '  MD０１－ターニィが<br>  仲間になった！'
-  English: ''
+  English: 'MD-01 Tuna joined the party!'
   Comments: ''
 - Japanese: "\\8b\\2aガーディアン<br>「キンキュウジタイ‥‥‥‥！！<br> キンキュウジタイ‥‥‥‥！！<br> ヤラレタ‥‥‥‥！！<br> ヤラレチャッタ‥‥‥‥！！<br> ハハハ‥‥‥‥！！<br> ハハハハハ‥‥‥‥！！"
-  English: ''
+  English: "\\8b\\2aGuardian\nEmergency!\nEmergency!\nGuardian down!\nGuardian defeated!\nHahaha...\nHahahahahaha!"
   Comments: ''
 - Japanese: ''
   English: ''
   Comments: ''
 - Japanese: "\\8b\\13\\86\\9<br>「<span class=\"red\">オレがパーティにいると、<br> カエルグミがとれない</span>ヌ~。<br> 足手まといかもしれないけど<br> よろしくたのむヌ~。"
-  English: ''
+  English: "\\8b\\13\\86\\09\n\\8eWhen I'm in the party, gummy\nfrogs can't be caught\\8d. I might\nbe a burden on you, but let's try\nto work together."
   Comments: ''
 - Japanese: "\\8b\\19\\86\\f<br>「ミミズの穴から出てくる<br> モンスターで苦労してない?<br> <span class=\"red\">私がいれば、ミミズの穴から<br> モンスターが出てこない</span>ように<br> してあげられるわ。<br> よろしくね。"
-  English: ''
+  English: "\\8b\\19\\86\\0f\nFretting over monsters that jump out of\nworm holes? \\8eWith me around, monsters\nwon't appear from worm holes anymore\\8d."
   Comments: ''
 - Japanese: ''
   English: ''
@@ -12596,10 +12600,10 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\a6ピラニア<br>「しゅしょーな心がけだな。<br> これをやるよ。"
-  English: ''
+  English: "\\8b\\a6Piranha\nAdmirable. Here, take this."
   Comments: ''
 - Japanese: '<br>  <span class="red"></span>をもらった！！'
-  English: ''
+  English: 'Received <CC?>!'
   Comments: ''
 - Japanese: ''
   English: ''
@@ -12623,58 +12627,58 @@
   English: ''
   Comments: ''
 - Japanese: "\\8b\\cbポット族の長<br>「とりあえず、これをあげよう。<br> 便利なように、<span class=\"red\">ガスパチョ村</span>は<br> すでに登録しておいたよ。"
-  English: ''
+  English: "\\8b\\cbChief Pot\nAnyhow, let me give you this. And\nfor your convenience, \\8eGazpacho\nVillage has already been registered\n\\8d."
   Comments: ''
 - Japanese: "<br>  <span class=\"red\">\\87\\10</span>をもらった！！"
-  English: ''
+  English: "\nReceived \\8e\\87\\10\\8d!"
   Comments: ''
 - Japanese: "\\8b\\cfマッドマン<br>「ケルレンドゥ?<br> エニグマ?<br> それなら、きっと<br> <span class=\"red\">モギナスの魔窟</span>だなっす。<br> ヤツらは、せっかちだから、<br> すぐ死のプレーンから<br> 出て行くんだなっす。<br> 死のプレーンに来た者はみんな、<br> <span class=\"red\">モギナスの魔窟</span>を通って<br> 生まれ変わるんだなっす。"
-  English: ''
+  English: "\\8b\\cfMudman\nKerendu?\nEnigma?\nIf that's what you're after, I'm\nsure you'll find them in \\8eDrazzig\nGrotto\\8d. They're impatient so they\ntry to leave the Abyssal Realm as soon\nas possible. Everyone who comes to the\nAbyssal Realm to be reborn must pass\nthrough the \\8eDrazzig Grotto\\8d."
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「ありがとう。<br> いそがないとまた、どこかに<br> 生まれ変わるってことだな。"
-  English: ''
+  English: "\\8b\\10\\86\\06\nThank you. If you're not in a\nhurry, let's rebirth sometime\nsomewhere."
   Comments: ''
 - Japanese: "\\8b\\cfマッドマン<br>「でも、死者でないと<span class=\"red\">死の回廊</span>を<br> 超えられないんだなっす。<br> オレたち、死者じゃないけど<br> <span class=\"red\">\\87\\12</span>を持ってるから、<br> <span class=\"red\">死の回廊</span>に入れるんだなっす。<br> オレたち、<span class=\"red\">死の回廊</span>には<br> めったに行かないから、<br> オマエにやるんだなっす。"
-  English: ''
+  English: "\\8b\\cfMudman\nBut, those who aren't dead can't\npass through the \\8eCorridor\nof Death\\8d. We're not dead but\nbecause we have a \\8e\\87\\12\\8d, we\ncan enter the \\8eCorridor of Death\\8d.\nWe rarely go to the there though so\nyou guys can have it."
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「かたじけない。"
-  English: ''
-  Comments: ''
+  English: "\\8b\\10\\86\\06\nGramercy."
+  Comments: "Archaic way of saying \"thank you\". Perhaps it's a bit too obscure a word though..."
 - Japanese: "\\8b\\f\\86\\5<br>「ねぇ、ガナッシュ‥‥‥"
-  English: ''
+  English: "\\8b\\0f\\86\\05\nHey, Ganache..."
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「あなたを壊したい。"
-  English: ''
+  English: "\\8b\\0f\\86\\05\nI want to destroy you."
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「オレを‥‥‥‥?<br> どうして‥‥‥‥?"
-  English: ''
+  English: "\\8b\\10\\86\\06\nDestroy me...?\nWhy...?"
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「ごめんなさい<br> ダメなの‥‥‥<br> <span class=\"red\">エニグマの森</span>で<br> 倒れてから、私の中に<br> 何かがいるの‥‥‥。<br> 自分を止められないの。<br> 私、あなたと戦いたい。<br> 全力でぶつかって来て！！<br> 力を見せて！！"
-  English: ''
+  English: "\\8b\\0f\\86\\05\nI'm sorry.\nI just...\nThere's been something inside of\nme ever since I fainted in \\8eEnigma\nForest\\8d...\nI can't stop myself.\nI want to fight you.\nCome at me with all that you've got!\nShow me your strength!"
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「いいよ。<br> でも今のオレじゃとても<br> キミの相手にはならない。"
-  English: ''
+  English: "\\8b\\10\\86\\06\nVery well.\nBut right now, I'm no match\nfor you."
   Comments: ''
 - Japanese: "\\8b\\f\\86\\5<br>「ガナッシュが‥‥‥?<br> まさか‥‥‥?"
-  English: ''
+  English: "\\8b\\0f\\86\\05\nYou're no match for me...?\nYou mean...?"
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「キミはもう、学校にいたころの<br> キャンディじゃないんだ。<br> オレがケルレンドゥと融合して<br> から、思いっきりぶつかろう。<br> それじゃダメかい?"
-  English: ''
+  English: "\\8b\\10\\86\\06\nYou're already the Candy that was\nat school. After I fuse with Kerendu,\nwe'll duke it out to our hearts'\ncontent. Is that not okay with you?"
   Comments: ''
 - Japanese: "\\8b\\a8ヴァニラ<br>「ねぇ、ガナッシュ。<br> グラン・ドラジェと私、<br> １対１ならどっちが強いと思う?"
-  English: ''
+  English: "\\8b\\a8Vanilla\nHey, Ganache. If Principal Biscotti\nand I fought 1 on 1, who do you think\nwould win?"
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「おそらく姉さんでは<br> グラン・ドラジェに勝てないよ。"
-  English: ''
+  English: "\\8b\\10\\86\\06\nSister, I'm afraid you wouldn't be\nable to defeat Principal Biscotti."
   Comments: ''
 - Japanese: "\\8b\\a8ヴァニラ<br>「うふふ‥‥‥。<br> 今の私は、アナタと五分の<br> 戦いをやってたころの<br> 私じゃないのよ。<br> ためしてみる?"
-  English: ''
+  English: "\\8b\\a8Vanilla\nHeh...\nI'm no longer the Vanilla that\ncouldn't last 5 minutes against you\nanymore. Care to try?"
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「やめなよ。<br> 姉さんはオレには勝てない。<br> わかったんだ。<br> 勝つってことの意味が。"
-  English: ''
+  English: "\\8b\\10\\86\\06\nStop it. You wouldn't be able to\nbeat me. You don't understand what\nit means to win."
   Comments: ''
 - Japanese: "\\8b\\a8ヴァニラ<br>「くっくっくっく‥‥‥<br> 言うようになったわね‥‥‥。<br> わからないの、ガナッシュ。<br> 私から見れば、あなたもグラン・<br> ドラジェも、同じ虫ケラよ。<br> ひねりつぶすのに<br> 何のためらいもないわ。"
-  English: ''
+  English: "\\8b\\a8Vanilla\nHahaha...\nYour tongue's grown sharp...\nYou don't get it, Ganache.\nYou and Principal Biscotti and\neveryone else are all insects to me.\nI wouldn't hesitate to squash you\nall."
   Comments: ''
 - Japanese: "\\8b\\10\\86\\6<br>「やってみなよ。<br> オレに勝てるんだったら。<br> オレがボロくずみたいに、ここに<br> 倒れるのが、姉さんにとっての<br> 勝ちだって言うなら<br> やってみなよ。"
   English: ''
