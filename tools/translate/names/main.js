@@ -14,7 +14,7 @@ function readJSON(e) {
     document.getElementById('section').disabled = false;
     document.getElementById('number').disabled = false;
     document.getElementById('export_json').disabled = false;
-    document.getElementById('export_binary').disabled = false;
+    //document.getElementById('export_binary').disabled = false;
 
     document.getElementById('max_number').innerHTML = names[0].length - 1;
     document.getElementById('number').max = names[0].length - 1;
