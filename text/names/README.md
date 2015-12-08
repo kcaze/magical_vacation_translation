@@ -5,7 +5,7 @@ Names are fixed width, each taking up exactly 16 bytes.
 
 0x0000008 = N/A
 0x000000C = N/A
-0x000003C = Monster attacks (0x08226FB8)
+0x000003C = Physical attacks (0x08226FB8)
 0x0000390 = Item names (0x0822730C)
 0x0001394 = Status effects (0x08228310)
 0x00014C8 = Spell names (0x08228444)
@@ -17,6 +17,37 @@ Names are fixed width, each taking up exactly 16 bytes.
 0x0003730 = Element names (0x0822A6AC)
 0x0003854 = Place names (0x0822A7D0)
 0x0005478 = Ranking names [on the report card] (0x0822C3F4)
+
+Name hacking
+============
+In the menu:
+  Names MUST end in 0xFFFF? The 0xFFFF is used at 0x080BEE66 to compute the length
+  of a name.
+
+  0x080BD5C4 is a small subroutine to compute the beginning address for a name. We
+  need to modify this to compute the address properly since each name takes up 32
+  bytes and not 16 bytes.
+
+In battle:
+  Lots of places need to be modified to shift by 5 instead of 4 since each name
+  takes up 32 bytes.
+    0x08016DC0 -- Spell names
+    0x08016DE8 -- Item names
+    0x080157E6 -- Physical attack names
+
+
+
+
+
+
+Old
+====
+We need to hack things to extend it so that each name is 32 bytes long instead.
+80BD5C4 is a small subroutine to compute the beginning address for a name.
+80B5D48
+80bee90
+
+0x080BEDE4 is used to compute the length a name, returning the length in r2.
 
 
 Character Names

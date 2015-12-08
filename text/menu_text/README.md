@@ -7,8 +7,8 @@ of each section to give indices for the beginning of words.
 0x00000010 = N/A
 0x00000048 = Menu text offset table (0x087C229C)
 0x00000370 = Menu text (0x087C25C4)
-0x00001F3C = Item descriptions offset table (0x087C4190)
-0x00002374 = Item descriptions (0x087C45C8)
+0x00001F3C = Explanations [解説] offset table (0x087C4190)
+0x00002374 = Explanations [解説] (0x087C45C8)
 0x000091DC = Magic notebook offset table (0x087CB430)
 0x0000927C = Magic notebook (0x087CB4D0)
 0x0000B188 = Profiles offset (0x087CD3DC)
