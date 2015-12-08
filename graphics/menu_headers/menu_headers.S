@@ -6,10 +6,10 @@
 ; Include binary files for graphics and data structures ;
 ;-------------------------------------------------------;
 .org 0x087910A0
-.incbin graphic_hacks/menu_headers/menu_text.bin
+.incbin graphics/menu_headers/menu_text.bin
 
 .org 0x080C31B8
-.incbin graphic_hacks/menu_headers/menu_text_info.bin
+.incbin graphics/menu_headers/menu_text_info.bin
 
 ;--------------------------------------------;
 ; Update the x-coordinate for compound words ;

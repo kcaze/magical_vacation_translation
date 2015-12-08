@@ -11,7 +11,7 @@
 
 ; Insert translated menu text.
 .org 0x087C229C
-.incbin text/menu_text/menu_text.bin
+.incbin text/menu/menu_text.bin
 
 ; Insert translated item names.
 .org 0x087DFA50

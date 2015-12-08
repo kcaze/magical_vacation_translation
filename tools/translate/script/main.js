@@ -137,6 +137,9 @@ function parseEnglish(english) {
     }
     parsed.push(curr.charCodeAt(0));
   }
+  // Append EOS character.
+  parsed.push(0x1F);
+  parsed.push(0x00);
   return parsed;
 }
 

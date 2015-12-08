@@ -2,6 +2,18 @@
 .gba
 .open "hacked.gba", 0x08000000
 
+;------------------------------------------------;
+; First character starts 5 tiles in instead of 4 ;
+;------------------------------------------------;
+.org 0x0800BDB2
+mov r0, 0x05
+
+;--------------------------------------------;
+; Newlines indent to 5 tiles in instead of 4 ;
+;--------------------------------------------;
+.org 0x0800BA64
+mov r1, 0x05
+
 ;-----------------------------------------------------;
 ; Change script to read 1 byte at a time instead of 2 ;
 ;-----------------------------------------------------;
@@ -127,6 +139,15 @@ draw_glyph_begin:
   mov r0, r8
   mov r7, 0xFF
   and r0, r7
+
+  ; Handle EOS (0x1F) character
+  cmp r0, 0x1F
+  bne not_eos
+  ldr r7, =0x0203FFF0
+  mov r0, 0x00
+  str r0, [r7]
+  b return
+  not_eos:
 
     ;-------------------------------------------------
     ; r0 = Base address of current glyph to draw.
