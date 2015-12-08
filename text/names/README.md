@@ -37,11 +37,10 @@ In battle:
 
 
 
+--------------------------------------------------------------------------------
+EVERYTHING BELOW IS OLD AND DEPRECATED
+--------------------------------------------------------------------------------
 
-
-
-Old
-====
 We need to hack things to extend it so that each name is 32 bytes long instead.
 80BD5C4 is a small subroutine to compute the beginning address for a name.
 80B5D48

@@ -1,0 +1,49 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Magical Viewer</title>
+  <style>
+    body {
+      font-family: monospace;
+    }
+  </style>
+</head>
+<body>
+  <h1>Viewer</h1>
+
+  <p>
+    <label>ROM:</label>
+    <input type="file" id="rom"/>
+  </p>
+  <p>
+    <label>Offset:</label>
+    <input id="offset" value="0" type="number" min="0" max="1073741824" step="1"/>
+  </p>
+  <p>
+    <label>Length:</label>
+    <input id="length" value="0" type="number" min="0" max="1073741824" step="1"/>
+  </p>
+
+  <table>
+    <tr>
+      <td width=500>
+        <h2>Hex</h2>
+      </td>
+      <td width=500>
+        <h2>Glyphs</h2>
+      </td>
+    </tr>
+    <tr>
+      <td width=500>
+        <pre id="original"></pre>
+      </td>
+      <td width=500>
+        <pre id="tabled"></pre>
+      </td>
+    </tr>
+  </table>
+
+  <script src="/tools/lib/table.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
