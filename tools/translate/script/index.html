@@ -48,12 +48,12 @@
 <body>
   <h1>Script Editor</h1>
   <p>
-    <label>Select JSON script file:</label>
+    <label>Select JSON file:</label>
     <input type="file" id="script"/>
   </p>
 
   <p>
-    <button disabled="true" id="export_script">Export script</button>
+    <button disabled="true" id="export_script">Export JSON</button>
   </p>
   <p>
     <button disabled="true" id="export_binary">Export binary</button>
@@ -98,7 +98,6 @@
   <p id="search_results">
   </p>
 
-  <script src="/tools/lib/js-yaml.js"></script>
   <script src="/tools/lib/FileSaver.js"></script>
   <script src="/tools/lib/table.js"></script>
   <script src="generateJapaneseScript.js"></script>
