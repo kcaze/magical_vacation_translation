@@ -3,25 +3,25 @@
 .gba
 .open "hacked.gba", 0x08000000
 
-;------------;
-; Item Names ;
-;------------;
-; We hack the item display subroutine a bit to allow for longer names.
-.org 0x0800BFC0
+;--------------------;
+; Item names in menu ;
+;--------------------;
+; Modify item name address calculation to multiply by 32 instead of 16.
+.org 0x080BD5C6
 lsl r1, r1, 0x05
+nop
 
-.org 0x0800BFD0
-add r1, 0x20
-
-.org 0x080BD5C8
-lsr r1, r1, 0x0B
-
-; Change check that glyph value < 0x0FFF to 0xFFFF
+; Disable check that aborts drawing if glyph value < 0x0FFF.
 .org 0x080B5DB2
 .word 0xFFFF0000 ; 0xFFFF0000 instead of 0x0000FFFF because of byte order
 
-; This inserts an 0xF for whatever reason so we're deleting that
-.org 0x80B5DEC
+; For some reason, the game writes an 0xF in the top nibble. Disabling that.
+.org 0x080B5DEC
+nop
+
+; In the name length calculation routine, disable truncation of length to 7
+.org 0x080BEE76
+nop
 nop
 
 .close

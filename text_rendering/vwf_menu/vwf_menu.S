@@ -42,14 +42,24 @@ mov r15, r0
 ; INVARIANTS: r5 = glyph value, r6 = RAM address 0x0203FFF4
 mov r5, r2
 ldr r6, =0x0203FFF4
-ldrb r3, [r6, 0x03]
-cmp r3, 0x00
-bne not_string
-; Update the tile index in RAM and set inside_string flag.
+
+mov r0, 0xFF
+and r2, r0
+cmp r2, 0x1F
+bne not_bos
+; Do some RAM setup on begin-of-string character, 0x1F
 strh r1, [r6, 0x00]
-mov r1, 0x01
-strb r1, [r6, 0x03]
-not_string:
+mov r0, 0x00
+strb r0, [r6, 0x02]
+; Clear the glyph data in RAM.
+mov r1, 0x00
+ldr r2, =0x0203692C
+clear_ram_loop_:
+  str r1, [r2, r0]
+  add r0, 0x04
+  cmp r0, 0x50
+  blt clear_ram_loop_
+not_bos:
 
 draw_glyph:
 ; Set r1 to the address of the first glyph
@@ -180,26 +190,6 @@ copy_remaining_data_loop:
   blt copy_remaining_data_loop
 
 no_carryover:
-
-mov r0, 0xFF
-mov r1, r5
-and r1, r0
-; Set flag on end-of-string character, 0x1F
-cmp r1, 0x1F
-bne not_eos
-mov r2, 0x00
-strh r2, [r6, 0x02]
-; Clear the RAM.
-mov r0, 0x00
-mov r1, 0x00
-ldr r2, =0x0203692C
-clear_ram_loop_:
-  str r1, [r2, r0]
-  add r0, 0x04
-  cmp r0, 0x50
-  blt clear_ram_loop_
-not_eos:
-
 
 lsr r5, r5, 0x08
 cmp r5, 0x00

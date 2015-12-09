@@ -52,7 +52,6 @@ index when we begin to draw a string.
 
 0x0203FFF4: index of tile to draw to (2 bytes)
 0x0203FFF6: offset to draw glyph (1 byte)
-0x0203FFF7: flag set to 0 if beginning of a string (1 byte)
 0x0203692C: 0xC0 bytes of RAM that can be used to store glyph data for
             RAM. We use the first 0x10 bytes for the 1bpp representation
             and the next 0x40 bytes for the 4bpp representation.

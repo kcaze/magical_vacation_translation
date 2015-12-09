@@ -3,6 +3,19 @@ var section = 0;
 var number = 0;
 var HEADER_LENGTH = 12006;
 var BINARY_SIZE = 0x6F46E;
+var section_names = [
+  'attacks',
+  'items',
+  'statuses',
+  'spells',
+  'monsters',
+  'characters',
+  'misc',
+  'spirits',
+  'elements',
+  'places',
+  'rankings'
+];
 
 function readJSON(e) {
   var file = e.target.files[0]; // FileList object
@@ -14,7 +27,7 @@ function readJSON(e) {
     document.getElementById('section').disabled = false;
     document.getElementById('number').disabled = false;
     document.getElementById('export_json').disabled = false;
-    //document.getElementById('export_binary').disabled = false;
+    document.getElementById('export_binary').disabled = false;
 
     document.getElementById('max_number').innerHTML = names[0].length - 1;
     document.getElementById('number').max = names[0].length - 1;
@@ -38,54 +51,33 @@ function exportJSON() {
   console.log('Exported names!');
 }
 
+// Exporting names at 32 bits per name.
 function exportBinary() {
-  var binary = new Uint8Array(BINARY_SIZE);
+  var binary = new Uint8Array(names[section].length*32);
+  for (var ii = 0; ii < names[section].length; ii++) {
+    // First write all 0xFF's.
+    for (var jj = 0; jj < 32; jj++) {
+      binary[ii*32 + jj] = 0xFF;
+    }
 
-  var idx = 2*(script.length+1);
-  for (var ii = 2; ii < script.length; ii++) {
-    var data = [];
-
-    if (script[ii].English == '') {
+    if (names[section][ii].English == '') {
       // Copy original data.
-      for (jj = 0; jj < script[ii].u8.length; jj++) {
-        data.push(script[ii].u8[jj]);
+      for (var jj = 0; jj < 16; jj++) {
+        binary[ii*32 + jj] = names[section][ii].u8[jj];
       }
     } else {
-      data = parseEnglish(script[ii].English);
+      var data = parseEnglish(names[section][ii].English);
+      if (data.length >= 30) {
+        console.log("WARNING: Name", ii, "is too long!");
+      }
+      for (var jj = 0; jj < data.length; jj++) {
+        binary[ii*32 + jj] = data[jj];
+      }
     }
-
-    for (var jj = 0; jj < data.length; jj++) {
-      binary[idx + jj] = data[jj];
-    }
-
-    var offset = idx % 65536;
-    binary[2*ii] = offset % 256;
-    binary[2*ii+1] = offset >> 8;
-
-    idx += data.length;
   }
-
-  // Warn if the English script is too long.
-  if (idx >= BINARY_SIZE) {
-    console.log(
-      "WARNING: English script has length ",
-      idx,
-      " which is ",
-      idx - BINARY_SIZE + 1,
-      " bytes too long!"
-    );
-  }
-
-  // The first 2 offsets are hardcoded.
-  binary[0] = 0x00; binary[1] = 0x00; binary[2] = 0x70; binary[3] = 0x17;
-
-  // Duplicate the last offset
-  binary[2*script.length+1] = binary[2*script.length - 1];
-  binary[2*script.length] = binary[2*script.length - 2];
-
   saveAs(
     new Blob([new DataView(binary.buffer)], {type: 'application/octet-stream'}),
-    "script.bin"
+    section_names[section] + ".bin"
   );
   console.log('Exported binary!');
 }
@@ -113,6 +105,7 @@ function english_search() {
 function parseEnglish(english) {
   var parsed = [];
   var ii = 0;
+
   while (ii < english.length) {
     var curr = english[ii];
     var next = english[ii+1];
@@ -132,11 +125,17 @@ function parseEnglish(english) {
       parsed.push(0);
       ii += 1;
     }
-    parsed.push(curr.charCodeAt(0));
+    parsed.push(curr == '^' ? 0x1F : curr.charCodeAt(0));
   }
-  // Append EOS character.
-  parsed.push(0x1F);
-  parsed.push(0x00);
+
+  if (parsed.length % 2) {
+    parsed.push(0x20);
+  }
+
+  // Pad ending with two spaces 0x2020 to force drawing of remaining glyphs.
+  parsed.push(0x20);
+  parsed.push(0x20);
+
   return parsed;
 }
 
@@ -195,6 +194,10 @@ document.getElementById('json')
 document
   .getElementById('export_json')
   .addEventListener('click', exportJSON, false);
+
+document
+  .getElementById('export_binary')
+  .addEventListener('click', exportBinary, false);
 
 document
   .getElementById('section')
