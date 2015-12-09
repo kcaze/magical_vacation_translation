@@ -39,9 +39,31 @@ mov r15, r0
 ; r2: glyph value             ;
 ;-----------------------------;
 .org 0x087E1C00
+; TODO: This may potentially introduce bugs by zeroing too much.
+; DMA zeroes to clear tile data.
+ldr r4, =0x040000D4
+ldr r3, =0x0203FFF8
+mov r0, 0x00
+strh r0, [r3, 0x00]
+str r3, [r4, 0x00]
+ldr r0, [r5, 0x00]
+str r0, [r4, 0x04]
+ldr r0, =0x81000030
+str r0, [r4, 0x08]
+ldr r0, [r4, 0x08]
+
+ldr r0, [r5, 0x00]
+ldr r3, =0x0400
+add r0, r0, r3
+str r0, [r4, 0x04]
+ldr r0, =0x81000030
+str r0, [r4, 0x08]
+ldr r0, [r4, 0x08]
+;END Possibly buggy code.
+
 ; INVARIANTS: r5 = glyph value, r6 = RAM address 0x0203FFF4
-mov r5, r2
 ldr r6, =0x0203FFF4
+mov r5, r2
 
 mov r0, 0xFF
 and r2, r0
@@ -50,7 +72,7 @@ bne not_bos
 ; Do some RAM setup on begin-of-string character, 0x1F
 strh r1, [r6, 0x00]
 mov r0, 0x00
-strb r0, [r6, 0x02]
+strh r0, [r6, 0x02]
 ; Clear the glyph data in RAM.
 mov r1, 0x00
 ldr r2, =0x0203692C

@@ -5,6 +5,7 @@
 .org 0x08226F7C
 .incbin text/names/name_offsets.bin
 
+; TODO: This is not the new format.
 ; Insert translated people names.
 .org 0x0822A1EC
 .incbin text/names/people_names.bin
@@ -16,6 +17,14 @@
 ; Insert translated item names.
 .org 0x087DFA50
 .incbin text/names/items.bin
+
+; Insert translated spirit names.
+.org 0x0822730C
+.incbin text/names/spirits.bin
+
+; Insert translated element names.
+.org 0x0822770C
+.incbin text/names/elements.bin
 
 ; Insert the translated script.
 .org 0x08629A2C

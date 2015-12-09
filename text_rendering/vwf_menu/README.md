@@ -30,6 +30,8 @@ Subroutines to understand:
 
 Rough outline
 =======
+*Copy the correct width to w/e.
+
 *Disable DMA at 0x080A0BCA.
 
 *Hijack 0x080B62F4, the subroutine that takes a glyph value and

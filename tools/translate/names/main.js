@@ -12,6 +12,7 @@ var section_names = [
   'characters',
   'misc',
   'spirits',
+  'species',
   'elements',
   'places',
   'rankings'
