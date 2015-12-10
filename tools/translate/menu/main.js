@@ -44,36 +44,44 @@ function exportJSON() {
   console.log('Exported menus!');
 }
 
-// TODO: This is wrong.
-// Exporting names at 32 bits per name.
 function exportBinary() {
-  var binary = new Uint8Array(menus[section].length*32);
-  for (var ii = 0; ii < menus[section].length; ii++) {
-    // First write all 0xFF's.
-    for (var jj = 0; jj < 32; jj++) {
-      binary[ii*32 + jj] = 0xFF;
+  var menu = menus[section];
+  var data = menu.reduce(function(acc, curr) {
+    acc.push(curr.English ? parseEnglish(curr.English) : curr.u8);
+    return acc;
+  }, []);
+
+  var offsets = new Uint8Array(2*menu.length);
+  var binary = new Uint8Array(data.reduce(function(acc, curr) {
+    return acc + curr.length;
+  }, 0));
+
+  // First write all 0xFF's.
+  for (var ii = 0; ii < binary.length; ii++) {
+    binary[ii] = 0xFF;
+  }
+
+  var offset = 0;
+  for (var ii = 0; ii < menu.length; ii++) {
+    offsets[2*ii] = offset & 0xFF;
+    offsets[2*ii + 1] = (offset >> 8);
+
+    for (var jj = 0; jj < data[ii].length; jj++) {
+      binary[offset + jj] = data[ii][jj];
     }
 
-    if (menus[section][ii].English == '') {
-      // Copy original data.
-      for (var jj = 0; jj < 16; jj++) {
-        binary[ii*32 + jj] = menus[section][ii].u8[jj];
-      }
-    } else {
-      var data = parseEnglish(menus[section][ii].English);
-      if (data.length >= 30) {
-        console.log("WARNING: Name", ii, "is too long!");
-      }
-      for (var jj = 0; jj < data.length; jj++) {
-        binary[ii*32 + jj] = data[jj];
-      }
-    }
+    offset += data[ii].length;
   }
+
+  saveAs(
+    new Blob([new DataView(offsets.buffer)], {type: 'application/octet-stream'}),
+    section_names[section] + "_offsets.bin"
+  );
   saveAs(
     new Blob([new DataView(binary.buffer)], {type: 'application/octet-stream'}),
     section_names[section] + ".bin"
   );
-  console.log('Exported binary!');
+  console.log('Exported binary and offsets!');
 }
 
 function japanese_search() {
@@ -129,6 +137,9 @@ function parseEnglish(english) {
   // Pad ending with two spaces 0x2020 to force drawing of remaining glyphs.
   parsed.push(0x20);
   parsed.push(0x20);
+  // Text must end in 0xFFFF
+  parsed.push(0xFF);
+  parsed.push(0xFF);
 
   return parsed;
 }

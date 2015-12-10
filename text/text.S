@@ -10,10 +10,6 @@
 .org 0x0822A1EC
 .incbin text/names/people_names.bin
 
-; Insert translated menu text.
-.org 0x087C229C
-.incbin text/menu/menu_text.bin
-
 ; Insert translated item names.
 .org 0x087DFA50
 .incbin text/names/items.bin
@@ -29,5 +25,17 @@
 ; Insert the translated script.
 .org 0x08629A2C
 .incbin text/script/script.bin
+
+; Insert updated offsets for menu sections.
+.org 0x087C2254
+.incbin text/menu/menu_offsets.bin
+
+; Insert menu text section offsets;
+.org 0x087E1E00
+.incbin text/menu/menu_text_offsets.bin
+
+; Insert translated menu text.
+.org 0x087E2128
+.incbin text/menu/menu_text.bin
 
 .close
