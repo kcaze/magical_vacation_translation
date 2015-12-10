@@ -1,26 +1,20 @@
-var names;
+var menus;
 var section = 0;
 var number = 0;
 var section_names = [
-  'attacks',
-  'items',
-  'statuses',
-  'spells',
-  'monsters',
-  'characters',
-  'misc',
-  'spirits',
-  'species',
-  'elements',
-  'places',
-  'rankings'
+  'menu_text',
+  'explanations',
+  'notebook',
+  'profiles',
+  'name_selection',
+  'element_descriptions'
 ];
 
 function readJSON(e) {
   var file = e.target.files[0]; // FileList object
   var fileReader = new FileReader();
   fileReader.onload = function (e) {
-    names = JSON.parse(e.target.result);
+    menus = JSON.parse(e.target.result);
     document.getElementById('english').disabled = false;
     document.getElementById('comments').disabled = false;
     document.getElementById('section').disabled = false;
@@ -28,12 +22,12 @@ function readJSON(e) {
     document.getElementById('export_json').disabled = false;
     document.getElementById('export_binary').disabled = false;
 
-    document.getElementById('max_number').innerHTML = names[0].length - 1;
-    document.getElementById('number').max = names[0].length - 1;
+    document.getElementById('max_number').innerHTML = menus[0].length - 1;
+    document.getElementById('number').max = menus[0].length - 1;
     document.getElementById('number').value = 0;
 
     // Called each time so that updates to the parsing are reflected.
-    generateJapanese(names);
+    generateJapanese(menus);
   };
   fileReader.readAsText(file);
 }
@@ -42,30 +36,31 @@ function exportJSON() {
   // saveAs implemented by lib/FileSaver.js
   saveAs(
     new Blob(
-      [JSON.stringify(names, null, 2)],
+      [JSON.stringify(menus, null, 2)],
       {type: 'text/plain;charset-utf-8'}
     ),
-    'names.json'
+    'menu.json'
   );
-  console.log('Exported names!');
+  console.log('Exported menus!');
 }
 
+// TODO: This is wrong.
 // Exporting names at 32 bits per name.
 function exportBinary() {
-  var binary = new Uint8Array(names[section].length*32);
-  for (var ii = 0; ii < names[section].length; ii++) {
+  var binary = new Uint8Array(menus[section].length*32);
+  for (var ii = 0; ii < menus[section].length; ii++) {
     // First write all 0xFF's.
     for (var jj = 0; jj < 32; jj++) {
       binary[ii*32 + jj] = 0xFF;
     }
 
-    if (names[section][ii].English == '') {
+    if (menus[section][ii].English == '') {
       // Copy original data.
       for (var jj = 0; jj < 16; jj++) {
-        binary[ii*32 + jj] = names[section][ii].u8[jj];
+        binary[ii*32 + jj] = menus[section][ii].u8[jj];
       }
     } else {
-      var data = parseEnglish(names[section][ii].English);
+      var data = parseEnglish(menus[section][ii].English);
       if (data.length >= 30) {
         console.log("WARNING: Name", ii, "is too long!");
       }
@@ -138,7 +133,8 @@ function parseEnglish(english) {
   return parsed;
 }
 
-/*function readBinary(e) {
+/*
+function readBinary(e) {
   var file = e.target.files[0]; // FileList object
   var fileReader = new FileReader();
   fileReader.onload = function (e) {
@@ -150,42 +146,54 @@ function parseEnglish(english) {
 
 function generateJSON(binary) {
   console.log(binary.length);
-  names = [];
+  menus = [];
   offsets = [
-    0x3C,
-    0x390,
-    0x1394,
-    0x14C8,
-    0x1D7C,
-    0x3260,
-    0x34A4,
-    0x34D8,
-    0x35EC,
-    0x3730,
-    0x3854,
-    0x5478,
-    binary.length
+    0x48,
+    0x370,
+    0x1F3C,
+    0x2374,
+    0x91DC,
+    0x927C,
+    0xB188,
+    0xB3C8,
+    0x17DB4,
+    0x17F1C,
+    0x18CD8,
+    0x18CF4,
+    0x194F4
   ];
-  for (var ii = 0; ii < offsets.length - 1; ii++) {
-    var o = offsets[ii] - 0x3C;
-    var len = offsets[ii+1] - offsets[ii];
-    var name = [];
-    for (var jj = 0; jj < len - 16; jj += 16) {
-      var n = {
+  menus = [];
+  for (var ii = 0; ii < offsets.length-1; ii += 2) {
+    var menu = [];
+    for (var jj = 0; jj < (offsets[ii+1] - offsets[ii])/2; jj++) {
+      var m = {
         English: '',
         Japanese: '',
         Comments: '',
-        u8: [],
-      };
-      for (var kk = 0; kk < 16; kk++) {
-        n.u8.push(binary[o + jj + kk]);
+        u8: []
       }
-      name.push(n);
+
+      var o = offsets[ii] - 0x48;
+      var o1 = binary[o + 2*jj] + (binary[o + 2*jj + 1] << 8);
+      var o2;
+      if (jj + 1 == (offsets[ii+1] - offsets[ii])/2) {
+        o2 = offsets[ii+2] - offsets[ii+1];
+      } else {
+        o2 = binary[o + 2*jj + 2] + (binary[o + 2*jj + 3] << 8);
+      }
+      for (var kk = 0; kk < o2 - o1; kk++) {
+        m.u8.push(binary[offsets[ii+1] - 0x48 + o1 + kk]);
+      }
+      menu.push(m);
     }
-    names.push(name);
+    menus.push(menu);
   }
   document.getElementById('export_json').disabled = false;
-}*/
+}
+
+document.getElementById('binary')
+  .addEventListener('change', readBinary, false);
+*/
 
 document.getElementById('json')
   .addEventListener('change', readJSON, false);
@@ -203,31 +211,31 @@ document
   .addEventListener('change', function(e) {
     number = 0;
     section = e.target.value;
-    document.getElementById('max_number').innerHTML = names[section].length - 1;
-    document.getElementById('number').max = names[section].length - 1;
+    document.getElementById('max_number').innerHTML = menus[section].length - 1;
+    document.getElementById('number').max = menus[section].length - 1;
     document.getElementById('number').value = 0;
-    document.getElementById('japanese').innerHTML = names[section][number].Japanese;
-    document.getElementById('english').value = names[section][number].English;
-    document.getElementById('comments').value = names[section][number].Comments;
+    document.getElementById('japanese').innerHTML = menus[section][number].Japanese;
+    document.getElementById('english').value = menus[section][number].English;
+    document.getElementById('comments').value = menus[section][number].Comments;
   }, false);
 
 document
   .getElementById('number')
   .addEventListener('change', function(e) {
     number = e.target.value;
-    document.getElementById('japanese').innerHTML = names[section][number].Japanese;
-    document.getElementById('english').value = names[section][number].English;
-    document.getElementById('comments').value = names[section][number].Comments;
+    document.getElementById('japanese').innerHTML = menus[section][number].Japanese;
+    document.getElementById('english').value = menus[section][number].English;
+    document.getElementById('comments').value = menus[section][number].Comments;
   }, false);
 
 document
   .getElementById('english')
   .addEventListener('change', function(e) {
-    names[section][number].English = document.getElementById('english').value;
+    menus[section][number].English = document.getElementById('english').value;
   });
 
 document
   .getElementById('comments')
   .addEventListener('change', function(e) {
-    names[section][number].Comments = document.getElementById('comments').value;
+    menus[section][number].Comments = document.getElementById('comments').value;
   });
