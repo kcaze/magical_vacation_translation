@@ -21,6 +21,8 @@ function readJSON(e) {
     document.getElementById('number').disabled = false;
     document.getElementById('export_json').disabled = false;
     document.getElementById('export_binary').disabled = false;
+    document.getElementById('japanese_search').disabled = false;
+    document.getElementById('english_search').disabled = false;
 
     document.getElementById('max_number').innerHTML = menus[0].length - 1;
     document.getElementById('number').max = menus[0].length - 1;
@@ -144,6 +146,26 @@ function parseEnglish(english) {
   return parsed;
 }
 
+function japanese_search() {
+  var text = document.getElementById('japanese_search_text').value;
+  document.getElementById('search_results').innerHTML = '';
+  for (var ii = 0; ii < menus[section].length; ii++) {
+    if (menus[section][ii].Japanese.indexOf(text) != -1) {
+      document.getElementById('search_results').innerHTML += ii + '<br>';
+    }
+  }
+}
+
+function english_search() {
+  var text = document.getElementById('english_search_text').value;
+  document.getElementById('search_results').innerHTML = '';
+  for (var ii = 0; ii < menus[section].length; ii++) {
+    if (menus[section][ii].English.indexOf(text) != -1) {
+      document.getElementById('search_results').innerHTML += ii + '<br>';
+    }
+  }
+}
+
 /*
 function readBinary(e) {
   var file = e.target.files[0]; // FileList object
@@ -250,3 +272,11 @@ document
   .addEventListener('change', function(e) {
     menus[section][number].Comments = document.getElementById('comments').value;
   });
+
+document
+  .getElementById('japanese_search')
+  .addEventListener('click', japanese_search);
+
+document
+  .getElementById('english_search')
+  .addEventListener('click', english_search);
