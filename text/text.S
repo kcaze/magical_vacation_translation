@@ -38,4 +38,11 @@
 .org 0x087E2128
 .incbin text/menu/menu_text.bin
 
+; Insert translated menu explanations text section offsets.
+.org 0x087E4400
+.incbin text/menu/explanations_offsets.bin
+
+.org 0x087E4838
+.incbin text/menu/explanations.bin
+
 .close

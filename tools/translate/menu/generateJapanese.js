@@ -17,6 +17,10 @@ function generateJapanese(names) {
             if (section[ii].English) {
               translated_character_count += 1;
             }
+          } else if (v == 0xFEFF){
+            section[ii].Japanese += '\\FE\\FF';
+          } else if (v == 0xFFFF) {
+            section[ii].Japanese += '\\FF\\FF';
           } else {
             console.log("Did not find glyph ", v, " at ", ii, jj, section.length);
           }
