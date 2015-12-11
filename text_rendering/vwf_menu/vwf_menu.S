@@ -167,8 +167,15 @@ mov r3, 0x07
 and r3, r2
 strb r3, [r6, 0x02]
 cmp r2, 0x08
-blt no_carryover
+bge carryover
 
+loop_draw_glyph:
+lsr r5, r5, 0x08
+cmp r5, 0x00
+bne draw_glyph
+b return
+
+carryover:
 sub r2, 0x08
 ; Increment tile index
 ldrh r1, [r6, 0x00]
@@ -184,8 +191,7 @@ clear_ram_loop:
   cmp r0, 0x50
   blt clear_ram_loop
 
-; Copy remaining. This will work even for the last glyph, since
-; we have are guaranteed an EOS character.
+; Copy remaining.
 ; r2 = width of glyph - number of pixels remaining
 ;    = pixels to shift
 mov r0, 0xFF
@@ -211,11 +217,54 @@ copy_remaining_data_loop:
   cmp r3, 0x10
   blt copy_remaining_data_loop
 
-no_carryover:
+; Call 0x080BEC2C to translate from 1bpp to 4bpp.
+ldr r0, =0x0203693C ; Destination
+ldr r1, =0x0203692C ; Source
+mov r2, 0x0F ; Font color
+mov r3, 0x02 ; Number of 8x8 blocks to translate
+; The following essentially does the same thing as
+; bl 0x080BEC2C.
+mov r4, pc
+add r4, r4, 0x7
+mov lr, r4
+ldr r4, =0x80BEC2C
+mov pc, r4
 
-lsr r5, r5, 0x08
-cmp r5, 0x00
-bne draw_glyph
+; DMA top half
+ldr r0, =0x040000D4
+; Store the RAM source
+ldr r1, =0x0203693C
+str r1, [r0, 0x00]
+; Compute and store the tile destination
+ldr r1, =0x06008000
+ldrh r2, [r6, 0x00]
+lsl r2, r2, 0x05
+add r1, r1, r2
+str r1, [r0, 0x04]
+; Initiate DMA
+ldr r1, =0x80000010
+str r1, [r0, 0x08]
+ldr r1, [r0, 0x08]
+
+; DMA bottom half
+ldr r0, =0x040000D4
+; Store the RAM source
+ldr r1, =0x0203695C
+str r1, [r0, 0x00]
+; Compute and store the tile destination
+ldr r1, =0x06008000
+ldrh r2, [r6, 0x00]
+lsl r2, r2, 0x05
+add r1, r1, r2
+ldr r2, =0x0400
+add r1, r2
+str r1, [r0, 0x04]
+ldr r1, =0x80000010
+str r1, [r0, 0x08]
+ldr r1, [r0, 0x08]
+
+b loop_draw_glyph
+
 
 return:
 ldr r0, =0x080B6372

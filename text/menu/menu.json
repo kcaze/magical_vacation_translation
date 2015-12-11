@@ -836,7 +836,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Gender",
       "Japanese": "性別\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -849,7 +849,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Species",
       "Japanese": "種族\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -862,7 +862,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Element",
       "Japanese": "属性\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -1352,7 +1352,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Use",
       "Japanese": "つかう\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -1367,7 +1367,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Equip",
       "Japanese": "そうび\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -1382,7 +1382,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Stick",
       "Japanese": "はる\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -1395,7 +1395,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Toss",
       "Japanese": "すてる\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -4044,7 +4044,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^M",
       "Japanese": "男\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -4055,7 +4055,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^F",
       "Japanese": "女\\FF\\FF",
       "Comments": "",
       "u8": [
