@@ -35,7 +35,8 @@ In battle:
     0x08016DE8 -- Item names
     0x080157E6 -- Physical attack names
 
-
+0x080BEDE4 truncates names as it takes in a max width argument in r1. Need to
+rewrite a lot of the calls to change the max width argument.
 
 --------------------------------------------------------------------------------
 EVERYTHING BELOW IS OLD AND DEPRECATED
@@ -243,7 +244,7 @@ People names:
 カテョカヴァッロ -- Caciocavallo (cheese)
 パルミジャーノ -- Parmigiano (cheese)
 とくめいきぼう -- Anonymous Hope (not sure)
-アメフラシ -- Nudibrainch or Purple Rainer (the pun is lost in direct translation, so these are some attempts at restoring it)
+アメフラシ -- Nudibrainch or Rainmaker (the pun is lost in direct translation, so these are some attempts at restoring it)
 闇の桜文鳥 -- Ricebirds in the Dark Realm (I'm thinking this might want to be Dark Ricebirds instead?)
 ムース -- Mousse
 ドロ -- Mud (I don't think it should be mud though... that's not a food)

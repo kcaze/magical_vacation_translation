@@ -19,9 +19,11 @@ nop
 .org 0x080B5DEC
 nop
 
-; In the name length calculation routine, disable truncation of length to 7
-.org 0x080BEE76
-nop
-nop
+
+; Modify a bunch of calls to the name length calculation routine to read 16
+; halfwords instead of 8.
+.org 0x0809B18E
+.org 0x080A3CA2
+
 
 .close

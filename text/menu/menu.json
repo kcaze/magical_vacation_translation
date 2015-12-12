@@ -1312,7 +1312,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Peel off sticker",
       "Japanese": "シールをはがす\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -1335,7 +1335,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Unequip",
       "Japanese": "をはずす\\FF\\FF",
       "Comments": "",
       "u8": [

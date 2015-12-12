@@ -1360,7 +1360,7 @@
       ]
     },
     {
-      "English": "\\00\\00^Bestiary",
+      "English": "\\00\\0d^Bestiary",
       "Japanese": "[icon 0x0d]モンスター図鑑",
       "Comments": "",
       "u8": [
@@ -4327,7 +4327,7 @@
       ]
     },
     {
-      "English": "\\00\\0b^Scorching Seal",
+      "English": "\\00\\0b^Scorching Sticker",
       "Japanese": "[icon 0x0b]火のシール",
       "Comments": "",
       "u8": [
@@ -4350,7 +4350,7 @@
       ]
     },
     {
-      "English": "\\00\\0b^Breezy Seal",
+      "English": "\\00\\0b^Breezy Sticker",
       "Japanese": "[icon 0x0b]風のシール",
       "Comments": "",
       "u8": [
@@ -4373,7 +4373,7 @@
       ]
     },
     {
-      "English": "\\00\\0b^Noxious Seal",
+      "English": "\\00\\0b^Noxious Sticker",
       "Japanese": "[icon 0x0b]毒のシール",
       "Comments": "",
       "u8": [
@@ -4396,7 +4396,7 @@
       ]
     },
     {
-      "English": "\\00\\0b^Graceful Seal",
+      "English": "\\00\\0b^Graceful Sticker",
       "Japanese": "[icon 0x0b]美のシール",
       "Comments": "",
       "u8": [
@@ -4419,7 +4419,7 @@
       ]
     },
     {
-      "English": "\\00\\0b^Sharp Seal",
+      "English": "\\00\\0b^Sharp Sticker",
       "Japanese": "[icon 0x0b]刃のシール",
       "Comments": "",
       "u8": [
@@ -4442,7 +4442,7 @@
       ]
     },
     {
-      "English": "\\00\\0b^Booming Seal",
+      "English": "\\00\\0b^Booming Sticker",
       "Japanese": "[icon 0x0b]音のシール",
       "Comments": "",
       "u8": [
@@ -4465,7 +4465,7 @@
       ]
     },
     {
-      "English": "\\00\\0b^Craggy Seal",
+      "English": "\\00\\0b^Boulder Sticker",
       "Japanese": "[icon 0x0b]石のシール",
       "Comments": "",
       "u8": [
@@ -4488,7 +4488,7 @@
       ]
     },
     {
-      "English": "\\00\\0b^Ant Seal",
+      "English": "\\00\\0b^Ladybug Sticker",
       "Japanese": "[icon 0x0b]虫のシール",
       "Comments": "",
       "u8": [
@@ -4511,7 +4511,7 @@
       ]
     },
     {
-      "English": "\\00\\0b^Conifer Seal",
+      "English": "\\00\\0b^Conifer Sticker",
       "Japanese": "[icon 0x0b]木のシール",
       "Comments": "",
       "u8": [
@@ -4534,7 +4534,7 @@
       ]
     },
     {
-      "English": "\\00\\0b^Animal Seal",
+      "English": "\\00\\0b^Animal Sticker",
       "Japanese": "[icon 0x0b]獣のシール",
       "Comments": "",
       "u8": [
@@ -4557,7 +4557,7 @@
       ]
     },
     {
-      "English": "\\00\\0b^Tidal Seal",
+      "English": "\\00\\0b^Tidal Sticker",
       "Japanese": "[icon 0x0b]水のシール",
       "Comments": "",
       "u8": [
@@ -4580,7 +4580,7 @@
       ]
     },
     {
-      "English": "\\00\\0b^Electron Seal",
+      "English": "\\00\\0b^Electron Sticker",
       "Japanese": "[icon 0x0b]雷のシール",
       "Comments": "",
       "u8": [
@@ -4603,7 +4603,7 @@
       ]
     },
     {
-      "English": "\\00\\0b^Archaic Seal",
+      "English": "\\00\\0b^Archaic Sticker",
       "Japanese": "[icon 0x0b]古のシール",
       "Comments": "",
       "u8": [
@@ -4626,7 +4626,7 @@
       ]
     },
     {
-      "English": "\\00\\0b^Stygian Seal",
+      "English": "\\00\\0b^Stygian Sticker",
       "Japanese": "[icon 0x0b]闇のシール",
       "Comments": "",
       "u8": [
@@ -4649,7 +4649,7 @@
       ]
     },
     {
-      "English": "\\00\\0b^Radiant Seal",
+      "English": "\\00\\0b^Radiant Sticker",
       "Japanese": "[icon 0x0b]光のシール",
       "Comments": "",
       "u8": [
@@ -4672,7 +4672,7 @@
       ]
     },
     {
-      "English": "\\00\\0b^Compassion Seal",
+      "English": "\\00\\0b^Compassion Sticker",
       "Japanese": "[icon 0x0b]愛のシール",
       "Comments": "",
       "u8": [
@@ -6535,7 +6535,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "\\00\\0d^Toasty Key",
       "Japanese": "[icon 0x0d]トーストキー",
       "Comments": "Unused item",
       "u8": [
@@ -6558,7 +6558,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "\\00\\0d^Gusty Key",
       "Japanese": "[icon 0x0d]エアキー",
       "Comments": "Unused item",
       "u8": [
@@ -6581,7 +6581,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "\\00\\0d^Ivy Key",
       "Japanese": "[icon 0x0d]ブーキー",
       "Comments": "Unused item",
       "u8": [
@@ -6604,7 +6604,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "\\00\\0d^Pretty Key",
       "Japanese": "[icon 0x0d]パウダーキー",
       "Comments": "Unused item",
       "u8": [
@@ -6627,7 +6627,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "\\00\\0d^Edgy Key",
       "Japanese": "[icon 0x0d]スラッシュキー",
       "Comments": "Unused item",
       "u8": [
@@ -6650,7 +6650,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "\\00\\0d^Melody Key",
       "Japanese": "[icon 0x0d]ハミングキー",
       "Comments": "Unused item",
       "u8": [
@@ -6673,7 +6673,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "\\00\\0d^Craggy Key",
       "Japanese": "[icon 0x0d]フリントキー",
       "Comments": "Unused item",
       "u8": [
@@ -6696,7 +6696,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "\\00\\0d^Antsy Key",
       "Japanese": "[icon 0x0d]バズキー",
       "Comments": "Unused item",
       "u8": [
@@ -6719,7 +6719,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "\\00\\0d^Sticky Key",
       "Japanese": "[icon 0x0d]スティックキー",
       "Comments": "Unused item",
       "u8": [
@@ -6742,7 +6742,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "\\00\\0d^Furry Key",
       "Japanese": "[icon 0x0d]ガルキー",
       "Comments": "Unused item",
       "u8": [
@@ -6765,7 +6765,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "\\00\\0d^Rainy Key",
       "Japanese": "[icon 0x0d]フローキー",
       "Comments": "Unused item",
       "u8": [
@@ -6788,7 +6788,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "\\00\\0d^Battery Key",
       "Japanese": "[icon 0x0d]テスラキー",
       "Comments": "Unused item",
       "u8": [
@@ -6811,7 +6811,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "\\00\\0d^History Key",
       "Japanese": "[icon 0x0d]クロックキー",
       "Comments": "Unused item",
       "u8": [
@@ -6834,7 +6834,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "\\00\\0d^Shadowy Key",
       "Japanese": "[icon 0x0d]ニルヴァキー",
       "Comments": "Unused item",
       "u8": [
@@ -6857,7 +6857,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "\\00\\0d^Brightly Key",
       "Japanese": "[icon 0x0d]ルクスキー",
       "Comments": "Unused item",
       "u8": [
@@ -6880,7 +6880,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "\\00\\0d^Charity Key",
       "Japanese": "[icon 0x0d]ウィッシュキー",
       "Comments": "Unused item",
       "u8": [
@@ -7112,9 +7112,9 @@
   ],
   [
     {
-      "English": "",
+      "English": "None",
       "Japanese": "なし",
-      "Comments": "",
+      "Comments": "Where are these names ever used?",
       "u8": [
         0,
         152,
@@ -7135,7 +7135,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "FNT",
       "Japanese": "きぜつ",
       "Comments": "",
       "u8": [
@@ -7158,7 +7158,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "PWR UP",
       "Japanese": "ちからアップ",
       "Comments": "",
       "u8": [
@@ -7181,7 +7181,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "PWR DWN",
       "Japanese": "ちからダウン",
       "Comments": "",
       "u8": [
@@ -7204,7 +7204,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "DEF UP",
       "Japanese": "まもりアップ",
       "Comments": "",
       "u8": [
@@ -7227,7 +7227,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "DEF DWN",
       "Japanese": "まもりダウン",
       "Comments": "",
       "u8": [
@@ -7250,7 +7250,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "SPR UP",
       "Japanese": "せいしんアップ",
       "Comments": "",
       "u8": [
@@ -7273,7 +7273,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "SPR DWN",
       "Japanese": "せいしんダウン",
       "Comments": "",
       "u8": [
@@ -7296,7 +7296,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "SPD UP",
       "Japanese": "はやさアップ",
       "Comments": "",
       "u8": [
@@ -7319,7 +7319,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "SPD DWN",
       "Japanese": "はやさダウン",
       "Comments": "",
       "u8": [
@@ -7342,7 +7342,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "MP GAIN UP",
       "Japanese": "MP回復率アップ",
       "Comments": "",
       "u8": [
@@ -7365,9 +7365,9 @@
       ]
     },
     {
-      "English": "",
+      "English": "BLN",
       "Japanese": "ブラインド",
-      "Comments": "",
+      "Comments": "Blind",
       "u8": [
         0,
         241,
@@ -7388,9 +7388,9 @@
       ]
     },
     {
-      "English": "",
+      "English": "PSN",
       "Japanese": "毒",
-      "Comments": "",
+      "Comments": "Poison",
       "u8": [
         2,
         234,
@@ -7411,9 +7411,9 @@
       ]
     },
     {
-      "English": "",
+      "English": "PAR",
       "Japanese": "しびれ",
-      "Comments": "",
+      "Comments": "Paralyzed",
       "u8": [
         0,
         134,
@@ -7434,9 +7434,9 @@
       ]
     },
     {
-      "English": "",
+      "English": "STN",
       "Japanese": "マヒ",
-      "Comments": "",
+      "Comments": "Stun",
       "u8": [
         0,
         173,
@@ -7457,9 +7457,9 @@
       ]
     },
     {
-      "English": "",
+      "English": "PTR",
       "Japanese": "石化",
-      "Comments": "",
+      "Comments": "Petrified",
       "u8": [
         1,
         239,
@@ -7480,9 +7480,9 @@
       ]
     },
     {
-      "English": "",
+      "English": "SLP",
       "Japanese": "ねむり",
-      "Comments": "",
+      "Comments": "Sleep",
       "u8": [
         0,
         158,
@@ -7503,9 +7503,9 @@
       ]
     },
     {
-      "English": "",
+      "English": "HP ASB",
       "Japanese": "HPすいとり",
-      "Comments": "",
+      "Comments": "HP absorb",
       "u8": [
         0,
         72,
@@ -7526,9 +7526,9 @@
       ]
     },
     {
-      "English": "",
+      "English": "MP ASB",
       "Japanese": "MPすいとり",
-      "Comments": "",
+      "Comments": "MP Absorb",
       "u8": [
         0,
         77,
@@ -7551,7 +7551,7 @@
   ],
   [
     {
-      "English": "",
+      "English": "None",
       "Japanese": "なし",
       "Comments": "",
       "u8": [
@@ -7574,7 +7574,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Call Toasty",
       "Japanese": "コールトースト",
       "Comments": "",
       "u8": [
@@ -7597,7 +7597,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hot Grill",
       "Japanese": "ホットグリル",
       "Comments": "",
       "u8": [
@@ -7620,7 +7620,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Heat Fondue",
       "Japanese": "ヒートフォンデュ",
       "Comments": "",
       "u8": [
@@ -7643,7 +7643,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Clear Gusty",
       "Japanese": "クリアエア",
       "Comments": "",
       "u8": [
@@ -7666,7 +7666,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Lava Shot",
       "Japanese": "ノヴァショット",
       "Comments": "",
       "u8": [
@@ -7689,7 +7689,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Double Toasty",
       "Japanese": "ダブルトースト",
       "Comments": "",
       "u8": [
@@ -7712,9 +7712,9 @@
       ]
     },
     {
-      "English": "",
+      "English": "Searing Fireball",
       "Japanese": "黒こげジェット",
-      "Comments": "",
+      "Comments": "Might change this",
       "u8": [
         1,
         175,
@@ -7735,7 +7735,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Call Gusty",
       "Japanese": "コールエア",
       "Comments": "",
       "u8": [
@@ -7758,7 +7758,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Howler",
       "Japanese": "アウラー",
       "Comments": "",
       "u8": [
@@ -7781,7 +7781,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Mach Line",
       "Japanese": "マッハライン",
       "Comments": "",
       "u8": [
@@ -7804,7 +7804,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Clear Ivy",
       "Japanese": "クリアブー",
       "Comments": "",
       "u8": [
@@ -19473,7 +19473,7 @@
       ]
     },
     {
-      "English": "Quarry",
+      "English": "Craggy",
       "Japanese": "フリント",
       "Comments": "",
       "u8": [
