@@ -1108,7 +1108,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^magic",
       "Japanese": "の魔法\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -1285,7 +1285,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Mastered",
       "Japanese": "の魔法を極めました\\FF\\FF",
       "Comments": "",
       "u8": [

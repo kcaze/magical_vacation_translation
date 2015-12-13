@@ -14,6 +14,10 @@
 .org 0x087DFA50
 .incbin text/names/items.bin
 
+; Insert translated spell names.
+.org 0x087EB800
+.incbin text/names/spells.bin
+
 ; Insert translated spirit names.
 .org 0x0822730C
 .incbin text/names/spirits.bin

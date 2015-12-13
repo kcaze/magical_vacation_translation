@@ -7574,7 +7574,7 @@
       ]
     },
     {
-      "English": "Call Toasty",
+      "English": "^Call Toasty",
       "Japanese": "コールトースト",
       "Comments": "",
       "u8": [
@@ -7597,7 +7597,7 @@
       ]
     },
     {
-      "English": "Hot Grill",
+      "English": "^Hot Grill",
       "Japanese": "ホットグリル",
       "Comments": "",
       "u8": [
@@ -7620,7 +7620,7 @@
       ]
     },
     {
-      "English": "Heat Fondue",
+      "English": "^Heat Fondue",
       "Japanese": "ヒートフォンデュ",
       "Comments": "",
       "u8": [
@@ -7643,7 +7643,7 @@
       ]
     },
     {
-      "English": "Clear Gusty",
+      "English": "^Clear Gusty",
       "Japanese": "クリアエア",
       "Comments": "",
       "u8": [
@@ -7666,7 +7666,7 @@
       ]
     },
     {
-      "English": "Lava Shot",
+      "English": "^Lava Shot",
       "Japanese": "ノヴァショット",
       "Comments": "",
       "u8": [
@@ -7689,7 +7689,7 @@
       ]
     },
     {
-      "English": "Double Toasty",
+      "English": "^Double Toasty",
       "Japanese": "ダブルトースト",
       "Comments": "",
       "u8": [
@@ -7712,9 +7712,9 @@
       ]
     },
     {
-      "English": "Searing Fireball",
+      "English": "^Searing Fireball",
       "Japanese": "黒こげジェット",
-      "Comments": "Might change this",
+      "Comments": "Might change this.",
       "u8": [
         1,
         175,
@@ -7735,7 +7735,7 @@
       ]
     },
     {
-      "English": "Call Gusty",
+      "English": "^Call Gusty",
       "Japanese": "コールエア",
       "Comments": "",
       "u8": [
@@ -7758,9 +7758,9 @@
       ]
     },
     {
-      "English": "Howler",
+      "English": "^Puff Puff",
       "Japanese": "アウラー",
-      "Comments": "",
+      "Comments": "Japanese name translates to \"Howler\" but doesn't quite fit the spell graphics. Changed this to \"Puff Puff\" which fits since two hits appear in the graphics, it sounds weaker, and is also a food. Changed the 40 mana spell to \"Howler\" instead.",
       "u8": [
         0,
         113,
@@ -7781,7 +7781,7 @@
       ]
     },
     {
-      "English": "Mach Line",
+      "English": "^Mach Nine",
       "Japanese": "マッハライン",
       "Comments": "",
       "u8": [
@@ -7804,7 +7804,7 @@
       ]
     },
     {
-      "English": "Clear Ivy",
+      "English": "^Clear Ivy",
       "Japanese": "クリアブー",
       "Comments": "",
       "u8": [
@@ -7827,9 +7827,9 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Howler",
       "Japanese": "プノエー",
-      "Comments": "",
+      "Comments": "プノエー is Greek for \"gust\".",
       "u8": [
         0,
         251,
@@ -7850,7 +7850,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Double Gusty",
       "Japanese": "ダブルエア",
       "Comments": "",
       "u8": [
@@ -7873,9 +7873,9 @@
       ]
     },
     {
-      "English": "",
+      "English": "^IDK",
       "Japanese": "プレーステール",
-      "Comments": "",
+      "Comments": "The Japanese name is Greek for \"Hurricane\".",
       "u8": [
         0,
         251,
@@ -7896,7 +7896,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Call Ivy",
       "Japanese": "コールブー",
       "Comments": "",
       "u8": [
@@ -7919,7 +7919,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^IDK",
       "Japanese": "ポアヴル",
       "Comments": "",
       "u8": [
@@ -7942,7 +7942,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^IDK",
       "Japanese": "ミニュネット",
       "Comments": "",
       "u8": [
@@ -7965,7 +7965,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Clear Pretty",
       "Japanese": "クリアパウダー",
       "Comments": "",
       "u8": [
@@ -7988,7 +7988,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^IDK",
       "Japanese": "カイエンヌ",
       "Comments": "",
       "u8": [
@@ -8011,7 +8011,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Double Ivy",
       "Japanese": "ダブルブー",
       "Comments": "",
       "u8": [
@@ -8034,7 +8034,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^IDK",
       "Japanese": "グルヌイユ",
       "Comments": "",
       "u8": [
@@ -8057,7 +8057,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Call Pretty",
       "Japanese": "コールパウダー",
       "Comments": "",
       "u8": [
@@ -8080,7 +8080,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Red Rose",
       "Japanese": "レッドローズ",
       "Comments": "",
       "u8": [
@@ -8103,7 +8103,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Yellow Rose",
       "Japanese": "イエローローズ",
       "Comments": "",
       "u8": [
@@ -8126,7 +8126,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Clear Edgy",
       "Japanese": "クリアスラッシュ",
       "Comments": "",
       "u8": [
@@ -8149,7 +8149,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Black Rose",
       "Japanese": "ブラックローズ",
       "Comments": "",
       "u8": [
@@ -8172,7 +8172,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Double Pretty",
       "Japanese": "ダブルパウダー",
       "Comments": "",
       "u8": [
@@ -8195,7 +8195,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^White Rose",
       "Japanese": "ホワイトローズ",
       "Comments": "",
       "u8": [
@@ -8218,7 +8218,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Call Edgy",
       "Japanese": "コールスラッシュ",
       "Comments": "",
       "u8": [
@@ -8241,7 +8241,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^",
       "Japanese": "コンカッセ",
       "Comments": "",
       "u8": [
@@ -8287,7 +8287,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Clear Melody",
       "Japanese": "クリアハミング",
       "Comments": "",
       "u8": [
@@ -8333,7 +8333,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Double Edgy",
       "Japanese": "ダブルスラッシュ",
       "Comments": "",
       "u8": [
@@ -8379,7 +8379,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Call Melody",
       "Japanese": "コールハミング",
       "Comments": "",
       "u8": [
@@ -8402,7 +8402,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Spirit's Requiem",
       "Japanese": "魂のレクイエム",
       "Comments": "",
       "u8": [
@@ -8425,7 +8425,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Spirit's Nocturne",
       "Japanese": "魂のノクターン",
       "Comments": "",
       "u8": [
@@ -8448,7 +8448,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Clear ",
       "Japanese": "クリアフリント",
       "Comments": "",
       "u8": [
@@ -8471,7 +8471,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Spirit's March",
       "Japanese": "魂のマーチ",
       "Comments": "",
       "u8": [
@@ -8494,7 +8494,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Double Melody",
       "Japanese": "ダブルハミング",
       "Comments": "",
       "u8": [
@@ -8517,7 +8517,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Spirit's Orchestra",
       "Japanese": "魂のオーケストラ",
       "Comments": "",
       "u8": [
@@ -8540,7 +8540,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Call Rocky",
       "Japanese": "コールフリント",
       "Comments": "",
       "u8": [
@@ -8563,7 +8563,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Limestone",
       "Japanese": "ライムロック",
       "Comments": "",
       "u8": [
@@ -8586,7 +8586,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^IDK",
       "Japanese": "カテナ",
       "Comments": "",
       "u8": [
@@ -8609,7 +8609,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Clear Antsy",
       "Japanese": "クリアバズ",
       "Comments": "",
       "u8": [
@@ -8632,7 +8632,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Rock 'n Roll",
       "Japanese": "ローリングロック",
       "Comments": "",
       "u8": [
@@ -8655,7 +8655,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Double Rocky",
       "Japanese": "ダブルフリント",
       "Comments": "",
       "u8": [
@@ -8678,7 +8678,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^IDK",
       "Japanese": "クライスロック",
       "Comments": "",
       "u8": [
@@ -8701,7 +8701,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Call Antsy",
       "Japanese": "コールバズ",
       "Comments": "",
       "u8": [
@@ -8724,9 +8724,9 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Locust Swarm",
       "Japanese": "かなぶん",
-      "Comments": "",
+      "Comments": "I think this means \"locust\"",
       "u8": [
         0,
         122,
@@ -8747,7 +8747,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Butterfly Powder",
       "Japanese": "ちょうちょ",
       "Comments": "",
       "u8": [
@@ -8770,7 +8770,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Clear Sticky",
       "Japanese": "クリアスティック",
       "Comments": "",
       "u8": [
@@ -8793,7 +8793,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Bumblebee Sting",
       "Japanese": "はち",
       "Comments": "",
       "u8": [
@@ -8816,7 +8816,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Double Antsy",
       "Japanese": "ダブルバズ",
       "Comments": "",
       "u8": [
@@ -8839,7 +8839,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Goliath Charge",
       "Japanese": "かぶとむし",
       "Comments": "",
       "u8": [
@@ -8862,7 +8862,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Call Sticky",
       "Japanese": "コールスティック",
       "Comments": "",
       "u8": [
@@ -8885,7 +8885,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^IDK",
       "Japanese": "どんぐりんこ",
       "Comments": "",
       "u8": [
@@ -8908,7 +8908,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^IDK",
       "Japanese": "くるみんこ",
       "Comments": "",
       "u8": [
@@ -8931,7 +8931,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Clear Furry",
       "Japanese": "クリアガル",
       "Comments": "",
       "u8": [
@@ -8954,7 +8954,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^IDK",
       "Japanese": "まつぼっくりんこ",
       "Comments": "",
       "u8": [
@@ -8977,7 +8977,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Double Sticky",
       "Japanese": "ダブルスティック",
       "Comments": "",
       "u8": [
@@ -9000,7 +9000,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^IDK",
       "Japanese": "いがぐりんこ",
       "Comments": "",
       "u8": [
@@ -9023,7 +9023,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Call Furry",
       "Japanese": "コールガル",
       "Comments": "",
       "u8": [
@@ -9046,7 +9046,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Hawk Swoop",
       "Japanese": "タカのちから",
       "Comments": "",
       "u8": [
@@ -9069,7 +9069,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Rhino Charge",
       "Japanese": "サイのちから",
       "Comments": "",
       "u8": [
@@ -9092,7 +9092,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Clear Rainy",
       "Japanese": "クリアフロー",
       "Comments": "",
       "u8": [
@@ -9115,7 +9115,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Lion's Roar",
       "Japanese": "ライオンのちから",
       "Comments": "",
       "u8": [
@@ -9138,7 +9138,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Double Furry",
       "Japanese": "ダブルガル",
       "Comments": "",
       "u8": [
@@ -9161,7 +9161,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Powers United",
       "Japanese": "みんなのちから",
       "Comments": "",
       "u8": [
@@ -9184,7 +9184,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Call Rainy",
       "Japanese": "コールフロー",
       "Comments": "",
       "u8": [
@@ -9207,7 +9207,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Blue Cascade",
       "Japanese": "ブルーカスケード",
       "Comments": "",
       "u8": [
@@ -9230,7 +9230,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^IDK",
       "Japanese": "アシッドスコール",
       "Comments": "",
       "u8": [
@@ -9253,7 +9253,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Clear Battery",
       "Japanese": "クリアテスラ",
       "Comments": "",
       "u8": [
@@ -9276,7 +9276,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^IDK ",
       "Japanese": "アクアグラッセ",
       "Comments": "",
       "u8": [
@@ -9299,7 +9299,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Double Rainy",
       "Japanese": "ダブルフロー",
       "Comments": "",
       "u8": [
@@ -9322,9 +9322,9 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Soda Frappe",
       "Japanese": "ソーダフラッペ",
-      "Comments": "",
+      "Comments": "Should modify this slightly.",
       "u8": [
         0,
         141,
@@ -9345,7 +9345,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Call Battery",
       "Japanese": "コールテスラ",
       "Comments": "",
       "u8": [
@@ -9368,7 +9368,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Thunder clap",
       "Japanese": "パチパチ",
       "Comments": "",
       "u8": [
@@ -9391,7 +9391,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Flasher",
       "Japanese": "フラッシャー",
       "Comments": "",
       "u8": [
@@ -9414,7 +9414,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Clear History",
       "Japanese": "クリアクロック",
       "Comments": "",
       "u8": [
@@ -9437,7 +9437,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Lightning",
       "Japanese": "ライトニング",
       "Comments": "",
       "u8": [
@@ -9460,7 +9460,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Double Battery",
       "Japanese": "ダブルテスラ",
       "Comments": "",
       "u8": [
@@ -9483,7 +9483,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Thunder Spark",
       "Japanese": "サンダースパーク",
       "Comments": "",
       "u8": [
@@ -9506,7 +9506,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Call History",
       "Japanese": "コールクロック",
       "Comments": "",
       "u8": [
@@ -9529,7 +9529,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^IDK",
       "Japanese": "ねじロボ",
       "Comments": "",
       "u8": [
@@ -9552,7 +9552,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^IDK",
       "Japanese": "ぜんまいロボ",
       "Comments": "",
       "u8": [
@@ -9575,7 +9575,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Clear Toasty",
       "Japanese": "クリアトースト",
       "Comments": "",
       "u8": [
@@ -9598,7 +9598,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^IDK",
       "Japanese": "はぐるまロボ",
       "Comments": "",
       "u8": [
@@ -9621,7 +9621,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Double History",
       "Japanese": "ダブルクロック",
       "Comments": "",
       "u8": [
@@ -9644,7 +9644,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^IDK",
       "Japanese": "みさいるロボ",
       "Comments": "",
       "u8": [
@@ -9667,7 +9667,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Call Shadowy",
       "Japanese": "コールニルヴァ",
       "Comments": "",
       "u8": [
@@ -9690,7 +9690,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^IDK",
       "Japanese": "ミジョテー",
       "Comments": "",
       "u8": [
@@ -9713,7 +9713,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Shadow Die",
       "Japanese": "ヘルダイス",
       "Comments": "",
       "u8": [
@@ -9736,7 +9736,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Clear Spirits",
       "Japanese": "クリアスピリット",
       "Comments": "",
       "u8": [
@@ -9759,7 +9759,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Abyssal Void",
       "Japanese": "アビス",
       "Comments": "",
       "u8": [
@@ -9782,7 +9782,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Double Shadowy",
       "Japanese": "ダブルニルヴァ",
       "Comments": "",
       "u8": [
@@ -9805,7 +9805,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Black Hole",
       "Japanese": "ブラックホール",
       "Comments": "",
       "u8": [
@@ -9828,7 +9828,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Call Brightly",
       "Japanese": "コールルクス",
       "Comments": "",
       "u8": [
@@ -9851,7 +9851,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Sunlight",
       "Japanese": "スターライト",
       "Comments": "",
       "u8": [
@@ -9874,7 +9874,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Moonlight",
       "Japanese": "ムーンライト",
       "Comments": "",
       "u8": [
@@ -9897,7 +9897,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Clear Shadowy",
       "Japanese": "クリアニルヴァ",
       "Comments": "",
       "u8": [
@@ -9920,7 +9920,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Starlight",
       "Japanese": "サンライト",
       "Comments": "",
       "u8": [
@@ -9943,7 +9943,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Double Brightly",
       "Japanese": "ダブルルクス",
       "Comments": "",
       "u8": [
@@ -9966,7 +9966,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Spacelight",
       "Japanese": "スペースライト",
       "Comments": "",
       "u8": [
@@ -9989,7 +9989,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Call Charity",
       "Japanese": "コールウィッシュ",
       "Comments": "",
       "u8": [
@@ -10012,7 +10012,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Angel's ",
       "Japanese": "天使のほほえみ",
       "Comments": "",
       "u8": [
@@ -10035,7 +10035,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Angel's Kiss",
       "Japanese": "天使のキッス",
       "Comments": "",
       "u8": [
@@ -10058,9 +10058,9 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Angel's IDK",
       "Japanese": "天使のエール",
-      "Comments": "",
+      "Comments": "Not sure",
       "u8": [
         3,
         53,
@@ -10081,7 +10081,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Angel's Charge",
       "Japanese": "天使のチャージ",
       "Comments": "",
       "u8": [
@@ -10104,7 +10104,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Double Charity",
       "Japanese": "ダブルウィッシュ",
       "Comments": "",
       "u8": [
@@ -10127,7 +10127,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Angel's Hug",
       "Japanese": "天使のハグ",
       "Comments": "",
       "u8": [
@@ -10150,9 +10150,9 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Flamethrower",
       "Japanese": "ほのお",
-      "Comments": "",
+      "Comments": "These are monster spell names.",
       "u8": [
         0,
         170,
@@ -19473,7 +19473,7 @@
       ]
     },
     {
-      "English": "Craggy",
+      "English": "Rocky",
       "Japanese": "フリント",
       "Comments": "",
       "u8": [
@@ -20190,7 +20190,7 @@
   ],
   [
     {
-      "English": "Fire",
+      "English": "^Fire",
       "Japanese": "火",
       "Comments": "",
       "u8": [
@@ -20213,7 +20213,7 @@
       ]
     },
     {
-      "English": "Wind",
+      "English": "^Wind",
       "Japanese": "風",
       "Comments": "",
       "u8": [
@@ -20236,7 +20236,7 @@
       ]
     },
     {
-      "English": "Poison",
+      "English": "^Poison",
       "Japanese": "毒",
       "Comments": "",
       "u8": [
@@ -20259,7 +20259,7 @@
       ]
     },
     {
-      "English": "Beauty",
+      "English": "^Beauty",
       "Japanese": "美",
       "Comments": "",
       "u8": [
@@ -20282,7 +20282,7 @@
       ]
     },
     {
-      "English": "Blade",
+      "English": "^Blade",
       "Japanese": "刃",
       "Comments": "",
       "u8": [
@@ -20305,7 +20305,7 @@
       ]
     },
     {
-      "English": "Sound",
+      "English": "^Sound",
       "Japanese": "音",
       "Comments": "",
       "u8": [
@@ -20328,7 +20328,7 @@
       ]
     },
     {
-      "English": "Stone",
+      "English": "^Stone",
       "Japanese": "石",
       "Comments": "",
       "u8": [
@@ -20351,7 +20351,7 @@
       ]
     },
     {
-      "English": "Bug",
+      "English": "^Bug",
       "Japanese": "虫",
       "Comments": "",
       "u8": [
@@ -20374,7 +20374,7 @@
       ]
     },
     {
-      "English": "Wood",
+      "English": "^Wood",
       "Japanese": "木",
       "Comments": "",
       "u8": [
@@ -20397,7 +20397,7 @@
       ]
     },
     {
-      "English": "Beast",
+      "English": "^Beast",
       "Japanese": "獣",
       "Comments": "",
       "u8": [
@@ -20420,7 +20420,7 @@
       ]
     },
     {
-      "English": "Water",
+      "English": "^Water",
       "Japanese": "水",
       "Comments": "",
       "u8": [
@@ -20443,7 +20443,7 @@
       ]
     },
     {
-      "English": "Electric",
+      "English": "^Electric",
       "Japanese": "雷",
       "Comments": "",
       "u8": [
@@ -20466,7 +20466,7 @@
       ]
     },
     {
-      "English": "Ancient",
+      "English": "^Ancient",
       "Japanese": "古",
       "Comments": "",
       "u8": [
@@ -20489,7 +20489,7 @@
       ]
     },
     {
-      "English": "Dark",
+      "English": "^Dark",
       "Japanese": "闇",
       "Comments": "",
       "u8": [
@@ -20512,7 +20512,7 @@
       ]
     },
     {
-      "English": "Light",
+      "English": "^Light",
       "Japanese": "光",
       "Comments": "",
       "u8": [
@@ -20535,7 +20535,7 @@
       ]
     },
     {
-      "English": "Love",
+      "English": "^Love",
       "Japanese": "愛",
       "Comments": "",
       "u8": [
@@ -20558,7 +20558,7 @@
       ]
     },
     {
-      "English": "None",
+      "English": "^None",
       "Japanese": "なし",
       "Comments": "",
       "u8": [
