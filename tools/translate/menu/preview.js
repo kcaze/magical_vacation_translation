@@ -8,7 +8,7 @@ var explanation_box = document.getElementById('explanation_box');
 var monospace_font = document.getElementById('monospace_font');
 
 var monospace_font_order =
-    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz.,'!?:0123456789 ";
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz.,'!?:0123456789- ";
 
 function updatePreview() {
   explanation_preview.drawImage(explanation_box, 0, 0);

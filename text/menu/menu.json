@@ -10294,7 +10294,7 @@
       ]
     },
     {
-      "English": "Necessary to access the\\fe\\ffcheese tower's shortcut.",
+      "English": "Needed for the cheese\\fe\\fftower's shortcut.",
       "Japanese": "チーズの塔の抜け道を通して\\FE\\FFもらうために必要なものだ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -10357,7 +10357,7 @@
       ]
     },
     {
-      "English": "Opens the door before the\\fe\\ffelevator in Iko Domnag.",
+      "English": "Opens the door to Iko\\fe\\ffDomnag's elevator.",
       "Japanese": "ドワーフの塔でエレベーター\\FE\\FF前の扉を開くためのものだ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -10504,7 +10504,7 @@
       ]
     },
     {
-      "English": "A book about all sorts\\fe\\ffof species.",
+      "English": "A book about various\\fe\\ffspecies in the world.",
       "Japanese": "様々な種族について書かれた\\FE\\FF小冊子だ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -10608,7 +10608,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Traveling Putties are\\fe\\ffmade from these?!",
       "Japanese": "こんにゃくの材料だ。\\FE\\FFこんにゃくを作れるのか??\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -10665,7 +10665,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "The magic notebook.\\fe\\ffIt's important.",
       "Japanese": "魔法学校特製の魔法の手帳だ。\\FE\\FF重要な情報が書きこまれる。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -10730,7 +10730,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "A thick book on Magic\\fe\\ffDolls.",
       "Japanese": "マジックドールのことが書かれ\\FE\\FFた分厚い本だ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -10783,7 +10783,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "A map of the Abyssal\\fe\\ffRealm.",
       "Japanese": "死のプレーンの地図を見る\\FE\\FFことができるぞ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -10834,7 +10834,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "A light cloth. Enter\\fe\\ffthe star cave with it.",
       "Japanese": "光でできたうすい布だ。\\FE\\FF星の洞窟に入るのに必要だ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -10893,7 +10893,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "A dark cloth. Opens\\fe\\ffthe Abyssal Corridor.",
       "Japanese": "闇でできたうすい布だ。\\FE\\FF死の回廊に入るのに必要だ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -10952,7 +10952,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Stone used to descend\\fe\\ffinto Drazzig Grotto.",
       "Japanese": "モギナスの魔窟の最下層へ行く\\FE\\FFのに必要になる石だ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -11011,9 +11011,9 @@
       ]
     },
     {
-      "English": "",
+      "English": "Help.",
       "Japanese": "予備ヘルプ\\FF\\FF",
-      "Comments": "",
+      "Comments": "Unused I think",
       "u8": [
         1,
         163,
@@ -11030,7 +11030,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "A pungent leaf. Ups\\fe\\ffyour power by 1.",
       "Japanese": "キツイにおいのはっぱだ。\\FE\\FF力が１ポイントアップ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -11087,7 +11087,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "A sickly sweet leaf.\\fe\\ffUps your spirit by 1.",
       "Japanese": "あまいにおいのはっぱだ。\\FE\\FF精神が１ポイントアップ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -11146,7 +11146,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "A rancid leaf. Ups\\fe\\ffyour agility by 1.",
       "Japanese": "すっぱいにおいのはっぱだ。\\FE\\FF速さが１ポイントアップ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -11207,7 +11207,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "A musty leaf. Ups\\fe\\ffyour defense by 1.",
       "Japanese": "ヘンなにおいのはっぱだ。\\FE\\FF守りが１ポイントアップ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -11266,7 +11266,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "It tastes like apple.\\fe\\ffHeals 30 HP.",
       "Japanese": "なぜかメロンの味がするぞ。\\FE\\FFHP３０ポイント回復。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -11325,7 +11325,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "It tastes like soda\\fe\\ffpop. Heals 120 HP.",
       "Japanese": "なぜかソーダの味がするぞ。\\FE\\FFHP１２０ポイント回復。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -11386,7 +11386,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "It tastes like straw-\\fe\\ffberry. Heals 500 HP.",
       "Japanese": "なぜかイチゴの味がするぞ。\\FE\\FFHP５００ポイント回復。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -11447,7 +11447,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "It tastes like lemon.\\fe\\ffHeals 50 MP.",
       "Japanese": "なぜかレモンの味がするぞ。\\FE\\FFMP５０ポイント回復。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -11506,7 +11506,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "It tastes like cherry.\\fe\\ffHeals 200 MP.",
       "Japanese": "なぜかチェリーの味がするぞ。\\FE\\FFMP２００ポイント回復。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -11569,7 +11569,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "This warty tail cures\\fe\\ffpoison.",
       "Japanese": "いぼいぼがあるしっぽだ。\\FE\\FFどくを回復するぞ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -11622,7 +11622,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "This shiny scaly tail\\fe\\ffcures paralysis.",
       "Japanese": "ウロコが光ってるしっぽだ。\\FE\\FFしびれを回復するぞ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -11679,7 +11679,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "This rattling tail\\fe\\ffcures stun.",
       "Japanese": "先っぽがガラガラいうぞ。\\FE\\FFまひを回復するぞ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -11732,7 +11732,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "This spiny tail cures\\fe\\ffpetrification.",
       "Japanese": "トゲトゲのあるしっぽだ。\\FE\\FF石化を回復するぞ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -11785,7 +11785,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "This humongous tail\\fe\\ffrevives allies.",
       "Japanese": "でっかいしっぽだ。\\FE\\FF気絶を回復するぞ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -11832,7 +11832,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "It burns with the\\fe\\ffpower of fire.",
       "Japanese": "火の力を封じ込めた玉だ。\\FE\\FFバトルで攻撃用に使えるぞ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -11893,7 +11893,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "It drips with the\\fe\\ffpower of water.",
       "Japanese": "水の力を封じ込めた玉だ。\\FE\\FFバトルで攻撃用に使えるぞ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -11954,7 +11954,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "It smashes with the\\fe\\ffpower of stone.",
       "Japanese": "石の力を封じ込めた玉だ。\\FE\\FFバトルで攻撃用に使えるぞ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -12015,7 +12015,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "It blows with the\\fe\\ffpower of wind.",
       "Japanese": "風の力を封じ込めた玉だ。\\FE\\FFバトルで攻撃用に使えるぞ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -12076,7 +12076,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "It shines with the\\fe\\ffpower of light.",
       "Japanese": "光の力を封じ込めた玉だ。\\FE\\FFバトルで攻撃用に使えるぞ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -12137,7 +12137,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "It eclipses with the\\fe\\ffpower of darkness.",
       "Japanese": "闇の力を封じ込めた玉だ。\\FE\\FFバトルで攻撃用に使えるぞ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -12198,7 +12198,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "It envelopes with the\\fe\\ffpower of love.",
       "Japanese": "愛の力を封じ込めた玉だ。\\FE\\FF精霊に帰ってもらえるぞ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -12257,7 +12257,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "It shocks with the\\fe\\ffpower of electricity.",
       "Japanese": "雷の力を封じ込めた玉だ。\\FE\\FFバトルで攻撃用に使えるぞ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -12318,7 +12318,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "It befouls with the\\fe\\ffpower of poison.",
       "Japanese": "毒の力を封じ込めた玉だ。\\FE\\FFバトルで攻撃用に使えるぞ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -12379,7 +12379,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "It cuts with the\\fe\\ffpower of blade.",
       "Japanese": "刃の力を封じ込めた玉だ。\\FE\\FFバトルで攻撃用に使えるぞ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -12440,7 +12440,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "It dazzles with the\\fe\\ffpower of beauty.",
       "Japanese": "美の力を封じ込めた玉だ。\\FE\\FFバトルで攻撃用に使えるぞ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -12501,7 +12501,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "It deafens with the\\fe\\ffpower of sound.",
       "Japanese": "音の力を封じ込めた玉だ。\\FE\\FFバトルで攻撃用に使えるぞ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -12562,7 +12562,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "It slows with the\\fe\\ffpower of antiquity.",
       "Japanese": "古の力を封じ込めた玉だ。\\FE\\FFバトルで攻撃用に使えるぞ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -12623,7 +12623,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "It swells with the\\fe\\ffpower of wood.",
       "Japanese": "木の力を封じ込めた玉だ。\\FE\\FFバトルで攻撃用に使えるぞ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -12684,7 +12684,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "It roars with the\\fe\\ffpower of beasts.",
       "Japanese": "獣の力を封じ込めた玉だ。\\FE\\FFバトルで攻撃用に使えるぞ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -12745,7 +12745,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "It swarms with the\\fe\\ffpower of insects.",
       "Japanese": "虫の力を封じ込めた玉だ。\\FE\\FFバトルで攻撃用に使えるぞ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -12806,7 +12806,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "A trendy bandanna for\\fe\\ffyoungsters.",
       "Japanese": "あたまに装備するアイテム。\\FE\\FF若者に人気のバンダナだ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -12867,7 +12867,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "An upside down tulip-\\fe\\ffshaped hat.",
       "Japanese": "あたまに装備するアイテム。\\FE\\FFさかさまのチューリップだ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -12930,7 +12930,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "A warm and fuzzy cap\\fe\\ffmade from alpaca wool.",
       "Japanese": "あたまに装備するアイテム。\\FE\\FFあったかそうなぼうしだ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -12991,7 +12991,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "A sturdy helmet to\\fe\\ffprotect your noggin.",
       "Japanese": "あたまに装備するアイテム。\\FE\\FFがんじょうなヘルメットだ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -13054,7 +13054,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "It covers your face\\fe\\ffcompletely. En garde!",
       "Japanese": "あたまに装備するアイテム。\\FE\\FF顔全部をすっぽりおおうぞ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -13117,7 +13117,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Wear this and you'll\\fe\\fflook just like a cat.",
       "Japanese": "あたまに装備するアイテム。\\FE\\FFかぶるとネコそっくりだ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -13178,7 +13178,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "It boosts the signal\\fe\\ffof magic waves.",
       "Japanese": "あたまに装備するアイテム。\\FE\\FF魔力をキャッチするぞ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -13237,7 +13237,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Have you ever seen a\\fe\\ffhelmet like this?!",
       "Japanese": "あたまに装備するアイテム。\\FE\\FFモヒカンがついてるぞ?\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -13296,7 +13296,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "This afro instantly\\fe\\ffmakes you popular.",
       "Japanese": "あたまに装備するアイテム。\\FE\\FFいかしたアフロヘアだ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -13355,7 +13355,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "And you thought the\\fe\\ffantenna was strong?!",
       "Japanese": "あたまに装備するアイテム。\\FE\\FF魔力をはげしくキャッチだ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -13418,7 +13418,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "This wrist cuff\\fe\\ffbolsters your spirit.",
       "Japanese": "うでに装備するアイテムだ。\\FE\\FF精神力を高める効果がある。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -13481,7 +13481,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "This wrist is made\\fe\\fffrom baobab wood.",
       "Japanese": "うでに装備するアイテムだ。\\FE\\FFバオバブの木でできてるぞ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -13544,7 +13544,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "This metallic ring\\fe\\ffboosts your agility.",
       "Japanese": "うでに装備するアイテムだ。\\FE\\FF人気のリングですばやさアップ\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -13609,7 +13609,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "This metallic ring\\fe\\ffboosts your power.",
       "Japanese": "うでに装備するアイテム。\\FE\\FF物理攻撃力が大きくアップだ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -13672,7 +13672,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "This metallic ring\\fe\\ffboosts your spirit.",
       "Japanese": "うでに装備するアイテム。\\FE\\FF精神力がかなりアップだ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -13731,7 +13731,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "These paws are filled\\fe\\ffwith cat magic.",
       "Japanese": "うでに装備するアイテムだ。\\FE\\FF猫の力と魔力を秘めている。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -13794,7 +13794,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "This brace has superb\\fe\\ffmagical power within.",
       "Japanese": "うでに装備するアイテム。\\FE\\FF魔力アップのよい品だ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -13851,7 +13851,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "The lenses amplify\\fe\\ffyour magical power.",
       "Japanese": "うでに装備するアイテム。\\FE\\FF魔力をぞうふくするレンズだ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -13914,7 +13914,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "A brace for imps and\\fe\\ffgargoyles alike.",
       "Japanese": "うでに装備するアイテム。\\FE\\FF魔力をぞうふくするリングだ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -13977,7 +13977,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "The lens are crafted\\fe\\fffrom glossy fluorite.",
       "Japanese": "うでに装備するアイテム。\\FE\\FFすきとおった石のレンズだ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -14038,7 +14038,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "A skin-tight shirt\\fe\\ffmade from CDs.",
       "Japanese": "からだに装備するアイテム。\\FE\\FFからだにピッタリのシャツだ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -14103,7 +14103,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "A knockoff shirt used\\fe\\ffto scam tourists.",
       "Japanese": "からだに装備するアイテムだ。\\FE\\FFデザインがパクリっぽいぞ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -14168,7 +14168,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "This is one stylish\\fe\\ffleather jacket.",
       "Japanese": "からだに装備するアイテム。\\FE\\FFカッコイイ革のジャケットだ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -14233,7 +14233,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "The chains clink as\\fe\\ffyou walk.",
       "Japanese": "からだに装備するアイテム。\\FE\\FFクサリがジャラジャラだ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -14294,7 +14294,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "This is crafted from\\fe\\fflizard skin.",
       "Japanese": "からだに装備するアイテムだ。\\FE\\FFトカゲの皮でできてるぞ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -14357,7 +14357,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "A full-body suit, \\fe\\ffcomplete with tail.",
       "Japanese": "からだに装備するアイテム。\\FE\\FFしっぽつきの全身シャツだ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -14420,7 +14420,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Nothing says fashion\\fe\\fflike a leopard print.",
       "Japanese": "からだに装備するアイテム。\\FE\\FFパンサープリントのシャツだ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -14485,7 +14485,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "There's a license\\fe\\ffplate on the back?!",
       "Japanese": "からだに装備するアイテムだ。\\FE\\FF背中にナンバープレートが！?\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -14552,9 +14552,9 @@
       ]
     },
     {
-      "English": "",
+      "English": "An iron armor smelted\\fe\\ffby maidens.",
       "Japanese": "からだに装備するアイテム。\\FE\\FF鉄のトゲトゲがいっぱいだ。\\FF\\FF",
-      "Comments": "",
+      "Comments": ":) Subtle Iron Maiden reference.",
       "u8": [
         0,
         122,
@@ -14615,7 +14615,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "A shirt with a bland\\fe\\fffrog design.",
       "Japanese": "からだに装備するアイテム。\\FE\\FF胸もとにカエルプリントだ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -14678,7 +14678,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "This is some sturdy\\fe\\ffwooden footwear.",
       "Japanese": "あしに装備するアイテム。\\FE\\FF木でできたじょうぶなくつだ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -14741,7 +14741,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "They're comfy and\\fe\\ffeasy to wear!",
       "Japanese": "あしに装備するアイテム。\\FE\\FF歩きやすくて軽いくつだ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -14800,7 +14800,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "The grip on these\\fe\\ffshoes prevent slips.",
       "Japanese": "あしに装備するアイテムだ。\\FE\\FFしっかりグリップするぞ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -14861,7 +14861,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "There's no way these\\fe\\fflook good on anyone.",
       "Japanese": "あしに装備するアイテム。\\FE\\FFこのくつがにあえば一人前だ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -14924,7 +14924,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Actually, the entire\\fe\\ffshoe is rubbery.",
       "Japanese": "あしに装備するアイテム。\\FE\\FFゴムでできたくつだ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -14979,7 +14979,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Wear these and you'll\\fe\\ffhave nine lives too.",
       "Japanese": "あしに装備するアイテムだ。\\FE\\FF猫のように軽やかに。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -15036,7 +15036,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "These remind me of a\\fe\\ffcertain robot's feet.",
       "Japanese": "あしに装備するアイテム。\\FE\\FF鉄でできたゲタだ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -15089,7 +15089,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "No dodos were harmed\\fe\\ffin producing these.",
       "Japanese": "あしに装備するアイテム。\\FE\\FFダチョウの皮のくつだ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -15146,7 +15146,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "These delicate shoes\\fe\\ffbefit a princess.",
       "Japanese": "あしに装備するアイテム。\\FE\\FFすきとおったきれいなくつだ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -15209,7 +15209,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "These shoes make the\\fe\\ffwearer cheerful.",
       "Japanese": "あしに装備するアイテムだ。\\FE\\FFはくだけでうかれてしまう。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -15272,7 +15272,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Perfect for anyone\\fe\\ffwho isn't bald.",
       "Japanese": "アクセサリー。\\FE\\FFヘアのみだれもバッチリだ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -15323,7 +15323,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "This helps those out\\fe\\ffwith long hair.",
       "Japanese": "アクセサリーだ。\\FE\\FFかみをまとめてスッキリね。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -15376,7 +15376,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "This ribbon brings\\fe\\ffthe wearer awareness.",
       "Japanese": "アクセサリーだ。\\FE\\FFちょっとハイになれるぞ?\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -15427,7 +15427,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "These sparkle blue in\\fe\\ffthe moonlight.",
       "Japanese": "アクセサリーだ。\\FE\\FF耳もとに光るセンス。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -15474,7 +15474,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "These have a more\\fe\\ffsubtle look.",
       "Japanese": "アクセサリーだ。\\FE\\FFクールにコーディネイト。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -15525,7 +15525,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "This really makes you\\fe\\fffeel like a cat.",
       "Japanese": "アクセサリーだ。\\FE\\FF子猫になった気分でゴー。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -15576,7 +15576,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Pretty with a dash\\fe\\ffof danger.",
       "Japanese": "アクセサリーだ。\\FE\\FFダークな一面をプリティに。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -15629,7 +15629,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "This was found in a\\fe\\fflake.",
       "Japanese": "アクセサリーだ。\\FE\\FF心のおもむくままに。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -15676,7 +15676,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Wear this to get a\\fe\\ffgood night's rest.",
       "Japanese": "アクセサリーだ。\\FE\\FF集中力バツグン。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -15719,7 +15719,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "This would be useful\\fe\\fffor a costume party.",
       "Japanese": "アクセサリーだ。\\FE\\FFゆがむほどハイな気分で。\\FF\\FF",
       "Comments": "",
       "u8": [
