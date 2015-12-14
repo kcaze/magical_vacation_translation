@@ -2,12 +2,9 @@
 .gba
 .open "hacked.gba", 0x08000000
 
-;-------------------------------------------------------;
-; Include binary files for graphics and data structures ;
-;-------------------------------------------------------;
-.org 0x087910A0
-.incbin graphics/menu_headers/menu_text.bin
-
+;------------------------------------------;
+; Include binary files for data structures ;
+;------------------------------------------;
 .org 0x080C31B8
 .incbin graphics/menu_headers/menu_text_info.bin
 

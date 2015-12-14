@@ -1,4 +1,4 @@
-Overvie w
+Overview
 ========
 <p align="center">
   <img src="http://i.imgur.com/uCSPNFk.png" alt="Menu Text Screenshot"/>
