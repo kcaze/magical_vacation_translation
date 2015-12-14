@@ -83,7 +83,12 @@
     <label>Comments:</label>
     <textarea disabled=true id="comments"></textarea>
   </p>
-  
+
+  <p>
+    <label>Explanation box preview:</label>
+    <canvas id="explanation_preview" width="382px" height="92px"></canvas>
+  </p>
+
   <p>
     <input id="japanese_search_text" type="text" />
     <button disabled="true" id="japanese_search">Search Japanese</button>
@@ -97,9 +102,13 @@
   <p id="search_results">
   </p>
 
+  <img id="explanation_box" src="/tools/lib/explanation_box.png" style="visibility:hidden">
+  <img id="monospace_font" src="/tools/lib/monospace_font.png" style="visibility:hidden">
+
   <script src="/tools/lib/FileSaver.js"></script>
   <script src="/tools/lib/table.js"></script>
   <script src="generateJapanese.js"></script>
+  <script src="preview.js"></script>
   <script src="main.js"></script>
 </body>
 </html>

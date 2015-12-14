@@ -9947,7 +9947,7 @@
   ],
   [
     {
-      "English": "",
+      "English": "No items.",
       "Japanese": "アイテムなし。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -9970,9 +9970,9 @@
       ]
     },
     {
-      "English": "",
+      "English": "A map of the Light\\fe\\ffRealm.",
       "Japanese": "光のプレーンの地図を見る\\FE\\FFことができるぞ。\\FF\\FF",
-      "Comments": "",
+      "Comments": "Map of Light description",
       "u8": [
         1,
         210,
@@ -10021,9 +10021,9 @@
       ]
     },
     {
-      "English": "",
+      "English": "Befriend Melody more\\fe\\ffeasily.",
       "Japanese": "ハミングと仲良くなるときに\\FE\\FFコストが低くてすむぞ。\\FF\\FF",
-      "Comments": "",
+      "Comments": "Small Ocarina description",
       "u8": [
         0,
         163,
@@ -10080,9 +10080,9 @@
       ]
     },
     {
-      "English": "",
+      "English": "Necessary to enter\\fe\\ffWetsomus Ruins.",
       "Japanese": "ベナコンチャ遺跡に入れる\\FE\\FFようになるぞ。\\FF\\FF",
-      "Comments": "",
+      "Comments": "Ukuru's Feather description",
       "u8": [
         0,
         243,
@@ -10129,9 +10129,9 @@
       ]
     },
     {
-      "English": "",
+      "English": "Lets you discover\\fe\\ffhidden Antsy's.",
       "Japanese": "隠れてる虫の精霊バズが見える\\FE\\FFようになるぞ。\\FF\\FF",
-      "Comments": "",
+      "Comments": "Magnifying Glass description.",
       "u8": [
         3,
         132,
@@ -10182,9 +10182,9 @@
       ]
     },
     {
-      "English": "",
+      "English": "Opens the doors to\\fe\\ffErimust Palace.",
       "Japanese": "光の宮殿の門のカギを開ける\\FE\\FFことができるぞ。\\FF\\FF",
-      "Comments": "",
+      "Comments": "Palace Key description.",
       "u8": [
         1,
         210,
@@ -10235,9 +10235,9 @@
       ]
     },
     {
-      "English": "",
+      "English": "A book describing all\\fe\\ffsorts of monsters.",
       "Japanese": "モンスターについて、いろんな\\FE\\FFことが書かれた本だ。\\FF\\FF",
-      "Comments": "",
+      "Comments": "Bestiary description",
       "u8": [
         0,
         181,
@@ -10294,7 +10294,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Necessary to access the\\fe\\ffcheese tower's shortcut.",
       "Japanese": "チーズの塔の抜け道を通して\\FE\\FFもらうために必要なものだ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -10357,7 +10357,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Opens the door before the\\fe\\ffelevator in Iko Domnag.",
       "Japanese": "ドワーフの塔でエレベーター\\FE\\FF前の扉を開くためのものだ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -10420,7 +10420,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "A map of the Dark\\fe\\ffRealm.",
       "Japanese": "闇のプレーンの地図を見る\\FE\\FFことができるぞ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -10471,7 +10471,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Effective cure for\\fe\\ffthe Ooze Fever.",
       "Japanese": "ウーズ熱のとっこう薬だ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -10504,7 +10504,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "A book about all sorts\\fe\\ffof species.",
       "Japanese": "様々な種族について書かれた\\FE\\FF小冊子だ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -10551,7 +10551,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "A watery cloth. Makes\\fe\\ffthe desert easy peasy.",
       "Japanese": "水でできたうすい布。\\FE\\FFこれで砂漠もへっちゃらだ。\\FF\\FF",
       "Comments": "",
       "u8": [

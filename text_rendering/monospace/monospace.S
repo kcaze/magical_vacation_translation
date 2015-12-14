@@ -2,8 +2,11 @@
 .open "hacked.gba", 0x08000000
 
 ; Disable the check that aborts drawing if a glyph has value > 0x0FFF
-.org 0x080B659C
-b 0x80B65C4
+;.org 0x080B659C
+;b 0x80B65C4
+
+.org 0x080B65C0
+.word 0x0000F0F0
 
 ; Edit the x increment for sprites to be 0x10 instead of 0x0C. This way,
 ; sprites don't overlap.
