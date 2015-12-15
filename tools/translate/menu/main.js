@@ -6,7 +6,9 @@ var section_names = [
   'explanations',
   'notebook',
   'profiles',
-  'name_selection',
+  'species_descriptions',
+  'species',
+  'md_dictionary',
   'element_descriptions'
 ];
 
@@ -166,8 +168,7 @@ function english_search() {
   }
 }
 
-/*
-function readBinary(e) {
+/*function readBinary(e) {
   var file = e.target.files[0]; // FileList object
   var fileReader = new FileReader();
   fileReader.onload = function (e) {
@@ -189,6 +190,10 @@ function generateJSON(binary) {
     0x927C,
     0xB188,
     0xB3C8,
+    0x15814,
+    0x15840,
+    0x1653C,
+    0x165B4,
     0x17DB4,
     0x17F1C,
     0x18CD8,
@@ -225,8 +230,7 @@ function generateJSON(binary) {
 }
 
 document.getElementById('binary')
-  .addEventListener('change', readBinary, false);
-*/
+  .addEventListener('change', readBinary, false);*/
 
 document.getElementById('json')
   .addEventListener('change', readJSON, false);
