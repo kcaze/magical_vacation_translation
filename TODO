@@ -1,2 +1,3 @@
-1. The ending "L" in "Searing Fireball" is truncated in the magic level menu.
 2. Letters sometimes have problems in the monospace font. E.g. try the description for red frog then red worm.
+3. Need to add a start of line character to the "-------" for blank equipment.
+5. Character names aren't computed properly, the address is only computed by adding 16 instead of 32.

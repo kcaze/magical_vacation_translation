@@ -13,6 +13,10 @@ of each section to give indices for the beginning of words.
 0x0000927C = Magic notebook (0x087CB4D0)
 0x0000B188 = Profiles offset (0x087CD3DC)
 0x0000B3C8 = Profiles (0x087CD61C)
+0x00015814 = IDK (oops)
+0x00015840 = IDK (oops)
+0x0001653C = IDK (oops)
+0x000165B4 = IDK (oops)
 0x00017DB4 = Name selection kanji offset table (0x087DA008)
 0x00017F1C = Name selection kanji (0x087DA170)
 0x00018CD8 = Initial element descriptions offset table (0x087DAF2C)
@@ -27,3 +31,6 @@ The remaining part is the menu data.
 
 0x087C2254 to 0x87CC229B is a bunch of offset into text tables, and the offsets
 are computed in a short subroutine at 80BE330.
+
+
+0x080BD520: Subroutine to compute the address of a piece of menu text. r1 = menu section, r0 = index into the section.

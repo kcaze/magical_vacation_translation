@@ -15,9 +15,11 @@ nop
 .org 0x080B5DB2
 .word 0xFFFF0000 ; 0xFFFF0000 instead of 0x0000FFFF because of byte order
 
-; For some reason, the game writes an 0xF in the top nibble. Disabling that.
+; For some reason, the game modifies the glyph values, disabling that.
 .org 0x080B5DEC
 nop
+.org 0x080B5DD6
+mov r0, 0x00
 
 
 ; Modify a bunch of calls to the name length calculation routine to read 16
@@ -75,8 +77,26 @@ nop
 ; 0x080BEEEC loads r1 from r2. r2 = value of r1 passed in at
 ; 0x080BEE90, which is called 3 times: 0x0809B312, 0x080B5D50, and 0x080B653E.
 ; Tracing back further, we find that 0x080B4968 causes the 0x7 to be passed in.
+
+
+; PROTIP: To trace where the 0x07 needs to be changed to a 0x10, set a
+;         breakpoint at 0x080B57D8 and see where that is called. The value of
+;         r3 passed in needs to be changed to 0x10.
+
+; Item names in the menu.
 .org 0x080B4968
 mov r3, 0x10
 
+; Item names in the shop buy menu.
+.org 0x080B422A
+mov r3, 0x10
+
+; Item names in the shop sell menu.
+.org 0x080B49E4
+mov r3, 0x10
+
+; Spell names in the menu.
+.org 0x080B412E
+mov r3, 0x10
 
 .close

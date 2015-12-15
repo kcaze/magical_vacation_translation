@@ -46,7 +46,15 @@
 .org 0x087E4400
 .incbin text/menu/explanations_offsets.bin
 
+; Insert translated menu explanations text.
 .org 0x087E4838
 .incbin text/menu/explanations.bin
+
+; Insert modified name selection kanji offsets.
+.org 0x087ECA00
+.incbin text/menu/name_selection_offsets.bin
+
+.org 0x087ECB68
+.incbin text/menu/name_selection.bin
 
 .close
