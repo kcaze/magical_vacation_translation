@@ -1,6 +1,16 @@
 .gba
 .open "hacked.gba", 0x08000000
 
+; The sprite drawing is lazy and it finds the first glyph that differs before
+; drawing. Unfortunately, it ands the glyph with 0x0FFF so we may have two
+; English glyphs that are different but the game treats the same. E.g. 0x4320
+; 0x7320 would be considered the same so the game wouldn't update. We force the
+; game to not be lazy by unconditionally jumping.
+; TODO: This fix is pretty CPU intensive. It'd be better if we could just get
+; the to compare the full 16 bits of the glyphs.
+.org 0x080B66B4
+b 0x080B6720
+
 ; Disable the check that aborts drawing if a glyph has value > 0x0FFF
 ;.org 0x080B659C
 ;b 0x80B65C4
@@ -56,7 +66,7 @@ str r2, [sp, 0x08]
 ldr r2, [r0, 0x04]
 str r2, [sp, 0x0C]
 ldr r2, [r0, 0x08]
-str r2, [sp, 0x18]
+str r2, [sp, 0x18 ]
 ldr r2, [r0, 0x0C]
 str r2, [sp, 0x1C]
 
