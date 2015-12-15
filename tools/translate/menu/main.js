@@ -7,8 +7,8 @@ var section_names = [
   'notebook',
   'profiles',
   'species_descriptions',
-  'species',
   'md_dictionary',
+  'name_selection',
   'element_descriptions'
 ];
 

@@ -98061,9 +98061,9 @@
   ],
   [
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": "マジックドールの基本\\FF\\FF",
-      "Comments": "",
+      "Comments": "Adding extra space in front so that it looks nicer",
       "u8": [
         0,
         173,
@@ -98090,7 +98090,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": "MDパーツの組みこみ方\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -98121,7 +98121,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": "魂の入魂方法\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -98142,7 +98142,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": "MDパーツの種類\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -98167,7 +98167,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": "MDパーツ・シェル\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -98194,7 +98194,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": "MDパーツ・ジェム\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -98221,7 +98221,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": "MDパーツ・フルーツ\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -98250,7 +98250,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": "MDパーツ・キララ\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -98277,7 +98277,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": "MDパーツ・ガット\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -98304,7 +98304,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": "マジックドールの能力\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -98333,7 +98333,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": "MD能力・タイプ\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -98358,7 +98358,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": "MD能力・パワー倍率\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -98387,7 +98387,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": "MD能力・パワーリミット\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -98420,7 +98420,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": "MD能力・必要パワー\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -98449,7 +98449,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": "コラム・MDと時代背景\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -98480,7 +98480,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": "TIPS・ケースに応じて\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -98513,7 +98513,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": "TIPS・入魂時の装備\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -98544,7 +98544,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": "TIPS・素材組み合わせ\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -98577,7 +98577,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": "資料・シェルの種類\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -98604,7 +98604,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": "資料・ジェムの種類\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -98631,7 +98631,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": "資料・フルーツの種類\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -98660,7 +98660,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": "資料・キララの種類\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -98687,7 +98687,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": "資料・ガットの種類\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -98714,7 +98714,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": "MDの個性\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -98733,7 +98733,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": "コラム・MDとマッドマン\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -98766,7 +98766,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": "MD０５－サーディン\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -98795,7 +98795,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": "MD０４－フラウンダ\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -98824,7 +98824,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": "MD０３－マッケレル\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -98853,7 +98853,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": "MD０２－ボニート\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -98880,7 +98880,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": "MD０１－ターニィ\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -98907,7 +98907,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": " マジックドールは、MDとも\\FE\\FF呼ばれる、魔法の力で動く人形\\FE\\FFのこと。\\FE\\FF ５つの素材（MDパーツ）を\\FE\\FF組みこみ、魂の入魂を行わない\\FE\\FFと、その能力はすべて１なので\\FE\\FFかならずこれらを行わなければ\\FE\\FFならない。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -99116,7 +99116,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": " メニューのメンバーから、\\FE\\FFマジックドールを選び、MD\\FE\\FFパーツセットで素材の組みこみ\\FE\\FFを行う。\\FE\\FF ５つの素材をすべて組みこま\\FE\\FFないと、各能力値は１のまま。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -99279,7 +99279,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": " メニューのメンバーから、\\FE\\FFマジックドールを選び、プロ\\FE\\FFフィールを表示し、その中の霊\\FE\\FF魂でキャラクターを選択する。\\FE\\FF 魂を入魂しても、もとのキャ\\FE\\FFラから魂が抜けるわけではな\\FE\\FFく、マジックドールに魂がコ\\FE\\FFピーされると考えてよい。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -99514,7 +99514,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": " マジックドールに組みこむ素\\FE\\FF材は、シェル、ジェム、フルー\\FE\\FFツ、キララ、ガットの５種類。\\FE\\FF これらの組み合わせで、マ\\FE\\FFジックドールの基本的な性能が\\FE\\FF決まる。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -99679,7 +99679,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": " シェルは、マジックドールの\\FE\\FF外殻になる。\\FE\\FF アイテムの中で、[icon 0x0a]クラブ\\FE\\FFシェルなどの、『シェル』とつ\\FE\\FFくものがそれにあたる。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -99812,7 +99812,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": " ジェムは、入魂した魂から\\FE\\FFパワーを引き出すために使用さ\\FE\\FFれる宝石のことを指す。\\FE\\FF [icon 0x0a]アメジストや[icon 0x0a]ルビーなど\\FE\\FFが存在する。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -99945,7 +99945,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": " 魂から取り出したパワーを\\FE\\FFマジックドールの全身に流れや\\FE\\FFすくするために、フルーツが使\\FE\\FF用される。\\FE\\FF [icon 0x0a]オレンジの実、[icon 0x0a]りんごの\\FE\\FF実などがある。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -100098,7 +100098,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": " 雲母と呼ばれる鉱石で、魂か\\FE\\FFら取り出したパワーを増幅する\\FE\\FFために使用される。\\FE\\FF [icon 0x0a]赤いキララ、[icon 0x0a]白いキララ\\FE\\FFなどの種類がある。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -100235,7 +100235,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": " 魔法の力で延びたり縮んだり\\FE\\FFして、マジックドールの全身を\\FE\\FF動かすひものことをガットと呼\\FE\\FFぶ。マジックドールの筋肉の役\\FE\\FF割を果たす。\\FE\\FF [icon 0x0a]ウールのせんい、[icon 0x0a]ひつじ\\FE\\FFのガットなどがある。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -100428,7 +100428,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": " マジックドールの能力には、\\FE\\FFタイプ、パワー倍率、パワーリ\\FE\\FFミット、必要パワーがある。\\FE\\FF パワー倍率とパワーリミット\\FE\\FFは大きいほうが良く、必要パ\\FE\\FFワーは小さいほうが良い。\\FE\\FF タイプは能力とは直接は関係\\FE\\FFしない。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -100647,7 +100647,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": " マジックドールのタイプは\\FE\\FFシェル（外殻）の種類によって\\FE\\FF決まるが、能力は素材の組み合\\FE\\FFわせによって様々なものができ\\FE\\FFるので、実際にはあまり気にす\\FE\\FFる必要は無い。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -100818,7 +100818,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": " 入魂した魂のパワーを増幅す\\FE\\FFる程度を示したもの。\\FE\\FF ５０％だったら、入魂した\\FE\\FFキャラクターの能力の５０％の\\FE\\FF力しか出ないし、２００％なら\\FE\\FF倍の力が出る。\\FE\\FF 大きいほうが良い。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -101003,7 +101003,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": " 入魂した魂からパワーを引き\\FE\\FF出せる限界の数値。\\FE\\FF ２０だったら、入魂したキャ\\FE\\FFラクターの能力値（たとえば力\\FE\\FFなど）が３０だったとしても、\\FE\\FF２０までしか引き出せない。\\FE\\FF 大きいほうが良い。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -101200,7 +101200,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": " マジックドールを動かすのに\\FE\\FF必要なパワーのことを指す。\\FE\\FF この値が１０だとしたら、\\FE\\FF入魂するキャラクターの能力値\\FE\\FF（力や精神など）が１１以上で\\FE\\FFないと、その能力を引き出せな\\FE\\FFい。\\FE\\FF 小さいほうが良い。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -101411,7 +101411,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": " マジックドールは戦いのため\\FE\\FFに作られた道具だった。\\FE\\FF 昔からドワーフの中にはマ\\FE\\FFジックドールを作る専門の集団\\FE\\FFがいたが、近頃は平和的な道具\\FE\\FFを作るドワーフが主流になり、\\FE\\FFマジックドール一門のドワーフ\\FE\\FFはドワーフの塔を追われた。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -101648,7 +101648,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": " 素材の組み合わせは、入魂す\\FE\\FFるキャラクターの能力によって\\FE\\FF変えると良い。\\FE\\FF 能力の低い者を入魂する時は\\FE\\FF必要パワーが低い組み合わせに\\FE\\FFして、能力が高いものを入魂す\\FE\\FFる場合は、パワーリミットが高\\FE\\FFい組み合わせにするのがコツ。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -101881,7 +101881,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": " マジックドールには、装備に\\FE\\FFよる能力の修正ぶんはふくまれ\\FE\\FFません、装備によって能力値が\\FE\\FF高くなっているキャラクターを\\FE\\FF入魂する場合には、注意してく\\FE\\FFださい。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -102048,7 +102048,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": " 素材の組み合わせは、手持ち\\FE\\FFの素材の中で良いものを寄せ集\\FE\\FFめるよりは、同じ位のランクの\\FE\\FF素材で統一したほうがバランス\\FE\\FFの良いものができる。\\FE\\FF どんなマジックドールを作る\\FE\\FFのが良いかは入魂するキャラク\\FE\\FFターにより変化する。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -102279,7 +102279,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": " シェルの種類は全部で８種類\\FE\\FFが存在する。\\FE\\FF [icon 0x0a]スカンピシェル\\FE\\FF [icon 0x0a]クラブシェル\\FE\\FF [icon 0x0a]トータスシェル\\FE\\FF [icon 0x0a]キメラシェル\\FE\\FF [icon 0x0a]ブラックシェル\\FE\\FF [icon 0x0a]シルバーシェル など。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -102454,7 +102454,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": " ジェムの種類は全部で８種類\\FE\\FFが存在する。\\FE\\FF [icon 0x0a]ガラスだま\\FE\\FF [icon 0x0a]ローズクォーツ\\FE\\FF [icon 0x0a]アメジスト\\FE\\FF [icon 0x0a]トルマリン\\FE\\FF [icon 0x0a]サファイア\\FE\\FF [icon 0x0a]ルビー など。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -102609,7 +102609,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": " フルーツの種類は全部で８種\\FE\\FF類が存在する。\\FE\\FF [icon 0x0a]オレンジの実\\FE\\FF [icon 0x0a]パパイヤの実\\FE\\FF [icon 0x0a]りんごの実\\FE\\FF [icon 0x0a]マスカットの実\\FE\\FF [icon 0x0a]ライチの実\\FE\\FF [icon 0x0a]チェリーの実 など。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -102776,7 +102776,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": " キララの種類は全部で５種類\\FE\\FFが存在する。\\FE\\FF [icon 0x0a]赤いキララ\\FE\\FF [icon 0x0a]黄色いキララ\\FE\\FF [icon 0x0a]白いキララ\\FE\\FF などがあり、最高のキララは\\FE\\FF輝いているので、一目見てそれ\\FE\\FFとわかる。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -102949,7 +102949,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": " ガットの種類は全部で５種類\\FE\\FFが存在する。\\FE\\FF [icon 0x0a]ウールのせんい\\FE\\FF [icon 0x0a]ひつじのガット\\FE\\FF [icon 0x0a]皮ひも\\FE\\FF などがあり、さらに上級の\\FE\\FFガットは一流の職人でも、あま\\FE\\FFり目にすることがない。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -103134,7 +103134,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": " マジックドールにはそれぞれ\\FE\\FF個体差がある。\\FE\\FF 設計したドワーフの個性に\\FE\\FFよって変わるので、MDパーツ\\FE\\FFの組み込みなどでこの特性を変\\FE\\FF更することはできない。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -103299,7 +103299,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": " 土のカタマリでできてるマッ\\FE\\FFドマンの体の中では、元素が圧\\FE\\FF縮されて宝石ができることがあ\\FE\\FFる。\\FE\\FF その宝石を取り出してマジッ\\FE\\FFクドールのパーツに使用するこ\\FE\\FFともできるが、非人道的との非\\FE\\FF難から現在は行われていない。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -103522,7 +103522,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": " MD職人ウスターの手による\\FE\\FFもので、素早いのが特徴。\\FE\\FF 魔法学校から、素早くコール\\FE\\FF魔法を唱えてくれるマジック\\FE\\FFドールが欲しいとリクエストさ\\FE\\FFれて作られたものだが、発注し\\FE\\FFた人が死んでしまって引き取り\\FE\\FF手がいなくなっていた。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -103757,7 +103757,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": " MD職人ドロの作品。\\FE\\FF 力が強いタイプのマジック\\FE\\FFドールで、魔法使いの非力さを\\FE\\FFカバーする目的で作られた。\\FE\\FF 闇のプレーンで能力テストを\\FE\\FF行っている時に、キード・モン\\FE\\FFガからマジックドール開発中止\\FE\\FFの連絡が届いた。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -103982,7 +103982,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": " MD職人クアトロフォルマッ\\FE\\FFジの作品で、３体が作られた。\\FE\\FF 守りに優れたタイプで、ゲア\\FE\\FFラヴァ村の小屋に隠してあった\\FE\\FFが、エニグマ襲来時のどさくさ\\FE\\FFにまぎれてブッチーネ３世が盗\\FE\\FFみ出した。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -104181,7 +104181,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": " キード・モンガの首領、グレ\\FE\\FFナデンが作ったマジックドール\\FE\\FFで、精神が高い。とある戦争で\\FE\\FF多くの兵士の命を奪った。\\FE\\FF そのことに心を痛めたグレナ\\FE\\FFデンは、自らボニートを回収し\\FE\\FF死のプレーンに住む旧友のブラ\\FE\\FFウニーにゆだねた。\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -104414,7 +104414,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ Untranslated",
       "Japanese": " 先代のキード・モンガの首領\\FE\\FFが作ったマジックドールでMP\\FE\\FFの回復率が高く、このマジック\\FE\\FFドールの所有をめぐって戦争が\\FE\\FF起きたこともあると言われてい\\FE\\FFる。\\FE\\FF グラン・ドラジェの手によっ\\FE\\FFて封印された。\\FF\\FF[icon 0x00]",
       "Comments": "",
       "u8": [

@@ -54,7 +54,16 @@
 .org 0x087ECA00
 .incbin text/menu/name_selection_offsets.bin
 
+; Insert modified name selection kanji.
 .org 0x087ECB68
 .incbin text/menu/name_selection.bin
+
+; Insert MD dictionary section name offsets.
+.org 0x087EF000
+.incbin text/menu/md_dictionary_offsets.bin
+
+; Insert MD dictionary section names.
+.org 0x087EF078
+.incbin text/menu/md_dictionary.bin
 
 .close
