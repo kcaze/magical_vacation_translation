@@ -4695,7 +4695,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ - - - - - - - - - - -",
       "Japanese": "－－－－－－－－\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -11506,7 +11506,7 @@
       ]
     },
     {
-      "English": "It tastes like Cherry.\\fe\\ffHeals 200 MP.",
+      "English": "It tastes like cherry.\\fe\\ffHeals 200 MP.",
       "Japanese": "なぜかチェリーの味がするぞ。\\FE\\FFMP２００ポイント回復。\\FF\\FF",
       "Comments": "",
       "u8": [

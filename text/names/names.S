@@ -96,7 +96,13 @@ mov r3, 0x10
 mov r3, 0x10
 
 ; Spell names in the menu.
+.org 0x080B3BC8
+mov r3, 0x10
 .org 0x080B412E
+mov r3, 0x10
+.org 0x080B4492
+mov r3, 0x10
+.org 0x080B44E6
 mov r3, 0x10
 
 .close

@@ -1,2 +1,3 @@
-1. Need to add a start of line character to the "-------" for blank equipment.
-2. Character names aren't computed properly, the address is only computed by adding 16 instead of 32.
+1. Character names aren't computed properly, the address is only computed by adding 16 instead of 32.
+2. Element names aren't displayed properly for some characters.
+3. "Unequip" needs to be drawn before the name of the item/magic to unequip is drawn.
