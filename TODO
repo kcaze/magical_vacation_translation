@@ -1,3 +1,6 @@
 1. Character names aren't computed properly, the address is only computed by adding 16 instead of 32.
 2. Element names aren't displayed properly for some characters.
 3. "Unequip" needs to be drawn before the name of the item/magic to unequip is drawn.
+4. Fix sticker name truncation in menu.
+5. Fix all the x positioning for menu text.
+6. Change the 's' in the "Risebird Village & Spa" to a 'c'. The graphic is used in the campgrounds map.

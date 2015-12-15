@@ -1200,7 +1200,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Spirits Befriended",
       "Japanese": "仲良くなった精霊の数\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -1410,7 +1410,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Set",
       "Japanese": "セット\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -1425,7 +1425,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Magic LV",
       "Japanese": "魔法レベル\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -1444,7 +1444,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Erase",
       "Japanese": "消去\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -1724,7 +1724,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Unset Amigo?",
       "Japanese": "  アミーゴを外しますか?\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -1759,7 +1759,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Is that okay?",
       "Japanese": "  \\FE\\FF 消去してもいいですか?\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -1798,7 +1798,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "will be erased.",
       "Japanese": " をリストから\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -1926,7 +1926,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Warp here?",
       "Japanese": "   ワープしますか?\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -2673,7 +2673,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Saving...",
       "Japanese": "  セーブ中です・・・\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -2704,7 +2704,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Loading...",
       "Japanese": "  ロード中です・・・\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -3680,7 +3680,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Buy",
       "Japanese": "買いにきた\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -3699,7 +3699,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Sell",
       "Japanese": "売りにきた\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -3718,7 +3718,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Thank you.",
       "Japanese": "なにを買いますか?\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -3745,7 +3745,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "My pleasure.",
       "Japanese": "どれを売りますか?\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -3981,7 +3981,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Yes",
       "Japanese": "はい\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -3994,7 +3994,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "No",
       "Japanese": "いいえ\\FF\\FF",
       "Comments": "",
       "u8": [
@@ -4009,7 +4009,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "None",
       "Japanese": "なし\\FF\\FF",
       "Comments": "",
       "u8": [

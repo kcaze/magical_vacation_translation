@@ -26,6 +26,10 @@
 .org 0x0822770C
 .incbin text/names/elements.bin
 
+; Insert translated place names.
+.org 0x087EF500
+.incbin text/names/places.bin
+
 ; Insert the translated script.
 .org 0x08629A2C
 .incbin text/script/script.bin

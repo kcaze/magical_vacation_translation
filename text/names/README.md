@@ -125,12 +125,10 @@ beginning of the names table, etc.
 Place names:
 マサラティ -- Masala Chai
 ワクティ -- Hot Tea
-トルーナ -- Troona (should be Oturan)
-ベナコンチャ -- Benaconcha (should be Wetsomus)
-ミルフィ -- Mille-feuille
-レーミッツ -- Cold Honey Palace (No, this should be Fish Dumplings. It's つみれ backwards >.<)
-            (Should change this to Erimust Palace)
-キード・モンガ -- Hep Met (should be Iko Domnag) (It's がんもどき backwards)
+トルーナ -- Oturan
+ベナコンチャ -- Wetsomus
+レーミッツ -- Erimust Palace
+キード・モンガ -- Iko Domnag (がんもどき backwards)
 レヒカフ -- Nifkrahs (Shark Fin backwards)
 氷の島 -- Ice Island
 ジェラ風穴 -- Gelato Cave
@@ -150,6 +148,7 @@ Place names:
 ラキューオ -- Arko (Okra backwards)
 
 People names:
+ミルフィ -- Mille-feuille
 ギュウヒ・オグラ -- Bun Patti
 ヴォークス -- Canin
 ニャムネルト -- Felin
