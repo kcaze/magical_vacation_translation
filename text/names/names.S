@@ -1,5 +1,3 @@
-; TODO: A lot of the changes here aren't well documented / seem to nat make much
-;       sense.
 .gba
 .open "hacked.gba", 0x08000000
 
@@ -103,6 +101,10 @@ mov r3, 0x10
 .org 0x080B4492
 mov r3, 0x10
 .org 0x080B44E6
+mov r3, 0x10
+
+; Sticker names in the menu.
+.org 0x080B45AA
 mov r3, 0x10
 
 .close
