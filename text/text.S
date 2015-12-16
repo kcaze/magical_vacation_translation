@@ -5,10 +5,9 @@
 .org 0x08226F7C
 .incbin text/names/name_offsets.bin
 
-; TODO: This is not the new format.
-; Insert translated people names.
-.org 0x0822A1EC
-.incbin text/names/people_names.bin
+; Insert translated character names.
+.org 0x087F2D30
+.incbin text/names/characters.bin
 
 ; Insert translated item names.
 .org 0x087DFA50
