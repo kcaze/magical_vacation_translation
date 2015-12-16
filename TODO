@@ -1,3 +1,5 @@
+- Fix truncation of equipment names on the character equip screen.
 - "Unequip" needs to be drawn before the name of the item/magic to unequip is drawn.
 - Fix all the x positioning for menu text.
 - Change the 's' in the "Risebird Village & Spa" to a 'c'. The graphic is used in the campgrounds map.
+- Hack the name stuff. The player's name is stored at 0x0202D9D0!!!
