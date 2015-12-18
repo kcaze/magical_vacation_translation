@@ -3,3 +3,10 @@
 - Fix all the x positioning for menu text.
 - Change the 's' in the "Risebird Village & Spa" to a 'c'. The graphic is used in the campgrounds map.
 - Hack the name stuff. The player's name is stored at 0x0202D9D0!!!
+- Flickering on choosing the main character's element. This is probably due to
+  redrawing the text sprites each time. The same effect is reproduced in the
+  original if you try to scroll through the list of elements.
+- Control characters need to be figured out and fixed in script. Currently,
+  names don't work properly because of the change from 16 bytes to 32 bytes.
+  Same with items. For items, debating whether or not to use control codes at
+  all. Since the icon drawing is messed up too.
