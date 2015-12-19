@@ -136,7 +136,7 @@ Place names:
 ゲアラヴァ -- Ega Aruba Village (Aburaage backwards)
 モルビエ火山 -- Mt. Morbier
 リギニオ密林 -- Irigino Thicket
-キスニカこうざん -- Ikay Ikus Mine (decided to change kanisuki to sukiyaki so it's more recognizable)
+キスニカこうざん -- Ikus Inak Mine (Kanisuki backwards)
 シブスト城 -- Chiboust Castle
 ラロッシュの塔 -- Tour de La Roche
 タンドーリ -- Tandoori
@@ -283,7 +283,28 @@ People names:
 フランシス -- Francis (philosopher)
 ディドロ -- Diderot (philosopher)
 スペンサー -- Spencer (philosopher)
-
+キヤキス -- Ikay Ikus
+クニウギュ -- Feeb (Beef backwards)
+クギンシュ -- Esor (rose backwards)
+フート -- Ufot (tofu backwards)
+キタラッシ -- Seldoon (noodles backwards)
+ケタイーシ -- Moorhsum (mushroom backwards)
+イーサクーハ -- Yohckob (bok choy backwards)
+ゴーマタ -- Sgge (eggs backwards)
+ギネガナー -- Noillacs (scallion backwards)
+ユーショ -- Ecuasyos (soy sauce backwards)
+リンミ -- Nirim (mirin backwards)
+シュンホニー -- Eniw (wine backwards)
+ウーボッゴ -- Kcodrub (burdock backwards)
+シウギュ -- Liatxo (oxtail backwards)
+ケダキノエ -- Ikone (enoki backwards)
+ンコイダー -- Nokiad (daikon backwards)
+ンドゥーウ -- Udon (nodu backwards)
+クニャンコトイ -- Cajnok (konjac backwards)
+コノケタ -- Oobmab (bamboo backwards)
+ギネマター -- Noino (onion backwards)
+ベーナ -- Eban (nabe backwards)
+タブベナー -- Krop (pork backwards)
 
 Other names:
 愛のデッパリ -- Baby bump (Not sure about this at all.)
