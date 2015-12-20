@@ -305,6 +305,7 @@ People names:
 ギネマター -- Noino (onion backwards)
 ベーナ -- Eban (nabe backwards)
 タブベナー -- Krop (pork backwards)
+キヤメルカ -- Ikay Emurak
 
 Other names:
 愛のデッパリ -- Baby bump (Not sure about this at all.)
