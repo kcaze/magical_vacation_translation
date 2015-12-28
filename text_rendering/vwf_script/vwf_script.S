@@ -1,3 +1,11 @@
+; Original vwf routine at 0x0800CFCC.
+; r0 = glyph value
+; r1 = palette index
+; r2 = address of glyph data in RAM to be DMA'd into tiles.
+; r3 = flag to indicate whether this is the first or second tile in the 16x24
+;      unit. we can safely ignore r3.
+
+
 ; This is the variable width font routine. Inject this at 0x007DF750
 .gba
 .open "hacked.gba", 0x08000000

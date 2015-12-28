@@ -107,4 +107,17 @@ mov r3, 0x10
 .org 0x080B45AA
 mov r3, 0x10
 
+
+;------------------------;
+; Battle related changes ;
+;------------------------;
+
+; Spell names in battle.
+.org 0x08016DC0
+lsl r0, r0, 0x05
+
+; Item names in battle.
+.org 0x08016DE8
+lsl r0, r0, 0x05
+
 .close
