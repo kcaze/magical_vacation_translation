@@ -7,7 +7,7 @@ all:
 	bin/armips.exe graphics/graphics.S
 	bin/armips.exe text_rendering/fonts/fonts.S
 	bin/armips.exe text_rendering/monospace/monospace.S
-	bin/armips.exe text_rendering/vwf_script/vwf_script_new.S
+	bin/armips.exe text_rendering/vwf_script/vwf_script.S
 	bin/armips.exe text_rendering/vwf_menu/vwf_menu.S
 	bin/armips.exe text/text.S
 	bin/armips.exe text/names/names.S

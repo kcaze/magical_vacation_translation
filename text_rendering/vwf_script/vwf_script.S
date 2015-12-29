@@ -63,6 +63,29 @@ nop
 .org 0x0800CFE8
 bx r4
 
+;-------------------------------------------------------------;
+; Disable dma, x-coordinate, and tile index updates in battle ;
+;-------------------------------------------------------------;
+
+; Disable dma.
+.org 0x0800ADEE
+nop
+.org 0x0800C89E
+nop
+
+; Disable x-coordinate and tile updates.
+.org 0x0800AF78
+nop
+.org 0x0800AF88
+nop
+
+; Change battle calls to branch to the appropriate location.
+.org 0x0800ADCE
+bl 0x0800CFF0
+
+.org 0x0800C98C
+bl 0x0800D0B0
+
 ;-----------------------------------------;
 ; Insert control character function table ;
 ;-----------------------------------------;
@@ -72,15 +95,58 @@ bx r4
 ;---------------------------------------------------;
 ; Hijack the old glyph drawing routine and use ours ;
 ;---------------------------------------------------;
-.org 0x0800CFD8
-mov r4, 0x08
-lsl r4, r4, 0x08
-add r4, 0x7D
-lsl r4, r4, 0x08
-add r4, 0xF7
-lsl r4, r4, 0x08
-add r4, 0x50
-mov r15, r4
+;Script call
+.org 0x0800CFCC
+push r4-r7,r14
+mov r7, r10
+mov r6, r9
+mov r5, r8
+push r5-r7
+add sp, -0x88
+ldr r4, =0x02009930
+str r4, [sp, 0x00]
+ldr r4, =0x02009954
+str r4, [sp, 0x04]
+ldr r4, =0x087DF750
+mov pc, r4
+.pool
+
+;Battle call
+.org 0x0800CFF0
+push r4-r7,r14
+mov r7, r10
+mov r6, r9
+mov r5, r8
+push r5-r7
+add sp, -0x88
+mov r4, r12
+sub r4, r4, 0x04
+str r4, [sp, 0x00]
+add r4, r4, 0x02
+str r4, [sp, 0x04]
+ldr r4, =0x087DF750
+mov pc, r4
+.pool
+
+;Battle call (for name)
+.org 0x0800D0B0
+push r4-r7,r14
+mov r7, r10
+mov r6, r9
+mov r5, r8
+push r5-r7
+add sp, -0x88
+ldr r4, =0x0203FFF8
+mov r5, 0x0D
+strh r5, [r4]
+mov r5, 0x34
+strh r5, [r4, 0x02]
+str r4, [sp, 0x00]
+add r4, r4, 0x02
+str r4, [sp, 0x04]
+ldr r4, =0x087DF750
+mov pc, r4
+.pool
 
 ;-----------------;
 ; The VWF routine ;
@@ -120,6 +186,8 @@ mov r15, r4
 ; r9 will hold the palette color
 ; r10 will hold the amount to truncate the glyph by, used when drawing the
 ; remaining portion of a glyph.
+; [sp, 0x00] will hold the address for the x-coordinate
+; [sp, 0x04] will hold the address for the tile destination index
 mov r8, r0
 mov r9, r1
 mov r7, 0x0
@@ -131,13 +199,13 @@ ldrb r6, [r7]
 mov r5, 0x00
 strb r5, [r7]
 
-ldr r7, =0x02009930
+ldr r7, [sp]
 ldrh r5, [r7]
 add r5, r5, r6
 strh r5, [r7]
 
 lsl r6, 0x01
-ldr r7, =0x02009954
+ldr r7, [sp, 0x04]
 ldrh r5, [r7]
 add r5, r5, r6
 strh r5, [r7]
@@ -230,7 +298,7 @@ draw_glyph_end:
   ldr r7, =0x040000D4
   ldr r6, =0x020097B0
   str r6, [r7]
-  ldr r6, =0x02009954
+  ldr r6, [sp, 0x04]
   ldrh r6, [r6]
   ldr r5, =0x0203FFF1
   ldrb r5, [r5]

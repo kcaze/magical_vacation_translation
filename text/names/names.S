@@ -112,6 +112,10 @@ mov r3, 0x10
 ; Battle related changes ;
 ;------------------------;
 
+; Character names in battle.
+.org 0x0800C488
+lsl r0, r2, 0x05
+
 ; Spell names in battle.
 .org 0x08016DC0
 lsl r0, r0, 0x05
