@@ -75,6 +75,40 @@ Relevant RAM map
 `0x0200974C` [byte] = italicized kana flag
 
 --------------------------------------------------------------------------------
+Script Call (0x0800C186)
+`0x0800C186`: Draw glyph to RAM.
+`0x0800C18A - 0x0800C18E`: Increment pointer to script.
+`0x0800C190 - 0x0800C1B0`: DMA from RAM to tile.
+`0x0800C1B2 - 0x0800C1B4`: Branch to 0x0800C29C if this is the second part of a
+  16x24 block.
+`0x0800C1B6 - 0x0800C24C`: Copy the tile indices into the tilemap for the first
+  16x16 part of a 16x24 block. Increments the tile index at 0x02009954, the
+  x-coordinate at 0x02009930, and sets the flag at 0x02009798.
+`0x0800C24E - 0x0800C29A`: Pool.
+`0x0800C29C - 0x0800C2F4`: Copy the tile indices into the tilemap for the latter
+  16x8 part of a 16x24 block. Increments the tile index at 0x02009954, the
+  x-coordinate at 0x02009930, and sets the flag at 0x02009798.
+`0x0800C2F6 - 0x0800C300`: Branches to 0x0800C342 if there are still left in the
+  glyph to process.
+`0x0800C302 - 0x0800C30E`: Checks if ????. If so, branches to 0x0800D248 and
+  then returns. Otherwise, branches to 0x0800C334.
+`0x0800C310 - 0x0800C332`: Pool.
+`0x0800C334 - 0x0800C33E`: Checks if ????. If so, branches to 0x0801D1E4 and
+  then returns. Otherwise, just returns.
+`0x0800C342 - 0x0800C34E`: Pops registers and returns.
+
+Relevant RAM map
+================
+`0x02009954` [half] = index of tile for current glyph, counting from 0x06004000
+`0x02009798` [half] = flag for whether this is the first or second 24x16 block
+`0x02009930` [half] = x-coordinate for where to draw the tile in the tilemap.
+`0x02009770` [half] = y-coordinate for where to draw the tile in the tilemap,
+  relative to the beginning of the textbox (i.e. 0 for the first line).
+`0x02009720` [word] = pointer to current glyph in script
+`0x0200999C` [word] = pointer to end glyph of script for the current character.
+
+
+--------------------------------------------------------------------------------
 OLD DEPRECATED INFO
 
 RAM Map
