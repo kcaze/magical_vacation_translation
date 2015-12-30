@@ -1,3 +1,82 @@
+`0x0800CFCC - 0x0800D120` takes in 4 parameters and has no return value:
+r0 = glyph value to draw.
+r1 = color to use (palette index).
+r2 = where to draw the glyph to in RAM.
+r3 = whether this is the first or second glyph in a 16x24 block. this
+     information is necessary to determine whether the start of the glyph needs
+     to be shifted 4 pixels or not.
+
+Registers r4-r10, r14 are pushed onto the stack and preserved. 0x88 bytes of
+stack space is allocated. The top 0x80 bytes are for the 4bpp glyph data. Then
+the flag (r3) is stored in [sp, 0x80] and the computed glyph address is stored
+in [sp, 0x84].
+
+Subroutine explanation
+======================
+`0x0800CFCC - 0x0800CFD6`: Push registers and allocate stack.
+
+`0x0800CFD8 - 0x0800CFEA`: Mask parameters r0, r1, r3 with 0xFFFF. Store them in
+  r2 = glyph
+  r8 = color
+  r12 = ram_addr
+  [sp, 0x80] = flag
+
+`0x0800CFEC - 0x0800CFFA`: Check if italicized kana should be used. Branches to
+  `0x0800D014` if not used.
+
+`0x0800CFFC - 0x0800D00A`: Compute the beginning address for the italicized
+  glyph and store in [sp, 0x84]. Branches to 0x0800D01C.
+
+`0x0800D00C - 0x0800D012`: Pool with the addresses for the italicized kana flag
+  and the base address for the font.
+
+`0x0800D014 - 0x0800D01A`: Compute the beginning address for the regular glyph
+  and store in [sp, 0x84].
+
+`0x0800D01C - 0x0800D026`: Setup before the a glyph drawing loop. Stores
+  r6 = sp
+  r7 = 0 (loop counter)
+  r9 = 2 (background palette color)
+  r10 = 0x80 (mask for highest bit in an 8 bit value)
+
+`0x0800D028 - 0x0800D06A`: Converts the 1bpp data into 4bpp rows and stores on
+  the stack.
+
+`0x0800D06C - 0x0800D076`: Setup before the next glyph drawing loop. We have
+  r6 = sp
+  r7 = 0 (loop counter)
+  r9 = 2
+  r10 = 0xFFFFFFF0
+
+`0x0800D078 - 0x0800D0BC`: Converts the 1bpp data into 4bpp rows and stores on
+  the stack. This loop draws the remaining 4 pixels (Japanese glyphs are 12x12).
+
+`0x0800D0BE - 0x0800D0C2`: Checks flag to see if this is the first or second
+  glyph in the 16x24 block. If it's the first, branch to 0x0800D0F8.
+
+`0x0800D0C4 - 0x0800D0F2`: Second glyph in the 16x24 block. Copy 4bpp data from
+  stack to the ram address passed in.
+
+`0x0800D0F4 - 0x0800D0F6`: Pool.
+
+`0x0800D0F8 - 0x0800D110`: First glyph in the 16x24 block. Copy 4bpp data from
+  stack to the ram address passed in.
+
+`0x0800D112 - 0x0800D120`: Deallocate stack and pop registers then return.
+
+Call Sites
+==========
+`0x0800ADCE`: Draw glyphs in battle.
+`0x0800C186`: Draw glyphs for the script.
+`0x0800C98C`: Draw glyphs in battle.
+
+Relevant RAM map
+================
+`0x0200974C` [byte] = italicized kana flag
+
+--------------------------------------------------------------------------------
+OLD DEPRECATED INFO
+
 RAM Map
 =======
  * `0x020097B0` (`TILE_BASE_ADDR`): Base address for glyph tile data in onboard
