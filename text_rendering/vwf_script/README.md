@@ -106,8 +106,53 @@ Relevant RAM map
   relative to the beginning of the textbox (i.e. 0 for the first line).
 `0x02009720` [word] = pointer to current glyph in script
 `0x0200999C` [word] = pointer to end glyph of script for the current character.
+--------------------------------------------------------------------------------
+Battle Call (0x0800C98C)
+Takes in 6 arguments:
+  r0 = Pointer to beginning of name to draw.
+  r1 = Pointer to end of name to draw.
+  r2 = Pointer to stack space allocated for drawing the 4bpp glyph data to.
+  r3 = The color to be used. It's the color 0xF - r3 (i.e. r3 = 0x0 would mean
+       the color is 0xF)
+  [sp, 0x00] = ??? (x-coordinate in terms of pixels I think? Used for icons.)
+  [sp, 0x04] = ??? (y-coordinate in terms of pixels I think? Used for icons.)
+Returns the number of bytes that the name drawn takes up in r0
 
-
+`0x0800C8C8 - 0x0800C8D2`: Push registers and allocate 4 bytes on stack.
+`0x0800C8D4 - 0x0800C8F2`: Sets up registers. Moves arguments on stack into
+  registers and shuffles things around. At the end, we have
+  r3 = ??? & 0xFFFF
+  r4 = pointer to beginning glyph
+  r5 = pointer to stack space
+  r6 = 0 (holds eventual return value)
+  r7 = [sp, 0x00] & 0xFFFF
+  r8 = 0 (flag for whether this is the first or second part of a 16x24 block)
+  r9 = pointer to end glyph
+  r10 = [sp, 0x04] & 0xFFFF
+  [sp] = color
+  It then branches to 0x0800C9BE.
+`0x0800C8F4 - 0x0800C8FE`: Store the current glyph value in r0. If it's greater
+  than 0x0E, it's not an icon so branch to 0x0800C97C.
+`0x0800C900 - 0x0800C90A`: Call the icon drawing routine at 0x0800D370.
+`0x0800C90E - 0x0800C912`: Check if r8 == 0. If so, branch to 0x0800C934.
+`0x0800C914 - 0x0800C932`: ????????
+`0x0800C934 - ??????????`: ????????
+`0x0800C97C - 0x0800C98C`: Calls the glyph drawing routine.
+`0x0800C990 - 0x0800C996`: Increments the glyph pointer. If the flag r8 is set,
+  branch to 0x0800C9A8.
+`0x0800C998 - 0x0800C9A2`: Set the flag r8. Increment the stack space pointer r5
+  by 0x040 (one 16x8) block. Set r0 = r6 + 0x40 then branches to 0x0800C9B2.
+`0x0800C9A4 - 0x0800C9A6`: Pool.
+`0x0800C9A8 - `: Case for second part of 16x24 block. Unset the flag r8.
+  Increment the stack space by 0x80. Set r0 = r6 + 0x80.
+`0x0800C9B2 - 0x0800C9BC`: Sets r6 = r0 & 0xFFFF. I.e. basically, r6 += 0x40 or
+  0x80 depending on whether this was the first or second part of a 16x24 block.
+  Add 0x0C to r7.
+`0x0800C9BE - 0x0800C9D6`: If the lower byte of the current glyph < 0x80 and
+  we haven't reached the pointer to the ending glyph yet, then branch back to
+  0x0800C8F4. Otherwise, if the flag r8 is set, add 0x40 to the return value
+  and mask it with 0xFFFF. If the flag r8 isn't set, then branch to 0x0800C9D8
+  and return.
 --------------------------------------------------------------------------------
 OLD DEPRECATED INFO
 
