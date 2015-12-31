@@ -31,36 +31,45 @@ ADDR_SCRIPT_TILE_INDEX equ =0x02009954
 ADDR_SCRIPT_X          equ =0x02009930
 ADDR_SCRIPT_Y          equ =0x02009770
 
-FUN_SCRIPT_WRAPPER equ 0x0800CFCC
-FUN_SCRIPT_HANDLER equ 0x087FFE00
+FN_SCRIPT_WRAPPER equ 0x0800CFCC
+FN_SCRIPT_HANDLER equ 0x087FFE00
+
+FN_BATTLE_WRAPPER1 equ 0x0800CFEC
+FN_BATTLE_HANDLER1 equ 0x087FFD00
+
+FN_BATTLE_WRAPPER2 equ 0x0800D00C
+FN_BATTLE_HANDLER2 equ 0x087FFC00
 
 ;--------------------------;
 ; Script call (0x0800C186) ;
 ;--------------------------;
+.org 0x0800C186
+bl FN_SCRIPT_WRAPPER
 .org 0x0800C190
 ; Skip the original DMA, x-coordinate, tile index, and tile map updates.
 b 0x0800C2F6
 
-; Script entry point
-.org FUN_SCRIPT_WRAPPER
+.org FN_SCRIPT_WRAPPER
+.area 0x20
 push lr
-ldr r2, =FUN_SCRIPT_HANDLER
+ldr r2, =FN_SCRIPT_HANDLER
 mov r15, r2
 pop r0
 bx r0
 .pool
+.endarea
 
-; Script handler for DMA, x-coordinate updates, etc.
-.org FUN_SCRIPT_HANDLER
+.org FN_SCRIPT_HANDLER
 .area 0x100
 ; Call our vwf routine
 ldr r2, =(. + 0x09)
 mov lr, r2
 ldr r2, =0x087DF750
 mov r15, r2
+
 ; DMA from RAM to tile
-ldr r2, ADDR_GLYPH
 ldr r1, ADDR_DMA
+ldr r2, ADDR_GLYPH
 str r2, [r1]
 ldr r2, ADDR_SCRIPT_TILE_INDEX
 ldrh r2, [r2]
@@ -132,7 +141,6 @@ str r2, [r1, 0x04]
 ldr r3, =0x80000040
 str r3, [r1, 0x08]
 ldr r3, [r1, 0x08]
-
 add r2, 0x40
 ldr r3, =0x22222222
 str r3, [r2]
@@ -142,7 +150,8 @@ ldr r3, =0x81000080
 str r3, [r1, 0x08]
 ldr r3, [r1, 0x08]
 
-ldr r0, =FUN_SCRIPT_WRAPPER
+; Return to wrapper.
+ldr r0, =FN_SCRIPT_WRAPPER
 add r0, 0x06
 mov r15, r0
 .pool
@@ -152,7 +161,98 @@ mov r15, r0
 ; Battle call (0x0800C98C) ;
 ;--------------------------;
 .org 0x0800C98C
-b 0x0800C2F6 ; Branch over DMA and x-coordinate and tile index updates.
+bl FN_BATTLE_WRAPPER1
+.org 0x0800C992
+b 0x0800C9BE ; Branch over return value and stack space pointer increments
+
+.org FN_BATTLE_WRAPPER1
+.area 0x20
+push lr
+ldr r2, =FN_BATTLE_HANDLER1
+mov r15, r2
+pop r0
+bx r0
+.pool
+.endarea
+
+; TODO: The return value (r6) is sometimes 0x40 short.
+.org FN_BATTLE_HANDLER1
+.area 0x100
+; Call our vwf routine
+ldr r2, =(. + 0x09)
+mov lr, r2
+ldr r2, =0x087DF750
+mov r15, r2
+
+; DMA from RAM to stack space
+ldr r1, ADDR_DMA
+ldr r2, ADDR_GLYPH
+str r2, [r1]
+str r5, [r1, 0x04]
+ldr r2, =0x80000000
+add r3, r0, 0x01
+lsl r3, r3, 0x06
+add r2, r2, r3
+str r2, [r1, 0x08]
+ldr r2, [r1, 0x08]
+
+sub r3, 0x40
+; Increment stack space pointer
+add r5, r5, r3
+; Increment return value
+add r6, r6, r3
+
+; Clean RAM
+ldr r2, ADDR_GLYPH
+ldr r1, ADDR_DMA
+lsl r3, r0, 0x06
+add r3, r2, r3
+str r3, [r1]
+str r2, [r1, 0x04]
+ldr r3, =0x80000040
+str r3, [r1, 0x08]
+ldr r3, [r1, 0x08]
+add r2, 0x40
+ldr r3, =0x22222222
+str r3, [r2]
+str r2, [r1]
+str r2, [r1, 0x04]
+ldr r3, =0x81000080
+str r3, [r1, 0x08]
+ldr r3, [r1, 0x08]
+
+; Return to wrapper.
+ldr r0, =FN_BATTLE_WRAPPER1
+add r0, 0x06
+mov r15, r0
+.pool
+.endarea
+
+;--------------------------;
+; Battle call (0x0800ADCE) ;
+;--------------------------;
+.org 0x0800ADCE
+bl FN_BATTLE_WRAPPER2
+
+.org FN_BATTLE_WRAPPER2
+.area 0x20
+push lr
+ldr r2, =FN_BATTLE_HANDLER2
+mov r15, r2
+pop r0
+bx r0
+.pool
+.endarea
+
+.org FN_BATTLE_HANDLER2
+.area 0x100
+
+; Return to wrapper.
+ldr r0, =FN_BATTLE_WRAPPER2
+add r0, 0x06
+mov r15, r0
+.pool
+.endarea
 
 ;-----------------------------;
 ; Our vwf routine             ;
