@@ -154,6 +154,62 @@ Returns the number of bytes that the name drawn takes up in r0
   and mask it with 0xFFFF. If the flag r8 isn't set, then branch to 0x0800C9D8
   and return.
 --------------------------------------------------------------------------------
+Battle Call (0x0800ADCE)
+Takes in ??? arguments.
+Does not return a value?
+
+`0x0800AB50 - 0x0800AB5A`: Push registers and allocate 4 bytes of stack space.
+`0x0800AB5C - 0x0800AB64`: Checks if the value at 0x02009714 is nonzero. If so,
+  branch to 0x0800AB66. Otherwise, branch to 0x0800AF8A and return.
+`0x0800AB66 - 0x0800AB74`: Compute the address of the beginning glyph pointer in
+  the glyph data array (`0x02009A40 - 0x02009A7C`) for the current draw call and
+  store in r12.
+`0x0800AB76 - 0x0800AB82`: Checks if the high byte in the current glyph pointer
+  is less than FE. If so, branch to 0x0800ABF4.
+`0x0800AB84 - 0x0800AB8C`: Store the index r2 at 0x02009714 effectively
+  decrementing it. If the index is not zero, branch to 0x0800AB8E. Otherwise,
+  return.
+`0x0800AB8E - ??????????`: ???
+`0x0800ABE0 - 0x0800ABEE`: Pool.
+`0x0800ABF4 - 0x0800ABFA`: Store the ending glyph pointer on the stack.
+`0x0800ABFC - 0x0800AC14`: Set up the following registers:
+  r6 = (2nd half of 1st word of glyph array) & 0xFFF
+  r8 = 1st byte of 1st word of glyph array
+  r9 = (2nd byte of 1st word of glyph array) & 0x7F
+  r10 = upper 4 bits of 3rd byte of 1st word.
+  We also have from before:
+  r7 = beginning glyph pointer
+`0x0800AC16 - 0x0800AC20`: Load the current glyph into r2. If it's greater than
+  0x0E (i.e. not an icon), then branch to 0x0800AD00.
+`0x0800AC22 - ??????????`: Icon stuff.
+`0x0800AD00 - 0x0800AD02`: Check if first byte of glyph is 0x93. If not (i.e. not ???
+  control character), branch to 0x0800ADB0.
+`0x0800AD04 - ??????????`: ??? control character stuff.
+`0x0800ADB0 - 0x0800ADCE`: Call draw glyph function 0x0800CFCC.
+`0x0800ADD2`: Increment glyph pointer.
+`0x0800ADD4 - 0x0800ADF0`: DMA 4bpp glyph data into tile.
+`0x0800ADF2 - 0x0800ADF4`: If this is the second part of a 16x24 block, branch
+  to 0x0800AE70.
+`0x0800ADF6 - 0x0800AE0A`: Compute some address in RAM and store the current
+  tile index there. This is used to piece together the tile indices before
+  copying over to the bg tilemap it seems.
+[THERE'S STILL A SECTION THAT NEEDS TO BE DOCUMENTED.]
+`0x0800AF8A - 0x0800AF98`: Deallocate stack, pop registers and return.
+
+RAM Map
+=======
+`0x02009798` [half] = flag for whether this is the first or second 24x16 block
+`0x02009714` [half]: Index into the `0x02009A40 - 0x02009A7C` glyph data array.
+  This index is 1-indexed.
+`0x02009A40 - 0x02009A7C`: An array holding glyph drawing info in a data
+  structure. The data structure is 3 words long. The second word is the
+  beginning glyph pointer. The third word is the ending glyph pointer. The
+  first word is split into 4 parts: x-coordinate? (8 bits), y-coordinate (8
+  bits), tile index (12 bits), font color (4 bits).
+`0x02009764` [half]:
+`0x02009744` [half]:
+
+--------------------------------------------------------------------------------
 OLD DEPRECATED INFO
 
 RAM Map
