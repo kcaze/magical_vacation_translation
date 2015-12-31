@@ -234,6 +234,13 @@ mov r15, r0
 .org 0x0800ADCE
 bl FN_BATTLE_WRAPPER2
 
+; Branch over DMA and tilemap piecing
+.org 0x0800ADD4
+b 0x0800AEB0
+; Branch over tile index and x-coordinate updating
+.org 0x0800AF60
+b 0x0800AF8A
+
 .org FN_BATTLE_WRAPPER2
 .area 0x20
 push lr
@@ -246,6 +253,88 @@ bx r0
 
 .org FN_BATTLE_HANDLER2
 .area 0x100
+; Call our vwf routine
+ldr r2, =(. + 0x09)
+mov lr, r2
+ldr r2, =0x087DF750
+mov r15, r2
+
+; DMA from RAM to tile
+ldr r1, ADDR_DMA
+ldr r2, ADDR_GLYPH
+str r2, [r1]
+lsl r2, r6, 0x05
+ldr r3, ADDR_TILES
+add r2, r2, r3
+str r2, [r1, 0x04]
+ldr r2, =0x80000000
+add r3, r0, 0x01
+lsl r3, r3, 0x06
+add r2, r2, r3
+str r2, [r1, 0x08]
+ldr r2, [r1, 0x08]
+
+; Piece together tilemap
+ldr r1, =0x02009764
+ldrh r1, [r1]
+mov r2, r9
+mul r1, r2
+add r1, r8
+lsl r1, r1, 0x01
+ldr r2, =0x02009744
+ldr r2, [r2]
+add r1, r1, r2
+mov r2, 0x00
+mov r3, r6
+@@loop:
+strh r3, [r1]
+add r3, r3, 0x01
+ldr r4, =0x02009764
+ldr r4, [r4]
+lsl r4, r4, 0x01
+strh r3, [r1, r4]
+add r3, r3, 0x01
+add r1, r1, 0x02
+add r2, r2, 0x01
+cmp r2, r0
+blt @@loop
+
+; Update x-coordinate and tile index
+lsl r1, r0, 0x01
+add r6, r6, r1
+add r8, r0
+ldr r1, =0x02009714
+ldrh r1, [r1]
+sub r1, 0x01
+; multiply r1 by 0xC
+lsl r2, r1, 0x01
+add r1, r1, r2
+lsl r1, 0x02
+ldr r2, =0x02009A40
+add r1, r1, r2
+mov r2, r8
+strb r2, [r1]
+; TODO: This isn't actually correct since it clears the font color (high 4 bits)
+strh r6, [r1, 0x02]
+
+; Clean RAM
+ldr r2, ADDR_GLYPH
+ldr r1, ADDR_DMA
+lsl r3, r0, 0x06
+add r3, r2, r3
+str r3, [r1]
+str r2, [r1, 0x04]
+ldr r3, =0x80000040
+str r3, [r1, 0x08]
+ldr r3, [r1, 0x08]
+add r2, 0x40
+ldr r3, =0x22222222
+str r3, [r2]
+str r2, [r1]
+str r2, [r1, 0x04]
+ldr r3, =0x81000080
+str r3, [r1, 0x08]
+ldr r3, [r1, 0x08]
 
 ; Return to wrapper.
 ldr r0, =FN_BATTLE_WRAPPER2

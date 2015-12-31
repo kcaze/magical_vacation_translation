@@ -179,27 +179,45 @@ Does not return a value?
 `0x0800ABE0 - 0x0800ABEE`: Pool.
 `0x0800ABF4 - 0x0800ABFA`: Store the ending glyph pointer on the stack.
 `0x0800ABFC - 0x0800AC14`: Set up the following registers:
-  r6 = (2nd half of 1st word of glyph array) & 0xFFF
-  r8 = 1st byte of 1st word of glyph array
+  r6 = tile index (2nd half of 1st word of glyph array) & 0xFFF
+  r8 = x-coordinate (1st byte of 1st word of glyph array)
   r9 = (2nd byte of 1st word of glyph array) & 0x7F
   r10 = upper 4 bits of 3rd byte of 1st word.
   We also have from before:
   r7 = beginning glyph pointer
+  [sp] = ending glyph pointer
 `0x0800AC16 - 0x0800AC20`: Load the current glyph into r2. If it's greater than
   0x0E (i.e. not an icon), then branch to 0x0800AD00.
 `0x0800AC22 - ??????????`: Icon stuff.
-`0x0800AD00 - 0x0800AD02`: Check if first byte of glyph is 0x93. If not (i.e. not ???
-  control character), branch to 0x0800ADB0.
+`0x0800AD00 - 0x0800AD02`: Check if first byte of glyph is 0x93. If not (i.e.
+  not ??? control character), branch to 0x0800ADB0.
 `0x0800AD04 - ??????????`: ??? control character stuff.
 `0x0800ADB0 - 0x0800ADCE`: Call draw glyph function 0x0800CFCC.
 `0x0800ADD2`: Increment glyph pointer.
 `0x0800ADD4 - 0x0800ADF0`: DMA 4bpp glyph data into tile.
 `0x0800ADF2 - 0x0800ADF4`: If this is the second part of a 16x24 block, branch
   to 0x0800AE70.
-`0x0800ADF6 - 0x0800AE0A`: Compute some address in RAM and store the current
-  tile index there. This is used to piece together the tile indices before
-  copying over to the bg tilemap it seems.
-[THERE'S STILL A SECTION THAT NEEDS TO BE DOCUMENTED.]
+`0x0800ADF6 - 0x0800AE4C`: (first part in a 16x24 block) Compute some address
+  in RAM and store the current tile index there. This is used to piece together
+  the tile indices before copying over to the bg tilemap it seems. Branches to
+  0x0800AEAA at the end.
+`0x0800AE4E - 0x0800AE6E`: Pool.
+`0x0800AE70 - 0x0800AEA8`: (second part in a 16x24 block) Compute some address
+  in RAM and store the current tile index there. This is used to piece together
+  the tile indices before copying over to the bg tilemap it seems.
+`0x0800AEAA - 0x0800AEAE`: Update r8. Not sure what r8 is though.
+`0x0800AEB0 - 0x0800AEBA`: Check if we've reached the ending glyph pointer or
+  if we've read in an 0xFF. If not, branch to 0x0800AF38.
+`0x0800AEBC - ??????????`
+`0x0800AF1A - 0x0800AF34`: Pool.
+`0x0800AF38 - 0x0800AF4A`: Update the current glyph pointer in r7 and also in
+  the array of glyph data.
+`0x0800AF4C - 0x0800AF5E`: Update the ending glyph pointer in the array of
+  glyph data, copying over the value from r6.
+`0x0800AF60 - 0x0800AF78`: Update the tile index in the array of glyph data,
+  copying over the value from 0x02009714.
+`0x0800AF7A - 0x0800AF88`: Update the first half of the first byte in the array
+  of glyph data, copying over the value of r8.
 `0x0800AF8A - 0x0800AF98`: Deallocate stack, pop registers and return.
 
 RAM Map
@@ -212,8 +230,8 @@ RAM Map
   beginning glyph pointer. The third word is the ending glyph pointer. The
   first word is split into 4 parts: x-coordinate? (8 bits), y-coordinate (8
   bits), tile index (12 bits), font color (4 bits).
-`0x02009764` [half]:
-`0x02009744` [half]:
+`0x02009764` [half]: Width of dialogue box?
+`0x02009744` [word]: RAM address for creating tilemaps?
 
 --------------------------------------------------------------------------------
 OLD DEPRECATED INFO
