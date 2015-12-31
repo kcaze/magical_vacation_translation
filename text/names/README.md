@@ -1,3 +1,5 @@
+The player's name is stored in RAM at 0x0202D9D0
+
 Addresses
 =========
 0x08226F7C contains offsets into names. Byte offsets into 0x08226F7C.

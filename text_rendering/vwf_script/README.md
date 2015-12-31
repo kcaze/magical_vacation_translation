@@ -88,8 +88,8 @@ Script Call (0x0800C186)
 `0x0800C29C - 0x0800C2F4`: Copy the tile indices into the tilemap for the latter
   16x8 part of a 16x24 block. Increments the tile index at 0x02009954, the
   x-coordinate at 0x02009930, and sets the flag at 0x02009798.
-`0x0800C2F6 - 0x0800C300`: Branches to 0x0800C342 if there are still left in the
-  glyph to process.
+`0x0800C2F6 - 0x0800C300`: Branches to 0x0800C342 to return if there aren't any
+  glyphs left to process.
 `0x0800C302 - 0x0800C30E`: Checks if ????. If so, branches to 0x0800D248 and
   then returns. Otherwise, branches to 0x0800C334.
 `0x0800C310 - 0x0800C332`: Pool.
@@ -143,7 +143,7 @@ Returns the number of bytes that the name drawn takes up in r0
 `0x0800C998 - 0x0800C9A2`: Set the flag r8. Increment the stack space pointer r5
   by 0x040 (one 16x8) block. Set r0 = r6 + 0x40 then branches to 0x0800C9B2.
 `0x0800C9A4 - 0x0800C9A6`: Pool.
-`0x0800C9A8 - `: Case for second part of 16x24 block. Unset the flag r8.
+`0x0800C9A8 - ??????????`: Case for second part of 16x24 block. Unset the flag r8.
   Increment the stack space by 0x80. Set r0 = r6 + 0x80.
 `0x0800C9B2 - 0x0800C9BC`: Sets r6 = r0 & 0xFFFF. I.e. basically, r6 += 0x40 or
   0x80 depending on whether this was the first or second part of a 16x24 block.
@@ -155,6 +155,10 @@ Returns the number of bytes that the name drawn takes up in r0
   and return.
 `0x0800C9D8 - 0x0800C9E8`: Set the return value, deallocate stack, pop registers
   and return.
+
+RAM Map
+=======  
+`0x080C580C`: Stores palette values.
 --------------------------------------------------------------------------------
 Battle Call (0x0800ADCE)
 Takes in ??? arguments.

@@ -31,20 +31,33 @@ ADDR_SCRIPT_TILE_INDEX equ =0x02009954
 ADDR_SCRIPT_X          equ =0x02009930
 ADDR_SCRIPT_Y          equ =0x02009770
 
+FUN_SCRIPT_WRAPPER equ 0x0800CFCC
+FUN_SCRIPT_HANDLER equ 0x087FFE00
+
 ;--------------------------;
 ; Script call (0x0800C186) ;
 ;--------------------------;
 .org 0x0800C190
-b 0x0800C2F6 ; Branch over DMA and x-coordinate and tile index updates.
+; Skip the original DMA, x-coordinate, tile index, and tile map updates.
+b 0x0800C2F6
 
-.org 0x0800CFCC
+; Script entry point
+.org FUN_SCRIPT_WRAPPER
 push lr
+ldr r2, =FUN_SCRIPT_HANDLER
+mov r15, r2
+pop r0
+bx r0
+.pool
+
+; Script handler for DMA, x-coordinate updates, etc.
+.org FUN_SCRIPT_HANDLER
+.area 0x100
 ; Call our vwf routine
 ldr r2, =(. + 0x09)
 mov lr, r2
 ldr r2, =0x087DF750
 mov r15, r2
-
 ; DMA from RAM to tile
 ldr r2, ADDR_GLYPH
 ldr r1, ADDR_DMA
@@ -129,9 +142,17 @@ ldr r3, =0x81000080
 str r3, [r1, 0x08]
 ldr r3, [r1, 0x08]
 
-pop r0
-bx r0
+ldr r0, =FUN_SCRIPT_WRAPPER
+add r0, 0x06
+mov r15, r0
 .pool
+.endarea
+
+;--------------------------;
+; Battle call (0x0800C98C) ;
+;--------------------------;
+.org 0x0800C98C
+b 0x0800C2F6 ; Branch over DMA and x-coordinate and tile index updates.
 
 ;-----------------------------;
 ; Our vwf routine             ;
