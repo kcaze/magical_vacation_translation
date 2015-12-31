@@ -153,6 +153,8 @@ Returns the number of bytes that the name drawn takes up in r0
   0x0800C8F4. Otherwise, if the flag r8 is set, add 0x40 to the return value
   and mask it with 0xFFFF. If the flag r8 isn't set, then branch to 0x0800C9D8
   and return.
+`0x0800C9D8 - 0x0800C9E8`: Set the return value, deallocate stack, pop registers
+  and return.
 --------------------------------------------------------------------------------
 Battle Call (0x0800ADCE)
 Takes in ??? arguments.
