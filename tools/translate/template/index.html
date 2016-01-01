@@ -1,0 +1,100 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Magical Menu Text Editor</title>
+  <style>
+    body {
+      font-family: monospace;
+    }
+
+    #japanese {
+      width: 500px;
+      height: 50px;
+      vertical-align: top;
+      border: 1px solid #aaa;
+      padding: 2px;
+      display: inline-block;
+      overflow-y: scroll;
+    }
+
+    #english {
+      width: 500px;
+      height: 50px;
+      vertical-align: top;
+      resize: none;
+    }
+
+    #comments {
+      width: 500px;
+      height: 50px;
+      vertical-align: top;
+      resize: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>EDITOR NAME HERE</h1>
+  <p>
+    <label>Select Binary file:</label>
+    <input type="file" id="binary"/>
+  </p>
+  <p>
+    <label>Select JSON file:</label>
+    <input type="file" id="json"/>
+  </p>
+
+  <p>
+    <button disabled="true" id="export_json">Export JSON</button>
+  </p>
+  <p>
+    <button disabled="true" id="export_binary">Export binary</button>
+  </p>
+
+  <hr/>
+
+  <p>
+    <label>Section:</label>
+    <select id="section" disabled="true">
+      <option value="0">SECTION NAME HERE</option>
+    </select>
+  </p>
+
+  <p>
+    <label>Number:</label>
+    <input id="number" disabled="true" type="number" min="0" max="0" step="1"/>
+    of <span id="max_number"></span>
+  </p>
+
+  <p>
+    <label>Japanese:</label> <span id="japanese"> </span>
+  </p>
+
+  <p>
+    <label>English:</label>
+    <textarea disabled=true id="english"></textarea>
+  </p>
+
+  <p>
+    <label>Comments:</label>
+    <textarea disabled=true id="comments"></textarea>
+  </p>
+
+  <p>
+    <input id="japanese_search_text" type="text" />
+    <button disabled="true" id="japanese_search">Search Japanese</button>
+  </p>
+
+  <p>
+    <input id="english_search_text" type="text" />
+    <button disabled="true" id="english_search">Search English</button>
+  </p>
+
+  <p id="search_results">
+  </p>
+
+  <script src="/tools/lib/FileSaver.js"></script>
+  <script src="/tools/lib/table.js"></script>
+  <script src="generateJapanese.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

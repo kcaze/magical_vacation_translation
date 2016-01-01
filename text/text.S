@@ -33,6 +33,10 @@
 .org 0x08629A2C
 .incbin text/script/script.bin
 
+; Insert translated battle text.
+.org 0x08698E98
+.incbin text/battle_text/battle_text.bin
+
 ; Insert updated offsets for menu sections.
 .org 0x087C2254
 .incbin text/menu/menu_offsets.bin
