@@ -1,6 +1,6 @@
 [
   {
-    "English": "^Escaped",
+    "English": "^Ran Away",
     "Japanese": "逃げることにせいこうした",
     "Comments": "",
     "u8": [
@@ -31,7 +31,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "^Magic",
     "Japanese": "まほう",
     "Comments": "",
     "u8": [
@@ -44,7 +44,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "^Items",
     "Japanese": "アイテム",
     "Comments": "",
     "u8": [
@@ -59,7 +59,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "^Run",
     "Japanese": "にげる",
     "Comments": "",
     "u8": [
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "^Bura",
     "Japanese": "獲得ブラー",
     "Comments": "",
     "u8": [
@@ -89,7 +89,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "^Items",
     "Japanese": "獲得アイテム",
     "Comments": "",
     "u8": [
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "^Learned",
     "Japanese": "の魔法を覚えた",
     "Comments": "",
     "u8": [
@@ -129,7 +129,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "^leveled up",
     "Japanese": "がレベルアップ",
     "Comments": "",
     "u8": [
@@ -150,7 +150,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "^Results",
     "Japanese": "戦闘結果",
     "Comments": "",
     "u8": [
@@ -611,7 +611,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "^Defend",
     "Japanese": "ぼうぎょ",
     "Comments": "",
     "u8": [
@@ -803,7 +803,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "^Fire",
     "Japanese": "火の精霊",
     "Comments": "",
     "u8": [
@@ -818,7 +818,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "^Wind",
     "Japanese": "風の精霊",
     "Comments": "",
     "u8": [
@@ -833,7 +833,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "^Poison",
     "Japanese": "毒の精霊",
     "Comments": "",
     "u8": [
@@ -848,7 +848,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "^Beauty",
     "Japanese": "美の精霊",
     "Comments": "",
     "u8": [
@@ -863,7 +863,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "^Blade",
     "Japanese": "刃の精霊",
     "Comments": "",
     "u8": [
@@ -878,7 +878,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "^Sound",
     "Japanese": "音の精霊",
     "Comments": "",
     "u8": [
@@ -893,7 +893,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "^Stone",
     "Japanese": "石の精霊",
     "Comments": "",
     "u8": [
@@ -908,7 +908,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "^Bug",
     "Japanese": "虫の精霊",
     "Comments": "",
     "u8": [
@@ -923,7 +923,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "^Wood",
     "Japanese": "木の精霊",
     "Comments": "",
     "u8": [
@@ -938,7 +938,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "^Beast",
     "Japanese": "獣の精霊",
     "Comments": "",
     "u8": [
@@ -953,7 +953,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "^Water",
     "Japanese": "水の精霊",
     "Comments": "",
     "u8": [
@@ -968,7 +968,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "^Electric",
     "Japanese": "雷の精霊",
     "Comments": "",
     "u8": [
@@ -983,7 +983,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "^Ancient",
     "Japanese": "古の精霊",
     "Comments": "",
     "u8": [
@@ -998,7 +998,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "^Dark",
     "Japanese": "闇の精霊",
     "Comments": "",
     "u8": [
@@ -1013,7 +1013,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "^Light",
     "Japanese": "光の精霊",
     "Comments": "",
     "u8": [
@@ -1028,7 +1028,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "^Love",
     "Japanese": "愛の精霊",
     "Comments": "",
     "u8": [
@@ -1043,7 +1043,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "^Beats",
     "Japanese": "得意",
     "Comments": "",
     "u8": [
@@ -1386,7 +1386,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "^Ganache was defeated",
     "Japanese": "ガナッシュを助けられなかった",
     "Comments": "",
     "u8": [
@@ -1421,7 +1421,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "^Cancel",
     "Japanese": "キャンセル",
     "Comments": "",
     "u8": [
