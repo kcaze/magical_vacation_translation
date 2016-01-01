@@ -141,8 +141,8 @@ function parseEnglish(english) {
   }
 
   // Pad ending with two spaces 0x2020 to force drawing of remaining glyphs.
-  parsed.push(0x20);
-  parsed.push(0x20);
+  //parsed.push(0x20);
+  //parsed.push(0x20);
 
   return parsed;
 }

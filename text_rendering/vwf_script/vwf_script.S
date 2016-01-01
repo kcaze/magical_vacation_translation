@@ -253,9 +253,6 @@ b 0x0800AEB0
 ; Branch over DMA and tilemap piecing
 .org 0x0800ADD4
 b 0x0800AEB0
-; Branch over tile index and x-coordinate updating
-;.org 0x0800AF60
-;b 0x0800AF8A
 
 .org FN_BATTLE_WRAPPER2
 .area 0x20
@@ -285,7 +282,7 @@ add r2, r2, r3
 str r2, [r1, 0x04]
 ldr r2, =0x80000000
 add r3, r0, 0x01
-lsl r3, r3, 0x06
+lsl r3, r3, 0x05
 add r2, r2, r3
 str r2, [r1, 0x08]
 ldr r2, [r1, 0x08]

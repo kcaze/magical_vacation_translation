@@ -1,8 +1,8 @@
 [
   {
-    "English": "^Ran Away",
+    "English": "^\\1e\\1e  Successfully escaped.",
     "Japanese": "逃げることにせいこうした",
-    "Comments": "",
+    "Comments": "This is a really stupid way of centering the message.",
     "u8": [
       4,
       175,
@@ -31,7 +31,7 @@
     ]
   },
   {
-    "English": "^Magic",
+    "English": "^Magic\\1e",
     "Japanese": "まほう",
     "Comments": "",
     "u8": [
@@ -44,9 +44,9 @@
     ]
   },
   {
-    "English": "^Items",
+    "English": "^Items\\1e",
     "Japanese": "アイテム",
-    "Comments": "",
+    "Comments": "Battle commands are weird and need to be padded with an 8 bit width character like this.",
     "u8": [
       0,
       113,
@@ -59,9 +59,9 @@
     ]
   },
   {
-    "English": "^Run",
+    "English": "^Escape\\1e",
     "Japanese": "にげる",
-    "Comments": "",
+    "Comments": "Battle commands are weird and need to be padded with an 8 bit width character like this.",
     "u8": [
       0,
       154,
@@ -586,7 +586,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "^The enemy escaped...",
     "Japanese": "  敵が逃げ出した",
     "Comments": "",
     "u8": [
@@ -611,9 +611,9 @@
     ]
   },
   {
-    "English": "^Defend",
+    "English": "^Defend\\1e",
     "Japanese": "ぼうぎょ",
-    "Comments": "",
+    "Comments": "Battle commands are weird and need to be padded with an 8 bit width character like this.",
     "u8": [
       0,
       244,
@@ -657,7 +657,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "^Disconnected",
     "Japanese": "ケーブルがはずれています",
     "Comments": "",
     "u8": [
@@ -688,7 +688,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "^Quit Lucha?",
     "Japanese": "たいせんをやめますか<br>",
     "Comments": "",
     "u8": [
@@ -730,7 +730,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "^Waiting",
     "Japanese": "相手の入力を待っています",
     "Comments": "",
     "u8": [
@@ -761,7 +761,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "^Victory",
     "Japanese": "勝ちました",
     "Comments": "",
     "u8": [
@@ -1043,7 +1043,7 @@
     ]
   },
   {
-    "English": "^Beats",
+    "English": "",
     "Japanese": "得意",
     "Comments": "",
     "u8": [
