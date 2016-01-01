@@ -13,3 +13,5 @@
 - Item descriptions are messed up in battle. I need to rethink how I'm going to
   approach item descriptions, since they're shared between monospace text and
   vwf text.
+- See if there's a way to center the element name when choosing an element.
+  Right now it looks really ugly (compare "Bug" and "Electric").

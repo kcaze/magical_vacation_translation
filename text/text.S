@@ -73,4 +73,13 @@
 .org 0x087EF078
 .incbin text/menu/md_dictionary.bin
 
+; Insert translated element description offsets.
+.org 0x087F3200
+.incbin text/menu/element_descriptions_offsets.bin
+
+; Insert translated element descriptions.
+.org 0x087F321C
+.incbin text/menu/element_descriptions.bin
+
+
 .close
