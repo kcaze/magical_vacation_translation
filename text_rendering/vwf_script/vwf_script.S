@@ -3,22 +3,6 @@
 ;--------------------;
 ; Macros and defines ;
 ;--------------------;
-.macro pushreg
-  push r4-r7,lr
-  mov r5, r8
-  mov r6, r9
-  mov r7, r10
-  push r5-r7
-.endmacro
-
-.macro popreg
-  pop r3-r5
-  mov r8, r3
-  mov r9, r4
-  mov r10, r5
-  pop r4-r7
-.endmacro
-
 ADDR_GLYPH  equ =0x020097B0
 ADDR_SHIFT  equ =0x0203FFF0
 ADDR_DMA    equ =0x040000D4
@@ -39,6 +23,42 @@ FN_BATTLE_HANDLER1 equ 0x087FFD00
 
 FN_BATTLE_WRAPPER2 equ 0x0800D00C
 FN_BATTLE_HANDLER2 equ 0x087FFC00
+
+.macro pushreg
+  push r4-r7,lr
+  mov r5, r8
+  mov r6, r9
+  mov r7, r10
+  push r5-r7
+.endmacro
+
+.macro popreg
+  pop r3-r5
+  mov r8, r3
+  mov r9, r4
+  mov r10, r5
+  pop r4-r7
+.endmacro
+
+.macro cleanram
+  ldr r2, ADDR_GLYPH
+  ldr r1, ADDR_DMA
+  lsl r3, r0, 0x06
+  add r3, r2, r3
+  str r3, [r1]
+  str r2, [r1, 0x04]
+  ldr r3, =0x80000040
+  str r3, [r1, 0x08]
+  ldr r3, [r1, 0x08]
+  add r2, 0x40
+  ldr r3, =0x22222222
+  str r3, [r2]
+  str r2, [r1]
+  str r2, [r1, 0x04]
+  ldr r3, =0x81000080
+  str r3, [r1, 0x08]
+  ldr r3, [r1, 0x08]
+.endmacro
 
 ;--------------------------;
 ; Script call (0x0800C186) ;
@@ -137,23 +157,7 @@ add r2, r2, r0
 strh r2, [r1]
 
 ; Clean RAM
-ldr r2, ADDR_GLYPH
-ldr r1, ADDR_DMA
-lsl r3, r0, 0x06
-add r3, r2, r3
-str r3, [r1]
-str r2, [r1, 0x04]
-ldr r3, =0x80000040
-str r3, [r1, 0x08]
-ldr r3, [r1, 0x08]
-add r2, 0x40
-ldr r3, =0x22222222
-str r3, [r2]
-str r2, [r1]
-str r2, [r1, 0x04]
-ldr r3, =0x81000080
-str r3, [r1, 0x08]
-ldr r3, [r1, 0x08]
+cleanram
 
 ; Return to wrapper.
 ldr r0, =FN_SCRIPT_WRAPPER
@@ -167,8 +171,23 @@ mov r15, r0
 ;--------------------------;
 .org 0x0800C98C
 bl FN_BATTLE_WRAPPER1
+; Have icons increment the stack space pointer and return value instead of
+; toggle the 1st part / 2nd part flag.
+.org 0x0800C96C
+; Increment stack space pointer
+add r5, 0x40
+; Increment return value
+add r6, 0x40
+lsl r0, r7, 0x10
+b 0x0800C9BC
+; Branch over return value and stack space pointer increments
 .org 0x0800C992
-b 0x0800C9BE ; Branch over return value and stack space pointer increments
+b 0x0800C9BE
+; Off by one error in return value so add 0x40 and then branch to return
+.org 0x0800C9CA
+add r6, 0x40
+b 0x0800C9D8
+
 
 .org FN_BATTLE_WRAPPER1
 .area 0x20
@@ -180,7 +199,6 @@ bx r0
 .pool
 .endarea
 
-; TODO: The return value (r6) is sometimes 0x40 short.
 .org FN_BATTLE_HANDLER1
 .area 0x100
 ; Call our vwf routine
@@ -207,24 +225,8 @@ add r5, r5, r3
 ; Increment return value
 add r6, r6, r3
 
-; Clean RAM
-ldr r2, ADDR_GLYPH
-ldr r1, ADDR_DMA
-lsl r3, r0, 0x06
-add r3, r2, r3
-str r3, [r1]
-str r2, [r1, 0x04]
-ldr r3, =0x80000040
-str r3, [r1, 0x08]
-ldr r3, [r1, 0x08]
-add r2, 0x40
-ldr r3, =0x22222222
-str r3, [r2]
-str r2, [r1]
-str r2, [r1, 0x04]
-ldr r3, =0x81000080
-str r3, [r1, 0x08]
-ldr r3, [r1, 0x08]
+; Clean glyph RAM
+cleanram
 
 ; Return to wrapper.
 ldr r0, =FN_BATTLE_WRAPPER1
@@ -239,12 +241,21 @@ mov r15, r0
 .org 0x0800ADCE
 bl FN_BATTLE_WRAPPER2
 
+; Have icons increment the x-coordinate and tile index instead of toggle the
+; 1st part / 2nd part flag.
+.org 0x0800ACD6
+mov r2, r8
+add r2, r2, 0x01
+mov r8, r2
+add r6, r6, 0x02
+b 0x0800AEB0
+
 ; Branch over DMA and tilemap piecing
 .org 0x0800ADD4
 b 0x0800AEB0
 ; Branch over tile index and x-coordinate updating
-.org 0x0800AF60
-b 0x0800AF8A
+;.org 0x0800AF60
+;b 0x0800AF8A
 
 .org FN_BATTLE_WRAPPER2
 .area 0x20
@@ -308,38 +319,9 @@ blt @@loop
 lsl r1, r0, 0x01
 add r6, r6, r1
 add r8, r0
-ldr r1, =0x02009714
-ldrh r1, [r1]
-sub r1, 0x01
-; multiply r1 by 0xC
-lsl r2, r1, 0x01
-add r1, r1, r2
-lsl r1, 0x02
-ldr r2, =0x02009A40
-add r1, r1, r2
-mov r2, r8
-strb r2, [r1]
-; TODO: This isn't actually correct since it clears the font color (high 4 bits)
-strh r6, [r1, 0x02]
 
-; Clean RAM
-ldr r2, ADDR_GLYPH
-ldr r1, ADDR_DMA
-lsl r3, r0, 0x06
-add r3, r2, r3
-str r3, [r1]
-str r2, [r1, 0x04]
-ldr r3, =0x80000040
-str r3, [r1, 0x08]
-ldr r3, [r1, 0x08]
-add r2, 0x40
-ldr r3, =0x22222222
-str r3, [r2]
-str r2, [r1]
-str r2, [r1, 0x04]
-ldr r3, =0x81000080
-str r3, [r1, 0x08]
-ldr r3, [r1, 0x08]
+; Clean glyph RAM
+cleanram
 
 ; Return to wrapper.
 ldr r0, =FN_BATTLE_WRAPPER2
@@ -375,6 +357,20 @@ lsl r7, r7, 0x18
 lsr r7, r7, 0x18
 cmp r7, 0x1F
 bne L_not_bos
+; Clear shift variable.
+ldr r0, ADDR_SHIFT
+mov r1, 0x00
+strb r1, [r0]
+; Clear glyph data.
+ldr r0, ADDR_GLYPH
+ldr r1, =0x22222222
+str r1, [r0]
+ldr r1, ADDR_DMA
+str r0, [r1]
+str r0, [r1, 0x04]
+ldr r0, =0x810000C0
+str r0, [r1, 0x08]
+ldr r0, [r1, 0x08]
 L_not_bos:
 lsl r7, r7, 0x04
 ldr r0, ADDR_FONT
@@ -529,9 +525,10 @@ mov r0, r9
 lsr r0, 0x08
 mov r9, r0
 cmp r0, 0x00
-bne L_vwf
+beq L_return
+b L_vwf
 
-return:
+L_return:
 mov r0, r8
 popreg
 pop r1

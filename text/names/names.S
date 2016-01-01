@@ -124,4 +124,14 @@ lsl r0, r0, 0x05
 .org 0x08016DE8
 lsl r0, r0, 0x05
 
+; Battle vwf calls.
+; 0x0800ADCE call
+.org 0x080167DA
+mov r1, 0x20
+; 0x0800C98C call
+.org 0x08016B2E
+add r6, 0x20
+.org 0x080168DE
+add r6, 0x20
+
 .close
