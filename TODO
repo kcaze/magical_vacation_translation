@@ -10,3 +10,6 @@
   names don't work properly because of the change from 16 bytes to 32 bytes.
   Same with items. For items, debating whether or not to use control codes at
   all. Since the icon drawing is messed up too.
+- Item descriptions are messed up in battle. I need to rethink how I'm going to
+  approach item descriptions, since they're shared between monospace text and
+  vwf text.
