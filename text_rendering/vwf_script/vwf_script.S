@@ -1,396 +1,541 @@
-; Original vwf routine at 0x0800CFCC.
-; r0 = glyph value
-; r1 = palette index
-; r2 = address of glyph data in RAM to be DMA'd into tiles.
-; r3 = flag to indicate whether this is the first or second tile in the 16x24
-;      unit. we can safely ignore r3.
-
-
-; This is the variable width font routine. Inject this at 0x007DF750
 .gba
 .open "hacked.gba", 0x08000000
+;--------------------;
+; Macros and defines ;
+;--------------------;
+.macro pushreg
+  push r4-r7,lr
+  mov r5, r8
+  mov r6, r9
+  mov r7, r10
+  push r5-r7
+.endmacro
 
-;------------------------------------------------;
-; First character starts 5 tiles in instead of 4 ;
-;------------------------------------------------;
+.macro popreg
+  pop r3-r5
+  mov r8, r3
+  mov r9, r4
+  mov r10, r5
+  pop r4-r7
+.endmacro
+
+ADDR_GLYPH  equ =0x020097B0
+ADDR_SHIFT  equ =0x0203FFF0
+ADDR_DMA    equ =0x040000D4
+ADDR_TILES  equ =0x06004000
+ADDR_BG     equ =0x06001800
+ADDR_FONT   equ =0x08603900
+ADDR_WIDTHS equ =0x087DF900
+
+ADDR_SCRIPT_TILE_INDEX equ =0x02009954
+ADDR_SCRIPT_X          equ =0x02009930
+ADDR_SCRIPT_Y          equ =0x02009770
+
+FN_SCRIPT_WRAPPER equ 0x0800CFCC
+FN_SCRIPT_HANDLER equ 0x087FFE00
+
+FN_BATTLE_WRAPPER1 equ 0x0800CFEC
+FN_BATTLE_HANDLER1 equ 0x087FFD00
+
+FN_BATTLE_WRAPPER2 equ 0x0800D00C
+FN_BATTLE_HANDLER2 equ 0x087FFC00
+
+;--------------------------;
+; Script call (0x0800C186) ;
+;--------------------------;
+;First character starts 5 tiles in instead of 4
 .org 0x0800BDB2
 mov r0, 0x05
 
-;--------------------------------------------;
-; Newlines indent to 5 tiles in instead of 4 ;
-;--------------------------------------------;
-.org 0x0800BA64
-mov r1, 0x05
 
-;-----------------------------------------------------;
-; Change script to read 1 byte at a time instead of 2 ;
-;-----------------------------------------------------;
-.org 0x0800C18C
-add r0, 0x02
+.org 0x0800C186
+bl FN_SCRIPT_WRAPPER
+.org 0x0800C190
+; Skip the original DMA, x-coordinate, tile index, and tile map updates.
+b 0x0800C2F6
 
-;---------------------------------------------------;
-; Disable dma, x-coordinate, and tile index updates ;
-;---------------------------------------------------;
-.org 0x0800BA74
-nop
-
-.org 0x0800C19C
-nop
-
-.org 0x0800C1AE
-nop
-
-; Skip jump to case where only one 16x8 tile is drawn. Always draw two 16x8
-; tiles.
-.org 0x0800C1B4
-nop
-
-; Not quite sure about the following change.
-.org 0x0800C218
-mov r9, r4
-add r2, r4, 0x02
-
-.org 0x0800C248
-nop
-
-.org 0x0800C2E6
-nop
-
-.org 0x0800C2F2
-nop
-
-; What does this do???
-.org 0x0800CFE8
-bx r4
-
-;-------------------------------------------------------------;
-; Disable dma, x-coordinate, and tile index updates in battle ;
-;-------------------------------------------------------------;
-
-; Disable dma.
-.org 0x0800ADEE
-nop
-.org 0x0800C89E
-nop
-
-; Disable x-coordinate and tile updates.
-.org 0x0800AF78
-nop
-.org 0x0800AF88
-nop
-
-; Change battle calls to branch to the appropriate location.
-.org 0x0800ADCE
-bl 0x0800CFF0
-
-.org 0x0800C98C
-bl 0x0800D0B0
-
-;-----------------------------------------;
-; Insert control character function table ;
-;-----------------------------------------;
-.org 0x0800B844
-.incbin text_rendering/vwf_script/control_characters.bin
-
-;---------------------------------------------------;
-; Hijack the old glyph drawing routine and use ours ;
-;---------------------------------------------------;
-;Script call
-.org 0x0800CFCC
-push r4-r7,r14
-mov r7, r10
-mov r6, r9
-mov r5, r8
-push r5-r7
-add sp, -0x88
-ldr r4, =0x02009930
-str r4, [sp, 0x00]
-ldr r4, =0x02009954
-str r4, [sp, 0x04]
-ldr r4, =0x087DF750
-mov pc, r4
+.org FN_SCRIPT_WRAPPER
+.area 0x20
+push lr
+ldr r2, =FN_SCRIPT_HANDLER
+mov r15, r2
+pop r0
+bx r0
 .pool
+.endarea
 
-;Battle call
-.org 0x0800CFF0
-push r4-r7,r14
-mov r7, r10
-mov r6, r9
-mov r5, r8
-push r5-r7
-add sp, -0x88
-mov r4, r12
-sub r4, r4, 0x04
-str r4, [sp, 0x00]
-add r4, r4, 0x02
-str r4, [sp, 0x04]
-ldr r4, =0x087DF750
-mov pc, r4
-.pool
+.org FN_SCRIPT_HANDLER
+.area 0x100
+; Call our vwf routine
+ldr r2, =(. + 0x09)
+mov lr, r2
+ldr r2, =0x087DF750
+mov r15, r2
 
-;Battle call (for name)
-.org 0x0800D0B0
-push r4-r7,r14
-mov r7, r10
-mov r6, r9
-mov r5, r8
-push r5-r7
-add sp, -0x88
-ldr r4, =0x0203FFF8
-mov r5, 0x0D
-strh r5, [r4]
-mov r5, 0x34
-strh r5, [r4, 0x02]
-str r4, [sp, 0x00]
-add r4, r4, 0x02
-str r4, [sp, 0x04]
-ldr r4, =0x087DF750
-mov pc, r4
-.pool
+; DMA from RAM to tile
+ldr r1, ADDR_DMA
+ldr r2, ADDR_GLYPH
+str r2, [r1]
+ldr r2, ADDR_SCRIPT_TILE_INDEX
+ldrh r2, [r2]
+lsl r2, r2, 0x05
+ldr r3, ADDR_TILES
+add r2, r2, r3
+str r2, [r1, 0x04]
+ldr r2, =0x80000000
+add r3, r0, 0x01
+lsl r3, r3, 0x06
+add r2, r2, r3
+str r2, [r1, 0x08]
+ldr r2, [r1, 0x08]
 
-;-----------------;
-; The VWF routine ;
-;-----------------;
-.org 0x087DF750
+; Update bg tilemap
+; Computes offset for dialogue box
+ldr r1, =0x0200998C
+ldrh r1, [r1]
+lsr r1, r1, 0x03
+ldr r2, =0x02009998
+ldrh r2, [r2]
+lsl r2, r2, 0x02
+add r1, r1, r2
+lsl r1, r1, 0x01
+; Add offset x-coordinate and y-coordinate offset.
+ldr r2, ADDR_SCRIPT_X
+ldrh r2, [r2]
+lsl r2, r2, 0x01
+add r1, r1, r2
+ldr r2, ADDR_SCRIPT_Y
+ldrh r2, [r2]
+lsl r2, r2, 0x07
+add r1, r1, r2
+ldr r2, ADDR_BG
+add r1, r1, r2
+; Loop through and update the tilemap
+ldr r2, ADDR_SCRIPT_TILE_INDEX
+ldrh r2, [r2]
+mov r3, 0x00
+@@loop:
+strh r2, [r1]
+add r2, r2, 0x01
+add r1, 0x40
+strh r2, [r1]
+add r2, r2, 0x01
+sub r1, 0x3E
+add r3, r3, 0x01
+cmp r3, r0
+ble @@loop
 
-; Important Addresses
-; -------------------
-; 0x006035AC: Base address for 1bpp glyph tile data
-; 0x020097B0: Base address for glyph tile data in WRAM. The nibbles
-;             are stored in reverse orders. For example, 2FF22222 would
-;             actually be copied into the tile data as 22222FF2.
+; Update tile index and x-coordinate
+ldr r1, ADDR_SCRIPT_TILE_INDEX
+ldrh r2, [r1]
+lsl r3, r0, 0x01
+add r2, r2, r3
+strh r2, [r1]
+ldr r1, ADDR_SCRIPT_X
+ldrh r2, [r1]
+add r2, r2, r0
+strh r2, [r1]
 
-; Function Parameters
-; -------------------
-; r0: Index into 0x086035AC of the glyph to draw
-; r1: The palette color used to draw the glyph
+; Clean RAM
+ldr r2, ADDR_GLYPH
+ldr r1, ADDR_DMA
+lsl r3, r0, 0x06
+add r3, r2, r3
+str r3, [r1]
+str r2, [r1, 0x04]
+ldr r3, =0x80000040
+str r3, [r1, 0x08]
+ldr r3, [r1, 0x08]
+add r2, 0x40
+ldr r3, =0x22222222
+str r3, [r2]
+str r2, [r1]
+str r2, [r1, 0x04]
+ldr r3, =0x81000080
+str r3, [r1, 0x08]
+ldr r3, [r1, 0x08]
 
-; Variables in RAM
-; ----------------
-; 0x02009930: x-coordinate in bg3 that we draw tile
-; 0x02009954: Index into tile destination index to copy data from wram to.
-; 0x0203FFF0: x offset to draw current glyph (1 byte)
-; 0x0203FFF1: offset into previous character (1 byte)
-; 0x0203FFF2: index of previous character into 0x0806035AC (1 byte)
-;             set to 0 if no remaining part to draw
-; 0x0203FFF3: flag set to 1 if need to shift right 1 pixel when drawing previous
-;             character
-
-; Registers
-; ---------
-; r0: Passed in and preserved.
-; r1 to r7: Scratch registers
-; r8:
-
-; r8 will hold the input glyphs
-; r9 will hold the palette color
-; r10 will hold the amount to truncate the glyph by, used when drawing the
-; remaining portion of a glyph.
-; [sp, 0x00] will hold the address for the x-coordinate
-; [sp, 0x04] will hold the address for the tile destination index
-mov r8, r0
-mov r9, r1
-mov r7, 0x0
-mov r10, r7
-
-; Update the tile x and offset
-ldr r7, =0x0203FFF1
-ldrb r6, [r7]
-mov r5, 0x00
-strb r5, [r7]
-
-ldr r7, [sp]
-ldrh r5, [r7]
-add r5, r5, r6
-strh r5, [r7]
-
-lsl r6, 0x01
-ldr r7, [sp, 0x04]
-ldrh r5, [r7]
-add r5, r5, r6
-strh r5, [r7]
-
-draw_glyph_begin:
-  ; Extract current glyph to draw and store in r0.
-  mov r0, r8
-  mov r7, 0xFF
-  and r0, r7
-
-  ; Handle EOS (0x1F) character
-  cmp r0, 0x1F
-  bne not_eos
-  ldr r7, =0x0203FFF0
-  mov r0, 0x00
-  str r0, [r7]
-  b return
-  not_eos:
-
-    ;-------------------------------------------------
-    ; r0 = Base address of current glyph to draw.
-    ; r1 = X-offset of current glyph (0x0203FFF0)
-    ; r2 = Loop counter. Mask with 0x7 to get column.
-    ; r3 = Row of 1 bpp glyph
-    ; r4 = Row of 2's and F's
-    ;-------------------------------------------------
-    ldr r7, =0x08603900
-    lsl r0, 0x04
-    add r0, r0, r7
-    ldr r7, =0x0203FFF0
-    ldrb r1, [r7]
-    mov r2, 0x00
-  draw_initial_begin:
-      ; Load 1bpp row.
-      lsr r2, 0x03
-      ldrb r3, [r0, r2]
-      mov r7, r10
-      lsr r3, r7
-
-      ; Load RAM row.
-      lsl r2, 0x02
-      ldr r7, =0x020097B0
-      ldr r4, [r7, r2]
-      lsl r2, 0x01
-    draw_initial_row_begin:
-      ; r5 = The palette color to draw. We use a trick to avoid branching. It
-      ;      assumes that the palette color in r9 is greater than 0x02.
-      mov r7, r9
-      sub r7, r7, 0x02
-      mov r5, 0x01
-      and r5, r3
-      mul r5, r7
-      add r5, r5, 0x02
-
-      ; Shift r5 by the appropriate amount.
-      mov r7, 0x07
-      and r7, r2
-      add r7, r7, r1
-      lsl r7, 0x02
-      lsl r5, r7
-      cmp r5, 0x00
-      beq draw_initial_row_end
-
-      ; Clear out the existing nibble in the row and add the new nibble.
-      mov r6, 0xF
-      lsl r6, r7
-      and r6, r4
-      sub r4, r6
-      add r4, r4, r5
-    draw_initial_row_end:
-      lsr r3, 0x01
-
-      add r2, 0x01
-      mov r7, 0x07
-      and r7, r2
-      cmp r7, 0x00
-      bne draw_initial_row_begin
-  draw_initial_end:
-    ; Store the new row.
-    ldr r7, =0x020097B0
-    mov r6, r2
-    sub r6, 0x08
-    lsr r6, 0x01
-    str r4, [r7, r6]
-
-    cmp r2, 0x80
-    bne draw_initial_begin
-draw_glyph_end:
-  ; DMA transfer
-  ldr r7, =0x040000D4
-  ldr r6, =0x020097B0
-  str r6, [r7]
-  ldr r6, [sp, 0x04]
-  ldrh r6, [r6]
-  ldr r5, =0x0203FFF1
-  ldrb r5, [r5]
-  lsl r5, 0x01
-  add r6, r6, r5
-  lsl r6, r6, 0x05
-  ldr r5, =0x06004000
-  add r6, r6, r5
-  str r6, [r7, 0x04]
-  ldr r6, =0x80000040
-  str r6, [r7, 0x08]
-  ldr r6, [r7, 0x08] ; I think this instruction is unnecessary?
-
-  ; Get the width of the glyph drawn
-  mov r0, r8
-  mov r7, 0xFF
-  and r0, r7
-  ldr r7, =0x087DF900
-  ldrb r7, [r7, r0]
-  add r6, r7, r1
-  mov r7, r10
-  sub r6, r6, r7
-  cmp r6, 0x07
-  blt no_tile_update
-  ; Update tile x and offset
-  ldr r7, =0x0203FFF1
-  ldrb r5, [r7]
-  add r5, 0x01
-  strb r5, [r7]
-  ; Clear RAM glyph
-  ldr r7, =0x020097B0
-  ldr r4, =0x22222222
-  mov r5, 0x00
-  clear_ram_begin:
-    str r4, [r7, r5]
-    add r5, 0x04
-    cmp r5, 0x80
-    blt clear_ram_begin
-  clear_ram_end:
-  no_tile_update:
-  cmp r6, 0x08
-  bgt handle_remaining
-  b finish_glyph
-  finish_glyph:
-    ; Update x-offset for next glyph
-    add r6, 0x01
-    mov r7, 0x07
-    and r6, r7
-    ldr r7, =0x0203FFF0
-    strb r6, [r7]
-    ; Update r8
-    mov r0, r8
-    lsr r0, 0x08
-    mov r8, r0
-    ; Update r10 to 0
-    mov r7, 0x00
-    mov r10, r7
-    b draw_next
-  handle_remaining:
-    ; Update r10 with how many pixels to truncate.
-    mov r7, 0x08
-    sub r7, r7, r1
-    mov r10, r7
-    ; Update glyph x-offset
-    ldr r7, =0x0203FFF0
-    mov r6, 0x00
-    strb r6, [r7]
-    b draw_next
-  draw_next:
-    mov r0, r8
-    cmp r0, 0x00
-    bne draw_glyph_begin
-
-; Branch back to 0x0800D112 to return from the original function.
-return:
-  ldr r0, =0x0800D112
-  mov r15, r0
-
-.pool
-
-; Newline control character routine. Cleans up the ram and then branches back to
-; original newline routine.
-.org 0x087DFA00
-ldr r0, =0x0203FFF0
-mov r1, 0x00
-strh r1, [r0]
-ldr r0, =0x02009954
-ldrh r1, [r0]
-add r1, 0x04
-strh r1, [r0]
-ldr r0, =0x0800BA58
+; Return to wrapper.
+ldr r0, =FN_SCRIPT_WRAPPER
+add r0, 0x06
 mov r15, r0
+.pool
+.endarea
+
+;--------------------------;
+; Battle call (0x0800C98C) ;
+;--------------------------;
+.org 0x0800C98C
+bl FN_BATTLE_WRAPPER1
+.org 0x0800C992
+b 0x0800C9BE ; Branch over return value and stack space pointer increments
+
+.org FN_BATTLE_WRAPPER1
+.area 0x20
+push lr
+ldr r2, =FN_BATTLE_HANDLER1
+mov r15, r2
+pop r0
+bx r0
+.pool
+.endarea
+
+; TODO: The return value (r6) is sometimes 0x40 short.
+.org FN_BATTLE_HANDLER1
+.area 0x100
+; Call our vwf routine
+ldr r2, =(. + 0x09)
+mov lr, r2
+ldr r2, =0x087DF750
+mov r15, r2
+
+; DMA from RAM to stack space
+ldr r1, ADDR_DMA
+ldr r2, ADDR_GLYPH
+str r2, [r1]
+str r5, [r1, 0x04]
+ldr r2, =0x80000000
+add r3, r0, 0x01
+lsl r3, r3, 0x06
+add r2, r2, r3
+str r2, [r1, 0x08]
+ldr r2, [r1, 0x08]
+
+sub r3, 0x40
+; Increment stack space pointer
+add r5, r5, r3
+; Increment return value
+add r6, r6, r3
+
+; Clean RAM
+ldr r2, ADDR_GLYPH
+ldr r1, ADDR_DMA
+lsl r3, r0, 0x06
+add r3, r2, r3
+str r3, [r1]
+str r2, [r1, 0x04]
+ldr r3, =0x80000040
+str r3, [r1, 0x08]
+ldr r3, [r1, 0x08]
+add r2, 0x40
+ldr r3, =0x22222222
+str r3, [r2]
+str r2, [r1]
+str r2, [r1, 0x04]
+ldr r3, =0x81000080
+str r3, [r1, 0x08]
+ldr r3, [r1, 0x08]
+
+; Return to wrapper.
+ldr r0, =FN_BATTLE_WRAPPER1
+add r0, 0x06
+mov r15, r0
+.pool
+.endarea
+
+;--------------------------;
+; Battle call (0x0800ADCE) ;
+;--------------------------;
+.org 0x0800ADCE
+bl FN_BATTLE_WRAPPER2
+
+; Branch over DMA and tilemap piecing
+.org 0x0800ADD4
+b 0x0800AEB0
+; Branch over tile index and x-coordinate updating
+.org 0x0800AF60
+b 0x0800AF8A
+
+.org FN_BATTLE_WRAPPER2
+.area 0x20
+push lr
+ldr r2, =FN_BATTLE_HANDLER2
+mov r15, r2
+pop r0
+bx r0
+.pool
+.endarea
+
+.org FN_BATTLE_HANDLER2
+.area 0x100
+; Call our vwf routine
+ldr r2, =(. + 0x09)
+mov lr, r2
+ldr r2, =0x087DF750
+mov r15, r2
+
+; DMA from RAM to tile
+ldr r1, ADDR_DMA
+ldr r2, ADDR_GLYPH
+str r2, [r1]
+lsl r2, r6, 0x05
+ldr r3, ADDR_TILES
+add r2, r2, r3
+str r2, [r1, 0x04]
+ldr r2, =0x80000000
+add r3, r0, 0x01
+lsl r3, r3, 0x06
+add r2, r2, r3
+str r2, [r1, 0x08]
+ldr r2, [r1, 0x08]
+
+; Piece together tilemap
+ldr r1, =0x02009764
+ldrh r1, [r1]
+mov r2, r9
+mul r1, r2
+add r1, r8
+lsl r1, r1, 0x01
+ldr r2, =0x02009744
+ldr r2, [r2]
+add r1, r1, r2
+mov r2, 0x00
+mov r3, r6
+@@loop:
+strh r3, [r1]
+add r3, r3, 0x01
+ldr r4, =0x02009764
+ldr r4, [r4]
+lsl r4, r4, 0x01
+strh r3, [r1, r4]
+add r3, r3, 0x01
+add r1, r1, 0x02
+add r2, r2, 0x01
+cmp r2, r0
+blt @@loop
+
+; Update x-coordinate and tile index
+lsl r1, r0, 0x01
+add r6, r6, r1
+add r8, r0
+ldr r1, =0x02009714
+ldrh r1, [r1]
+sub r1, 0x01
+; multiply r1 by 0xC
+lsl r2, r1, 0x01
+add r1, r1, r2
+lsl r1, 0x02
+ldr r2, =0x02009A40
+add r1, r1, r2
+mov r2, r8
+strb r2, [r1]
+; TODO: This isn't actually correct since it clears the font color (high 4 bits)
+strh r6, [r1, 0x02]
+
+; Clean RAM
+ldr r2, ADDR_GLYPH
+ldr r1, ADDR_DMA
+lsl r3, r0, 0x06
+add r3, r2, r3
+str r3, [r1]
+str r2, [r1, 0x04]
+ldr r3, =0x80000040
+str r3, [r1, 0x08]
+ldr r3, [r1, 0x08]
+add r2, 0x40
+ldr r3, =0x22222222
+str r3, [r2]
+str r2, [r1]
+str r2, [r1, 0x04]
+ldr r3, =0x81000080
+str r3, [r1, 0x08]
+ldr r3, [r1, 0x08]
+
+; Return to wrapper.
+ldr r0, =FN_BATTLE_WRAPPER2
+add r0, 0x06
+mov r15, r0
+.pool
+.endarea
+
+;-----------------------------;
+; Our vwf routine             ;
+; ===============             ;
+; Input:                      ;
+;   r0 = glyph value [half]   ;
+;   r1 = palette color [byte] ;
+; Return:                     ;
+;   Number of blocks used - 1 ;
+;-----------------------------;
+.org 0x087DF750
+pushreg
+
+; r8 = return value
+; r9 = glyph value
+; r10 = palette value
+mov r2, 0x00
+mov r8, r2
+mov r9, r0
+mov r10, r1
+
+L_vwf:
+; Get the next glyph value, r0 = r9 & 0xFF
+mov r7, r9
+lsl r7, r7, 0x18
+lsr r7, r7, 0x18
+cmp r7, 0x1F
+bne L_not_bos
+L_not_bos:
+lsl r7, r7, 0x04
+ldr r0, ADDR_FONT
+add r7, r7, r0
+mov r6, 0x00
+ldr r5, ADDR_GLYPH
+mov r0, r8
+lsl r0, r0, 0x06
+add r5, r5, r0
+; r7 = glyph address
+; r6 = loop glyph counter
+; r5 = destination in RAM to write to
+L_loop_glyph:
+; Compute the 4bpp row and store it in r1.
+ldrb r0, [r7, r6]
+mov r1, 0x00
+mov r2, 0x80
+mov r4, 0x00
+; r0 = 1bpp row
+; r1 = 4bpp row
+; r2 = mask
+; r4 = loop row counter
+@@L_loop_row:
+lsl r1, r1, 0x04
+add r1, r1, 0x02
+tst r0, r2
+beq @@L_off
+mov r3, r10
+sub r1, r1, 0x02
+add r1, r1, r3
+@@L_off:
+lsl r0, r0, 0x01
+add r4, r4, 0x01
+cmp r4, 0x08
+blt @@L_loop_row
+; Do the appropriate shifting and then store the 4bpp row.
+lsl r0, r6, 0x02
+ldr r2, [r5, r0]
+ldr r4, ADDR_SHIFT
+ldr r4, [r4]
+lsl r4, r4, 0x02
+lsl r1, r4
+; Mask r2 with 0xFFFFFFFF << r4
+mov r3, 0x01
+neg r3, r3
+lsl r3, r4
+neg r3, r3
+sub r3, r3, 0x01
+and r2, r3
+add r2, r2, r1
+str r2, [r5, r0]
+add r6, r6, 0x01
+cmp r6, 0x10
+blt L_loop_glyph
+
+; Compute the new shift.
+mov r7, r9
+lsl r7, r7, 0x18
+lsr r7, r7, 0x18
+ldr r6, ADDR_WIDTHS
+ldrb r6, [r6, r7]
+ldr r4, ADDR_SHIFT
+ldrb r4, [r4]
+add r4, r4, r6
+cmp r4, 0x08
+ble L_no_overflow
+; Handle overflow.
+mov r7, r9
+lsl r7, r7, 0x18
+lsr r7, r7, 0x18
+lsl r7, 0x04
+ldr r0, ADDR_FONT
+add r7, r7, r0
+mov r6, 0x00
+ldr r5, ADDR_GLYPH
+mov r0, r8
+add r0, r0, 0x01
+lsl r0, r0, 0x06
+add r5, r5, r0
+; r7 = glyph address
+; r6 = loop glyph counter
+; r5 = destination in RAM to write to
+L_loop_glyph_overflow:
+; Compute the 4bpp row and store it in r1.
+ldrb r0, [r7, r6]
+mov r1, 0x00
+mov r2, 0x80
+mov r4, 0x00
+; r0 = 1bpp row
+; r1 = 4bpp row
+; r2 = mask
+; r4 = loop row counter
+@@L_loop_row:
+lsl r1, r1, 0x04
+add r1, r1, 0x02
+tst r0, r2
+beq @@L_off
+mov r3, r10
+sub r1, r1, 0x02
+add r1, r1, r3
+@@L_off:
+lsl r0, r0, 0x01
+add r4, r4, 0x01
+cmp r4, 0x08
+blt @@L_loop_row
+; Do the appropriate shifting and then store the 4bpp row.
+lsl r0, r6, 0x02
+ldr r2, [r5, r0]
+ldr r4, ADDR_SHIFT
+ldrb r4, [r4]
+lsl r4, r4, 0x02
+lsr r2, r4
+lsl r2, r4
+sub r4, 0x20
+neg r4, r4
+lsr r1, r4
+add r2, r1, r2
+str r2, [r5, r0]
+add r6, r6, 0x01
+cmp r6, 0x10
+blt L_loop_glyph_overflow
+; Update the shift
+mov r7, r9
+lsl r7, r7, 0x18
+lsr r7, r7, 0x18
+ldr r6, ADDR_WIDTHS
+ldrb r6, [r6, r7]
+ldr r5, ADDR_SHIFT
+ldrb r4, [r5]
+add r4, r4, r6
+strb r4, [r5]
+b L_after_overflow
+L_no_overflow:
+; Update the shift.
+ldr r5, ADDR_SHIFT
+strb r4, [r5]
+L_after_overflow:
+
+; Increment shift by 1 and mod 8. Also increment return value.
+ldr r5, ADDR_SHIFT
+ldrb r4, [r5]
+add r4, r4, 0x01
+lsr r3, r4, 0x03
+mov r0, r8
+add r0, r0, r3
+mov r8, r0
+lsl r4, 0x1D
+lsr r4, 0x1D
+strb r4, [r5]
+
+mov r0, r9
+lsr r0, 0x08
+mov r9, r0
+cmp r0, 0x00
+bne L_vwf
+
+return:
+mov r0, r8
+popreg
+pop r1
+bx r1
 
 .pool
 

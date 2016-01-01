@@ -9,3 +9,7 @@ Fonts used
 
 A table of glyph widths for the vwf font in order to make writing vwf routines
 significantly easier.
+
+Some alternative fonts ideas:
+For Pistachio: http://www.dafont.com/aardvark-cwm-type.font
+For Mokka: http://www.dafont.com/pixel-intv.font
