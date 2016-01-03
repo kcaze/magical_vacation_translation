@@ -57,4 +57,24 @@ mov r1, 0x08 ; y
 mov r0, 0x5C ; x
 mov r1, 0x80 ; y
 
+; Positioning text for male confirmation screen
+; "Name", "Gender", and "Element"
+.org 0x080ACFA0
+add r0, 0x10 ; x for all
+.org 0x080ACFB4
+mov r1, 0x20 ; y for "Name"
+.org 0x080ACFF4
+mov r1, 0x30 ; y for "Gender"
+.org 0x080AD048
+mov r1, 0x40 ; y for "Element"
+
+; The actual values for name, gender, and element
+.org 0x080ACFD6
+mov r1, 0x20 ; y for name
+.org 0x080AD028
+mov r1, 0x30 ; y for gender
+.org 0x080AD070
+mov r1, 0xA0 ; y for element (hiding the element text, icon is enough)
+
+
 .close

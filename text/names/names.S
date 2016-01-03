@@ -81,6 +81,10 @@ mov r0, 0x00
 ;         breakpoint at 0x080B57D8 and see where that is called. The value of
 ;         r3 passed in needs to be changed to 0x10.
 
+;----------------------;
+; Menu related changes ;
+;----------------------;
+
 ; Item names in the menu.
 .org 0x080B4968
 mov r3, 0x10
@@ -137,5 +141,12 @@ mov r1, 0x20
 add r6, 0x20
 .org 0x080168DE
 add r6, 0x20
+
+;------------------------;
+; Script related changes ;
+;------------------------;
+; Character names in script
+.org 0x0800BC8A
+lsl r1, r1, 0x05
 
 .close
