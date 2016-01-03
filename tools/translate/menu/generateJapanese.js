@@ -20,6 +20,14 @@ function generateJapanese(names) {
           } else {
             section[ii].Japanese += '\\' + (v >> 8).toString(16);
             section[ii].Japanese += '\\' + (v & 0xFF).toString(16);
+            // 0xFBFF = Display spirit icon. 0xFAFF = change font color
+            // The next 2 bytes are a parameter for these control characters
+            if (v == 0xFBFF || v == 0xFAFF) {
+              jj += 2;
+              var v = (section[ii].u8[jj] << 8) + section[ii].u8[jj+1];
+              section[ii].Japanese += '\\' + (v >> 8).toString(16);
+              section[ii].Japanese += '\\' + (v & 0xFF).toString(16);
+            }
           }
         }
       }
