@@ -75,6 +75,11 @@ mov r1, 0x20 ; y for name
 mov r1, 0x30 ; y for gender
 .org 0x080AD070
 mov r1, 0xA0 ; y for element (hiding the element text, icon is enough)
-
-
+; x and y for element icon
+.org 0x080AD0C4
+add r0, sp, 0x10
+add r7, 0x08 ; x for icon
+strh r7, [r0, 0x04]
+mov r1, 0x3E ; y for icon
+strh r1, [r0, 0x06]
 .close
