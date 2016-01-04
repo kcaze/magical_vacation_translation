@@ -290,6 +290,7 @@ function generateJapaneseScript(script) {
     }
     script[ii].Japanese = state.text;
   }
+
   console.log(translated_character_count, "out of", character_count, "characters translated!");
   console.log("That's", translated_character_count / character_count*100, "%!");
 }

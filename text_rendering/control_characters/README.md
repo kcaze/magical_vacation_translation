@@ -1,0 +1,29 @@
+Location of control character routine switchboard: 0x0800B844.
+There are control codes for 0x80 up to 0xFE. Only control codes 0x80 up to 0x99
+are in use it appears.
+0x80: 0x0800BA58 Newline
+0x81: 0x0800BA94 (apparently unused)
+0x82: 0x0800BADC ???
+0x83: 0x0800BB00 ???
+0x84: 0x0800BB90 ???
+0x85: 0x0800BC20 Player's name
+0x86: 0x0800BC78 Display character name, takes byte argument
+0x87: 0x0800BC9C Display item name, takes byte argument
+0x88: 0x0800BCB4 (apparently unused)
+0x89: 0x0800BCD8 (apparently unused)
+0x8A: 0x0800BCFC (apparently unused)
+0x8B: 0x0800BD20 Display character portrait, takes byte argument
+0x8C: 0x0800BDD4 (apparently unused)
+0x8D: 0x0800BEE0 Reset text color.
+0x8E: 0x0800BEE0 Set text color to red.
+0x8F: 0x0800BEE0 Set text color to blue.
+0x90: 0x0800BEE0 (apparently unused)
+0x91: 0x0800BF10 Set text to italics kana.
+0x92: 0x0800BEE0 (apparently unused)
+0x93: 0x0800BF84 ???
+0x94: 0x0800BFB0 ???
+0x95: 0x0800BF28 (apparently unused)
+0x96: 0x0800BF28 (apparently unused)
+0x97: 0x0800BF28 (apparently unused)
+0x98: 0x0800BF54 (apparently unused)
+0x99: 0x0800C2F6 (apparently unused)
