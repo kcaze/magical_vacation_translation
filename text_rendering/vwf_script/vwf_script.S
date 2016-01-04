@@ -63,10 +63,13 @@ FN_BATTLE_HANDLER2 equ 0x087FFC00
 ;--------------------------;
 ; Script call (0x0800C186) ;
 ;--------------------------;
-;First character starts 5 tiles in instead of 4
+; First character starts 5 tiles in instead of 4
 .org 0x0800BDB2
 mov r0, 0x05
 
+; RAM tile wraparound happens at 0x1F8 instead of 0x1FF.
+.org 0x0800C260
+.word 0x000001F8
 
 .org 0x0800C186
 bl FN_SCRIPT_WRAPPER

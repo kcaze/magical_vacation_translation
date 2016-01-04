@@ -116,6 +116,9 @@ function english_search() {
 function parseEnglish(english) {
   var parsed = [];
   var ii = 0;
+  // Prepend beginning of string character.
+  parsed.push(0x1F);
+  parsed.push(0x1F);
   while (ii < english.length) {
     var curr = english[ii];
     var next = english[ii+1];
@@ -137,9 +140,6 @@ function parseEnglish(english) {
     }
     parsed.push(curr.charCodeAt(0));
   }
-  // Append EOS character.
-  parsed.push(0x1F);
-  parsed.push(0x00);
   return parsed;
 }
 
