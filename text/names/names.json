@@ -93,7 +93,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Jump",
       "Japanese": "はね",
       "Comments": "",
       "u8": [
@@ -116,7 +116,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Ink Spray",
       "Japanese": "スミ",
       "Comments": "",
       "u8": [
@@ -139,7 +139,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Rock Hurl",
       "Japanese": "投石",
       "Comments": "",
       "u8": [
@@ -162,7 +162,7 @@
       ]
     },
     {
-      "English": "Slug",
+      "English": "^Slug",
       "Japanese": "なぐる",
       "Comments": "",
       "u8": [
@@ -185,7 +185,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Wind Cutter",
       "Japanese": "ウィンドカッター",
       "Comments": "",
       "u8": [
@@ -208,7 +208,7 @@
       ]
     },
     {
-      "English": "Tornado",
+      "English": "^Tornado",
       "Japanese": "たつまき",
       "Comments": "",
       "u8": [
@@ -231,7 +231,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Feelers",
       "Japanese": "しょくしゅ",
       "Comments": "",
       "u8": [
@@ -254,7 +254,7 @@
       ]
     },
     {
-      "English": "Drain",
+      "English": "^Drain",
       "Japanese": "すいとり",
       "Comments": "",
       "u8": [
@@ -277,7 +277,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Love Mark",
       "Japanese": "愛のしるし",
       "Comments": "",
       "u8": [
@@ -300,7 +300,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Love Sign",
       "Japanese": "愛のあかし",
       "Comments": "",
       "u8": [
@@ -323,7 +323,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Peck",
       "Japanese": "くちばし",
       "Comments": "",
       "u8": [
@@ -346,7 +346,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Puff",
       "Japanese": "吹く",
       "Comments": "",
       "u8": [
@@ -369,7 +369,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Pincer",
       "Japanese": "ハサミ",
       "Comments": "",
       "u8": [
@@ -392,7 +392,7 @@
       ]
     },
     {
-      "English": "Slash",
+      "English": "^Slash",
       "Japanese": "斬る",
       "Comments": "",
       "u8": [
@@ -415,7 +415,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Roar",
       "Japanese": "おおごえ",
       "Comments": "",
       "u8": [
@@ -438,7 +438,7 @@
       ]
     },
     {
-      "English": "Horn Toot",
+      "English": "^Horn Bellow",
       "Japanese": "ホルン",
       "Comments": "",
       "u8": [
@@ -461,7 +461,7 @@
       ]
     },
     {
-      "English": "Cymbal Smash",
+      "English": "^Cymbal Smash",
       "Japanese": "シンバル",
       "Comments": "",
       "u8": [
@@ -484,7 +484,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Belly Slam",
       "Japanese": "腹だいこ",
       "Comments": "",
       "u8": [
@@ -507,7 +507,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Breathe Fire",
       "Japanese": "火を吹く",
       "Comments": "",
       "u8": [
@@ -530,7 +530,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Spin",
       "Japanese": "回転",
       "Comments": "",
       "u8": [
@@ -553,7 +553,7 @@
       ]
     },
     {
-      "English": "Bomb",
+      "English": "^Bomb",
       "Japanese": "ボム",
       "Comments": "",
       "u8": [
@@ -576,7 +576,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Rip",
       "Japanese": "切りさき",
       "Comments": "",
       "u8": [
@@ -599,7 +599,7 @@
       ]
     },
     {
-      "English": "Tail Swipe",
+      "English": "^Tail Swipe",
       "Japanese": "しっぽ",
       "Comments": "",
       "u8": [
@@ -622,7 +622,7 @@
       ]
     },
     {
-      "English": "Tackle",
+      "English": "^Tackle",
       "Japanese": "たいあたり",
       "Comments": "",
       "u8": [
@@ -645,7 +645,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Fart",
       "Japanese": "すかしっぺ",
       "Comments": "",
       "u8": [
@@ -668,7 +668,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Smack",
       "Japanese": "はり手",
       "Comments": "",
       "u8": [
@@ -691,7 +691,7 @@
       ]
     },
     {
-      "English": "Punch",
+      "English": "^Punch",
       "Japanese": "パンチ",
       "Comments": "",
       "u8": [
@@ -714,7 +714,7 @@
       ]
     },
     {
-      "English": "Slap",
+      "English": "^Slap",
       "Japanese": "ビンタ",
       "Comments": "",
       "u8": [
@@ -737,7 +737,7 @@
       ]
     },
     {
-      "English": "Chop",
+      "English": "^Chop",
       "Japanese": "チョップ",
       "Comments": "",
       "u8": [
@@ -760,7 +760,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Lick",
       "Japanese": "なめる",
       "Comments": "",
       "u8": [
@@ -783,7 +783,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Wing Assault",
       "Japanese": "つばさ",
       "Comments": "",
       "u8": [
@@ -806,7 +806,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Dance",
       "Japanese": "おどる",
       "Comments": "",
       "u8": [
@@ -829,7 +829,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Bad Breath",
       "Japanese": "くさいいき",
       "Comments": "",
       "u8": [
@@ -852,7 +852,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Claw",
       "Japanese": "つめ",
       "Comments": "",
       "u8": [
@@ -875,7 +875,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Bow Attack",
       "Japanese": "ゆみ",
       "Comments": "",
       "u8": [
@@ -898,7 +898,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Sickle",
       "Japanese": "カマ",
       "Comments": "",
       "u8": [
@@ -921,7 +921,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Pinchy Punchy",
       "Japanese": "ピーチクパーチク",
       "Comments": "",
       "u8": [
@@ -944,7 +944,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Bean Bomb",
       "Japanese": "マメばくだん",
       "Comments": "",
       "u8": [
@@ -967,7 +967,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Brandish",
       "Japanese": "ふりまわす",
       "Comments": "",
       "u8": [
@@ -990,7 +990,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Wave",
       "Japanese": "はどう",
       "Comments": "",
       "u8": [
@@ -1013,7 +1013,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Stomp",
       "Japanese": "じたんだ",
       "Comments": "",
       "u8": [
@@ -1036,7 +1036,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Burble",
       "Japanese": "ボコボコ",
       "Comments": "",
       "u8": [
@@ -1059,7 +1059,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Persist",
       "Japanese": "がんばる",
       "Comments": "",
       "u8": [
@@ -1082,7 +1082,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Pot Drop",
       "Japanese": "つぼ落とし",
       "Comments": "",
       "u8": [
@@ -1105,7 +1105,7 @@
       ]
     },
     {
-      "English": "Boomerang",
+      "English": "^Boomerang",
       "Japanese": "ブーメラン",
       "Comments": "",
       "u8": [
@@ -1128,7 +1128,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Dark Bomb",
       "Japanese": "暗黒ボム",
       "Comments": "",
       "u8": [
@@ -1151,7 +1151,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Dark Gas",
       "Japanese": "暗黒ガス",
       "Comments": "",
       "u8": [
@@ -1174,7 +1174,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Dark Light",
       "Japanese": "暗黒の光",
       "Comments": "",
       "u8": [
@@ -1197,7 +1197,7 @@
       ]
     },
     {
-      "English": "Tackle",
+      "English": "^Tackle",
       "Japanese": "体当たり",
       "Comments": "",
       "u8": [
