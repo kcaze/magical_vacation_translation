@@ -371,8 +371,12 @@ str r0, [r1, 0x04]
 ldr r0, =0x810000C0
 str r0, [r1, 0x08]
 ldr r0, [r1, 0x08]
-b L_bos_branch
+b L_vwf_end_loop
 L_not_bos:
+; Skip processing if 0.
+cmp r7, 0x00
+beq L_vwf_end_loop
+
 lsl r7, r7, 0x04
 ldr r0, ADDR_FONT
 add r7, r7, r0
@@ -522,8 +526,7 @@ lsl r4, 0x1D
 lsr r4, 0x1D
 strb r4, [r5]
 
-; L_bos_branch for beginning of character strings to skip processing.
-L_bos_branch:
+L_vwf_end_loop:
 mov r0, r9
 lsr r0, 0x08
 mov r9, r0

@@ -133,13 +133,14 @@ function parseEnglish(english) {
   var ii = 0;
   var parsed = [];
   var argument_taking_control_characters = {
+    0x00: true,
     0x85: true,
     0x86: true,
     0x87: true,
     0x8b: true,
   }
   while (ii < initial_parsed.length) {
-    if (initial_parsed[ii] >= 0x80) {
+    if (initial_parsed[ii] >= 0x80 || initial_parsed[ii] == 0) {
       if (argument_taking_control_characters[initial_parsed[ii]]) {
         parsed.push(initial_parsed[ii]);
         parsed.push(initial_parsed[ii+1]);

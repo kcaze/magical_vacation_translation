@@ -152,6 +152,8 @@ lsl r1, r1, 0x05
 ; Item names in script
 .org 0x0800BCC6
 lsl r1, r1, 0x05
+.org 0x0800BFD0
+add r1, 0x20
 
 ; Frog and worm names in script
 .org 0x0800BFC0

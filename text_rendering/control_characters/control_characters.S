@@ -45,9 +45,16 @@ mov r15, r0
 .org 0x0800BDB2
 mov r0, 0x05
 
-; 0x83 = item in a selection dialogue box
-; Modify indent for first column
-;.org 0x0800BA64
-;mov r1, 0x07
+; 0x93: Fix number display routine to store the right glyph values
+.org 0x0800A4CA
+mov r0, 0x30
+add r0, r0, r1
+strb r0, [r4]
+add r4, 0x1
+nop
+
+; Fix x-coordinate incrementing for icons.
+.org 0x0800C064
+add r0, 0x02
 
 .close
