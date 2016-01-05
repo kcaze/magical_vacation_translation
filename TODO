@@ -1,3 +1,48 @@
+Graphics:
+-Hack title logo. LZ77 compressed.
+-Hack "New game", "Continue", etc. buttons. LZ77 compressed.
+-Hack "Risebird Village & Spa" to "Ricebird Village & Spa" in campgrounds map. LZ77 compressed?
+-Menu headers.
+
+Text positioning:
+-Element name on beginning element selection screen needs to be centered.
+-"B button: return" on element confirmation screen needs to be move to the
+  right.
+-Location on load save screen needs more width. It's already centered.
+-[menu] "Gender", "Element", "Species" horizontal positioning in status in menu.
+-[menu] Icons in character->equipment window should be shifted 4 pixels left.
+-[menu] Spell names in character->magic window should be shifted one grid right.
+-[menu] "Spirits Befriended" in spirits window in menu needs to be shifted left.
+-[menu] "Beats:" and "Fears:" and spirit icons needs to be adjusted in spirits window
+ in menu.
+-[menu] "Currently:" and place name in maps
+-[menu] Positioning for "Abyssal Realm" is off in maps
+-[menu] Monster names in Bestiary need to be shifted right.
+-[menu] Report card needs to be completely fixed.
+-[shop] Name of item when buying and selling isn't centered properly.
+
+Text rendering:
+-Equipment names on character equip screen are being truncated.
+-Place names in menu are being truncated.
+-"[ELEMENT NAME] Mastered" text on bottom of character->magic window needs to
+ have the [ELEMENT NAME] text hidden.
+-Need another vwf or monospace hack for the shadowed font drawing used in
+ cutscenes.
+-Centering for place names that are too long don't work in maps in menu.
+
+Translation:
+-Translate text for character descriptions in title screen cutscenes.
+-Menu explanations.
+
+Misc:
+-Hack the name selection screen.
+-Determine where the text for the title screen cutscene is stored.
+
+Todo:
+-Figure out what needs to be done for menu headers.
+-Figure out what needs to be done for character->profile in menu.
+-Figure out what the amigo mode functionality is like.
+
 - Fix truncation of equipment names on the character equip screen.
 - "Unequip" needs to be drawn before the name of the item/magic to unequip is drawn.
 - Fix all the x positioning for menu text.
@@ -6,8 +51,6 @@
 - Flickering on choosing the main character's element. This is probably due to
   redrawing the text sprites each time. The same effect is reproduced in the
   original if you try to scroll through the list of elements.
-- Fix icon drawing in script. It appears the x offset needs to be updated by
-  more.
 - Item descriptions are messed up in battle. I need to rethink how I'm going to
   approach item descriptions, since they're shared between monospace text and
   vwf text.
