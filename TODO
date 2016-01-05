@@ -15,3 +15,5 @@
   Right now it looks really ugly (compare "Bug" and "Electric").
 - Spirit icons animate at half speed in the intro spirit descriptions. I suspect
   this is due to redrawing the text sprites each time.
+- Fix number display control character. It needs a leading 1F and potential zero
+  padding at the end.

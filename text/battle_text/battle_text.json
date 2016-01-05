@@ -44,7 +44,7 @@
     ]
   },
   {
-    "English": "^Items\\1e",
+    "English": "^Items\\1e\\1e",
     "Japanese": "アイテム",
     "Comments": "Battle commands are weird and need to be padded with an 8 bit width character like this.",
     "u8": [

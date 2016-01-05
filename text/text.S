@@ -1,33 +1,57 @@
 .gba
 .open "hacked.gba", 0x08000000
 
-; Insert updated offsets for name sections.
-.org 0x08226F7C
-.incbin text/names/name_offsets.bin
+;------------------;
+; Translated names ;
+;------------------;
+ADDR_NAME_OFFSETS equ 0x08226F7C
+ADDR_NAME_ATTACKS equ 0x087F4130
+ADDR_NAME_ITEMS equ 0x087DFA50
+ADDR_NAME_STATUSES equ 0x08FFFFFF ; TODO
+ADDR_NAME_SPELLS equ 0x087EB800
+ADDR_NAME_MONSTERS equ 0x087F4800
+ADDR_NAME_CHARACTERS equ 0x087F2D30
+ADDR_NAME_GENDERS equ 0x08FFFFFF ; TODO
+ADDR_NAME_SPIRITS equ 0x0822730C
+ADDR_NAME_SPECIES equ 0x08FFFFFF ; TODO
+ADDR_NAME_ELEMENTS equ 0x0822770C
+ADDR_NAME_PLACES equ 0x087EF500
+ADDR_NAME_RANKINGS equ 0x087F71E0
 
-; Insert translated character names.
-.org 0x087F2D30
-.incbin text/names/characters.bin
+.org ADDR_NAME_OFFSETS
+.word 0x00000008 ; Hardcoded
+.word 0x0000000C ; Hardcoded
+.word ADDR_NAME_ATTACKS - 0x08226F7C
+.word ADDR_NAME_ITEMS - 0x08226F7C
+.word ADDR_NAME_STATUSES - 0x08226F7C
+.word ADDR_NAME_SPELLS - 0x08226F7C
+.word ADDR_NAME_MONSTERS - 0x08226F7C
+.word ADDR_NAME_CHARACTERS - 0x08226F7C
+.word ADDR_NAME_GENDERS - 0x08226F7C
+.word ADDR_NAME_SPIRITS - 0x08226F7C
+.word ADDR_NAME_SPECIES - 0x08226F7C
+.word ADDR_NAME_ELEMENTS - 0x08226F7C
+.word ADDR_NAME_PLACES - 0x08226F7C
+.word ADDR_NAME_RANKINGS - 0x08226F7C
 
-; Insert translated item names.
-.org 0x087DFA50
+.org ADDR_NAME_ATTACKS
+.incbin text/names/attacks.bin
+.org ADDR_NAME_ITEMS
 .incbin text/names/items.bin
-
-; Insert translated spell names.
-.org 0x087EB800
+.org ADDR_NAME_SPELLS
 .incbin text/names/spells.bin
-
-; Insert translated spirit names.
-.org 0x0822730C
+.org ADDR_NAME_MONSTERS
+.incbin text/names/monsters.bin
+.org ADDR_NAME_CHARACTERS
+.incbin text/names/characters.bin
+.org ADDR_NAME_SPIRITS
 .incbin text/names/spirits.bin
-
-; Insert translated element names.
-.org 0x0822770C
+.org ADDR_NAME_ELEMENTS
 .incbin text/names/elements.bin
-
-; Insert translated place names.
-.org 0x087EF500
+.org ADDR_NAME_PLACES
 .incbin text/names/places.bin
+.org ADDR_NAME_RANKINGS
+.incbin text/names/rankings.bin
 
 ; Insert the translated script.
 .org 0x08629A2C

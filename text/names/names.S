@@ -132,6 +132,13 @@ lsl r0, r0, 0x05
 .org 0x08019440
 lsl r4, r4, 0x05
 
+; Attack names in battle.
+.org 0x080157E4
+lsl r0, r0, 0x1A
+lsr r0, r0, 0x15
+.org 0x08015802
+add r1, 0x20
+
 ; Battle vwf calls.
 ; 0x0800ADCE call
 .org 0x080167DA

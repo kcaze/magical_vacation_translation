@@ -12,7 +12,7 @@ Names are fixed width, each taking up exactly 16 bytes.
 0x0001394 = Status effects (0x08228310)
 0x00014C8 = Spell names (0x08228444)
 0x0001D7C = Monster names(0x08228CF8)
-0x0003260 = Party member names (0x0822A1DC)
+0x0003260 = Character names (0x0822A1DC)
 0x00034A4 = Male sign, female sign, question mark (0x0822A420)
 0x00034D8 = Spirit names (0x0822A454)
 0x00035EC = Species names (0x0822A568)
