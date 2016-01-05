@@ -674,7 +674,7 @@
       ]
     },
     {
-      "English": "^Gummy Frogs Caught",
+      "English": "^Gummi Frogs Caught",
       "Japanese": "カエルグミ捕獲数\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -699,7 +699,7 @@
       ]
     },
     {
-      "English": "^Gummy Worms Caught",
+      "English": "^Gummi Worms Caught",
       "Japanese": "ミミズグミ捕獲数\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -812,9 +812,9 @@
       ]
     },
     {
-      "English": "^x",
+      "English": " ",
       "Japanese": "倍\\ff\\ff",
-      "Comments": "",
+      "Comments": "Leave this blank.",
       "u8": [
         1,
         224,
@@ -23109,7 +23109,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Summons 1 Toasty.",
       "Japanese": "火の精霊・トーストを呼び出す\\fe\\ff魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -23156,7 +23156,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits 1.\\fe\\ffPower: 5",
       "Japanese": "敵１体に炎を投げつける。\\fe\\ff威力は５だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -23203,7 +23203,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits 2 horizontally.\\fe\\ffPower: 5",
       "Japanese": "ヨコ２マスの敵を炎でつつむ。\\fe\\ff威力は５だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -23254,7 +23254,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Dispels all Gusty's.",
       "Japanese": "風の精霊・エアを退散させる\\fe\\ff魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -23299,7 +23299,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits 1.\\fe\\ffPower: 5",
       "Japanese": "敵１体をはげしい炎で攻撃。\\fe\\ff威力は７だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -23348,7 +23348,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Summons 2 Toasty's.",
       "Japanese": "火の精霊・トーストを２体同時\\fe\\ffに呼び出す魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -23405,7 +23405,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits a 2x2 square.\\fe\\ffPower: 7",
       "Japanese": "２Ｘ２の敵をはげしい炎で\\fe\\ff攻撃する。威力は７だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -23462,7 +23462,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Summons 1 Gusty.",
       "Japanese": "風の精霊・エアを呼び出す\\fe\\ff魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -23505,7 +23505,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits 1.\\fe\\ff\nPower: 4",
       "Japanese": "敵１体をつむじ風で攻撃する。\\fe\\ff威力は４だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -23556,7 +23556,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Increases an ally's\\fe\\ffspeed.",
       "Japanese": "風の力で味方１人のはやさを\\fe\\ffアップする。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -23605,7 +23605,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Dispels all Gloomy's.",
       "Japanese": "毒の精霊・ブーを退散させる\\fe\\ff魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -23650,7 +23650,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits a row.\\fe\\ffPower: 5",
       "Japanese": "ヨコ１れつの敵をつむじ風で\\fe\\ff攻撃する。威力は５だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -23709,7 +23709,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Summons 2 Gusty's.",
       "Japanese": "風の精霊・エアを２体同時に\\fe\\ff呼び出す魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -23762,7 +23762,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits all.\\fe\\ffPower: 5",
       "Japanese": "敵全体をはげしい風で攻撃。\\fe\\ff威力は５だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -23811,7 +23811,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Summons 1 Gloomy.",
       "Japanese": "毒の精霊・ブーを呼び出す\\fe\\ff魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -23854,7 +23854,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits 1.\\fe\\ffPower: 3 + poison",
       "Japanese": "敵一体にダメージをあたえ毒に\\fe\\ffする。威力は３＋毒だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -23915,7 +23915,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits a 2x2 square.\\fe\\ffPower: 3 + poison",
       "Japanese": "２Ｘ２の敵にダメージ＋毒。\\fe\\ff威力は３＋毒だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -23968,7 +23968,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Dispels all Pretty's.",
       "Japanese": "美の精霊・パウダーを退散させ\\fe\\ffる魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -24017,7 +24017,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits 1.\\fe\\ffPower: 5 + poison",
       "Japanese": "敵一体にダメージをあたえ毒に\\fe\\ffする。威力は５＋毒だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -24078,7 +24078,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Summons 2 Gloomy's.",
       "Japanese": "毒の精霊・ブーを２体同時に\\fe\\ff呼び出す魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -24131,7 +24131,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits a 2x2 square.\\fe\\ffPower: 5 + poison",
       "Japanese": "２Ｘ２の敵にダメージ＋毒。\\fe\\ff威力は５＋毒だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -24184,7 +24184,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Summons 1 Pretty.",
       "Japanese": "美の精霊・パウダーを呼び出す\\fe\\ff魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -24231,7 +24231,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits 1.\\fe\\ffPower: 3 + stun",
       "Japanese": "敵一体にダメージ＋マヒ。\\fe\\ff威力は３＋マヒだ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -24284,7 +24284,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits 1.\\fe\\ffPower: 5 + stun",
       "Japanese": "敵一体にダメージ＋マヒ。\\fe\\ff威力は５＋マヒだ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -24337,7 +24337,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Dispels all Edgy's.",
       "Japanese": "刃の精霊・スラッシュを退散さ\\fe\\ffせる魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -24388,7 +24388,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits 1.\\fe\\ffPower: 7 + stun",
       "Japanese": "敵一体にダメージ＋マヒ。\\fe\\ff威力は７＋マヒだ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -24441,7 +24441,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Summons 2 Pretty's.",
       "Japanese": "美の精霊・パウダーを２体同時\\fe\\ffに呼び出す魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -24498,7 +24498,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Heals and revives an\\fe\\ffally.",
       "Japanese": "味方１人の毒やマヒや気絶を\\fe\\ffなおす。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -24543,7 +24543,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Summons 1 Edgy.",
       "Japanese": "刃の精霊・スラッシュを呼び\\fe\\ff出す魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -24592,7 +24592,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits 1 in front row.\\fe\\ffPower: 5",
       "Japanese": "前の敵一体を切りきざむ。\\fe\\ff威力は５だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -24639,7 +24639,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits 1 in front row.\\fe\\ffPower: 7",
       "Japanese": "前の敵一体を切りきざむ。\\fe\\ff威力は７だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -24686,7 +24686,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Dispels all Catchy's.",
       "Japanese": "音の精霊・ハミングを退散させ\\fe\\ffる魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -24735,7 +24735,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits 1 in front row.\\fe\\ffPower: 9",
       "Japanese": "前の敵一体を切りきざむ。\\fe\\ff威力は９だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -24782,7 +24782,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Summons 2 Edgy's.",
       "Japanese": "刃の精霊・スラッシュを２体\\fe\\ff同時に呼び出す魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -24841,7 +24841,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits 1 in front row.\\fe\\ffPower: 11",
       "Japanese": "前の敵一体を切りきざむ。\\fe\\ff威力は１１だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -24890,7 +24890,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Summons 1 Catchy.",
       "Japanese": "音の精霊・ハミングを呼び出す\\fe\\ff魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -24937,7 +24937,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits 1.\\fe\\ffPower: 3 + sleep",
       "Japanese": "敵１体にダメージをあたえ眠ら\\fe\\ffせる。威力は３＋眠りだ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -25000,7 +25000,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits 1.\\fe\\ffPower: 5 + sleep",
       "Japanese": "敵１体にダメージ＋眠り。\\fe\\ff威力は５＋眠りだ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -25053,7 +25053,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Dispels all Rocky's.",
       "Japanese": "石の精霊・フリントを退散させ\\fe\\ffる魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -25102,7 +25102,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Increases an ally's\\fe\\ffspirit.",
       "Japanese": "味方一人のせいしんをアップ\\fe\\ffする。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -25145,7 +25145,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Summons 2 Catchy's.",
       "Japanese": "音の精霊・ハミングを２体同時\\fe\\ffに呼び出す魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -25202,7 +25202,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits all.\\fe\\ffPower: 5 + sleep",
       "Japanese": "敵全体にダメージ＋眠り。\\fe\\ff威力は５＋眠りだ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -25255,7 +25255,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Summons 1 Rocky.",
       "Japanese": "石の精霊・フリントを呼び出す\\fe\\ff魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -25302,7 +25302,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits 1.\\fe\\ffPower: 5",
       "Japanese": "敵１体に石を落とす。\\fe\\ff威力は５だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -25345,7 +25345,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Increases an ally's\\fe\\ffdefense.",
       "Japanese": "味方１人のまもりをアップ\\fe\\ffする。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -25386,7 +25386,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Dispels all Antsy's.",
       "Japanese": "虫の精霊・バズを退散させる\\fe\\ff魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -25431,7 +25431,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits a column.\\fe\\ffPower: 7",
       "Japanese": "敵タテ１れつに石をぶつける。\\fe\\ff威力は７だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -25482,7 +25482,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Summons 2 Rocky's.",
       "Japanese": "石の精霊・フリントを２体同時\\fe\\ffに呼び出す魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -25539,7 +25539,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits all.\\fe\\ffPower: 5",
       "Japanese": "敵全体にダメージをあたえる。\\fe\\ff威力は５だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -25590,7 +25590,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Summons 1 Antsy.",
       "Japanese": "虫の精霊・バズを呼び出す\\fe\\ff魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -25633,7 +25633,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits 1.\\fe\\ffPower: 4 + ATK down",
       "Japanese": "敵１体をかなぶんが襲う。\\fe\\ff威力は４＋力ダウン。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -25688,7 +25688,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits 1.\\fe\\ffPower: 6 + ATK down",
       "Japanese": "敵１体をちょうちょが襲う。\\fe\\ff威力は６＋力ダウン。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -25745,7 +25745,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Dispels all Sticky's.",
       "Japanese": "木の精霊・スティックを退散さ\\fe\\ffせる魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -25796,7 +25796,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits 1.\\fe\\ffPower: 8 + ATK down",
       "Japanese": "敵１体をハチが襲う。\\fe\\ff威力は８＋力ダウン大。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -25849,7 +25849,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Summons 2 Antsy's.",
       "Japanese": "虫の精霊・バズを２体同時に\\fe\\ff呼び出す魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -25902,7 +25902,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits 1.\\fe\\ffPower: 10 + ATK down.",
       "Japanese": "敵１体をかぶとむしが襲う。\\fe\\ff威力は１０＋力ダウン大。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -25963,7 +25963,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Summons 1 Sticky.",
       "Japanese": "木の精霊・スティックを呼び\\fe\\ff出す魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -26012,7 +26012,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits 1.\\fe\\ffPower: 3 + SPR down",
       "Japanese": "敵１体にどんぐりを投げる。\\fe\\ff威力は３＋精神ダウン。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -26071,7 +26071,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits a 2x2 square.\\fe\\ffPower: 3 + SPR down",
       "Japanese": "２Ｘ２の敵にくるみを投げる。\\fe\\ff威力は３＋精神ダウン。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -26132,7 +26132,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Dispels all Furry's.",
       "Japanese": "獣の精霊・ガルを退散させる\\fe\\ff魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -26177,7 +26177,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits 1.\\fe\\ffPower: 5 + SPR down",
       "Japanese": "敵１体にまつぼっくり。\\fe\\ff威力は５＋精神ダウン大。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -26234,7 +26234,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Summons 2 Sticky's.",
       "Japanese": "木の精霊・スティックを２体\\fe\\ff同時に呼び出す魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -26293,7 +26293,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits a 2x2 square.\\fe\\ffPower: 5 + SPR down",
       "Japanese": "２Ｘ２の敵にいがぐり。\\fe\\ff威力は５＋精神ダウン大。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -26350,7 +26350,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Summons 1 Furry.",
       "Japanese": "獣の精霊・ガルを呼び出す\\fe\\ff魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -26393,7 +26393,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits 1.\\fe\\ffPower: 4",
       "Japanese": "敵１体にタカが攻撃する。\\fe\\ff威力は４だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -26440,7 +26440,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits 1 in front row.\\fe\\ffPower: 6",
       "Japanese": "前の敵１体にサイが攻撃する。\\fe\\ff威力は６だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -26491,7 +26491,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Dispels all Rainy's.",
       "Japanese": "水の精霊・フローを退散させる\\fe\\ff魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -26538,7 +26538,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Increases an ally's\\fe\\ffattack.",
       "Japanese": "味方１人の力をアップする。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -26573,7 +26573,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Summons 2 Furry's.",
       "Japanese": "獣の精霊・ガルを２体同時に\\fe\\ff呼び出す魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -26626,7 +26626,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Uses allies' MP to\\fe\\ffhit all.",
       "Japanese": "味方のMPを集めて、敵全体に\\fe\\ffぶつける。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -26675,7 +26675,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Summon 1 Rainy.",
       "Japanese": "水の精霊・フローを呼び出す\\fe\\ff魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -26720,7 +26720,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits 2 horizontally.\\fe\\ffPower: 3 + DEF down",
       "Japanese": "ヨコ２マスの敵を水芸で攻撃。\\fe\\ff威力は３＋まもりダウン。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -26783,7 +26783,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits all.\\fe\\ffPower: 3 + DEF down",
       "Japanese": "敵全体にヤバい雨をふらせる。\\fe\\ff威力は３＋まもりダウン。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -26846,7 +26846,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Dispels all Sparky's.",
       "Japanese": "雷の精霊・テスラを退散させる\\fe\\ff魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -26893,7 +26893,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits a row.\\fe\\ffPower: 5 + DEF down",
       "Japanese": "ヨコ１れつの敵に氷のヤリ。\\fe\\ff威力５＋まもりダウン大。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -26954,7 +26954,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Summons 2 Rainy's.",
       "Japanese": "水の精霊・フローを２体同時に\\fe\\ff呼び出す魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -27009,7 +27009,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits all.\\fe\\ffPower: 5 + DEF down",
       "Japanese": "いてつく空気で敵全体を攻撃。\\fe\\ff威力５＋まもりダウン特大。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -27074,7 +27074,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Summons 1 Sparky.",
       "Japanese": "雷の精霊・テスラを呼び出す\\fe\\ff魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -27119,7 +27119,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits a column.\\fe\\ffPower: 3 + paralysis",
       "Japanese": "タテ１れつの敵に電撃。\\fe\\ff威力は３＋しびれ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -27170,7 +27170,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits a 2x2 square.\\fe\\ffPower: 3 + paralysis",
       "Japanese": "２Ｘ２の敵に電撃。\\fe\\ff威力は３＋しびれ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -27217,7 +27217,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Dispels all Early's.",
       "Japanese": "古の精霊・クロックを退散させ\\fe\\ffる魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -27266,7 +27266,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits a column.\\fe\\ffPower: 5 + paralysis",
       "Japanese": "タテ１れつの敵に強力な電撃。\\fe\\ff威力は５＋マヒ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -27321,7 +27321,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Summons 2 Sparky's.",
       "Japanese": "雷の精霊・テスラを２体同時に\\fe\\ff呼び出す魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -27376,7 +27376,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits a 2x2 square.\\fe\\ffPower: 5 + paralysis",
       "Japanese": "２Ｘ２の敵に強力な電撃。\\fe\\ff威力は５＋マヒ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -27427,7 +27427,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Summons 1 Early.",
       "Japanese": "古の精霊・クロックを呼び出す\\fe\\ff魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -27474,7 +27474,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits 1.\\fe\\ffPower: 3 + SPD down",
       "Japanese": "敵１体にねじをとばす。\\fe\\ff威力３＋はやさダウン。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -27529,7 +27529,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits a 2x2 square.\\fe\\ffPower: 3 + SPD down",
       "Japanese": "２Ｘ２の敵にカッター攻撃。\\fe\\ff威力３＋はやさダウン。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -27588,7 +27588,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Dispels all Toasty's.",
       "Japanese": "火の精霊・トーストを退散させ\\fe\\ffる魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -27637,7 +27637,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits 1.\\fe\\ffPower: 5 + SPD down",
       "Japanese": "敵１体にはぐるまをとばす。\\fe\\ff威力５＋はやさダウン大。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -27698,7 +27698,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Summons 2 Early's.",
       "Japanese": "古の精霊・クロックを２体同時\\fe\\ffに呼び出す魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -27755,7 +27755,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits all.\\fe\\ffPower: 5 + SPD down",
       "Japanese": "敵全体にミサイルで攻撃。\\fe\\ff威力５＋はやさダウン大。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -27814,7 +27814,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Summons 1 Inky.",
       "Japanese": "闇の精霊・ニルヴァを呼び出す\\fe\\ff魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -27861,7 +27861,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits 1.\\fe\\ffPower: 5 + MP drain",
       "Japanese": "敵１体を闇のガスで攻撃。\\fe\\ff威力５＋MPすいとり。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -27918,7 +27918,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits 1.\\fe\\ffPower: 7 + MP drain",
       "Japanese": "敵１体を闇の力で圧縮。\\fe\\ff威力７＋MPすいとり。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -27973,7 +27973,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Dispels all but Inky,\\fe\\ffHoly and Charity.",
       "Japanese": "光・闇・愛 以外の精霊を\\fe\\ff退散させる魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -28026,7 +28026,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits a row.\\fe\\ffPower: 7 + MP drain",
       "Japanese": "ヨコ１れつの敵を闇でつつむ。\\fe\\ff威力７＋MPすいとり大。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -28089,7 +28089,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Summons 2 Inky's.",
       "Japanese": "闇の精霊・ニルヴァを２体同時\\fe\\ffに呼び出す魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -28146,7 +28146,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits all.\\fe\\ffPower: 7 + MP drain",
       "Japanese": "敵全体を闇にひきずりこむ。\\fe\\ff威力７＋MPすいとり特大。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -28209,7 +28209,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Summons 1 Holy.",
       "Japanese": "光の精霊・ルクスを呼び出す\\fe\\ff魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -28254,7 +28254,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits 1.\\fe\\ffPower: 5 + blind",
       "Japanese": "敵１体をにまばゆい光を放つ。\\fe\\ff威力５＋ブラインド。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -28313,7 +28313,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits a column.\\fe\\ffPower: 6 + blind",
       "Japanese": "タテ１れつの敵に光を放つ。\\fe\\ff威力６＋ブラインド。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -28370,7 +28370,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Dispels all Inky's.",
       "Japanese": "闇の精霊・ニルヴァを退散させ\\fe\\ffる魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -28419,7 +28419,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits a row.\\fe\\ffPower: 7 + blind",
       "Japanese": "ヨコ１れつの敵に光を放つ。\\fe\\ff威力７＋ブラインド。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -28476,7 +28476,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Summons 2 Holy's.",
       "Japanese": "光の精霊・ルクスを２体同時に\\fe\\ff呼び出す魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -28531,7 +28531,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Hits all.\\fe\\ffPower: 8 + blind",
       "Japanese": "敵全体にはげしい光を放つ。\\fe\\ff威力８＋ブラインド。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -28588,7 +28588,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Summons 1 Charity.",
       "Japanese": "愛の精霊・ウイッシュを呼び\\fe\\ff出す魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -28637,7 +28637,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Heals an ally's HP.",
       "Japanese": "味方１人のHPを回復する。\\fe\\ff使ったMPが多いほど効果大。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -28702,7 +28702,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Heals an ally's MP.",
       "Japanese": "味方１人のMPを回復する。\\fe\\ff使ったMPが多いほど効果大。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -28767,7 +28767,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Heals all allies' HP.",
       "Japanese": "味方全✈のHPを回復する。\\fe\\ff使ったMPが多いほど効果大。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -28832,7 +28832,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Increases an ally's\\fe\\ffMP recovery.",
       "Japanese": "味方１人のMPの回復率を\\fe\\ffアップする。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -28879,7 +28879,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Summons 2 Charity's.",
       "Japanese": "愛の精霊・ウイッシュを２体\\fe\\ff同時に呼び出す魔法だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -28938,7 +28938,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "Dispels all spirits.",
       "Japanese": "精霊たちを愛でつつみこんで、\\fe\\ff帰ってもらうのだ。\\ff\\ff",
       "Comments": "",
       "u8": [

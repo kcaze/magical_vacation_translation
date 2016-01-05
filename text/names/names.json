@@ -7804,7 +7804,7 @@
       ]
     },
     {
-      "English": "^Clear Ivy",
+      "English": "^Clear Gloomy",
       "Japanese": "クリアブー",
       "Comments": "",
       "u8": [
@@ -7896,7 +7896,7 @@
       ]
     },
     {
-      "English": "^Call Ivy",
+      "English": "^Call Gloomy",
       "Japanese": "コールブー",
       "Comments": "",
       "u8": [
@@ -8011,7 +8011,7 @@
       ]
     },
     {
-      "English": "^Double Ivy",
+      "English": "^Double Gloomy",
       "Japanese": "ダブルブー",
       "Comments": "",
       "u8": [
@@ -8287,7 +8287,7 @@
       ]
     },
     {
-      "English": "^Clear Melody",
+      "English": "^Clear Catchy",
       "Japanese": "クリアハミング",
       "Comments": "",
       "u8": [
@@ -8379,7 +8379,7 @@
       ]
     },
     {
-      "English": "^Call Melody",
+      "English": "^Call Catchy",
       "Japanese": "コールハミング",
       "Comments": "",
       "u8": [
@@ -8494,7 +8494,7 @@
       ]
     },
     {
-      "English": "^Double Melody",
+      "English": "^Double Catchy",
       "Japanese": "ダブルハミング",
       "Comments": "",
       "u8": [
@@ -9253,7 +9253,7 @@
       ]
     },
     {
-      "English": "^Clear Battery",
+      "English": "^Clear Sparky",
       "Japanese": "クリアテスラ",
       "Comments": "",
       "u8": [
@@ -9345,7 +9345,7 @@
       ]
     },
     {
-      "English": "^Call Battery",
+      "English": "^Call Sparky",
       "Japanese": "コールテスラ",
       "Comments": "",
       "u8": [
@@ -9414,7 +9414,7 @@
       ]
     },
     {
-      "English": "^Clear History",
+      "English": "^Clear Early",
       "Japanese": "クリアクロック",
       "Comments": "",
       "u8": [
@@ -9460,7 +9460,7 @@
       ]
     },
     {
-      "English": "^Double Battery",
+      "English": "^Double Sparky",
       "Japanese": "ダブルテスラ",
       "Comments": "",
       "u8": [
@@ -9506,7 +9506,7 @@
       ]
     },
     {
-      "English": "^Call History",
+      "English": "^Call Early",
       "Japanese": "コールクロック",
       "Comments": "",
       "u8": [
@@ -9621,7 +9621,7 @@
       ]
     },
     {
-      "English": "^Double History",
+      "English": "^Double Early",
       "Japanese": "ダブルクロック",
       "Comments": "",
       "u8": [
@@ -9667,7 +9667,7 @@
       ]
     },
     {
-      "English": "^Call Shadowy",
+      "English": "^Call Inky",
       "Japanese": "コールニルヴァ",
       "Comments": "",
       "u8": [
@@ -9782,7 +9782,7 @@
       ]
     },
     {
-      "English": "^Double Shadowy",
+      "English": "^Double Inky",
       "Japanese": "ダブルニルヴァ",
       "Comments": "",
       "u8": [
@@ -9828,7 +9828,7 @@
       ]
     },
     {
-      "English": "^Call Brightly",
+      "English": "^Call Holy",
       "Japanese": "コールルクス",
       "Comments": "",
       "u8": [
@@ -9897,7 +9897,7 @@
       ]
     },
     {
-      "English": "^Clear Shadowy",
+      "English": "^Clear Inky",
       "Japanese": "クリアニルヴァ",
       "Comments": "",
       "u8": [
@@ -9943,7 +9943,7 @@
       ]
     },
     {
-      "English": "^Double Brightly",
+      "English": "^Double Holy",
       "Japanese": "ダブルルクス",
       "Comments": "",
       "u8": [
