@@ -45,4 +45,9 @@ mov r15, r0
 .org 0x0800BDB2
 mov r0, 0x05
 
+; 0x83 = item in a selection dialogue box
+; Modify indent for first column
+;.org 0x0800BA64
+;mov r1, 0x07
+
 .close

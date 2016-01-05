@@ -114,32 +114,52 @@ function english_search() {
 }
 
 function parseEnglish(english) {
-  var parsed = [];
-  var ii = 0;
-  // Prepend beginning of string character.
-  parsed.push(0x1F);
-  parsed.push(0x1F);
-  while (ii < english.length) {
-    var curr = english[ii];
-    var next = english[ii+1];
-    if (curr == '\\') {
-      parsed.push(parseInt(english.substring(ii+1, ii+3), 16));
-      ii += 3;
-      continue;
-    } else if (curr == '\n') {
-      parsed.push(128);
-      ii += 1;
-      continue;
-    }
-    if (next && next != '\\' && next != '\n') {
-      parsed.push(next.charCodeAt(0));
+  var initial_parsed = [];
+  for (var ii = 0; ii < english.length; ii++) {
+    var c = english[ii];
+    if (c == '\\') {
+      initial_parsed.push(parseInt(english.substring(ii+1, ii+3), 16));
       ii += 2;
+    } else if (c == '\n') {
+      initial_parsed.push(0x80);
+    } else if (c == '^') {
+      initial_parsed.push(0x1F);
     } else {
-      parsed.push(0);
-      ii += 1;
+      initial_parsed.push(c.charCodeAt(0));
     }
-    parsed.push(curr.charCodeAt(0));
   }
+
+  /* Flip the order of characters in each pair and pad appropriately. */
+  var ii = 0;
+  var parsed = [];
+  var argument_taking_control_characters = {
+    0x85: true,
+    0x86: true,
+    0x87: true,
+    0x8b: true,
+  }
+  while (ii < initial_parsed.length) {
+    if (initial_parsed[ii] >= 0x80) {
+      if (argument_taking_control_characters[initial_parsed[ii]]) {
+        parsed.push(initial_parsed[ii]);
+        parsed.push(initial_parsed[ii+1]);
+        ii += 2;
+      } else {
+        parsed.push(initial_parsed[ii]);
+        ii++;
+      }
+    }
+    else if (ii+1 == parsed.length || initial_parsed[ii+1] >= 0x80) {
+      parsed.push(0x00);
+      parsed.push(initial_parsed[ii]);
+      ii++;
+    } else {
+      parsed.push(initial_parsed[ii+1]);
+      parsed.push(initial_parsed[ii]);
+      ii += 2;
+    }
+  }
+
   return parsed;
 }
 

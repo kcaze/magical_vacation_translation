@@ -3,10 +3,10 @@ There are control codes for 0x80 up to 0xFE. Only control codes 0x80 up to 0x99
 are in use it appears.
 0x80: 0x0800BA58 Newline
 0x81: 0x0800BA94 (apparently unused)
-0x82: 0x0800BADC ???
-0x83: 0x0800BB00 ???
-0x84: 0x0800BB90 ???
-0x85: 0x0800BC20 Player's name
+0x82: 0x0800BADC Force an A-button press for the next character in the dialogue.
+0x83: 0x0800BB00 Prefix for selection items
+0x84: 0x0800BB90 Display hand cursor for selection. Goes at the end of dialogue.
+0x85: 0x0800BC20 Player's name, takes byte argument for some reason.
 0x86: 0x0800BC78 Display character name, takes byte argument
 0x87: 0x0800BC9C Display item name, takes byte argument
 0x88: 0x0800BCB4 (apparently unused)
@@ -20,10 +20,14 @@ are in use it appears.
 0x90: 0x0800BEE0 (apparently unused)
 0x91: 0x0800BF10 Set text to italics kana.
 0x92: 0x0800BEE0 (apparently unused)
-0x93: 0x0800BF84 ???
-0x94: 0x0800BFB0 ???
+0x93: 0x0800BF84 Display current bura.
+0x94: 0x0800BFB0 Displays frog or worm name?
 0x95: 0x0800BF28 (apparently unused)
 0x96: 0x0800BF28 (apparently unused)
 0x97: 0x0800BF28 (apparently unused)
 0x98: 0x0800BF54 (apparently unused)
 0x99: 0x0800C2F6 (apparently unused)
+
+Some of my custom control codes:
+0x1E a 8 pixel empty space.
+0x1F beginning of string marker, inserted so that RAM is reset properly.
