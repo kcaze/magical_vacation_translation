@@ -21,7 +21,7 @@ are in use it appears.
 0x91: 0x0800BF10 Set text to italics kana.
 0x92: 0x0800BEE0 (apparently unused)
 0x93: 0x0800BF84 Display current bura.
-0x94: 0x0800BFB0 Displays frog or worm name?
+0x94: 0x0800BFB0 Displays frog or worm name.
 0x95: 0x0800BF28 (apparently unused)
 0x96: 0x0800BF28 (apparently unused)
 0x97: 0x0800BF28 (apparently unused)

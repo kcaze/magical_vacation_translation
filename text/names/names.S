@@ -149,4 +149,12 @@ add r6, 0x20
 .org 0x0800BC8A
 lsl r1, r1, 0x05
 
+; Item names in script
+.org 0x0800BCC6
+lsl r1, r1, 0x05
+
+; Frog and worm names in script
+.org 0x0800BFC0
+lsl r1, r1, 0x05
+
 .close
