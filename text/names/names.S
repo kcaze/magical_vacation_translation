@@ -9,9 +9,9 @@
 lsl r1, r1, 0x05
 nop
 
-; Disable check that aborts drawing if glyph value < 0x0FFF. Use 0xF0F0 instead.
-.org 0x080B5DB2
-.word 0xFFFF0000 ; 0xFFFF0000 instead of 0x0000FFFF because of byte order
+; Disable check that aborts drawing if glyph value < 0x0FFF. Use 0x7F7F instead.
+.org 0x080B5DB4
+.word 0x00007F7F
 
 ; For some reason, the game modifies the glyph values, disabling that.
 .org 0x080B5DEC

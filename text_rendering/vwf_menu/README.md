@@ -1,3 +1,44 @@
+`0x080B62F4 - 0x080B637C` takes in ? parameters and has no return value:
+r0 = RAM address. [r0] = address in tiles2, [r0, 0x04] = ???
+r1 = N/A (not a parameter)
+r2 = glyph value
+r3 = ????
+
+Subroutine explanation
+`0x080B62F4 - 0x080B62FA`: Push registers and allocate 0x30 stack space.
+`0x080B62FC - 0x080B6304`: Set r6 = r0, r2 = pointer to glyph address.
+`0x080B6306 - 0x080B6328`: Copy glyph data into stack. Also set r8 = sp + 0x18
+`0x080B632A - 0x080B6338`: Call 0x080BEC84 with parameters
+  r0 = sp
+  r1 = sp + 0x18
+  r2 = 0x7 & [ram_addr, 0xC8]
+`0x080B633C - 0x080B634E`: Call 0x080B6388 with parameters
+  r0 = 0x0203810C
+  r1 = ram_addr + 0x08
+  r2 = ram_addr + 0x68
+  r3 = ([ram_addr, 0xC8] << 15) >> 22
+  Also, end up incrementing r6 by 0x68
+`0x080B6352 - 0x080B635E`: Call 0x080BEC2C with parameters
+  r0 = ram_addr + 0x08
+  r1 = sp
+  r2 = (ldrb[ram_addr, 0xC8] >> 3) & 0xF
+  r3 = 0x03
+`0x080B6362 - 0x080B636E`: Call 0x080BEC2C with parameters
+  r0 = ram_addr + 0x68
+  r1 = sp + 0x18
+  r2 = (ldrb[ram_addr, 0xC8] >> 3) & 0xF
+  r3 = 0x03
+`0x080B6372 - 0x080B637C`: Deallocate stack, pop registers and return.
+
+RAM map:
+[ram_addr, 0x00]: tile2 address to draw tile.
+[ram_addr, 0x04]: ???
+[ram_addr, 0x08] to [ram_addr, 0xC8]: 0xC0 bytes to hold the 4bpp glyph data.
+[ram_addr, 0xC8]: A bit field for two bytes.
+
+--------------------------------------------------------------------------------
+OLD DEPRECATED INFO
+
 3007E0C <-- where glyph data is stored in ram.
 3007E50 <-- this stores two u16's, the x coordinate and y coordinate of the next 16x16 glyph to dma, in pixels. It's updated at 80B64BC by the return value of 80BF9AC
 
