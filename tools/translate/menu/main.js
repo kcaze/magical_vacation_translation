@@ -5,7 +5,7 @@ var section_names = [
   'menu_text',
   'explanations',
   'notebook',
-  'profiles',
+  'bestiary',
   'species_descriptions',
   'md_dictionary',
   'name_selection',
@@ -138,9 +138,6 @@ function parseEnglish(english) {
     parsed.push(0x20);
   }
 
-  // Pad ending with two spaces 0x2020 to force drawing of remaining glyphs.
-  //parsed.push(0x20);
-  //parsed.push(0x20);
   // Text must end in 0xFFFF
   parsed.push(0xFF);
   parsed.push(0xFF);
