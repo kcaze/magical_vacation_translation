@@ -42,7 +42,7 @@ mov r15, r0
 ; TODO: This may potentially introduce bugs by zeroing too much.
 ; DMA zeroes to clear tile data.
 ldr r4, =0x040000D4
-ldr r3, =0x0203FFF8
+ldr r3, =0x0203FFFC
 mov r0, 0x00
 strh r0, [r3, 0x00]
 str r3, [r4, 0x00]
@@ -70,9 +70,11 @@ and r2, r0
 cmp r2, 0x1F
 bne not_bos
 ; Do some RAM setup on begin-of-string character, 0x1F
-strh r1, [r6, 0x00]
 mov r0, 0x00
-strh r0, [r6, 0x02]
+str r0, [r6, 0x00]
+str r0, [r6, 0x04]
+strh r1, [r6, 0x00]
+strh r1, [r6, 0x04]
 ; Clear the glyph data in RAM.
 mov r1, 0x00
 ldr r2, =0x0203692C
@@ -88,6 +90,9 @@ draw_glyph:
 mov r0, 0xFF
 mov r1, r5
 and r1, r0
+; Skip drawing of 0
+cmp r1, 0x00
+beq loop_draw_glyph
 lsl r1, r1, 0x04
 ldr r0, =0x08603900
 add r1, r1, r0
@@ -165,7 +170,7 @@ add r2, r2, r0
 add r2, 0x01
 mov r3, 0x07
 and r3, r2
-strb r3, [r6, 0x02]
+strh r3, [r6, 0x02]
 cmp r2, 0x08
 bge carryover
 
@@ -271,5 +276,37 @@ ldr r0, =0x080B6372
 mov r15, r0
 
 .pool
+
+.org 0x080B5DCA
+ldrh r0, [r1]
+add r0, 0x1
+strh r0, [r1]
+
+.org 0x080B5FB8
+lsl r3, r3, 0x11
+
+.org 0x080B5FDA
+add r4, 0x02
+
+.org 0x080B613A
+ldrh r0, [r2]
+add r2, r2, 0x02
+str r2, [sp, 0xC]
+cmp r0, 0x00
+
+.org 0x080B61CC
+ldrh r2, [r6]
+
+.org 0x080B64A8
+mov r1, 0x02
+.org 0x080B64B0
+mov r1, 0x28
+.org 0x080B64C0
+mov r1, 0x28
+
+.org 0x080BD874
+lsl r2, r2, 0x03
+add r0, r0, r2
+lsl r0, r0, 0x01
 
 .close

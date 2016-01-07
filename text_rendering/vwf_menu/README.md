@@ -94,7 +94,10 @@ index when we begin to draw a string.
 *Edge cases: If ([r0] == 0x06008000), then this is some weird empty call the game does. Ignore it and just return. It's important that we do not disable the begin of string flag.
 
 0x0203FFF4: index of tile to draw to (2 bytes)
-0x0203FFF6: offset to draw glyph (1 byte)
+0x0203FFF6: offset to draw glyph (2 bytes)
+0x0203FFF8: initial index of tile. (2 bytes)
+0x0203FFFA: newline counter (2 bytes)
+
 0x0203692C: 0xC0 bytes of RAM that can be used to store glyph data for
             RAM. We use the first 0x10 bytes for the 1bpp representation
             and the next 0x40 bytes for the 4bpp representation.
