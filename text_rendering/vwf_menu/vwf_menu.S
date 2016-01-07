@@ -27,9 +27,46 @@ cmp r1, 0x00
 beq 0x080B6372
 
 ; Hijack the routine at 0x080B62F4 to jump to ours
-ldr r0, =0x087E1C00
+ldr r0, =0x087E1BA0
 mov r15, r0
 .pool
+
+; Clear tiles2
+.org 0x080B6114
+.area 0x8
+ldr r6, =0x087E1D50
+mov r15, r6
+.pool
+.endarea
+
+.org 0x087E1D50
+.area 0xA0
+mov r9, r0
+lsl r1, r1, 0x10
+lsr r1, r1, 0x10
+mov r10, r1
+
+; DMA zeroes to clear tile data on the first call.
+ldr r6, =0x040000D4
+ldr r5, =0x020381D0
+ldr r5, [r5]
+ldr r0, =0x02036604
+cmp r5, r0
+bne no_clear
+ldr r5, =0x06008000
+mov r0, 0x00
+str r0, [r5, 0x00]
+str r5, [r6, 0x00]
+str r5, [r6, 0x04]
+ldr r0, =0x81002800
+str r0, [r6, 0x08]
+ldr r0, [r6, 0x08]
+no_clear:
+
+ldr r0, =0x080B611C
+mov r15, r0
+.pool
+.endarea
 
 ;-----------------------------;
 ; Beginning of my VWF routine ;
@@ -38,28 +75,8 @@ mov r15, r0
 ; r1: tile index              ;
 ; r2: glyph value             ;
 ;-----------------------------;
-.org 0x087E1C00
-; TODO: This may potentially introduce bugs by zeroing too much.
-; DMA zeroes to clear tile data.
-ldr r4, =0x040000D4
-ldr r3, =0x0203FFFC
-mov r0, 0x00
-strh r0, [r3, 0x00]
-str r3, [r4, 0x00]
-ldr r0, [r5, 0x00]
-str r0, [r4, 0x04]
-ldr r0, =0x81000030
-str r0, [r4, 0x08]
-ldr r0, [r4, 0x08]
-
-ldr r0, [r5, 0x00]
-ldr r3, =0x0400
-add r0, r0, r3
-str r0, [r4, 0x04]
-ldr r0, =0x81000030
-str r0, [r4, 0x08]
-ldr r0, [r4, 0x08]
-;END Possibly buggy code.
+.org 0x087E1BA0
+.area 0x1A0
 
 ; INVARIANTS: r5 = glyph value, r6 = RAM address 0x0203FFF4
 ldr r6, =0x0203FFF4
@@ -276,7 +293,9 @@ ldr r0, =0x080B6372
 mov r15, r0
 
 .pool
+.endarea
 
+; Hack to allow double the characters per line.
 .org 0x080B5DCA
 ldrh r0, [r1]
 add r0, 0x1
@@ -308,5 +327,31 @@ mov r1, 0x28
 lsl r2, r2, 0x03
 add r0, r0, r2
 lsl r0, r0, 0x01
+
+; bg piecing
+.org 0x080B628E
+ldr r4, =0x0203CF80
+mov r1, 0x00
+bg_loop1:
+  mov r2, 0x00
+  bg_loop2:
+    mov r5, r1
+    mov r6, 0x1E
+    mul r5, r6
+    add r5, r5, r2
+    lsl r5, 0x1
+    mov r3, r1
+    lsl r3, 0x05
+    add r3, r3, r2
+    strh r3, [r4, r5]
+    add r2, r2, 0x01
+    cmp r2, 0x1E
+    blt bg_loop2
+  add r1, r1, 0x01
+  cmp r1, 0x13
+  blt bg_loop1
+b 0x080B62EE
+.pool
+
 
 .close
