@@ -1,3 +1,3 @@
 var glossary = {
-  'マッシュ' : 'Marshmallow'
+  'マッシュ' : 'Marsh',
 };

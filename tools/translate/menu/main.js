@@ -116,43 +116,6 @@ function english_search() {
   }
 }
 
-function parseEnglish(english) {
-  var parsed = [];
-  var ii = 0;
-
-  while (ii < english.length) {
-    var curr = english[ii];
-    var next = english[ii+1];
-    if (curr == '\\') {
-      parsed.push(parseInt(english.substring(ii+1, ii+3), 16));
-      ii += 3;
-      continue;
-    } else if (curr == '\n') {
-      parsed.push(128);
-      ii += 1;
-      continue;
-    }
-    if (next && next != '\\' && next != '\n') {
-      parsed.push(next.charCodeAt(0));
-      ii += 2;
-    } else {
-      parsed.push(0);
-      ii += 1;
-    }
-    parsed.push(curr == '^' ? 0x1F : curr.charCodeAt(0));
-  }
-
-  if (parsed.length % 2) {
-    parsed.push(0x20);
-  }
-
-  // Text must end in 0xFFFF
-  parsed.push(0xFF);
-  parsed.push(0xFF);
-
-  return parsed;
-}
-
 function japanese_search() {
   var text = document.getElementById('japanese_search_text').value;
   document.getElementById('search_results').innerHTML = '';

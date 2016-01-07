@@ -8,6 +8,9 @@ function parseEnglish(english) {
       ii += 2;
     } else if (c == '\n') {
       // Ignore newlines.
+    } else if (c == '|') {
+      // Aligns the next character at a 2 byte boundary, padding with 0's.
+      initial_parsed.push(-1);
     } else if (c == '{') {
       // Glossary substitution.
       var end = english.indexOf('}', ii+1);
@@ -31,37 +34,19 @@ function parseEnglish(english) {
     }
   }
 
-  /* Flip the order of characters in each pair and pad appropriately. */
   var ii = 0;
+  var alignment = 0;
   var parsed = [];
-  var argument_taking_control_characters = {
-    0x00: true,
-    0x85: true,
-    0x86: true,
-    0x87: true,
-    0x8b: true,
-  }
-  while (ii < initial_parsed.length) {
-    if (initial_parsed[ii] >= 0x80 || initial_parsed[ii] == 0) {
-      if (argument_taking_control_characters[initial_parsed[ii]]) {
-        parsed.push(initial_parsed[ii]);
-        parsed.push(initial_parsed[ii+1]);
-        ii += 2;
-      } else {
-        parsed.push(initial_parsed[ii]);
-        ii++;
-      }
-    }
-    else if (ii+1 == parsed.length || initial_parsed[ii+1] >= 0x80) {
-      parsed.push(0x00);
-      parsed.push(initial_parsed[ii]);
-      ii++;
+  initial_parsed.forEach(function (n) {
+    if (n == -1) {
+      if (alignment == 1) parsed.push(0x00);
     } else {
-      parsed.push(initial_parsed[ii+1]);
-      parsed.push(initial_parsed[ii]);
-      ii += 2;
+      parsed.push(n);
+      alignment ^= 1;
     }
+  })
+  if (parsed.length % 2) {
+    parsed.push(0x00);
   }
-
   return parsed;
 }

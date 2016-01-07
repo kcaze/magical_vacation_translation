@@ -342,6 +342,13 @@ mov r15, r0
 .org 0x087DF750
 pushreg
 
+; Swap order of values in glyph
+mov r2, 0xFF
+and r2, r0
+lsr r0, 0x08
+lsl r2, 0x08
+orr r0, r2
+
 ; r8 = return value
 ; r9 = glyph value
 ; r10 = palette value
@@ -349,6 +356,7 @@ mov r2, 0x00
 mov r8, r2
 mov r9, r0
 mov r10, r1
+
 
 L_vwf:
 ; Get the next glyph value, r0 = r9 & 0xFF
