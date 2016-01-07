@@ -2,13 +2,13 @@ var menus;
 var section = 0;
 var number = 0;
 var section_names = [
-  'menu_text',
+  'text',
   'explanations',
-  'notebook',
+  'magic_notebook',
   'bestiary',
-  'species_descriptions',
+  'species',
   'md_dictionary',
-  'name_selection',
+  'name_kanji',
   'element_descriptions'
 ];
 
@@ -77,12 +77,20 @@ function exportBinary() {
     offset += data[ii].length;
   }
 
-  saveAs(
+  var joined = new Uint8Array(offsets.length + binary.length);
+  for (var ii = 0; ii < offsets.length; ii++) {
+    joined[ii] = offsets[ii];
+  }
+  for (var ii = 0; ii < binary.length; ii++) {
+    joined[offsets.length + ii] = binary[ii];
+  }
+
+  /*saveAs(
     new Blob([new DataView(offsets.buffer)], {type: 'application/octet-stream'}),
     section_names[section] + "_offsets.bin"
-  );
+  );*/
   saveAs(
-    new Blob([new DataView(binary.buffer)], {type: 'application/octet-stream'}),
+    new Blob([new DataView(joined.buffer)], {type: 'application/octet-stream'}),
     section_names[section] + ".bin"
   );
   console.log('Exported binary and offsets!');

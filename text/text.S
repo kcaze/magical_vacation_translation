@@ -53,75 +53,100 @@ ADDR_NAME_RANKINGS equ 0x087F71E0
 .org ADDR_NAME_RANKINGS
 .incbin text/names/rankings.bin
 
-; Insert the translated script.
-.org 0x08629A2C
-.incbin text/script/script.bin
-
-; Insert translated battle text.
-.org 0x08698E98
-.incbin text/battle_text/battle_text.bin
-
-; Insert updated offsets for menu sections.
-.org 0x087C2254
-.incbin text/menu/menu_offsets.bin
-
 ;-----------------;
 ; Translated menu ;
 ;-----------------;
-ADDR_MENU_OFFSETS equ 0x08226F7C
-ADDR_MENU_TEXT_OFFSETS equ 0x087E1E00
+SIZE_MENU_TEXT equ 0x2000
+SIZE_MENU_EXPLANATIONS equ 0x8000
+SIZE_MENU_MAGIC_NOTEBOOK equ 0x3000
+SIZE_MENU_BESTIARY equ 0x10000
+SIZE_MENU_SPECIES equ 0x2000
+SIZE_MENU_MD_DICTIONARY equ 0x2000
+SIZE_MENU_NAME_KANJI equ 0x1000
+SIZE_MENU_ELEMENT_DESCRIPTIONS equ 0x1000
 
-; Insert menu text section offsets;
-.org 0x087E1E00
-.incbin text/menu/menu_text_offsets.bin
+ADDR_MENU_OFFSETS equ 0x087C2254
+ADDR_MENU_TEXT equ 0x087C3000
+ADDR_MENU_EXPLANATIONS equ ADDR_MENU_TEXT + SIZE_MENU_TEXT
+ADDR_MENU_MAGIC_NOTEBOOK equ ADDR_MENU_EXPLANATIONS + SIZE_MENU_EXPLANATIONS
+ADDR_MENU_BESTIARY equ 0x87FFFFF
+ADDR_MENU_SPECIES equ ADDR_MENU_MAGIC_NOTEBOOK + SIZE_MENU_MAGIC_NOTEBOOK
+ADDR_MENU_MD_DICTIONARY equ ADDR_MENU_SPECIES + SIZE_MENU_SPECIES
+ADDR_MENU_NAME_KANJI equ ADDR_MENU_MD_DICTIONARY + SIZE_MENU_MD_DICTIONARY
+ADDR_MENU_ELEMENT_DESCRIPTIONS equ ADDR_MENU_NAME_KANJI + SIZE_MENU_NAME_KANJI
 
-; Insert translated menu text.
-.org 0x087E2128
-.incbin text/menu/menu_text.bin
+LENGTH_MENU_TEXT equ 404
+LENGTH_MENU_EXPLANATIONS equ 540
+LENGTH_MENU_MAGIC_NOTEBOOK equ 80
+LENGTH_MENU_BESTIARY equ 288
+LENGTH_MENU_SPECIES equ 22
+LENGTH_MENU_MD_DICTIONARY equ 60
+LENGTH_MENU_NAME_KANJI equ 180
+LENGTH_MENU_ELEMENT_DESCRIPTIONS equ 14
 
-; Insert translated menu explanations text section offsets.
-.org 0x087E4400
-.incbin text/menu/explanations_offsets.bin
+.org ADDR_MENU_OFFSETS
+.word 0x00000010 ; hardcoded
+.word ADDR_MENU_TEXT - ADDR_MENU_OFFSETS
+.word ADDR_MENU_TEXT - ADDR_MENU_OFFSETS + 2 * LENGTH_MENU_TEXT
+.word ADDR_MENU_EXPLANATIONS - ADDR_MENU_OFFSETS
+.word ADDR_MENU_EXPLANATIONS - ADDR_MENU_OFFSETS + 2 * LENGTH_MENU_EXPLANATIONS
+.word ADDR_MENU_MAGIC_NOTEBOOK - ADDR_MENU_OFFSETS
+.word ADDR_MENU_MAGIC_NOTEBOOK - ADDR_MENU_OFFSETS + 2 * LENGTH_MENU_MAGIC_NOTEBOOK
+.word ADDR_MENU_BESTIARY - ADDR_MENU_OFFSETS
+.word ADDR_MENU_BESTIARY - ADDR_MENU_OFFSETS + 2 * LENGTH_MENU_BESTIARY
+.word ADDR_MENU_SPECIES - ADDR_MENU_OFFSETS
+.word ADDR_MENU_SPECIES - ADDR_MENU_OFFSETS + 2 * LENGTH_MENU_SPECIES
+.word ADDR_MENU_MD_DICTIONARY - ADDR_MENU_OFFSETS
+.word ADDR_MENU_MD_DICTIONARY - ADDR_MENU_OFFSETS + 2 * LENGTH_MENU_MD_DICTIONARY
+.word ADDR_MENU_NAME_KANJI - ADDR_MENU_OFFSETS
+.word ADDR_MENU_NAME_KANJI - ADDR_MENU_OFFSETS + 2 * LENGTH_MENU_NAME_KANJI
+.word ADDR_MENU_ELEMENT_DESCRIPTIONS - ADDR_MENU_OFFSETS
+.word ADDR_MENU_ELEMENT_DESCRIPTIONS - ADDR_MENU_OFFSETS + 2 * LENGTH_MENU_ELEMENT_DESCRIPTIONS
 
-; Insert translated menu explanations text.
-.org 0x087E4838
+.org ADDR_MENU_TEXT
+.area SIZE_MENU_TEXT
+.incbin text/menu/text.bin
+.endarea
+.org ADDR_MENU_EXPLANATIONS
+.area SIZE_MENU_EXPLANATIONS
 .incbin text/menu/explanations.bin
-
-; Insert translated magic notebook text section offsets.
-
-; Insert translated magic notebook text.
-
-; Insert translated bestiary text section offsets.
-
-; Insert translated bestiary text.
-
-; Insert translated species text section offsets.
-
-; Insert translated species text.
-
-; Insert MD dictionary section name offsets.
-.org 0x087EF000
-.incbin text/menu/md_dictionary_offsets.bin
-
-; Insert MD dictionary section names.
-.org 0x087EF078
+.endarea
+.org ADDR_MENU_MAGIC_NOTEBOOK
+.area SIZE_MENU_MAGIC_NOTEBOOK
+.incbin text/menu/magic_notebook.bin
+.endarea
+.org ADDR_MENU_BESTIARY
+.area SIZE_MENU_BESTIARY
+.incbin text/menu/bestiary.bin
+.org ADDR_MENU_SPECIES
+.area SIZE_MENU_SPECIES
+.incbin text/menu/species.bin
+.endarea
+.org ADDR_MENU_MD_DICTIONARY
+.area SIZE_MENU_MD_DICTIONARY
 .incbin text/menu/md_dictionary.bin
-
-; Insert modified name selection kanji offsets.
-.org 0x087ECA00
-.incbin text/menu/name_selection_offsets.bin
-
-; Insert modified name selection kanji.
-.org 0x087ECB68
-.incbin text/menu/name_selection.bin
-
-; Insert translated element description offsets.
-.org 0x087F3200
-.incbin text/menu/element_descriptions_offsets.bin
-
-; Insert translated element descriptions.
-.org 0x087F321C
+.endarea
+.org ADDR_MENU_NAME_KANJI
+.area SIZE_MENU_NAME_KANJI
+.incbin text/menu/name_kanji.bin
+.endarea
+.org ADDR_MENU_ELEMENT_DESCRIPTIONS
+.area SIZE_MENU_ELEMENT_DESCRIPTIONS
 .incbin text/menu/element_descriptions.bin
+.endarea
 
+;-------------------;
+; Translated script ;
+;-------------------;
+ADDR_SCRIPT equ 0x08629A2C
+.org ADDR_SCRIPT
+.incbin text/script/script.bin
+
+;------------------------;
+; Translated battle text ;
+;------------------------;
+ADDR_BATTLE_TEXT equ 0x08698E98
+.org ADDR_BATTLE_TEXT
+.incbin text/battle_text/battle_text.bin
 
 .close
