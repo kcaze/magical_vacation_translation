@@ -50503,7 +50503,7 @@
   ],
   [
     {
-      "English": "\\fe\\ff\\00\\1e\\00\\1e\\00\\1e\\00\\1e\\00\\1eHeight: 68cm\\fe\\ff\\00\\1e\\00\\1e\\00\\1e\\00\\1e\\00\\1eWeight: 20kg\\fe\\ffLocation: Place\\fe\\ffIt's a bat that breathes fire. It's fast but weak. Be careful not to get burned.",
+      "English": "\\fe\\ff\\00\\1e\\00\\1e\\00\\1e\\00\\1e\\00\\1e^Height: 68cm\\fe\\ff\\00\\1e\\00\\1e\\00\\1e\\00\\1e\\00\\1e^Weight: 20kg\\fe\\ff^Location: Place\\fe\\ff^It's a bat that breathes fire. It's fast\\fe\\ff^but weak. Be careful not to get burned.",
       "Japanese": "\\fe\\ff[space][space][space][space][space]身長[space]６８㎝\\fe\\ff[space][space][space][space][space]体重[space]２０㎏\\fe\\ff生息地[space]森の洞窟\\fe\\ff火を吹くコウモリネズミ。\\fe\\ff動きはすばやいが弱い。\\fe\\ffやけどに注意。\\ff\\ff",
       "Comments": "PLACEHOLDER.",
       "u8": [
