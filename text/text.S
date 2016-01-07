@@ -65,6 +65,12 @@ ADDR_NAME_RANKINGS equ 0x087F71E0
 .org 0x087C2254
 .incbin text/menu/menu_offsets.bin
 
+;-----------------;
+; Translated menu ;
+;-----------------;
+ADDR_MENU_OFFSETS equ 0x08226F7C
+ADDR_MENU_TEXT_OFFSETS equ 0x087E1E00
+
 ; Insert menu text section offsets;
 .org 0x087E1E00
 .incbin text/menu/menu_text_offsets.bin
@@ -81,13 +87,17 @@ ADDR_NAME_RANKINGS equ 0x087F71E0
 .org 0x087E4838
 .incbin text/menu/explanations.bin
 
-; Insert modified name selection kanji offsets.
-.org 0x087ECA00
-.incbin text/menu/name_selection_offsets.bin
+; Insert translated magic notebook text section offsets.
 
-; Insert modified name selection kanji.
-.org 0x087ECB68
-.incbin text/menu/name_selection.bin
+; Insert translated magic notebook text.
+
+; Insert translated bestiary text section offsets.
+
+; Insert translated bestiary text.
+
+; Insert translated species text section offsets.
+
+; Insert translated species text.
 
 ; Insert MD dictionary section name offsets.
 .org 0x087EF000
@@ -96,6 +106,14 @@ ADDR_NAME_RANKINGS equ 0x087F71E0
 ; Insert MD dictionary section names.
 .org 0x087EF078
 .incbin text/menu/md_dictionary.bin
+
+; Insert modified name selection kanji offsets.
+.org 0x087ECA00
+.incbin text/menu/name_selection_offsets.bin
+
+; Insert modified name selection kanji.
+.org 0x087ECB68
+.incbin text/menu/name_selection.bin
 
 ; Insert translated element description offsets.
 .org 0x087F3200
