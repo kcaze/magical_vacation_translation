@@ -1,7 +1,7 @@
 [
   [
     {
-      "English": "Status",
+      "English": "^Status",
       "Japanese": "ステータス\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -20,7 +20,7 @@
       ]
     },
     {
-      "English": "Equipment",
+      "English": "^Equipment",
       "Japanese": "防具そうび\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "English": "Magic",
+      "English": "^Magic",
       "Japanese": "魔法そうび\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "English": "Magic Level",
+      "English": "^Magic Level",
       "Japanese": "魔法レベル\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "English": "Profile",
+      "English": "^Profile",
       "Japanese": "プロフィール\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98,7 +98,7 @@
       ]
     },
     {
-      "English": "Set MD Parts",
+      "English": "^Set MD Parts",
       "Japanese": "MDパーツセット\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -123,7 +123,7 @@
       ]
     },
     {
-      "English": "Items",
+      "English": "^Items",
       "Japanese": "回復アイテム\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -144,7 +144,7 @@
       ]
     },
     {
-      "English": "Equipment",
+      "English": "^Equipment",
       "Japanese": "そうびアイテム\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -167,7 +167,7 @@
       ]
     },
     {
-      "English": "MD Parts",
+      "English": "^MD Parts",
       "Japanese": "MDパーツ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -186,7 +186,7 @@
       ]
     },
     {
-      "English": "Other Items",
+      "English": "^Other Items",
       "Japanese": "その他のアイテム\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -211,7 +211,7 @@
       ]
     },
     {
-      "English": "Spirits",
+      "English": "^Spirits",
       "Japanese": "精霊いちらん\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -232,7 +232,7 @@
       ]
     },
     {
-      "English": "World Map",
+      "English": "^World Map",
       "Japanese": "ワールドマップ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -255,7 +255,7 @@
       ]
     },
     {
-      "English": "All Files",
+      "English": "^All Files",
       "Japanese": "なんでもファイル\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -280,7 +280,7 @@
       ]
     },
     {
-      "English": "Report Card",
+      "English": "^Report Card",
       "Japanese": "成績表\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -295,7 +295,7 @@
       ]
     },
     {
-      "English": "Magic Notebook",
+      "English": "^Magic Notebook",
       "Japanese": "魔法の手帳\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1108,7 +1108,7 @@
       ]
     },
     {
-      "English": "^magic",
+      "English": "|",
       "Japanese": "の魔法\\ff\\ff",
       "Comments": "",
       "u8": [

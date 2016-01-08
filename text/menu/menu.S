@@ -6,17 +6,6 @@
 ;         section number of a text to figure out when a particular string is
 ;         being referenced.
 
-; In the "Magic Level" screen, change it so that only the element name is
-; displayed and not the word "magic". This is achieved by loading the empty
-; string in name selection kanji block 0 instead.
-.org 0x080B3CB6
-mov r0, 0x00
-mov r1, 0x0b
-
-.org 0x080B40EA
-mov r0, 0x00
-mov r1, 0x0b
-
 ; PROTIP: To find where the positions are hardcoded, put a breakpoint for
 ; 0x080B58F0 and see where it was called from. The parameters passed in through
 ; r0 and r1 are the x and y coordinates respectively.
