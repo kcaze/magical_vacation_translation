@@ -9,20 +9,22 @@ ADDR_DMA    equ =0x040000D4
 ADDR_TILES  equ =0x06004000
 ADDR_BG     equ =0x06001800
 ADDR_FONT   equ =0x08603900
-ADDR_WIDTHS equ =0x087DF900
+ADDR_WIDTHS equ =0x08604100
 
 ADDR_SCRIPT_TILE_INDEX equ =0x02009954
 ADDR_SCRIPT_X          equ =0x02009930
 ADDR_SCRIPT_Y          equ =0x02009770
 
 FN_SCRIPT_WRAPPER equ 0x0800CFCC
-FN_SCRIPT_HANDLER equ 0x087FFE00
+FN_SCRIPT_HANDLER equ 0x087F5C30
 
 FN_BATTLE_WRAPPER1 equ 0x0800CFEC
-FN_BATTLE_HANDLER1 equ 0x087FFD00
+FN_BATTLE_HANDLER1 equ 0x087F5D30
 
 FN_BATTLE_WRAPPER2 equ 0x0800D00C
-FN_BATTLE_HANDLER2 equ 0x087FFC00
+FN_BATTLE_HANDLER2 equ 0x087F5E30
+
+FN_VWF equ 0x087F5F30
 
 .macro pushreg
   push r4-r7,lr
@@ -92,7 +94,7 @@ bx r0
 ; Call our vwf routine
 ldr r2, =(. + 0x09)
 mov lr, r2
-ldr r2, =0x087DF750
+ldr r2, =FN_VWF
 mov r15, r2
 
 ; DMA from RAM to tile
@@ -207,7 +209,7 @@ bx r0
 ; Call our vwf routine
 ldr r2, =(. + 0x09)
 mov lr, r2
-ldr r2, =0x087DF750
+ldr r2, =FN_VWF
 mov r15, r2
 
 ; DMA from RAM to stack space
@@ -272,7 +274,7 @@ bx r0
 ; Call our vwf routine
 ldr r2, =(. + 0x09)
 mov lr, r2
-ldr r2, =0x087DF750
+ldr r2, =FN_VWF
 mov r15, r2
 
 ; DMA from RAM to tile
@@ -339,7 +341,8 @@ mov r15, r0
 ; Return:                     ;
 ;   Number of blocks used - 1 ;
 ;-----------------------------;
-.org 0x087DF750
+.org FN_VWF
+.area 0x200
 pushreg
 
 ; Swap order of values in glyph
@@ -549,5 +552,6 @@ pop r1
 bx r1
 
 .pool
+.endarea
 
 .close

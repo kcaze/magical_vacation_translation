@@ -1,5 +1,6 @@
 .gba
 .open "hacked.gba", 0x08000000
+ADDR_FN_MONOSPACE equ 0x087F5BB0
 
 ; The sprite drawing is lazy and it finds the first glyph that differs before
 ; drawing. Unfortunately, it ands the glyph with 0x0FFF so we may have two
@@ -28,17 +29,13 @@ add r0, 0x10
 
 ; Hijack the routine at 0x080BEBD8 to jump to ours
 .org 0x080BEBE0
-mov r2, 0x08
-lsl r2, r2, 0x08
-add r2, 0x7E
-lsl r2, r2, 0x08
-add r2, 0x1B
-lsl r2, r2, 0x08
-add r2, 0x00
+ldr r2, =ADDR_FN_MONOSPACE
 mov r15, r2
+.pool
 
 ; Our custom drawing routine
-.org 0x087E1B00
+.org ADDR_FN_MONOSPACE
+.area 0x80
 glyph1:
 mov r0, 0xFF
 mov r2, r3
@@ -77,5 +74,6 @@ return:
   mov r15, r0
 
 .pool
+.endarea
 
 .close

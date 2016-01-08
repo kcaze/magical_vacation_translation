@@ -1,5 +1,9 @@
 .gba
 .open "hacked.gba", 0x08000000
+ADDR_VWF_FONT equ 0x08603900
+ADDR_TABLE_VWF_FONT_WIDTHS equ 0x08604100
+ADDR_FN_VWF_MENU_TILE_CLEAR equ 0x087F59B0
+ADDR_FN_VWF_MENU equ 0x087F5A10
 
 ; Disable DMA transfers
 .org 0x080A0BCA
@@ -27,20 +31,20 @@ cmp r1, 0x00
 beq 0x080B6372
 
 ; Hijack the routine at 0x080B62F4 to jump to ours
-ldr r0, =0x087E1BA0
+ldr r0, =ADDR_FN_VWF_MENU
 mov r15, r0
 .pool
 
 ; Clear tiles2
 .org 0x080B6114
 .area 0x8
-ldr r6, =0x087E1D50
+ldr r6, =ADDR_FN_VWF_MENU_TILE_CLEAR
 mov r15, r6
 .pool
 .endarea
 
-.org 0x087E1D50
-.area 0xA0
+.org ADDR_FN_VWF_MENU_TILE_CLEAR
+.area 0x60
 mov r9, r0
 lsl r1, r1, 0x10
 lsr r1, r1, 0x10
@@ -75,7 +79,8 @@ mov r15, r0
 ; r1: tile index              ;
 ; r2: glyph value             ;
 ;-----------------------------;
-.org 0x087E1BA0
+
+.org ADDR_FN_VWF_MENU
 .area 0x1A0
 
 ; INVARIANTS: r5 = glyph value, r6 = RAM address 0x0203FFF4
@@ -111,7 +116,7 @@ and r1, r0
 cmp r1, 0x00
 beq loop_draw_glyph
 lsl r1, r1, 0x04
-ldr r0, =0x08603900
+ldr r0, =ADDR_VWF_FONT
 add r1, r1, r0
 
 ; Copy glyph data onto stack with a shift depending on width of
@@ -180,7 +185,7 @@ ldr r1, [r0, 0x08]
 mov r0, 0xFF
 mov r1, r5
 and r1, r0
-ldr r0, =0x087DF900
+ldr r0, =ADDR_TABLE_VWF_FONT_WIDTHS
 ldrb r0, [r0, r1]
 ldrb r2, [r6, 0x02]
 add r2, r2, r0
@@ -220,13 +225,13 @@ mov r0, 0xFF
 mov r1, r5
 and r1, r0
 ldrb r2, [r6, 0x02]
-ldr r3, =0x087DF900
+ldr r3, =ADDR_TABLE_VWF_FONT_WIDTHS
 ldrb r3, [r3, r1]
 sub r2, r3, r2
 add r2, 0x01
 ; r1 = address of glyph data
 lsl r1, r1, 0x04
-ldr r0, =0x08603900
+ldr r0, =ADDR_VWF_FONT
 add r1, r1, r0
 ; Shift and then copy over remaining glyph's data.
 mov r3, 0x00
@@ -286,7 +291,6 @@ str r1, [r0, 0x08]
 ldr r1, [r0, 0x08]
 
 b loop_draw_glyph
-
 
 return:
 ldr r0, =0x080B6372
