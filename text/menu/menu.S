@@ -71,4 +71,28 @@ add r7, 0x08 ; x for icon
 strh r7, [r0, 0x04]
 mov r1, 0x3E ; y for icon
 strh r1, [r0, 0x06]
+
+; PROTIP: Breakpoint on 80B57D8 and then look for the call site.
+; Positioning text on the status screen.
+.org 0x080B3984 ; Gender
+mov r0, 0x0C
+.org 0x080B39A8 ; Element
+mov r0, 0x0E
+.org 0x080B39FE ; Species
+mov r0, 0x0C
+
+; Positioning text for the report card.
+.org 0x080B3326 ; "Number of battles"
+mov r0, 0x06
+.org 0x080B3356 ; "Number of runaways"
+mov r0, 0x06
+.org 0x080B3386 ; "Number of faints"
+mov r0, 0x06
+.org 0x080B33B6 ; "Win rate"
+mov r0, 0x06
+.org 0x080B33CE ; "Largest spirit multiplier"
+mov r0, 0x06
+.org 0x080B33FE ; "Grade"
+mov r0, 0x0B
+
 .close

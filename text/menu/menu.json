@@ -314,7 +314,7 @@
       ]
     },
     {
-      "English": "Bestiary",
+      "English": "^Bestiary",
       "Japanese": "モンスター図鑑\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -337,7 +337,7 @@
       ]
     },
     {
-      "English": "Species",
+      "English": "^Species",
       "Japanese": "種族図鑑\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -354,7 +354,7 @@
       ]
     },
     {
-      "English": "MD Dictionary",
+      "English": "^MD Dictionary",
       "Japanese": "MD辞典\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -371,7 +371,7 @@
       ]
     },
     {
-      "English": "Campgrounds",
+      "English": "^Campgrounds",
       "Japanese": "キャンプ場\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -390,7 +390,7 @@
       ]
     },
     {
-      "English": "Valencia Beach",
+      "English": "^Valencia Beach",
       "Japanese": "ヴァレンシア海岸\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -415,7 +415,7 @@
       ]
     },
     {
-      "English": "Light Realm",
+      "English": "^Light Realm",
       "Japanese": "光のプレーン\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -436,7 +436,7 @@
       ]
     },
     {
-      "English": "Dark Realm",
+      "English": "^Dark Realm",
       "Japanese": "闇のプレーン\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -457,7 +457,7 @@
       ]
     },
     {
-      "English": "Abyssal Realm",
+      "English": "^Abyssal Realm",
       "Japanese": "死のプレーン\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -478,7 +478,7 @@
       ]
     },
     {
-      "English": "^Battles",
+      "English": "^Number of battles:",
       "Japanese": "バトル回数\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -497,7 +497,7 @@
       ]
     },
     {
-      "English": "^Win Rate",
+      "English": "^Win rate:",
       "Japanese": "勝率\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -510,7 +510,7 @@
       ]
     },
     {
-      "English": "^Escapes",
+      "English": "^Number of times ran away:",
       "Japanese": "逃走\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -523,7 +523,7 @@
       ]
     },
     {
-      "English": "^Faints",
+      "English": "^Number of times fainted:",
       "Japanese": "気絶\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -536,7 +536,7 @@
       ]
     },
     {
-      "English": "^Largest Spirit Combo",
+      "English": "^Largest spirit multiplier:",
       "Japanese": "最高精霊コンボ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -559,7 +559,7 @@
       ]
     },
     {
-      "English": "^Rating",
+      "English": "^Grade:",
       "Japanese": "評価\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -572,7 +572,7 @@
       ]
     },
     {
-      "English": "^Spirits Befriended",
+      "English": "^Spirits befriended:",
       "Japanese": "仲良くなった精霊\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -597,7 +597,7 @@
       ]
     },
     {
-      "English": "^Magic Learned",
+      "English": "^Magic learned:",
       "Japanese": "主人公がおぼえた魔法\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -626,7 +626,7 @@
       ]
     },
     {
-      "English": "^Bestiary",
+      "English": "^Monsters encountered:",
       "Japanese": "モンスター図鑑\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -649,7 +649,7 @@
       ]
     },
     {
-      "English": "^Treasure Chests Opened",
+      "English": "^Treasure chests opened:",
       "Japanese": "宝箱を見つけた数\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -674,7 +674,7 @@
       ]
     },
     {
-      "English": "^Gummi Frogs Caught",
+      "English": "^Gummy frogs caught:",
       "Japanese": "カエルグミ捕獲数\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -699,7 +699,7 @@
       ]
     },
     {
-      "English": "^Gummi Worms Caught",
+      "English": "^Gummy worms caught:",
       "Japanese": "ミミズグミ捕獲数\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -724,7 +724,7 @@
       ]
     },
     {
-      "English": "^Pinecones Obtained",
+      "English": "^Pinecones obtained:",
       "Japanese": "まつぼっくり獲得数\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -751,7 +751,7 @@
       ]
     },
     {
-      "English": "^Let's Battle",
+      "English": "^Let's Battle:",
       "Japanese": "対戦成績\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -768,7 +768,7 @@
       ]
     },
     {
-      "English": "^times",
+      "English": "|",
       "Japanese": "回\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -779,7 +779,7 @@
       ]
     },
     {
-      "English": "^x",
+      "English": "|",
       "Japanese": "個\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -812,9 +812,9 @@
       ]
     },
     {
-      "English": " ",
+      "English": "|",
       "Japanese": "倍\\ff\\ff",
-      "Comments": "Leave this blank.",
+      "Comments": "",
       "u8": [
         1,
         224,
@@ -4033,7 +4033,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^?",
       "Japanese": "?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4057,7 +4057,7 @@
     {
       "English": "^F",
       "Japanese": "女\\ff\\ff",
-      "Comments": "",
+      "Comments": "Should change to use ♀.",
       "u8": [
         1,
         206,
