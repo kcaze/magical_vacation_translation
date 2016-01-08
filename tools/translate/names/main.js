@@ -8,7 +8,7 @@ var section_names = [
   'spells',
   'monsters',
   'characters',
-  'misc',
+  'genders',
   'spirits',
   'species',
   'elements',

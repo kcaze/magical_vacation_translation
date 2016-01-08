@@ -48,5 +48,8 @@ function parseEnglish(english) {
   if (parsed.length % 2) {
     parsed.push(0x00);
   }
+  // Add ending 0xFFFF.
+  parsed.push(0xFF);
+  parsed.push(0xFF);
   return parsed;
 }

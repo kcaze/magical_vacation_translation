@@ -83,6 +83,13 @@ mov r15, r0
 .org ADDR_FN_VWF_MENU
 .area 0x1A0
 
+; Swap glyph value
+mov r0, 0xFF
+and r0, r2
+lsr r2, r2, 0x08
+lsl r0, r0, 0x08
+orr r2, r0
+
 ; INVARIANTS: r5 = glyph value, r6 = RAM address 0x0203FFF4
 ldr r6, =0x0203FFF4
 mov r5, r2

@@ -36,6 +36,13 @@ mov r15, r2
 ; Our custom drawing routine
 .org ADDR_FN_MONOSPACE
 .area 0x80
+; Swap glyph values
+mov r0, 0xFF
+and r0, r3
+lsr r3, r3, 0x08
+lsl r0, r0, 0x08
+orr r3, r0
+
 glyph1:
 mov r0, 0xFF
 mov r2, r3
