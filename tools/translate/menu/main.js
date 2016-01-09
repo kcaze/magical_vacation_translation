@@ -43,7 +43,7 @@ function exportJSON() {
       [JSON.stringify(menus, null, 2)],
       {type: 'text/plain;charset-utf-8'}
     ),
-    'menu.json'
+    '_menu.json'
   );
   console.log('Exported menus!');
 }

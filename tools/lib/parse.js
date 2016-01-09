@@ -39,11 +39,16 @@ function parseEnglish(english) {
   var alignment = 0;
   var parsed = [];
   initial_parsed.forEach(function (n) {
-    if (n != -1) {
+    if (n == 0x80) {
       parsed.push(n);
-      alignment ^= 1;
-    } else if (alignment == 1) {
-      parsed.push(0x00);
+      alignment = 0;
+    } else if (n == -1) {
+      if (alignment == 1) {
+        parsed.push(0x00);
+        alignment = 0;
+      }
+    } else {
+      parsed.push(n);
       alignment ^= 1;
     }
   })

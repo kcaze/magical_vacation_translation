@@ -33,7 +33,7 @@ function exportJSON() {
       [JSON.stringify(battle_text, null, 2)],
       {type: 'text/plain;charset-utf-8'}
     ),
-    'battle_text.json'
+    '_battle_text.json'
   );
   console.log('Exported battle text!');
 }

@@ -6,7 +6,7 @@ all:
 	bin/armips.exe graphics/menu_headers/menu_headers.S
 	bin/armips.exe graphics/graphics.S
 	bin/armips.exe text_rendering/fonts/fonts.S
-	bin/armips.exe text_rendering/monospace/monospace.S
+	bin/armips.exe text_rendering/vwf_sprite/vwf_sprite.S
 	bin/armips.exe text_rendering/vwf_script/vwf_script.S
 	bin/armips.exe text_rendering/vwf_menu/vwf_menu.S
 	bin/armips.exe text_rendering/control_characters/control_characters.S

@@ -47,7 +47,7 @@ function exportJSON() {
       [JSON.stringify(names, null, 2)],
       {type: 'text/plain;charset-utf-8'}
     ),
-    'names.json'
+    '_names.json'
   );
   console.log('Exported names!');
 }

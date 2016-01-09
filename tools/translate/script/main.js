@@ -36,7 +36,7 @@ function exportScript() {
       [JSON.stringify(script, null, 2)],
       {type: 'text/plain;charset-utf-8'}
     ),
-    'script.json'
+    '_script.json'
   );
   console.log('Exported script!');
 }

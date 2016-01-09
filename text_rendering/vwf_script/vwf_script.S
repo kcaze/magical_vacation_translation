@@ -5,6 +5,7 @@
 ;--------------------;
 ADDR_GLYPH  equ =0x020097B0
 ADDR_SHIFT  equ =0x0203FFF0
+ADDR_VAR_FONT_SET  equ 0x0203FFF2
 ADDR_DMA    equ =0x040000D4
 ADDR_TILES  equ =0x06004000
 ADDR_BG     equ =0x06001800
@@ -352,6 +353,18 @@ lsr r0, 0x08
 lsl r2, 0x08
 orr r0, r2
 
+mov r2, 0xFF
+and r2, r0
+cmp r2, 0x1D
+; Change glyph set
+bne L_not_glyph_set
+lsr r0, 0x08
+ldr r2, =ADDR_VAR_FONT_SET
+strb r0, [r2]
+b L_return
+L_not_glyph_set:
+
+
 ; r8 = return value
 ; r9 = glyph value
 ; r10 = palette value
@@ -372,6 +385,9 @@ bne L_not_bos
 ldr r0, ADDR_SHIFT
 mov r1, 0x00
 strb r1, [r0]
+; Clear glyph set variable.
+ldr r0, =ADDR_VAR_FONT_SET
+strb r1, [r0]
 ; Clear glyph data.
 ldr r0, ADDR_GLYPH
 ldr r1, =0x22222222
@@ -386,10 +402,19 @@ b L_vwf_end_loop
 L_not_bos:
 ; Skip processing if 0.
 cmp r7, 0x00
-beq L_vwf_end_loop
+bne L_not_zero
+b L_vwf_end_loop
+L_not_zero:
 
 lsl r7, r7, 0x04
 ldr r0, ADDR_FONT
+add r7, r7, r0
+ldr r0, =ADDR_VAR_FONT_SET
+ldrb r0, [r0]
+; Add 0x900 * glyph set to the font address
+lsl r0, 0x08
+add r7, r7, r0
+lsl r0, 0x03
 add r7, r7, r0
 mov r6, 0x00
 ldr r5, ADDR_GLYPH
@@ -447,6 +472,13 @@ mov r7, r9
 lsl r7, r7, 0x18
 lsr r7, r7, 0x18
 ldr r6, ADDR_WIDTHS
+ldr r4, =ADDR_VAR_FONT_SET
+ldrb r4, [r4]
+; Add 0x900 * glyph set to the widths address
+lsl r4, 0x08
+add r6, r6, r4
+lsl r4, 0x03
+add r6, r6, r4
 ldrb r6, [r6, r7]
 ldr r4, ADDR_SHIFT
 ldrb r4, [r4]
@@ -459,6 +491,13 @@ lsl r7, r7, 0x18
 lsr r7, r7, 0x18
 lsl r7, 0x04
 ldr r0, ADDR_FONT
+add r7, r7, r0
+ldr r0, =ADDR_VAR_FONT_SET
+ldrb r0, [r0]
+; Add 0x900 * glyph set to the font address
+lsl r0, 0x08
+add r7, r7, r0
+lsl r0, 0x03
 add r7, r7, r0
 mov r6, 0x00
 ldr r5, ADDR_GLYPH
@@ -513,6 +552,13 @@ mov r7, r9
 lsl r7, r7, 0x18
 lsr r7, r7, 0x18
 ldr r6, ADDR_WIDTHS
+ldr r4, =ADDR_VAR_FONT_SET
+ldrb r4, [r4]
+; Add 0x900 * glyph set to the widths address
+lsl r4, 0x08
+add r6, r6, r4
+lsl r4, 0x03
+add r6, r6, r4
 ldrb r6, [r6, r7]
 ldr r5, ADDR_SHIFT
 ldrb r4, [r5]
