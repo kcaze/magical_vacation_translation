@@ -1,5 +1,15 @@
 var glossary = {
 /************************************\
+*          [[Control Codes]]         *
+\************************************/
+  // lowercase = script control code, uppercase = menu control code
+  "n":String.fromCharCode(0x80), // newline
+  "N":String.fromCharCode(0xFE,0xFF),
+  "black":String.fromCharCode(0x8D), // change font to black
+  "BLACK":String.fromCharCode(0xFA,0xFF,0x0F,0x00),
+  "red":String.fromCharCode(0x8E), // change font to red
+  "RED":String.fromCharCode(0xFA,0xFF,0x03,0x00),
+/************************************\
 *             [[Stats]]              *
 \************************************/
   "力":"attack",

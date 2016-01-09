@@ -1,12 +1,12 @@
 var menus;
 var section = 0;
-var number = 0;
+var number;
 var section_names = [
   'text',
   'explanations',
   'magic_notebook',
   'bestiary',
-  'species',
+  'species_descriptions',
   'md_dictionary',
   'name_kanji',
   'element_descriptions'
@@ -97,27 +97,7 @@ function exportBinary() {
 }
 
 function japanese_search() {
-  var text = document.getElementById('japanese_search_text').value;
-  document.getElementById('search_results').innerHTML = '';
-  for (var ii = 0; ii < script.length; ii++) {
-    if (script[ii].Japanese.indexOf(text) != -1) {
-      document.getElementById('search_results').innerHTML += ii + '<br>';
-    }
-  }
-}
-
-function english_search() {
-  var text = document.getElementById('english_search_text').value;
-  document.getElementById('search_results').innerHTML = '';
-  for (var ii = 0; ii < script.length; ii++) {
-    if (script[ii].English.indexOf(text) != -1) {
-      document.getElementById('search_results').innerHTML += ii + '<br>';
-    }
-  }
-}
-
-function japanese_search() {
-  var text = document.getElementById('japanese_search_text').value;
+  var text = document.getElementById('search_text').value;
   document.getElementById('search_results').innerHTML = '';
   for (var ii = 0; ii < menus[section].length; ii++) {
     if (menus[section][ii].Japanese.indexOf(text) != -1) {
@@ -127,7 +107,7 @@ function japanese_search() {
 }
 
 function english_search() {
-  var text = document.getElementById('english_search_text').value;
+  var text = document.getElementById('search_text').value;
   document.getElementById('search_results').innerHTML = '';
   for (var ii = 0; ii < menus[section].length; ii++) {
     if (menus[section][ii].English.indexOf(text) != -1) {
@@ -213,7 +193,7 @@ document
 
 document
   .getElementById('section')
-  .addEventListener('change', function(e) {
+  .addEventListener('input', function(e) {
     number = 0;
     section = e.target.value;
     document.getElementById('max_number').innerHTML = menus[section].length - 1;
@@ -224,26 +204,19 @@ document
     document.getElementById('comments').value = menus[section][number].Comments;
   }, false);
 
-document
-  .getElementById('number')
-  .addEventListener('change', function(e) {
-    number = e.target.value;
+function heartBeat() {
+  if (!menus) return;
+  var newNumber = parseInt(document.getElementById('number').value, 10);
+  if (number != newNumber) {
+    number = newNumber;
     document.getElementById('japanese').innerHTML = menus[section][number].Japanese;
     document.getElementById('english').value = menus[section][number].English;
     document.getElementById('comments').value = menus[section][number].Comments;
-  }, false);
-
-document
-  .getElementById('english')
-  .addEventListener('change', function(e) {
-    menus[section][number].English = document.getElementById('english').value;
-  });
-
-document
-  .getElementById('comments')
-  .addEventListener('change', function(e) {
-    menus[section][number].Comments = document.getElementById('comments').value;
-  });
+  }
+  menus[section][number].English = document.getElementById('english').value;
+  menus[section][number].Comments = document.getElementById('comments').value;
+}
+window.setInterval(heartBeat, 100);
 
 document
   .getElementById('japanese_search')
@@ -252,3 +225,26 @@ document
 document
   .getElementById('english_search')
   .addEventListener('click', english_search);
+
+document.addEventListener('keydown', function (e) {
+  if (!e.ctrlKey) return;
+  var preventDefault = true;
+  switch (String.fromCharCode(e.keyCode)) {
+  case 'H':
+    document.getElementById('number').value = Math.max(0, number-1);
+    break;
+  case 'L':
+    document.getElementById('number').value = Math.min(menus[section].length-1, number+1);
+    break;
+  case 'E':
+    exportJSON();
+    exportBinary();
+    break;
+  default:
+    preventDefault = false;
+  }
+  if (preventDefault) {
+    e.preventDefault();
+    e.stopPropagation();
+  }
+});

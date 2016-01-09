@@ -33,21 +33,20 @@ function parseEnglish(english) {
       initial_parsed.push(c.charCodeAt(0));
     }
   }
+  initial_parsed.push(-1);
 
   var ii = 0;
   var alignment = 0;
   var parsed = [];
   initial_parsed.forEach(function (n) {
-    if (n == -1) {
-      if (alignment == 1) parsed.push(0x00);
-    } else {
+    if (n != -1) {
       parsed.push(n);
+      alignment ^= 1;
+    } else if (alignment == 1) {
+      parsed.push(0x00);
       alignment ^= 1;
     }
   })
-  if (parsed.length % 2) {
-    parsed.push(0x00);
-  }
   // Add ending 0xFFFF.
   parsed.push(0xFF);
   parsed.push(0xFF);

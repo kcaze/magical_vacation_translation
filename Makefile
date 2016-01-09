@@ -11,6 +11,6 @@ all:
 	bin/armips.exe text_rendering/vwf_menu/vwf_menu.S
 	bin/armips.exe text_rendering/control_characters/control_characters.S
 	bin/armips.exe text/text.S
-	bin/armips.exe text/names/names.S
-	bin/armips.exe text/menu/menu.S
+	bin/armips.exe text_positioning/names/names.S
+	bin/armips.exe text_positioning/menu/menu.S
 	bin/ups.exe diff -b original.gba -m hacked.gba -o hacked.ups

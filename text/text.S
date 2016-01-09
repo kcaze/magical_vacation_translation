@@ -48,29 +48,29 @@ ADDR_NAME_RANKINGS equ ADDR_NAME_ELEMENTS + 32 * LEN_NAME_ELEMENTS
 .word ADDR_NAME_RANKINGS - ADDR_NAME_OFFSETS
 
 .org ADDR_NAME_ATTACKS
-.incbin text/names/attacks.bin
+.incbin text/attacks.bin
 .org ADDR_NAME_ITEMS
-.incbin text/names/items.bin
+.incbin text/items.bin
 .org ADDR_NAME_STATUSES
-.incbin text/names/statuses.bin
+.incbin text/statuses.bin
 .org ADDR_NAME_SPELLS
-.incbin text/names/spells.bin
+.incbin text/spells.bin
 .org ADDR_NAME_MONSTERS
-.incbin text/names/monsters.bin
+.incbin text/monsters.bin
 .org ADDR_NAME_CHARACTERS
-.incbin text/names/characters.bin
+.incbin text/characters.bin
 .org ADDR_NAME_GENDERS
-.incbin text/names/genders.bin
+.incbin text/genders.bin
 .org ADDR_NAME_SPIRITS
-.incbin text/names/spirits.bin
+.incbin text/spirits.bin
 .org ADDR_NAME_SPECIES
-.incbin text/names/species.bin
+.incbin text/species.bin
 .org ADDR_NAME_ELEMENTS
-.incbin text/names/elements.bin
+.incbin text/elements.bin
 .org ADDR_NAME_PLACES
-.incbin text/names/places.bin
+.incbin text/places.bin
 .org ADDR_NAME_RANKINGS
-.incbin text/names/rankings.bin
+.incbin text/rankings.bin
 
 ;-----------------;
 ; Translated menu ;
@@ -124,34 +124,34 @@ LENGTH_MENU_ELEMENT_DESCRIPTIONS equ 14
 
 .org ADDR_MENU_TEXT
 .area SIZE_MENU_TEXT
-.incbin text/menu/text.bin
+.incbin text/text.bin
 .endarea
 .org ADDR_MENU_EXPLANATIONS
 .area SIZE_MENU_EXPLANATIONS
-.incbin text/menu/explanations.bin
+.incbin text/explanations.bin
 .endarea
 .org ADDR_MENU_MAGIC_NOTEBOOK
 .area SIZE_MENU_MAGIC_NOTEBOOK
-.incbin text/menu/magic_notebook.bin
+.incbin text/magic_notebook.bin
 .endarea
 .org ADDR_MENU_BESTIARY
 .area SIZE_MENU_BESTIARY
-.incbin text/menu/bestiary.bin
+.incbin text/bestiary.bin
 .org ADDR_MENU_SPECIES
 .area SIZE_MENU_SPECIES
-.incbin text/menu/species.bin
+.incbin text/species.bin
 .endarea
 .org ADDR_MENU_MD_DICTIONARY
 .area SIZE_MENU_MD_DICTIONARY
-.incbin text/menu/md_dictionary.bin
+.incbin text/md_dictionary.bin
 .endarea
 .org ADDR_MENU_NAME_KANJI
 .area SIZE_MENU_NAME_KANJI
-.incbin text/menu/name_kanji.bin
+.incbin text/name_kanji.bin
 .endarea
 .org ADDR_MENU_ELEMENT_DESCRIPTIONS
 .area SIZE_MENU_ELEMENT_DESCRIPTIONS
-.incbin text/menu/element_descriptions.bin
+.incbin text/element_descriptions.bin
 .endarea
 
 ;-------------------;
@@ -159,13 +159,13 @@ LENGTH_MENU_ELEMENT_DESCRIPTIONS equ 14
 ;-------------------;
 ADDR_SCRIPT equ 0x08629A2C
 .org ADDR_SCRIPT
-.incbin text/script/script.bin
+.incbin text/script.bin
 
 ;------------------------;
 ; Translated battle text ;
 ;------------------------;
 ADDR_BATTLE_TEXT equ 0x08698E98
 .org ADDR_BATTLE_TEXT
-.incbin text/battle_text/battle_text.bin
+.incbin text/battle_text.bin
 
 .close

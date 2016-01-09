@@ -9,7 +9,7 @@
 
     #japanese {
       width: 500px;
-      height: 50px;
+      height: 100px;
       vertical-align: top;
       border: 1px solid #aaa;
       padding: 2px;
@@ -19,7 +19,7 @@
 
     #english {
       width: 500px;
-      height: 50px;
+      height: 200px;
       vertical-align: top;
       resize: none;
     }
@@ -45,9 +45,11 @@
 
   <p>
     <button disabled="true" id="export_json">Export JSON</button>
-  </p>
-  <p>
     <button disabled="true" id="export_binary">Export binary</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <input id="search_text" type="text" />
+    <button disabled="true" id="japanese_search">Search Japanese</button>
+    <button disabled="true" id="english_search">Search English</button>
   </p>
 
   <hr/>
@@ -91,17 +93,12 @@
     <canvas id="explanation_preview" width="382px" height="92px"></canvas>
   </p>
 
-  <p>
-    <input id="japanese_search_text" type="text" />
-    <button disabled="true" id="japanese_search">Search Japanese</button>
-  </p>
 
   <p>
-    <input id="english_search_text" type="text" />
-    <button disabled="true" id="english_search">Search English</button>
-  </p>
-
-  <p id="search_results">
+    <label>Search results:</label>
+    <br>
+    <span id="search_results">
+    </span>
   </p>
 
   <img id="explanation_box" src="/tools/lib/explanation_box.png" style="visibility:hidden">
