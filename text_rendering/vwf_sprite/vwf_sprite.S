@@ -3,6 +3,7 @@
 ADDR_FONT   equ 0x08603900
 ADDR_WIDTHS equ 0x08604100
 ADDR_SHIFT equ 0x0203FFF1
+ADDR_VAR_FONT_SET equ 0x203FFF2
 ADDR_FN_UPDATE_X equ 0x087F5BB0
 ADDR_FN_VWF_SPRITE equ 0x087F6130
 
@@ -62,14 +63,49 @@ bne L_not_bos
 ldr r0, =ADDR_SHIFT
 mov r1, 0x00
 strb r1, [r0]
+ldr r0, =ADDR_VAR_FONT_SET
+strb r1, [r0]
 L_not_bos:
 cmp r7, 0x1F
 bne L_not_bos2
 ldr r0, =ADDR_SHIFT
-mov r7, 0x00
+mov r1, 0x00
+strb r1, [r0]
+ldr r0, =ADDR_VAR_FONT_SET
 strb r1, [r0]
 L_not_bos2:
 orr r7, r3
+
+mov r2, 0xFF
+and r2, r7
+cmp r2, 0x1D
+; Change font set
+bne L_not_font_set
+lsr r7, 0x08
+ldr r2, =ADDR_VAR_FONT_SET
+strb r7, [r2]
+ldr r0, =ADDR_SHIFT
+mov r1, 0x00
+strb r1, [r0]
+str r1, [sp, 0x00]
+str r1, [sp, 0x04]
+str r1, [sp, 0x08]
+str r1, [sp, 0x0C]
+str r1, [sp, 0x10]
+str r1, [sp, 0x14]
+str r1, [sp, 0x18]
+str r1, [sp, 0x1C]
+b L_return
+L_not_font_set:
+
+ldr r2, =ADDR_WIDTHS
+ldr r3, =ADDR_VAR_FONT_SET
+ldrb r3, [r3]
+; Add 0x900 * font set to the widths address
+lsl r3, 0x08
+add r2, r2, r3
+lsl r3, 0x03
+add r2, r2, r3
 
 ; r0 = first glyph value
 ; r1 = second glyph value
@@ -82,19 +118,20 @@ mov r5, 0x00
 mov r6, 0x00
 cmp r0, 0x20
 blt L_not_drawable1
-ldr r2, =ADDR_WIDTHS
 ldrb r5, [r2, r0]
 add r5, r5, 0x01
 L_not_drawable1:
 cmp r1, 0x20
 blt L_not_drawable2
-ldr r2, =ADDR_WIDTHS
 ldrb r6, [r2, r1]
 L_not_drawable2:
 
 lsl r0, r0, 0x04
 lsl r1, r1, 0x04
 ldr r2, =ADDR_FONT
+add r2, r2, r3 ; r3 is 0x800 * font set
+lsr r3, 0x03
+add r2, r2, r3
 add r0, r0, r2
 add r1, r1, r2
 ; r4 = mask
@@ -200,7 +237,7 @@ ldr r0, =ADDR_SHIFT
 strb r5, [r0]
 
 ; Branch back to 0x080BEC0C to restore execution to the game
-return:
+L_return:
   pop r0-r7
   add r5, sp, 0x10 ; Necessary in the original function, but branched over.
   ldr r0, =0x080BEC0C

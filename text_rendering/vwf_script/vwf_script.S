@@ -356,13 +356,13 @@ orr r0, r2
 mov r2, 0xFF
 and r2, r0
 cmp r2, 0x1D
-; Change glyph set
-bne L_not_glyph_set
+; Change font set
+bne L_not_font_set
 lsr r0, 0x08
 ldr r2, =ADDR_VAR_FONT_SET
 strb r0, [r2]
 b L_return
-L_not_glyph_set:
+L_not_font_set:
 
 
 ; r8 = return value

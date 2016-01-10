@@ -1,7 +1,7 @@
 [
   [
     {
-      "English": "^Status",
+      "English": "|^\n|{FONT_MENU}\n|Status",
       "Japanese": "ステータス\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -20,7 +20,7 @@
       ]
     },
     {
-      "English": "^Equipment",
+      "English": "|^\n|{FONT_MENU}\n|Equipment",
       "Japanese": "防具そうび\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "English": "^Magic",
+      "English": "|^\n|{FONT_MENU}\n|Magic",
       "Japanese": "魔法そうび\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "English": "^Magic Level",
+      "English": "|^\n|{FONT_MENU}\n|Magic Level",
       "Japanese": "魔法レベル\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "English": "^Profile",
+      "English": "|^\n|{FONT_MENU}\n|Profile",
       "Japanese": "プロフィール\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98,7 +98,7 @@
       ]
     },
     {
-      "English": "^Set MD Parts",
+      "English": "|^\n|{FONT_MENU}\n|Set MD Parts",
       "Japanese": "MDパーツセット\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -123,7 +123,7 @@
       ]
     },
     {
-      "English": "^Items",
+      "English": "|^\n|{FONT_MENU}\n|Items",
       "Japanese": "回復アイテム\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -144,7 +144,7 @@
       ]
     },
     {
-      "English": "^Equipment",
+      "English": "|^\n|{FONT_MENU}\n|Equipment",
       "Japanese": "そうびアイテム\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -167,7 +167,7 @@
       ]
     },
     {
-      "English": "^MD Parts",
+      "English": "|^\n|{FONT_MENU}\n|MD Parts",
       "Japanese": "MDパーツ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -186,7 +186,7 @@
       ]
     },
     {
-      "English": "^Other Items",
+      "English": "|^\n|{FONT_MENU}\n|Other Items",
       "Japanese": "その他のアイテム\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -211,7 +211,7 @@
       ]
     },
     {
-      "English": "^Spirits",
+      "English": "|^\n|{FONT_MENU}\n|Spirits",
       "Japanese": "精霊いちらん\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -232,7 +232,7 @@
       ]
     },
     {
-      "English": "^World Map",
+      "English": "|^\n|{FONT_MENU}\n|World Map",
       "Japanese": "ワールドマップ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -255,7 +255,7 @@
       ]
     },
     {
-      "English": "^All Files",
+      "English": "|^\n|{FONT_MENU}\n|All Files",
       "Japanese": "なんでもファイル\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -280,7 +280,7 @@
       ]
     },
     {
-      "English": "^Report Card",
+      "English": "|^\n|{FONT_MENU}\n|Report Card",
       "Japanese": "成績表\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -295,7 +295,7 @@
       ]
     },
     {
-      "English": "^Magic Notebook",
+      "English": "|^\n|{FONT_MENU}\n|Magic Notebook",
       "Japanese": "魔法の手帳\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -314,7 +314,7 @@
       ]
     },
     {
-      "English": "^Bestiary",
+      "English": "|^\n|{FONT_MENU}\n|Bestiary",
       "Japanese": "モンスター図鑑\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -337,7 +337,7 @@
       ]
     },
     {
-      "English": "^Species",
+      "English": "|^\n|{FONT_MENU}\n|Species",
       "Japanese": "種族図鑑\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -354,7 +354,7 @@
       ]
     },
     {
-      "English": "^MD Dictionary",
+      "English": "|^\n|{FONT_MENU}\n|MD Dictionary",
       "Japanese": "MD辞典\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -371,7 +371,7 @@
       ]
     },
     {
-      "English": "^Campgrounds",
+      "English": "|^\n|{FONT_MENU}\n|Campgrounds",
       "Japanese": "キャンプ場\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -390,7 +390,7 @@
       ]
     },
     {
-      "English": "^Valencia Beach",
+      "English": "|^\n|{FONT_MENU}\n|Valencia Beach",
       "Japanese": "ヴァレンシア海岸\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -415,7 +415,7 @@
       ]
     },
     {
-      "English": "^Light Realm",
+      "English": "|^\n|{FONT_MENU}\n|Light Realm",
       "Japanese": "光のプレーン\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -436,7 +436,7 @@
       ]
     },
     {
-      "English": "^Dark Realm",
+      "English": "|^\n|{FONT_MENU}\n|Dark Realm",
       "Japanese": "闇のプレーン\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -457,7 +457,7 @@
       ]
     },
     {
-      "English": "^Abyssal Realm",
+      "English": "|^\n|{FONT_MENU}\n|Abyssal Realm",
       "Japanese": "死のプレーン\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -875,9 +875,9 @@
       ]
     },
     {
-      "English": "",
+      "English": "^None",
       "Japanese": "無属性\\ff\\ff",
-      "Comments": "",
+      "Comments": "There's a bug in the game where this text is never displayed it looks like. This should display when magic dolls aren't bewitched I believe?",
       "u8": [
         2,
         61,
@@ -903,7 +903,7 @@
       ]
     },
     {
-      "English": "^Mojo: ",
+      "English": "^Mojo:",
       "Japanese": "極意\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -916,7 +916,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^'s teachings",
       "Japanese": "の教え\\ff\\ff",
       "Comments": "These are suffixes for the amigo's secret.",
       "u8": [
@@ -931,7 +931,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^'s secrets",
       "Japanese": "の秘伝\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -946,7 +946,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^'s knowledge",
       "Japanese": "の知識\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -961,7 +961,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^'s mystery",
       "Japanese": "の奥義\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -976,7 +976,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^'s technique",
       "Japanese": "のウラ技\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -993,7 +993,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^'s book",
       "Japanese": "の書\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1006,7 +1006,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|^\n|'s secret\n|{RED}\n|\\20{HEART}",
       "Japanese": "の秘密\\fa\\ff\\3\\0♥\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1027,7 +1027,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^'s specialty",
       "Japanese": "スペシャル\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1046,7 +1046,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^'s wisdom",
       "Japanese": "の知恵袋\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1063,7 +1063,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^'s treasure",
       "Japanese": "の宝箱\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1078,7 +1078,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Soul:",
       "Japanese": "霊魂\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1091,9 +1091,9 @@
       ]
     },
     {
-      "English": "",
+      "English": "^item",
       "Japanese": "アイテム\\ff\\ff",
-      "Comments": "",
+      "Comments": "I believe this is unused",
       "u8": [
         0,
         113,
@@ -1138,9 +1138,9 @@
       ]
     },
     {
-      "English": " ",
+      "English": "|",
       "Japanese": "の属性\\ff\\ff",
-      "Comments": "Leave this blank. The element name suffices.",
+      "Comments": "",
       "u8": [
         0,
         160,
@@ -1153,9 +1153,9 @@
       ]
     },
     {
-      "English": "",
+      "English": "^'s magic levels",
       "Japanese": "の魔法レベル\\ff\\ff",
-      "Comments": "",
+      "Comments": "Used in checking an Amigo's magic levels.",
       "u8": [
         0,
         160,
@@ -1174,7 +1174,7 @@
       ]
     },
     {
-      "English": "Beats",
+      "English": "^Beats:",
       "Japanese": "得意\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1187,7 +1187,7 @@
       ]
     },
     {
-      "English": "Fears",
+      "English": "^Fears",
       "Japanese": "苦手\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1200,7 +1200,7 @@
       ]
     },
     {
-      "English": "Spirits Befriended",
+      "English": "^Spirits Befriended",
       "Japanese": "仲良くなった精霊の数\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1229,7 +1229,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Number of Amigos",
       "Japanese": "アミーゴした人数\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1254,7 +1254,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^You've reached the maximum level!",
       "Japanese": "最高レベルになりました\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1352,7 +1352,7 @@
       ]
     },
     {
-      "English": "Use",
+      "English": "^Use",
       "Japanese": "つかう\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1367,7 +1367,7 @@
       ]
     },
     {
-      "English": "Equip",
+      "English": "^Equip",
       "Japanese": "そうび\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1382,7 +1382,7 @@
       ]
     },
     {
-      "English": "Stick",
+      "English": "^Stick",
       "Japanese": "はる\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1395,7 +1395,7 @@
       ]
     },
     {
-      "English": "Toss",
+      "English": "^Toss",
       "Japanese": "すてる\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1410,7 +1410,7 @@
       ]
     },
     {
-      "English": "Set",
+      "English": "^Set",
       "Japanese": "セット\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1425,7 +1425,7 @@
       ]
     },
     {
-      "English": "Magic LV",
+      "English": "^Magic level",
       "Japanese": "魔法レベル\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1444,7 +1444,7 @@
       ]
     },
     {
-      "English": "Erase",
+      "English": "^Erase",
       "Japanese": "消去\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1457,7 +1457,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^toss",
       "Japanese": "をすてる\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1474,7 +1474,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|^You can't bewitch until all magic doll\n|{N}\n|^parts have been set.",
       "Japanese": "パーツを全てセットしないと\\fe\\ff霊魂は入れられません\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1531,7 +1531,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|^A magic doll must be bewitched\n|{N}\n|^with a soul before it can cast\n|{N}\n|^magic.",
       "Japanese": "マジックドールに魂が\\fe\\ff入っていないので魔法\\fe\\ffは使えません\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1596,7 +1596,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^\\20",
       "Japanese": "[space]\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1607,7 +1607,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^'s current soul will transfer to",
       "Japanese": "に入れている魂を\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1632,7 +1632,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^. Is that okay?",
       "Japanese": "に移しかえますか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1659,7 +1659,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|^If you unset any part the bewitched soul\n|{N}\n|will also be unset. Is that okay?",
       "Japanese": "[space]パーツを外すと霊魂も外れて\\fe\\ff[space]しまいますがいいですか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1724,7 +1724,7 @@
       ]
     },
     {
-      "English": "Unset Amigo?",
+      "English": "^Unset this Amigo?",
       "Japanese": "[space][space]アミーゴを外しますか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1759,7 +1759,7 @@
       ]
     },
     {
-      "English": "Is that okay?",
+      "English": "^Is that okay?",
       "Japanese": "[space][space]\\fe\\ff[space]消去してもいいですか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1798,7 +1798,7 @@
       ]
     },
     {
-      "English": "will be erased.",
+      "English": "^will be erased from your Amigo list.",
       "Japanese": "[space]をリストから\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1821,7 +1821,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|^\n|{N}\n|Select someone else?",
       "Japanese": "[space]\\fe\\ff[space]使う人を選びなおしますか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1862,7 +1862,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|^\n|{N}\n|Use this Amigo anyways?",
       "Japanese": "[space][space]\\fe\\ff[space]使う人を変更しますか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1901,7 +1901,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|^ is currently using this Amigo.",
       "Japanese": "[space]が使用中ですが\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1957,7 +1957,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|^Are these members okay?",
       "Japanese": "[space]このメンバーでいいですか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1994,7 +1994,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|^The game has not been saved.\n|{N}\n|Exit the menu anyways?",
       "Japanese": "データをセーブしていませんが\\fe\\ffメニューを終了しますか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2057,7 +2057,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|^Begin the battle?",
       "Japanese": "[space][space]対戦をはじめますか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2090,7 +2090,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|^Your entire save data will be erased\n|{N}\n|Continue anyways?",
       "Japanese": "セーブデータを全て消しますが、\\fe\\ffよろしいですか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2147,7 +2147,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|^Overwrite your save data?",
       "Japanese": "[space]データを書き換えますか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2182,7 +2182,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|^Press the start button when you have\n|{N}\n|finished preparing for battle.",
       "Japanese": "対戦の準備ができたらスタート\\fe\\ffボタンを押してください\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2243,7 +2243,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|^You are currently unable to warp.",
       "Japanese": "[space]今はワープできません\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2274,7 +2274,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|^You cannot warp while you are riding\n|{N}\n|on the magic bus.",
       "Japanese": "[space]魔バスに乗っている間は\\fe\\ff[space]ワープできません\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2327,7 +2327,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|^To warp to a different realm, use the\n|{N}\n|magic bus.",
       "Japanese": "別のプレーンへのワープには\\fe\\ff魔バスをご利用ください\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2386,7 +2386,7 @@
       ]
     },
     {
-      "English": "^Currently:",
+      "English": "^Current location:",
       "Japanese": "現在地：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2403,7 +2403,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Thermometer type",
       "Japanese": "プレパラート級\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2426,7 +2426,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Syringe type",
       "Japanese": "スポイト級\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2445,7 +2445,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Burette type",
       "Japanese": "モルター級\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2464,7 +2464,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Beaker type",
       "Japanese": "ビーカー級\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2483,7 +2483,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Flask type",
       "Japanese": "フラスコ級\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2502,7 +2502,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Funnel type",
       "Japanese": "ファンネル級\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2523,7 +2523,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Pipette type",
       "Japanese": "シリンダー級\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2544,7 +2544,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Trough type",
       "Japanese": "プリズム級\\ff\\ff",
       "Comments": "",
       "u8": [

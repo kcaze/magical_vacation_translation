@@ -38,8 +38,19 @@ function parseEnglish(english) {
   var ii = 0;
   var alignment = 0;
   var parsed = [];
+  var single_byte_control_characters = {
+    0x80: true,
+    0x82: true,
+    0x83: true,
+    0x84: true,
+    0x8D: true,
+    0x8E: true,
+    0x8F: true,
+    0x93: true,
+    0x94: true,
+  }
   initial_parsed.forEach(function (n) {
-    if (n == 0x80) {
+    if (single_byte_control_characters[n]) {
       parsed.push(n);
       alignment = 0;
     } else if (n == -1) {
