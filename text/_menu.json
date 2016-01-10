@@ -1632,7 +1632,7 @@
       ]
     },
     {
-      "English": "^. Is that okay?",
+      "English": "^. Is that all right?",
       "Japanese": "に移しかえますか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1659,7 +1659,7 @@
       ]
     },
     {
-      "English": "|^If you unset any part the bewitched soul\n|{N}\n|will also be unset. Is that okay?",
+      "English": "|^If you unset any part the bewitched soul\n|{N}\n|will also be unset. Is that all right?",
       "Japanese": "[space]パーツを外すと霊魂も外れて\\fe\\ff[space]しまいますがいいですか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1759,7 +1759,7 @@
       ]
     },
     {
-      "English": "^Is that okay?",
+      "English": "^Is that all right?",
       "Japanese": "[space][space]\\fe\\ff[space]消去してもいいですか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2563,7 +2563,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Power factor:",
       "Japanese": "パワー倍率\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2582,7 +2582,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Power limit:",
       "Japanese": "パワーリミット\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2605,7 +2605,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Required power:",
       "Japanese": "必要パワー\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2624,7 +2624,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "㎝\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2635,7 +2635,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "㎏\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2646,7 +2646,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^There is no save file.",
       "Japanese": "データがありません\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2673,7 +2673,7 @@
       ]
     },
     {
-      "English": "Saving...",
+      "English": "^Saving...",
       "Japanese": "[space][space]セーブ中です・・・\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2704,7 +2704,7 @@
       ]
     },
     {
-      "English": "Loading...",
+      "English": "^Loading...",
       "Japanese": "[space][space]ロード中です・・・\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2735,7 +2735,7 @@
       ]
     },
     {
-      "English": "Overwrite save?",
+      "English": "^Overwrite save file?",
       "Japanese": "上書きしてもいいですか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2768,7 +2768,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^The save file is corrupted.",
       "Japanese": "[space]データがこわれています\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2801,7 +2801,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Unable to save.",
       "Japanese": "セーブできませんでした\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2832,7 +2832,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^The save file is corrupted.",
       "Japanese": "セーブデータがこわれています\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2869,9 +2869,9 @@
       ]
     },
     {
-      "English": "",
+      "English": "^The password is incorrect.",
       "Japanese": "パスワードが不正です\\ff\\ff",
-      "Comments": "",
+      "Comments": "I think this is unused?",
       "u8": [
         0,
         247,
@@ -2898,7 +2898,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|^\n|Press the A button when your opponent\n|{N}\n|is also done selecting.",
       "Japanese": "相手も選択が終わったら\\fe\\ffAボタンを押してください\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2955,7 +2955,7 @@
       ]
     },
     {
-      "English": "You don't have any\\fe\\ffAmigos.",
+      "English": "^You don't have any Amigos.",
       "Japanese": "アミーゴが一人もいません\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2988,7 +2988,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^This is still a secret.",
       "Japanese": "[space]ここはまだヒミツです\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3019,7 +3019,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Learned",
       "Japanese": "の魔法をおぼえました\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3048,7 +3048,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|^\n|Your Amigo list has reached its\n|{N}\n|maximum size.",
       "Japanese": "これ以上アミーゴを増やす\\fe\\ffことはできません。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3101,7 +3101,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Trade items?",
       "Japanese": "おたがいのアイテムを\\fe\\ff交換しますか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3146,7 +3146,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|^\n|The item trade was cancelled by the\n|{N}\n|other player.",
       "Japanese": "相手からアイテム交換を\\fe\\ff断られてしまいました\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3199,7 +3199,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Your opponent cancelled the Let's Battle.",
       "Japanese": "[space]相手がレッツ対戦を\\fe\\ff[space]キャンセルしました\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3250,7 +3250,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^and",
       "Japanese": "と\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3261,7 +3261,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^person",
       "Japanese": "人目の\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3276,7 +3276,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^became Amigos.",
       "Japanese": "アミーゴになりました\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3305,7 +3305,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^'s",
       "Japanese": "の\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3316,7 +3316,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^data was updated.",
       "Japanese": "データを更新しました\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3345,7 +3345,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Begin communications?",
       "Japanese": "通信をはじめますか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3374,7 +3374,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^End communications?",
       "Japanese": "通信を終わりますか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3403,7 +3403,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Connecting...",
       "Japanese": "接続中です・・・\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3428,7 +3428,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Connection failed.",
       "Japanese": "接続に失敗しました\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3455,7 +3455,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^A communications error has occurred.",
       "Japanese": "通信エラーが発生しました\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3488,7 +3488,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^The connection was lost. ",
       "Japanese": "通信が切断されました\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3517,7 +3517,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Currently transferring other data.",
       "Japanese": "他のデータを転送中です\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3548,7 +3548,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Initializing data...",
       "Japanese": "データ初期化中です・・・\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3581,7 +3581,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Sending data...",
       "Japanese": "データを送信中です・・・\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3614,7 +3614,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Receiving data...",
       "Japanese": "データを受信中です・・・\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3647,7 +3647,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Waiting for the opponent...",
       "Japanese": "相手を待っています・・・\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3718,7 +3718,7 @@
       ]
     },
     {
-      "English": "Thank you.",
+      "English": "What would you like?",
       "Japanese": "なにを買いますか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3745,7 +3745,7 @@
       ]
     },
     {
-      "English": "My pleasure.",
+      "English": "What will you sell?",
       "Japanese": "どれを売りますか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3772,7 +3772,7 @@
       ]
     },
     {
-      "English": "Your progress up until now\\fe\\ffwill be erased. This will\\fe\\ffnot affect your Amigo list.\\fe\\ffIs that all right?",
+      "English": "|^\n|The save file for your adventure up until now will\n|{N}\n|be erased. This will not affect your Amigo list.\n|{N}{N}\n|Is that all right?",
       "Japanese": "[space]これまでの冒険のデータが\\fe\\ff[space]消えますが、よろしいですか?\\fe\\ff（アミーゴリストは消えません）\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3871,7 +3871,7 @@
       ]
     },
     {
-      "English": "Who do you play as?",
+      "English": "^Who will you play as?",
       "Japanese": "主人公を選択してください\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3904,7 +3904,7 @@
       ]
     },
     {
-      "English": "Name:",
+      "English": "^Name:",
       "Japanese": "名前：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3919,7 +3919,7 @@
       ]
     },
     {
-      "English": "Which element do you choose?",
+      "English": "^Which element will you choose?",
       "Japanese": "属性を選択してください\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3950,7 +3950,7 @@
       ]
     },
     {
-      "English": "Is this correct?",
+      "English": "^Is this correct?",
       "Japanese": "これでよろしいですか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3981,7 +3981,7 @@
       ]
     },
     {
-      "English": "Yes",
+      "English": "^Yes",
       "Japanese": "はい\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3994,7 +3994,7 @@
       ]
     },
     {
-      "English": "No",
+      "English": "^No",
       "Japanese": "いいえ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4009,7 +4009,7 @@
       ]
     },
     {
-      "English": "None",
+      "English": "^None",
       "Japanese": "なし\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4022,7 +4022,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "人\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4144,7 +4144,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^MD-05",
       "Japanese": "MD０５－\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4163,7 +4163,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^MD-04",
       "Japanese": "MD０４－\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4182,7 +4182,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^MD-03",
       "Japanese": "MD０３－\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4201,7 +4201,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^MD-02",
       "Japanese": "MD０２－\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4220,7 +4220,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^MD-01",
       "Japanese": "MD０１－\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4239,7 +4239,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^{文鳥}s",
       "Japanese": "文鳥\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4252,7 +4252,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^{カエルグミ}s",
       "Japanese": "カエルグミ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4271,7 +4271,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^{ミミズグミ}s",
       "Japanese": "ミミズグミ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4290,7 +4290,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^{ツボ}s",
       "Japanese": "ツボ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4303,7 +4303,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^{ワープ屋さん}s",
       "Japanese": "ワープ屋さん\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4324,7 +4324,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^{パペット}s",
       "Japanese": "パペット\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4341,7 +4341,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Travelling Putties",
       "Japanese": "こんにゃく様\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4362,7 +4362,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^{古代機械}s",
       "Japanese": "古代機械\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4379,7 +4379,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^{ピラニア}s",
       "Japanese": "ピラニア\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4396,7 +4396,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Envoys of Love",
       "Japanese": "愛の大使\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4413,7 +4413,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^Dwarves",
       "Japanese": "ドワーフ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4430,7 +4430,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^{どーどー}s",
       "Japanese": "どーどー\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4447,7 +4447,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^{ピップルス}",
       "Japanese": "ピップルス\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4466,7 +4466,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^{ヴォークス}s",
       "Japanese": "ヴォークス\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4485,7 +4485,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^{ニャムネルト}s",
       "Japanese": "ニャムネルト\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4506,7 +4506,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^{アメフラシ}s",
       "Japanese": "アメフラシ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4525,7 +4525,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^{パイライト}s",
       "Japanese": "パイライト\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4544,7 +4544,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^{ツリーマン}",
       "Japanese": "ツリーマン\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4563,7 +4563,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^{ウォーターピープル}",
       "Japanese": "ウォーターピープル\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4590,7 +4590,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^{ブラウニー}s",
       "Japanese": "ブラウニー\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4609,7 +4609,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^{マッドマン}",
       "Japanese": "マッドマン\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4628,7 +4628,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^{星}s",
       "Japanese": "星\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4639,7 +4639,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^/",
       "Japanese": "／\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4650,7 +4650,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^%",
       "Japanese": "％\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4678,7 +4678,7 @@
       ]
     },
     {
-      "English": "------",
+      "English": "^------",
       "Japanese": "－－－－\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4720,7 +4720,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "^ - - - - - - - - - - -",
       "Japanese": "－－－－－－－－－－－\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4751,7 +4751,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "あいうえお[space]はひふへほ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4782,7 +4782,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "かきくけこ[space]まみむめも\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4813,7 +4813,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "さしすせそ[space]や[space]ゆ[space]よ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4844,7 +4844,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "たちつてと[space]らりるれろ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4875,7 +4875,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "なにぬねの[space]わ[space]を[space]ん\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4906,7 +4906,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "がぎぐげご[space]ばびぶべぼ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4937,7 +4937,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ざじずぜぞ[space]ぱぴぷぺぽ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4968,7 +4968,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "だぢづでど[space]ぁぃぅぇぉ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4999,7 +4999,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ゃゅょっ[space][space]、。ー~[space]\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5030,7 +5030,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "アイウエオ[space]ハヒフヘホ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5061,7 +5061,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "カキクケコ[space]マミムメモ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5092,7 +5092,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "サシスセソ[space]ヤ[space]ユ[space]ヨ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5123,7 +5123,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "タチツテト[space]ラリルレロ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5154,7 +5154,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ナニヌネノ[space]ワ[space]ヲ[space]ン\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5185,7 +5185,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ガギグゲゴ[space]バビブベボ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5216,7 +5216,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ザジズゼゾ[space]パピプペポ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5247,7 +5247,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ダヂヅデド[space]ァィゥェォ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5278,7 +5278,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ャュョッヴ[space]、。ー~[space]\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5309,7 +5309,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ABCDEFGHIJK\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5340,7 +5340,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "LMNOPQRSTUV\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5371,7 +5371,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "WXYZ「」『』＜＞－\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5402,7 +5402,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "abcdefghijk\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5433,7 +5433,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "lmnopqrstuv\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5464,7 +5464,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "wxyz＋○Ｘ△□％・\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5495,7 +5495,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "０１２３４５６７８９‥\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5526,7 +5526,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5557,7 +5557,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "@★ゐヰゑヱ♠♣♥♦→\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5588,7 +5588,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "♂♀㎝㎏฿！?♪］［―\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5619,7 +5619,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "あいうえお[space]はひふへほ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5650,7 +5650,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "かきくけこ[space]まみむめも\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5681,7 +5681,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "さしすせそ[space]や[space]ゆ[space]よ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5712,7 +5712,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "たちつてと[space]らりるれろ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5743,7 +5743,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "なにぬねの[space]わ[space]を[space]ん\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5774,7 +5774,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "がぎぐげご[space]ばびぶべぼ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5805,7 +5805,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ざじずぜぞ[space]ぱぴぷぺぽ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5836,7 +5836,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "だぢづでど[space]ぁぃぅぇぉ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5867,7 +5867,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ゃゅょっゔ[space]、。ー~[space]\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5898,7 +5898,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "アイウエオ[space]ハヒフヘホ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5929,7 +5929,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "カキクケコ[space]マミムメモ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5960,7 +5960,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "サシスセソ[space]ヤ[space]ユ[space]ヨ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5991,7 +5991,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "タチツテト[space]ラリルレロ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6022,7 +6022,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ナニヌネノ[space]ワ[space]ヲ[space]ン\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6053,7 +6053,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ガギグゲゴ[space]バビブベボ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6084,7 +6084,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ザジズゼゾ[space]パピプペポ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6115,7 +6115,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ダヂヅデド[space]ァィゥェォ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6146,7 +6146,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ャュョッヴ[space]、。ー~[space]\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6177,7 +6177,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "あいうえお[space]はひふへほ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6208,7 +6208,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "かきくけこ[space]まみむめも\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6239,7 +6239,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "さしすせそ[space]や[space]ゆ[space]よ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6270,7 +6270,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "たちつてと[space]らりるれろ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6301,7 +6301,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "なに[space]ねの[space]わ[space][space][space][space]\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6332,7 +6332,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ぬ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6343,7 +6343,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "あ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6356,7 +6356,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "い：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6369,7 +6369,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "う：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6382,7 +6382,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "え：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6395,7 +6395,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "お：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6408,7 +6408,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "か：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6421,7 +6421,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "き：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6434,7 +6434,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "く：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6447,7 +6447,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "け：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6460,7 +6460,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "こ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6473,7 +6473,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "さ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6486,7 +6486,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "し：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6499,7 +6499,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "す：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6512,7 +6512,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "せ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6525,7 +6525,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "そ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6538,7 +6538,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "た：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6551,7 +6551,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ち：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6564,7 +6564,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "つ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6577,7 +6577,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "て：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6590,7 +6590,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "と：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6603,7 +6603,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "な：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6616,7 +6616,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "に：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6629,7 +6629,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ぬ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6642,7 +6642,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ね：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6655,7 +6655,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "の：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6668,7 +6668,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "は：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6681,7 +6681,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ひ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6694,7 +6694,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ふ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6707,7 +6707,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "へ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6720,7 +6720,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ほ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6733,7 +6733,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ま：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6746,7 +6746,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "み：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6759,7 +6759,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "む：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6772,7 +6772,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "め：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6785,7 +6785,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "も：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6798,7 +6798,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "や：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6811,7 +6811,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ゆ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6824,7 +6824,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "よ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6837,7 +6837,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ら：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6850,7 +6850,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "り：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6863,7 +6863,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "る：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6876,7 +6876,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "れ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6889,7 +6889,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ろ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6902,7 +6902,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "わ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6915,7 +6915,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "あいうえおかきくけこ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6944,7 +6944,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "さしすせそたちつてと\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6973,7 +6973,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "なにぬねのはひふへほ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7002,7 +7002,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "まみむめもやゆよわを\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7031,7 +7031,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "アイウエオカキクケコ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7060,7 +7060,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "サシスセソタチツテト\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7089,7 +7089,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ナニヌネノハヒフヘホ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7118,7 +7118,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "マミムメモヤユヨワヲ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7147,7 +7147,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "がぎぐげござじずぜぞ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7176,7 +7176,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "だぢづでどばびぶべぼ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7205,7 +7205,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ぱぴぷぺぽガギグゲゴ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7234,7 +7234,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ザジズゼゾダヂヅデド\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7263,7 +7263,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "パピプペポバビブベボ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7292,7 +7292,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ぁぃぅぇぉゃゅょっん\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7321,7 +7321,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ァィゥェォャュョッヴ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7350,7 +7350,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ABCDEFGHIJ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7379,7 +7379,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "KLMNOPQRST\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7408,7 +7408,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "UVWXYZabcd\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7437,7 +7437,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "efghijklmn\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7466,7 +7466,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "opqrstuvwx\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7495,7 +7495,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "yz＋○Ｘ△「」『』\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7524,7 +7524,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "０１２３４５６７８９\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7553,7 +7553,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7582,7 +7582,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "□％、。ー~♠♣♥♦\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7611,7 +7611,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "→@★♂♀㎝㎏฿！?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7640,7 +7640,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "♪］［―＜＞\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7661,7 +7661,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "アイウエオカキクケコ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7690,7 +7690,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "サシスセソタチツテト\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7719,7 +7719,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ナニヌネノハヒフヘホ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7748,7 +7748,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "マミムメモヤユヨワヲ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7777,7 +7777,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7806,7 +7806,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "あいうえおかきくけこ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7835,7 +7835,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "さしすせそたちつてと\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7864,7 +7864,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "なにぬねのはひふへほ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7893,7 +7893,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "まみむめもやゆよわを\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7922,7 +7922,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "□％、。ー~♠♣♥♦\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7951,7 +7951,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "→@★♂♀㎝㎏฿！?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7980,7 +7980,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "♪］［―＜＞がぎぐげ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8009,7 +8009,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ござじずぜぞだぢづで\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8038,7 +8038,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "どばびぶべぼぱぴぷぺ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8067,7 +8067,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ぽガギグゲゴザジズゼ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8096,7 +8096,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ゾダヂヅデドパピプペ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8125,7 +8125,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ポバビブベボABCD\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8154,7 +8154,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "EFGHIJKLMN\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8183,7 +8183,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "OPQRSTUVWX\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8212,7 +8212,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "YZabcdefgh\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8241,7 +8241,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ijklmnopqr\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8270,7 +8270,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "stuvwxyz＋○\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8299,7 +8299,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "Ｘ△「」『』ぁぃぅぇ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8328,7 +8328,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ぉゃゅょっんァィゥェ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8357,7 +8357,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ォャュョッヴ０１２３\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8386,7 +8386,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "４５６７８９\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8407,7 +8407,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "０１２３４５６７８９\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8436,7 +8436,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "がぎぐげござじずぜぞ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8465,7 +8465,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "だぢづでどばびぶべぼ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8494,7 +8494,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ぱぴぷぺぽガギグゲゴ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8523,7 +8523,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ザジズゼゾダヂヅデド\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8552,7 +8552,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "パピプペポバビブベボ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8581,7 +8581,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "あいうえおかきくけこ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8610,7 +8610,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "さしすせそたちつてと\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8639,7 +8639,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "なにぬねのはひふへほ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8668,7 +8668,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "まみむめもやゆよわを\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8697,7 +8697,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8726,7 +8726,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "□％、。ー~♠♣♥♦\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8755,7 +8755,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "→@★♂♀㎝㎏฿！?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8784,7 +8784,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "♪］［―＜＞アイウエ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8813,7 +8813,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "オカキクケコサシスセ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8842,7 +8842,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ソタチツテトナニヌネ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8871,7 +8871,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ノハヒフヘホマミムメ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8900,7 +8900,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "モヤユヨワヲABCD\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8929,7 +8929,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "EFGHIJKLMN\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8958,7 +8958,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "OPQRSTUVWX\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8987,7 +8987,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "YZabcdefgh\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9016,7 +9016,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ijklmnopqr\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9045,7 +9045,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "stuvwxyz＋○\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9074,7 +9074,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "Ｘ△「」『』ぁぃぅぇ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9103,7 +9103,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ぉゃゅょっんァィゥェ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9132,7 +9132,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ォャュョッヴ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9153,7 +9153,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "がぎぐげござじずぜぞ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9182,7 +9182,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "だぢづでどばびぶべぼ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9211,7 +9211,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ぱぴぷぺぽガギグゲゴ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9240,7 +9240,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ザジズゼゾダヂヅデド\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9269,7 +9269,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "パピプペポバビブベボ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9298,7 +9298,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9327,7 +9327,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "０１２３４５６７８９\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9356,7 +9356,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "あいうえおかきくけこ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9385,7 +9385,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "さしすせそたちつてと\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9414,7 +9414,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "なにぬねのはひふへほ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9443,7 +9443,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "まみむめもやゆよわを\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9472,7 +9472,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ABCDEFGHIJ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9501,7 +9501,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "KLMNOPQRST\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9530,7 +9530,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "UVWXYZabcd\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9559,7 +9559,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "efghijklmn\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9588,7 +9588,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "opqrstuvwx\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9617,7 +9617,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "yz＋○Ｘ△「」『』\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9646,7 +9646,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "アイウエオカキクケコ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9675,7 +9675,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "サシスセソタチツテト\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9704,7 +9704,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ナニヌネノハヒフヘホ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9733,7 +9733,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "マミムメモヤユヨワヲ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9762,7 +9762,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "□％、。ー~♠♣♥♦\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9791,7 +9791,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "→@★♂♀㎝㎏฿！?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9820,7 +9820,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "♪］［―＜＞ぁぃぅぇ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9849,7 +9849,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ぉゃゅょっんァィゥェ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9878,7 +9878,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "ォャュョッヴ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9899,7 +9899,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "[space][space][space][space][space][space][space][space][space][space][space][space][space]\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9934,7 +9934,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "[space]\\ff\\ff",
       "Comments": "",
       "u8": [

@@ -484,9 +484,19 @@ var glossary = {
   "どーどー":"Dodo",
   "ツボ":"Pot",
   "カエルグミ":"Gummy Frog",
+  "ミミズグミ":"Gummy Worm",
   "ブラウニー":"Brownie",
   "エニグマ":"Enigma",
   "ブッチーネ":"Pucine",
+  "ワープ屋さん":"Warphat",
+  "ピラニア":"Piranha",
+  "ドワーフ":"Dwarf",
+  "ピップルス":"Souris",
+  "アメフラシ":"Rainmaker",
+  "パイライト":"Pyrite",
+  "ツリーマン":"Treemen",
+  "ウォーターピープル":"Water People",
+  "星":"Star"
 /************************************\
 *            [[Elements]]            *
 \************************************/
