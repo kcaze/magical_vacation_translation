@@ -1187,7 +1187,7 @@
       ]
     },
     {
-      "English": "^Fears",
+      "English": "^Fears:",
       "Japanese": "苦手\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4751,7 +4751,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "|{FONT_MENU}\n| A\\7fB\\7fC\\7fD\n|\\20\\20\n|E\\7fF\\7fG\\7fH\\7fI",
       "Japanese": "あいうえお[space]はひふへほ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4782,7 +4782,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "|J\\7fK\\7fL\\7fM\\7fN\n|\\20\\20\n|O\\7fP\\7fQ\\7fR\\7fS",
       "Japanese": "かきくけこ[space]まみむめも\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4813,7 +4813,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "|T\\7fU\\7fV\\7fW\\7fX\n|\\20\\20\n|Y\\7fZ",
       "Japanese": "さしすせそ[space]や[space]ゆ[space]よ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -104627,7 +104627,7 @@
   ],
   [
     {
-      "English": "\\00\\00",
+      "English": "A B C D E F G\\00\\00",
       "Japanese": "[space]\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -112908,7 +112908,7 @@
   ],
   [
     {
-      "English": "|I'm Toasty the fire\n|{N}\n|spirit. Fire magic is\n|{RED}\n|strong\n|{BLACK}\n|!\n|{N}{N}\n|Difficulty:\\20\n|{RED}\n|Easy\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\01\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\0c\\00\n|\\fb\\ff\\0d\\00",
+      "English": "|^{FONT_MENU}\n|I'm Toasty the fire\n|{N}\n|spirit. Fire magic is\n|{RED}\n|strong\n|{BLACK}\n|!\n|{N}{N}\n|Difficulty:\\20\n|{RED}\n|Easy\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\01\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\0c\\00\n|\\fb\\ff\\0d\\00",
       "Japanese": "火の精霊・トーストです。\\fe\\ff火の魔法は\\fa\\ff\\3\\0攻撃力\\fa\\ff\\f\\0があるよ。\\fe\\ffバランスが良いので\\fe\\ff使いやすいよ。\\fe\\ff\\fa\\ff\\3\\0初心者向け\\fa\\ff\\f\\0だよ。\\fe\\ff得意[space]\\fb\\ff\\1\\0風\\fe\\ff苦手[space]\\fb\\ff\\c\\0古\\fb\\ff\\d\\0闇\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -113892,7 +113892,7 @@
       ]
     },
     {
-      "English": "I'm Rocky the stone\n|{N}{N}\n|spirit. Stone magic\n|{N}\n|boosts\\20\n|{RED}\n|defense\n|{BLACK}\n|!\n|{N}{N}\n|Difficulty:\\20\n|{RED}\n|Medium\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\07\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\05\\00\n|\\fb\\ff\\0d\\00",
+      "English": "I'm Rocky the stone\n|{N}\n|spirit. Stone magic\n|{N}\n|boosts\\20\n|{RED}\n|defense\n|{BLACK}\n|!\n|{N}{N}\n|Difficulty:\\20\n|{RED}\n|Medium\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\07\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\05\\00\n|\\fb\\ff\\0d\\00",
       "Japanese": "オイラ、石の精霊・フリントで\\fe\\ffごっつーん！\\fe\\ff石の魔法は\\fa\\ff\\3\\0守備力アップ\\fa\\ff\\f\\0だ\\fe\\ffごっつーん！\\fe\\ff\\fa\\ff\\3\\0中級者向け\\fa\\ff\\f\\0だごっつーん！\\fe\\ff得意[space]\\fb\\ff\\7\\0虫\\fe\\ff苦手[space]\\fb\\ff\\5\\0音\\fb\\ff\\d\\0闇\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -114059,7 +114059,7 @@
       ]
     },
     {
-      "English": "|I'm Antsy the bug\n|{N}\n|spirit. Bug magic\n|{N}\n|lowers foes'\\20\n|{RED}\n|power\n|{BLACK}\n|!\n|{N}{N}\n|Difficulty:\\20\n|{RED}\n|Hard\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\08\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\06\\00\n|\\fb\\ff\\0d\\00",
+      "English": "|I'm Antsy the bug\n|{N}\n|spirit. Bug magic\n|{N}\n|lowers foes'\\20\n|{RED}\n|power\n|{BLACK}\n|!\n|{N}\n|Difficulty:\\20\n|{RED}\n|Hard\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\08\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\06\\00\n|\\fb\\ff\\0d\\00",
       "Japanese": "オイラ、虫の精霊・バズでち。\\fe\\ff虫の魔法は\\fa\\ff\\3\\0力をさげる\\fa\\ff\\f\\0\\fe\\ff効果があるちー。\\fe\\ffいたくないちー。\\fe\\ff\\fa\\ff\\3\\0上級者向け\\fa\\ff\\f\\0だちー。\\fe\\ff得意[space]\\fb\\ff\\8\\0木\\fe\\ff苦手[space]\\fb\\ff\\6\\0石\\fb\\ff\\d\\0闇\\ff\\ff",
       "Comments": "",
       "u8": [
