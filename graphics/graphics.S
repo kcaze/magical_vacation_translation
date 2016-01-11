@@ -9,4 +9,8 @@
 .org 0x0879A214
 .incbin graphics/menu_icons/menu_icons.bin
 
+; LZ77 graphics
+.org 0x0869A670
+.incbin graphics/main_menu/buttons1.img.bin
+
 .close

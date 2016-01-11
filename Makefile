@@ -3,6 +3,10 @@
 all:
 	rm -f hacked.gba hacked.ups
 	cp original.gba hacked.gba
+
+	bin/grit/grit.exe graphics/main_menu/buttons1.bmp -gB4 -p! -m! -fh! -ftb -Zl -q -o graphics/main_menu
+
+
 	bin/armips.exe graphics/menu_headers/menu_headers.S
 	bin/armips.exe graphics/graphics.S
 	bin/armips.exe text_rendering/fonts/fonts.S
