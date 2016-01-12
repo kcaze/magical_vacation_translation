@@ -30,7 +30,7 @@ ADDR_MAIN_MENU_BUTTONS2   equ 0x08806000
 
 ; Repositioning title
 .org 0x080C245C
-.halfword 0x0004 ; y-coordinate
-.halfword 0x0010 ; x-coordinate
+.halfword 0x0008 ; x-coordinate
+.halfword 0x0010 ; y-coordinate
 
 .close
