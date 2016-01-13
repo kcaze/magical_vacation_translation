@@ -1,7 +1,7 @@
 [
   [
     {
-      "English": "|^\n|{FONT_MENU}\n|Status",
+      "English": "$FONT_MENU$\nStatus",
       "Japanese": "ステータス\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -20,7 +20,7 @@
       ]
     },
     {
-      "English": "|^\n|{FONT_MENU}\n|Equipment",
+      "English": "$FONT_MENU$\nEquipment",
       "Japanese": "防具そうび\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "English": "|^\n|{FONT_MENU}\n|Magic",
+      "English": "$FONT_MENU$\nMagic",
       "Japanese": "魔法そうび\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "English": "|^\n|{FONT_MENU}\n|Magic Level",
+      "English": "$FONT_MENU$\nMagic Level",
       "Japanese": "魔法レベル\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "English": "|^\n|{FONT_MENU}\n|Profile",
+      "English": "$FONT_MENU$\nProfile",
       "Japanese": "プロフィール\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98,7 +98,7 @@
       ]
     },
     {
-      "English": "|^\n|{FONT_MENU}\n|Set MD Parts",
+      "English": "$FONT_MENU$\nSet MD Parts",
       "Japanese": "MDパーツセット\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -123,7 +123,7 @@
       ]
     },
     {
-      "English": "|^\n|{FONT_MENU}\n|Items",
+      "English": "$FONT_MENU$\nRecovery Items",
       "Japanese": "回復アイテム\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -144,7 +144,7 @@
       ]
     },
     {
-      "English": "|^\n|{FONT_MENU}\n|Equipment",
+      "English": "$FONT_MENU$\nEquipment",
       "Japanese": "そうびアイテム\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -167,7 +167,7 @@
       ]
     },
     {
-      "English": "|^\n|{FONT_MENU}\n|MD Parts",
+      "English": "$FONT_MENU$\nMD Parts",
       "Japanese": "MDパーツ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -186,7 +186,7 @@
       ]
     },
     {
-      "English": "|^\n|{FONT_MENU}\n|Other Items",
+      "English": "$FONT_MENU$\nOther Items",
       "Japanese": "その他のアイテム\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -211,7 +211,7 @@
       ]
     },
     {
-      "English": "|^\n|{FONT_MENU}\n|Spirits",
+      "English": "$FONT_MENU$\nSpirits",
       "Japanese": "精霊いちらん\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -232,7 +232,7 @@
       ]
     },
     {
-      "English": "|^\n|{FONT_MENU}\n|World Map",
+      "English": "$FONT_MENU$\nWorld Map",
       "Japanese": "ワールドマップ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -255,7 +255,7 @@
       ]
     },
     {
-      "English": "|^\n|{FONT_MENU}\n|All Files",
+      "English": "$FONT_MENU$\nAll Files",
       "Japanese": "なんでもファイル\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -280,7 +280,7 @@
       ]
     },
     {
-      "English": "|^\n|{FONT_MENU}\n|Report Card",
+      "English": "$FONT_MENU$\nReport Card",
       "Japanese": "成績表\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -295,7 +295,7 @@
       ]
     },
     {
-      "English": "|^\n|{FONT_MENU}\n|Magic Notebook",
+      "English": "$FONT_MENU$\nMagic Notebook",
       "Japanese": "魔法の手帳\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -314,7 +314,7 @@
       ]
     },
     {
-      "English": "|^\n|{FONT_MENU}\n|Bestiary",
+      "English": "$FONT_MENU$\nBestiary",
       "Japanese": "モンスター図鑑\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -337,7 +337,7 @@
       ]
     },
     {
-      "English": "|^\n|{FONT_MENU}\n|Species",
+      "English": "$FONT_MENU$\nSpecies",
       "Japanese": "種族図鑑\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -354,7 +354,7 @@
       ]
     },
     {
-      "English": "|^\n|{FONT_MENU}\n|MD Dictionary",
+      "English": "$FONT_MENU$\nMD Dictionary",
       "Japanese": "MD辞典\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -371,7 +371,7 @@
       ]
     },
     {
-      "English": "|^\n|{FONT_MENU}\n|Campgrounds",
+      "English": "$FONT_MENU$\nCampgrounds",
       "Japanese": "キャンプ場\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -390,7 +390,7 @@
       ]
     },
     {
-      "English": "|^\n|{FONT_MENU}\n|Valencia Beach",
+      "English": "$FONT_MENU$\nValencia Beach",
       "Japanese": "ヴァレンシア海岸\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -415,7 +415,7 @@
       ]
     },
     {
-      "English": "|^\n|{FONT_MENU}\n|Light Realm",
+      "English": "$FONT_MENU$\nLight Realm",
       "Japanese": "光のプレーン\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -436,7 +436,7 @@
       ]
     },
     {
-      "English": "|^\n|{FONT_MENU}\n|Dark Realm",
+      "English": "$FONT_MENU$\nDark Realm",
       "Japanese": "闇のプレーン\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -457,7 +457,7 @@
       ]
     },
     {
-      "English": "|^\n|{FONT_MENU}\n|Abyssal Realm",
+      "English": "$FONT_MENU$\nAbyssal Realm",
       "Japanese": "死のプレーン\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -478,7 +478,7 @@
       ]
     },
     {
-      "English": "^Number of battles:",
+      "English": "Number of battles:",
       "Japanese": "バトル回数\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -497,7 +497,7 @@
       ]
     },
     {
-      "English": "^Win rate:",
+      "English": "Win rate:",
       "Japanese": "勝率\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -510,7 +510,7 @@
       ]
     },
     {
-      "English": "^Number of times ran away:",
+      "English": "Number of times ran away:",
       "Japanese": "逃走\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -523,7 +523,7 @@
       ]
     },
     {
-      "English": "^Number of times fainted:",
+      "English": "Number of times fainted:",
       "Japanese": "気絶\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -536,7 +536,7 @@
       ]
     },
     {
-      "English": "^Largest spirit multiplier:",
+      "English": "Largest spirit multiplier:",
       "Japanese": "最高精霊コンボ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -559,7 +559,7 @@
       ]
     },
     {
-      "English": "^Grade:",
+      "English": "Grade:",
       "Japanese": "評価\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -572,7 +572,7 @@
       ]
     },
     {
-      "English": "^Spirits befriended:",
+      "English": "Spirits befriended:",
       "Japanese": "仲良くなった精霊\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -597,7 +597,7 @@
       ]
     },
     {
-      "English": "^Magic learned:",
+      "English": "Magic learned:",
       "Japanese": "主人公がおぼえた魔法\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -626,7 +626,7 @@
       ]
     },
     {
-      "English": "^Monsters encountered:",
+      "English": "Monsters encountered:",
       "Japanese": "モンスター図鑑\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -649,7 +649,7 @@
       ]
     },
     {
-      "English": "^Treasure chests opened:",
+      "English": "Treasure chests opened:",
       "Japanese": "宝箱を見つけた数\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -674,7 +674,7 @@
       ]
     },
     {
-      "English": "^Gummy frogs caught:",
+      "English": "Gummy frogs caught:",
       "Japanese": "カエルグミ捕獲数\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -699,7 +699,7 @@
       ]
     },
     {
-      "English": "^Gummy worms caught:",
+      "English": "Gummy worms caught:",
       "Japanese": "ミミズグミ捕獲数\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -724,7 +724,7 @@
       ]
     },
     {
-      "English": "^Pinecones obtained:",
+      "English": "Pinecones obtained:",
       "Japanese": "まつぼっくり獲得数\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -751,7 +751,7 @@
       ]
     },
     {
-      "English": "^Let's Battle:",
+      "English": "Let's Battle:",
       "Japanese": "対戦成績\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -768,9 +768,9 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "回\\ff\\ff",
-      "Comments": "",
+      "Comments": "Alignment reset character to indicate leave this blank.",
       "u8": [
         2,
         51,
@@ -779,7 +779,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "個\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -790,7 +790,7 @@
       ]
     },
     {
-      "English": "^W",
+      "English": "W",
       "Japanese": "勝\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -801,7 +801,7 @@
       ]
     },
     {
-      "English": "^L",
+      "English": "L",
       "Japanese": "敗\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -812,7 +812,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "倍\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -823,7 +823,7 @@
       ]
     },
     {
-      "English": "^Name",
+      "English": "Name",
       "Japanese": "名前\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -836,7 +836,7 @@
       ]
     },
     {
-      "English": "^Gender",
+      "English": "Gender",
       "Japanese": "性別\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -849,7 +849,7 @@
       ]
     },
     {
-      "English": "^Species",
+      "English": "Species",
       "Japanese": "種族\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -862,7 +862,7 @@
       ]
     },
     {
-      "English": "^Element",
+      "English": "Element",
       "Japanese": "属性\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -875,7 +875,7 @@
       ]
     },
     {
-      "English": "^None",
+      "English": "None",
       "Japanese": "無属性\\ff\\ff",
       "Comments": "There's a bug in the game where this text is never displayed it looks like. This should display when magic dolls aren't bewitched I believe?",
       "u8": [
@@ -890,7 +890,7 @@
       ]
     },
     {
-      "English": "^Rank:",
+      "English": "Rank:",
       "Japanese": "称号\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -903,7 +903,7 @@
       ]
     },
     {
-      "English": "^Mojo:",
+      "English": "Mojo:",
       "Japanese": "極意\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -916,7 +916,7 @@
       ]
     },
     {
-      "English": "^'s teachings",
+      "English": "'s teachings",
       "Japanese": "の教え\\ff\\ff",
       "Comments": "These are suffixes for the amigo's secret.",
       "u8": [
@@ -931,7 +931,7 @@
       ]
     },
     {
-      "English": "^'s secrets",
+      "English": "'s secrets",
       "Japanese": "の秘伝\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -946,7 +946,7 @@
       ]
     },
     {
-      "English": "^'s knowledge",
+      "English": "'s knowledge",
       "Japanese": "の知識\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -961,7 +961,7 @@
       ]
     },
     {
-      "English": "^'s mystery",
+      "English": "'s mystery",
       "Japanese": "の奥義\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -976,7 +976,7 @@
       ]
     },
     {
-      "English": "^'s technique",
+      "English": "'s technique",
       "Japanese": "のウラ技\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -993,7 +993,7 @@
       ]
     },
     {
-      "English": "^'s book",
+      "English": "'s book",
       "Japanese": "の書\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1006,7 +1006,7 @@
       ]
     },
     {
-      "English": "|^\n|'s secret\n|{RED}\n|\\20{HEART}",
+      "English": "'s secret $RED$$HEART$",
       "Japanese": "の秘密\\fa\\ff\\3\\0♥\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1027,7 +1027,7 @@
       ]
     },
     {
-      "English": "^'s specialty",
+      "English": "'s specialty",
       "Japanese": "スペシャル\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1046,7 +1046,7 @@
       ]
     },
     {
-      "English": "^'s wisdom",
+      "English": "'s wisdom",
       "Japanese": "の知恵袋\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1063,7 +1063,7 @@
       ]
     },
     {
-      "English": "^'s treasure",
+      "English": "'s treasure",
       "Japanese": "の宝箱\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1078,7 +1078,7 @@
       ]
     },
     {
-      "English": "^Soul:",
+      "English": "Soul:",
       "Japanese": "霊魂\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1091,7 +1091,7 @@
       ]
     },
     {
-      "English": "^item",
+      "English": "item",
       "Japanese": "アイテム\\ff\\ff",
       "Comments": "I believe this is unused",
       "u8": [
@@ -1108,7 +1108,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "",
       "Japanese": "の魔法\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1123,7 +1123,7 @@
       ]
     },
     {
-      "English": "^spirit",
+      "English": "spirit",
       "Japanese": "の精霊\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1138,7 +1138,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "",
       "Japanese": "の属性\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1153,7 +1153,7 @@
       ]
     },
     {
-      "English": "^'s magic levels",
+      "English": "'s magic levels",
       "Japanese": "の魔法レベル\\ff\\ff",
       "Comments": "Used in checking an Amigo's magic levels.",
       "u8": [
@@ -1174,7 +1174,7 @@
       ]
     },
     {
-      "English": "^Beats:",
+      "English": "Beats:",
       "Japanese": "得意\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1187,7 +1187,7 @@
       ]
     },
     {
-      "English": "^Fears:",
+      "English": "Fears:",
       "Japanese": "苦手\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1200,7 +1200,7 @@
       ]
     },
     {
-      "English": "^Spirits Befriended",
+      "English": "Spirits Befriended",
       "Japanese": "仲良くなった精霊の数\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1229,7 +1229,7 @@
       ]
     },
     {
-      "English": "^Number of Amigos",
+      "English": "Number of Amigos",
       "Japanese": "アミーゴした人数\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1254,7 +1254,7 @@
       ]
     },
     {
-      "English": "^You've reached the maximum level!",
+      "English": "You've reached the maximum level!",
       "Japanese": "最高レベルになりました\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1285,7 +1285,7 @@
       ]
     },
     {
-      "English": "^Mastered",
+      "English": "Mastered",
       "Japanese": "の魔法を極めました\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1312,7 +1312,7 @@
       ]
     },
     {
-      "English": "^Peel off sticker",
+      "English": "Peel off sticker",
       "Japanese": "シールをはがす\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1335,7 +1335,7 @@
       ]
     },
     {
-      "English": "^Unequip",
+      "English": "Unequip",
       "Japanese": "をはずす\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1352,7 +1352,7 @@
       ]
     },
     {
-      "English": "^Use",
+      "English": "Use",
       "Japanese": "つかう\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1367,7 +1367,7 @@
       ]
     },
     {
-      "English": "^Equip",
+      "English": "Equip",
       "Japanese": "そうび\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1382,7 +1382,7 @@
       ]
     },
     {
-      "English": "^Stick",
+      "English": "Stick",
       "Japanese": "はる\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1395,7 +1395,7 @@
       ]
     },
     {
-      "English": "^Toss",
+      "English": "Toss",
       "Japanese": "すてる\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1410,7 +1410,7 @@
       ]
     },
     {
-      "English": "^Set",
+      "English": "Set",
       "Japanese": "セット\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1425,7 +1425,7 @@
       ]
     },
     {
-      "English": "^Magic level",
+      "English": "Magic level",
       "Japanese": "魔法レベル\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1444,7 +1444,7 @@
       ]
     },
     {
-      "English": "^Erase",
+      "English": "Erase",
       "Japanese": "消去\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1457,7 +1457,7 @@
       ]
     },
     {
-      "English": "^toss",
+      "English": "toss",
       "Japanese": "をすてる\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1474,7 +1474,7 @@
       ]
     },
     {
-      "English": "|^You can't bewitch until all magic doll\n|{N}\n|^parts have been set.",
+      "English": "You can't bewitch until all magic doll$N$\nparts have been set.",
       "Japanese": "パーツを全てセットしないと\\fe\\ff霊魂は入れられません\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1531,7 +1531,7 @@
       ]
     },
     {
-      "English": "|^A magic doll must be bewitched\n|{N}\n|^with a soul before it can cast\n|{N}\n|^magic.",
+      "English": "A magic doll must be bewitched$N$\nwith a soul before it can cast$N$\nmagic.",
       "Japanese": "マジックドールに魂が\\fe\\ff入っていないので魔法\\fe\\ffは使えません\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1596,7 +1596,7 @@
       ]
     },
     {
-      "English": "^\\20",
+      "English": "\\20",
       "Japanese": "[space]\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1607,7 +1607,7 @@
       ]
     },
     {
-      "English": "^'s current soul will transfer to",
+      "English": "'s current soul will transfer to",
       "Japanese": "に入れている魂を\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1632,7 +1632,7 @@
       ]
     },
     {
-      "English": "^. Is that all right?",
+      "English": ". Is that all right?",
       "Japanese": "に移しかえますか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1659,7 +1659,7 @@
       ]
     },
     {
-      "English": "|^If you unset any part the bewitched soul\n|{N}\n|will also be unset. Is that all right?",
+      "English": "If you unset any part the bewitched soul$N$\nwill also be unset. Is that all right?",
       "Japanese": "[space]パーツを外すと霊魂も外れて\\fe\\ff[space]しまいますがいいですか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1724,7 +1724,7 @@
       ]
     },
     {
-      "English": "^Unset this Amigo?",
+      "English": "Unset this Amigo?",
       "Japanese": "[space][space]アミーゴを外しますか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1759,7 +1759,7 @@
       ]
     },
     {
-      "English": "^Is that all right?",
+      "English": "Is that all right?",
       "Japanese": "[space][space]\\fe\\ff[space]消去してもいいですか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1798,7 +1798,7 @@
       ]
     },
     {
-      "English": "^will be erased from your Amigo list.",
+      "English": "will be erased from your Amigo list.",
       "Japanese": "[space]をリストから\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1821,7 +1821,7 @@
       ]
     },
     {
-      "English": "|^\n|{N}\n|Select someone else?",
+      "English": "$N$\nSelect someone else?",
       "Japanese": "[space]\\fe\\ff[space]使う人を選びなおしますか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1862,7 +1862,7 @@
       ]
     },
     {
-      "English": "|^\n|{N}\n|Use this Amigo anyways?",
+      "English": "$N$\nUse this Amigo anyways?",
       "Japanese": "[space][space]\\fe\\ff[space]使う人を変更しますか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1901,7 +1901,7 @@
       ]
     },
     {
-      "English": "|^ is currently using this Amigo.",
+      "English": " is currently using this Amigo.",
       "Japanese": "[space]が使用中ですが\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1957,7 +1957,7 @@
       ]
     },
     {
-      "English": "|^Are these members okay?",
+      "English": "Are these members okay?",
       "Japanese": "[space]このメンバーでいいですか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1994,7 +1994,7 @@
       ]
     },
     {
-      "English": "|^The game has not been saved.\n|{N}\n|Exit the menu anyways?",
+      "English": "The game has not been saved.$N$\nExit the menu anyways?",
       "Japanese": "データをセーブしていませんが\\fe\\ffメニューを終了しますか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2057,7 +2057,7 @@
       ]
     },
     {
-      "English": "|^Begin the battle?",
+      "English": "Begin the battle?",
       "Japanese": "[space][space]対戦をはじめますか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2090,7 +2090,7 @@
       ]
     },
     {
-      "English": "|^Your entire save data will be erased\n|{N}\n|Continue anyways?",
+      "English": "Your save data will be erased.$N$\nContinue anyways?",
       "Japanese": "セーブデータを全て消しますが、\\fe\\ffよろしいですか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2147,7 +2147,7 @@
       ]
     },
     {
-      "English": "|^Overwrite your save data?",
+      "English": "Overwrite your save data?",
       "Japanese": "[space]データを書き換えますか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2182,7 +2182,7 @@
       ]
     },
     {
-      "English": "|^Press the start button when you have\n|{N}\n|finished preparing for battle.",
+      "English": "Press the start button when you have$N$\nfinished preparing for battle.",
       "Japanese": "対戦の準備ができたらスタート\\fe\\ffボタンを押してください\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2243,7 +2243,7 @@
       ]
     },
     {
-      "English": "|^You are currently unable to warp.",
+      "English": "You are currently unable to warp.",
       "Japanese": "[space]今はワープできません\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2274,7 +2274,7 @@
       ]
     },
     {
-      "English": "|^You cannot warp while you are riding\n|{N}\n|on the magic bus.",
+      "English": "You cannot warp while you are riding$N$\non the magic bus.",
       "Japanese": "[space]魔バスに乗っている間は\\fe\\ff[space]ワープできません\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2327,7 +2327,7 @@
       ]
     },
     {
-      "English": "|^To warp to a different realm, use the\n|{N}\n|magic bus.",
+      "English": "To warp to a different realm, use the$N$\nmagic bus.",
       "Japanese": "別のプレーンへのワープには\\fe\\ff魔バスをご利用ください\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2386,7 +2386,7 @@
       ]
     },
     {
-      "English": "^Current location:",
+      "English": "Current location:",
       "Japanese": "現在地：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2403,7 +2403,7 @@
       ]
     },
     {
-      "English": "^Thermometer type",
+      "English": "Thermometer type",
       "Japanese": "プレパラート級\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2426,7 +2426,7 @@
       ]
     },
     {
-      "English": "^Syringe type",
+      "English": "Syringe type",
       "Japanese": "スポイト級\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2445,7 +2445,7 @@
       ]
     },
     {
-      "English": "^Burette type",
+      "English": "Burette type",
       "Japanese": "モルター級\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2464,7 +2464,7 @@
       ]
     },
     {
-      "English": "^Beaker type",
+      "English": "Beaker type",
       "Japanese": "ビーカー級\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2483,7 +2483,7 @@
       ]
     },
     {
-      "English": "^Flask type",
+      "English": "Flask type",
       "Japanese": "フラスコ級\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2502,7 +2502,7 @@
       ]
     },
     {
-      "English": "^Funnel type",
+      "English": "Funnel type",
       "Japanese": "ファンネル級\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2523,7 +2523,7 @@
       ]
     },
     {
-      "English": "^Pipette type",
+      "English": "Pipette type",
       "Japanese": "シリンダー級\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2544,7 +2544,7 @@
       ]
     },
     {
-      "English": "^Trough type",
+      "English": "Trough type",
       "Japanese": "プリズム級\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2563,7 +2563,7 @@
       ]
     },
     {
-      "English": "^Power factor:",
+      "English": "Power factor:",
       "Japanese": "パワー倍率\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2582,7 +2582,7 @@
       ]
     },
     {
-      "English": "^Power limit:",
+      "English": "Power limit:",
       "Japanese": "パワーリミット\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2605,7 +2605,7 @@
       ]
     },
     {
-      "English": "^Required power:",
+      "English": "Required power:",
       "Japanese": "必要パワー\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2624,7 +2624,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "㎝\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2635,7 +2635,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "㎏\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2646,7 +2646,7 @@
       ]
     },
     {
-      "English": "^There is no save file.",
+      "English": "There is no save file.",
       "Japanese": "データがありません\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2673,7 +2673,7 @@
       ]
     },
     {
-      "English": "^Saving...",
+      "English": "Saving...",
       "Japanese": "[space][space]セーブ中です・・・\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2704,7 +2704,7 @@
       ]
     },
     {
-      "English": "^Loading...",
+      "English": "Loading...",
       "Japanese": "[space][space]ロード中です・・・\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2735,7 +2735,7 @@
       ]
     },
     {
-      "English": "^Overwrite save file?",
+      "English": "Overwrite save file?",
       "Japanese": "上書きしてもいいですか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2768,7 +2768,7 @@
       ]
     },
     {
-      "English": "^The save file is corrupted.",
+      "English": "The save file is corrupted.",
       "Japanese": "[space]データがこわれています\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2801,7 +2801,7 @@
       ]
     },
     {
-      "English": "^Unable to save.",
+      "English": "Unable to save.",
       "Japanese": "セーブできませんでした\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2832,7 +2832,7 @@
       ]
     },
     {
-      "English": "^The save file is corrupted.",
+      "English": "The save file is corrupted.",
       "Japanese": "セーブデータがこわれています\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2869,7 +2869,7 @@
       ]
     },
     {
-      "English": "^The password is incorrect.",
+      "English": "The password is incorrect.",
       "Japanese": "パスワードが不正です\\ff\\ff",
       "Comments": "I think this is unused?",
       "u8": [
@@ -2898,7 +2898,7 @@
       ]
     },
     {
-      "English": "|^\n|Press the A button when your opponent\n|{N}\n|is also done selecting.",
+      "English": "Press the A button when your opponent$N$\nis also done selecting.",
       "Japanese": "相手も選択が終わったら\\fe\\ffAボタンを押してください\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2955,7 +2955,7 @@
       ]
     },
     {
-      "English": "^You don't have any Amigos.",
+      "English": "You don't have any Amigos.",
       "Japanese": "アミーゴが一人もいません\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -2988,7 +2988,7 @@
       ]
     },
     {
-      "English": "^This is still a secret.",
+      "English": "This is still a secret.",
       "Japanese": "[space]ここはまだヒミツです\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3019,7 +3019,7 @@
       ]
     },
     {
-      "English": "^Learned",
+      "English": "Learned",
       "Japanese": "の魔法をおぼえました\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3048,7 +3048,7 @@
       ]
     },
     {
-      "English": "|^\n|Your Amigo list has reached its\n|{N}\n|maximum size.",
+      "English": "Your Amigo list has reached its$N$\nmaximum size.",
       "Japanese": "これ以上アミーゴを増やす\\fe\\ffことはできません。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3101,7 +3101,7 @@
       ]
     },
     {
-      "English": "^Trade items?",
+      "English": "Trade items?",
       "Japanese": "おたがいのアイテムを\\fe\\ff交換しますか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3146,7 +3146,7 @@
       ]
     },
     {
-      "English": "|^\n|The item trade was cancelled by the\n|{N}\n|other player.",
+      "English": "The item trade was cancelled by the$N$\nother player.",
       "Japanese": "相手からアイテム交換を\\fe\\ff断られてしまいました\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3199,7 +3199,7 @@
       ]
     },
     {
-      "English": "^Your opponent cancelled the Let's Battle.",
+      "English": "Your opponent cancelled the Let's Battle.",
       "Japanese": "[space]相手がレッツ対戦を\\fe\\ff[space]キャンセルしました\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3250,7 +3250,7 @@
       ]
     },
     {
-      "English": "^and",
+      "English": "and",
       "Japanese": "と\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3261,7 +3261,7 @@
       ]
     },
     {
-      "English": "^person",
+      "English": "person",
       "Japanese": "人目の\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3276,7 +3276,7 @@
       ]
     },
     {
-      "English": "^became Amigos.",
+      "English": "became Amigos.",
       "Japanese": "アミーゴになりました\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3305,7 +3305,7 @@
       ]
     },
     {
-      "English": "^'s",
+      "English": "'s",
       "Japanese": "の\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3316,7 +3316,7 @@
       ]
     },
     {
-      "English": "^data was updated.",
+      "English": "data was updated.",
       "Japanese": "データを更新しました\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3345,7 +3345,7 @@
       ]
     },
     {
-      "English": "^Begin communications?",
+      "English": "Begin communications?",
       "Japanese": "通信をはじめますか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3374,7 +3374,7 @@
       ]
     },
     {
-      "English": "^End communications?",
+      "English": "End communications?",
       "Japanese": "通信を終わりますか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3403,7 +3403,7 @@
       ]
     },
     {
-      "English": "^Connecting...",
+      "English": "Connecting...",
       "Japanese": "接続中です・・・\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3428,7 +3428,7 @@
       ]
     },
     {
-      "English": "^Connection failed.",
+      "English": "Connection failed.",
       "Japanese": "接続に失敗しました\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3455,7 +3455,7 @@
       ]
     },
     {
-      "English": "^A communications error has occurred.",
+      "English": "A communications error has occurred.",
       "Japanese": "通信エラーが発生しました\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3488,7 +3488,7 @@
       ]
     },
     {
-      "English": "^The connection was lost. ",
+      "English": "The connection was lost. ",
       "Japanese": "通信が切断されました\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3517,7 +3517,7 @@
       ]
     },
     {
-      "English": "^Currently transferring other data.",
+      "English": "Currently transferring other data.",
       "Japanese": "他のデータを転送中です\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3548,7 +3548,7 @@
       ]
     },
     {
-      "English": "^Initializing data...",
+      "English": "Initializing data...",
       "Japanese": "データ初期化中です・・・\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3581,7 +3581,7 @@
       ]
     },
     {
-      "English": "^Sending data...",
+      "English": "Sending data...",
       "Japanese": "データを送信中です・・・\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3614,7 +3614,7 @@
       ]
     },
     {
-      "English": "^Receiving data...",
+      "English": "Receiving data...",
       "Japanese": "データを受信中です・・・\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3647,7 +3647,7 @@
       ]
     },
     {
-      "English": "^Waiting for the opponent...",
+      "English": "Waiting for the opponent...",
       "Japanese": "相手を待っています・・・\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3772,7 +3772,7 @@
       ]
     },
     {
-      "English": "|^\n|The save file for your adventure up until now will\n|{N}\n|be erased. This will not affect your Amigo list.\n|{N}{N}\n|Is that all right?",
+      "English": "The save file for your adventure up until now will$N$\nbe erased. This will not affect your Amigo list.$N$$N$\nIs that all right?",
       "Japanese": "[space]これまでの冒険のデータが\\fe\\ff[space]消えますが、よろしいですか?\\fe\\ff（アミーゴリストは消えません）\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3871,7 +3871,7 @@
       ]
     },
     {
-      "English": "^Who will you play as?",
+      "English": "Who will you play as?",
       "Japanese": "主人公を選択してください\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3904,7 +3904,7 @@
       ]
     },
     {
-      "English": "^Name:",
+      "English": "Name:",
       "Japanese": "名前：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3919,7 +3919,7 @@
       ]
     },
     {
-      "English": "^Which element will you choose?",
+      "English": "Which element will you choose?",
       "Japanese": "属性を選択してください\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3950,7 +3950,7 @@
       ]
     },
     {
-      "English": "^Is this correct?",
+      "English": "Is this correct?",
       "Japanese": "これでよろしいですか?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3981,7 +3981,7 @@
       ]
     },
     {
-      "English": "^Yes",
+      "English": "Yes",
       "Japanese": "はい\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3994,7 +3994,7 @@
       ]
     },
     {
-      "English": "^No",
+      "English": "No",
       "Japanese": "いいえ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4009,7 +4009,7 @@
       ]
     },
     {
-      "English": "^None",
+      "English": "None",
       "Japanese": "なし\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4022,7 +4022,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "",
       "Japanese": "人\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4033,7 +4033,7 @@
       ]
     },
     {
-      "English": "^?",
+      "English": "?",
       "Japanese": "?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4044,7 +4044,7 @@
       ]
     },
     {
-      "English": "^M",
+      "English": "M",
       "Japanese": "男\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4055,7 +4055,7 @@
       ]
     },
     {
-      "English": "^F",
+      "English": "F",
       "Japanese": "女\\ff\\ff",
       "Comments": "Should change to use ♀.",
       "u8": [
@@ -4066,7 +4066,7 @@
       ]
     },
     {
-      "English": "^Male",
+      "English": "Male",
       "Japanese": "男の子\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4081,7 +4081,7 @@
       ]
     },
     {
-      "English": "^Female",
+      "English": "Female",
       "Japanese": "女の子\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4096,7 +4096,7 @@
       ]
     },
     {
-      "English": "^A button: confirm",
+      "English": "A button: confirm",
       "Japanese": "Aボタン：決定\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4119,7 +4119,7 @@
       ]
     },
     {
-      "English": "^B button: return",
+      "English": "B button: return",
       "Japanese": "Bボタン：もどる\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4144,7 +4144,7 @@
       ]
     },
     {
-      "English": "^MD-05",
+      "English": "MD-05",
       "Japanese": "MD０５－\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4163,7 +4163,7 @@
       ]
     },
     {
-      "English": "^MD-04",
+      "English": "MD-04",
       "Japanese": "MD０４－\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4182,7 +4182,7 @@
       ]
     },
     {
-      "English": "^MD-03",
+      "English": "MD-03",
       "Japanese": "MD０３－\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4201,7 +4201,7 @@
       ]
     },
     {
-      "English": "^MD-02",
+      "English": "MD-02",
       "Japanese": "MD０２－\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4220,7 +4220,7 @@
       ]
     },
     {
-      "English": "^MD-01",
+      "English": "MD-01",
       "Japanese": "MD０１－\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4239,7 +4239,7 @@
       ]
     },
     {
-      "English": "^{文鳥}s",
+      "English": "$文鳥$s",
       "Japanese": "文鳥\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4252,7 +4252,7 @@
       ]
     },
     {
-      "English": "^{カエルグミ}s",
+      "English": "$カエルグミ$s",
       "Japanese": "カエルグミ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4271,7 +4271,7 @@
       ]
     },
     {
-      "English": "^{ミミズグミ}s",
+      "English": "$ミミズグミ$s",
       "Japanese": "ミミズグミ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4290,7 +4290,7 @@
       ]
     },
     {
-      "English": "^{ツボ}s",
+      "English": "$ツボ$s",
       "Japanese": "ツボ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4303,7 +4303,7 @@
       ]
     },
     {
-      "English": "^{ワープ屋さん}s",
+      "English": "$ワープ屋さん$s",
       "Japanese": "ワープ屋さん\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4324,7 +4324,7 @@
       ]
     },
     {
-      "English": "^{パペット}s",
+      "English": "$パペット$s",
       "Japanese": "パペット\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4341,7 +4341,7 @@
       ]
     },
     {
-      "English": "^Travelling Putties",
+      "English": "Travelling Putties",
       "Japanese": "こんにゃく様\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4362,7 +4362,7 @@
       ]
     },
     {
-      "English": "^{古代機械}s",
+      "English": "$古代機械$s",
       "Japanese": "古代機械\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4379,7 +4379,7 @@
       ]
     },
     {
-      "English": "^{ピラニア}s",
+      "English": "$ピラニア$s",
       "Japanese": "ピラニア\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4396,7 +4396,7 @@
       ]
     },
     {
-      "English": "^Envoys of Love",
+      "English": "Envoys of Love",
       "Japanese": "愛の大使\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4413,7 +4413,7 @@
       ]
     },
     {
-      "English": "^Dwarves",
+      "English": "Dwarves",
       "Japanese": "ドワーフ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4430,7 +4430,7 @@
       ]
     },
     {
-      "English": "^{どーどー}s",
+      "English": "$どーどー$s",
       "Japanese": "どーどー\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4447,7 +4447,7 @@
       ]
     },
     {
-      "English": "^{ピップルス}",
+      "English": "$ピップルス$",
       "Japanese": "ピップルス\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4466,7 +4466,7 @@
       ]
     },
     {
-      "English": "^{ヴォークス}s",
+      "English": "$ヴォークス$s",
       "Japanese": "ヴォークス\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4485,7 +4485,7 @@
       ]
     },
     {
-      "English": "^{ニャムネルト}s",
+      "English": "$ニャムネルト$s",
       "Japanese": "ニャムネルト\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4506,7 +4506,7 @@
       ]
     },
     {
-      "English": "^{アメフラシ}s",
+      "English": "$アメフラシ$s",
       "Japanese": "アメフラシ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4525,7 +4525,7 @@
       ]
     },
     {
-      "English": "^{パイライト}s",
+      "English": "$パイライト$s",
       "Japanese": "パイライト\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4544,7 +4544,7 @@
       ]
     },
     {
-      "English": "^{ツリーマン}",
+      "English": "$ツリーマン$",
       "Japanese": "ツリーマン\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4563,7 +4563,7 @@
       ]
     },
     {
-      "English": "^{ウォーターピープル}",
+      "English": "$ウォーターピープル$",
       "Japanese": "ウォーターピープル\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4590,7 +4590,7 @@
       ]
     },
     {
-      "English": "^{ブラウニー}s",
+      "English": "$ブラウニー$s",
       "Japanese": "ブラウニー\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4609,7 +4609,7 @@
       ]
     },
     {
-      "English": "^{マッドマン}",
+      "English": "$マッドマン$",
       "Japanese": "マッドマン\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4628,7 +4628,7 @@
       ]
     },
     {
-      "English": "^{星}s",
+      "English": "$星$s",
       "Japanese": "星\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4639,7 +4639,7 @@
       ]
     },
     {
-      "English": "^/",
+      "English": "/",
       "Japanese": "／\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4650,7 +4650,7 @@
       ]
     },
     {
-      "English": "^%",
+      "English": "%",
       "Japanese": "％\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4661,7 +4661,7 @@
       ]
     },
     {
-      "English": "^?????",
+      "English": "?????",
       "Japanese": "????\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4678,7 +4678,7 @@
       ]
     },
     {
-      "English": "^------",
+      "English": "------",
       "Japanese": "－－－－\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4695,7 +4695,7 @@
       ]
     },
     {
-      "English": "^ - - - - - - - - - - -",
+      "English": " - - - - - - - - - - -",
       "Japanese": "－－－－－－－－\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4720,7 +4720,7 @@
       ]
     },
     {
-      "English": "^ - - - - - - - - - - -",
+      "English": " - - - - - - - - - - -",
       "Japanese": "－－－－－－－－－－－\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4751,7 +4751,7 @@
       ]
     },
     {
-      "English": "|{FONT_MENU}\n| A\\7fB\\7fC\\7fD\n|\\20\\20\n|E\\7fF\\7fG\\7fH\\7fI",
+      "English": "$FONT_MENU$\n A\\7fB\\7fC\\7fD\n\\20\\20\n|E\\7fF\\7fG\\7fH\\7fI",
       "Japanese": "あいうえお[space]はひふへほ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4782,7 +4782,7 @@
       ]
     },
     {
-      "English": "|J\\7fK\\7fL\\7fM\\7fN\n|\\20\\20\n|O\\7fP\\7fQ\\7fR\\7fS",
+      "English": "J\\7fK\\7fL\\7fM\\7fN\n\\20\\20\nO\\7fP\\7fQ\\7fR\\7fS",
       "Japanese": "かきくけこ[space]まみむめも\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4813,7 +4813,7 @@
       ]
     },
     {
-      "English": "|T\\7fU\\7fV\\7fW\\7fX\n|\\20\\20\n|Y\\7fZ",
+      "English": "T\\7fU\\7fV\\7fW\\7fX\n\\20\\20\nY\\7fZ",
       "Japanese": "さしすせそ[space]や[space]ゆ[space]よ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4844,7 +4844,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "たちつてと[space]らりるれろ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4875,7 +4875,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "なにぬねの[space]わ[space]を[space]ん\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4906,7 +4906,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "がぎぐげご[space]ばびぶべぼ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4937,7 +4937,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ざじずぜぞ[space]ぱぴぷぺぽ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4968,7 +4968,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "だぢづでど[space]ぁぃぅぇぉ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4999,7 +4999,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ゃゅょっ[space][space]、。ー~[space]\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5030,7 +5030,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "アイウエオ[space]ハヒフヘホ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5061,7 +5061,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "カキクケコ[space]マミムメモ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5092,7 +5092,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "サシスセソ[space]ヤ[space]ユ[space]ヨ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5123,7 +5123,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "タチツテト[space]ラリルレロ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5154,7 +5154,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ナニヌネノ[space]ワ[space]ヲ[space]ン\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5185,7 +5185,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ガギグゲゴ[space]バビブベボ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5216,7 +5216,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ザジズゼゾ[space]パピプペポ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5247,7 +5247,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ダヂヅデド[space]ァィゥェォ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5278,7 +5278,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ャュョッヴ[space]、。ー~[space]\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5309,7 +5309,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ABCDEFGHIJK\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5340,7 +5340,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "LMNOPQRSTUV\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5371,7 +5371,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "WXYZ「」『』＜＞－\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5402,7 +5402,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "abcdefghijk\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5433,7 +5433,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "lmnopqrstuv\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5464,7 +5464,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "wxyz＋○Ｘ△□％・\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5495,7 +5495,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "０１２３４５６７８９‥\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5526,7 +5526,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5557,7 +5557,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "@★ゐヰゑヱ♠♣♥♦→\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5588,7 +5588,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "♂♀㎝㎏฿！?♪］［―\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5619,7 +5619,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "あいうえお[space]はひふへほ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5650,7 +5650,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "かきくけこ[space]まみむめも\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5681,7 +5681,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "さしすせそ[space]や[space]ゆ[space]よ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5712,7 +5712,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "たちつてと[space]らりるれろ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5743,7 +5743,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "なにぬねの[space]わ[space]を[space]ん\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5774,7 +5774,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "がぎぐげご[space]ばびぶべぼ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5805,7 +5805,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ざじずぜぞ[space]ぱぴぷぺぽ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5836,7 +5836,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "だぢづでど[space]ぁぃぅぇぉ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5867,7 +5867,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ゃゅょっゔ[space]、。ー~[space]\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5898,7 +5898,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "アイウエオ[space]ハヒフヘホ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5929,7 +5929,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "カキクケコ[space]マミムメモ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5960,7 +5960,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "サシスセソ[space]ヤ[space]ユ[space]ヨ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5991,7 +5991,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "タチツテト[space]ラリルレロ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6022,7 +6022,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ナニヌネノ[space]ワ[space]ヲ[space]ン\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6053,7 +6053,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ガギグゲゴ[space]バビブベボ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6084,7 +6084,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ザジズゼゾ[space]パピプペポ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6115,7 +6115,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ダヂヅデド[space]ァィゥェォ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6146,7 +6146,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ャュョッヴ[space]、。ー~[space]\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6177,7 +6177,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "あいうえお[space]はひふへほ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6208,7 +6208,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "かきくけこ[space]まみむめも\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6239,7 +6239,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "さしすせそ[space]や[space]ゆ[space]よ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6270,7 +6270,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "たちつてと[space]らりるれろ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6301,7 +6301,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "なに[space]ねの[space]わ[space][space][space][space]\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6332,7 +6332,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ぬ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6343,7 +6343,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "あ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6356,7 +6356,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "い：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6369,7 +6369,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "う：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6382,7 +6382,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "え：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6395,7 +6395,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "お：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6408,7 +6408,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "か：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6421,7 +6421,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "き：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6434,7 +6434,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "く：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6447,7 +6447,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "け：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6460,7 +6460,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "こ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6473,7 +6473,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "さ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6486,7 +6486,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "し：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6499,7 +6499,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "す：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6512,7 +6512,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "せ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6525,7 +6525,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "そ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6538,7 +6538,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "た：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6551,7 +6551,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ち：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6564,7 +6564,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "つ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6577,7 +6577,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "て：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6590,7 +6590,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "と：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6603,7 +6603,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "な：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6616,7 +6616,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "に：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6629,7 +6629,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ぬ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6642,7 +6642,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ね：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6655,7 +6655,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "の：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6668,7 +6668,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "は：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6681,7 +6681,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ひ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6694,7 +6694,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ふ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6707,7 +6707,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "へ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6720,7 +6720,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ほ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6733,7 +6733,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ま：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6746,7 +6746,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "み：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6759,7 +6759,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "む：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6772,7 +6772,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "め：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6785,7 +6785,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "も：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6798,7 +6798,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "や：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6811,7 +6811,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ゆ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6824,7 +6824,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "よ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6837,7 +6837,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ら：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6850,7 +6850,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "り：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6863,7 +6863,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "る：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6876,7 +6876,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "れ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6889,7 +6889,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ろ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6902,7 +6902,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "わ：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6915,7 +6915,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "あいうえおかきくけこ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6944,7 +6944,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "さしすせそたちつてと\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -6973,7 +6973,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "なにぬねのはひふへほ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7002,7 +7002,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "まみむめもやゆよわを\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7031,7 +7031,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "アイウエオカキクケコ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7060,7 +7060,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "サシスセソタチツテト\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7089,7 +7089,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ナニヌネノハヒフヘホ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7118,7 +7118,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "マミムメモヤユヨワヲ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7147,7 +7147,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "がぎぐげござじずぜぞ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7176,7 +7176,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "だぢづでどばびぶべぼ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7205,7 +7205,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ぱぴぷぺぽガギグゲゴ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7234,7 +7234,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ザジズゼゾダヂヅデド\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7263,7 +7263,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "パピプペポバビブベボ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7292,7 +7292,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ぁぃぅぇぉゃゅょっん\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7321,7 +7321,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ァィゥェォャュョッヴ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7350,7 +7350,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ABCDEFGHIJ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7379,7 +7379,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "KLMNOPQRST\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7408,7 +7408,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "UVWXYZabcd\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7437,7 +7437,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "efghijklmn\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7466,7 +7466,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "opqrstuvwx\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7495,7 +7495,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "yz＋○Ｘ△「」『』\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7524,7 +7524,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "０１２３４５６７８９\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7553,7 +7553,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7582,7 +7582,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "□％、。ー~♠♣♥♦\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7611,7 +7611,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "→@★♂♀㎝㎏฿！?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7640,7 +7640,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "♪］［―＜＞\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7661,7 +7661,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "アイウエオカキクケコ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7690,7 +7690,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "サシスセソタチツテト\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7719,7 +7719,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ナニヌネノハヒフヘホ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7748,7 +7748,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "マミムメモヤユヨワヲ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7777,7 +7777,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7806,7 +7806,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "あいうえおかきくけこ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7835,7 +7835,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "さしすせそたちつてと\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7864,7 +7864,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "なにぬねのはひふへほ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7893,7 +7893,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "まみむめもやゆよわを\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7922,7 +7922,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "□％、。ー~♠♣♥♦\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7951,7 +7951,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "→@★♂♀㎝㎏฿！?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -7980,7 +7980,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "♪］［―＜＞がぎぐげ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8009,7 +8009,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ござじずぜぞだぢづで\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8038,7 +8038,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "どばびぶべぼぱぴぷぺ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8067,7 +8067,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ぽガギグゲゴザジズゼ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8096,7 +8096,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ゾダヂヅデドパピプペ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8125,7 +8125,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ポバビブベボABCD\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8154,7 +8154,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "EFGHIJKLMN\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8183,7 +8183,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "OPQRSTUVWX\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8212,7 +8212,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "YZabcdefgh\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8241,7 +8241,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ijklmnopqr\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8270,7 +8270,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "stuvwxyz＋○\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8299,7 +8299,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "Ｘ△「」『』ぁぃぅぇ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8328,7 +8328,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ぉゃゅょっんァィゥェ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8357,7 +8357,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ォャュョッヴ０１２３\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8386,7 +8386,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "４５６７８９\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8407,7 +8407,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "０１２３４５６７８９\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8436,7 +8436,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "がぎぐげござじずぜぞ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8465,7 +8465,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "だぢづでどばびぶべぼ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8494,7 +8494,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ぱぴぷぺぽガギグゲゴ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8523,7 +8523,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ザジズゼゾダヂヅデド\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8552,7 +8552,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "パピプペポバビブベボ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8581,7 +8581,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "あいうえおかきくけこ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8610,7 +8610,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "さしすせそたちつてと\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8639,7 +8639,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "なにぬねのはひふへほ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8668,7 +8668,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "まみむめもやゆよわを\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8697,7 +8697,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8726,7 +8726,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "□％、。ー~♠♣♥♦\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8755,7 +8755,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "→@★♂♀㎝㎏฿！?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8784,7 +8784,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "♪］［―＜＞アイウエ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8813,7 +8813,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "オカキクケコサシスセ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8842,7 +8842,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ソタチツテトナニヌネ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8871,7 +8871,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ノハヒフヘホマミムメ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8900,7 +8900,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "モヤユヨワヲABCD\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8929,7 +8929,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "EFGHIJKLMN\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8958,7 +8958,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "OPQRSTUVWX\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -8987,7 +8987,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "YZabcdefgh\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9016,7 +9016,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ijklmnopqr\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9045,7 +9045,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "stuvwxyz＋○\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9074,7 +9074,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "Ｘ△「」『』ぁぃぅぇ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9103,7 +9103,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ぉゃゅょっんァィゥェ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9132,7 +9132,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ォャュョッヴ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9153,7 +9153,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "がぎぐげござじずぜぞ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9182,7 +9182,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "だぢづでどばびぶべぼ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9211,7 +9211,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ぱぴぷぺぽガギグゲゴ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9240,7 +9240,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ザジズゼゾダヂヅデド\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9269,7 +9269,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "パピプペポバビブベボ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9298,7 +9298,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9327,7 +9327,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "０１２３４５６７８９\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9356,7 +9356,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "あいうえおかきくけこ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9385,7 +9385,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "さしすせそたちつてと\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9414,7 +9414,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "なにぬねのはひふへほ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9443,7 +9443,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "まみむめもやゆよわを\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9472,7 +9472,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ABCDEFGHIJ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9501,7 +9501,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "KLMNOPQRST\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9530,7 +9530,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "UVWXYZabcd\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9559,7 +9559,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "efghijklmn\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9588,7 +9588,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "opqrstuvwx\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9617,7 +9617,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "yz＋○Ｘ△「」『』\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9646,7 +9646,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "アイウエオカキクケコ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9675,7 +9675,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "サシスセソタチツテト\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9704,7 +9704,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ナニヌネノハヒフヘホ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9733,7 +9733,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "マミムメモヤユヨワヲ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9762,7 +9762,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "□％、。ー~♠♣♥♦\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9791,7 +9791,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "→@★♂♀㎝㎏฿！?\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9820,7 +9820,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "♪］［―＜＞ぁぃぅぇ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9849,7 +9849,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ぉゃゅょっんァィゥェ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9878,7 +9878,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "ォャュョッヴ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9899,7 +9899,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "[space][space][space][space][space][space][space][space][space][space][space][space][space]\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -9934,7 +9934,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "`",
       "Japanese": "[space]\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -35928,7 +35928,7 @@
       ]
     },
     {
-      "English": "|\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\n|^Age: 14\n|{N}\n|^\\1e\\1e\\20\\20\n|Height: 154 cm\n|\\1e\\1e\n|Weight: 46 kg\n|{N}{N}{N}\n|^Hobby: Befriending spirits\n|{N}\n|^A mysterious child who is able to talk\n|{N}\n|^to spirits. He is a bright and upright\n|{N}\n|^young man.",
+      "English": "\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\nAge: 14\n$N$\n|^\\1e\\1e\\20\\20\n|Height: 154 cm\n|\\1e\\1e\n|Weight: 46 kg\n|{N}{N}{N}\n|^Hobby: Befriending spirits\n|{N}\n|^A mysterious child who is able to talk\n|{N}\n|^to spirits. He is a bright and upright\n|{N}\n|^young man.",
       "Japanese": "[space][space][space][space][space][space][space][space][space]１４才\\fe\\ff[space][space][space]１５４㎝[space]４６㎏\\fe\\ff\\fe\\ff\\fe\\ff趣味[space]精霊と仲良くなること\\fe\\ff精霊とお話できるふしぎな\\fe\\ff男の子。明るく、すなおで\\fe\\ff元気だぞ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -36081,7 +36081,7 @@
       ]
     },
     {
-      "English": "|\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\n|^Age: 14\n|{N}\n|^\\1e\\1e\\20\\20\n|Height: 154 cm\n|\\1e\\1e\n|Weight: 40 kg\n|{N}{N}{N}\n|^Hobby: Making friends\n|{N}\n|^A mysterious child who is able to talk\n|{N}\n|^to spirits. She is a gentle yet energetic\n|{N}\n|^girl who cherishes her friends.",
+      "English": "\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\nAge: 14\n$N$\n|^\\1e\\1e\\20\\20\n|Height: 154 cm\n|\\1e\\1e\n|Weight: 40 kg\n|{N}{N}{N}\n|^Hobby: Making friends\n|{N}\n|^A mysterious child who is able to talk\n|{N}\n|^to spirits. She is a gentle yet energetic\n|{N}\n|^girl who cherishes her friends.",
       "Japanese": "[space][space][space][space][space][space][space][space][space]１４才\\fe\\ff[space][space][space]１５４㎝[space]４０㎏\\fe\\ff\\fe\\ff\\fe\\ff趣味[space]友達を作ること\\fe\\ff精霊とお話できるふしぎな子。\\fe\\ff友達思いの、やさしくて\\fe\\ff元気な女の子だ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -36236,7 +36236,7 @@
       ]
     },
     {
-      "English": "|\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\n|^Age: 15\n|{N}\n|^\\1e\\1e\\20\\20\n|Height: 157 cm\n|\\1e\\1e\n|Weight: 47 kg\n|{N}{N}{N}\n|^Hobby: Exercising\n|{N}\n|^A boy with a strong sense of justice.\n|{N}\n|^Once he focuses on something, he\n|{N}\n|^loses sight of the world around him.",
+      "English": "\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\nAge: 15\n$N$\n|^\\1e\\1e\\20\\20\n|Height: 157 cm\n|\\1e\\1e\n|Weight: 47 kg\n|{N}{N}{N}\n|^Hobby: Exercising\n|{N}\n|^A boy with a strong sense of justice.\n|{N}\n|^Once he focuses on something, he\n|{N}\n|^loses sight of the world around him.",
       "Japanese": "[space][space][space][space][space][space][space][space][space]１５才\\fe\\ff[space][space][space]１５７㎝[space]４７㎏\\fe\\ff\\fe\\ff\\fe\\ff趣味[space]体をきたえること\\fe\\ff正義感が強い男の子。\\fe\\ff何かをはじめると、他のこと\\fe\\ffが目に入らなくなることも。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -36399,7 +36399,7 @@
       ]
     },
     {
-      "English": "|\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\n|^Age: 15\n|{N}\n|^\\1e\\1e\\20\\20\n|Height: 162 cm\n|\\1e\\1e\n|Weight: 45 kg\n|{N}{N}{N}\n|^Hobby: Keeping a diary\n|{N}\n|^A girl at the top of her class but with\n|{N}\n|^a weak constitution. She is able to\n|{N}\n|^speak several languages.",
+      "English": "\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\nAge: 15\n$N$\n|^\\1e\\1e\\20\\20\n|Height: 162 cm\n|\\1e\\1e\n|Weight: 45 kg\n|{N}{N}{N}\n|^Hobby: Keeping a diary\n|{N}\n|^A girl at the top of her class but with\n|{N}\n|^a weak constitution. She is able to\n|{N}\n|^speak several languages.",
       "Japanese": "[space][space][space][space][space][space][space][space][space]１５才\\fe\\ff[space][space][space]１６２㎝[space]４５㎏\\fe\\ff\\fe\\ff\\fe\\ff趣味[space]日記\\fe\\ff病弱で優等生の女の子。\\fe\\ff真面目で勉強熱心で、いくつ\\fe\\ffか他の国の言葉もしゃべれる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -36554,7 +36554,7 @@
       ]
     },
     {
-      "English": "|\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\n|^Age: ???\n|{N}\n|^\\1e\\1e\\20\\20\n|Height: 218 cm\n|\\1e\\1e\n|Weight: 526 kg\n|{N}{N}{N}\n|^Hobby: Digging\n|{N}\n|^A boy made out of stone. He speaks\n|{N}\n|^little and is always staring off into\n|{N}\n|^space.",
+      "English": "\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\nAge: ???\n$N$\n|^\\1e\\1e\\20\\20\n|Height: 218 cm\n|\\1e\\1e\n|Weight: 526 kg\n|{N}{N}{N}\n|^Hobby: Digging\n|{N}\n|^A boy made out of stone. He speaks\n|{N}\n|^little and is always staring off into\n|{N}\n|^space.",
       "Japanese": "[space][space][space][space][space][space][space][space][space]?才\\fe\\ff[space][space][space]２１８㎝[space]５２６㎏\\fe\\ff\\fe\\ff\\fe\\ff趣味[space]穴掘り\\fe\\ffいつも無口でぼーっとしてい\\fe\\ffる、石一族の男の子。\\fe\\ffミミズをみつけるのが得意。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -36707,7 +36707,7 @@
       ]
     },
     {
-      "English": "|\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\n|^Age: 13\n|{N}\n|^\\1e\\1e\\20\\20\n|Height: 150 cm\n|\\1e\\1e\n|Weight: 38 kg\n|{N}{N}{N}\n|^Hobby: Collecting handkerchiefs\n|{N}\n|^A talkative girl with a shrill voice. She\n|{N}\n|^feels somewhat disconnected from\n|{N}\n|^the rest of her classmates.",
+      "English": "\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\nAge: 13\n$N$\n|^\\1e\\1e\\20\\20\n|Height: 150 cm\n|\\1e\\1e\n|Weight: 38 kg\n|{N}{N}{N}\n|^Hobby: Collecting handkerchiefs\n|{N}\n|^A talkative girl with a shrill voice. She\n|{N}\n|^feels somewhat disconnected from\n|{N}\n|^the rest of her classmates.",
       "Japanese": "[space][space][space][space][space][space][space][space][space]１３才\\fe\\ff[space][space][space]１５０㎝[space]３８㎏\\fe\\ff\\fe\\ff\\fe\\ff趣味[space]ハンカチ集め\\fe\\ffカン高い声でよくしゃべる\\fe\\ff女の子。\\fe\\ffクラスでは少しういてる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -36850,7 +36850,7 @@
       ]
     },
     {
-      "English": "|\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\n|^Age: 15\n|{N}\n|^\\1e\\1e\\20\\20\n|Height: 171 cm\n|\\1e\\1e\n|Weight: 58 kg\n|{N}{N}{N}\n|^Hobby: Playing the harmonica\n|{N}\n|^A boy who enjoys being alone yet\n|{N}\n|^who often looks out for others.\n|{N}\n|^He is popular among older women.",
+      "English": "\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\nAge: 15\n$N$\n|^\\1e\\1e\\20\\20\n|Height: 171 cm\n|\\1e\\1e\n|Weight: 58 kg\n|{N}{N}{N}\n|^Hobby: Playing the harmonica\n|{N}\n|^A boy who enjoys being alone yet\n|{N}\n|^who often looks out for others.\n|{N}\n|^He is popular among older women.",
       "Japanese": "[space][space][space][space][space][space][space][space][space]１５才\\fe\\ff[space][space][space]１７１㎝[space]５８㎏\\fe\\ff\\fe\\ff\\fe\\ff趣味[space]川原でハーモニカ\\fe\\ff一人でいることが好きなわり\\fe\\ffには、めんどうみがいい男の\\fe\\ff子。近所のオバさんに人気。\\ff\\ff",
       "Comments": "Ganache",
       "u8": [
@@ -37019,7 +37019,7 @@
       ]
     },
     {
-      "English": "|\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\n|^Age: 15\n|{N}\n|^\\1e\\1e\\20\\20\n|Height: 100 cm\n|\\1e\\1e\n|Weight: 15 kg\n|{N}{N}{N}\n|^Hobby: Knitting\n|{N}\n|^A clumsy Envoy of Love. She thinks\n|{N}\n|^the meaning of life is to spread the joy\n|{N}\n|^of love to others.",
+      "English": "\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\nAge: 15\n$N$\n|^\\1e\\1e\\20\\20\n|Height: 100 cm\n|\\1e\\1e\n|Weight: 15 kg\n|{N}{N}{N}\n|^Hobby: Knitting\n|{N}\n|^A clumsy Envoy of Love. She thinks\n|{N}\n|^the meaning of life is to spread the joy\n|{N}\n|^of love to others.",
       "Japanese": "[space][space][space][space][space][space][space][space][space]１５才\\fe\\ff[space][space][space]１００㎝[space]１５㎏\\fe\\ff\\fe\\ff\\fe\\ff趣味[space]あみもの\\fe\\ffドジでマヌケな愛の大使の女\\fe\\ffの子。愛のために生きるのが\\fe\\ff理想らしい。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -37166,7 +37166,7 @@
       ]
     },
     {
-      "English": "|\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\n|^Age: 16\n|{N}\n|^\\1e\\1e\\20\\20\n|Height: 148 cm\n|\\1e\\1e\n|Weight: 35 kg\n|{N}{N}{N}\n|^Hobby: Darts\n|{N}\n|^She doesn't hesitate to say what's on\n|{N}\n|^her mind. She's a good person at heart\n|{N}\n|^but can be a bit scary at times.",
+      "English": "\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\nAge: 16\n$N$\n|^\\1e\\1e\\20\\20\n|Height: 148 cm\n|\\1e\\1e\n|Weight: 35 kg\n|{N}{N}{N}\n|^Hobby: Darts\n|{N}\n|^She doesn't hesitate to say what's on\n|{N}\n|^her mind. She's a good person at heart\n|{N}\n|^but can be a bit scary at times.",
       "Japanese": "[space][space][space][space][space][space][space][space][space]１６才\\fe\\ff[space][space][space]１４８㎝[space]３５㎏\\fe\\ff\\fe\\ff\\fe\\ff趣味[space]ダーツ\\fe\\ff思ったことをハッキリと言っ\\fe\\ffてしまうタイプで、いい人だ\\fe\\ffけど、ちょっとコワイ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -37321,7 +37321,7 @@
       ]
     },
     {
-      "English": "|\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\n|^Age: 13\n|{N}\n|^\\1e\\1e\\20\\20\n|Height: 165 cm\n|\\1e\\1e\n|Weight: 40 kg\n|{N}{N}{N}\n|^Hobby: Pranking others\n|{N}\n|^He learned magic from the frog that\n|{N}\n|^resides in his hat. He is forbidden from\n|{N}\n|^catching gummy frogs.",
+      "English": "\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\nAge: 13\n$N$\n|^\\1e\\1e\\20\\20\n|Height: 165 cm\n|\\1e\\1e\n|Weight: 40 kg\n|{N}{N}{N}\n|^Hobby: Pranking others\n|{N}\n|^He learned magic from the frog that\n|{N}\n|^resides in his hat. He is forbidden from\n|{N}\n|^catching gummy frogs.",
       "Japanese": "[space][space][space][space][space][space][space][space][space]１３才\\fe\\ff[space][space][space]１６５㎝[space]４０㎏\\fe\\ff\\fe\\ff\\fe\\ff趣味[space]イタズラ\\fe\\ff帽子に住んでるカエル師匠に\\fe\\ff魔法をおそわった。カエルグ\\fe\\ffミを捕ることを禁止されてる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -37484,7 +37484,7 @@
       ]
     },
     {
-      "English": "|\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\n|^Age: 16\n|{N}\n|^\\1e\\1e\\20\\20\n|Height: 175 cm\n|\\1e\\1e\n|Weight: 60 kg\n|{N}{N}{N}\n|^Hobby: Collecting knives\n|{N}\n|^A vain and short-tempered boy. He is\n|{N}\n|^embarrassed whenever others catch\n|{N}\n|^him being kind.",
+      "English": "\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\nAge: 16\n$N$\n|^\\1e\\1e\\20\\20\n|Height: 175 cm\n|\\1e\\1e\n|Weight: 60 kg\n|{N}{N}{N}\n|^Hobby: Collecting knives\n|{N}\n|^A vain and short-tempered boy. He is\n|{N}\n|^embarrassed whenever others catch\n|{N}\n|^him being kind.",
       "Japanese": "[space][space][space][space][space][space][space][space][space]１６才\\fe\\ff[space][space][space]１７５㎝[space]６０㎏\\fe\\ff\\fe\\ff\\fe\\ff趣味[space]ナイフ集め\\fe\\ffひとりよがりで、気性の荒い\\fe\\ff男の子。優しい一面を見られ\\fe\\ffるのがイヤなてれやさん。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -37645,7 +37645,7 @@
       ]
     },
     {
-      "English": "|\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\n|^Age: 14\n|{N}\n|^\\1e\\1e\\20\\20\n|Height: 168 cm\n|\\1e\\1e\n|Weight: 55 kg\n|{N}{N}{N}\n|^Hobby: Poems\n|{N}\n|^A lover of the arts. He thinks he's an\n|{N}\n|^expert in painting and poetry.\n|{N}\n|^",
+      "English": "\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\nAge: 14\n$N$\n|^\\1e\\1e\\20\\20\n|Height: 168 cm\n|\\1e\\1e\n|Weight: 55 kg\n|{N}{N}{N}\n|^Hobby: Poems\n|{N}\n|^A lover of the arts. He thinks he's an\n|{N}\n|^expert in painting and poetry.\n|{N}\n|^",
       "Japanese": "[space][space][space][space][space][space][space][space][space]１４才\\fe\\ff[space][space][space]１６８㎝[space]５５㎏\\fe\\ff\\fe\\ff\\fe\\ff趣味[space]ポエム\\fe\\ff芸術が好きな男の子。\\fe\\ff絵や詩のことは、自分が一番\\fe\\ffわかってると思ってる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -37794,7 +37794,7 @@
       ]
     },
     {
-      "English": "|\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\n|^Age: 15\n|{N}\n|^\\1e\\1e\\20\\20\n|Height: 150 cm\n|\\1e\\1e\n|Weight: 40 kg\n|{N}{N}{N}\n|^Hobby: Playing instruments\n|{N}\n|^A girl who loves music. She does\n|{N}\n|^things at her own pace. Her parents\n|{N}\n|^are both musicians.",
+      "English": "\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\nAge: 15\n$N$\n|^\\1e\\1e\\20\\20\n|Height: 150 cm\n|\\1e\\1e\n|Weight: 40 kg\n|{N}{N}{N}\n|^Hobby: Playing instruments\n|{N}\n|^A girl who loves music. She does\n|{N}\n|^things at her own pace. Her parents\n|{N}\n|^are both musicians.",
       "Japanese": "[space][space][space][space][space][space][space][space][space]１５才\\fe\\ff[space][space][space]１５０㎝[space]４０㎏\\fe\\ff\\fe\\ff\\fe\\ff趣味[space]楽器をひくこと\\fe\\ff音楽好きな女の子。\\fe\\ff極めてマイペース。\\fe\\ffパパもママもミュージシャン。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -37947,7 +37947,7 @@
       ]
     },
     {
-      "English": "|\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\n|^Age: ???\n|{N}\n|^\\1e\\1e\\20\\20\n|Height: 187 cm\n|\\1e\\1e\n|Weight: 20 kg\n|{N}{N}{N}\n|^Hobby: Traveling\n|{N}\n|^An ancient machine created a long\n|{N}\n|^time ago. Its gears continue to spin\n|{N}\n|^even when it's asleep.",
+      "English": "\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\nAge: ???\n$N$\n|^\\1e\\1e\\20\\20\n|Height: 187 cm\n|\\1e\\1e\n|Weight: 20 kg\n|{N}{N}{N}\n|^Hobby: Traveling\n|{N}\n|^An ancient machine created a long\n|{N}\n|^time ago. Its gears continue to spin\n|{N}\n|^even when it's asleep.",
       "Japanese": "[space][space][space][space][space][space][space][space][space]?才\\fe\\ff[space][space][space]１８７㎝[space]２０㎏\\fe\\ff\\fe\\ff\\fe\\ff趣味[space]旅行\\fe\\ffずっと昔に作られた古代機械\\fe\\ffだけど、ずっとゼンマイがの\\fe\\ffびたまま眠っていた。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -38096,7 +38096,7 @@
       ]
     },
     {
-      "English": "|\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\n|^Age: 12\n|{N}\n|^\\1e\\1e\\20\\20\n|Height: 97 cm\n|\\1e\\1e\n|Weight: 23 kg\n|{N}{N}{N}\n|^Hobby: Reading\n|{N}\n|^A cowardly boy. Those around him\n|{N}\n|^think that he acts like an old man at\n|{N}\n|^times.",
+      "English": "\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\nAge: 12\n$N$\n|^\\1e\\1e\\20\\20\n|Height: 97 cm\n|\\1e\\1e\n|Weight: 23 kg\n|{N}{N}{N}\n|^Hobby: Reading\n|{N}\n|^A cowardly boy. Those around him\n|{N}\n|^think that he acts like an old man at\n|{N}\n|^times.",
       "Japanese": "[space][space][space][space][space][space][space][space][space]１２才\\fe\\ff[space][space][space][space]９７㎝[space]２３㎏\\fe\\ff\\fe\\ff\\fe\\ff趣味[space]読書\\fe\\ff怖がりな男の子。\\fe\\ffみょうにじじくさい面がある\\fe\\ffとみんなに言われている。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -38241,7 +38241,7 @@
       ]
     },
     {
-      "English": "|\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\n|^Age: 11\n|{N}\n|^\\1e\\1e\\20\\20\n|Height: 122 cm\n|\\1e\\1e\n|Weight: 25 kg\n|{N}{N}{N}\n|^Hobby: Playing with animals\n|{N}\n|^She enjoys spending time with birds\n|{N}\n|^and animals rather than making\n|{N}\n|^friends.",
+      "English": "\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\nAge: 11\n$N$\n|^\\1e\\1e\\20\\20\n|Height: 122 cm\n|\\1e\\1e\n|Weight: 25 kg\n|{N}{N}{N}\n|^Hobby: Playing with animals\n|{N}\n|^She enjoys spending time with birds\n|{N}\n|^and animals rather than making\n|{N}\n|^friends.",
       "Japanese": "[space][space][space][space][space][space][space][space][space]１１才\\fe\\ff[space][space][space]１２２㎝[space]２５㎏\\fe\\ff\\fe\\ff\\fe\\ff趣味[space]動物と遊ぶこと\\fe\\ff友達をあまり作ろうとしない\\fe\\ffで、鳥や動物と遊んでばかり\\fe\\ffいる女の子。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -38394,7 +38394,7 @@
       ]
     },
     {
-      "English": "|\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\n|^Age: 10\n|{N}\n|^\\1e\\1e\\20\\20\n|Height: 120 cm\n|\\1e\\1e\n|Weight: 22 kg\n|{N}{N}{N}\n|^Hobby: Catching bugs\n|{N}\n|^A bug loving boy. Once he spots a rare\n|{N}\n|^bug, he drops everything to go catch\n|{N}\n|^it.",
+      "English": "\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\nAge: 10\n$N$\n|^\\1e\\1e\\20\\20\n|Height: 120 cm\n|\\1e\\1e\n|Weight: 22 kg\n|{N}{N}{N}\n|^Hobby: Catching bugs\n|{N}\n|^A bug loving boy. Once he spots a rare\n|{N}\n|^bug, he drops everything to go catch\n|{N}\n|^it.",
       "Japanese": "[space][space][space][space][space][space][space][space][space]１０才\\fe\\ff[space][space][space]１２０㎝[space]２２㎏\\fe\\ff\\fe\\ff\\fe\\ff趣味[space]虫とり\\fe\\ffめずらしい虫をみかけると、\\fe\\ffなにもかも忘れて追いかけて\\fe\\ff行く、虫好きな男の子。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -38549,7 +38549,7 @@
       ]
     },
     {
-      "English": "|\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\n|^Age: 28\n|{N}\n|^\\1e\\1e\\20\\20\n|Height: 75 cm\n|\\1e\\1e\n|Weight: 30 kg\n|{N}{N}{N}\n|^Hobby: Traveling alone\n|{N}\n|^To it, traveling alone is the\n|{N}\n|^best. Traveling with others is\n|{N}\n|^second best.",
+      "English": "\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\nAge: 28\n$N$\n|^\\1e\\1e\\20\\20\n|Height: 75 cm\n|\\1e\\1e\n|Weight: 30 kg\n|{N}{N}{N}\n|^Hobby: Traveling alone\n|{N}\n|^To it, traveling alone is the\n|{N}\n|^best. Traveling with others is\n|{N}\n|^second best.",
       "Japanese": "[space][space][space][space][space][space][space][space][space]２８才\\fe\\ff[space][space][space][space]７５㎝[space]３０㎏\\fe\\ff\\fe\\ff\\fe\\ff趣味[space]一人旅\\fe\\ff一人で旅している時が、１番\\fe\\ff幸せで、みんなで旅をしてい\\fe\\ffるときが２番目に幸せ。\\ff\\ff",
       "Comments": "Traveling putty I'm guessing?",
       "u8": [
@@ -38704,7 +38704,7 @@
       ]
     },
     {
-      "English": "|\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\n|^Age: 2\n|{N}\n|^\\1e\\1e\\20\\20\n|Height: 17 cm\n|\\1e\\1e\n|Weight: 0.3 kg\n|{N}{N}{N}\n|^Hobby: Swimming\n|{N}\n|^It likes taking a nap on the\n|{N}\n|^back of the hands of others.\n|{N}\n|^",
+      "English": "\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\nAge: 2\n$N$\n|^\\1e\\1e\\20\\20\n|Height: 17 cm\n|\\1e\\1e\n|Weight: 0.3 kg\n|{N}{N}{N}\n|^Hobby: Swimming\n|{N}\n|^It likes taking a nap on the\n|{N}\n|^back of the hands of others.\n|{N}\n|^",
       "Japanese": "[space][space][space][space][space][space][space][space][space][space]２才\\fe\\ff[space][space][space]１７㎝[space]０、３㎏\\fe\\ff\\fe\\ff\\fe\\ff趣味[space]水あび\\fe\\ff人の手の甲の上にちょこんと\\fe\\ff乗っかって、居眠りすること\\fe\\ffがある。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -38845,7 +38845,7 @@
       ]
     },
     {
-      "English": "|\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\n|^Age: 998\n|{N}\n|^\\1e\\1e\\20\\20\n|Height: 112 cm\n|\\1e\\1e\n|Weight: 32 kg\n|{N}{N}{N}\n|^Hobby: ???\n|{N}\n|^His scruffy hair reminds others\n|{N}\n|^of a dodo. He even smells like\n|{N}\n|^once.",
+      "English": "\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\nAge: 998\n$N$\n|^\\1e\\1e\\20\\20\n|Height: 112 cm\n|\\1e\\1e\n|Weight: 32 kg\n|{N}{N}{N}\n|^Hobby: ???\n|{N}\n|^His scruffy hair reminds others\n|{N}\n|^of a dodo. He even smells like\n|{N}\n|^once.",
       "Japanese": "[space][space][space][space][space][space][space][space]９９８才\\fe\\ff[space][space][space]１１２㎝[space]３２㎏\\fe\\ff\\fe\\ff\\fe\\ff趣味[space]????\\fe\\ff毛のツヤが良くないので、お\\fe\\ff年寄りのどーどーと思われる。\\fe\\ffかなりトリ臭い。\\ff\\ff",
       "Comments": "Brownie?",
       "u8": [
@@ -38998,7 +38998,7 @@
       ]
     },
     {
-      "English": "|\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\n|^Age: 33\n|{N}\n|^\\1e\\1e\\20\\20\n|Height: 80 cm\n|\\1e\\1e\n|Weight: 90 kg\n|{N}{N}{N}\n|^Hobby: Spinning around\n|{N}\n|^There's just enough room in\n|{N}\n|^it for Pistachio to fit in.\n|{N}\n|^Inside is a walnut.",
+      "English": "\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\nAge: 33\n$N$\n|^\\1e\\1e\\20\\20\n|Height: 80 cm\n|\\1e\\1e\n|Weight: 90 kg\n|{N}{N}{N}\n|^Hobby: Spinning around\n|{N}\n|^There's just enough room in\n|{N}\n|^it for Pistachio to fit in.\n|{N}\n|^Inside is a walnut.",
       "Japanese": "[space][space][space][space][space][space][space][space][space]３３才\\fe\\ff[space][space][space][space]８０㎝[space]９０㎏\\fe\\ff\\fe\\ff\\fe\\ff趣味[space]くるみを入れてまわす\\fe\\ffピスタチオが中に入ると、頭\\fe\\ffはみ出るくらいの大きさのツ\\fe\\ffボ。中身はクルミ１個。\\ff\\ff",
       "Comments": "Pot?",
       "u8": [
@@ -39167,7 +39167,7 @@
       ]
     },
     {
-      "English": "|\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\n|^Age: 5\n|{N}\n|^\\1e\\1e\\20\\20\n|Height: 15 cm\n|\\1e\\1e\n|Weight: 0.1 kg\n|{N}{N}{N}\n|^Hobby: Croaking\n|{N}\n|^No one knows what it's\n|{N}\n|^thinking. Despite its looks,\n|{N}\n|^it smells fruity.",
+      "English": "\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\nAge: 5\n$N$\n|^\\1e\\1e\\20\\20\n|Height: 15 cm\n|\\1e\\1e\n|Weight: 0.1 kg\n|{N}{N}{N}\n|^Hobby: Croaking\n|{N}\n|^No one knows what it's\n|{N}\n|^thinking. Despite its looks,\n|{N}\n|^it smells fruity.",
       "Japanese": "[space][space][space][space][space][space][space][space][space][space]５才\\fe\\ff[space][space][space]１５㎝[space]０、１㎏\\fe\\ff\\fe\\ff\\fe\\ff趣味[space]ゲロゲロ鳴くこと\\fe\\ff何を考えているかわからない。\\fe\\ff見た目と裏腹にフルーティな\\fe\\ff香りがする。\\ff\\ff",
       "Comments": "Gummy frog?",
       "u8": [
@@ -39324,7 +39324,7 @@
       ]
     },
     {
-      "English": "|\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\n|^Age: 98\n|{N}\n|^\\1e\\1e\\20\\20\n|Height: 110 cm\n|\\1e\\1e\n|Weight: 42 kg\n|{N}{N}{N}\n|^Hobby: Napping\n|{N}\n|^A reticent expressionless man.\n|{N}\n|^He sometimes mumbles nonsense.\n|{N}\n|^His clothes are in tatters.",
+      "English": "\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\nAge: 98\n$N$\n|^\\1e\\1e\\20\\20\n|Height: 110 cm\n|\\1e\\1e\n|Weight: 42 kg\n|{N}{N}{N}\n|^Hobby: Napping\n|{N}\n|^A reticent expressionless man.\n|{N}\n|^He sometimes mumbles nonsense.\n|{N}\n|^His clothes are in tatters.",
       "Japanese": "[space][space][space][space][space][space][space][space][space]９８才\\fe\\ff[space][space][space]１１０㎝[space]４２㎏\\fe\\ff\\fe\\ff\\fe\\ff趣味[space]居眠り\\fe\\ff無口で無表情なおじいさん。\\fe\\ff時々意味もなくうなずく。\\fe\\ffボロボロの服を着ている。\\ff\\ff",
       "Comments": "Dwarf?",
       "u8": [
@@ -39479,7 +39479,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "",
       "Japanese": "[space][space][space][space][space][space][space][space][space]１４才\\fe\\ff[space][space][space]１５４㎝[space]４６㎏\\fe\\ff\\fe\\ff\\fe\\ff趣味[space]あそぶこと\\fe\\ff精霊とお話できるふしぎな\\fe\\ff男の子。明るく、すなおで\\fe\\ff元気だぞ。\\ff\\ff",
       "Comments": "Unused",
       "u8": [
@@ -39622,7 +39622,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "",
       "Japanese": "[space][space][space][space][space][space][space][space][space]１４才\\fe\\ff[space][space][space]１５４㎝[space]４６㎏\\fe\\ff\\fe\\ff\\fe\\ff趣味[space]あそぶこと\\fe\\ff精霊とお話できるふしぎな\\fe\\ff男の子。明るく、すなおで\\fe\\ff元気だぞ。\\ff\\ff",
       "Comments": "Unused",
       "u8": [
@@ -39765,7 +39765,7 @@
       ]
     },
     {
-      "English": "|",
+      "English": "",
       "Japanese": "[space][space][space][space][space][space][space][space][space]１４才\\fe\\ff[space][space][space]１５４㎝[space]４６㎏\\fe\\ff\\fe\\ff\\fe\\ff趣味[space]あそぶこと\\fe\\ff精霊とお話できるふしぎな\\fe\\ff男の子。明るく、すなおで\\fe\\ff元気だぞ。\\ff\\ff",
       "Comments": "Unused",
       "u8": [
@@ -39908,7 +39908,7 @@
       ]
     },
     {
-      "English": "|\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\n|^Age: 3\n|{N}\n|^\\1e\\1e\\20\\20\n|Height: 68 cm\n|\\1e\\1e\n|Weight: 68 kg\n|{N}{N}{N}\n|^Hobby: Having fun\n|{N}\n|^It's always looking for the\n|{N}\n|^fun thing to do. However, it\n|{N}\n|^gets mad easily.",
+      "English": "\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\nAge: 3\n$N$\n|^\\1e\\1e\\20\\20\n|Height: 68 cm\n|\\1e\\1e\n|Weight: 68 kg\n|{N}{N}{N}\n|^Hobby: Having fun\n|{N}\n|^It's always looking for the\n|{N}\n|^fun thing to do. However, it\n|{N}\n|^gets mad easily.",
       "Japanese": "[space][space][space][space][space][space][space][space][space][space]３才\\fe\\ff[space][space][space][space]６８㎝[space]６８㎏\\fe\\ff\\fe\\ff\\fe\\ff趣味[space]あそぶこと\\fe\\ffいつも楽しいことをさがして\\fe\\ffワクワクした顔をしている。\\fe\\ffでも気が短い。\\ff\\ff",
       "Comments": "Unused?",
       "u8": [
@@ -40059,7 +40059,7 @@
       ]
     },
     {
-      "English": "|\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\n|^Age: 78\n|{N}\n|^\\1e\\1e\\20\\20\n|Height: 72 cm\n|\\1e\\1e\n|Weight: 83 kg\n|{N}{N}{N}\n|^Hobby: Making mudballs\n|{N}\n|^He gets in all kinds of\n|{N}\n|^trouble. Sometimes his\n|{N}\n|^hiccups won't stop.",
+      "English": "\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\nAge: 78\n$N$\n|^\\1e\\1e\\20\\20\n|Height: 72 cm\n|\\1e\\1e\n|Weight: 83 kg\n|{N}{N}{N}\n|^Hobby: Making mudballs\n|{N}\n|^He gets in all kinds of\n|{N}\n|^trouble. Sometimes his\n|{N}\n|^hiccups won't stop.",
       "Japanese": "[space][space][space][space][space][space][space][space][space]７８才\\fe\\ff[space][space][space][space]７２㎝[space]８３㎏\\fe\\ff\\fe\\ff\\fe\\ff趣味[space]ドロだんご創り\\fe\\ffめんどくさがり屋さん。\\fe\\ff時々しゃっくりが止まらない\\fe\\ffでいる姿が案外かわいい。\\ff\\ff",
       "Comments": "Unused?",
       "u8": [
@@ -40220,7 +40220,7 @@
       ]
     },
     {
-      "English": "|\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\n|^Age: 7\n|{N}\n|^\\1e\\1e\\20\\20\n|Height: 60 cm\n|\\1e\\1e\n|Weight: 62 kg\n|{N}{N}{N}\n|^Hobby: Water sports\n|{N}\n|^It's always complaining about\n|{N}\n|^the littlest things. It loves \n|{N}\n|^to sing.",
+      "English": "\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\\1e\nAge: 7\n$N$\n|^\\1e\\1e\\20\\20\n|Height: 60 cm\n|\\1e\\1e\n|Weight: 62 kg\n|{N}{N}{N}\n|^Hobby: Water sports\n|{N}\n|^It's always complaining about\n|{N}\n|^the littlest things. It loves \n|{N}\n|^to sing.",
       "Japanese": "[space][space][space][space][space][space][space][space][space][space]７才\\fe\\ff[space][space][space][space]６０㎝[space]６２㎏\\fe\\ff\\fe\\ff\\fe\\ff趣味[space]水遊び\\fe\\ff細かいことにうるさいヤツ。\\fe\\ffヘタな歌をずーっと歌ってて\\fe\\ffすごく耳ざわり。\\ff\\ff",
       "Comments": "Unused?",
       "u8": [
@@ -40369,7 +40369,7 @@
       ]
     },
     {
-      "English": "^A spirit born from fire.\\fe\\ff^abcdefghijklmnopqrstuvwxyz",
+      "English": "A spirit born from fire.\\fe\\ff^abcdefghijklmnopqrstuvwxyz",
       "Japanese": "火の中から生まれた精霊。\\fe\\ff見かけによらずわりと冷静。\\fe\\ff火の魔法を使うときに、倍の\\fe\\ff威力にしてくれる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -41993,7 +41993,7 @@
   ],
   [
     {
-      "English": "^Types of magic",
+      "English": "Types of magic",
       "Japanese": "魔法の種類\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42012,7 +42012,7 @@
       ]
     },
     {
-      "English": "^Regarding HP",
+      "English": "Regarding HP",
       "Japanese": "HPについて\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42033,7 +42033,7 @@
       ]
     },
     {
-      "English": "^Regarding MP",
+      "English": "Regarding MP",
       "Japanese": "MPについて\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42054,7 +42054,7 @@
       ]
     },
     {
-      "English": "^Regarding attack",
+      "English": "Regarding attack",
       "Japanese": "力について\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42073,7 +42073,7 @@
       ]
     },
     {
-      "English": "^Regarding defense",
+      "English": "Regarding defense",
       "Japanese": "守りについて\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42094,7 +42094,7 @@
       ]
     },
     {
-      "English": "^Regarding speed",
+      "English": "Regarding speed",
       "Japanese": "速さについて\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42115,7 +42115,7 @@
       ]
     },
     {
-      "English": "^Regarding spirit",
+      "English": "Regarding spirit",
       "Japanese": "精神について\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42136,7 +42136,7 @@
       ]
     },
     {
-      "English": "^Regarding MP recovery",
+      "English": "Regarding MP recovery",
       "Japanese": "MP回復率について\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42163,7 +42163,7 @@
       ]
     },
     {
-      "English": "^Kicks and punches",
+      "English": "Kicks and punches",
       "Japanese": "キックやパンチ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42186,7 +42186,7 @@
       ]
     },
     {
-      "English": "^Magic EXP and levels",
+      "English": "Magic EXP and levels",
       "Japanese": "属性経験値と魔法レベル\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42217,7 +42217,7 @@
       ]
     },
     {
-      "English": "^Befriending spirits",
+      "English": "Befriending spirits",
       "Japanese": "精霊と仲良くなる\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42242,7 +42242,7 @@
       ]
     },
     {
-      "English": "^Summoning spirits",
+      "English": "Summoning spirits",
       "Japanese": "精霊を召喚する\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42265,7 +42265,7 @@
       ]
     },
     {
-      "English": "^Spirit multipliers",
+      "English": "Spirit multipliers",
       "Japanese": "精霊で威力を倍に\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42290,7 +42290,7 @@
       ]
     },
     {
-      "English": "^Ineffective magic",
+      "English": "Ineffective magic",
       "Japanese": "同じ属性の魔法での攻撃\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42321,7 +42321,7 @@
       ]
     },
     {
-      "English": "^Regarding gummy frogs",
+      "English": "Regarding gummy frogs",
       "Japanese": "カエルグミについて\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42348,7 +42348,7 @@
       ]
     },
     {
-      "English": "^Regarding gummy worms",
+      "English": "Regarding gummy worms",
       "Japanese": "ミミズグミについて\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42375,7 +42375,7 @@
       ]
     },
     {
-      "English": "^Regarding tails",
+      "English": "Regarding tails",
       "Japanese": "しっぽについて\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42398,7 +42398,7 @@
       ]
     },
     {
-      "English": "^Regarding leaves",
+      "English": "Regarding leaves",
       "Japanese": "はっぱについて\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42421,7 +42421,7 @@
       ]
     },
     {
-      "English": "^Equipping magic",
+      "English": "Equipping magic",
       "Japanese": "魔法のそうび\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42442,7 +42442,7 @@
       ]
     },
     {
-      "English": "^Equipment",
+      "English": "Equipment",
       "Japanese": "防具のそうび\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42463,7 +42463,7 @@
       ]
     },
     {
-      "English": "^Stickers and elemental defense",
+      "English": "Stickers and elemental defense",
       "Japanese": "シールのぼうぎょ効果\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42492,7 +42492,7 @@
       ]
     },
     {
-      "English": "^Stickers and magic EXP",
+      "English": "Stickers and magic EXP",
       "Japanese": "シールの経験値効果\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42519,7 +42519,7 @@
       ]
     },
     {
-      "English": "^The compassion sticker",
+      "English": "The compassion sticker",
       "Japanese": "愛のシールの効果\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42544,7 +42544,7 @@
       ]
     },
     {
-      "English": "^Order of actions",
+      "English": "Order of actions",
       "Japanese": "行動の順番\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42563,7 +42563,7 @@
       ]
     },
     {
-      "English": "^Battle formation",
+      "English": "Battle formation",
       "Japanese": "フォーメーション\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42588,7 +42588,7 @@
       ]
     },
     {
-      "English": "^Warping",
+      "English": "Warping",
       "Japanese": "ワープの方法\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42609,7 +42609,7 @@
       ]
     },
     {
-      "English": "^Increasing magic EXP",
+      "English": "Increasing magic EXP",
       "Japanese": "属性経験値の上がり方\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42638,7 +42638,7 @@
       ]
     },
     {
-      "English": "^The report card",
+      "English": "The report card",
       "Japanese": "成績表について\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42661,7 +42661,7 @@
       ]
     },
     {
-      "English": "^Let's Hot Springs",
+      "English": "Let's Hot Springs",
       "Japanese": "レッツ温泉\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42680,7 +42680,7 @@
       ]
     },
     {
-      "English": "^Let's Battle",
+      "English": "Let's Battle",
       "Japanese": "レッツ対戦\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42699,7 +42699,7 @@
       ]
     },
     {
-      "English": "^Amigos and mojos",
+      "English": "Amigos and mojos",
       "Japanese": "アミーゴの極意\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42722,7 +42722,7 @@
       ]
     },
     {
-      "English": "^Rank",
+      "English": "Rank",
       "Japanese": "称号\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42735,7 +42735,7 @@
       ]
     },
     {
-      "English": "^Using other elemental magic",
+      "English": "Using other elemental magic",
       "Japanese": "自分の属性以外の魔法\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42764,7 +42764,7 @@
       ]
     },
     {
-      "English": "^Element effectiveness",
+      "English": "Element effectiveness",
       "Japanese": "精霊の強弱関係\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42787,7 +42787,7 @@
       ]
     },
     {
-      "English": "^Creating combos",
+      "English": "Creating combos",
       "Japanese": "コンボを決めよう\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42812,7 +42812,7 @@
       ]
     },
     {
-      "English": "^How to cross the desert",
+      "English": "How to cross the desert",
       "Japanese": "砂漠の歩き方\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42833,7 +42833,7 @@
       ]
     },
     {
-      "English": "^How to make ricebirds move",
+      "English": "How to make ricebirds move",
       "Japanese": "桜文鳥のどかしかた\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42860,7 +42860,7 @@
       ]
     },
     {
-      "English": "^Learning love magic",
+      "English": "Learning love magic",
       "Japanese": "愛の魔法を覚える\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42885,7 +42885,7 @@
       ]
     },
     {
-      "English": "^Learning dark magic",
+      "English": "Learning dark magic",
       "Japanese": "闇の魔法を覚える\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42910,7 +42910,7 @@
       ]
     },
     {
-      "English": "^Learning light magic",
+      "English": "Learning light magic",
       "Japanese": "光の魔法を覚える\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -50503,7 +50503,7 @@
   ],
   [
     {
-      "English": "\\fe\\ff\\00\\1e\\00\\1e\\00\\1e\\00\\1e\\00\\1e^Height: 68cm\\fe\\ff\\00\\1e\\00\\1e\\00\\1e\\00\\1e\\00\\1e^Weight: 20kg\\fe\\ff^Location: Place\\fe\\ff^It's a bat that breathes fire. It's fast\\fe\\ff^but weak. Be careful not to get burned.",
+      "English": "\\fe\\ff\\00\\1e\\00\\1e\\00\\1e\\00\\1e\\00\\1eHeight: 68cm\\fe\\ff\\00\\1e\\00\\1e\\00\\1e\\00\\1e\\00\\1e^Weight: 20kg\\fe\\ff^Location: Place\\fe\\ff^It's a bat that breathes fire. It's fast\\fe\\ff^but weak. Be careful not to get burned.",
       "Japanese": "\\fe\\ff[space][space][space][space][space]身長[space]６８㎝\\fe\\ff[space][space][space][space][space]体重[space]２０㎏\\fe\\ff生息地[space]森の洞窟\\fe\\ff火を吹くコウモリネズミ。\\fe\\ff動きはすばやいが弱い。\\fe\\ffやけどに注意。\\ff\\ff",
       "Comments": "PLACEHOLDER.",
       "u8": [
@@ -98061,7 +98061,7 @@
   ],
   [
     {
-      "English": "^ The Basics of Magic Dolls",
+      "English": " The Basics of Magic Dolls",
       "Japanese": "マジックドールの基本\\ff\\ff",
       "Comments": "Adding extra space in front so that it looks nicer",
       "u8": [
@@ -98090,7 +98090,7 @@
       ]
     },
     {
-      "English": "^ Assembling Your Magic Doll",
+      "English": " Assembling Your Magic Doll",
       "Japanese": "MDパーツの組みこみ方\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98121,7 +98121,7 @@
       ]
     },
     {
-      "English": "^ The Art of Bewitching",
+      "English": " The Art of Bewitching",
       "Japanese": "魂の入魂方法\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98142,7 +98142,7 @@
       ]
     },
     {
-      "English": "^ Types of Magic Doll Parts",
+      "English": " Types of Magic Doll Parts",
       "Japanese": "MDパーツの種類\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98167,7 +98167,7 @@
       ]
     },
     {
-      "English": "^ Magic Doll Parts Guide: Shell",
+      "English": " Magic Doll Parts Guide: Shell",
       "Japanese": "MDパーツ・シェル\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98194,7 +98194,7 @@
       ]
     },
     {
-      "English": "^ Magic Doll Parts Guide: Gem",
+      "English": " Magic Doll Parts Guide: Gem",
       "Japanese": "MDパーツ・ジェム\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98221,7 +98221,7 @@
       ]
     },
     {
-      "English": "^ Magic Doll Parts Guide: Fruits",
+      "English": " Magic Doll Parts Guide: Fruits",
       "Japanese": "MDパーツ・フルーツ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98250,7 +98250,7 @@
       ]
     },
     {
-      "English": "^ Magic Doll Parts Guide: Mica",
+      "English": " Magic Doll Parts Guide: Mica",
       "Japanese": "MDパーツ・キララ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98277,7 +98277,7 @@
       ]
     },
     {
-      "English": "^ Magic Doll Parts Guide: Gut",
+      "English": " Magic Doll Parts Guide: Gut",
       "Japanese": "MDパーツ・ガット\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98304,7 +98304,7 @@
       ]
     },
     {
-      "English": "^ The Power of Magic Dolls",
+      "English": " The Power of Magic Dolls",
       "Japanese": "マジックドールの能力\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98333,7 +98333,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "MD能力・タイプ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98358,7 +98358,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "MD能力・パワー倍率\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98387,7 +98387,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "MD能力・パワーリミット\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98420,7 +98420,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "MD能力・必要パワー\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98449,7 +98449,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "コラム・MDと時代背景\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98480,7 +98480,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "TIPS・ケースに応じて\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98513,7 +98513,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "TIPS・入魂時の装備\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98544,7 +98544,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "TIPS・素材組み合わせ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98577,7 +98577,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "資料・シェルの種類\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98604,7 +98604,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "資料・ジェムの種類\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98631,7 +98631,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "資料・フルーツの種類\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98660,7 +98660,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "資料・キララの種類\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98687,7 +98687,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "資料・ガットの種類\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98714,7 +98714,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "MDの個性\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98733,7 +98733,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "コラム・MDとマッドマン\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98766,7 +98766,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "MD０５－サーディン\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98795,7 +98795,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "MD０４－フラウンダ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98824,7 +98824,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "MD０３－マッケレル\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98853,7 +98853,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "MD０２－ボニート\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98880,7 +98880,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "MD０１－ターニィ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98907,7 +98907,7 @@
       ]
     },
     {
-      "English": "^\\00\\1eA magic doll, sometimes called an \"MD\"\\fe\\ff^for short, is a humanoid puppet that runs\\fe\\ff^on magical energy.       ",
+      "English": "\\00\\1eA magic doll, sometimes called an \"MD\"\\fe\\ff^for short, is a humanoid puppet that runs\\fe\\ff^on magical energy.       ",
       "Japanese": "[space]マジックドールは、MDとも\\fe\\ff呼ばれる、魔法の力で動く人形\\fe\\ffのこと。\\fe\\ff[space]５つの素材（MDパーツ）を\\fe\\ff組みこみ、魂の入魂を行わない\\fe\\ffと、その能力はすべて１なので\\fe\\ffかならずこれらを行わなければ\\fe\\ffならない。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -99116,7 +99116,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "[space]メニューのメンバーから、\\fe\\ffマジックドールを選び、MD\\fe\\ffパーツセットで素材の組みこみ\\fe\\ffを行う。\\fe\\ff[space]５つの素材をすべて組みこま\\fe\\ffないと、各能力値は１のまま。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -99279,7 +99279,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "[space]メニューのメンバーから、\\fe\\ffマジックドールを選び、プロ\\fe\\ffフィールを表示し、その中の霊\\fe\\ff魂でキャラクターを選択する。\\fe\\ff[space]魂を入魂しても、もとのキャ\\fe\\ffラから魂が抜けるわけではな\\fe\\ffく、マジックドールに魂がコ\\fe\\ffピーされると考えてよい。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -99514,7 +99514,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "[space]マジックドールに組みこむ素\\fe\\ff材は、シェル、ジェム、フルー\\fe\\ffツ、キララ、ガットの５種類。\\fe\\ff[space]これらの組み合わせで、マ\\fe\\ffジックドールの基本的な性能が\\fe\\ff決まる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -99679,7 +99679,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "[space]シェルは、マジックドールの\\fe\\ff外殻になる。\\fe\\ff[space]アイテムの中で、[icon 0x0a]クラブ\\fe\\ffシェルなどの、『シェル』とつ\\fe\\ffくものがそれにあたる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -99812,7 +99812,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "[space]ジェムは、入魂した魂から\\fe\\ffパワーを引き出すために使用さ\\fe\\ffれる宝石のことを指す。\\fe\\ff[space][icon 0x0a]アメジストや[icon 0x0a]ルビーなど\\fe\\ffが存在する。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -99945,7 +99945,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "[space]魂から取り出したパワーを\\fe\\ffマジックドールの全身に流れや\\fe\\ffすくするために、フルーツが使\\fe\\ff用される。\\fe\\ff[space][icon 0x0a]オレンジの実、[icon 0x0a]りんごの\\fe\\ff実などがある。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -100098,7 +100098,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "[space]雲母と呼ばれる鉱石で、魂か\\fe\\ffら取り出したパワーを増幅する\\fe\\ffために使用される。\\fe\\ff[space][icon 0x0a]赤いキララ、[icon 0x0a]白いキララ\\fe\\ffなどの種類がある。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -100235,7 +100235,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "[space]魔法の力で延びたり縮んだり\\fe\\ffして、マジックドールの全身を\\fe\\ff動かすひものことをガットと呼\\fe\\ffぶ。マジックドールの筋肉の役\\fe\\ff割を果たす。\\fe\\ff[space][icon 0x0a]ウールのせんい、[icon 0x0a]ひつじ\\fe\\ffのガットなどがある。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -100428,7 +100428,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "[space]マジックドールの能力には、\\fe\\ffタイプ、パワー倍率、パワーリ\\fe\\ffミット、必要パワーがある。\\fe\\ff[space]パワー倍率とパワーリミット\\fe\\ffは大きいほうが良く、必要パ\\fe\\ffワーは小さいほうが良い。\\fe\\ff[space]タイプは能力とは直接は関係\\fe\\ffしない。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -100647,7 +100647,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "[space]マジックドールのタイプは\\fe\\ffシェル（外殻）の種類によって\\fe\\ff決まるが、能力は素材の組み合\\fe\\ffわせによって様々なものができ\\fe\\ffるので、実際にはあまり気にす\\fe\\ffる必要は無い。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -100818,7 +100818,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "[space]入魂した魂のパワーを増幅す\\fe\\ffる程度を示したもの。\\fe\\ff[space]５０％だったら、入魂した\\fe\\ffキャラクターの能力の５０％の\\fe\\ff力しか出ないし、２００％なら\\fe\\ff倍の力が出る。\\fe\\ff[space]大きいほうが良い。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -101003,7 +101003,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "[space]入魂した魂からパワーを引き\\fe\\ff出せる限界の数値。\\fe\\ff[space]２０だったら、入魂したキャ\\fe\\ffラクターの能力値（たとえば力\\fe\\ffなど）が３０だったとしても、\\fe\\ff２０までしか引き出せない。\\fe\\ff[space]大きいほうが良い。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -101200,7 +101200,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "[space]マジックドールを動かすのに\\fe\\ff必要なパワーのことを指す。\\fe\\ff[space]この値が１０だとしたら、\\fe\\ff入魂するキャラクターの能力値\\fe\\ff（力や精神など）が１１以上で\\fe\\ffないと、その能力を引き出せな\\fe\\ffい。\\fe\\ff[space]小さいほうが良い。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -101411,7 +101411,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "[space]マジックドールは戦いのため\\fe\\ffに作られた道具だった。\\fe\\ff[space]昔からドワーフの中にはマ\\fe\\ffジックドールを作る専門の集団\\fe\\ffがいたが、近頃は平和的な道具\\fe\\ffを作るドワーフが主流になり、\\fe\\ffマジックドール一門のドワーフ\\fe\\ffはドワーフの塔を追われた。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -101648,7 +101648,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "[space]素材の組み合わせは、入魂す\\fe\\ffるキャラクターの能力によって\\fe\\ff変えると良い。\\fe\\ff[space]能力の低い者を入魂する時は\\fe\\ff必要パワーが低い組み合わせに\\fe\\ffして、能力が高いものを入魂す\\fe\\ffる場合は、パワーリミットが高\\fe\\ffい組み合わせにするのがコツ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -101881,7 +101881,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "[space]マジックドールには、装備に\\fe\\ffよる能力の修正ぶんはふくまれ\\fe\\ffません、装備によって能力値が\\fe\\ff高くなっているキャラクターを\\fe\\ff入魂する場合には、注意してく\\fe\\ffださい。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -102048,7 +102048,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "[space]素材の組み合わせは、手持ち\\fe\\ffの素材の中で良いものを寄せ集\\fe\\ffめるよりは、同じ位のランクの\\fe\\ff素材で統一したほうがバランス\\fe\\ffの良いものができる。\\fe\\ff[space]どんなマジックドールを作る\\fe\\ffのが良いかは入魂するキャラク\\fe\\ffターにより変化する。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -102279,7 +102279,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "[space]シェルの種類は全部で８種類\\fe\\ffが存在する。\\fe\\ff[space][icon 0x0a]スカンピシェル\\fe\\ff[space][icon 0x0a]クラブシェル\\fe\\ff[space][icon 0x0a]トータスシェル\\fe\\ff[space][icon 0x0a]キメラシェル\\fe\\ff[space][icon 0x0a]ブラックシェル\\fe\\ff[space][icon 0x0a]シルバーシェル[space]など。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -102454,7 +102454,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "[space]ジェムの種類は全部で８種類\\fe\\ffが存在する。\\fe\\ff[space][icon 0x0a]ガラスだま\\fe\\ff[space][icon 0x0a]ローズクォーツ\\fe\\ff[space][icon 0x0a]アメジスト\\fe\\ff[space][icon 0x0a]トルマリン\\fe\\ff[space][icon 0x0a]サファイア\\fe\\ff[space][icon 0x0a]ルビー[space]など。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -102609,7 +102609,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "[space]フルーツの種類は全部で８種\\fe\\ff類が存在する。\\fe\\ff[space][icon 0x0a]オレンジの実\\fe\\ff[space][icon 0x0a]パパイヤの実\\fe\\ff[space][icon 0x0a]りんごの実\\fe\\ff[space][icon 0x0a]マスカットの実\\fe\\ff[space][icon 0x0a]ライチの実\\fe\\ff[space][icon 0x0a]チェリーの実[space]など。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -102776,7 +102776,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "[space]キララの種類は全部で５種類\\fe\\ffが存在する。\\fe\\ff[space][icon 0x0a]赤いキララ\\fe\\ff[space][icon 0x0a]黄色いキララ\\fe\\ff[space][icon 0x0a]白いキララ\\fe\\ff[space]などがあり、最高のキララは\\fe\\ff輝いているので、一目見てそれ\\fe\\ffとわかる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -102949,7 +102949,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "[space]ガットの種類は全部で５種類\\fe\\ffが存在する。\\fe\\ff[space][icon 0x0a]ウールのせんい\\fe\\ff[space][icon 0x0a]ひつじのガット\\fe\\ff[space][icon 0x0a]皮ひも\\fe\\ff[space]などがあり、さらに上級の\\fe\\ffガットは一流の職人でも、あま\\fe\\ffり目にすることがない。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -103134,7 +103134,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "[space]マジックドールにはそれぞれ\\fe\\ff個体差がある。\\fe\\ff[space]設計したドワーフの個性に\\fe\\ffよって変わるので、MDパーツ\\fe\\ffの組み込みなどでこの特性を変\\fe\\ff更することはできない。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -103299,7 +103299,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "[space]土のカタマリでできてるマッ\\fe\\ffドマンの体の中では、元素が圧\\fe\\ff縮されて宝石ができることがあ\\fe\\ffる。\\fe\\ff[space]その宝石を取り出してマジッ\\fe\\ffクドールのパーツに使用するこ\\fe\\ffともできるが、非人道的との非\\fe\\ff難から現在は行われていない。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -103522,7 +103522,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "[space]MD職人ウスターの手による\\fe\\ffもので、素早いのが特徴。\\fe\\ff[space]魔法学校から、素早くコール\\fe\\ff魔法を唱えてくれるマジック\\fe\\ffドールが欲しいとリクエストさ\\fe\\ffれて作られたものだが、発注し\\fe\\ffた人が死んでしまって引き取り\\fe\\ff手がいなくなっていた。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -103757,7 +103757,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "[space]MD職人ドロの作品。\\fe\\ff[space]力が強いタイプのマジック\\fe\\ffドールで、魔法使いの非力さを\\fe\\ffカバーする目的で作られた。\\fe\\ff[space]闇のプレーンで能力テストを\\fe\\ff行っている時に、キード・モン\\fe\\ffガからマジックドール開発中止\\fe\\ffの連絡が届いた。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -103982,7 +103982,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "[space]MD職人クアトロフォルマッ\\fe\\ffジの作品で、３体が作られた。\\fe\\ff[space]守りに優れたタイプで、ゲア\\fe\\ffラヴァ村の小屋に隠してあった\\fe\\ffが、エニグマ襲来時のどさくさ\\fe\\ffにまぎれてブッチーネ３世が盗\\fe\\ffみ出した。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -104181,7 +104181,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "[space]キード・モンガの首領、グレ\\fe\\ffナデンが作ったマジックドール\\fe\\ffで、精神が高い。とある戦争で\\fe\\ff多くの兵士の命を奪った。\\fe\\ff[space]そのことに心を痛めたグレナ\\fe\\ffデンは、自らボニートを回収し\\fe\\ff死のプレーンに住む旧友のブラ\\fe\\ffウニーにゆだねた。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -104414,7 +104414,7 @@
       ]
     },
     {
-      "English": "^ Untranslated",
+      "English": " Untranslated",
       "Japanese": "[space]先代のキード・モンガの首領\\fe\\ffが作ったマジックドールでMP\\fe\\ffの回復率が高く、このマジック\\fe\\ffドールの所有をめぐって戦争が\\fe\\ff起きたこともあると言われてい\\fe\\ffる。\\fe\\ff[space]グラン・ドラジェの手によっ\\fe\\ffて封印された。\\ff\\ff[icon 0x00]",
       "Comments": "",
       "u8": [
@@ -112908,7 +112908,7 @@
   ],
   [
     {
-      "English": "|^{FONT_MENU}\n|I'm Toasty the fire\n|{N}\n|spirit. Fire magic is\n|{RED}\n|strong\n|{BLACK}\n|!\n|{N}{N}\n|Difficulty:\\20\n|{RED}\n|Easy\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\01\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\0c\\00\n|\\fb\\ff\\0d\\00",
+      "English": "$FONT_MENU$\nI'm Toasty the fire\n{N}\n|spirit. Fire magic is\n|{RED}\n|strong\n|{BLACK}\n|!\n|{N}{N}\n|Difficulty:\\20\n|{RED}\n|Easy\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\01\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\0c\\00\n|\\fb\\ff\\0d\\00",
       "Japanese": "火の精霊・トーストです。\\fe\\ff火の魔法は\\fa\\ff\\3\\0攻撃力\\fa\\ff\\f\\0があるよ。\\fe\\ffバランスが良いので\\fe\\ff使いやすいよ。\\fe\\ff\\fa\\ff\\3\\0初心者向け\\fa\\ff\\f\\0だよ。\\fe\\ff得意[space]\\fb\\ff\\1\\0風\\fe\\ff苦手[space]\\fb\\ff\\c\\0古\\fb\\ff\\d\\0闇\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -113073,7 +113073,7 @@
       ]
     },
     {
-      "English": "|I'm Gusty the wind\n|{N}\n|spirit. Wind magic\n|{N}\n|makes you\\20\n|{RED}\n|faster\n|{BLACK}\n|!\n|{N}{N}\n|Difficulty:\\20\n|{RED}\n|Hard\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\02\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\00\\00\n|\\fb\\ff\\0d\\00",
+      "English": "I'm Gusty the wind\n$N$\nspirit. Wind magic\n|{N}\n|makes you\\20\n|{RED}\n|faster\n|{BLACK}\n|!\n|{N}{N}\n|Difficulty:\\20\n|{RED}\n|Hard\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\02\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\00\\00\n|\\fb\\ff\\0d\\00",
       "Japanese": "あのね、風の精霊のエアなの。\\fe\\ffんと、風の魔法をつかうとね\\fe\\ff\\fa\\ff\\3\\0速さが上がる\\fa\\ff\\f\\0の。\\fe\\ffべんりだよー。\\fe\\ff\\fa\\ff\\3\\0上級者向け\\fa\\ff\\f\\0なの。\\fe\\ff得意[space]\\fb\\ff\\2\\0毒\\fe\\ff苦手[space]\\fb\\ff\\0\\0火\\fb\\ff\\d\\0闇\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -113240,7 +113240,7 @@
       ]
     },
     {
-      "English": "|I'm Gloomy the poison\n|{N}\n|spirit. Poison magic\n|{N}\n|deals\\20\n|{RED}\n|extra damage\n|{BLACK}\n|!\n|{N}{N}\n|Difficulty:\\20\n|{RED}\n|Easy\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\03\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\01\\00\n|\\fb\\ff\\0d\\00",
+      "English": "I'm Gloomy the poison\n$N$\nspirit. Poison magic\n|{N}\n|deals\\20\n|{RED}\n|extra damage\n|{BLACK}\n|!\n|{N}{N}\n|Difficulty:\\20\n|{RED}\n|Easy\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\03\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\01\\00\n|\\fb\\ff\\0d\\00",
       "Japanese": "ミーは毒の精霊・ブーざんす。\\fe\\ff毒の魔法は\\fa\\ff\\3\\0追加ダメージ\\fa\\ff\\f\\0を\\fe\\ffあたえるざんす。\\fe\\ffグーざんす。\\fe\\ff\\fa\\ff\\3\\0初心者向け\\fa\\ff\\f\\0ざんす。\\fe\\ff得意[space]\\fb\\ff\\3\\0美\\fe\\ff苦手[space]\\fb\\ff\\1\\0風\\fb\\ff\\d\\0闇\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -113405,7 +113405,7 @@
       ]
     },
     {
-      "English": "|I'm Pretty the beauty\n|{N}\n|spirit. Beauty magic\n|{N}\n|can\\20\n|{RED}\n|stun\\20\n|{BLACK}\n|foes!\n|{N}{N}\n|Difficulty:\\20\n|{RED}\n|Hard\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\04\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\02\\00\n|\\fb\\ff\\0d\\00",
+      "English": "I'm Pretty the beauty\n$N$\nspirit. Beauty magic\n|{N}\n|can\\20\n|{RED}\n|stun\\20\n|{BLACK}\n|foes!\n|{N}{N}\n|Difficulty:\\20\n|{RED}\n|Hard\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\04\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\02\\00\n|\\fb\\ff\\0d\\00",
       "Japanese": "美の精霊・パウダー・・・\\fe\\ff美の魔法は[space]攻撃した敵が\\fe\\ff\\fa\\ff\\3\\0マヒ\\fa\\ff\\f\\0する・・・\\fe\\ffわれは・・・\\fe\\ff\\fa\\ff\\3\\0上級者向け\\fa\\ff\\f\\0である・・・\\fe\\ff得意[space]\\fb\\ff\\4\\0刃\\fe\\ff苦手[space]\\fb\\ff\\2\\0毒\\fb\\ff\\d\\0闇\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -113568,7 +113568,7 @@
       ]
     },
     {
-      "English": "|I'm Edgy the blade\n|{N}\n|spirit. Blade magic\n|{N}\n|hits one target\\20\n|{RED}\n|hard\n|{BLACK}\n|!\n|{N}\n|Difficulty:\\20\n|{RED}\n|Hard\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\05\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\03\\00\n|\\fb\\ff\\0d\\00",
+      "English": "I'm Edgy the blade\n$N$\nspirit. Blade magic\n|{N}\n|hits one target\\20\n|{RED}\n|hard\n|{BLACK}\n|!\n|{N}\n|Difficulty:\\20\n|{RED}\n|Hard\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\05\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\03\\00\n|\\fb\\ff\\0d\\00",
       "Japanese": "それがしは[space]刃の精霊\\fe\\ff名はスラッシュ。\\fe\\ff刃の魔法は敵一体に限り\\fe\\ff\\fa\\ff\\3\\0大ダメージ\\fa\\ff\\f\\0を与える。\\fe\\ff\\fa\\ff\\3\\0上級者向け\\fa\\ff\\f\\0だ。\\fe\\ff得意[space]\\fb\\ff\\5\\0音\\fe\\ff苦手[space]\\fb\\ff\\3\\0美\\fb\\ff\\d\\0闇\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -113727,7 +113727,7 @@
       ]
     },
     {
-      "English": "|I'm Catchy the sound\n|{N}\n|spirit. Sound magic\n|{N}\n|lulls foes to\\20\n|{RED}\n|sleep\n|{BLACK}\n|!\n|{N}{N}\n|Difficulty:\\20\n|{RED}\n|Medium\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\06\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\04\\00\n|\\fb\\ff\\0d\\00",
+      "English": "I'm Catchy the sound\n$N$\nspirit. Sound magic\n|{N}\n|lulls foes to\\20\n|{RED}\n|sleep\n|{BLACK}\n|!\n|{N}{N}\n|Difficulty:\\20\n|{RED}\n|Medium\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\06\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\04\\00\n|\\fb\\ff\\0d\\00",
       "Japanese": "私、音の精霊・ハミング♪\\fe\\ff音の魔法は相手を\\fe\\ff\\fa\\ff\\3\\0眠らせる\\fa\\ff\\f\\0んだよ♪\\fe\\ffでも、たたくと起きちゃう♪\\fe\\ff\\fa\\ff\\3\\0中級者向け\\fa\\ff\\f\\0だよ♪\\fe\\ff得意[space]\\fb\\ff\\6\\0石\\fe\\ff苦手[space]\\fb\\ff\\4\\0刃\\fb\\ff\\d\\0闇\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -113892,7 +113892,7 @@
       ]
     },
     {
-      "English": "I'm Rocky the stone\n|{N}\n|spirit. Stone magic\n|{N}\n|boosts\\20\n|{RED}\n|defense\n|{BLACK}\n|!\n|{N}{N}\n|Difficulty:\\20\n|{RED}\n|Medium\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\07\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\05\\00\n|\\fb\\ff\\0d\\00",
+      "English": "I'm Rocky the stone\n$N$\nspirit. Stone magic\n{N}\n|boosts\\20\n|{RED}\n|defense\n|{BLACK}\n|!\n|{N}{N}\n|Difficulty:\\20\n|{RED}\n|Medium\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\07\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\05\\00\n|\\fb\\ff\\0d\\00",
       "Japanese": "オイラ、石の精霊・フリントで\\fe\\ffごっつーん！\\fe\\ff石の魔法は\\fa\\ff\\3\\0守備力アップ\\fa\\ff\\f\\0だ\\fe\\ffごっつーん！\\fe\\ff\\fa\\ff\\3\\0中級者向け\\fa\\ff\\f\\0だごっつーん！\\fe\\ff得意[space]\\fb\\ff\\7\\0虫\\fe\\ff苦手[space]\\fb\\ff\\5\\0音\\fb\\ff\\d\\0闇\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -114059,7 +114059,7 @@
       ]
     },
     {
-      "English": "|I'm Antsy the bug\n|{N}\n|spirit. Bug magic\n|{N}\n|lowers foes'\\20\n|{RED}\n|power\n|{BLACK}\n|!\n|{N}\n|Difficulty:\\20\n|{RED}\n|Hard\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\08\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\06\\00\n|\\fb\\ff\\0d\\00",
+      "English": "I'm Antsy the bug\n$N$\nspirit. Bug magic\n|{N}\n|lowers foes'\\20\n|{RED}\n|power\n|{BLACK}\n|!\n|{N}\n|Difficulty:\\20\n|{RED}\n|Hard\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\08\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\06\\00\n|\\fb\\ff\\0d\\00",
       "Japanese": "オイラ、虫の精霊・バズでち。\\fe\\ff虫の魔法は\\fa\\ff\\3\\0力をさげる\\fa\\ff\\f\\0\\fe\\ff効果があるちー。\\fe\\ffいたくないちー。\\fe\\ff\\fa\\ff\\3\\0上級者向け\\fa\\ff\\f\\0だちー。\\fe\\ff得意[space]\\fb\\ff\\8\\0木\\fe\\ff苦手[space]\\fb\\ff\\6\\0石\\fb\\ff\\d\\0闇\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -114224,7 +114224,7 @@
       ]
     },
     {
-      "English": "|I'm Sticky the wood\n|{N}\n|spirit. Wood magic\n|{N}\n|weakens foes'\\20\n|{RED}\n|spirit\n|{BLACK}\n|!\n|{N}\n|Difficulty:\\20\n|{RED}\n|Easy\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\09\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\07\\00\n|\\fb\\ff\\0d\\00",
+      "English": "I'm Sticky the wood\n$N$\nspirit. Wood magic\n|{N}\n|weakens foes'\\20\n|{RED}\n|spirit\n|{BLACK}\n|!\n|{N}\n|Difficulty:\\20\n|{RED}\n|Easy\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\09\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\07\\00\n|\\fb\\ff\\0d\\00",
       "Japanese": "木の精霊・スティックぐり。\\fe\\ff木の魔法は\\fa\\ff\\3\\0精神を下げる\\fa\\ff\\f\\0\\fe\\ff効果があるぐり。\\fe\\ff魔法がきくぐり。\\fe\\ff\\fa\\ff\\3\\0初心者向け\\fa\\ff\\f\\0だぐり。\\fe\\ff得意[space]\\fb\\ff\\9\\0獣\\fe\\ff苦手[space]\\fb\\ff\\7\\0虫\\fb\\ff\\d\\0闇\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -114389,7 +114389,7 @@
       ]
     },
     {
-      "English": "|I'm Furry the beast\n|{N}\n|spirit. Beast magic is\\20\n|{RED}\n|strong\n|{BLACK}\n|!\n|{N}{N}\n|Difficulty:\\20\n|{RED}\n|Medium\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\0a\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\08\\00\n|\\fb\\ff\\0d\\00",
+      "English": "I'm Furry the beast\n$N$\nspirit. Beast magic is\\20\n|{RED}\n|strong\n|{BLACK}\n|!\n|{N}{N}\n|Difficulty:\\20\n|{RED}\n|Medium\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\0a\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\08\\00\n|\\fb\\ff\\0d\\00",
       "Japanese": "獣の精霊・ガルでがす。\\fe\\ff獣の魔法は動物の力をかりて\\fe\\ff攻撃するがす。\\fe\\ff\\fa\\ff\\3\\0力があがる\\fa\\ff\\f\\0がす。\\fe\\ff\\fa\\ff\\3\\0中級者向け\\fa\\ff\\f\\0でがす！\\fe\\ff得意[space]\\fb\\ff\\a\\0水\\fe\\ff苦手[space]\\fb\\ff\\8\\0木\\fb\\ff\\d\\0闇\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -114552,7 +114552,7 @@
       ]
     },
     {
-      "English": "|I'm Rainy the water\n|{N}\n|spirit. Water magic\n|{N}\n|hits\\20\n|{RED}\n|lots\n|{BLACK}\n|of foes!\n|{N}{N}\n|Difficulty:\\20\n|{RED}\n|Medium\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\0b\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\09\\00\n|\\fb\\ff\\0d\\00",
+      "English": "I'm Rainy the water\n$N$\nspirit. Water magic\n|{N}\n|hits\\20\n|{RED}\n|lots\n|{BLACK}\n|of foes!\n|{N}{N}\n|Difficulty:\\20\n|{RED}\n|Medium\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\0b\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\09\\00\n|\\fb\\ff\\0d\\00",
       "Japanese": "オイラ、水の精霊・フロー。\\fe\\ff水の魔法は一度に\\fa\\ff\\3\\0たくさんの\\fe\\ff敵を攻撃できる\\fa\\ff\\f\\0よ。\\fe\\ffべんりだよー。\\fe\\ff\\fa\\ff\\3\\0中級者向け\\fa\\ff\\f\\0だよ。\\fe\\ff得意[space]\\fb\\ff\\b\\0雷\\fe\\ff苦手[space]\\fb\\ff\\9\\0獣\\fb\\ff\\d\\0闇\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -114719,7 +114719,7 @@
       ]
     },
     {
-      "English": "|I'm Zappy the electric\n|{N}\n|spirit. Electric magic\n|{N}\n|can\\20\n|{RED}\n|paralyze\\20\n|{BLACK}\n|foes!\n|{N}{N}\n|Difficulty:\n|{RED}\n|Easy\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\0c\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\0a\\00\n|\\fb\\ff\\0d\\00",
+      "English": "I'm Zappy the electric\n$N$\nspirit. Electric magic\n|{N}\n|can\\20\n|{RED}\n|paralyze\\20\n|{BLACK}\n|foes!\n|{N}{N}\n|Difficulty:\n|{RED}\n|Easy\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\0c\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\0a\\00\n|\\fb\\ff\\0d\\00",
       "Japanese": "びか！雷の精霊・テスラ。\\fe\\ff雷の魔法は敵が\\fe\\ff\\fa\\ff\\3\\0しびれる\\fa\\ff\\f\\0んだびか！\\fe\\ff攻撃はんいも広いびか！\\fe\\ff\\fa\\ff\\3\\0初心者向け\\fa\\ff\\f\\0だびかっ！\\fe\\ff得意[space]\\fb\\ff\\c\\0古\\fe\\ff苦手[space]\\fb\\ff\\a\\0水\\fb\\ff\\d\\0闇\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -114884,7 +114884,7 @@
       ]
     },
     {
-      "English": "|I'm Early the ancient\n|{N}\n|spirit. Ancient magic\n|{N}\n|can\\20\n|{RED}\n|slow\\20\n|{BLACK}\n|down foes!\n|{N}{N}\n|Difficulty:\\20\n|{RED}\n|Medium\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\00\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\0b\\00\n|\\fb\\ff\\0d\\00",
+      "English": "I'm Early the ancient\n$N$\nspirit. Ancient magic\n|{N}\n|can\\20\n|{RED}\n|slow\\20\n|{BLACK}\n|down foes!\n|{N}{N}\n|Difficulty:\\20\n|{RED}\n|Medium\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\00\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\0b\\00\n|\\fb\\ff\\0d\\00",
       "Japanese": "",
       "Comments": "Why is the Japanese blank???",
       "u8": []

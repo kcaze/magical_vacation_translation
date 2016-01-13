@@ -45,11 +45,17 @@ function exportJSON() {
     ),
     '_menu.json'
   );
-  console.log('Exported menus!');
 }
 
 function exportBinary() {
-  var menu = menus[section];
+  var binary = generateBinary(menus[section]);
+  saveAs(
+    new Blob([new DataView(binary.buffer)], {type: 'application/octet-stream'}),
+    section_names[section] + ".bin"
+  );
+}
+
+function generateBinary(menu) {
   var data = menu.reduce(function(acc, curr) {
     acc.push(curr.English ? parseEnglish(curr.English) : curr.u8);
     return acc;
@@ -85,15 +91,17 @@ function exportBinary() {
     joined[offsets.length + ii] = binary[ii];
   }
 
-  /*saveAs(
-    new Blob([new DataView(offsets.buffer)], {type: 'application/octet-stream'}),
-    section_names[section] + "_offsets.bin"
-  );*/
-  saveAs(
-    new Blob([new DataView(joined.buffer)], {type: 'application/octet-stream'}),
-    section_names[section] + ".bin"
-  );
-  console.log('Exported binary and offsets!');
+  return joined;
+}
+
+function exportAll() {
+  for (var ii = 0; ii < menus.length; ii++) {
+    var binary = generateBinary(menus[ii]);
+    saveAs(
+      new Blob([new DataView(binary.buffer)], {type: 'application/octet-stream'}),
+      section_names[ii] + ".bin"
+    );
+  }
 }
 
 function japanese_search() {
@@ -238,7 +246,7 @@ document.addEventListener('keydown', function (e) {
     break;
   case 'E':
     exportJSON();
-    exportBinary();
+    exportAll();
     break;
   default:
     preventDefault = false;

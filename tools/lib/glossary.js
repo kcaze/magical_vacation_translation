@@ -3,18 +3,18 @@ var glossary = {
 *          [[Control Codes]]         *
 \************************************/
   // lowercase = script control code, uppercase = menu control code
-  "n":String.fromCharCode(0x80), // newline
-  "N":String.fromCharCode(0xFE,0xFF),
-  "black":String.fromCharCode(0x8D), // change font color to black
-  "BLACK":String.fromCharCode(0xFA,0xFF,0x0F,0x00),
-  "red":String.fromCharCode(0x8E), // change font color to red
-  "RED":String.fromCharCode(0xFA,0xFF,0x03,0x00),
-  "font_normal":String.fromCharCode(0x1D, 0x00), // change font to normal
-  "FONT_normal":String.fromCharCode(0x1D, 0x00),
-  "font_robot":String.fromCharCode(0x1D, 0x01), // change font to robot
-  "FONT_ROBOT":String.fromCharCode(0x1D, 0x01),
-  "font_menu":String.fromCharCode(0x1D, 0x02), // change font to menu
-  "FONT_MENU":String.fromCharCode(0x1D, 0x02),
+  "n":"|"+String.fromCharCode(0x80)+"`", // newline
+  "N":"|\\FE\\FF`",
+  "black":"|"+String.fromCharCode(0x8D)+"`", // change font color to black
+  "BLACK":"|"+String.fromCharCode(0xFA,0xFF,0x0F,0x00),
+  "red":"|"+String.fromCharCode(0x8E)+"`", // change font color to red
+  "RED":"|"+String.fromCharCode(0xFA,0xFF,0x03,0x00),
+  "font_normal":"|"+String.fromCharCode(0x1D, 0x00), // change font to normal
+  "FONT_normal":"|"+String.fromCharCode(0x1D, 0x00),
+  "font_robot":"|"+String.fromCharCode(0x1D, 0x01), // change font to robot
+  "FONT_ROBOT":"|"+String.fromCharCode(0x1D, 0x01),
+  "font_menu":"|"+String.fromCharCode(0x1D, 0x02), // change font to menu
+  "FONT_MENU":"|"+String.fromCharCode(0x1D, 0x02),
   "music":String.fromCharCode(0x7B), // musical note glyph
   "MUSIC":String.fromCharCode(0x7B),
   "heart":String.fromCharCode(0x7C), // heart glyph
