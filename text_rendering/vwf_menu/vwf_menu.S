@@ -97,6 +97,7 @@ mov r5, r2
 
 mov r0, 0xFF
 and r2, r0
+; Handling custom control characters
 cmp r2, 0x1F
 bne not_bos
 ; Do some RAM setup on begin-of-string character, 0x1F
@@ -105,17 +106,35 @@ str r0, [r6, 0x00]
 str r0, [r6, 0x04]
 strh r1, [r6, 0x00]
 strh r1, [r6, 0x04]
-ldr r2, =ADDR_VAR_FONT_SET
-strb r0, [r2]
 ; Clear the glyph data in RAM.
 mov r1, 0x00
 ldr r2, =0x0203692C
-clear_ram_loop_:
+@@clear_ram_loop:
   str r1, [r2, r0]
   add r0, 0x04
   cmp r0, 0x50
-  blt clear_ram_loop_
+  blt @@clear_ram_loop
+b L_end_control_characters
 not_bos:
+cmp r2, 0x1E
+bne not_reset_position
+; Reset RAM
+mov r0, 0x00
+str r0, [r6, 0x00]
+str r0, [r6, 0x04]
+strh r1, [r6, 0x00]
+strh r1, [r6, 0x04]
+; Clear the glyph data in RAM.
+mov r1, 0x00
+ldr r2, =0x0203692C
+@@clear_ram_loop:
+  str r1, [r2, r0]
+  add r0, 0x04
+  cmp r0, 0x50
+  blt clear_ram_loop
+b L_end_control_characters
+not_reset_position:
+L_end_control_characters:
 
 draw_glyph:
 ; Set r1 to the address of the first glyph
@@ -362,10 +381,9 @@ bg_loop1:
     cmp r2, 0x1E
     blt bg_loop2
   add r1, r1, 0x01
-  cmp r1, 0x13
+  cmp r1, 0x14
   blt bg_loop1
 b 0x080B62EE
 .pool
-
 
 .close

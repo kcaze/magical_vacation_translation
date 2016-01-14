@@ -385,9 +385,6 @@ bne L_not_bos
 ldr r0, ADDR_SHIFT
 mov r1, 0x00
 strb r1, [r0]
-; Clear glyph set variable.
-ldr r0, =ADDR_VAR_FONT_SET
-strb r1, [r0]
 ; Clear glyph data.
 ldr r0, ADDR_GLYPH
 ldr r1, =0x22222222

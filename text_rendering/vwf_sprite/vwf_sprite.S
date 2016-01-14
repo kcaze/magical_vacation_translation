@@ -71,8 +71,6 @@ bne L_not_bos2
 ldr r0, =ADDR_SHIFT
 mov r1, 0x00
 strb r1, [r0]
-ldr r0, =ADDR_VAR_FONT_SET
-strb r1, [r0]
 L_not_bos2:
 orr r7, r3
 

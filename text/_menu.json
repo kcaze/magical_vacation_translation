@@ -3772,7 +3772,7 @@
       ]
     },
     {
-      "English": "The save file for your adventure up until now will$N$\nbe erased. This will not affect your Amigo list.$N$$N$\nIs that all right?",
+      "English": "$FONT_MENU$\nThe save file for your adventure$N$\nup until now will be erased. This$N$\nwill not affect your Amigo list.$N$$N$\nIs that all right?",
       "Japanese": "[space]これまでの冒険のデータが\\fe\\ff[space]消えますが、よろしいですか?\\fe\\ff（アミーゴリストは消えません）\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4096,7 +4096,7 @@
       ]
     },
     {
-      "English": "A button: confirm",
+      "English": "A button: select",
       "Japanese": "Aボタン：決定\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -40571,7 +40571,7 @@
       ]
     },
     {
-      "English": "A spirit often found in swamps and other grimy$N$\nplaces. Its stench becomes truly unbearable$N$\nwhen it opens its mouth.$N$",
+      "English": "A spirit often found in swamps and other grimy$N$\nplaces. Its stench becomes truly unbearable$N$\nwhen it opens its mouth.",
       "Japanese": "沼地やきたない場所が好きな\\fe\\ffヘンな精霊。\\fe\\ff毒の魔法を使うときに、倍の\\fe\\ff威力にしてくれる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -40668,7 +40668,7 @@
       ]
     },
     {
-      "English": "An admirer of all things beautiful. It takes$N$\ngreat pride in its refined taste and cannot$N$\nstand the sight of something ugly.$N$",
+      "English": "An admirer of all things beautiful. It takes$N$\ngreat pride in its refined taste and cannot$N$\nstand the sight of something ugly.",
       "Japanese": "美しいものが好きで、プライ\\fe\\ffドの高い精霊。\\fe\\ff美の魔法を使うときに、倍の\\fe\\ff威力にしてくれる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -40872,7 +40872,7 @@
       ]
     },
     {
-      "English": "A spirit that loves music. It is naturally$N$\nattracted towards people who play instruments$N$\nor sing.$N$",
+      "English": "A spirit that loves music. It is naturally$N$\nattracted towards people who play instruments$N$\nor sing.",
       "Japanese": "音楽が好きな精霊。楽器を\\fe\\ffひける人になつくらしい。\\fe\\ff音の魔法を使うときに、倍の\\fe\\ff威力にしてくれる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -41088,7 +41088,7 @@
       ]
     },
     {
-      "English": "A spirit that is hard to spot without the aid of a magnifying glass. It has a fear of being stepped on.",
+      "English": "A spirit that is hard to spot without the aid$N$\nof a magnifying glass. It has a fear of being$N$\nstepped on.",
       "Japanese": "ふだんは虫メガネがないと\\fe\\ffみつけることができない。\\fe\\ff虫の魔法を使うときに、倍の\\fe\\ff威力にしてくれる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -41892,7 +41892,7 @@
       ]
     },
     {
-      "English": "A spirit that loves all living beings. It loves$N$\nall inanimate objects too but recognize that$N$\nthey cannot love back.",
+      "English": "A spirit that loves all living beings. It loves$N$\nall inanimate objects too but recognizes that$N$\nthey cannot love back.",
       "Japanese": "すべての生き物を愛している\\fe\\ffやさしい精霊。\\fe\\ff愛の魔法を使うときに、倍の\\fe\\ff威力にしてくれる。\\ff\\ff",
       "Comments": "",
       "u8": [

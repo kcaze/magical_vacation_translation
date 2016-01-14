@@ -4,7 +4,7 @@ var glossary = {
 \************************************/
   // lowercase = script control code, uppercase = menu control code
   "n":"|"+String.fromCharCode(0x80)+"`", // newline
-  "N":"|\\FE\\FF`",
+  "N":"|\\FE\\FF`\\1E",
   "black":"|"+String.fromCharCode(0x8D)+"`", // change font color to black
   "BLACK":"|"+String.fromCharCode(0xFA,0xFF,0x0F,0x00),
   "red":"|"+String.fromCharCode(0x8E)+"`", // change font color to red

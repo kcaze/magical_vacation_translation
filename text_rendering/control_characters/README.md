@@ -29,6 +29,8 @@ are in use it appears.
 0x99: 0x0800C2F6 (apparently unused)
 
 Some of my custom control codes (values in the range [0x10, 0x1F])
-0x1D switch glyph set. Takes a byte argument for the glyph set to switch to.
-0x1E a 8 pixel empty space.
-0x1F beginning of string marker, inserted so that RAM is reset properly.
+0x1D switch font set. Takes a byte argument for the font set to switch to.
+0x1E newline cleanup for vwf_menu. used so that position is recalibrated after a
+     newline.
+0x1F beginning of string marker, inserted so that RAM is reset properly. Takes
+     an additional byte argument for the font set to switch to.
