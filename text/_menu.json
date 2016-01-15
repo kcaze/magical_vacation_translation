@@ -823,7 +823,7 @@
       ]
     },
     {
-      "English": "Name",
+      "English": "Name:",
       "Japanese": "名前\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -836,7 +836,7 @@
       ]
     },
     {
-      "English": "Gender",
+      "English": "Gender:",
       "Japanese": "性別\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -849,7 +849,7 @@
       ]
     },
     {
-      "English": "Species",
+      "English": "Species:",
       "Japanese": "種族\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -862,7 +862,7 @@
       ]
     },
     {
-      "English": "Element",
+      "English": "Element:",
       "Japanese": "属性\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -1138,7 +1138,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "の属性\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3772,7 +3772,7 @@
       ]
     },
     {
-      "English": "$FONT_MENU$\nThe save file for your adventure$N$\nup until now will be erased. This$N$\nwill not affect your Amigo list.$N$$N$\nIs that all right?",
+      "English": "$FONT_MENU$\nThe save file for your adventure up$N$\nuntil now will be erased. This will not$N$\naffect your Amigo list.$N$$N$\nIs that all right?",
       "Japanese": "[space]これまでの冒険のデータが\\fe\\ff[space]消えますが、よろしいですか?\\fe\\ff（アミーゴリストは消えません）\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -112908,7 +112908,7 @@
   ],
   [
     {
-      "English": "$FONT_MENU$\nI'm Toasty the fire\n{N}\n|spirit. Fire magic is\n|{RED}\n|strong\n|{BLACK}\n|!\n|{N}{N}\n|Difficulty:\\20\n|{RED}\n|Easy\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\01\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\0c\\00\n|\\fb\\ff\\0d\\00",
+      "English": "$FONT_MENU$\nI'm Toasty the fire spirit. Fire$N$\nmagic does $RED$a lot of damage$BLACK$!\n$N$$N$\nDifficulty: $RED$Easy$BLACK$\n$N$$N$\nBeats:\n\\20|\\fb\\ff\\01\\00\n|\\20\\20Fears:\n\\20|\\fb\\ff\\0c\\00\n|\\fb\\ff\\0d\\00",
       "Japanese": "火の精霊・トーストです。\\fe\\ff火の魔法は\\fa\\ff\\3\\0攻撃力\\fa\\ff\\f\\0があるよ。\\fe\\ffバランスが良いので\\fe\\ff使いやすいよ。\\fe\\ff\\fa\\ff\\3\\0初心者向け\\fa\\ff\\f\\0だよ。\\fe\\ff得意[space]\\fb\\ff\\1\\0風\\fe\\ff苦手[space]\\fb\\ff\\c\\0古\\fb\\ff\\d\\0闇\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -113073,7 +113073,7 @@
       ]
     },
     {
-      "English": "I'm Gusty the wind\n$N$\nspirit. Wind magic\n|{N}\n|makes you\\20\n|{RED}\n|faster\n|{BLACK}\n|!\n|{N}{N}\n|Difficulty:\\20\n|{RED}\n|Hard\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\02\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\00\\00\n|\\fb\\ff\\0d\\00",
+      "English": "$FONT_MENU$\nI'm Gusty the wind spirit. Wind$N$\nmagic can boost your $RED$speed$BLACK$!\n$N$$N$\nDifficulty: $RED$Hard$BLACK$\n$N$$N$\nBeats:\n\\20|\\fb\\ff\\02\\00\n|\\20\\20Fears:\n\\20|\\fb\\ff\\00\\00\n|\\fb\\ff\\0d\\00",
       "Japanese": "あのね、風の精霊のエアなの。\\fe\\ffんと、風の魔法をつかうとね\\fe\\ff\\fa\\ff\\3\\0速さが上がる\\fa\\ff\\f\\0の。\\fe\\ffべんりだよー。\\fe\\ff\\fa\\ff\\3\\0上級者向け\\fa\\ff\\f\\0なの。\\fe\\ff得意[space]\\fb\\ff\\2\\0毒\\fe\\ff苦手[space]\\fb\\ff\\0\\0火\\fb\\ff\\d\\0闇\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -113240,7 +113240,7 @@
       ]
     },
     {
-      "English": "I'm Gloomy the poison\n$N$\nspirit. Poison magic\n|{N}\n|deals\\20\n|{RED}\n|extra damage\n|{BLACK}\n|!\n|{N}{N}\n|Difficulty:\\20\n|{RED}\n|Easy\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\03\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\01\\00\n|\\fb\\ff\\0d\\00",
+      "English": "$FONT_MENU$\nI'm Gloomy the poison spirit.$N$\nPoison magic can deal $RED$extra$N$\ndamage$BLACK$!\n$N$$N$\nDifficulty: $RED$Easy$BLACK$\n$N$$N$\nBeats:\n\\20|\\fb\\ff\\03\\00\n|\\20\\20Fears:\n\\20|\\fb\\ff\\01\\00\n|\\fb\\ff\\0d\\00",
       "Japanese": "ミーは毒の精霊・ブーざんす。\\fe\\ff毒の魔法は\\fa\\ff\\3\\0追加ダメージ\\fa\\ff\\f\\0を\\fe\\ffあたえるざんす。\\fe\\ffグーざんす。\\fe\\ff\\fa\\ff\\3\\0初心者向け\\fa\\ff\\f\\0ざんす。\\fe\\ff得意[space]\\fb\\ff\\3\\0美\\fe\\ff苦手[space]\\fb\\ff\\1\\0風\\fb\\ff\\d\\0闇\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -113405,7 +113405,7 @@
       ]
     },
     {
-      "English": "I'm Pretty the beauty\n$N$\nspirit. Beauty magic\n|{N}\n|can\\20\n|{RED}\n|stun\\20\n|{BLACK}\n|foes!\n|{N}{N}\n|Difficulty:\\20\n|{RED}\n|Hard\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\04\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\02\\00\n|\\fb\\ff\\0d\\00",
+      "English": "$FONT_MENU$\nI'm Pretty the beauty spirit.$N$\nBeauty magic can $RED$stun$BLACK$ foes!\n$N$$N$\nDifficulty: $RED$Hard$BLACK$\n$N$$N$\nBeats:\n\\20|\\fb\\ff\\04\\00\n|\\20\\20Fears:\n\\20|\\fb\\ff\\02\\00\n|\\fb\\ff\\0d\\00",
       "Japanese": "美の精霊・パウダー・・・\\fe\\ff美の魔法は[space]攻撃した敵が\\fe\\ff\\fa\\ff\\3\\0マヒ\\fa\\ff\\f\\0する・・・\\fe\\ffわれは・・・\\fe\\ff\\fa\\ff\\3\\0上級者向け\\fa\\ff\\f\\0である・・・\\fe\\ff得意[space]\\fb\\ff\\4\\0刃\\fe\\ff苦手[space]\\fb\\ff\\2\\0毒\\fb\\ff\\d\\0闇\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -113568,7 +113568,7 @@
       ]
     },
     {
-      "English": "I'm Edgy the blade\n$N$\nspirit. Blade magic\n|{N}\n|hits one target\\20\n|{RED}\n|hard\n|{BLACK}\n|!\n|{N}\n|Difficulty:\\20\n|{RED}\n|Hard\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\05\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\03\\00\n|\\fb\\ff\\0d\\00",
+      "English": "I'm Edgy the blade spirit. Blade$N$\nmagic hits a single foe $RED$really$N$\nhard$BLACK$!\n$N$$N$\nDifficulty: $RED$Hard$BLACK$\n$N$$N$\nBeats:\n\\20|\\fb\\ff\\05\\00\n|\\20\\20Fears:\n\\20|\\fb\\ff\\03\\00\n|\\fb\\ff\\0d\\00",
       "Japanese": "それがしは[space]刃の精霊\\fe\\ff名はスラッシュ。\\fe\\ff刃の魔法は敵一体に限り\\fe\\ff\\fa\\ff\\3\\0大ダメージ\\fa\\ff\\f\\0を与える。\\fe\\ff\\fa\\ff\\3\\0上級者向け\\fa\\ff\\f\\0だ。\\fe\\ff得意[space]\\fb\\ff\\5\\0音\\fe\\ff苦手[space]\\fb\\ff\\3\\0美\\fb\\ff\\d\\0闇\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -113727,7 +113727,7 @@
       ]
     },
     {
-      "English": "I'm Catchy the sound\n$N$\nspirit. Sound magic\n|{N}\n|lulls foes to\\20\n|{RED}\n|sleep\n|{BLACK}\n|!\n|{N}{N}\n|Difficulty:\\20\n|{RED}\n|Medium\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\06\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\04\\00\n|\\fb\\ff\\0d\\00",
+      "English": "I'm Catchy the sound spirit.$N$\nSound magic lulls foes to $RED$sleep$BLACK$!\n$N$\nDifficulty: $RED$Medium$BLACK$\n$N$$N$\nBeats:\n\\20|\\fb\\ff\\06\\00\n|\\20\\20Fears:\n\\20|\\fb\\ff\\04\\00\n|\\fb\\ff\\0d\\00",
       "Japanese": "私、音の精霊・ハミング♪\\fe\\ff音の魔法は相手を\\fe\\ff\\fa\\ff\\3\\0眠らせる\\fa\\ff\\f\\0んだよ♪\\fe\\ffでも、たたくと起きちゃう♪\\fe\\ff\\fa\\ff\\3\\0中級者向け\\fa\\ff\\f\\0だよ♪\\fe\\ff得意[space]\\fb\\ff\\6\\0石\\fe\\ff苦手[space]\\fb\\ff\\4\\0刃\\fb\\ff\\d\\0闇\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -113892,7 +113892,7 @@
       ]
     },
     {
-      "English": "I'm Rocky the stone\n$N$\nspirit. Stone magic\n{N}\n|boosts\\20\n|{RED}\n|defense\n|{BLACK}\n|!\n|{N}{N}\n|Difficulty:\\20\n|{RED}\n|Medium\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\07\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\05\\00\n|\\fb\\ff\\0d\\00",
+      "English": "I'm Rocky the stone spirit.$N$\nStone magic can boost your$N$\n$RED$defense$BLACK$!\n$N$$N$\nDifficulty: $RED$Medium$BLACK$\n$N$$N$\nBeats:\n\\20|\\fb\\ff\\07\\00\n|\\20Fears:\n\\20|\\fb\\ff\\05\\00\n|\\fb\\ff\\0d\\00",
       "Japanese": "オイラ、石の精霊・フリントで\\fe\\ffごっつーん！\\fe\\ff石の魔法は\\fa\\ff\\3\\0守備力アップ\\fa\\ff\\f\\0だ\\fe\\ffごっつーん！\\fe\\ff\\fa\\ff\\3\\0中級者向け\\fa\\ff\\f\\0だごっつーん！\\fe\\ff得意[space]\\fb\\ff\\7\\0虫\\fe\\ff苦手[space]\\fb\\ff\\5\\0音\\fb\\ff\\d\\0闇\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -114059,7 +114059,7 @@
       ]
     },
     {
-      "English": "I'm Antsy the bug\n$N$\nspirit. Bug magic\n|{N}\n|lowers foes'\\20\n|{RED}\n|power\n|{BLACK}\n|!\n|{N}\n|Difficulty:\\20\n|{RED}\n|Hard\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\08\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\06\\00\n|\\fb\\ff\\0d\\00",
+      "English": "I'm Antsy the bug spirit. Bug$N$\nmagic lowers foes' $RED$attack$BLACK$!\n$N$$N$\nDifficulty: $RED$Hard$BLACK$\n$N$$N$\nBeats:\n\\20|\\fb\\ff\\08\\00\n|\\20\\20Fears:\n\\20|\\fb\\ff\\06\\00\n|\\fb\\ff\\0d\\00",
       "Japanese": "オイラ、虫の精霊・バズでち。\\fe\\ff虫の魔法は\\fa\\ff\\3\\0力をさげる\\fa\\ff\\f\\0\\fe\\ff効果があるちー。\\fe\\ffいたくないちー。\\fe\\ff\\fa\\ff\\3\\0上級者向け\\fa\\ff\\f\\0だちー。\\fe\\ff得意[space]\\fb\\ff\\8\\0木\\fe\\ff苦手[space]\\fb\\ff\\6\\0石\\fb\\ff\\d\\0闇\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -114224,7 +114224,7 @@
       ]
     },
     {
-      "English": "I'm Sticky the wood\n$N$\nspirit. Wood magic\n|{N}\n|weakens foes'\\20\n|{RED}\n|spirit\n|{BLACK}\n|!\n|{N}\n|Difficulty:\\20\n|{RED}\n|Easy\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\09\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\07\\00\n|\\fb\\ff\\0d\\00",
+      "English": "I'm Sticky the wood spirit.$N$\nWood magic lowers foes' $RED$spirit$BLACK$!\n$N$$N$\nDifficulty: $RED$Easy$BLACK$\n$N$$N$\nBeats:\n\\20|\\fb\\ff\\09\\00\n|\\20\\20Fears:\n\\20|\\fb\\ff\\07\\00\n|\\fb\\ff\\0d\\00",
       "Japanese": "木の精霊・スティックぐり。\\fe\\ff木の魔法は\\fa\\ff\\3\\0精神を下げる\\fa\\ff\\f\\0\\fe\\ff効果があるぐり。\\fe\\ff魔法がきくぐり。\\fe\\ff\\fa\\ff\\3\\0初心者向け\\fa\\ff\\f\\0だぐり。\\fe\\ff得意[space]\\fb\\ff\\9\\0獣\\fe\\ff苦手[space]\\fb\\ff\\7\\0虫\\fb\\ff\\d\\0闇\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -114389,7 +114389,7 @@
       ]
     },
     {
-      "English": "I'm Furry the beast\n$N$\nspirit. Beast magic is\\20\n|{RED}\n|strong\n|{BLACK}\n|!\n|{N}{N}\n|Difficulty:\\20\n|{RED}\n|Medium\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\0a\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\08\\00\n|\\fb\\ff\\0d\\00",
+      "English": "I'm Furry the beast spirit.$N$\nBeast magic does $RED$a lot of$N$\ndamage$BLACK$!\n$N$$N$\nDifficulty: $RED$Medium$BLACK$\n$N$$N$\nBeats:\n\\20|\\fb\\ff\\0a\\00\n|\\20\\20Fears:\n\\20|\\fb\\ff\\08\\00\n|\\fb\\ff\\0d\\00",
       "Japanese": "獣の精霊・ガルでがす。\\fe\\ff獣の魔法は動物の力をかりて\\fe\\ff攻撃するがす。\\fe\\ff\\fa\\ff\\3\\0力があがる\\fa\\ff\\f\\0がす。\\fe\\ff\\fa\\ff\\3\\0中級者向け\\fa\\ff\\f\\0でがす！\\fe\\ff得意[space]\\fb\\ff\\a\\0水\\fe\\ff苦手[space]\\fb\\ff\\8\\0木\\fb\\ff\\d\\0闇\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -114552,7 +114552,7 @@
       ]
     },
     {
-      "English": "I'm Rainy the water\n$N$\nspirit. Water magic\n|{N}\n|hits\\20\n|{RED}\n|lots\n|{BLACK}\n|of foes!\n|{N}{N}\n|Difficulty:\\20\n|{RED}\n|Medium\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\0b\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\09\\00\n|\\fb\\ff\\0d\\00",
+      "English": "I'm Rainy the water spirit.$N$\nWater magic hits $RED$lots of foes$BLACK$!\n$N$$N$\nDifficulty: $RED$Medium$BLACK$\n$N$$N$\nBeats:\n\\20|\\fb\\ff\\0b\\00\n|\\20\\20Fears:\n\\20|\\fb\\ff\\09\\00\n|\\fb\\ff\\0d\\00",
       "Japanese": "オイラ、水の精霊・フロー。\\fe\\ff水の魔法は一度に\\fa\\ff\\3\\0たくさんの\\fe\\ff敵を攻撃できる\\fa\\ff\\f\\0よ。\\fe\\ffべんりだよー。\\fe\\ff\\fa\\ff\\3\\0中級者向け\\fa\\ff\\f\\0だよ。\\fe\\ff得意[space]\\fb\\ff\\b\\0雷\\fe\\ff苦手[space]\\fb\\ff\\9\\0獣\\fb\\ff\\d\\0闇\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -114719,7 +114719,7 @@
       ]
     },
     {
-      "English": "I'm Zappy the electric\n$N$\nspirit. Electric magic\n|{N}\n|can\\20\n|{RED}\n|paralyze\\20\n|{BLACK}\n|foes!\n|{N}{N}\n|Difficulty:\n|{RED}\n|Easy\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\0c\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\0a\\00\n|\\fb\\ff\\0d\\00",
+      "English": "I'm Zappy the electric spirit.$N$\nElectric magic can $RED$paralyze$BLACK$$N$\nfoes!\n$N$$N$\nDifficulty: $RED$Easy$BLACK$\n$N$$N$\nBeats:\n\\20|\\fb\\ff\\0c\\00\n|\\20\\20Fears:\n\\20|\\fb\\ff\\0a\\00\n|\\fb\\ff\\0d\\00",
       "Japanese": "びか！雷の精霊・テスラ。\\fe\\ff雷の魔法は敵が\\fe\\ff\\fa\\ff\\3\\0しびれる\\fa\\ff\\f\\0んだびか！\\fe\\ff攻撃はんいも広いびか！\\fe\\ff\\fa\\ff\\3\\0初心者向け\\fa\\ff\\f\\0だびかっ！\\fe\\ff得意[space]\\fb\\ff\\c\\0古\\fe\\ff苦手[space]\\fb\\ff\\a\\0水\\fb\\ff\\d\\0闇\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -114884,15 +114884,15 @@
       ]
     },
     {
-      "English": "I'm Early the ancient\n$N$\nspirit. Ancient magic\n|{N}\n|can\\20\n|{RED}\n|slow\\20\n|{BLACK}\n|down foes!\n|{N}{N}\n|Difficulty:\\20\n|{RED}\n|Medium\n|{BLACK}\n|{N}{N}\n|Beats:\n|\\fb\\ff\\00\\00\n|\\20\\20\n|Fears:\n|\\fb\\ff\\0b\\00\n|\\fb\\ff\\0d\\00",
+      "English": "I'm Early the ancient spirit.$N$\nAncient magic can $RED$slow down$BLACK$$N$\nfoes!\n$N$$N$\nDifficulty: $RED$Medium$BLACK$\n$N$$N$\nBeats:\n\\20|\\fb\\ff\\00\\00\n|\\20\\20Fears:\n\\20|\\fb\\ff\\0b\\00\n|\\fb\\ff\\0d\\00",
       "Japanese": "",
       "Comments": "Why is the Japanese blank???",
       "u8": []
     },
     {
-      "English": "",
+      "English": "|",
       "Japanese": "火の精霊・トーストです。\\fe\\ff火の魔法は\\fa\\ff\\3\\0攻撃力\\fa\\ff\\f\\0があるよ。\\fe\\ffバランスが良いので\\fe\\ff使いやすいよ。\\fe\\ff\\fa\\ff\\3\\0初心者向け\\fa\\ff\\f\\0だよ。\\fe\\ff得意[space]\\fb\\ff\\1\\0風\\fe\\ff苦手[space]\\fb\\ff\\c\\0古\\fb\\ff\\d\\0闇\\ff\\ffあのね、風の精霊のエアなの。\\fe\\ffんと、風の魔法をつかうとね\\fe\\ff\\fa\\ff\\3\\0速さが上がる\\fa\\ff\\f\\0の。\\fe\\ffべんりだよー。\\fe\\ff\\fa\\ff\\3\\0上級者向け\\fa\\ff\\f\\0なの。\\fe\\ff得意[space]\\fb\\ff\\2\\0毒\\fe\\ff苦手[space]\\fb\\ff\\0\\0火\\fb\\ff\\d\\0闇\\ff\\ffミーは毒の精霊・ブーざんす。\\fe\\ff毒の魔法は\\fa\\ff\\3\\0追加ダメージ\\fa\\ff\\f\\0を\\fe\\ffあたえるざんす。\\fe\\ffグーざんす。\\fe\\ff\\fa\\ff\\3\\0初心者向け\\fa\\ff\\f\\0ざんす。\\fe\\ff得意[space]\\fb\\ff\\3\\0美\\fe\\ff苦手[space]\\fb\\ff\\1\\0風\\fb\\ff\\d\\0闇\\ff\\ff美の精霊・パウダー・・・\\fe\\ff美の魔法は[space]攻撃した敵が\\fe\\ff\\fa\\ff\\3\\0マヒ\\fa\\ff\\f\\0する・・・\\fe\\ffわれは・・・\\fe\\ff\\fa\\ff\\3\\0上級者向け\\fa\\ff\\f\\0である・・・\\fe\\ff得意[space]\\fb\\ff\\4\\0刃\\fe\\ff苦手[space]\\fb\\ff\\2\\0毒\\fb\\ff\\d\\0闇\\ff\\ffそれがしは[space]刃の精霊\\fe\\ff名はスラッシュ。\\fe\\ff刃の魔法は敵一体に限り\\fe\\ff\\fa\\ff\\3\\0大ダメージ\\fa\\ff\\f\\0を与える。\\fe\\ff\\fa\\ff\\3\\0上級者向け\\fa\\ff\\f\\0だ。\\fe\\ff得意[space]\\fb\\ff\\5\\0音\\fe\\ff苦手[space]\\fb\\ff\\3\\0美\\fb\\ff\\d\\0闇\\ff\\ff私、音の精霊・ハミング♪\\fe\\ff音の魔法は相手を\\fe\\ff\\fa\\ff\\3\\0眠らせる\\fa\\ff\\f\\0んだよ♪\\fe\\ffでも、たたくと起きちゃう♪\\fe\\ff\\fa\\ff\\3\\0中級者向け\\fa\\ff\\f\\0だよ♪\\fe\\ff得意[space]\\fb\\ff\\6\\0石\\fe\\ff苦手[space]\\fb\\ff\\4\\0刃\\fb\\ff\\d\\0闇\\ff\\ffオイラ、石の精霊・フリントで\\fe\\ffごっつーん！\\fe\\ff石の魔法は\\fa\\ff\\3\\0守備力アップ\\fa\\ff\\f\\0だ\\fe\\ffごっつーん！\\fe\\ff\\fa\\ff\\3\\0中級者向け\\fa\\ff\\f\\0だごっつーん！\\fe\\ff得意[space]\\fb\\ff\\7\\0虫\\fe\\ff苦手[space]\\fb\\ff\\5\\0音\\fb\\ff\\d\\0闇\\ff\\ffオイラ、虫の精霊・バズでち。\\fe\\ff虫の魔法は\\fa\\ff\\3\\0力をさげる\\fa\\ff\\f\\0\\fe\\ff効果があるちー。\\fe\\ffいたくないちー。\\fe\\ff\\fa\\ff\\3\\0上級者向け\\fa\\ff\\f\\0だちー。\\fe\\ff得意[space]\\fb\\ff\\8\\0木\\fe\\ff苦手[space]\\fb\\ff\\6\\0石\\fb\\ff\\d\\0闇\\ff\\ff木の精霊・スティックぐり。\\fe\\ff木の魔法は\\fa\\ff\\3\\0精神を下げる\\fa\\ff\\f\\0\\fe\\ff効果があるぐり。\\fe\\ff魔法がきくぐり。\\fe\\ff\\fa\\ff\\3\\0初心者向け\\fa\\ff\\f\\0だぐり。\\fe\\ff得意[space]\\fb\\ff\\9\\0獣\\fe\\ff苦手[space]\\fb\\ff\\7\\0虫\\fb\\ff\\d\\0闇\\ff\\ff獣の精霊・ガルでがす。\\fe\\ff獣の魔法は動物の力をかりて\\fe\\ff攻撃するがす。\\fe\\ff\\fa\\ff\\3\\0力があがる\\fa\\ff\\f\\0がす。\\fe\\ff\\fa\\ff\\3\\0中級者向け\\fa\\ff\\f\\0でがす！\\fe\\ff得意[space]\\fb\\ff\\a\\0水\\fe\\ff苦手[space]\\fb\\ff\\8\\0木\\fb\\ff\\d\\0闇\\ff\\ffオイラ、水の精霊・フロー。\\fe\\ff水の魔法は一度に\\fa\\ff\\3\\0たくさんの\\fe\\ff敵を攻撃できる\\fa\\ff\\f\\0よ。\\fe\\ffべんりだよー。\\fe\\ff\\fa\\ff\\3\\0中級者向け\\fa\\ff\\f\\0だよ。\\fe\\ff得意[space]\\fb\\ff\\b\\0雷\\fe\\ff苦手[space]\\fb\\ff\\9\\0獣\\fb\\ff\\d\\0闇\\ff\\ffびか！雷の精霊・テスラ。\\fe\\ff雷の魔法は敵が\\fe\\ff\\fa\\ff\\3\\0しびれる\\fa\\ff\\f\\0んだびか！\\fe\\ff攻撃はんいも広いびか！\\fe\\ff\\fa\\ff\\3\\0初心者向け\\fa\\ff\\f\\0だびかっ！\\fe\\ff得意[space]\\fb\\ff\\c\\0古\\fe\\ff苦手[space]\\fb\\ff\\a\\0水\\fb\\ff\\d\\0闇\\ff\\ff私は古の精霊・クロック。\\fe\\ff古の魔法は敵の\\fa\\ff\\3\\0はやさを\\fe\\ff下げる\\fa\\ff\\f\\0のだ。\\fe\\ff戦闘が有利になるぞよ。\\fe\\ff\\fa\\ff\\3\\0中級者向け\\fa\\ff\\f\\0ぞよ。\\fe\\ff得意[space]\\fb\\ff\\0\\0火\\fe\\ff苦手[space]\\fb\\ff\\b\\0雷\\fb\\ff\\d\\0闇\\ff\\ff",
-      "Comments": "",
+      "Comments": "Unused",
       "u8": [
         1,
         214,

@@ -33,23 +33,23 @@ mov r3, 0x78 ; y
 
 ; Positioning text for "Who do you play as?"
 .org 0x080ACD48
-mov r0, 0x30 ; x
+mov r0, 0x40 ; x
 mov r1, 0x03 ; y
 
 ; Positioning text for "Which element do you choose?"
 .org 0x080ACE26
-mov r0, 0x08 ; x
+mov r0, 0x24 ; x
 mov r1, 0x08 ; y
 
 ; Positioning text for element name in element choosing
 .org 0x080ACE4E
-mov r0, 0x5C ; x
+mov r0, 0x68 ; x
 mov r1, 0x80 ; y
 
 ; Positioning text for male confirmation screen
 ; "Name", "Gender", and "Element"
 .org 0x080ACFA0
-add r0, 0x10 ; x for all
+add r0, 0x24 ; x for all
 .org 0x080ACFB4
 mov r1, 0x20 ; y for "Name"
 .org 0x080ACFF4
@@ -67,10 +67,14 @@ mov r1, 0xA0 ; y for element (hiding the element text, icon is enough)
 ; x and y for element icon
 .org 0x080AD0C4
 add r0, sp, 0x10
-add r7, 0x08 ; x for icon
+add r7, 0x02 ; x for icon
 strh r7, [r0, 0x04]
 mov r1, 0x3E ; y for icon
 strh r1, [r0, 0x06]
+
+; "Is this correct?"
+.org 0x080AF624
+add r0, 0x24
 
 ; PROTIP: Breakpoint on 80B57D8 and then look for the call site.
 ; Positioning text on the status screen.
