@@ -123,7 +123,6 @@ document
 document
   .getElementById('number')
   .addEventListener('change', function(e) {
-    number = e.target.value;
     document.getElementById('japanese').innerHTML = script[number].Japanese;
     document.getElementById('english').value = script[number].English;
     document.getElementById('comments').value = script[number].Comments;
