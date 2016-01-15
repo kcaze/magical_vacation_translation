@@ -11,10 +11,6 @@ ADDR_FONT equ 0x08603900
 .incbin text_rendering/fonts/vwf_robot.bin
 .org ADDR_FONT + 0x800 + 0x900
 .incbin text_rendering/fonts/vwf_robot_widths.bin
-.org ADDR_FONT + 2 * 0x900
-.incbin text_rendering/fonts/vwf_menu.bin
-.org ADDR_FONT + 0x800 + 2 * 0x900
-.incbin text_rendering/fonts/vwf_menu_widths.bin
 
 
 .close

@@ -1,24 +1,32 @@
 var glossary = {
+
 /************************************\
 *          [[Control Codes]]         *
 \************************************/
   // lowercase = script control code, uppercase = menu control code
-  "n":"|"+String.fromCharCode(0x80)+"`", // newline
+  "n":"|\\80`", // newline
   "N":"|\\FE\\FF`\\1E",
-  "black":"|"+String.fromCharCode(0x8D)+"`", // change font color to black
-  "BLACK":"|"+String.fromCharCode(0xFA,0xFF,0x0F,0x00),
-  "red":"|"+String.fromCharCode(0x8E)+"`", // change font color to red
-  "RED":"|"+String.fromCharCode(0xFA,0xFF,0x03,0x00),
-  "font_normal":"|"+String.fromCharCode(0x1D, 0x00), // change font to normal
-  "FONT_normal":"|"+String.fromCharCode(0x1D, 0x00),
-  "font_robot":"|"+String.fromCharCode(0x1D, 0x01), // change font to robot
-  "FONT_ROBOT":"|"+String.fromCharCode(0x1D, 0x01),
-  "font_menu":"|"+String.fromCharCode(0x1D, 0x02), // change font to menu
-  "FONT_MENU":"|"+String.fromCharCode(0x1D, 0x02),
-  "music":String.fromCharCode(0x7B), // musical note glyph
-  "MUSIC":String.fromCharCode(0x7B),
-  "heart":String.fromCharCode(0x7C), // heart glyph
-  "HEART":String.fromCharCode(0x7C),
+  "black":"|\\8D`", // change font color to black
+  "BLACK":"|\\FA\\FF\\0F\\00",
+  "red":"|\\8E`", // change font color to red
+  "RED":"|\\FA\\FF\\03\\00",
+  "choice":"|\\83`", // dialogue choice
+  "end_choice":"|\\84`", // end of dialogue choices marker
+  "number":"|\\93`", // number control character
+  "var_item":"|\\94`", // item control character, controlled by register
+  "font_normal":"|\\1D\\00", // change font to normal
+  "pause":"|\\82`", // forces a button press
+  "FONT_NORMAL":"|\\1D\\00",
+  "font_robot":"|\\1D\\01", // change font to robot
+  "FONT_ROBOT":"|\\1D\\01",
+  "font_menu":"", // change font to menu
+  "FONT_MENU":"",
+  "music":"\\7B", // musical note glyph
+  "MUSIC":"\\7B",
+  "heart":"\\7C", // heart glyph
+  "HEART":"\\7C",
+  "space":"\\7F", // 8 pixel space
+  "SPACE":"\\7F",
 /************************************\
 *             [[Stats]]              *
 \************************************/
@@ -516,6 +524,13 @@ var glossary = {
   "闇":"Dark",
   "光":"Light",
   "愛":"Love",
+/************************************\
+*             [[Places]]             *
+\************************************/
+  "タピオカティ村":"Tapioca Tea Village",
+  "マサラティ村":"Masala Chai Village",
+  "レヒカフ沼":"Spollacs Swamp",
+  "クムヤムト砂漠":"Muy Mot Desert",
 /************************************\
 *         [[Miscellaneous]]          *
 \************************************/

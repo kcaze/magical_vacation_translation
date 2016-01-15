@@ -53,22 +53,20 @@
   </p>
 
   <p>
-    <button disabled="true" id="export_script">Export JSON</button>
-  </p>
-  <p>
+    <button disabled="true" id="export_json">Export JSON</button>
     <button disabled="true" id="export_binary">Export binary</button>
-  </p>
-
-  <p>
-    <b>Status:</b> <span id="status" class="red">Not loaded.</span>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <input id="search_text" type="text" />
+    <button disabled="true" id="japanese_search">Search Japanese</button>
+    <button disabled="true" id="english_search">Search English</button>
   </p>
 
   <hr/>
 
   <p>
     <label>Dialogue number:</label>
-    <input id="dialogue_number" disabled="true" type="number" min="0" max="0" step="1"/>
-    of <span id="max_dialogue_number"></span>
+    <input id="number" disabled="true" type="number" min="0" max="0" step="1"/>
+    of <span id="max_number"></span>
   </p>
 
   <p>
@@ -83,16 +81,6 @@
   <p>
     <label>Comments:</label>
     <textarea disabled=true id="comments"></textarea>
-  </p>
-
-  <p>
-    <input id="japanese_search_text" type="text" />
-    <button disabled="true" id="japanese_search">Search Japanese</button>
-  </p>
-
-  <p>
-    <input id="english_search_text" type="text" />
-    <button disabled="true" id="english_search">Search English</button>
   </p>
 
   <p id="search_results">
