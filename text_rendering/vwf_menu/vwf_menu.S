@@ -1,10 +1,10 @@
 .gba
 .open "hacked.gba", 0x08000000
-ADDR_VAR_FONT_SET  equ 0x0203FFF2
+ADDR_VAR_FONT_SET equ 0x0203FFF2
 ADDR_FONT equ 0x08603900
 ADDR_WIDTHS equ 0x08604100
 ADDR_FN_VWF_MENU_TILE_CLEAR equ 0x087F59B0
-ADDR_FN_VWF_MENU equ 0x087F5A10
+ADDR_FN_VWF_MENU equ 0x08808000
 
 ; Disable DMA transfers
 .org 0x080A0BCA
@@ -82,7 +82,7 @@ mov r15, r0
 ;-----------------------------;
 
 .org ADDR_FN_VWF_MENU
-.area 0x1A0
+.area 0x2A0
 
 ; Swap glyph value
 mov r0, 0xFF
@@ -147,6 +147,16 @@ beq loop_draw_glyph
 lsl r1, r1, 0x04
 ldr r0, =ADDR_FONT
 add r1, r1, r0
+
+push r0
+ldr r0, =ADDR_VAR_FONT_SET
+ldrb r0, [r0]
+; Add 0x900 * font set to the widths address
+lsl r0, 0x08
+add r1, r1, r0
+lsl r0, 0x03
+add r1, r1, r0
+pop r0
 
 ; Copy glyph data onto stack with a shift depending on width of
 ; remaining glyph.
@@ -215,6 +225,15 @@ mov r0, 0xFF
 mov r1, r5
 and r1, r0
 ldr r0, =ADDR_WIDTHS
+push r2
+ldr r2, =ADDR_VAR_FONT_SET
+ldrb r2, [r2]
+; Add 0x900 * font set to the widths address
+lsl r2, 0x08
+add r0, r0, r2
+lsl r2, 0x03
+add r0, r0, r2
+pop r2
 ldrb r0, [r0, r1]
 ldrb r2, [r6, 0x02]
 add r2, r2, r0
@@ -255,12 +274,30 @@ mov r1, r5
 and r1, r0
 ldrb r2, [r6, 0x02]
 ldr r3, =ADDR_WIDTHS
+push r0
+ldr r0, =ADDR_VAR_FONT_SET
+ldrb r0, [r0]
+; Add 0x900 * font set to the widths address
+lsl r0, 0x08
+add r3, r3, r0
+lsl r0, 0x03
+add r3, r3, r0
+pop r0
 ldrb r3, [r3, r1]
 sub r2, r3, r2
 add r2, 0x01
 ; r1 = address of glyph data
 lsl r1, r1, 0x04
 ldr r0, =ADDR_FONT
+push r1
+ldr r1, =ADDR_VAR_FONT_SET
+ldrb r1, [r1]
+; Add 0x900 * font set to the widths address
+lsl r1, 0x08
+add r0, r0, r1
+lsl r1, 0x03
+add r0, r0, r1
+pop r1
 add r1, r1, r0
 ; Shift and then copy over remaining glyph's data.
 mov r3, 0x00

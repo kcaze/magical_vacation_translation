@@ -1,3 +1,7 @@
+NOTE: This is out of date. I'm allowing things to spill past 0x087FFFFF for now
+      and then repacking everything at the end.
+
+
 Allocation of extra memory from 0x087DF750 to 0x087FFFFF
 `0x087DF750 -- 0x087E2110`: Monster names
 `0x087E2110 -- 0x087E5950`: Place names
