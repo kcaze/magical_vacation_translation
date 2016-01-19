@@ -9,6 +9,7 @@ var glossary = {
   "BLACK":"|\\FA\\FF\\0F\\00",
   "red":"|\\8E`", // change font color to red
   "RED":"|\\FA\\FF\\03\\00",
+  "blue":"|\\8F`", // change font color to blue
   "choice":"|\\83`", // dialogue choice
   "end_choice":"|\\84`", // end of dialogue choices marker
   "number":"|\\93`", // number control character

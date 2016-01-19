@@ -1,28 +1,9 @@
 # Useful for dialogue boxes 731 to 746.
-spirits = ["Toast", "Air", "Boo", "Powder", "Slash", "Humming", "Flint", "Buzz", "Stick", "Grr", "Flow", "Tesla", "Clock"]
-types = ["fire", "wind", "poison", "beauty", "blade", "sound", "stone", "bug", "tree", "beast", "water", "electric", "ancient"]
+spirits = ["Toasty", "Gusty", "Gloomy", "Pretty", "Edgy", "Catchy", "Rocky", "Ansty", "Sticky", "Furry", "Rainy", "Zappy", "Early"]
+types = ["fire", "wind", "poison", "beauty", "blade", "sound", "stone", "bug", "wood", "beast", "water", "electric", "ancient"]
 
 template_string = """
-If you become friends with the
-\8e*T1* spirit *S1*\8d, then during
-battle you can use \8fCall *S1*\8d to
-summon the \8e*T1* spirit *S1*\8d. If
-you summon \8e*S1*\8d, the power of
-*T1* magic is doubled. With two \8e*S1*s\8d,
-the power is 4 times as strong, with three
-8 times, and it continues to double. The
-\8e*T1* spirit *S1*\8d is weak against the
-\8f*T0* spirit *S0*\8d. When \8f*S0*\8d
-is present, it weakens *T1* moves. For example,
-if there are 2 \8f*S0*s\8d and 4 \8e*S1*s\8d,
-then when using *T1* magic, 2 of the \8e*S1*s\8d
-will cancel out with 2 of the \8f*S0*s\8d, so
-you will only see the effect of 2 \8e*S1*s\8d, or
-4 times the magic power. Next, the \8e*T1* spirit
-*S1*\8d has the power to negate the power of
-\8f*T2* spirit *S2*\8d. When someone tries to use
-*T2* magic, the effect of \8f*S2*\8d is cancelled
-out.
+If you become friends with the $red$*T1* spirit *S1*$black$, then during battle you can use $blue$Call *S1*$black$ to summon $red$*S1*$black$. If you summon $red$*S1*$black$, the power of *T1* magic is doubled. With two $red$*S1*'s$black$, the power is 4 times as strong, with three 8 times, and it continues to double. $red$*S1*$black$ is weak against the $blue$*T0* spirit *S0*$black$. When $blue$*S0*$black$ is present, it weakens *T1* moves. For example, if there are 2 $blue$*S0*'s$black$ and 4 $red$*S1*'s$black$, then when using *T1* magic, 2 of the $red$*S1*'s$black$ will cancel out with 2 of the $blue$*S0*'s$black$, so you will only see the effect of 2 $red$*S1*'s$black$, or 4 times the magic power. Next, $red$*S1*$black$ has the power to negate the power of the $blue$*T2* spirit *S2*$black$. When someone tries to use *T2* magic, the effect of $blue$*S2*$black$ is cancelled out.
 """
 
 for ii in range(len(spirits)):
