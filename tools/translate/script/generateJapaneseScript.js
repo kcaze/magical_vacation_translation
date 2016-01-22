@@ -12,7 +12,7 @@ var character_names = [
   'Cassis',
   'Cider',
   'Arancia',
-  'Mokka',
+  'Latte',
   'Pistachio',
   'Olive',
   'Sesame',
