@@ -50,7 +50,10 @@ function exportBinary() {
         data.push(script[ii].u8[jj]);
       }
     } else {
-      data = parseEnglish(script[ii].English);
+      var english = preprocessScript(
+                    processSpecialCharacters(
+                    substituteMacros(script[ii].English)));
+      data = parseEnglish(english);
     }
 
     for (var jj = 0; jj < data.length; jj++) {

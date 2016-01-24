@@ -1,3 +1,14 @@
+var charWidths = {};
+[3,3,3,7,7,7,7,1,3,3,7,7,4,7,1,7,
+6,5,6,6,6,6,6,6,6,6,1,4,7,7,7,7,
+7,7,6,6,6,6,5,6,6,5,4,6,5,7,7,7,
+6,7,6,6,5,7,7,7,6,7,6,7,7,7,7,7,
+7,6,6,5,6,6,4,6,6,1,3,6,1,7,7,6,
+6,6,4,5,4,6,5,7,5,5,4,7,7,7,7,7].forEach(function(w, idx) {
+  charWidths[String.fromCharCode(0x20 + idx)] = w;
+});
+
+
 // Perform macro substitution (non-recursive)
 function substituteMacros(english) {
   var strings = english.split("$");
@@ -15,11 +26,40 @@ function substituteMacros(english) {
   return strings.join("");
 }
 
-// Auto line break and indentation for script dialogue. Call after initial parse.
-function preprocessScript(bytes) {
-  var parts = bytes.split(0x40); // Split at @ symbol.
-  if (parts.length != 2) return bytes;
-  var lines = parts[1].split(0x80); 
+// Auto line break and indentation for script dialogue. Call after macro substitution and
+// process special characters.
+function preprocessScript(english) {
+  var parts = english.split("@"); // Split at @ symbol.
+  if (parts.length != 2) return english;
+  var lines = parts[1].split(String.fromCharCode(0x101, 0x80, 0x102));
+  for (var ii = 0; ii < lines.length; ii++) {
+    words = lines[ii].split(" ");
+    widths = []
+    words.forEach(function (w) {
+      var width = 0;
+      for (var ii = 0; ii < w.length; ii++) {
+        width += (charWidths[w[ii]] || 0) + 1;
+      }
+      widths.push(width); // + 1 for space
+    });
+
+    var width = 0;
+    var MAXWIDTH = 156;
+    for (var jj = 0; jj < words.length; jj++) {
+      if (width + widths[jj] > MAXWIDTH) {
+        words[jj] = "|\\80`\\7f" + words[jj];
+        width = widths[jj] + 0x4;
+      } else {
+        width += widths[jj] + 0x4; // +4 for space
+      }
+    }
+    lines[ii] = words.join(" ");
+  }
+  for (var ii = 1; ii < lines.length; ii++) {
+    lines[ii] = "\\7f" + lines[ii];
+  }
+  english = parts[0] + "@" + lines.join("|\\80`");
+  return processSpecialCharacters(english);
 }
 
 // Processes escaped hex values and alignment characters.
