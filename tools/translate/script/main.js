@@ -50,9 +50,16 @@ function exportBinary() {
         data.push(script[ii].u8[jj]);
       }
     } else {
-      var english = preprocessScript(
-                    processSpecialCharacters(
-                    substituteMacros(script[ii].English)));
+      var english = script[ii].English;
+      // Auto insert character portraits
+      if (script[ii].u8[0] == 0x8b) {
+        var s = script[ii].u8[1].toString(16);
+        if (s.length == 1) s = "0" + s;
+        english = "\\8b\\" + s + english;
+      }
+      english = preprocessScript(
+                processSpecialCharacters(
+                substituteMacros(english)));
       data = parseEnglish(english);
     }
 

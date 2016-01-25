@@ -546,6 +546,7 @@ var glossary = {
   "クガンデ村":"Osim Village",
   "リギニオ密林":"Ecir Thicket",
   "文鳥温泉":"Ricebird Onsen",
+  "ゲアラヴァ村":"Ufot Village",
 /************************************\
 *            [[Enemies]]             *
 \************************************/
