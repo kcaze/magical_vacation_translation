@@ -549,6 +549,8 @@ var glossary = {
   "ゲアラヴァ村":"Ufot Village",
   "キスニカこうざん":"Toptoh Mines",
   "ラロッシュの塔":"Tour de la Roche",
+  "モイロロト村":"May Village",
+  "モギナスの魔窟":"Drazzig Grotto",
 /************************************\
 *            [[Enemies]]             *
 \************************************/
