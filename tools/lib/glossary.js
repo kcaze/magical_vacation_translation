@@ -570,7 +570,8 @@ var glossary = {
 /************************************\
 *         [[Miscellaneous]]          *
 \************************************/
-  "キヤコタのツボ":"Terracota Pot",
+  "キヤコタのツボ":"Terracotta Pot",
+  "キヤシカゥアのツボ":"Porcelain Pot",
   "愛のデッパリ":"Love Stick",
   "空き":"Unused"
 }
