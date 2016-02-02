@@ -1,8 +1,8 @@
 [
   {
-    "English": "^\\1e\\1e  Successfully escaped.",
+    "English": "Successfully Escaped",
     "Japanese": "逃げることにせいこうした",
-    "Comments": "This is a really stupid way of centering the message.",
+    "Comments": "",
     "u8": [
       4,
       175,
@@ -31,7 +31,7 @@
     ]
   },
   {
-    "English": "^Magic\\1e",
+    "English": "Magic\\7f\\7f",
     "Japanese": "まほう",
     "Comments": "",
     "u8": [
@@ -44,9 +44,9 @@
     ]
   },
   {
-    "English": "^Items\\1e\\1e",
+    "English": "Items\\7f",
     "Japanese": "アイテム",
-    "Comments": "Battle commands are weird and need to be padded with an 8 bit width character like this.",
+    "Comments": "",
     "u8": [
       0,
       113,
@@ -59,9 +59,9 @@
     ]
   },
   {
-    "English": "^Escape\\1e",
+    "English": "Escape",
     "Japanese": "にげる",
-    "Comments": "Battle commands are weird and need to be padded with an 8 bit width character like this.",
+    "Comments": "",
     "u8": [
       0,
       154,
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "English": "^Bura",
+    "English": "Bura",
     "Japanese": "獲得ブラー",
     "Comments": "",
     "u8": [
@@ -89,7 +89,7 @@
     ]
   },
   {
-    "English": "^Items",
+    "English": "Items",
     "Japanese": "獲得アイテム",
     "Comments": "",
     "u8": [
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "English": "^Learned",
+    "English": "Learned",
     "Japanese": "の魔法を覚えた",
     "Comments": "",
     "u8": [
@@ -129,7 +129,7 @@
     ]
   },
   {
-    "English": "^leveled up",
+    "English": "leveled up",
     "Japanese": "がレベルアップ",
     "Comments": "",
     "u8": [
@@ -150,7 +150,7 @@
     ]
   },
   {
-    "English": "^Results",
+    "English": "Results",
     "Japanese": "戦闘結果",
     "Comments": "",
     "u8": [
@@ -391,7 +391,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "Party Defeated",
     "Japanese": "パーティがぜんめつした",
     "Comments": "",
     "u8": [
@@ -421,7 +421,7 @@
   },
   {
     "English": "",
-    "Japanese": "<br>獲得！",
+    "Japanese": "<br>\\8c\\2\\8e\\94\\8d\\0\\c8\\8e\\93\\2\\bd\\8d獲得！",
     "Comments": "",
     "u8": [
       128,
@@ -447,7 +447,7 @@
   },
   {
     "English": "",
-    "Japanese": "<br>宝箱は空だった",
+    "Japanese": "<br>\\8c\\6宝箱は空だった",
     "Comments": "",
     "u8": [
       128,
@@ -471,7 +471,7 @@
   },
   {
     "English": "",
-    "Japanese": "<br>たが<br>いっぱいで持てなかった。",
+    "Japanese": "\\8c\\2\\8e\\94\\8d\\0\\c8\\0\\ae\\0\\92\\0<br>たが<br>\\8c\\2いっぱいで持てなかった。",
     "Comments": "",
     "u8": [
       140,
@@ -522,7 +522,7 @@
   },
   {
     "English": "",
-    "Japanese": "<br>ブラー",
+    "Japanese": "<br>\\8c\\6\\8e\\93ブラー\\8d\\3\\b9\\0\\0\\NaN",
     "Comments": "",
     "u8": [
       128,
@@ -544,7 +544,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "No more room for Bura.",
     "Japanese": "<br>これ以上お金を持つことはできません",
     "Comments": "",
     "u8": [
@@ -586,8 +586,8 @@
     ]
   },
   {
-    "English": "^The enemy escaped...",
-    "Japanese": "  敵が逃げ出した",
+    "English": "The enemy ran away",
+    "Japanese": "[space][space]敵が逃げ出した",
     "Comments": "",
     "u8": [
       0,
@@ -611,7 +611,7 @@
     ]
   },
   {
-    "English": "^Defend\\1e",
+    "English": "Defend",
     "Japanese": "ぼうぎょ",
     "Comments": "Battle commands are weird and need to be padded with an 8 bit width character like this.",
     "u8": [
@@ -626,7 +626,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "Insert cable",
     "Japanese": "ケーブルをさしてください",
     "Comments": "",
     "u8": [
@@ -657,7 +657,7 @@
     ]
   },
   {
-    "English": "^Disconnected",
+    "English": "Disconnected",
     "Japanese": "ケーブルがはずれています",
     "Comments": "",
     "u8": [
@@ -688,8 +688,8 @@
     ]
   },
   {
-    "English": "^Quit Lucha?",
-    "Japanese": "たいせんをやめますか<br>",
+    "English": "Quit battle?",
+    "Japanese": "たいせんをやめますか<br>\\83\\0\\a2\\0\\72\\80\\83\\0\\72\\0\\72\\0\\76\\84",
     "Comments": "",
     "u8": [
       0,
@@ -730,7 +730,7 @@
     ]
   },
   {
-    "English": "^Waiting",
+    "English": "Waiting",
     "Japanese": "相手の入力を待っています",
     "Comments": "",
     "u8": [
@@ -761,7 +761,7 @@
     ]
   },
   {
-    "English": "^Victory",
+    "English": "Victory",
     "Japanese": "勝ちました",
     "Comments": "",
     "u8": [
@@ -778,7 +778,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "Defeat",
     "Japanese": "負けてしまいました",
     "Comments": "",
     "u8": [
@@ -803,7 +803,7 @@
     ]
   },
   {
-    "English": "^Fire",
+    "English": "Fire",
     "Japanese": "火の精霊",
     "Comments": "",
     "u8": [
@@ -818,7 +818,7 @@
     ]
   },
   {
-    "English": "^Wind",
+    "English": "Wind",
     "Japanese": "風の精霊",
     "Comments": "",
     "u8": [
@@ -833,7 +833,7 @@
     ]
   },
   {
-    "English": "^Poison",
+    "English": "Poison",
     "Japanese": "毒の精霊",
     "Comments": "",
     "u8": [
@@ -848,7 +848,7 @@
     ]
   },
   {
-    "English": "^Beauty",
+    "English": "Beauty",
     "Japanese": "美の精霊",
     "Comments": "",
     "u8": [
@@ -863,7 +863,7 @@
     ]
   },
   {
-    "English": "^Blade",
+    "English": "Blade",
     "Japanese": "刃の精霊",
     "Comments": "",
     "u8": [
@@ -878,7 +878,7 @@
     ]
   },
   {
-    "English": "^Sound",
+    "English": "Sound",
     "Japanese": "音の精霊",
     "Comments": "",
     "u8": [
@@ -893,7 +893,7 @@
     ]
   },
   {
-    "English": "^Stone",
+    "English": "Stone",
     "Japanese": "石の精霊",
     "Comments": "",
     "u8": [
@@ -908,7 +908,7 @@
     ]
   },
   {
-    "English": "^Bug",
+    "English": "Bug",
     "Japanese": "虫の精霊",
     "Comments": "",
     "u8": [
@@ -923,7 +923,7 @@
     ]
   },
   {
-    "English": "^Wood",
+    "English": "Wood",
     "Japanese": "木の精霊",
     "Comments": "",
     "u8": [
@@ -938,7 +938,7 @@
     ]
   },
   {
-    "English": "^Beast",
+    "English": "Beast",
     "Japanese": "獣の精霊",
     "Comments": "",
     "u8": [
@@ -953,7 +953,7 @@
     ]
   },
   {
-    "English": "^Water",
+    "English": "Water",
     "Japanese": "水の精霊",
     "Comments": "",
     "u8": [
@@ -968,7 +968,7 @@
     ]
   },
   {
-    "English": "^Electric",
+    "English": "Electric",
     "Japanese": "雷の精霊",
     "Comments": "",
     "u8": [
@@ -983,7 +983,7 @@
     ]
   },
   {
-    "English": "^Ancient",
+    "English": "Ancient",
     "Japanese": "古の精霊",
     "Comments": "",
     "u8": [
@@ -998,7 +998,7 @@
     ]
   },
   {
-    "English": "^Dark",
+    "English": "Dark",
     "Japanese": "闇の精霊",
     "Comments": "",
     "u8": [
@@ -1013,7 +1013,7 @@
     ]
   },
   {
-    "English": "^Light",
+    "English": "Light",
     "Japanese": "光の精霊",
     "Comments": "",
     "u8": [
@@ -1028,7 +1028,7 @@
     ]
   },
   {
-    "English": "^Love",
+    "English": "Love",
     "Japanese": "愛の精霊",
     "Comments": "",
     "u8": [
@@ -1054,8 +1054,8 @@
     ]
   },
   {
-    "English": "",
-    "Japanese": "苦手  得意",
+    "English": "Fears\\7f\\7fBeats",
+    "Japanese": "苦手[space][space]得意",
     "Comments": "",
     "u8": [
       1,
@@ -1097,7 +1097,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "Waiting for opponent",
     "Japanese": "対戦相手がコマンドを選んでいます",
     "Comments": "",
     "u8": [
@@ -1136,7 +1136,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "Please wait",
     "Japanese": "しばらくお待ち下さい",
     "Comments": "",
     "u8": [
@@ -1163,7 +1163,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "Could not run away",
     "Japanese": "にげられなかった",
     "Comments": "",
     "u8": [
@@ -1386,7 +1386,7 @@
     ]
   },
   {
-    "English": "^Ganache was defeated",
+    "English": "Ganache was defeated",
     "Japanese": "ガナッシュを助けられなかった",
     "Comments": "",
     "u8": [
@@ -1421,7 +1421,7 @@
     ]
   },
   {
-    "English": "^Cancel",
+    "English": "Cancel",
     "Japanese": "キャンセル",
     "Comments": "",
     "u8": [
@@ -1469,8 +1469,8 @@
   },
   {
     "English": "",
-    "Japanese": "  <br>た",
-    "Comments": "",
+    "Japanese": "[space][space]\\94\\0\\c8\\0\\ae\\0\\92\\0<br>た",
+    "Comments": " ",
     "u8": [
       0,
       32,
@@ -1570,7 +1570,7 @@
   },
   {
     "English": "",
-    "Japanese": "   称号：    敗",
+    "Japanese": "[space][space][space]称号：\\98\\80[space][space][space][space]\\95\\3\\20\\0\\20\\96敗",
     "Comments": "",
     "u8": [
       0,

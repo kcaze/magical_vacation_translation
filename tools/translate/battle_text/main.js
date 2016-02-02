@@ -50,7 +50,10 @@ function exportBinary() {
         data.push(battle_text[ii].u8[jj]);
       }
     } else {
-      data = parseEnglish(battle_text[ii].English);
+      var english = battle_text[ii].English;
+      english = processSpecialCharacters(
+                substituteMacros(english));
+      data = parseEnglish(english);
     }
 
     for (var jj = 0; jj < data.length; jj++) {
@@ -144,9 +147,6 @@ function generateJSON(binary) {
   document.getElementById('export_json').disabled = false;
 }
 
-document.getElementById('binary')
-  .addEventListener('change', readBinary, false);
-
 document.getElementById('json')
   .addEventListener('change', readJSON, false);
 
@@ -186,3 +186,40 @@ document
 document
   .getElementById('english_search')
   .addEventListener('click', english_search);
+
+function heartBeat() {
+  if (!battle_text) return;
+  var newNumber = parseInt(document.getElementById('number').value, 10);
+  if (number != newNumber) {
+    number = newNumber;
+    document.getElementById('japanese').innerHTML = battle_text[number].Japanese;
+    document.getElementById('english').value = battle_text[number].English;
+    document.getElementById('comments').value = battle_text[number].Comments;
+  }
+  battle_text[number].English = document.getElementById('english').value;
+  battle_text[number].Comments = document.getElementById('comments').value;
+}
+window.setInterval(heartBeat, 100);
+
+document.addEventListener('keydown', function (e) {
+  if (!e.ctrlKey) return;
+  var preventDefault = true;
+  switch (String.fromCharCode(e.keyCode)) {
+  case 'H':
+    document.getElementById('number').value = Math.max(0, number-1);
+    break;
+  case 'L':
+    document.getElementById('number').value = Math.min(battle_text.length-1, number+1);
+    break;
+  case 'E':
+    exportJSON();
+    exportBinary();
+    break;
+  default:
+    preventDefault = false;
+  }
+  if (preventDefault) {
+    e.preventDefault();
+    e.stopPropagation();
+  }
+});

@@ -21,7 +21,7 @@ function generateJapanese(battle_text) {
         } else if (v == 0xFFFF) {
           battle_text[ii].Japanese += '\\FF\\FF';
         } else {
-          console.log("Did not find glyph ", v.toString(16), " at ", ii, jj, battle_text.length);
+          battle_text[ii].Japanese += '\\' + (v >> 8).toString(16) + '\\' + (v % 256).toString(16);
         }
       }
     }
