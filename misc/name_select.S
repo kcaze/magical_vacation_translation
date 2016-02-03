@@ -1,10 +1,9 @@
 .gba
 .open "hacked.gba", 0x08000000
 
-; Change name selection to use 1 byte characters.
-; Also, skip first 0x1F character in each row
+; Map an index x to 2 + 11*(x/9) + x%9 so that the
+; correct letter is used for a name.
 .org 0x080A65B2
-; We need to map an index x to 2 + 11*(x/9) + x%9.
 ; Not enough room here so branching to custom code.
 ; TODO: This address needs to be remapped at the end.
 ldr r0, =0x0880A000
@@ -12,19 +11,29 @@ mov r15, r0
 .pool
 .org 0x0880A000
 ldrh r0, [r7]
+mov r1, 0x9
+mov r2, r3 ; Save r3
+swi 0x06 ; Division, r0 = x/9, r1 = x%9
+mov r3, r2
+mov r2, 0x0B
+mul r0, r2
+add r0, r0, r1
+add r0, 0x02
 lsl r0, r0, 0x2
 ldr r1, =0x3904
 add r0, r0, r1
 add r6, r5, r0
-ldr r1, =0x080A65BC
+ldr r2, =0x3A44
+ldr r1, =0x080A65BE
 mov r15, r1
 .pool
 
+; Change name selection to use 1 byte characters.
 .org 0x080A663C
 lsl r0, r0, 0x1C
 lsr r0, r0, 0x1C
 .org 0x080A6646
-ldrb r0, [r6, 0x08]
+ldrb r0, [r6]
 strb r0, [r1]
 
 ; Modify cursor to be 16 pixels per index instead of 12.
@@ -45,7 +54,15 @@ mov r3, 0x09
 .org 0x080A3EB0
 mov r0, 0x24
 
+; Modify the number of extra rows per panel to 0
+.org 0x080A3EAE
+mov r2, 0x00
 
+; Modify the space skip to be at 4 characters, not 5.
+.org 0x080BCB66
+cmp r0, 0x4
+.org 0x080BCBBC
+cmp r0, 0x4
 
 ; TODO: Change backspace to erase 1 byte characters
 ;       Delete cursor and rewrite "back" function to just delete one character.

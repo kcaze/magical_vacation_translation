@@ -3,6 +3,7 @@ RAM locations:
 0x02036018 - Letters in name select.
 0x02032908 - Index into Letters
 0x02036140 - Number of rows scrolled down.
+0x0203614A - Number of rows in page.
 0x0203CAC0 - Buttons pressed
 0x0203DD90 - Cursor OAM attributes
 0x0203BBF0 - Cursor x and y
@@ -26,7 +27,9 @@ r3 = 0xB (indices per row)
   r1 = [sp, 0x04]
   r2 = [sp, 0x08]
 
-
 0x080BCB04 = move down normally
 0x080BCB1A = move down at the bottom of the page
+0x080BCB4A = move left normally
+0x080BCBA0 = move right normally
+0x080BCBC0 = move right skip over space
 0x080BCBCE = nop

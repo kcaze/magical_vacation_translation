@@ -60,15 +60,21 @@ lsr r3, r3, 0x08
 lsl r7, r7, 0x08
 cmp r3, 0x1F
 bne L_not_bos
+; Clear shift and font set
 ldr r0, =ADDR_SHIFT
 mov r1, 0x00
-strh r1, [r0] ; Clear shift and font set
+strb r1, [r0]
+ldr r0, =ADDR_VAR_FONT_SET
+strb r1, [r0]
 L_not_bos:
 cmp r7, 0x1F
 bne L_not_bos2
+; Clear shift and font set
 ldr r0, =ADDR_SHIFT
 mov r1, 0x00
-strh r1, [r0] ; Clear shift and font set
+strb r1, [r0]
+ldr r0, =ADDR_VAR_FONT_SET
+strb r1, [r0]
 L_not_bos2:
 orr r7, r3
 
@@ -110,6 +116,16 @@ add r2, r2, r3
 mov r0, 0xFF
 and r0, r7
 lsr r1, r7, 0x08
+; Replace glyphs 0x80 or greater with 0x00.
+cmp r0, 0x80
+blt L_maybe_drawable1
+mov r0, 0x00
+L_maybe_drawable1:
+cmp r1, 0x80
+blt L_maybe_drawable2
+mov r1, 0x00
+L_maybe_drawable2:
+
 mov r5, 0x00
 mov r6, 0x00
 cmp r0, 0x20
