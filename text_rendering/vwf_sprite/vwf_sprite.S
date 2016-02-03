@@ -62,13 +62,13 @@ cmp r3, 0x1F
 bne L_not_bos
 ldr r0, =ADDR_SHIFT
 mov r1, 0x00
-strb r1, [r0]
+strh r1, [r0] ; Clear shift and font set
 L_not_bos:
 cmp r7, 0x1F
 bne L_not_bos2
 ldr r0, =ADDR_SHIFT
 mov r1, 0x00
-strb r1, [r0]
+strh r1, [r0] ; Clear shift and font set
 L_not_bos2:
 orr r7, r3
 

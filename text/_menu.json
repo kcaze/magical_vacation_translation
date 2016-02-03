@@ -1,7 +1,7 @@
 [
   [
     {
-      "English": "$FONT_MENU$\nStatus",
+      "English": "\nStatus",
       "Japanese": "ステータス\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -20,7 +20,7 @@
       ]
     },
     {
-      "English": "$FONT_MENU$\nEquipment",
+      "English": "\nEquipment",
       "Japanese": "防具そうび\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "English": "$FONT_MENU$\nMagic",
+      "English": "\nMagic",
       "Japanese": "魔法そうび\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "English": "$FONT_MENU$\nMagic Level",
+      "English": "\nMagic Level",
       "Japanese": "魔法レベル\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "English": "$FONT_MENU$\nProfile",
+      "English": "\nProfile",
       "Japanese": "プロフィール\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98,7 +98,7 @@
       ]
     },
     {
-      "English": "$FONT_MENU$\nSet MD Parts",
+      "English": "\nSet MD Parts",
       "Japanese": "MDパーツセット\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -123,7 +123,7 @@
       ]
     },
     {
-      "English": "$FONT_MENU$\nRecovery Items",
+      "English": "\nRecovery Items",
       "Japanese": "回復アイテム\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -144,7 +144,7 @@
       ]
     },
     {
-      "English": "$FONT_MENU$\nEquipment",
+      "English": "\nEquipment",
       "Japanese": "そうびアイテム\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -167,7 +167,7 @@
       ]
     },
     {
-      "English": "$FONT_MENU$\nMD Parts",
+      "English": "\nMD Parts",
       "Japanese": "MDパーツ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -186,7 +186,7 @@
       ]
     },
     {
-      "English": "$FONT_MENU$\nOther Items",
+      "English": "\nOther Items",
       "Japanese": "その他のアイテム\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -211,7 +211,7 @@
       ]
     },
     {
-      "English": "$FONT_MENU$\nSpirits",
+      "English": "\nSpirits",
       "Japanese": "精霊いちらん\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -232,7 +232,7 @@
       ]
     },
     {
-      "English": "$FONT_MENU$\nWorld Map",
+      "English": "\nWorld Map",
       "Japanese": "ワールドマップ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -255,7 +255,7 @@
       ]
     },
     {
-      "English": "$FONT_MENU$\nAll Files",
+      "English": "\nAll Files",
       "Japanese": "なんでもファイル\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -280,7 +280,7 @@
       ]
     },
     {
-      "English": "$FONT_MENU$\nReport Card",
+      "English": "\nReport Card",
       "Japanese": "成績表\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -295,7 +295,7 @@
       ]
     },
     {
-      "English": "$FONT_MENU$\nMagic Notebook",
+      "English": "\nMagic Notebook",
       "Japanese": "魔法の手帳\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -314,7 +314,7 @@
       ]
     },
     {
-      "English": "$FONT_MENU$\nBestiary",
+      "English": "\nBestiary",
       "Japanese": "モンスター図鑑\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -337,7 +337,7 @@
       ]
     },
     {
-      "English": "$FONT_MENU$\nSpecies",
+      "English": "\nSpecies",
       "Japanese": "種族図鑑\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -354,7 +354,7 @@
       ]
     },
     {
-      "English": "$FONT_MENU$\nMD Dictionary",
+      "English": "\nMD Dictionary",
       "Japanese": "MD辞典\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -371,7 +371,7 @@
       ]
     },
     {
-      "English": "$FONT_MENU$\nCampgrounds",
+      "English": "\nCampgrounds",
       "Japanese": "キャンプ場\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -390,7 +390,7 @@
       ]
     },
     {
-      "English": "$FONT_MENU$\nValencia Beach",
+      "English": "\nValencia Beach",
       "Japanese": "ヴァレンシア海岸\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -415,7 +415,7 @@
       ]
     },
     {
-      "English": "$FONT_MENU$\nLight Realm",
+      "English": "\nLight Realm",
       "Japanese": "光のプレーン\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -436,7 +436,7 @@
       ]
     },
     {
-      "English": "$FONT_MENU$\nDark Realm",
+      "English": "\nDark Realm",
       "Japanese": "闇のプレーン\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -457,7 +457,7 @@
       ]
     },
     {
-      "English": "$FONT_MENU$\nAbyssal Realm",
+      "English": "\nAbyssal Realm",
       "Japanese": "死のプレーン\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -3772,7 +3772,7 @@
       ]
     },
     {
-      "English": "$FONT_MENU$\nThe save file for your adventure up$N$\nuntil now will be erased. This will not$N$\naffect your Amigo list.$N$$N$\nIs that all right?",
+      "English": "\nThe save file for your adventure up$N$\nuntil now will be erased. This will not$N$\naffect your Amigo list.$N$$N$\nIs that all right?",
       "Japanese": "[space]これまでの冒険のデータが\\fe\\ff[space]消えますが、よろしいですか?\\fe\\ff（アミーゴリストは消えません）\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4751,7 +4751,7 @@
       ]
     },
     {
-      "English": "$FONT_MENU$\n A\\7fB\\7fC\\7fD\n\\20\\20\n|E\\7fF\\7fG\\7fH\\7fI",
+      "English": "\\1D\\01\nA$space$B$space$C$space$D$space$\n$space$$space$\nE$space$F$space$G$space$H$space$",
       "Japanese": "あいうえお[space]はひふへほ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4782,7 +4782,7 @@
       ]
     },
     {
-      "English": "J\\7fK\\7fL\\7fM\\7fN\n\\20\\20\nO\\7fP\\7fQ\\7fR\\7fS",
+      "English": "\\1D\\01\nI$space$J$space$K$space$L$space$\n$space$$space$\nM$space$N$space$O$space$P$space$",
       "Japanese": "かきくけこ[space]まみむめも\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4813,7 +4813,7 @@
       ]
     },
     {
-      "English": "T\\7fU\\7fV\\7fW\\7fX\n\\20\\20\nY\\7fZ",
+      "English": "\\1D\\01\nQ$space$R$space$S$space$T$space$\n$space$$space$\nU$space$V$space$W$space$X$space$",
       "Japanese": "さしすせそ[space]や[space]ゆ[space]よ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4844,7 +4844,7 @@
       ]
     },
     {
-      "English": "`",
+      "English": "\\1D\\01\nY$space$Z$space$",
       "Japanese": "たちつてと[space]らりるれろ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -112908,7 +112908,7 @@
   ],
   [
     {
-      "English": "$FONT_MENU$\nI'm Toasty the fire spirit. Fire$N$\nmagic does $RED$a lot of damage$BLACK$!\n$N$$N$\nDifficulty: $RED$Easy$BLACK$\n$N$$N$\nBeats:\n\\20|\\fb\\ff\\01\\00\n|\\20\\20Fears:\n\\20|\\fb\\ff\\0c\\00\n|\\fb\\ff\\0d\\00",
+      "English": "\nI'm Toasty the fire spirit. Fire$N$\nmagic does $RED$a lot of damage$BLACK$!\n$N$$N$\nDifficulty: $RED$Easy$BLACK$\n$N$$N$\nBeats:\n\\20|\\fb\\ff\\01\\00\n|\\20\\20Fears:\n\\20|\\fb\\ff\\0c\\00\n|\\fb\\ff\\0d\\00",
       "Japanese": "火の精霊・トーストです。\\fe\\ff火の魔法は\\fa\\ff\\3\\0攻撃力\\fa\\ff\\f\\0があるよ。\\fe\\ffバランスが良いので\\fe\\ff使いやすいよ。\\fe\\ff\\fa\\ff\\3\\0初心者向け\\fa\\ff\\f\\0だよ。\\fe\\ff得意[space]\\fb\\ff\\1\\0風\\fe\\ff苦手[space]\\fb\\ff\\c\\0古\\fb\\ff\\d\\0闇\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -113073,7 +113073,7 @@
       ]
     },
     {
-      "English": "$FONT_MENU$\nI'm Gusty the wind spirit. Wind$N$\nmagic can boost your $RED$speed$BLACK$!\n$N$$N$\nDifficulty: $RED$Hard$BLACK$\n$N$$N$\nBeats:\n\\20|\\fb\\ff\\02\\00\n|\\20\\20Fears:\n\\20|\\fb\\ff\\00\\00\n|\\fb\\ff\\0d\\00",
+      "English": "\nI'm Gusty the wind spirit. Wind$N$\nmagic can boost your $RED$speed$BLACK$!\n$N$$N$\nDifficulty: $RED$Hard$BLACK$\n$N$$N$\nBeats:\n\\20|\\fb\\ff\\02\\00\n|\\20\\20Fears:\n\\20|\\fb\\ff\\00\\00\n|\\fb\\ff\\0d\\00",
       "Japanese": "あのね、風の精霊のエアなの。\\fe\\ffんと、風の魔法をつかうとね\\fe\\ff\\fa\\ff\\3\\0速さが上がる\\fa\\ff\\f\\0の。\\fe\\ffべんりだよー。\\fe\\ff\\fa\\ff\\3\\0上級者向け\\fa\\ff\\f\\0なの。\\fe\\ff得意[space]\\fb\\ff\\2\\0毒\\fe\\ff苦手[space]\\fb\\ff\\0\\0火\\fb\\ff\\d\\0闇\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -113240,7 +113240,7 @@
       ]
     },
     {
-      "English": "$FONT_MENU$\nI'm Gloomy the poison spirit.$N$\nPoison magic can deal $RED$extra$N$\ndamage$BLACK$!\n$N$$N$\nDifficulty: $RED$Easy$BLACK$\n$N$$N$\nBeats:\n\\20|\\fb\\ff\\03\\00\n|\\20\\20Fears:\n\\20|\\fb\\ff\\01\\00\n|\\fb\\ff\\0d\\00",
+      "English": "\nI'm Gloomy the poison spirit.$N$\nPoison magic can deal $RED$extra$N$\ndamage$BLACK$!\n$N$$N$\nDifficulty: $RED$Easy$BLACK$\n$N$$N$\nBeats:\n\\20|\\fb\\ff\\03\\00\n|\\20\\20Fears:\n\\20|\\fb\\ff\\01\\00\n|\\fb\\ff\\0d\\00",
       "Japanese": "ミーは毒の精霊・ブーざんす。\\fe\\ff毒の魔法は\\fa\\ff\\3\\0追加ダメージ\\fa\\ff\\f\\0を\\fe\\ffあたえるざんす。\\fe\\ffグーざんす。\\fe\\ff\\fa\\ff\\3\\0初心者向け\\fa\\ff\\f\\0ざんす。\\fe\\ff得意[space]\\fb\\ff\\3\\0美\\fe\\ff苦手[space]\\fb\\ff\\1\\0風\\fb\\ff\\d\\0闇\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -113405,7 +113405,7 @@
       ]
     },
     {
-      "English": "$FONT_MENU$\nI'm Pretty the beauty spirit.$N$\nBeauty magic can $RED$stun$BLACK$ foes!\n$N$$N$\nDifficulty: $RED$Hard$BLACK$\n$N$$N$\nBeats:\n\\20|\\fb\\ff\\04\\00\n|\\20\\20Fears:\n\\20|\\fb\\ff\\02\\00\n|\\fb\\ff\\0d\\00",
+      "English": "\nI'm Pretty the beauty spirit.$N$\nBeauty magic can $RED$stun$BLACK$ foes!\n$N$$N$\nDifficulty: $RED$Hard$BLACK$\n$N$$N$\nBeats:\n\\20|\\fb\\ff\\04\\00\n|\\20\\20Fears:\n\\20|\\fb\\ff\\02\\00\n|\\fb\\ff\\0d\\00",
       "Japanese": "美の精霊・パウダー・・・\\fe\\ff美の魔法は[space]攻撃した敵が\\fe\\ff\\fa\\ff\\3\\0マヒ\\fa\\ff\\f\\0する・・・\\fe\\ffわれは・・・\\fe\\ff\\fa\\ff\\3\\0上級者向け\\fa\\ff\\f\\0である・・・\\fe\\ff得意[space]\\fb\\ff\\4\\0刃\\fe\\ff苦手[space]\\fb\\ff\\2\\0毒\\fb\\ff\\d\\0闇\\ff\\ff",
       "Comments": "",
       "u8": [
