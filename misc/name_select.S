@@ -59,8 +59,12 @@ mov r0, 0x24
 mov r2, 0x00
 
 ; Modify the space skip to be at 4 characters, not 5.
+.org 0x080BCB5C
+mov r1, 0x09
 .org 0x080BCB66
 cmp r0, 0x4
+.org 0x080BCBB2
+mov r1, 0x09
 .org 0x080BCBBC
 cmp r0, 0x4
 
