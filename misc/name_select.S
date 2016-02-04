@@ -124,13 +124,30 @@ mov r1, 0xF4
 ;       Delete cursor and rewrite "back" function to just delete one character.
 
 ; Fix backspace to erase only 1 byte.
+; Also backspace immediately erases character.
 .org 0x080A96D6
 mov r1, 0xFF
 .org 0x080A96DE
 mov r1, r3
 .org 0x080A96E4
 ldrb r0, [r2]
-.org 0x080A96EA
+; if [r2] != 0xFF and [r5] == 0x5, increment [r5].
+cmp r0, 0xFF
+beq L_not_last
+cmp r3, 0x05
+bne L_not_last
+mov r0, 0x06
+strb r0, [r5]
+L_not_last:
+mov r0, 0xFF
 strb r0, [r2]
+add r1, r6, r1
+mov r0, r12
+strh r0, [r1]
+ldrb r0, [r5]
+sub r3, 0x1
+sub r0, 0x1
+cmp r3, r0
+bge 0x080A96DE
 
 .close
