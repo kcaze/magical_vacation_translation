@@ -1,14 +1,18 @@
 RAM locations:
+0x02032908 - Current panel number.
 0x02036120 - Name
 0x02036018 - Letters in name select.
 0x02032908 - Index into Letters
 0x02036140 - Number of rows scrolled down.
 0x0203614A - Number of rows in page.
+0x02036158 - Current panel number and also cursor position.
 0x0203CAC0 - Buttons pressed
-0x0203DD90 - Cursor OAM attributes
+0x0203DD90 - OAM attributes
 0x0203BBF0 - Cursor x and y
 
-0x080BCA70 -- routine for updating cursor in response to mouse movements
+0x080A3CDC -- General input handling routine?
+
+0x080BCA70 -- routine for updating cursor in response to button press
 arguments:
 r0 = 0x02032908 (index)
 r1 = 0x02036140 (rows)
@@ -33,3 +37,6 @@ r3 = 0xB (indices per row)
 0x080BCBA0 = move right normally
 0x080BCBC0 = move right skip over space
 0x080BCBCE = nop
+
+move panel up: 0x080BC596
+move panel down: 0x080BC5C8

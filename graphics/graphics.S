@@ -16,8 +16,8 @@ ADDR_MAIN_MENU_BUTTONS2   equ 0x08806000
 
 
 ; Name select button graphics
-.org ADDR_NAME_SELECT
-.incbin graphics/name_select/name_select.bin
+;.org ADDR_NAME_SELECT
+;.incbin graphics/name_select/name_select.bin
 
 ; Status graphics
 .org ADDR_STATUS
