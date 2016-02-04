@@ -41,3 +41,5 @@ r3 = 0xB (indices per row)
 
 move panel up: 0x080BC596
 move panel down: 0x080BC5C8
+
+0x080B58F0: Write starting (x,y) for row of text. r0 = x, r1 = y

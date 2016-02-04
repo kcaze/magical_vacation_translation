@@ -120,23 +120,38 @@ mov r2, 0x9F
 .org 0x080B0AB2
 mov r1, 0xF4
 
-; TODO: Change backspace to erase 1 byte characters
-;       Delete cursor and rewrite "back" function to just delete one character.
+; Modify y position of rows of letters.
+.org 0x080B0D02
+; moves 0x004C0000 into r1.
+mov r1, 0x13
+lsl r1, r1, 0x12
+
+.org 0x080A1E2A
+mov r1, 0x13
+lsl r1, r1, 0x12
 
 ; Fix backspace to erase only 1 byte.
 ; Also backspace immediately erases character.
 .org 0x080A96D6
 mov r1, 0xFF
 .org 0x080A96DE
+; TODO: Remap these addresses at the end.
+ldr r0, =0x0880D000
+mov r15, r0
+.pool
+.org 0x0880D000
+L_loop:
 mov r1, r3
-.org 0x080A96E4
+mov r0, r9
+add r2, r0, r1
 ldrb r0, [r2]
-; if [r2] != 0xFF and [r5] == 0x5, increment [r5].
+; if [r2] != 0xFF and r3 == 0x5, increment [r5].
 cmp r0, 0xFF
 beq L_not_last
 cmp r3, 0x05
 bne L_not_last
-mov r0, 0x06
+ldrb r0, [r5]
+add r0, 0x1
 strb r0, [r5]
 L_not_last:
 mov r0, 0xFF
@@ -145,9 +160,15 @@ add r1, r6, r1
 mov r0, r12
 strh r0, [r1]
 ldrb r0, [r5]
+; Extract lowest nibble
+lsl r0, 0x1C
+lsr r0, 0x1C
 sub r3, 0x1
 sub r0, 0x1
 cmp r3, r0
-bge 0x080A96DE
+bge L_loop
+ldr r0, =0x080A9706
+mov r15, r0
+.pool
 
 .close
