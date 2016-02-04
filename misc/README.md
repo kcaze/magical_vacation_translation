@@ -11,6 +11,7 @@ RAM locations:
 0x0203BBF0 - Cursor x and y
 
 0x080A3CDC -- General input handling routine?
+0x080A9690 -- Backspace routine
 
 0x080BCA70 -- routine for updating cursor in response to button press
 arguments:

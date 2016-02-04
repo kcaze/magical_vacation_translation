@@ -112,8 +112,25 @@ mov r15, r1
 mov r2, 0x9F
 .org 0x080B0B98
 mov r2, 0x9F
+.org 0x080B0B26
+mov r2, 0x9F
+.org 0x080B0B42
+mov r2, 0x9F
+; Hide the downwards arrow offscrenn
+.org 0x080B0AB2
+mov r1, 0xF4
 
 ; TODO: Change backspace to erase 1 byte characters
 ;       Delete cursor and rewrite "back" function to just delete one character.
+
+; Fix backspace to erase only 1 byte.
+.org 0x080A96D6
+mov r1, 0xFF
+.org 0x080A96DE
+mov r1, r3
+.org 0x080A96E4
+ldrb r0, [r2]
+.org 0x080A96EA
+strb r0, [r2]
 
 .close
