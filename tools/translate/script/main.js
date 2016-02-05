@@ -28,6 +28,7 @@ function readScript(e) {
 }
 
 function exportJSON() {
+  if (!script) return;
   saveAs(
     new Blob(
       [JSON.stringify(script, null, 2)],
@@ -38,6 +39,7 @@ function exportJSON() {
 }
 
 function exportBinary() {
+  if (!script) return;
   var binary = new Uint8Array(BINARY_SIZE);
 
   var idx = 2*(script.length+1);
@@ -55,12 +57,19 @@ function exportBinary() {
       if (script[ii].u8[0] == 0x8b) {
         var s = script[ii].u8[1].toString(16);
         if (s.length == 1) s = "0" + s;
-        english = "\\8b\\" + s + english;
+        english = "\\8b\\" + s + "\\1f\\00" + english;
+      } else {
+        english = "\\1f\\00" + english;
       }
+      english += "|\\ff\\ff";
       english = preprocessScript(
-                processSpecialCharacters(
-                substituteMacros(english)));
+                substituteMacros(english));
       data = parseEnglish(english);
+    }
+
+    // Don't include debug menu translations.
+    if (1626 <= ii && ii <= 1647) {
+      data = [];
     }
 
     for (var jj = 0; jj < data.length; jj++) {

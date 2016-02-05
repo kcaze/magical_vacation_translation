@@ -68,49 +68,53 @@ mov r1, 0x09
 .org 0x080BCBBC
 cmp r0, 0x4
 
+; TODO: This hack doesn't work since it affects moving up and down elsewhere in
+;       the game (e.g. the menu). Instead, should modify the menu so that the
+;       3rd and 4th buttons are DEL and OK respectively and then set the number
+;       of panels in the menu to 4.
 ; Modify panel to skip the original ABC and Kanji panels
 ; TODO: remap addresses at the end.
-.org 0x080BC594
-ldr r0, =0x0880B000
-mov r15, r0
-.pool
-.org 0x080BC5C0
-ldr r0, =0x0880C000
-mov r15, r0
-.pool
+;.org 0x080BC594
+;ldr r0, =0x0880B000
+;mov r15, r0
+;.pool
+;.org 0x080BC5C0
+;ldr r0, =0x0880C000
+;mov r15, r0
+;.pool
 ; Move panel up
-.org 0x0880B000
+;.org 0x0880B000
 ; Hopefully safe to clobber r1
-mov r0, 0x18
-ldr r1, =(. + 0x9)
-mov r14, r1
-ldr r1, =0x0805B564
-mov r15, r1
-ldrh r0, [r6]
-cmp r0, 0x4
-bne L_no_up_skip
-sub r0, 0x2
-L_no_up_skip:
-sub r0, 0x1
-ldr r1, =0x080BC5DC
-mov r15, r1
-.pool
+;mov r0, 0x18
+;ldr r1, =(. + 0x9)
+;mov r14, r1
+;ldr r1, =0x0805B564
+;mov r15, r1
+;ldrh r0, [r6]
+;cmp r0, 0x4
+;bne L_no_up_skip
+;sub r0, 0x2
+;L_no_up_skip:
+;sub r0, 0x1
+;ldr r1, =0x080BC5DC
+;mov r15, r1
+;.pool
 ; Move panel down
-.org 0x0880C000
-mov r0, 0x18
-ldr r1, =(. + 0x9)
-mov r14, r1
-ldr r1, =0x0805B564
-mov r15, r1
-ldrh r0, [r6]
-cmp r0, 0x1
-bne L_no_down_skip
-add r0, 0x2
-L_no_down_skip:
-add r0, 0x1
-ldr r1, =0x080BC5DC
-mov r15, r1
-.pool
+;.org 0x0880C000
+;mov r0, 0x18
+;ldr r1, =(. + 0x9)
+;mov r14, r1
+;ldr r1, =0x0805B564
+;mov r15, r1
+;ldrh r0, [r6]
+;cmp r0, 0x1
+;bne L_no_down_skip
+;add r0, 0x2
+;L_no_down_skip:
+;add r0, 0x1
+;ldr r1, =0x080BC5DC
+;mov r15, r1
+;.pool
 ; Hide the ABC and Kanji panels offscreen
 .org 0x080B0B8A
 mov r2, 0x9F

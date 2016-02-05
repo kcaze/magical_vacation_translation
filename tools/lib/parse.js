@@ -30,14 +30,16 @@ function substituteMacros(english) {
 // process special characters.
 function preprocessScript(english) {
   var parts = english.split("@"); // Split at @ symbol.
-  if (parts.length != 2) return english;
-  var lines = parts[1].split(String.fromCharCode(0x101, 0x80, 0x102));
+  if (parts.length != 2) return processSpecialCharacters(english);
+  var lines = parts[1].split("|\\80`");
   for (var ii = 0; ii < lines.length; ii++) {
     words = lines[ii].split(" ");
     widths = []
     words.forEach(function (w) {
       var width = 0;
       for (var ii = 0; ii < w.length; ii++) {
+        if (w[ii] == "\\") { ii += 2; continue; }
+        if (w[ii] == "|") continue;
         width += (charWidths[w[ii]] || 0) + 1;
       }
       widths.push(width); // + 1 for space
@@ -87,7 +89,7 @@ function processSpecialCharacters(english) {
 }
 
 function parseEnglish(english) {
-  english = String.fromCharCode(0x1F, 0x00) + english + String.fromCharCode(0x101, 0xFF, 0xFF);
+  //english = String.fromCharCode(0x1F, 0x00) + english + String.fromCharCode(0x101, 0xFF, 0xFF);
   var ii = 0;
   var alignment = 0;
   var parsed = [];
@@ -104,6 +106,9 @@ function parseEnglish(english) {
       parsed.push(n);
       alignment ^= 1;
     }
+  }
+  if (parsed.length % 2) {
+    parsed.push(0x00);
   }
   return parsed;
 }

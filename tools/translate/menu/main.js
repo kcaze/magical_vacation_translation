@@ -57,7 +57,8 @@ function exportBinary() {
 
 function generateBinary(menu) {
   var data = menu.reduce(function(acc, curr) {
-    acc.push(curr.English ? parseEnglish(processSpecialCharacters(substituteMacros(curr.English))) : curr.u8);
+    var english = curr.English;
+    acc.push(english ? parseEnglish(processSpecialCharacters(substituteMacros("\\1f\\00" + english + "|\\ff\\ff"))) : curr.u8);
     return acc;
   }, []);
 
