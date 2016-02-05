@@ -397,11 +397,14 @@ str r0, [r1, 0x08]
 ldr r0, [r1, 0x08]
 b L_vwf_end_loop
 L_not_bos:
-; Skip processing if 0.
-cmp r7, 0x00
-bne L_not_zero
+; Skip drawing if < 0x20 or >= 0x80
+cmp r7, 0x20
+blt L_not_drawable
+cmp r7, 0x80
+blt L_drawable
+L_not_drawable:
 b L_vwf_end_loop
-L_not_zero:
+L_drawable:
 
 lsl r7, r7, 0x04
 ldr r0, ADDR_FONT
