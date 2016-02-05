@@ -13,3 +13,10 @@ Allocation of extra memory from 0x087DF750 to 0x087FFFFF
 `0x087F5C30 -- 0x087F5F30`: VWF script handlers
 `0x087F5F30 -- 0x087F6130`: Main VWF script function
 `0x087F6130 -- 0x087F6330`: VWF sprite function
+
+Layout of game:
+`0x08106320 -- 0x0810655B`: Table for overworld character sprites. Each entry
+  in the table is 4 bytes. The first 2 represent some information about the
+  sprite (unsure what). The last 2 are address offsets for the sprite.
+`0x0810655C -- 0x0813FC3B`: Overworld sprites
+`0x0813FC3C`
