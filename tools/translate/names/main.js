@@ -41,6 +41,7 @@ function readJSON(e) {
 }
 
 function exportJSON() {
+  if (!names) return;
   // saveAs implemented by lib/FileSaver.js
   saveAs(
     new Blob(
@@ -49,25 +50,43 @@ function exportJSON() {
     ),
     '_names.json'
   );
-  console.log('Exported names!');
 }
 
 // Exporting names at 32 bits per name.
 function exportBinary() {
-  var binary = new Uint8Array(names[section].length*32);
-  for (var ii = 0; ii < names[section].length; ii++) {
+  if (!names) return;
+  var binary = generateBinary(names[section]);
+  saveAs(
+    new Blob([new DataView(binary.buffer)], {type: 'application/octet-stream'}),
+    section_names[section] + ".bin"
+  );
+}
+
+function exportAll() {
+  for (var ii = 0; ii < names.length; ii++) {
+    var binary = generateBinary(names[ii]);
+    saveAs(
+      new Blob([new DataView(binary.buffer)], {type: 'application/octet-stream'}),
+      section_names[ii] + ".bin"
+    );
+  }
+}
+
+function generateBinary(name) {
+  var binary = new Uint8Array(name.length*32);
+  for (var ii = 0; ii < name.length; ii++) {
     // First write all 0xFF's.
     for (var jj = 0; jj < 32; jj++) {
       binary[ii*32 + jj] = 0xFF;
     }
 
-    if (names[section][ii].English == '') {
+    if (name[ii].English == '') {
       // Copy original data.
       for (var jj = 0; jj < 16; jj++) {
-        binary[ii*32 + jj] = names[section][ii].u8[jj];
+        binary[ii*32 + jj] = name[ii].u8[jj];
       }
     } else {
-      var data = parseEnglish(names[section][ii].English);
+      var data = parseEnglish(processSpecialCharacters(substituteMacros(name[ii].English)));
       if (data.length >= 30) {
         console.log("WARNING: Name", ii, "is too long!");
       }
@@ -76,11 +95,7 @@ function exportBinary() {
       }
     }
   }
-  saveAs(
-    new Blob([new DataView(binary.buffer)], {type: 'application/octet-stream'}),
-    section_names[section] + ".bin"
-  );
-  console.log('Exported binary!');
+  return binary;
 }
 
 function japanese_search() {
@@ -224,3 +239,40 @@ document
 document
   .getElementById('english_search')
   .addEventListener('click', english_search);
+
+document.addEventListener('keydown', function (e) {
+  if (!e.ctrlKey) return;
+  var preventDefault = true;
+  switch (String.fromCharCode(e.keyCode)) {
+  case 'H':
+    document.getElementById('number').value = Math.max(0, number-1);
+    break;
+  case 'L':
+    document.getElementById('number').value = Math.min(names[section].length-1, number+1);
+    break;
+  case 'E':
+    exportJSON();
+    exportAll();
+    break;
+  default:
+    preventDefault = false;
+  }
+  if (preventDefault) {
+    e.preventDefault();
+    e.stopPropagation();
+  }
+});
+
+function heartBeat() {
+  if (!names) return;
+  var newNumber = parseInt(document.getElementById('number').value, 10);
+  if (number != newNumber) {
+    number = newNumber;
+    document.getElementById('japanese').innerHTML = names[section][number].Japanese;
+    document.getElementById('english').value = names[section][number].English;
+    document.getElementById('comments').value = names[section][number].Comments;
+  }
+  names[section][number].English = document.getElementById('english').value;
+  names[section][number].Comments = document.getElementById('comments').value;
+}
+window.setInterval(heartBeat, 100);

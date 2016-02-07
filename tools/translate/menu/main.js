@@ -37,6 +37,7 @@ function readJSON(e) {
 }
 
 function exportJSON() {
+  if (!menus) return;
   // saveAs implemented by lib/FileSaver.js
   saveAs(
     new Blob(
@@ -48,11 +49,22 @@ function exportJSON() {
 }
 
 function exportBinary() {
+  if (!menus) return;
   var binary = generateBinary(menus[section]);
   saveAs(
     new Blob([new DataView(binary.buffer)], {type: 'application/octet-stream'}),
     section_names[section] + ".bin"
   );
+}
+
+function exportAll() {
+  for (var ii = 0; ii < menus.length; ii++) {
+    var binary = generateBinary(menus[ii]);
+    saveAs(
+      new Blob([new DataView(binary.buffer)], {type: 'application/octet-stream'}),
+      section_names[ii] + ".bin"
+    );
+  }
 }
 
 function generateBinary(menu) {
@@ -93,16 +105,6 @@ function generateBinary(menu) {
   }
 
   return joined;
-}
-
-function exportAll() {
-  for (var ii = 0; ii < menus.length; ii++) {
-    var binary = generateBinary(menus[ii]);
-    saveAs(
-      new Blob([new DataView(binary.buffer)], {type: 'application/octet-stream'}),
-      section_names[ii] + ".bin"
-    );
-  }
 }
 
 function japanese_search() {
