@@ -3,14 +3,14 @@
 ;--------------------;
 ; Macros and defines ;
 ;--------------------;
-ADDR_GLYPH  equ =0x020097B0
-ADDR_SHIFT  equ =0x0203FFF0
+ADDR_GLYPH  equ 0x020097B0
+ADDR_SHIFT  equ 0x0203FFF0
 ADDR_VAR_FONT_SET  equ 0x0203FFF2
 ADDR_DMA    equ =0x040000D4
 ADDR_TILES  equ =0x06004000
 ADDR_BG     equ =0x06001800
-ADDR_FONT   equ =0x08603900
-ADDR_WIDTHS equ =0x08604100
+ADDR_FONT   equ 0x08603900
+ADDR_WIDTHS equ 0x08604100
 
 ADDR_SCRIPT_TILE_INDEX equ =0x02009954
 ADDR_SCRIPT_X          equ =0x02009930
@@ -44,7 +44,7 @@ FN_VWF equ 0x087F5F30
 .endmacro
 
 .macro cleanram
-  ldr r2, ADDR_GLYPH
+  ldr r2, =ADDR_GLYPH
   ldr r1, ADDR_DMA
   lsl r3, r0, 0x06
   add r3, r2, r3
@@ -100,7 +100,7 @@ mov r15, r2
 
 ; DMA from RAM to tile
 ldr r1, ADDR_DMA
-ldr r2, ADDR_GLYPH
+ldr r2, =ADDR_GLYPH
 str r2, [r1]
 ldr r2, ADDR_SCRIPT_TILE_INDEX
 ldrh r2, [r2]
@@ -215,7 +215,7 @@ mov r15, r2
 
 ; DMA from RAM to stack space
 ldr r1, ADDR_DMA
-ldr r2, ADDR_GLYPH
+ldr r2, =ADDR_GLYPH
 str r2, [r1]
 str r5, [r1, 0x04]
 ldr r2, =0x80000000
@@ -280,7 +280,7 @@ mov r15, r2
 
 ; DMA from RAM to tile
 ldr r1, ADDR_DMA
-ldr r2, ADDR_GLYPH
+ldr r2, =ADDR_GLYPH
 str r2, [r1]
 lsl r2, r6, 0x05
 ldr r3, ADDR_TILES
@@ -353,18 +353,6 @@ lsr r0, 0x08
 lsl r2, 0x08
 orr r0, r2
 
-mov r2, 0xFF
-and r2, r0
-cmp r2, 0x1D
-; Change font set
-bne L_not_font_set
-lsr r0, 0x08
-ldr r2, =ADDR_VAR_FONT_SET
-strb r0, [r2]
-b L_return
-L_not_font_set:
-
-
 ; r8 = return value
 ; r9 = glyph value
 ; r10 = palette value
@@ -373,31 +361,13 @@ mov r8, r2
 mov r9, r0
 mov r10, r1
 
-
 L_vwf:
-; Get the next glyph value, r0 = r9 & 0xFF
+; Get the next glyph value, r7 = r9 & 0xFF
 mov r7, r9
 lsl r7, r7, 0x18
 lsr r7, r7, 0x18
-cmp r7, 0x1F
-bne L_not_bos
-; Clear shift variable.
-ldr r0, ADDR_SHIFT
-mov r1, 0x00
-strb r1, [r0]
-; Clear glyph data.
-ldr r0, ADDR_GLYPH
-ldr r1, =0x22222222
-str r1, [r0]
-ldr r1, ADDR_DMA
-str r0, [r1]
-str r0, [r1, 0x04]
-ldr r0, =0x810000C0
-str r0, [r1, 0x08]
-ldr r0, [r1, 0x08]
-b L_vwf_end_loop
-L_not_bos:
-; Skip drawing if < 0x20 or >= 0x80
+
+; Skip drawing if r7 < 0x20 or r7 >= 0x80
 cmp r7, 0x20
 blt L_not_drawable
 cmp r7, 0x80
@@ -406,182 +376,29 @@ L_not_drawable:
 b L_vwf_end_loop
 L_drawable:
 
-lsl r7, r7, 0x04
-ldr r0, ADDR_FONT
-add r7, r7, r0
-ldr r0, =ADDR_VAR_FONT_SET
-ldrb r0, [r0]
-; Add 0x900 * glyph set to the font address
-lsl r0, 0x08
-add r7, r7, r0
-lsl r0, 0x03
-add r7, r7, r0
-mov r6, 0x00
-ldr r5, ADDR_GLYPH
-mov r0, r8
-lsl r0, r0, 0x06
-add r5, r5, r0
-; r7 = glyph address
-; r6 = loop glyph counter
-; r5 = destination in RAM to write to
-L_loop_glyph:
-; Compute the 4bpp row and store it in r1.
-ldrb r0, [r7, r6]
-mov r1, 0x00
-mov r2, 0x80
-mov r4, 0x00
-; r0 = 1bpp row
-; r1 = 4bpp row
-; r2 = mask
-; r4 = loop row counter
-@@L_loop_row:
-lsl r1, r1, 0x04
-add r1, r1, 0x02
-tst r0, r2
-beq @@L_off
-mov r3, r10
-sub r1, r1, 0x02
-add r1, r1, r3
-@@L_off:
-lsl r0, r0, 0x01
-add r4, r4, 0x01
-cmp r4, 0x08
-blt @@L_loop_row
-; Do the appropriate shifting and then store the 4bpp row.
-lsl r0, r6, 0x02
-ldr r2, [r5, r0]
-ldr r4, ADDR_SHIFT
-ldr r4, [r4]
-lsl r4, r4, 0x02
-lsl r1, r4
-; Mask r2 with 0xFFFFFFFF << r4
-mov r3, 0x01
-neg r3, r3
-lsl r3, r4
-neg r3, r3
-sub r3, r3, 0x01
-and r2, r3
-add r2, r2, r1
-str r2, [r5, r0]
-add r6, r6, 0x01
-cmp r6, 0x10
-blt L_loop_glyph
+; Copy glyph to the RAM buffer
+ldr r0, =ADDR_FONT
+lsl r1, r7, 0x04
+add r0, r0, r1
+ldr r1, =ADDR_GLYPH
+mov r5, r8
+lsl r5, r5, 0x06
+add r1, r1, r5
+mov r2, r10
+bl L_fn_copy_glyph
 
-; Compute the new shift.
-mov r7, r9
-lsl r7, r7, 0x18
-lsr r7, r7, 0x18
-ldr r6, ADDR_WIDTHS
-ldr r4, =ADDR_VAR_FONT_SET
-ldrb r4, [r4]
-; Add 0x900 * glyph set to the widths address
-lsl r4, 0x08
-add r6, r6, r4
-lsl r4, 0x03
-add r6, r6, r4
-ldrb r6, [r6, r7]
-ldr r4, ADDR_SHIFT
-ldrb r4, [r4]
-add r4, r4, r6
-cmp r4, 0x08
-ble L_no_overflow
-; Handle overflow.
-mov r7, r9
-lsl r7, r7, 0x18
-lsr r7, r7, 0x18
-lsl r7, 0x04
-ldr r0, ADDR_FONT
-add r7, r7, r0
-ldr r0, =ADDR_VAR_FONT_SET
+; Update shift and return value.
+ldr r0, =ADDR_WIDTHS
+add r0, r0, r7
 ldrb r0, [r0]
-; Add 0x900 * glyph set to the font address
-lsl r0, 0x08
-add r7, r7, r0
-lsl r0, 0x03
-add r7, r7, r0
-mov r6, 0x00
-ldr r5, ADDR_GLYPH
-mov r0, r8
-add r0, r0, 0x01
-lsl r0, r0, 0x06
-add r5, r5, r0
-; r7 = glyph address
-; r6 = loop glyph counter
-; r5 = destination in RAM to write to
-L_loop_glyph_overflow:
-; Compute the 4bpp row and store it in r1.
-ldrb r0, [r7, r6]
-mov r1, 0x00
-mov r2, 0x80
-mov r4, 0x00
-; r0 = 1bpp row
-; r1 = 4bpp row
-; r2 = mask
-; r4 = loop row counter
-@@L_loop_row:
-lsl r1, r1, 0x04
-add r1, r1, 0x02
-tst r0, r2
-beq @@L_off
-mov r3, r10
-sub r1, r1, 0x02
-add r1, r1, r3
-@@L_off:
-lsl r0, r0, 0x01
-add r4, r4, 0x01
-cmp r4, 0x08
-blt @@L_loop_row
-; Do the appropriate shifting and then store the 4bpp row.
-lsl r0, r6, 0x02
-ldr r2, [r5, r0]
-ldr r4, ADDR_SHIFT
-ldrb r4, [r4]
-lsl r4, r4, 0x02
-lsr r2, r4
-lsl r2, r4
-sub r4, 0x20
-neg r4, r4
-lsr r1, r4
-add r2, r1, r2
-str r2, [r5, r0]
-add r6, r6, 0x01
-cmp r6, 0x10
-blt L_loop_glyph_overflow
-; Update the shift
-mov r7, r9
-lsl r7, r7, 0x18
-lsr r7, r7, 0x18
-ldr r6, ADDR_WIDTHS
-ldr r4, =ADDR_VAR_FONT_SET
-ldrb r4, [r4]
-; Add 0x900 * glyph set to the widths address
-lsl r4, 0x08
-add r6, r6, r4
-lsl r4, 0x03
-add r6, r6, r4
-ldrb r6, [r6, r7]
-ldr r5, ADDR_SHIFT
-ldrb r4, [r5]
-add r4, r4, r6
-strb r4, [r5]
-b L_after_overflow
-L_no_overflow:
-; Update the shift.
-ldr r5, ADDR_SHIFT
-strb r4, [r5]
-L_after_overflow:
-
-; Increment shift by 1 and mod 8. Also increment return value.
-ldr r5, ADDR_SHIFT
-ldrb r4, [r5]
-add r4, r4, 0x01
-lsr r3, r4, 0x03
-mov r0, r8
-add r0, r0, r3
-mov r8, r0
-lsl r4, 0x1D
-lsr r4, 0x1D
-strb r4, [r5]
+ldr r1, =ADDR_SHIFT
+ldrb r2, [r1]
+add r0, r0, r2 ; r0 = shift + width
+mov r2, 0x07
+and r2, r0
+strb r2, [r1] ; shift = (shift + width) % 8
+lsr r0, r0, 0x03
+add r8, r0 ; ret += (shift + width) / 8
 
 L_vwf_end_loop:
 mov r0, r9
@@ -597,6 +414,65 @@ popreg
 pop r1
 bx r1
 
+.pool
+
+
+; ARGS:
+; r0 = glyph address
+; r1 = destination address
+; r2 = palette
+; RET: N/A
+L_fn_copy_glyph:
+pushreg
+mov r3, 0x00 ; r3 = loop counter
+ldr r4, =ADDR_SHIFT
+ldrb r4, [r4]
+lsl r4, r4, 0x02 ; r4 = shift
+mov r5, r0 ; r5 = glyph address
+mov r6, r1 ; r6 = destination address
+mov r7, r2 ; r7 = palette
+
+@@L_loop:
+; Convert 1bpp row to 4bpp row and store in r0
+mov r0, 0x00
+ldrb r1, [r5, r3]
+mov r2, 0x01
+@@L_1bpp_to_4bpp:
+lsl r0, r0, 0x04
+tst r1, r2
+beq @@L_off
+add r0, 0x01
+@@L_off:
+lsl r2, r2, 0x01
+cmp r2, 0x80
+ble @@L_1bpp_to_4bpp
+
+; Convert 0's to 2's and 1's to palette value
+; Multiply row by palette value
+mul r0, r7
+
+; Shift and store first half of row
+mov r1, r0
+lsr r1, r4
+ldr r2, [r6]
+orr r1, r2
+str r2, [r6]
+
+; Shift and store second half of row
+mov r1, r0
+mov r2, 0x20
+sub r2, r2, r4
+lsl r1, r2
+str r1, [r6, 0x40]
+
+add r6, 0x04
+add r3, 0x01
+cmp r3, 0x10
+blt @@L_loop
+
+popreg
+pop r0
+bx r0
 .pool
 .endarea
 

@@ -107,7 +107,7 @@ Relevant RAM map
 `0x02009720` [word] = pointer to current glyph in script
 `0x0200999C` [word] = pointer to end glyph of script for the current character.
 --------------------------------------------------------------------------------
-Battle Call (0x0800C98C)
+Battle Call (0x0800C8C8)
 Takes in 6 arguments:
   r0 = Pointer to beginning of name to draw.
   r1 = Pointer to end of name to draw.

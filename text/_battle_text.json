@@ -1,6 +1,6 @@
 [
   {
-    "English": "Successfully Escaped",
+    "English": "",
     "Japanese": "逃げることにせいこうした",
     "Comments": "",
     "u8": [
@@ -31,7 +31,7 @@
     ]
   },
   {
-    "English": "Magic\\7f\\7f",
+    "English": "Magic",
     "Japanese": "まほう",
     "Comments": "",
     "u8": [
@@ -44,7 +44,7 @@
     ]
   },
   {
-    "English": "Items\\7f",
+    "English": "Items",
     "Japanese": "アイテム",
     "Comments": "",
     "u8": [
@@ -613,7 +613,7 @@
   {
     "English": "Defend",
     "Japanese": "ぼうぎょ",
-    "Comments": "Battle commands are weird and need to be padded with an 8 bit width character like this.",
+    "Comments": "",
     "u8": [
       0,
       244,
