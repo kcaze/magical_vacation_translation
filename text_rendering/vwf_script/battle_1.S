@@ -1,5 +1,3 @@
-; TODO: Handle icons.
-
 ; This guts the text draw routine 0x0800C8C8 - 0x0800C9E8.
 ; The battle 1 routine is called from two locations:
 ;   0x0800C4F4: This draws the name of the currently selected character.

@@ -19,9 +19,6 @@ ADDR_SCRIPT_Y          equ =0x02009770
 FN_SCRIPT_WRAPPER equ 0x0800CFCC
 FN_SCRIPT_HANDLER equ 0x087F5C30
 
-FN_BATTLE_WRAPPER2 equ 0x0800D000
-FN_BATTLE_HANDLER2 equ 0x087F5E30
-
 FN_RAM_CLEAR equ 0x0800D020
 FN_VWF_JUMP equ 0x0800D060
 
@@ -204,98 +201,6 @@ mov r15, r0
 .pool
 .endarea
 
-;--------------------------;
-; Battle call (0x0800ADCE) ;
-;--------------------------;
-.org 0x0800ADCE
-bl FN_BATTLE_WRAPPER2
-
-; Have icons increment the x-coordinate and tile index instead of toggle the
-; 1st part / 2nd part flag.
-.org 0x0800ACD6
-mov r2, r8
-add r2, r2, 0x01
-mov r8, r2
-add r6, r6, 0x02
-b 0x0800AEB0
-
-; Branch over DMA and tilemap piecing
-.org 0x0800ADD4
-b 0x0800AEB0
-
-.org FN_BATTLE_WRAPPER2
-.area 0x20
-push lr
-ldr r2, =FN_BATTLE_HANDLER2
-mov r15, r2
-pop r0
-bx r0
-.pool
-.endarea
-
-.org FN_BATTLE_HANDLER2
-.area 0x100
-; Call our vwf routine
-ldr r2, =(. + 0x09)
-mov lr, r2
-ldr r2, =FN_VWF
-mov r15, r2
-
-; DMA from RAM to tile
-ldr r1, =ADDR_DMA
-ldr r2, =ADDR_GLYPH
-str r2, [r1]
-lsl r2, r6, 0x05
-ldr r3, ADDR_TILES
-add r2, r2, r3
-str r2, [r1, 0x04]
-ldr r2, =0x80000000
-add r3, r0, 0x01
-lsl r3, r3, 0x05
-add r2, r2, r3
-str r2, [r1, 0x08]
-ldr r2, [r1, 0x08]
-
-; Piece together tilemap
-ldr r1, =0x02009764
-ldrh r1, [r1]
-mov r2, r9
-mul r1, r2
-add r1, r8
-lsl r1, r1, 0x01
-ldr r2, =0x02009744
-ldr r2, [r2]
-add r1, r1, r2
-mov r2, 0x00
-mov r3, r6
-@@loop:
-strh r3, [r1]
-add r3, r3, 0x01
-ldr r4, =0x02009764
-ldr r4, [r4]
-lsl r4, r4, 0x01
-strh r3, [r1, r4]
-add r3, r3, 0x01
-add r1, r1, 0x02
-add r2, r2, 0x01
-cmp r2, r0
-blt @@loop
-
-; Update x-coordinate and tile index
-lsl r1, r0, 0x01
-add r6, r6, r1
-add r8, r0
-
-; Clean glyph RAM
-cleanram
-
-; Return to wrapper.
-ldr r0, =FN_BATTLE_WRAPPER2
-add r0, 0x06
-mov r15, r0
-.pool
-.endarea
-
 ;-----------------------------;
 ; Our vwf routine             ;
 ; ===============             ;
@@ -379,7 +284,6 @@ pop r1
 bx r1
 
 .pool
-
 
 ; ARGS:
 ; r0 = glyph address
