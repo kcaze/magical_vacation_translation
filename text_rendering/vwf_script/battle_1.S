@@ -1,3 +1,5 @@
+; TODO: Handle icons.
+
 ; This guts the text draw routine 0x0800C8C8 - 0x0800C9E8.
 ; The battle 1 routine is called from two locations:
 ;   0x0800C4F4: This draws the name of the currently selected character.
@@ -19,6 +21,8 @@
 
 FN_RAM_CLEAR equ 0x0800D020
 FN_VWF equ 0x0800D060
+FN_ICON equ 0x0800D370
+
 ADDR_GLYPH  equ 0x020097B0
 ADDR_DMA    equ 0x040000D4
 START equ 0x0800C8D2
@@ -38,11 +42,32 @@ mov r8, r1 ; r8 = pointer to end of text
 bl FN_RAM_CLEAR
 
 L_loop:
-; Call vwf
 ldrb r0, [r7]
 lsl r0, r0, 0x08
 ldrb r1, [r7, 0x01]
 add r0, r0, r1
+cmp r0, 0x0F
+bgt L_not_icon
+
+; Draw icon
+mov r2, r0
+ldr r0, [sp, 0x20]
+ldr r1, [sp, 0x24]
+bl FN_ICON
+ldr r0, =0x22222222
+str r0, [r6]
+ldr r0, =ADDR_DMA
+str r6, [r0]
+str r6, [r0, 0x4]
+ldr r1, =0x81000040
+str r1, [r0, 0x8]
+ldr r1, [r0, 0x8]
+add r6, 0x80
+add r4, 0x02
+b L_loop_end
+
+; Call vwf
+L_not_icon:
 mov r1, r5
 bl FN_VWF
 
@@ -75,6 +100,7 @@ ldr r3, =0x81000040
 str r3, [r1, 0x08]
 ldr r3, [r1, 0x08]
 
+L_loop_end:
 add r7, 0x02
 cmp r7, r8
 blt L_loop
