@@ -109,6 +109,12 @@ ldrb r1, [r0]
 lsl r1, r1, 0x08
 ldrb r0, [r0, 0x01]
 add r0, r0, r1
+
+; Abort on 0xFFFF
+ldr r1, =0x0000FFFF
+cmp r0, r1
+beq @@L_return
+
 ldrb r1, [r7, 0x03]
 lsl r1, r1, 0x04
 sub r1, 0x0F
@@ -132,9 +138,38 @@ str r2, [r1, 0x08]
 ldr r2, [r1, 0x08]
 
 ; Update tilemap
+ldr r1, =0x02009764
+ldrb r1, [r1]
+lsl r1, r1, 0x01 ; r1 = panel width
+
+ldr r2, =0x02009744
+ldr r2, [r2]
+ldrb r3, [r7, 0x01]
+mul r3, r1
+add r2, r2, r3
+ldrb r3, [r7, 0x00]
+lsl r3, r3, 0x01
+add r2, r2, r3 ; r2 = tilemap address
+ldrh r3, [r7, 0x02]
+lsl r3, r3, 0x14
+lsr r3, r3, 0x14 ; r3 = tile index
+mov r4, 0x00 ; r4 = loop counter
+@@L_tilemap_loop:
+strh r3, [r2]
+add r3, 0x01
+strh r3, [r2, r1]
+add r2, 0x02
+add r3, 0x01
+add r4, 0x01
+cmp r4, r0
+ble @@L_tilemap_loop
 
 ; Update data structure
+ldrb r1, [r7, 0x00]
+add r1, r1, r0
+strb r1, [r7, 0x00]
 ldrh r1, [r7, 0x02]
+add r1, r1, r0
 add r1, r1, r0
 strh r1, [r7, 0x02]
 ldr r1, [r7, 0x04]
@@ -163,16 +198,14 @@ ldr r3, [r1, 0x08]
 ldr r0, [r7, 0x04]
 ldr r1, [r7, 0x08]
 cmp r0, r1
-blt @@L_loop
+bne @@L_loop
 
+@@L_return:
 ; Decrement array length.
 ldr r0, =0x02009714
 ldrb r1, [r0]
 sub r1, 0x01
 strb r1, [r0]
-
-; Return
-@@L_return:
 popreg
 pop r0
 bx r0
