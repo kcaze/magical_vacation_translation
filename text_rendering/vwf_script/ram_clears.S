@@ -3,17 +3,30 @@
 .gba
 .open "hacked.gba", 0x08000000
 
+ADDR_GLYPH  equ 0x020097B0
 ADDR_RAM  equ 0x0203FFF0
+ADDR_DMA    equ 0x040000D4
 
 ; 0x0800C8C8 -- Name drawing in battle.
 .org 0x0800C8DA
 ldr r0, =0x0880E000
 mov r15, r0
 .pool
+
 .org 0x0880E000
 mov r0, 0x00
 ldr r1, =ADDR_RAM
 strb r0, [r1]
+
+ldr r0, =ADDR_GLYPH
+ldr r1, =0x22222222
+str r1, [r0]
+ldr r1, =ADDR_DMA
+str r0, [r1]
+str r0, [r1, 0x04]
+ldr r0, =0x81000080
+str r0, [r1, 0x08]
+ldr r0, [r1, 0x08]
 
 ; Original code that needs to be executed
 ldr r0, [sp, 0x24]
@@ -32,3 +45,5 @@ mov r8, r6
 ldr r0, = 0x0800C9BE
 mov r15, r0
 .pool
+
+.close

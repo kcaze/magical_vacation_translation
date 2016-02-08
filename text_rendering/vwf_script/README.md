@@ -107,7 +107,7 @@ Relevant RAM map
 `0x02009720` [word] = pointer to current glyph in script
 `0x0200999C` [word] = pointer to end glyph of script for the current character.
 --------------------------------------------------------------------------------
-Battle Call (0x0800C8C8)
+Battle Call (0x0800C8C8 to 0x0800C9E8)
 Takes in 6 arguments:
   r0 = Pointer to beginning of name to draw.
   r1 = Pointer to end of name to draw.
@@ -116,7 +116,8 @@ Takes in 6 arguments:
        the color is 0xF)
   [sp, 0x00] = ??? (x-coordinate in terms of pixels I think? Used for icons.)
   [sp, 0x04] = ??? (y-coordinate in terms of pixels I think? Used for icons.)
-Returns the number of bytes that the name drawn takes up in r0
+Copies the glyph data for the name into the stack space at r2 and returns there
+length (number of bytes) of the glyph data for the name.
 
 `0x0800C8C8 - 0x0800C8D2`: Push registers and allocate 4 bytes on stack.
 `0x0800C8D4 - 0x0800C8F2`: Sets up registers. Moves arguments on stack into

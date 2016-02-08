@@ -15,7 +15,7 @@ all:
 	bin/armips.exe text_rendering/fonts/fonts.S
 	bin/armips.exe text_rendering/vwf_sprite/vwf_sprite.S
 	bin/armips.exe text_rendering/vwf_script/vwf_script.S
-	bin/armips.exe text_rendering/vwf_script/ram_clears.S
+	bin/armips.exe text_rendering/vwf_script/battle_1.S
 	bin/armips.exe text_rendering/vwf_menu/vwf_menu.S
 	bin/armips.exe text_rendering/control_characters/control_characters.S
 	bin/armips.exe text/text.S

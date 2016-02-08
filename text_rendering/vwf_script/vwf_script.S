@@ -6,7 +6,7 @@
 ADDR_GLYPH  equ 0x020097B0
 ADDR_SHIFT  equ 0x0203FFF0
 ADDR_VAR_FONT_SET  equ 0x0203FFF2
-ADDR_DMA    equ =0x040000D4
+ADDR_DMA    equ 0x040000D4
 ADDR_TILES  equ =0x06004000
 ADDR_BG     equ =0x06001800
 ADDR_FONT   equ 0x08603900
@@ -19,11 +19,11 @@ ADDR_SCRIPT_Y          equ =0x02009770
 FN_SCRIPT_WRAPPER equ 0x0800CFCC
 FN_SCRIPT_HANDLER equ 0x087F5C30
 
-FN_BATTLE_WRAPPER1 equ 0x0800CFEC
-FN_BATTLE_HANDLER1 equ 0x087F5D30
-
-FN_BATTLE_WRAPPER2 equ 0x0800D00C
+FN_BATTLE_WRAPPER2 equ 0x0800D000
 FN_BATTLE_HANDLER2 equ 0x087F5E30
+
+FN_RAM_CLEAR equ 0x0800D020
+FN_VWF_JUMP equ 0x0800D060
 
 FN_VWF equ 0x087F5F30
 
@@ -45,7 +45,7 @@ FN_VWF equ 0x087F5F30
 
 .macro cleanram
   ldr r2, =ADDR_GLYPH
-  ldr r1, ADDR_DMA
+  ldr r1, =ADDR_DMA
   lsl r3, r0, 0x06
   add r3, r2, r3
   str r3, [r1]
@@ -90,6 +90,38 @@ bx r0
 .pool
 .endarea
 
+.org FN_RAM_CLEAR
+.area 0x40
+push lr
+ldr r0, =ADDR_SHIFT
+mov r1, 0x00
+strb r1, [r0]
+ldr r0, =ADDR_GLYPH
+ldr r1, =0x22222222
+str r1, [r0]
+ldr r1, =ADDR_DMA
+str r0, [r1]
+str r0, [r1, 0x04]
+ldr r0, =0x81000060
+str r0, [r1, 0x08]
+ldr r0, [r1, 0x08]
+pop r0
+bx r0
+.pool
+.endarea
+
+.org FN_VWF_JUMP
+.area 0x20
+push lr
+ldr r2, =(. + 0x09)
+mov lr, r2
+ldr r2, =FN_VWF
+mov r15, r2
+pop r1
+bx r1
+.pool
+.endarea
+
 .org FN_SCRIPT_HANDLER
 .area 0x100
 ; Call our vwf routine
@@ -99,7 +131,7 @@ ldr r2, =FN_VWF
 mov r15, r2
 
 ; DMA from RAM to tile
-ldr r1, ADDR_DMA
+ldr r1, =ADDR_DMA
 ldr r2, =ADDR_GLYPH
 str r2, [r1]
 ldr r2, ADDR_SCRIPT_TILE_INDEX
@@ -173,75 +205,6 @@ mov r15, r0
 .endarea
 
 ;--------------------------;
-; Battle call (0x0800C98C) ;
-;--------------------------;
-.org 0x0800C98C
-bl FN_BATTLE_WRAPPER1
-; Have icons increment the stack space pointer and return value instead of
-; toggle the 1st part / 2nd part flag.
-.org 0x0800C96C
-; Increment stack space pointer
-add r5, 0x40
-; Increment return value
-add r6, 0x40
-lsl r0, r7, 0x10
-b 0x0800C9BC
-; Branch over return value and stack space pointer increments
-.org 0x0800C992
-b 0x0800C9BE
-; Off by one error in return value so add 0x40 and then branch to return
-.org 0x0800C9CA
-add r6, 0x40
-b 0x0800C9D8
-
-
-.org FN_BATTLE_WRAPPER1
-.area 0x20
-push lr
-ldr r2, =FN_BATTLE_HANDLER1
-mov r15, r2
-pop r0
-bx r0
-.pool
-.endarea
-
-.org FN_BATTLE_HANDLER1
-.area 0x100
-; Call our vwf routine
-ldr r2, =(. + 0x09)
-mov lr, r2
-ldr r2, =FN_VWF
-mov r15, r2
-
-; DMA from RAM to stack space
-ldr r1, ADDR_DMA
-ldr r2, =ADDR_GLYPH
-str r2, [r1]
-str r5, [r1, 0x04]
-ldr r2, =0x80000000
-add r3, r0, 0x01
-lsl r3, r3, 0x06
-add r2, r2, r3
-str r2, [r1, 0x08]
-ldr r2, [r1, 0x08]
-
-sub r3, 0x40
-; Increment stack space pointer
-add r5, r5, r3
-; Increment return value
-add r6, r6, r3
-
-; Clean glyph RAM
-cleanram
-
-; Return to wrapper.
-ldr r0, =FN_BATTLE_WRAPPER1
-add r0, 0x06
-mov r15, r0
-.pool
-.endarea
-
-;--------------------------;
 ; Battle call (0x0800ADCE) ;
 ;--------------------------;
 .org 0x0800ADCE
@@ -279,7 +242,7 @@ ldr r2, =FN_VWF
 mov r15, r2
 
 ; DMA from RAM to tile
-ldr r1, ADDR_DMA
+ldr r1, =ADDR_DMA
 ldr r2, =ADDR_GLYPH
 str r2, [r1]
 lsl r2, r6, 0x05
@@ -391,6 +354,7 @@ bl L_fn_copy_glyph
 ldr r0, =ADDR_WIDTHS
 add r0, r0, r7
 ldrb r0, [r0]
+add r0, 0x01 ; add 0x1 for space.
 ldr r1, =ADDR_SHIFT
 ldrb r2, [r1]
 add r0, r0, r2 ; r0 = shift + width
@@ -431,39 +395,50 @@ lsl r4, r4, 0x02 ; r4 = shift
 mov r5, r0 ; r5 = glyph address
 mov r6, r1 ; r6 = destination address
 mov r7, r2 ; r7 = palette
+mov r0, 0x20
+sub r0, r0, r4
+mov r8, r0 ; r8 = 0x20 - shift
 
 @@L_loop:
 ; Convert 1bpp row to 4bpp row and store in r0
 mov r0, 0x00
 ldrb r1, [r5, r3]
-mov r2, 0x01
+mov r2, 0x80
 @@L_1bpp_to_4bpp:
 lsl r0, r0, 0x04
 tst r1, r2
 beq @@L_off
 add r0, 0x01
 @@L_off:
-lsl r2, r2, 0x01
-cmp r2, 0x80
-ble @@L_1bpp_to_4bpp
+lsr r2, r2, 0x01
+cmp r2, 0x00
+bne @@L_1bpp_to_4bpp
 
 ; Convert 0's to 2's and 1's to palette value
-; Multiply row by palette value
+ldr r1, =0x11111111
+sub r1, r1, r0
+mov r2, 0x2
+mul r1, r2
 mul r0, r7
+add r0, r0, r1
 
 ; Shift and store first half of row
-mov r1, r0
-lsr r1, r4
 ldr r2, [r6]
-orr r1, r2
+mov r1, r8
+lsl r2, r1
+lsr r2, r1
+mov r1, r0
+lsl r1, r4
+orr r2, r1
 str r2, [r6]
 
 ; Shift and store second half of row
-mov r1, r0
-mov r2, 0x20
-sub r2, r2, r4
-lsl r1, r2
-str r1, [r6, 0x40]
+mov r1, r8
+lsr r0, r1
+ldr r1, =0x22222222
+lsl r1, r4
+orr r0, r1
+str r0, [r6, 0x40]
 
 add r6, 0x04
 add r3, 0x01

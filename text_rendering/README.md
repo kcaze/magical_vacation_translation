@@ -13,3 +13,8 @@ RAM used:
 0x203FFF2 [byte] = index into which font set we're using
 0x203FFF4 [word] = variables for vwf_menu (it's messy)
 0x203FFF8 [word] = reserved space for vwf_menu (it's complicated)
+
+
+-----------------------------------------------------
+0x0800D370: Subroutine to draw icon.
+0x0800CFCC: Subroutine to draw glyph.
