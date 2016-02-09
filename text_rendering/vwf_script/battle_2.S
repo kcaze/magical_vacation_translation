@@ -1,6 +1,6 @@
 ; This guts the text draw routine 0x0800AB30 - 0x0800AB4E which delegates to 0x0800AB50 - 0x0800AF98.
 ; The battle 2 routine is called from the following locations:
-;   0x080172CC:
+;   0x080172CC: Battle commands "Magic", "Items", "Defend", "Escape", "Kick"
 ;   0x08017322:
 ;   0x08017346:
 ;   0x08017416:
@@ -24,7 +24,7 @@
 ;   0x02009744: Pointer to location of panel tilemap
 ;   0x02009764: Width of panel in tiles
 ;   0x02009A40: An array of data structure {
-;                 [8 bits] number of tiles;
+;                 [8 bits] x-coordinate in panel;
 ;                 [8 bits] y-coordinate in panel;
 ;                 [12 bits] tile index;
 ;                 [4 bits] palette (0xF - the color);
@@ -35,6 +35,17 @@
 ; The original routine had 0x0800AB30 be called multiple times, drawing 4
 ; letters at a time. In my modified routine, it will draw the entire array with
 ; each call.
+;
+; 0x0800C56C: This routine is used to populate the array of data structures.
+; It takes in 3 arguments:
+;   r0 = beginning script pointer
+;   r1 = end script pointer
+;   r2 = tile index
+;   r3 = palette
+;   [sp] = x-coordinate
+;   [sp, 0x04] = y-coordinate
+; It returns the number of tiles the text takes up. I'm modifying the return
+; value to compute this as 4 * (r1 - r0) + 1.
 
 
 .gba
@@ -211,4 +222,14 @@ pop r0
 bx r0
 .pool
 .endarea
+
+; Fix tile calculation
+.org 0x0800C652
+lsl r0, r1, 0x02
+add r0, 0x01
+nop
+nop
+nop
+nop
+nop
 .close

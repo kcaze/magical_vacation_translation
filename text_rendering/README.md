@@ -18,3 +18,5 @@ RAM used:
 -----------------------------------------------------
 0x0800D370: Subroutine to draw icon.
 0x0800CFCC: Subroutine to draw glyph.
+
+0x0200B514: Current tile index.

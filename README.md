@@ -19,4 +19,6 @@ Layout of game:
   in the table is 4 bytes. The first 2 represent some information about the
   sprite (unsure what). The last 2 are address offsets for the sprite.
 `0x0810655C -- 0x0813FC3B`: Overworld sprites
-`0x0813FC3C`
+`0x08151928 -- 0x08224E50`: Battle sprites. Before each set of sprites is some
+  meta-data, presumably for the animation.
+`0x084B06E0 -- 0x0851DBE0 or so`: I suspect this is music.

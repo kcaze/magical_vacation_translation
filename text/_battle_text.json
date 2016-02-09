@@ -1,6 +1,6 @@
 [
   {
-    "English": "Escaped Successfully",
+    "English": "Successfully Escaped",
     "Japanese": "逃げることにせいこうした",
     "Comments": "",
     "u8": [
@@ -31,9 +31,9 @@
     ]
   },
   {
-    "English": "Magic",
+    "English": "Magic$space$$space$",
     "Japanese": "まほう",
-    "Comments": "",
+    "Comments": "Need to pad with trailing spaces",
     "u8": [
       0,
       172,
@@ -44,7 +44,7 @@
     ]
   },
   {
-    "English": "Items",
+    "English": "Items$space$",
     "Japanese": "アイテム",
     "Comments": "",
     "u8": [
