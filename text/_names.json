@@ -24,9 +24,9 @@
       ]
     },
     {
-      "English": "Kick",
+      "English": "Kick$space$$space$$space$",
       "Japanese": "キック",
-      "Comments": "",
+      "Comments": "Need to pad with trailing spaces",
       "u8": [
         0,
         125,
@@ -668,7 +668,7 @@
       ]
     },
     {
-      "English": "Smack",
+      "English": "Smack$space$",
       "Japanese": "はり手",
       "Comments": "",
       "u8": [
@@ -691,7 +691,7 @@
       ]
     },
     {
-      "English": "Punch",
+      "English": "Punch$space$",
       "Japanese": "パンチ",
       "Comments": "",
       "u8": [
@@ -714,7 +714,7 @@
       ]
     },
     {
-      "English": "Slap",
+      "English": "Slap$space$$space$$space$",
       "Japanese": "ビンタ",
       "Comments": "",
       "u8": [
@@ -737,7 +737,7 @@
       ]
     },
     {
-      "English": "Chop",
+      "English": "Chop$space$$space$$space$",
       "Japanese": "チョップ",
       "Comments": "",
       "u8": [
