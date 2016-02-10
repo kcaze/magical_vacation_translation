@@ -44,7 +44,7 @@
     ]
   },
   {
-    "English": "Items$space$",
+    "English": "Items$space$$space$",
     "Japanese": "アイテム",
     "Comments": "",
     "u8": [
@@ -59,7 +59,7 @@
     ]
   },
   {
-    "English": "Escape",
+    "English": "Escape$space$",
     "Japanese": "にげる",
     "Comments": "",
     "u8": [

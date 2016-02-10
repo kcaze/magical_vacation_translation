@@ -31,6 +31,8 @@
 ;                 [word] pointer to text start;
 ;                 [word] pointer to text end;
 ;               }
+;   0x020099A4: x-coordinate of panel in tiles
+;   0x02009734: y-coordinate of panel in tiles
 
 ; The original routine had 0x0800AB30 be called multiple times, drawing 4
 ; letters at a time. In my modified routine, it will draw the entire array with
@@ -121,23 +123,53 @@ lsl r1, r1, 0x08
 ldrb r0, [r0, 0x01]
 add r0, r0, r1
 
-; Abort on 0xFFFF
-ldr r1, =0x0000FFFF
+; Abort on glyphs that start with 0xFE or 0xFF.
+ldr r1, =0x0000FE00
 cmp r0, r1
-beq @@L_return
+bge @@L_return
 
+cmp r0, 0xF
+bgt @@L_vwf
+; Icon
+mov r2, r0
+ldr r0, =0x020099A4
+ldrh r0, [r0]
+ldrb r1, [r7, 0x00]
+add r0, r0, r1
+lsl r0, r0, 0x03
+ldr r1, =0x02009734
+ldrh r1, [r1]
+ldrb r3, [r7, 0x01]
+add r1, r1, r3
+lsl r1, r1, 0x03
+mov r3, 0x00
+bl FN_ICON
+ldr r0, =0x22222222
+ldr r1, =ADDR_GLYPH
+str r0, [r1]
+ldr r0, =ADDR_DMA
+str r1, [r0]
+str r1, [r0, 0x4]
+ldr r1, =0x81000040
+str r1, [r0, 0x8]
+ldr r1, [r0, 0x8]
+mov r0, 0x02
+b @@L_vwf_end
+
+@@L_vwf:
 ldrb r1, [r7, 0x03]
-lsl r1, r1, 0x04
+lsr r1, r1, 0x04
 sub r1, 0x0F
 neg r1, r1
 bl FN_VWF
+@@L_vwf_end:
 
 ; Copy glyph data to tiles
 ldr r1, =ADDR_DMA
 ldr r2, =ADDR_GLYPH
 str r2, [r1]
 ldr r2, =ADDR_TILE
-ldrb r3, [r7, 0x02]
+ldrh r3, [r7, 0x02]
 lsl r3, r3, 0x05
 add r2, r2, r3
 str r2, [r1, 0x04]
