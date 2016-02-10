@@ -164,6 +164,8 @@ lsl r0, r2, 0x05
 mov r0, 0x20
 .org 0x08015B52
 mov r0, 0x20
+.org 0x08015DD2
+add r1, 0x10
 .org 0x080167DA
 add r1, 0x20
 ;------------------------;

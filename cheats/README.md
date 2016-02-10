@@ -1,3 +1,14 @@
+0202A170 stores alot of information about the party.
+Exp [4 bytes?]: 202A1B8
+MP Max [14 bits]: 202A17D [7 bits] + 202A17C [7 bits]
+MP remaining [14 bits]: 202A17C [1 bits] + 202A17B [8 bits] + 202A17A [5 bits]
+HP Max [14 bits]: 202A17A [3 bits] + 202A179 [8 bits] + 202A178 [3 bits]
+HP remaining [14 bits]: 202A178 [5 bits] + 202A177 [8 bits] + 202A176 [1 bit]
+Level [10 bits]: 202A176 [7 bits] + 202A175 [3 bits]
+
+0x0E000000 (SRAM): Character info (level, hp, etc.).
+
+
 0x02000360 stores lots of information.
 Change 0x02000362 from 0x01 to 0x00 and you can walk through walls.
 
