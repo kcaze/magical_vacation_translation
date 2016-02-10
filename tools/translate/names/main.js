@@ -87,10 +87,10 @@ function generateBinary(name) {
       }
     } else {
       var data = parseEnglish(processSpecialCharacters(substituteMacros(name[ii].English)));
-      if (data.length >= 30) {
-        console.log("WARNING: Name", ii, "is too long!");
+      if (data.length > 32) {
+        console.log("WARNING: Name", name[ii].English, "(" + ii + ")", "is too long! Truncating!");
       }
-      for (var jj = 0; jj < data.length; jj++) {
+      for (var jj = 0; jj < Math.min(data.length, 32); jj++) {
         binary[ii*32 + jj] = data[jj];
       }
     }

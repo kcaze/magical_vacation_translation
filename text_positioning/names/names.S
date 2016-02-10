@@ -115,6 +115,9 @@ mov r3, 0x10
 ;------------------------;
 ; Battle related changes ;
 ;------------------------;
+; Monster names
+.org 0x0800C468
+lsl r0, r2, 0x05
 
 ; Character names in battle.
 .org 0x0800C488
@@ -123,10 +126,14 @@ lsl r0, r2, 0x05
 ; Spell names in battle.
 .org 0x08016DC0
 lsl r0, r0, 0x05
+.org 0x08019F12
+lsl r2, r2, 0x05
 
 ; Item names in battle.
 .org 0x08016DE8
 lsl r0, r0, 0x05
+.org 0x08019F58
+lsl r2, r6, 0x05
 
 ; Spirit names in battle.
 .org 0x08019440
@@ -138,17 +145,27 @@ lsl r0, r0, 0x1A
 lsr r0, r0, 0x15
 .org 0x08015802
 add r1, 0x20
+.org 0x08019EAC
+lsl r2, r2, 0x1A
+lsr r2, r2, 0x15
 
 ; Battle vwf calls.
-; 0x0800ADCE call
-.org 0x080167DA
-mov r1, 0x20
-; 0x0800C98C call
 .org 0x08016B2E
 add r6, 0x20
 .org 0x080168DE
 add r6, 0x20
 
+; Unknown, but probably necessary changes
+.org 0x0800C42C
+lsl r0, r2, 0x05
+.org 0x0800C478
+lsl r0, r2, 0x05
+.org 0x08015A94
+mov r0, 0x20
+.org 0x08015B52
+mov r0, 0x20
+.org 0x080167DA
+add r1, 0x20
 ;------------------------;
 ; Script related changes ;
 ;------------------------;
