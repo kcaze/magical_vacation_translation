@@ -117,16 +117,20 @@ mov r7, r0 ; r7 = pointer to data structure
 
 @@L_loop:
 ; Call vwf
+mov r6, 0x00 ; flag indicate if we need to break out of loop.
 ldr r0, [r7, 0x04]
 ldrb r1, [r0]
+cmp r1, 0xFE
+blt @@L_not_terminate
+mov r6, 0x01
+@@L_not_terminate:
 lsl r1, r1, 0x08
 ldrb r0, [r0, 0x01]
+cmp r0, 0xFE
+blt @@L_not_terminate2
+mov r6, 0x01
+@@L_not_terminate2:
 add r0, r0, r1
-
-; Abort on glyphs that start with 0xFE or 0xFF.
-ldr r1, =0x0000FE00
-cmp r0, r1
-bge @@L_return
 
 cmp r0, 0xF
 bgt @@L_vwf
@@ -240,6 +244,8 @@ ldr r3, [r1, 0x08]
 
 ldr r0, [r7, 0x04]
 ldr r1, [r7, 0x08]
+cmp r6, 0x00
+bne @@L_return
 cmp r0, r1
 bne @@L_loop
 
