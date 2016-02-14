@@ -89,14 +89,26 @@ bx r0
 .pool
 .endarea
 
+; r0 = palette value to clear with.
+L_ram_clear:
 .org FN_RAM_CLEAR
 .area 0x40
 push lr
+mov r1, r0
+mov r2, 0x00
+@@L_loop:
+lsl r0, 0x01
+orr r0, r1
+add r2, r2, 0x01
+cmp r2, 0x08
+blt @@L_Loop
+mov r2, r0
+
 ldr r0, =ADDR_SHIFT
 mov r1, 0x00
 strb r1, [r0]
 ldr r0, =ADDR_GLYPH
-ldr r1, =0x22222222
+mov r1, r2
 str r1, [r0]
 ldr r1, =ADDR_DMA
 str r0, [r1]
@@ -108,6 +120,7 @@ pop r0
 bx r0
 .pool
 .endarea
+L_ram_clear_end:
 
 .org FN_VWF_JUMP
 .area 0x20
@@ -348,9 +361,15 @@ str r2, [r6]
 ; Shift and store second half of row
 mov r1, r8
 lsr r0, r1
-ldr r1, =0x22222222
+
+mov r1, r9
 lsl r1, r4
+@@L_loop2:
 orr r0, r1
+lsl r1, 0x04
+cmp r1, 0x00
+bne @@L_loop2
+
 str r0, [r6, 0x40]
 
 add r6, 0x04

@@ -37,6 +37,7 @@ mov r7, r0 ; r7 = pointer to text
 mov r8, r1 ; r8 = pointer to end of text
 
 ; Clear RAM
+mov r0, 0x02
 bl FN_RAM_CLEAR
 
 L_loop:

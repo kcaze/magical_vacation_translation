@@ -105,6 +105,7 @@ L_battle2:
 pushreg
 
 ; Clear RAM
+mov r0, 0x02
 bl FN_RAM_CLEAR
 
 ; Setup registers
