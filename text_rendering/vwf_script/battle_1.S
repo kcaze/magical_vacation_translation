@@ -67,6 +67,7 @@ b L_loop_end
 ; Call vwf
 L_not_icon:
 mov r1, r5
+mov r2, 0x02 ; bg palette
 bl FN_VWF
 
 ; Copy from ADDR_GLYPH to stack space then update return value and stack pointer

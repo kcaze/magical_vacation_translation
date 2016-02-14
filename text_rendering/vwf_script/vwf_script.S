@@ -26,17 +26,19 @@ FN_VWF equ 0x087F5F30
 
 .macro pushreg
   push r4-r7,lr
-  mov r5, r8
-  mov r6, r9
-  mov r7, r10
-  push r5-r7
+  mov r4, r8
+  mov r5, r9
+  mov r6, r10
+  mov r7, r11
+  push r4-r7
 .endmacro
 
 .macro popreg
-  pop r3-r5
+  pop r3-r6
   mov r8, r3
   mov r9, r4
   mov r10, r5
+  mov r11, r6
   pop r4-r7
 .endmacro
 
@@ -110,10 +112,10 @@ bx r0
 .org FN_VWF_JUMP
 .area 0x20
 push lr
-ldr r2, =(. + 0x09)
-mov lr, r2
-ldr r2, =FN_VWF
-mov r15, r2
+ldr r3, =(. + 0x09)
+mov lr, r3
+ldr r3, =FN_VWF
+mov r15, r3
 pop r1
 bx r1
 .pool
@@ -206,13 +208,17 @@ mov r15, r0
 ; ===============             ;
 ; Input:                      ;
 ;   r0 = glyph value [half]   ;
-;   r1 = palette color [byte] ;
+;   r1 = fg palette color [byte] ;
+;   r2 = bg palette color [byte] ;
 ; Return:                     ;
 ;   Number of blocks used - 1 ;
 ;-----------------------------;
 .org FN_VWF
 .area 0x200
 pushreg
+
+; r11 = bg palette value
+mov r11, r2
 
 ; Swap order of values in glyph
 mov r2, 0xFF
@@ -223,7 +229,7 @@ orr r0, r2
 
 ; r8 = return value
 ; r9 = glyph value
-; r10 = palette value
+; r10 = fg palette value
 mov r2, 0x00
 mov r8, r2
 mov r9, r0
@@ -253,6 +259,7 @@ mov r5, r8
 lsl r5, r5, 0x06
 add r1, r1, r5
 mov r2, r10
+mov r3, r11
 bl L_fn_copy_glyph
 
 ; Update shift and return value.
@@ -288,10 +295,12 @@ bx r1
 ; ARGS:
 ; r0 = glyph address
 ; r1 = destination address
-; r2 = palette
+; r2 = fg palette
+; r3 = bg palette
 ; RET: N/A
 L_fn_copy_glyph:
 pushreg
+mov r9, r3 ; r9 = bg palette
 mov r3, 0x00 ; r3 = loop counter
 ldr r4, =ADDR_SHIFT
 ldrb r4, [r4]
@@ -321,7 +330,7 @@ bne @@L_1bpp_to_4bpp
 ; Convert 0's to 2's and 1's to palette value
 ldr r1, =0x11111111
 sub r1, r1, r0
-mov r2, 0x2
+mov r2, r9
 mul r1, r2
 mul r0, r7
 add r0, r0, r1

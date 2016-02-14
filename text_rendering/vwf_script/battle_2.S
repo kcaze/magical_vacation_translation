@@ -55,17 +55,19 @@
 
 .macro pushreg
   push r4-r7,lr
-  mov r5, r8
-  mov r6, r9
-  mov r7, r10
-  push r5-r7
+  mov r4, r8
+  mov r5, r9
+  mov r6, r10
+  mov r7, r11
+  push r4-r7
 .endmacro
 
 .macro popreg
-  pop r3-r5
+  pop r3-r6
   mov r8, r3
   mov r9, r4
   mov r10, r5
+  mov r11, r6
   pop r4-r7
 .endmacro
 
@@ -165,6 +167,7 @@ ldrb r1, [r7, 0x03]
 lsr r1, r1, 0x04
 sub r1, 0x0F
 neg r1, r1
+mov r2, 0x02 ; bg palette
 bl FN_VWF
 @@L_vwf_end:
 
