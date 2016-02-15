@@ -57,94 +57,92 @@ END equ 0x080B6258
 L_vwf_menu:
 .org START
 .area END - START
-mov r6, 0x00 ; r6 = loop counter
-mov r7, r0 ; r7 = glyph address
+mov r7, 0x00 ; r7 = outer loop counter
+mov r8, r0 ; r8 = glyph address
 
 @@L_loop:
 mov r0, 0x00
 bl FN_RAM_CLEAR
 
-mov r4, 0xFF ; r4 = x-coordinate
-mov r5, 0x00 ; r5 = inner loop counter
+mov r5, 0xFF ; r5 = x tile coordinate
+mov r6, 0x00 ; r6 = inner loop counter
 @@L_inner_loop:
-ldr r0, [r7]
+mov r0, r8
+ldr r0, [r0]
 lsl r0, 0x10
 lsr r0, 0x10
 cmp r0, 0x00
 beq @@L_inner_loop_end
-cmp r4, 0xFF
+cmp r5, 0xFF
 bne @@L_not_first_nonzero
-mov r4, r5
+mov r5, r6
 @@L_not_first_nonzero:
 
 mov r1, 0x0F ;TODO currently hardcoding palette value. Need to find where this stored.
 mov r2, 0x00 ; bg palette
 bl FN_VWF
+mov r9, r0 ; r9 = copy of return value
 
 ; copy glyph data to tiles
-; Pushing r0 since I've run out of registers
-push r0
-add r0, 0x1 ; r0 = loop counter
-@@L_tile_copy_loop:
-ldr r2, =ADDR_TILE
-add r1, r4, r0
-sub r1, 0x01
+@@L_tile_loop:
+; DMA glyph data to tiles2
+ldr r2, =ADDR_GLYPH
+lsl r1, r0, 0x06
+add r2, r2, r1 ; r2 = glyph address
+ldr r3, =ADDR_TILE
+add r1, r5, r0
 lsl r1, r1, 0x05
-add r2, r2, r1
-lsl r1, r6, 0x0B
-add r2, r2, r1 ; r2 = tile address
-ldr r3, =ADDR_GLYPH
-sub r1, r0, 0x01
-lsl r1, r1, 0x06
-add r3, r3, r1 ; r3 = glyph address
-ldr r1, [r3, 0x00]
-str r1, [r2, 0x00]
-ldr r1, [r3, 0x04]
-str r1, [r2, 0x04]
-ldr r1, [r3, 0x08]
-str r1, [r2, 0x08]
-ldr r1, [r3, 0x0C]
-str r1, [r2, 0x0C]
-ldr r1, [r3, 0x10]
-str r1, [r2, 0x10]
-ldr r1, [r3, 0x14]
-str r1, [r2, 0x14]
-ldr r1, [r3, 0x18]
-str r1, [r2, 0x18]
-ldr r1, [r3, 0x1C]
-str r1, [r2, 0x1C]
+add r3, r3, r1
+lsl r1, r7, 0x0B
+add r3, r3, r1 ; r3 = tile address
+ldr r4, =ADDR_DMA
+str r2, [r4]
+str r3, [r4, 0x04]
+ldr r1, =0x80000010
+str r1, [r4, 0x08]
+ldr r1, [r4, 0x08]
+
+add r2, 0x20
 ldr r1, =0x0400
-add r2, r2, r1
-add r3, 0x20
-ldr r1, [r3, 0x00]
-str r1, [r2, 0x00]
-ldr r1, [r3, 0x04]
-str r1, [r2, 0x04]
-ldr r1, [r3, 0x08]
-str r1, [r2, 0x08]
-ldr r1, [r3, 0x0C]
-str r1, [r2, 0x0C]
-ldr r1, [r3, 0x10]
-str r1, [r2, 0x10]
-ldr r1, [r3, 0x14]
-str r1, [r2, 0x14]
-ldr r1, [r3, 0x18]
-str r1, [r2, 0x18]
-ldr r1, [r3, 0x1C]
-str r1, [r2, 0x1C]
+add r3, r3, r1
+str r2, [r4]
+str r3, [r4, 0x04]
+ldr r1, =0x80000010
+str r1, [r4, 0x08]
+ldr r1, [r4, 0x08]
+
+; Update bg1 in RAM.
+ldr r1, =ADDR_RAM_BG1
+add r2, r5, r0
+mov r3, 0x1E
+mul r3, r7
+lsl r3, r3, 0x01
+add r3, r3, r2
+lsl r3, 0x01
+lsl r4, r7, 0x06
+add r2, r2, r4
+strh r2, [r1, r3]
+mov r4, 0x1E
+lsl r4, r4, 0x01
+add r3, r3, r4
+mov r4, 0x01
+lsl r4, r4, 0x05
+add r2, r2, r4
+strh r2, [r1, r3]
+
 sub r0, 0x01
 cmp r0, 0x00
-bne @@L_tile_copy_loop
-pop r0
+bge @@L_tile_loop
 
 ; Update ADDR_GLYPH
+mov r0, r9
 lsl r3, r0, 0x06
 ldr r1, =ADDR_DMA
 ldr r2, =ADDR_GLYPH
 add r3, r2, r3
 str r3, [r1]
 str r2, [r1, 0x04]
-ldr r3, =0x80000040
+ldr r3, =0x80000020
 str r3, [r1, 0x08]
 ldr r3, [r1, 0x08]
 add r2, 0x40
@@ -156,33 +154,28 @@ ldr r3, =0x81000040
 str r3, [r1, 0x08]
 ldr r3, [r1, 0x08]
 
-; glyph RAM DMAing
-
-add r4, r4, r0
+; Update x tile coordinate
+add r5, r5, r0
 
 @@L_inner_loop_end:
-add r7, 0x04
-add r5, 0x01
-cmp r5, 0x14
+mov r0, r8
+add r0, 0x04
+mov r8, r0
+add r6, 0x01
+cmp r6, 0x14
 blt @@L_inner_loop
 
-add r6, 0x01
-cmp r6, 0x0A
+add r7, 0x01
+cmp r7, 0x0A
 blt @@L_loop
 
-; COPY TILES TO BG1
-ldr r0, =ADDR_RAM_BG1
-mov r1, 0x00
-ldr r2, =0x00010000
-ldr r3, =0x00020002
-ldr r4, =0x0500
-@@L_tile_to_bg_loop:
-str r2, [r0, r1]
-add r2, r3
-add r1, 0x04
-cmp r1, r4
-blt @@L_tile_to_bg_loop
-
+@@L_return:
+; Clear 0x0203B6CA so that this subroutine isn't called 4 times.
+mov r0, 0x00
+ldr r1, =0x0203B6C6
+strh r0, [r1]
+strh r0, [r1, 0x02]
+strb r0, [r1, 0x05]
 b END
 
 .pool
