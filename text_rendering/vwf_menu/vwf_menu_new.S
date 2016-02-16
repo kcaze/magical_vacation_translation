@@ -5,6 +5,13 @@
 ;   4 bytes: some packed bitfield. stores palette info for sure.
 ; }
 ; 0x0203B6CC: Length of the array of data structures beginning at 0x0203AC9C
+; 0x080B57D8: This routine appends an element to the array of data structures.
+;   r0 = x coord in tiles
+;   r1 = y coord in tiles
+;   r2 = script begin address
+;   r3 = 0xFFFFFFFF (???)
+;   [sp, 0x00] = ??? (looks like it's always 0x14, perhaps the width of screen?)
+;   [sp, 0x04] = palette color
 ; 0x080B5CFC: This routine takes the array at 0x0203AC9C, parses it and
 ;   transforms it into 4 byte glyph values to store in the 10x20 array in 0x02036604.
 ;   We're going to gut a lot of this so that it sets up the 2d array in a more usable fashion

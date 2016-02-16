@@ -13,6 +13,11 @@ all:
 	bin/armips.exe graphics/menu_headers/menu_headers.S
 	bin/armips.exe graphics/graphics.S
 	bin/armips.exe text_rendering/fonts/fonts.S
+
+	cat header.S text_rendering/vwf_script/vwf.S footer.S > tmp.S
+	bin/armips.exe tmp.S
+	rm tmp.S
+
 	bin/armips.exe text_rendering/vwf_sprite/vwf_sprite.S
 	bin/armips.exe text_rendering/vwf_script/vwf_script.S
 	bin/armips.exe text_rendering/vwf_script/battle_1.S
