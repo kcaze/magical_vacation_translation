@@ -70,7 +70,7 @@ function exportAll() {
 function generateBinary(menu) {
   var data = menu.reduce(function(acc, curr) {
     var english = curr.English;
-    acc.push(english ? parseEnglish(processSpecialCharacters(substituteMacros("\\1f\\00" + english + "|\\ff\\ff"))) : curr.u8);
+    acc.push(english ? parseEnglish(processSpecialCharacters(substituteMacros(english + "|\\ff\\ff"))) : curr.u8);
     return acc;
   }, []);
 

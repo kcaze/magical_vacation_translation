@@ -1,3 +1,26 @@
+; 0x0203AC9C to ...: An array of data structure {
+;   4 bytes: script beginning address, will read until FFFF
+;   2 bytes: x coord in tiles
+;   2 bytes: y coord in tiles
+;   4 bytes: some packed bitfield. stores palette info for sure.
+; }
+; 0x0203B6CC: Length of the array of data structures beginning at 0x0203AC9C
+; 0x080B5CFC: This routine takes the array at 0x0203AC9C, parses it and
+;   transforms it into 4 byte glyph values to store in the 10x20 array in 0x02036604.
+;   We're going to gut a lot of this so that it sets up the 2d array in a more usable fashion
+;   for our vwf. Also, we'll be using 1 byte per glyph so that we can actually fit enough
+;   glyphs on screen.
+; 0x02036604: A 10x20 array of 4 byte words. Each glyph is 12 pixels wide, 16 pixels tall
+;   in calculations. Hence, 20 elements per row = 240 pixels wide and 10 elements tall =
+;   160 pixels tall. Glyph values are stored as 4 byte words for some reason. The 4th nibble
+;   indicates the palette value to use for that glyph, since no drawable Japanese glyphs went
+;   beyond 0x0FFF.
+; 0x080B6108: This routine takes the 2d array of glyph values in 0x02036604, renders them
+;   to tiles2 and then sets up the tilemap for BG1 in RAM at 0x0203CF80. This routine is
+;   called 4 times, with the number of glyphs to process passed in as r1. We're going to
+;   gut this completely since the format of the 2d array will be changed. We need to make
+;   sure the values at 0x0203B6CA are zeroed out so our routine isn't called 4 times.
+
 ; 0x080B6108
 ; r0 = looks like address of beginning of glyph data to render.
 ; r1 = number of glyphs to render
@@ -20,9 +43,13 @@
 ; Format of glyphs 0x02036604 = one row is 20 words. Since each glyph is 12x12,
 ; this means each row is 240 pixels, i.e. the width of the gba screen.
 ; There should be 10 rows, each row being 16 pixels tall, since gba screen is 160 = 10*16 pixels tall.
+; Each glyph is 1 word (4 bytes) so there's a total of 20*10*4 = 800 bytes. The range in RAM is therefore
+; 0x02036604 to 0x02036924
 
 ; 0x0203CF80
 ; Tile indices that will be DMA'd to BG1
+
+; 0x080B5CFC: routine to set up the glyph data in RAM in 0x02036604.
 
 .gba
 .open "hacked.gba", 0x08000000
@@ -59,6 +86,17 @@ L_vwf_menu:
 .area END - START
 mov r7, 0x00 ; r7 = outer loop counter
 mov r8, r0 ; r8 = glyph address
+
+; Clear bg1 in RAM.
+ldr r0, =ADDR_RAM_BG1
+mov r1, 0x00
+str r1, [r0]
+ldr r1, =ADDR_DMA
+str r0, [r1]
+str r0, [r1, 0x04]
+ldr r0, =0x81000258
+str r0, [r1, 0x08]
+ldr r0, [r1, 0x08]
 
 @@L_loop:
 mov r0, 0x00
@@ -180,5 +218,3 @@ b END
 
 .pool
 .close
-
-; TODO: This routine should only be called once, not four times. Fix that.
