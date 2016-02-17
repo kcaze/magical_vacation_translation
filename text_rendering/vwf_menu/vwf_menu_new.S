@@ -42,7 +42,7 @@ FN_RAM_CLEAR equ 0x0800D020
 FN_VWF equ 0x0800D060
 FN_ICON equ 0x0800D370
 
-ADDR_GLYPH  equ 0x020097B0
+ADDR_GLYPH_BUFFER  equ 0x020097B0
 ADDR_TILE    equ 0x06008000
 ADDR_RAM_BG1    equ 0x0203CF80
 ADDR_SCRIPT_ARRAY equ 0x02036604
@@ -68,134 +68,125 @@ FN_PROCESS_SCRIPT_END equ 0x080B583E
 ;   [sp, 0x20] = ??? (looks like it's always 0x14, perhaps the width of screen?)
 ;   [sp, 0x24] = palette color
 ; RET: N/A
-L_process_script:
 .org FN_PROCESS_SCRIPT_START
+L_process_script:
 .area FN_PROCESS_SCRIPT_END - FN_PROCESS_SCRIPT_START
-bl
-mov r4, r0 ; r4 = x coord
-mov r5, r1 ; r5 = y coord
-mov r6, r2 ; r6 = script address
-ldr r7, [sp, 0x24] ; r7 = palette color
-
-; Increment length of script array and get address to write new entry to.
-ldr r0, =ADDR_SCRIPT_ARRAY
-ldr r1, [r0]
-add r2, r1, 0x01
-str r2, [r0]
-lsl r1, 0x03
-add r0, 0x04
-add r0, r0, r1
-
-; Store data
-strb r4, [r0]
-strb r5, [r0, 0x01]
-strb r7, [r0, 0x02]
-str r6, [r0, 0x04]
-
+ldr r3, [sp, 0x24]
+bl L_vwf_menu
 b FN_PROCESS_SCRIPT_END
 .pool
 .endarea
 
-L_vwf_menu:
+; Function vwf_menu():
+; ARGS:
+;   r0 = x coord in tiles
+;   r1 = y coord in tiles
+;   r2 = script begin address
+;   r3 = palette color
+; RET: N/A
 .org FN_MENU_START
+L_vwf_menu:
 .area FN_MENU_END - FN_MENU_START
-mov r7, 0x00 ; r7 = outer loop counter
-mov r8, r0 ; r8 = glyph address
+pushreg
 
-; Clear bg1 in RAM.
-ldr r0, =ADDR_RAM_BG1
-mov r1, 0x00
-str r1, [r0]
-ldr r1, =ADDR_DMA
-str r0, [r1]
-str r0, [r1, 0x04]
-ldr r0, =0x81000258
-str r0, [r1, 0x08]
-ldr r0, [r1, 0x08]
+; Setup registers
+mov r5, r0 ; r5 = x coord
+mov r6, r1 ; r6 = y coord
+mov r7, r2 ; r7 = script address
+mov r8, r3 ; r8 = palette
+mov r9, r0 ; r9 = original x coord
 
-@@L_loop:
+; Clear ram
 mov r0, 0x00
 bl FN_RAM_CLEAR
 
-mov r5, 0xFF ; r5 = x tile coordinate
-mov r6, 0x00 ; r6 = inner loop counter
-@@L_inner_loop:
-mov r0, r8
-ldr r0, [r0]
-lsl r0, 0x10
-lsr r0, 0x10
-cmp r0, 0x00
-beq @@L_inner_loop_end
-cmp r5, 0xFF
-bne @@L_not_first_nonzero
-mov r5, r6
-@@L_not_first_nonzero:
+@@L_loop:
+; Call vwf(), handling the special end of script 0xFFFF and newline 0xFEFF
+ldrh r0, [r7]
+lsr r1, r0, 0x08
+lsl r0, r0, 0x18
+lsr r0, r0, 0x10
+orr r0, r1
+ldr r1, =0xFFFF
+cmp r0, r1
+beq @@L_return
+ldr r1, =0xFEFF
+cmp r0, r1
+bne @@L_not_newline
 
-mov r1, 0x0F ;TODO currently hardcoding palette value. Need to find where this stored.
-mov r2, 0x00 ; bg palette
+; Handle newlines
+mov r0, 0x00
+bl FN_RAM_CLEAR
+add r6, 0x01
+mov r5, r9
+b @@L_loop_end
+
+@@L_not_newline:
+mov r1, r8
+mov r2, 0x00
 bl FN_VWF
-mov r9, r0 ; r9 = copy of return value
+mov r10, r0 ; r10 = return value
 
-; copy glyph data to tiles
-@@L_tile_loop:
-; DMA glyph data to tiles2
-ldr r2, =ADDR_GLYPH
-lsl r1, r0, 0x06
-add r2, r2, r1 ; r2 = glyph address
-ldr r3, =ADDR_TILE
-add r1, r5, r0
-lsl r1, r1, 0x05
-add r3, r3, r1
-lsl r1, r7, 0x0B
-add r3, r3, r1 ; r3 = tile address
-ldr r4, =ADDR_DMA
-str r2, [r4]
-str r3, [r4, 0x04]
-ldr r1, =0x80000010
-str r1, [r4, 0x08]
-ldr r1, [r4, 0x08]
-
+; Update bg map
+mov r4, r10
+@@L_bg_map_loop:
+ldr r0, =ADDR_RAM_BG1
+mov r1, 0x3C
+mul r1, r6
+add r1, r1, r4
+add r1, r1, r5
+lsl r1, r1, 0x01
+lsl r2, r6, 0x06
+add r2, r2, r4
+add r2, r2, r5
+strh r2, [r0, r1]
+add r1, 0x3C
 add r2, 0x20
-ldr r1, =0x0400
-add r3, r3, r1
-str r2, [r4]
-str r3, [r4, 0x04]
-ldr r1, =0x80000010
-str r1, [r4, 0x08]
-ldr r1, [r4, 0x08]
+strh r2, [r0, r1]
 
-; Update bg1 in RAM.
-ldr r1, =ADDR_RAM_BG1
-add r2, r5, r0
-mov r3, 0x1E
-mul r3, r7
-lsl r3, r3, 0x01
-add r3, r3, r2
-lsl r3, 0x01
-lsl r4, r7, 0x06
-add r2, r2, r4
-strh r2, [r1, r3]
-mov r4, 0x1E
-lsl r4, r4, 0x01
-add r3, r3, r4
-mov r4, 0x01
-lsl r4, r4, 0x05
-add r2, r2, r4
-strh r2, [r1, r3]
+sub r4, 0x01
+cmp r4, 0x00
+bge @@L_bg_map_loop
 
-sub r0, 0x01
-cmp r0, 0x00
-bge @@L_tile_loop
+mov r4, r10
+; Copy glyph data to tiles
+@@L_copy_to_tile_loop:
+ldr r0, =ADDR_DMA
+ldr r1, =ADDR_GLYPH_BUFFER
+lsl r2, r4, 0x06
+add r1, r1, r2
+str r1, [r0, 0x00]
+ldr r2, =ADDR_TILE
+add r3, r4, r5
+lsl r3, r3, 0x05
+add r2, r2, r3
+lsl r3, r6, 0x0B
+add r2, r2, r3
+str r2, [r0, 0x04]
+ldr r3, =0x80000010
+str r3, [r0, 0x08]
 
-; Update ADDR_GLYPH
-mov r0, r9
-lsl r3, r0, 0x06
+add r1, 0x20
+ldr r3, =0x0400
+add r2, r2, r3
+str r1, [r0, 0x00]
+str r2, [r0, 0x04]
+ldr r3, =0x80000010
+str r3, [r0, 0x08]
+
+sub r4, 0x01
+cmp r4, 0x00
+bge @@L_copy_to_tile_loop
+
+; Update glyph buffer
+mov r0, r10
 ldr r1, =ADDR_DMA
-ldr r2, =ADDR_GLYPH
+ldr r2, =ADDR_GLYPH_BUFFER
+lsl r3, r0, 0x06
 add r3, r2, r3
 str r3, [r1]
 str r2, [r1, 0x04]
-ldr r3, =0x80000020
+ldr r3, =0x80000040
 str r3, [r1, 0x08]
 ldr r3, [r1, 0x08]
 add r2, 0x40
@@ -203,33 +194,20 @@ mov r3, 0x00
 str r3, [r2]
 str r2, [r1]
 str r2, [r1, 0x04]
-ldr r3, =0x81000040
+ldr r3, =0x81000080
 str r3, [r1, 0x08]
 ldr r3, [r1, 0x08]
 
-; Update x tile coordinate
-add r5, r5, r0
+add r5, r10
 
-@@L_inner_loop_end:
-mov r0, r8
-add r0, 0x04
-mov r8, r0
-add r6, 0x01
-cmp r6, 0x14
-blt @@L_inner_loop
-
-add r7, 0x01
-cmp r7, 0x0A
-blt @@L_loop
+@@L_loop_end:
+add r7, 0x02
+b @@L_loop
 
 @@L_return:
-; Clear 0x0203B6CA so that this subroutine isn't called 4 times.
-mov r0, 0x00
-ldr r1, =0x0203B6C6
-strh r0, [r1]
-strh r0, [r1, 0x02]
-strb r0, [r1, 0x05]
-b FN_MENU_END
+popreg
+pop r0
+bx r0
 
 .pool
-.close
+.endarea

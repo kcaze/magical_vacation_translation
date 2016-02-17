@@ -25,8 +25,8 @@ bx r1
 ; r1 = fg palette color
 ; r2 = bg palette color
 ; RET: number of full 8x8 blocks drawn to
-L_fn_vwf:
 .org FN_VWF
+L_fn_vwf:
 .area 0x200
 pushreg
 
@@ -79,7 +79,7 @@ mov r1, 0x07
 and r1, r0
 strb r1, [r2] ; shift = (shift + width) % 8
 lsr r0, r0, 0x03
-add r6, r0 ; ret += (shift + width) / 8
+add r6, r6, r0 ; ret += (shift + width) / 8
 
 @@L_loop_end:
 lsr r7, r7, 0x08
@@ -172,5 +172,3 @@ pop r0
 bx r0
 .pool
 .endarea
-
-.close
