@@ -1,6 +1,55 @@
 .gba
 .open "hacked.gba", 0x08000000
 
+;;;;;;;;;;;;;;;;;;
+; BG 1 MENU TEXT ;
+;;;;;;;;;;;;;;;;;;
+; PROTIP: Put a breakpoint at 0x080B57D8 and look at where it's called from.
+;         r0 is the x and r1 is the y.
+
+; Status page
+.org 0x080B3966 ; "Gender:"
+mov r0, 0x0C
+.org 0x080B3984 ; Gender
+mov r0, 0x12
+.org 0x080B39A8 ; "Element:"
+mov r0, 0x14
+.org 0x080B39E6 ; "Species:"
+mov r0, 0x0C
+.org 0x080B39FE ; Species
+mov r0, 0x12
+
+; Equipment page
+.org 0x080B3A3C ; Headgear
+mov r0, 0x0A
+.org 0x080B3A86 ; Wrist
+mov r0, 0x0A
+.org 0x080B3ACC ; Torso
+mov r0, 0x0A
+.org 0x080B3B12 ; Shoes
+mov r0, 0x0A
+.org 0x080B3B58 ; Accessory
+mov r0, 0x0A
+
+.org 0x080B3A62 ; Hyphens
+mov r0, 0x0A
+
+.org 0x080B43EC ; Item to equip
+mov r0, 0x0A
+
+.org 0x080B4392 ; Item to unequip
+mov r0, 0x10
+.org 0x080B43B6 ; "Unequip"
+mov r0, 0x0A
+
+; Magic page
+.org 0x080B3BC6 ; Spell name
+mov r0, 0x0E
+.org 0x080B3BE8 ; Hyphens
+mov r0, 0x0E
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ; PROTIP: Put a breakpoint at 0x080BD520 and use the condition that r0 == the
 ;         section number of a text to figure out when a particular string is
@@ -75,28 +124,5 @@ strh r1, [r0, 0x06]
 ; "Is this correct?"
 .org 0x080AF624
 add r0, 0x24
-
-; PROTIP: Breakpoint on 80B57D8 and then look for the call site.
-; Positioning text on the status screen.
-.org 0x080B3984 ; Gender
-mov r0, 0x0C
-.org 0x080B39A8 ; Element
-mov r0, 0x0E
-.org 0x080B39FE ; Species
-mov r0, 0x0C
-
-; Positioning text for the report card.
-.org 0x080B3326 ; "Number of battles"
-mov r0, 0x06
-.org 0x080B3356 ; "Number of runaways"
-mov r0, 0x06
-.org 0x080B3386 ; "Number of faints"
-mov r0, 0x06
-.org 0x080B33B6 ; "Win rate"
-mov r0, 0x06
-.org 0x080B33CE ; "Largest spirit multiplier"
-mov r0, 0x06
-.org 0x080B33FE ; "Grade"
-mov r0, 0x0B
 
 .close

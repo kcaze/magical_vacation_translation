@@ -200,8 +200,6 @@ strb r1, [r0]
 popreg
 pop r0
 bx r0
-
-
 .pool
 .endarea
 
