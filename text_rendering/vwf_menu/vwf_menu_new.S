@@ -16,7 +16,7 @@
 ;   2d array in 0x02036604.
 ; 0x080B5CFC: This routine takes the array at 0x0203AC9C, parses it and
 ;   transforms it into 4 byte glyph values to store in the 10x20 array in 0x02036604.
-;   This is going to be bypassed entirely. We're gutting 0x080B57D8 to process everything and store it in them
+;   This is going to be bypassed entirely. We're gutting 0x080B57D8 to process everything and store it in the
 ;   2d array.
 ; 0x02036604: A 10x20 array of 4 byte words. Each glyph is 12 pixels wide, 16 pixels tall
 ;   in calculations. Hence, 20 elements per row = 240 pixels wide and 10 elements tall =
@@ -29,14 +29,8 @@
 ;   gut this completely since the format of the 2d array will be changed. We need to make
 ;   sure the values at 0x0203B6CA are zeroed out so our routine isn't called 4 times.
 
-; New format for 0x02036604: The first word will be the length of 0x02036604.
-; Then we'll be storing each script section in an 8 byte value {
-;   x coord in tiles [1 byte]
-;   y coord in tiles [1 byte]
-;   palette [1 byte]
-;   empty [1 byte]
-;   script beginning address [4 bytes]
-; }
+; 0x080A0DEC: General purpose copy routine. Called at 0x080A0C66 to copy from ram to
+;   bg1.
 
 FN_RAM_CLEAR equ 0x0800D020
 FN_VWF equ 0x0800D060
@@ -46,19 +40,12 @@ ADDR_GLYPH_BUFFER  equ 0x020097B0
 ADDR_TILE    equ 0x06008000
 ADDR_RAM_BG1    equ 0x0203CF80
 ADDR_SCRIPT_ARRAY equ 0x02036604
-FN_MENU_START equ 0x080B6112
+FN_MENU_START equ 0x080B6152
 FN_MENU_END equ 0x080B6258
 
 FN_PROCESS_SCRIPT_START equ 0x080B57E2
 FN_PROCESS_SCRIPT_END equ 0x080B583E
 
-; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ;
-; ACTUALLY, JUST MAKE process_script() DO ALL THE ;
-; LIFTING AND AVOID ALL OTHER CALLS! WE HAVE ALL  ;
-; THE INFORMATION WE NEED HERE SO I THINK WE'RE   ;
-; GOOD! THE ONLY ISSUE IS WHERE TO CLEAR THE      ;
-; TILEMAP?                                        ;
-; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ;
 ; Function process_script():
 ; ARGS:
 ;   r0 = x coord in tiles
@@ -79,8 +66,8 @@ b FN_PROCESS_SCRIPT_END
 
 ; Function vwf_menu():
 ; ARGS:
-;   r0 = x coord in tiles
-;   r1 = y coord in tiles
+;   r0 = x coord in tiles (in units of 8)
+;   r1 = y coord in tiles (in units of 16)
 ;   r2 = script begin address
 ;   r3 = palette color
 ; RET: N/A
@@ -205,9 +192,26 @@ add r7, 0x02
 b @@L_loop
 
 @@L_return:
+; Increment 0x0203B6CC to force the rest of the rendering to happen normally
+ldr r0, =0x0203B6CC
+ldrb r1, [r0]
+add r1, 0x01
+strb r1, [r0]
 popreg
 pop r0
 bx r0
 
+
 .pool
 .endarea
+
+; Dummy out this function
+.org 0x080B6108
+pushreg
+ldr r0, =0x0203B6CC
+mov r1, 0x00
+strb r1, [r0]
+popreg
+.pool
+
+; 0x080B6108: This routine takes the 2d array of glyph values in 0x02036604, renders them
