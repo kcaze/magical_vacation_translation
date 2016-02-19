@@ -85,6 +85,22 @@ mov r0, 0x08
 .org 0x080B4042 ; Mojo hyphens
 mov r0, 0x0D
 
+; All the items pages
+.org 0x080B4964 ; Item name
+mov r0, 0x0C
+
+; Spirits page
+.org 0x080B4738 ; Element
+mov r0, 0x0C
+mov r1, 0x02
+.org 0x080B475C ; Disable drawing the word "spirit"
+nop
+nop
+.org 0x080B476E ; Spirit name
+mov r0, 0x0C
+mov r1, 0x01
+.org 0x080B4790 ; Spirit description
+mov r0, 0x08
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ; PROTIP: Put a breakpoint at 0x080BD520 and use the condition that r0 == the

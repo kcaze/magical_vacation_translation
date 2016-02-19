@@ -40369,7 +40369,7 @@
       ]
     },
     {
-      "English": "A spirit born of fire. It is often thought to$N$\nbe hot-headed based on its looks but in$N$\nreality it is quite calm and collected.",
+      "English": "A spirit born of fire. It is$N$\noften thought to hot-headed$N$\nbut in fact it is quite calm.",
       "Japanese": "火の中から生まれた精霊。\\fe\\ff見かけによらずわりと冷静。\\fe\\ff火の魔法を使うときに、倍の\\fe\\ff威力にしてくれる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -40478,7 +40478,7 @@
       ]
     },
     {
-      "English": "It is often found riding wind currents. Its$N$\nfour wings allow it to maneuver effectively$N$\nthrough the air.",
+      "English": "It is often found riding wind$N$\ncurrents. Its wings let it fly$N$\neffectively through the air.",
       "Japanese": "ふだんは、風の中をただよっ\\fe\\ffている。\\fe\\ff風の魔法を使うときに、倍の\\fe\\ff威力にしてくれる。\\ff\\ff",
       "Comments": "Adding some extra flavor here.",
       "u8": [
@@ -40571,7 +40571,7 @@
       ]
     },
     {
-      "English": "A spirit often found in swamps and other grimy$N$\nplaces. Its stench becomes truly unbearable$N$\nwhen it opens its mouth.",
+      "English": "A spirit found in swamps and$N$\nother grimy places. Its stench$N$\nis truly unbearable.$N$",
       "Japanese": "沼地やきたない場所が好きな\\fe\\ffヘンな精霊。\\fe\\ff毒の魔法を使うときに、倍の\\fe\\ff威力にしてくれる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -40668,7 +40668,7 @@
       ]
     },
     {
-      "English": "An admirer of all things beautiful. It takes$N$\ngreat pride in its refined taste and cannot$N$\nstand the sight of something ugly.",
+      "English": "An admirer of beauty. It takes$N$\ngreat pride in its taste and$N$\ncannot stand ugliness.",
       "Japanese": "美しいものが好きで、プライ\\fe\\ffドの高い精霊。\\fe\\ff美の魔法を使うときに、倍の\\fe\\ff威力にしてくれる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -40767,7 +40767,7 @@
       ]
     },
     {
-      "English": "A spirit from a bygone age when swordplay was$N$\nstill practiced. It is a righteous knight who$N$\ndislikes relying on others.",
+      "English": "A spirit from a bygone age. It$N$\nis a righteous knight who$N$\ndislikes relying on others.",
       "Japanese": "その昔、剣が戦いのキホン\\fe\\ffだったころに生まれた。\\fe\\ff刃の魔法を使うときに、倍の\\fe\\ff威力にしてくれる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -40872,7 +40872,7 @@
       ]
     },
     {
-      "English": "A spirit that loves music. It is naturally$N$\nattracted towards people who play instruments$N$\nor sing.",
+      "English": "A spirit that loves music. It$N$\nis naturally attracted to$N$\npeople who sing.",
       "Japanese": "音楽が好きな精霊。楽器を\\fe\\ffひける人になつくらしい。\\fe\\ff音の魔法を使うときに、倍の\\fe\\ff威力にしてくれる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -40979,7 +40979,7 @@
       ]
     },
     {
-      "English": "A spirit often found in mountains. One of its$N$\ngreatest pleasures is to roll boulders of all$N$\nshapes and sizes downhill.",
+      "English": "A spirit found in mountains.$N$\nOne of its pleasures is to$N$\nroll boulders downhill.",
       "Japanese": "いつもは山で石をころがして\\fe\\ff遊んでるやんちゃな精霊。\\fe\\ff石の魔法を使うときに、倍の\\fe\\ff威力にしてくれる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -41088,7 +41088,7 @@
       ]
     },
     {
-      "English": "A spirit that is hard to spot without the aid$N$\nof a magnifying glass. It has a fear of being$N$\nstepped on.",
+      "English": "A spirit that requires the aid$N$\nof a magnifying glass to spot.$N$\nIt fears being stepped on.",
       "Japanese": "ふだんは虫メガネがないと\\fe\\ffみつけることができない。\\fe\\ff虫の魔法を使うときに、倍の\\fe\\ff威力にしてくれる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -41195,7 +41195,7 @@
       ]
     },
     {
-      "English": "A strange spirit that grows on trees. Acorns$N$\nare its immediate relatives, but walnuts and$N$\nhazelnuts are part of its extended family.",
+      "English": "A spirit that grows on trees.$N$\nAcorns, walnuts and hazelnuts$N$\nare all part of its family.",
       "Japanese": "どんぐりが兄弟という、\\fe\\ffおかしな精霊。\\fe\\ff木の魔法を使うときに、倍の\\fe\\ff威力にしてくれる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -41290,7 +41290,7 @@
       ]
     },
     {
-      "English": "A spirit that loves animals and the$N$\nwilderness. Its lovable loyal nature makes$N$\nit a trustworthy companion.",
+      "English": "A spirit that loves animals$N$\nand the wilderness. It is a$N$\ntrustworthy companion.",
       "Japanese": "動物や自然を愛する精霊。\\fe\\ffぼくとつな性格で大人気。\\fe\\ff獣の魔法を使うときに、倍の\\fe\\ff威力にしてくれる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -41397,7 +41397,7 @@
       ]
     },
     {
-      "English": "A spirit found in bodies of water, no matter$N$\nhow large or small. It is a good conversationalist$N$\ndripping with interesting trivia.",
+      "English": "A spirit found in water. It$N$\nis a good conversationalist$N$\ndripping with interesting trivia.",
       "Japanese": "水たまりの中などにいる。\\fe\\ffけっこうきさくなヤツ。\\fe\\ff水の魔法を使うときに、倍の\\fe\\ff威力にしてくれる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -41502,7 +41502,7 @@
       ]
     },
     {
-      "English": "A perky spirit that descends from lightning.$N$\nIt is afraid of work and always tries to take$N$\nthe path of least resistance.",
+      "English": "A perky spirit that descends from$N$\nlightning. It is lazy and always$N$\ntakes the path of least resistance.",
       "Japanese": "とても元気がよくて、いつも\\fe\\ffビチビチはねてる精霊。\\fe\\ff雷の魔法を使うときに、倍の\\fe\\ff威力にしてくれる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -41609,7 +41609,7 @@
       ]
     },
     {
-      "English": "A spirit that flourished in ancient civilizations.$N$\nIts well-oiled gears appear to never rust and are$N$\nstill turning solidly.",
+      "English": "A spirit that flourished in ancient$N$\ncivilizations. Its gears appear to$N$\nnever rust.",
       "Japanese": "ずっと昔の文明がさかえた\\fe\\ffころに生まれた。\\fe\\ff古の魔法を使うときに、倍の\\fe\\ff威力にしてくれる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -41708,7 +41708,7 @@
       ]
     },
     {
-      "English": "A self-serving spirit that seeks out power. It$N$\nwill only follow those that have demonstrated$N$\ngreat power.",
+      "English": "A self-serving spirit that seeks out$N$\npower. It will only follow those who$N$\nhave demonstrated great power.",
       "Japanese": "力を持つものに従う精霊。\\fe\\ff闇の魔法を使うときに、倍の\\fe\\ff威力にしてくれる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -41789,7 +41789,7 @@
       ]
     },
     {
-      "English": "A spirit that dislikes the dark. It is radiating$N$\nlight and brightening the world.",
+      "English": "A spirit that dislikes the dark. It$N$\nradiates light and brightens the$N$\nworld.",
       "Japanese": "闇がキライな精霊。\\fe\\ffいつも光につつまれている。\\fe\\ff光の魔法を使うときに、倍の\\fe\\ff威力にしてくれる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -41892,7 +41892,7 @@
       ]
     },
     {
-      "English": "A spirit that loves all living beings. It loves$N$\nall inanimate objects too but recognizes that$N$\nthey cannot love back.",
+      "English": "A spirit that loves all living beings.$N$\nIt loves inanimate objects too but$N$\nknows that they cannot love back.",
       "Japanese": "すべての生き物を愛している\\fe\\ffやさしい精霊。\\fe\\ff愛の魔法を使うときに、倍の\\fe\\ff威力にしてくれる。\\ff\\ff",
       "Comments": "",
       "u8": [
