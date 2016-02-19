@@ -48,6 +48,27 @@ mov r0, 0x0E
 .org 0x080B3BE8 ; Hyphens
 mov r0, 0x0E
 
+.org 0x080B448C ; Spell to unequip
+mov r0, 0x0F
+.org 0x080B44B0 ; "Unequip"
+mov r0, 0x09
+.org 0x080B44E4 ; spells to equip
+mov r0, 0x0C
+
+; Magic level page
+.org 0x080B3CAC ; Element
+mov r0, 0x0F
+.org 0x080B3CCE ; Disable drawing the word "magic"
+nop
+nop
+
+.org 0x080B40E0 ; Element
+mov r0, 0x0F
+.org 0x080B4100 ; Disable drawing the word "magic"
+nop
+nop
+.org 0x080B412C
+mov r0, 0x0C
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
