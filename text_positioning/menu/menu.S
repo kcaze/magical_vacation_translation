@@ -61,6 +61,8 @@ mov r0, 0x0F
 .org 0x080B3CCE ; Disable drawing the word "magic"
 nop
 nop
+.org 0x080B3CEC ; "?????"
+mov r0, 0x0F
 
 .org 0x080B40E0 ; Element
 mov r0, 0x0F
@@ -69,6 +71,19 @@ nop
 nop
 .org 0x080B412C
 mov r0, 0x0C
+
+; Profile page
+.org 0x080B3F1A ; Description
+mov r0, 0x08
+.org 0x080B3F36 ; Name
+mov r0, 0x0C
+.org 0x080B3F52 ; "Rank:"
+mov r0, 0x08
+.org 0x080B3F74 ; Rank?
+.org 0x080B3F8C ; "Mojo:"
+mov r0, 0x08
+.org 0x080B4042 ; Mojo hyphens
+mov r0, 0x0D
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
