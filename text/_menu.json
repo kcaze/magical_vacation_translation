@@ -41397,7 +41397,7 @@
       ]
     },
     {
-      "English": "A spirit found in water. It$N$\nis a good conversationalist$N$\ndripping with interesting trivia.",
+      "English": "A spirit found in water. It is$N$\noverflowing with trivia and$N$\nmakes for good conversation.",
       "Japanese": "水たまりの中などにいる。\\fe\\ffけっこうきさくなヤツ。\\fe\\ff水の魔法を使うときに、倍の\\fe\\ff威力にしてくれる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -41502,7 +41502,7 @@
       ]
     },
     {
-      "English": "A perky spirit that descends from$N$\nlightning. It is lazy and always$N$\ntakes the path of least resistance.",
+      "English": "A perky spirit that descends$N$\nfrom lightning. It always takes$N$\nthe path of least resistance.",
       "Japanese": "とても元気がよくて、いつも\\fe\\ffビチビチはねてる精霊。\\fe\\ff雷の魔法を使うときに、倍の\\fe\\ff威力にしてくれる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -41609,7 +41609,7 @@
       ]
     },
     {
-      "English": "A spirit that flourished in ancient$N$\ncivilizations. Its gears appear to$N$\nnever rust.",
+      "English": "A spirit that flourished in$N$\nancient civilizations. Its$N$\ngears appear to never rust.",
       "Japanese": "ずっと昔の文明がさかえた\\fe\\ffころに生まれた。\\fe\\ff古の魔法を使うときに、倍の\\fe\\ff威力にしてくれる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -41708,7 +41708,7 @@
       ]
     },
     {
-      "English": "A self-serving spirit that seeks out$N$\npower. It will only follow those who$N$\nhave demonstrated great power.",
+      "English": "A selfish spirit that seeks out$N$\npower. It follows those who$N$\ndemonstrate great power.",
       "Japanese": "力を持つものに従う精霊。\\fe\\ff闇の魔法を使うときに、倍の\\fe\\ff威力にしてくれる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -41789,7 +41789,7 @@
       ]
     },
     {
-      "English": "A spirit that dislikes the dark. It$N$\nradiates light and brightens the$N$\nworld.",
+      "English": "A spirit that dislikes the$N$\ndark. It radiates light and$N$\nbrightens the world.",
       "Japanese": "闇がキライな精霊。\\fe\\ffいつも光につつまれている。\\fe\\ff光の魔法を使うときに、倍の\\fe\\ff威力にしてくれる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -41892,7 +41892,7 @@
       ]
     },
     {
-      "English": "A spirit that loves all living beings.$N$\nIt loves inanimate objects too but$N$\nknows that they cannot love back.",
+      "English": "A spirit that loves all living$N$\nbeings. Its limitless love also$N$\nextends to inanimate objects.",
       "Japanese": "すべての生き物を愛している\\fe\\ffやさしい精霊。\\fe\\ff愛の魔法を使うときに、倍の\\fe\\ff威力にしてくれる。\\ff\\ff",
       "Comments": "",
       "u8": [
