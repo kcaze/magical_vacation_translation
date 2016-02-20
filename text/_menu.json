@@ -42012,7 +42012,7 @@
       ]
     },
     {
-      "English": "Regarding HP",
+      "English": "About HP",
       "Japanese": "HPについて\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42033,7 +42033,7 @@
       ]
     },
     {
-      "English": "Regarding MP",
+      "English": "About MP",
       "Japanese": "MPについて\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42054,7 +42054,7 @@
       ]
     },
     {
-      "English": "Regarding attack",
+      "English": "About attack",
       "Japanese": "力について\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42073,7 +42073,7 @@
       ]
     },
     {
-      "English": "Regarding defense",
+      "English": "About defense",
       "Japanese": "守りについて\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42094,7 +42094,7 @@
       ]
     },
     {
-      "English": "Regarding speed",
+      "English": "About speed",
       "Japanese": "速さについて\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42115,7 +42115,7 @@
       ]
     },
     {
-      "English": "Regarding spirit",
+      "English": "About spirit",
       "Japanese": "精神について\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42136,7 +42136,7 @@
       ]
     },
     {
-      "English": "Regarding MP recovery",
+      "English": "About MP recovery",
       "Japanese": "MP回復率について\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42321,7 +42321,7 @@
       ]
     },
     {
-      "English": "Regarding gummy frogs",
+      "English": "About gummy frogs",
       "Japanese": "カエルグミについて\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42348,7 +42348,7 @@
       ]
     },
     {
-      "English": "Regarding gummy worms",
+      "English": "About gummy worms",
       "Japanese": "ミミズグミについて\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42375,7 +42375,7 @@
       ]
     },
     {
-      "English": "Regarding tails",
+      "English": "About tails",
       "Japanese": "しっぽについて\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42398,7 +42398,7 @@
       ]
     },
     {
-      "English": "Regarding leaves",
+      "English": "About leaves",
       "Japanese": "はっぱについて\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42463,7 +42463,7 @@
       ]
     },
     {
-      "English": "Stickers and elemental defense",
+      "English": "Stickers and magic",
       "Japanese": "シールのぼうぎょ効果\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42492,7 +42492,7 @@
       ]
     },
     {
-      "English": "Stickers and magic EXP",
+      "English": "Stickers and EXP",
       "Japanese": "シールの経験値効果\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42519,7 +42519,7 @@
       ]
     },
     {
-      "English": "The compassion sticker",
+      "English": "Compassion stickers",
       "Japanese": "愛のシールの効果\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42544,7 +42544,7 @@
       ]
     },
     {
-      "English": "Order of actions",
+      "English": "Battle order",
       "Japanese": "行動の順番\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42588,7 +42588,7 @@
       ]
     },
     {
-      "English": "Warping",
+      "English": "About warping",
       "Japanese": "ワープの方法\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42609,7 +42609,7 @@
       ]
     },
     {
-      "English": "Increasing magic EXP",
+      "English": "Gaining magic EXP",
       "Japanese": "属性経験値の上がり方\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42722,7 +42722,7 @@
       ]
     },
     {
-      "English": "Rank",
+      "English": "About rank",
       "Japanese": "称号\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42735,7 +42735,7 @@
       ]
     },
     {
-      "English": "Using other elemental magic",
+      "English": "Using other elements",
       "Japanese": "自分の属性以外の魔法\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42764,7 +42764,7 @@
       ]
     },
     {
-      "English": "Element effectiveness",
+      "English": "Elemental advantages",
       "Japanese": "精霊の強弱関係\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42787,7 +42787,7 @@
       ]
     },
     {
-      "English": "Creating combos",
+      "English": "Elemental combos",
       "Japanese": "コンボを決めよう\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42812,7 +42812,7 @@
       ]
     },
     {
-      "English": "How to cross the desert",
+      "English": "Crossing the desert",
       "Japanese": "砂漠の歩き方\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42833,7 +42833,7 @@
       ]
     },
     {
-      "English": "How to make ricebirds move",
+      "English": "Moving ricebirds",
       "Japanese": "桜文鳥のどかしかた\\ff\\ff",
       "Comments": "",
       "u8": [

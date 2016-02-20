@@ -101,6 +101,12 @@ mov r0, 0x0C
 mov r1, 0x01
 .org 0x080B4790 ; Spirit description
 mov r0, 0x08
+
+; Magic notebook page
+.org 0x080B360A ; Section heading
+mov r0, 0x0C
+
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ; PROTIP: Put a breakpoint at 0x080BD520 and use the condition that r0 == the
