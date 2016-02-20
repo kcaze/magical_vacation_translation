@@ -105,6 +105,9 @@ mov r0, 0x08
 ; Magic notebook page
 .org 0x080B360A ; Section heading
 mov r0, 0x0C
+.org 0x080B47DC ; Section contents
+mov r0, 0x08
+
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

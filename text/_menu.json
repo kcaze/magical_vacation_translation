@@ -41993,7 +41993,7 @@
   ],
   [
     {
-      "English": "Types of magic",
+      "English": "The elements",
       "Japanese": "魔法の種類\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42163,7 +42163,7 @@
       ]
     },
     {
-      "English": "Kicks and punches",
+      "English": "Physical attacks",
       "Japanese": "キックやパンチ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42421,7 +42421,7 @@
       ]
     },
     {
-      "English": "Equipping magic",
+      "English": "Equipping spells",
       "Japanese": "魔法のそうび\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -42935,7 +42935,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$The 16 elements are Fire,$N$\nWind, Poison, Beauty, Blade,$N$\nSound, Stone, Bug, Wood,$N$\nBeast, Water, Electric,$N$\nAncient, Dark, Light, Love.$N$\n$space$For each element, there are$N$\n7 types of magic spells that$N$\nexist.",
       "Japanese": "[space]魔法の種類は、\\fe\\ff[space]火・風・毒・美・刃・音・石\\fe\\ff[space]虫・木・獣・水・雷・古・闇\\fe\\ff[space]光・愛\\fe\\ff[space]以上の１６属性、それぞれに\\fe\\ff魔法が７種類ずつ存在する。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -43088,7 +43088,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$HP stands for hit points. It$N$\nis a measure of how many hits$N$\nsomeone can withstand.$N$\n$space$Your HP goes down as you$N$\ntake damage. If it reaches 0,$N$\nyou will be unable to battle.$N$\n$space$You can recover your HP at$N$\nan inn or with gummy frogs.",
       "Japanese": "[space]HPはヒットポイントのこと\\fe\\ffで、その人の打たれ強さのこと\\fe\\ffを現してます。\\fe\\ff[space]ダメージを受けるとどんどん\\fe\\ff減って行き、０になると戦闘不\\fe\\ff能になります。\\fe\\ff[space]宿やカエルグミなどで回復す\\fe\\ffることができます。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -43297,7 +43297,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$MP stands for magic points.$N$\nIt is used up as you cast$N$\nspells. The stronger a spell$N$\nis, the more MP it will use up.$N$\n$space$You can recover your MP at$N$\nan inn or with gummy worms.",
       "Japanese": "[space]MPはマジックポイントのこ\\fe\\ffとで、魔法を使うことでどんど\\fe\\ffん減っていきます。\\fe\\ff[space]強力な魔法ほどMPをたくさ\\fe\\ffん使います。\\fe\\ff[space]宿やミミズグミなどで回復す\\fe\\ffることができます。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -43478,7 +43478,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$The higher your attack stat$N$\nis, the more damage you will$N$\ndeal to enemies with physical$N$\nattacks such as kicks and$N$\npunches.$N$\n$space$You can boost your attack$N$\nwith different equipment.",
       "Japanese": "[space]力の値が大きいと、キックや\\fe\\ffパンチなどで攻撃した時に相手\\fe\\ffに与えるダメージが大きくなり\\fe\\ffます。\\fe\\ff[space]アイテムを装備することで\\fe\\ffアップすることができます。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -43639,7 +43639,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$The higher your defense$N$\nstat is, the less damage you$N$\nwill receive from physical$N$\nattacks.$N$\n$space$You can boost your defense$N$\nwith different equipment.",
       "Japanese": "[space]守りの値が大きいと、敵の物\\fe\\ff理攻撃を受けた時のダメージが\\fe\\ff小さくなります。\\fe\\ff[space]アイテムを装備することで\\fe\\ffアップすることができます。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -43780,7 +43780,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$The higher your speed stat$N$\nis, the sooner you will be able$N$\nto act in battle. Having a high$N$\nspeed will allow you to$N$\npreempt enemies in battle.$N$\n$space$You can boost your speed$N$\nwith different equipment.",
       "Japanese": "[space]速さの値が大きいほど、早く\\fe\\ff行動の順番がまわって来ます。\\fe\\ff相手に先制して攻撃をしたい時\\fe\\ffは、速さを上げておけば良いで\\fe\\ffしょう。\\fe\\ff[space]アイテムを装備することで\\fe\\ffアップすることができます。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -43973,7 +43973,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$The higher your spirit stat$N$\nis, the less damage you will$N$\nreceive from magic attacks.$N$\n$space$You can boost your spirit$N$\nwith different equipment.",
       "Japanese": "[space]精神の値が大きいと、敵の魔\\fe\\ff法攻撃を受けた時のダメージが\\fe\\ff小さくなります。\\fe\\ff[space]アイテムを装備することで\\fe\\ffアップすることができます。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -44114,7 +44114,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$During battle, you recover$N$\na fraction of your MP at the$N$\nend of each turn, determined$N$\nby your MP recovery rate.$N$\n$space$With a high MP recovery$N$\nrate, you can continue to use$N$\nmagic without relying on inns$N$\nor items.",
       "Japanese": "[space]バトルの時、ターンの終わり\\fe\\ffごとにMP回復率のぶんだけM\\fe\\ffPが回復します。\\fe\\ff[space]この値が大きいと、宿や回復\\fe\\ffアイテムにたよらずに、続けて\\fe\\ff魔法が使えるようになります。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -44289,7 +44289,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$Physical attacks such as$N$\nkicks and punches do not use$N$\nMP. They are useful for when$N$\nyou have run out of MP or$N$\nagainst enemies with a high$N$\nspirit stat.$N$\n$space$Physical attacks can only$N$\nhit enemies in the front row.\n",
       "Japanese": "[space]キックやパンチはMPを使わ\\fe\\ffないので、MPを使い果たして\\fe\\ffMPが無い時や、次のターンに\\fe\\ff大きい魔法を使いたい時などに\\fe\\ff使用すると良いでしょう。\\fe\\ff[space]キックやパンチは前列の敵に\\fe\\ffしか届きません。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -44490,7 +44490,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$As you cast spells, you gain$N$\nEXP for the corresponding$N$\nelement.$N$\n$space$After gaining enough magic$N$\nEXP, your magic level will$N$\nincrease. By increasing your$N$\nmagic level, you can learn new$N$\nspells.",
       "Japanese": "[space]魔法を使うと、その魔法の属\\fe\\ff性に応じた属性経験値を得るこ\\fe\\ffとができます。\\fe\\ff[space]属性経験値が一定値になると\\fe\\ff魔法レベルが上がり、レベルに\\fe\\ffよっては新しい魔法を使えるよ\\fe\\ffうになったりします。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -44685,7 +44685,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$What initially appears to be$N$\na twig or a puddle may turn$N$\nout to be a spirit in disguise.$N$\n$space$If you find a spirit and$N$\nsatisfy its request, you will$N$\nbe able to befriend it.",
       "Japanese": "[space]木の枝や水たまりに見えるも\\fe\\ffのでも、語りかけてみると、実\\fe\\ffは精霊が化けているものだった\\fe\\ffりします。\\fe\\ff[space]それらを探し出して、相手の\\fe\\ff要求にこたえると、その精霊と\\fe\\ff仲良くなることができます。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -44882,7 +44882,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$If you befriend a spirit, you$N$\nwill be able to summon it in$N$\nbattle with a Call spell.$N$\n$space$You are limited by the$N$\nnumber of spirits you have$N$\nbefriended. In addition, there$N$\ncan be at most 7 spirits$N$\npresent at any given time.",
       "Japanese": "[space]精霊と仲良くなっていたら、\\fe\\ffバトルの時にコール???とい\\fe\\ffう魔法で精霊を呼び出すことが\\fe\\ffできます。\\fe\\ff[space]仲良くなった数だけ精霊を呼\\fe\\ffび出すことができ、バトル中に\\fe\\ff同時に呼び出しておける精霊の\\fe\\ff数は７体です。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -45097,7 +45097,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$For each spirit you summon$N$\nwith Call magic, the strength$N$\nof the corresponding element$N$\nwill double.$N$\n$space$Call magic uses up little MP$N$\nso it is efficient to cast it$N$\nover casting the same spell$N$\ntwice.",
       "Japanese": "[space]コール魔法で精霊を呼び出す\\fe\\ffと、その精霊の属性の魔法を威\\fe\\ff力２倍にすることができます。\\fe\\ff[space]コール魔法はMP消費が小さ\\fe\\ffいので、同じ魔法を２回使うよ\\fe\\ffり、コール魔法で威力を倍にし\\fe\\ffたほうがお得です。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -45304,7 +45304,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$If you attack an enemy with$N$\nmagic that is its own element,$N$\nyou will deal very little$N$\ndamage.$N$\n$space$For example, if you attack$N$\na fire enemy with any fire$N$\nspell, you will deal only 1$N$\ndamage.",
       "Japanese": "[space]相手の属性と同じ属性の魔法\\fe\\ffで攻撃しても、最小のダメージ\\fe\\ffしか与えることができません。\\fe\\ff[space]たとえば、火のモンスターに\\fe\\ff火の魔法で攻撃しても、ダメー\\fe\\ffジはたったの１です。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -45483,7 +45483,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$Gummy frogs can be found$N$\nhopping around. If you catch$N$\nthem, you can use them to$N$\nrecover HP.$N$\n$space$However, if you catch too$N$\nmany, they will disappear.$N$\n$space$When you approach them,$N$\nthey quickly hop away.",
       "Japanese": "[space]カエルグミはフィールド上で\\fe\\ffぴょんぴょんはねていて、捕ま\\fe\\ffえることができます。\\fe\\ff[space]捕まえると回復アイテムにな\\fe\\ffりますが、あまり捕まえすぎる\\fe\\ffといなくなってしまいます。\\fe\\ff[space]近づくと動きが速くなりま\\fe\\ffす。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -45694,7 +45694,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$Gummy worms can be found$N$\nwriggling around. If you catch$N$\nthem, you can use them to$N$\nrecover MP.$N$\n$space$However, if you catch too$N$\nmany, they will disappear.$N$\n$space$When you approach them,$N$\nthey hide in their holes.",
       "Japanese": "[space]ミミズグミはフィールド上で\\fe\\ffちょろちょろ動きまわってい\\fe\\ffて、捕まえることができます。\\fe\\ff[space]捕まえると回復アイテムにな\\fe\\ffりますがあまり捕まえすぎると\\fe\\ffいなくなってしまいます。\\fe\\ff[space]近づくと穴の中に逃げ込んで\\fe\\ffしまいます。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -45919,7 +45919,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$You can use tails such as$N$\nDepoison Tails or Unstun Tails$N$\nto cure poison and stun$N$\nrespectively.$N$\n$space$Tails can be bought in shops,$N$\nfound on the ground, or found$N$\nin chests.",
       "Japanese": "[space]ドクナのしっぽやマヒナの\\fe\\ffしっぽを使うと、それぞれ、毒\\fe\\ffやマヒを治すことができます。\\fe\\ff[space]しっぽは、お店で売っている\\fe\\ff他に、フィールドに落ちていた\\fe\\ffり宝箱に入っていたりします。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -46104,7 +46104,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$You can use leaves such as$N$\nRaggedy Leafs or Spiny Leafs$N$\nto increase your attack and$N$\nspirit respectively.$N$\n$space$Leaves are not sold in shops$N$\nbut can be found lying on the$N$\nground so keep an eye out$N$\nfor them.",
       "Japanese": "[space]でこぼこはっぱやいぼいぼ\\fe\\ffはっぱを使うと、力や速さなど\\fe\\ffの能力を１ポイントだけアップ\\fe\\ffすることができます。\\fe\\ff[space]はっぱは、店には売っていま\\fe\\ffせんがフィールドに落ちている\\fe\\ffことがありますので、しっかり\\fe\\ff見つけてください。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -46331,7 +46331,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$You can only equip up to$N$\n8 spells at a time.$N$\n$space$If you already have 8 spells$N$\nequipped and learn a new spell$N$\nin battle, the new spell will$N$\nnot be automatically equipped.$N$\nSo be sure to equip it in the$N$\nmenu after battle.",
       "Japanese": "[space]魔法は一度に８個までしか装\\fe\\ff備できません。\\fe\\ff[space]魔法をすでに８個装備してい\\fe\\ffると、バトル中に覚えた魔法が\\fe\\ff自動的に装備されませんので、\\fe\\ffメニューから魔法装備しないと\\fe\\ffバトル中に使用することができ\\fe\\ffません。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -46544,7 +46544,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$Simply obtaining equipment$N$\ndoes not do anything. When$N$\nyou obtain a new piece of$N$\nequipment, be sure to equip it$N$\nin the menu.",
       "Japanese": "[space]防具は手に入れただけでは意\\fe\\ff味がありません。\\fe\\ff[space]新しい防具を手に入れたら、\\fe\\ffメニューから装備するようにし\\fe\\ffましょう。\\ff\\ff",
       "Comments": "",
       "u8": [
