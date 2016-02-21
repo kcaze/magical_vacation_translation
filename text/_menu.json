@@ -42463,7 +42463,7 @@
       ]
     },
     {
-      "English": "Stickers and magic",
+      "English": "Stickers and damage",
       "Japanese": "シールのぼうぎょ効果\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -46331,7 +46331,7 @@
       ]
     },
     {
-      "English": "$space$You can only equip up to$N$\n8 spells at a time.$N$\n$space$If you already have 8 spells$N$\nequipped and learn a new spell$N$\nin battle, the new spell will$N$\nnot be automatically equipped.$N$\nSo be sure to equip it in the$N$\nmenu after battle.",
+      "English": "$space$You can only equip up to 8$N$\nspells at a time.$N$\n$space$If you already have 8 spells$N$\nequipped and learn a new spell$N$\nin battle, the new spell will$N$\nnot be automatically equipped.$N$\nBe sure to equip it in the$N$\nmenu after battle.",
       "Japanese": "[space]魔法は一度に８個までしか装\\fe\\ff備できません。\\fe\\ff[space]魔法をすでに８個装備してい\\fe\\ffると、バトル中に覚えた魔法が\\fe\\ff自動的に装備されませんので、\\fe\\ffメニューから魔法装備しないと\\fe\\ffバトル中に使用することができ\\fe\\ffません。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -46671,7 +46671,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$Each body part can have up$N$\nto 3 stickers stuck on it, for$N$\na total of 15 stickers.$N$\n$space$Each sticker you stick on$N$\nreduces the damage you take$N$\nfrom its element's magic,$N$\nregardless of where it is$N$\nstuck.",
       "Japanese": "[space]シールは体にはって使用しま\\fe\\ffす。一人あたり、各部位に３枚\\fe\\ff合計１５枚まではれます。\\fe\\ff[space]はる場所は効果には影響しま\\fe\\ffせん。\\fe\\ff[space]シールをはると、そのシール\\fe\\ffの属性の魔法で受けるダメージ\\fe\\ffが少しだけ小さくなります。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -46890,7 +46890,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$Each sticker you stick on$N$\nboosts the magic EXP you$N$\nreceive in battle for its$N$\nelement.$N$\n$space$1 sticker won't make much$N$\nof a difference, but the boost$N$\nwill be quite significant if you$N$\nstick on many stickers.",
       "Japanese": "[space]シールをはると、そのシール\\fe\\ffの属性の魔法を使った時に入る\\fe\\ff属性経験値の量が大きくなりま\\fe\\ffす。\\fe\\ff[space]１枚では目だった効果はあり\\fe\\ffませんが、たくさんはればかな\\fe\\ffりの効果が期待できます。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -47079,7 +47079,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$If you stick on a Compassion$N$\nSticker, then you will recover$N$\n1 HP at the end of each turn$N$\nin battle.$N$\n$space$If you stick on multiple$N$\nCompassion Stickers, the HP$N$\nyou recover per turn will$N$\nincrease.",
       "Japanese": "[space]愛のシールをはると、バトル\\fe\\ffの時に、ターンの終わりごとに\\fe\\ffHPが１ポイント回復します。\\fe\\ff[space]愛のシールを複数はると、そ\\fe\\ffの効果は枚数ぶんだけ発揮され\\fe\\ffます。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -47244,7 +47244,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$The order in which actions$N$\nin battle occur is determined$N$\nby speed.$N$\n$space$You will have a tactical$N$\nadvantage if you keep this in$N$\nmind. For example, it may be$N$\nbeneficial to have a faster$N$\ncharacter use items.",
       "Japanese": "[space]行動の順番は素早さ順です。\\fe\\ff[space]これを頭に入れておくと、バ\\fe\\ffトルを戦略的に組みたてること\\fe\\ffができます。\\fe\\ff[space]回復アイテムを素早いキャラ\\fe\\ffに使用させるか、遅いキャラに\\fe\\ff使用させるかなどで、戦略は大\\fe\\ffきく変わります。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -47463,7 +47463,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$In battle, those in the front$N$\nrow are more likely to take$N$\ndamage. Similarly, those in the$N$\nmiddle column are more likely$N$\nto take damage.$N$\n$space$You can change your battle$N$\nformation in the menu.",
       "Japanese": "[space]バトルでは、前にいるキャラ\\fe\\ffクターほど敵の攻撃を受けやす\\fe\\ffくなっています。\\fe\\ff[space]また、はしのほうより真ん中\\fe\\ffのほうが、ダメージを食らいや\\fe\\ffすくなってます。\\fe\\ff[space]フォーメーションはメニュー\\fe\\ffから変更することが出来ます。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -47686,7 +47686,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$In the menu, you can choose$N$\nto warp to various locations.$N$\n$space$In order to warp somewhere,$N$\nyou must first talk to Pizza$N$\nand register a location for$N$\nwarping.$N$\n$space$There may be times when$N$\nyou cannot warp anywhere.",
       "Japanese": "[space]ワープはメニューの、メモ・\\fe\\ffワールドマップから、いずれか\\fe\\ffの地図を選んで行います。\\fe\\ff[space]ワープ屋さんに話しかけて、\\fe\\ffワープ先として登録した場所に\\fe\\ffワープできます。\\fe\\ff[space]時々ワープ屋さんの気まぐれ\\fe\\ffで、できない時もあります。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -47915,7 +47915,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$The more advanced the spell$N$\nyou cast, the more magic EXP$N$\nyou will receive.$N$\n$space$In order to quickly learn$N$\nnew magic, you should often$N$\ncast your strongest spells.",
       "Japanese": "[space]属性経験値は上級の魔法を使\\fe\\ffうほど多く入ります。\\fe\\ff[space]魔法を早く覚えるには知って\\fe\\ffいる魔法の中の、最強の魔法を\\fe\\ff多く使用するようにすると良い\\fe\\ffでしょう。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -48076,7 +48076,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$The report card keeps track$N$\nof various records throughout$N$\nyour adventure.$N$\n$space$Your grade is determined by$N$\nthe number of battles you$N$\nhave won and by the number$N$\nof Let's Battle matches you$N$\nhave won.",
       "Japanese": "[space]成績表に、今までの冒険の成\\fe\\ff果が記録されます。\\fe\\ff[space]ABC評価には、バトルの勝\\fe\\ff率以外にも、レッツ対戦の成績\\fe\\ffなども反映されますので、最高\\fe\\ffの評価が欲しい人はレッツ対戦\\fe\\ffもプレイしてみましょう。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -48279,7 +48279,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$If you connect to another$N$\nMagical Vacation player with$N$\na link cable, you can choose$N$\nLet's Hot Springs on the menu.$N$\n$space$You can visit each other's$N$\nhot springs to boost your$N$\nstats.",
       "Japanese": "[space]マジカルバケーション同士を\\fe\\ffケーブルでつないで電源投入す\\fe\\ffると、タイトル画面の通信の中\\fe\\ffにレッツ温泉が表示されます。\\fe\\ff[space]お互いの温泉に入ることで、\\fe\\ff能力値のアップがはかれます。\\fe\\ff[space]自分の温泉に入っても、HP\\fe\\ffMPが回復するだけです。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -48522,7 +48522,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$If you connect to another$N$\nMagical Vacation player with$N$\na link cable, you can choose$N$\nLet's Battle on the menu.$N$\n$space$Your rank will increase as$N$\nyou win more matches in Let's$N$\nBattle.",
       "Japanese": "[space]マジカルバケーション同士を\\fe\\ffケーブルでつないで電源投入す\\fe\\ffると、タイトル画面の通信の中\\fe\\ffにレッツ対戦が表示されます。\\fe\\ff[space]対戦回数と勝率を上げると、\\fe\\ff勝率に応じた、称号がもらえま\\fe\\ffす。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -48715,7 +48715,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$If you connect to another$N$\nMagical Vacation player with$N$\na link cable, you can choose$N$\nLet's Amigo on the menu.$N$\n$space$If you add a friend as an$N$\nAmigo, you will be able to use$N$\ntheir mojo.",
       "Japanese": "[space]マジカルバケーション同士を\\fe\\ffケーブルでつないで電源投入す\\fe\\ffると、タイトル画面の通信の中\\fe\\ffにレッツアミーゴが表示されま\\fe\\ffす。\\fe\\ff[space]友達のキャラクターと、レッ\\fe\\ffツアミーゴすると、その極意を\\fe\\ff利用できるようになります。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -48936,7 +48936,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$As you win Let's Battle$N$\nmatches, your rank will slowly$N$\nincrease. A higher rank will$N$\nconfer bonuses to the stats$N$\nof all party members.",
       "Japanese": "[space]対戦成績を上げると、様々な\\fe\\ff称号が得られます。称号はパー\\fe\\ffティキャラ全✈の能力値にボー\\fe\\ffナスとして反映されます。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -49059,7 +49059,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$The protagonist is able to$N$\nlearn different elements'$N$\nmagic through Let's Amigo.$N$\n$space$When you Let's Amigo with$N$\nsomeone, you will be able to$N$\nuse their Call magic.",
       "Japanese": "[space]主人公キャラクターだけは、\\fe\\ffレッツアミーゴをすることで、\\fe\\ff自分の属性以外の魔法も覚える\\fe\\ffことができます。\\fe\\ff[space]レッツアミーゴすると、相手\\fe\\ffのキャラクターの初期属性の魔\\fe\\ff法のコール魔法を使えるように\\fe\\ffなります。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -49276,7 +49276,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$When you cast a spell, the$N$\nstronger element's spirits$N$\nwill cancel out the weaker$N$\nelement's spirits.$N$\n$space$If a fire spell were cast$N$\nwhen there are Toasty's and$N$\nEarly's, the Early's will$N$\ncancel out the Toasty's.",
       "Japanese": "[space]精霊には強弱関係があり、魔\\fe\\ff法を使用するときに、強い精霊\\fe\\ffが弱い精霊を打ち消して消えま\\fe\\ffす。\\fe\\ff[space]たとえば、場に雷のテスラと\\fe\\ff水のフローがいるとき、雷の魔\\fe\\ff法を使うと、テスラはフローに\\fe\\ff打ち消されます。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -49487,7 +49487,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$If two members of your$N$\nparty can cast spells of the$N$\nsame element, then the faster$N$\nmember's Call magic will allow$N$\nthe slower member's magic to$N$\ncombo.$N$\n$space$Magic doll's come in handy$N$\nwhen attempting to combo.",
       "Japanese": "[space]パーティ内に、同じ属性の魔\\fe\\ff法を使えるキャラがいれば、素\\fe\\ff早いキャラにコール魔法を唱え\\fe\\ffさせ、遅いほうに攻撃魔法を唱\\fe\\ffえさせるというコンボが組めま\\fe\\ffす。\\fe\\ff[space]マジックドールがいればコン\\fe\\ffボは組みやすくなります。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -49706,7 +49706,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$To cross the desert, be$N$\nsure to occasionally touch a$N$\nRainmaker.$N$\n$space$When a Rainmaker is touched,$N$\nit will briefly rain, cooling$N$\noff those who can't stand the$N$\nheat.",
       "Japanese": "[space]砂漠では時々、アメフラシに\\fe\\ffタッチしながら歩くと良い。\\fe\\ff[space]アメフラシに触れると、雨を\\fe\\ffふらせてくれるので、暑さが苦\\fe\\ff手な人でも砂漠を渡りきること\\fe\\ffができます。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -49875,7 +49875,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$Saying \"Chirp!\" will cause$N$\nRicebirds to move towards$N$\nyou. Saying \"Cheep!\" will$N$\ncause them to move away.$N$\n$space$Cider is the only member$N$\nwho is able to make ricebirds$N$\nmove.",
       "Japanese": "[space]桜文鳥は、『ちゅん！』とい\\fe\\ffうと寄ってきて、『じゅいー』\\fe\\ffと言うと１歩後退します。\\fe\\ff[space]これができるのは、パーティ\\fe\\ffではシードルだけです。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -50022,7 +50022,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$When you Let's Amigo with 5$N$\npeople with the same element$N$\nas you, you will learn love$N$\nmagic.$N$\n$space$At first you will only be$N$\nable to cast Call Charity, but$N$\nover time you will learn the$N$\nother love spells.",
       "Japanese": "[space]自分と同じ属性の人、５人と\\fe\\ffレッツアミーゴすると、愛の魔\\fe\\ff法を覚えます。\\fe\\ff[space]最初はコールウィッシュだけ\\fe\\ffだが、それを使いつづけること\\fe\\ffで他の愛の魔法も覚えることが\\fe\\ffできます。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -50207,7 +50207,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$When you have 100 amigos,$N$\nyou will learn dark magic.$N$\n$space$Upon learning dark magic,$N$\nthe protagonist's appearance$N$\nwill change.",
       "Japanese": "[space]レッツアミーゴの数が１００\\fe\\ff人に達すると、闇の魔法を覚え\\fe\\ffます。\\fe\\ff[space]闇の魔法を覚えると、主人公\\fe\\ffは闇の魔法使いにクラスチェン\\fe\\ffジします。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -50354,7 +50354,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$When you learn all the other$N$\nelements, you will learn light$N$\nmagic.$N$\n$space$Upon learning light magic,$N$\nthe protagonist's appearance$N$\nwill change.",
       "Japanese": "[space]光の魔法以外のすべての魔法\\fe\\ffを覚えると、光の魔法を覚えま\\fe\\ffす。\\fe\\ff[space]光の魔法を覚えると、主人公\\fe\\ffは光の魔法使いにクラスチェン\\fe\\ffジします。\\ff\\ff[icon 0x00]",
       "Comments": "",
       "u8": [
