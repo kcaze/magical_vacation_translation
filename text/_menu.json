@@ -94581,7 +94581,7 @@
   ],
   [
     {
-      "English": "Camelot",
+      "English": "$space$A small commonplace bird.$N$\nIt gets its name from its rice$N$\ncolored feathers. It enjoys$N$\nbathing in small brooks and$N$\nstreams. There are black,$N$\nwhite, and gray variants.",
       "Japanese": "[space]どこにでもいる小さな鳥。\\fe\\ff[space]米のように白い色から、ライ\\fe\\ffスバードとも呼ばれる。\\fe\\ff[space]水あびが大好き。\\fe\\ff[space]原種は桜文鳥で、黒と白とグ\\fe\\ffレーの三色。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -94734,7 +94734,7 @@
       ]
     },
     {
-      "English": "Test",
+      "English": "$space$A gummy with the soul of a$N$\nfrog. There are green, blue,$N$\nand red variants. Some say$N$\ntheir colors are related to$N$\nthe primary colors of light,$N$\nbut this theory is challenged.",
       "Japanese": "[space]カエルの魂（命）が宿った\\fe\\ffグミ。\\fe\\ff[space]緑・青・赤の全部で３種類。\\fe\\ff[space]光の三原色との関係が話題に\\fe\\ffなったこともあるが、あまり関\\fe\\ff係ないらしい。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -94883,7 +94883,7 @@
       ]
     },
     {
-      "English": "Test",
+      "English": "$space$A gummy with the soul of a$N$\nworm. The striped patterns on$N$\nits body are necessary for its$N$\nsurvival. There are yellow$N$\nand red variants.",
       "Japanese": "[space]ミミズの魂（命）が宿った\\fe\\ffグミ。\\fe\\ff[space]帯状のものは体の一部で、は\\fe\\ffがすと死んでしまう。\\fe\\ff[space]黄色・赤の全部で２種類。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -95006,7 +95006,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$Despite being an inanimate$N$\nobject they are sentient and$N$\nable to speak. They are also$N$\neasily shattered. Some pots$N$\nare helpful whereas some just$N$\nget in the way.",
       "Japanese": "[space]無機物のくせに命がある、こ\\fe\\ffわれやすい種族。\\fe\\ff[space]役に立つツボから、ただジャ\\fe\\ffマなだけのツボまで、世界には\\fe\\ff様々なツボがいる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -95141,7 +95141,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$Only one member of this$N$\nspecies has been observed, a$N$\npinecone obsessed Warphat$N$\nwho goes by the name Pizza.$N$\nIt is able to warp to any$N$\ndimension with its hat.",
       "Japanese": "[space]まつぼっくりマニアの少年。\\fe\\ff[space]どこからでも異次元ハットで\\fe\\ffワープさせてくれる。\\fe\\ff[space]たまにワープできない時もあ\\fe\\ffるけど、クレームは受けつけて\\fe\\ffいない。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -95300,7 +95300,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$A puppet imbued with life.$N$\nThere exists puppets that$N$\nage, but the puppets in the$N$\nLight Realm do not grow old.$N$\nHowever, they die when they$N$\nare broken.",
       "Japanese": "[space]命を吹き込まれた人形。\\fe\\ff[space]歳をとるタイプのパペットも\\fe\\ffいるが、光のプレーンのパペッ\\fe\\ffトは歳をとらない。\\fe\\ff[space]歳をとらないパペットも、壊\\fe\\ffれると死んでしまう。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -95465,7 +95465,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$A strange being born from$N$\nPutty Peas. In the past, their$N$\nvillage was attacked by fiends$N$\nwith iron swords. The swords$N$\nproved ineffective against$N$\ntheir soft bodies.",
       "Japanese": "[space]こんにゃくいもで増える不思\\fe\\ff議な生命体。\\fe\\ff[space]昔、鉄をも切り裂く剣を持っ\\fe\\ffた悪鬼が、彼らの国を襲ったと\\fe\\ffき、彼らの柔らかい体はその剣\\fe\\ffをはじき返したと言われる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -95634,7 +95634,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$A mechanical being created$N$\nby an ancient civilization that$N$\nran on rAIsin Alpha. A bug in$N$\nrAIsin Beta caused them to$N$\nwipe out the ancient$N$\ncivilization.",
       "Japanese": "[space]古代人が作った機械の生き物\\fe\\ffで、人工知能ケロケロアルファ\\fe\\ffで動いている。\\fe\\ff[space]人工知能ケロケロベータの開\\fe\\ff発中にプログラムが暴走して、\\fe\\ff古代文明は滅びたらしい。\\ff\\ff",
       "Comments": "",
       "u8": [
