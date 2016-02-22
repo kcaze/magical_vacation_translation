@@ -4413,7 +4413,7 @@
       ]
     },
     {
-      "English": "Dwarves",
+      "English": "Dwarfs",
       "Japanese": "ドワーフ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -95006,7 +95006,7 @@
       ]
     },
     {
-      "English": "$space$Despite being an inanimate$N$\nobject they are sentient and$N$\nable to speak. They are also$N$\neasily shattered. Some pots$N$\nare helpful whereas some just$N$\nget in the way.",
+      "English": "$space$Despite being an inanimate$N$\nobject pots are sentient and$N$\nable to speak. They are also$N$\neasily shattered. Some pots$N$\nare helpful whereas some just$N$\nget in the way.",
       "Japanese": "[space]無機物のくせに命がある、こ\\fe\\ffわれやすい種族。\\fe\\ff[space]役に立つツボから、ただジャ\\fe\\ffマなだけのツボまで、世界には\\fe\\ff様々なツボがいる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -95300,7 +95300,7 @@
       ]
     },
     {
-      "English": "$space$A puppet imbued with life.$N$\nThere exists puppets that$N$\nage, but the puppets in the$N$\nLight Realm do not grow old.$N$\nHowever, they die when they$N$\nare broken.",
+      "English": "$space$A puppet imbued with life.$N$\nThere exist puppets that age,$N$\nbut the puppets in the Light$N$\nRealm do not grow old.$N$\nHowever, they die when they$N$\nare broken.",
       "Japanese": "[space]命を吹き込まれた人形。\\fe\\ff[space]歳をとるタイプのパペットも\\fe\\ffいるが、光のプレーンのパペッ\\fe\\ffトは歳をとらない。\\fe\\ff[space]歳をとらないパペットも、壊\\fe\\ffれると死んでしまう。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -95803,7 +95803,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$A violent and stingy fish. It$N$\nis rumored that they repay$N$\nthose they mug. Furthermore,$N$\nit appears they collect$N$\nvarious types of coins.",
       "Japanese": "[space]乱暴で金にキビシイ魚。\\fe\\ff[space]あとで何かお返しをしてくれ\\fe\\ffるらしい。\\fe\\ff[space]ブラー以外にも、いろんな金\\fe\\ff貨銀貨を集めまくっているとも\\fe\\ff言われている。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -95954,7 +95954,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$Humans filled with love,$N$\nespecially for flowers and$N$\nbirds. They often do things$N$\nfor the sake of others rather$N$\nthan themselves.",
       "Japanese": "[space]お花や小鳥やちょうちょが好\\fe\\ffきな、愛に生きる人々。\\fe\\ff[space]自分のことよりも他人のため\\fe\\ffになることを考える。\\fe\\ff[space]女の子は可愛いけど、男はみ\\fe\\ffんなブサイク。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -96113,7 +96113,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$Men that are fanatics of$N$\nwork. At one point in time,$N$\nthey forged weapons for war.$N$\nThe war nearly wiped them$N$\nout, but some peaceful dwarfs$N$\nescaped to the Light Realm.",
       "Japanese": "[space]働くのが大好きなおじさん。\\fe\\ff[space]戦争のための道具をたくさん\\fe\\ff作っていた時代もあったが、そ\\fe\\ffのために危険な目にもあった。\\fe\\ff[space]光のプレーンに逃げ延びた一\\fe\\ff派は平和主義なドワーフたち。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -96300,7 +96300,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$A mysterious bird said to$N$\nlive for over 1000 years. It is$N$\nsaid that the Enigma's curse$N$\ncauses one to turn into a$N$\ndodo. Its blood and flesh are$N$\nused for medicine.",
       "Japanese": "[space]１０００年生きると言われる\\fe\\ff謎の鳥。\\fe\\ff[space]エニグマの呪いにかかると\\fe\\ffこの姿に変えられてしまうと言\\fe\\ffうが、それも定かではない。\\fe\\ff[space]血や肉は万病に効く薬。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -96459,7 +96459,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$A mouse-like species. They$N$\nare perfectionists when it$N$\ncomes to making cheese. They$N$\noften engage in gang activities$N$\nbut also cherish and respect$N$\ntheir parents.",
       "Japanese": "[space]ネズミの姿をした種族。\\fe\\ff[space]チーズ作りに関しては宇宙一\\fe\\ffで、ダキョウを許さない。\\fe\\ff[space]ヤクザな道を歩んでいるが、\\fe\\ffお父さん、お母さんを大切にし\\fe\\ffている。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -96618,7 +96618,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$A dog-like species. They are$N$\nstubborn and cling on to old$N$\ncustoms. They dislike mingling$N$\nwith other species, preferring$N$\ninstead to follow their village$N$\nchief's orders.",
       "Japanese": "[space]犬の姿をした種族。\\fe\\ff[space]しきたりを守ることを重んじ\\fe\\ffる、がんこな性格。\\fe\\ff[space]他の種族との交流を嫌い、絶\\fe\\ff対的なリーダーのもとで統率さ\\fe\\ffれた集団を作る。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -96775,7 +96775,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$A cat-like species. They are$N$\nwell-versed in how to live in$N$\nthe desert. Felins have a$N$\nshort attention span and are$N$\neasily bored.",
       "Japanese": "[space]ネコの姿をした種族。\\fe\\ff[space]砂漠で生きていくためのすべ\\fe\\ffを知っている。\\fe\\ff[space]あきっぽくていいかげんな性\\fe\\ff格の持ち主。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -96896,7 +96896,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$A slimy creature found in$N$\ndeserts. They have the ability$N$\nto cause it to rain. The$N$\nrainwater is a little slimy and$N$\nleaves one skin sticky after$N$\nit dries.",
       "Japanese": "[space]砂漠に発生するヌメヌメした\\fe\\ff生物で、雨を降らせる。\\fe\\ff[space]雨はちょっとネバネバしてい\\fe\\ffて、肌についたのが太陽の熱で\\fe\\ffかわくとガビガビになる。\\fe\\ff[space]塩づけにすると美味。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -97067,7 +97067,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$A sentient stone. Only the$N$\nPyrite found in Toptoh Mine$N$\nare crystallized and able to$N$\ntalk. Pyrites are a 6 on Moh's$N$\nscale of hardness.",
       "Japanese": "[space]意思をもった石。\\fe\\ff[space]キスニカ鉱山で産出されるも\\fe\\ffのだけ四角く結晶し、命を持っ\\fe\\ffている。\\fe\\ff[space]別名：黄鉄鉱。\\fe\\ff[space]モース硬度：６。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -97202,7 +97202,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$Treemen bear fruit that$N$\nchange with the seasons. It is$N$\ntaboo for a treeman to eat its$N$\nown fruit, but the majority$N$\nof treemen have tasted their$N$\nown fruit in secret.",
       "Japanese": "[space]季節に応じていろんな果物を\\fe\\ff実らせる植物人。\\fe\\ff[space]自分でもいで食べるのはタ\\fe\\ffブー視されているが、大半のツ\\fe\\ffリーマンは、隠れてこっそり\\fe\\ff自分の果実を食べている。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -97369,7 +97369,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$A species that lives in the$N$\nWater Realm. They speak their$N$\nown language, Aquarium. Water$N$\nPeople are highly intelligent.$N$\nSometimes, they get anxious$N$\nwhen a fish swims into them.",
       "Japanese": "[space]水のプレーンで生まれた種族\\fe\\ffで、独自の言語を使う。\\fe\\ff[space]高い知識を持っている。\\fe\\ff[space]水の中にいると、カニや魚が\\fe\\ff体の中に入ってくることがある\\fe\\ffらしく、時々身もだえている。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -97546,7 +97546,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$According to themselves,$N$\nthey are the creators of this$N$\nworld. They are a slothful$N$\npeople, believing that if they$N$\nwork too much, they will turn$N$\ninto dwarfs.",
       "Japanese": "[space]自称・世界を創った人たち。\\fe\\ff[space]なまけ者が多く、働きすぎる\\fe\\ffとドワーフになってしまうと\\fe\\ff本気で信じてる者もいる。\\fe\\ff[space]いっそドワーフになってしま\\fe\\ffえとの声もちらほら。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -97719,7 +97719,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$A species that existed eons$N$\nago, before there was even$N$\nmud or dirt. Plants grow on$N$\ntheir surface and a jewel$N$\ncore lies inside their bodies.",
       "Japanese": "[space]昔まだ、世界に土しかなかっ\\fe\\ffた時に生まれて、そのまま生き\\fe\\ff続けている。\\fe\\ff[space]星と同じように、表面には草\\fe\\ffが生え、体内には宝石が宿る。\\fe\\ff[space]土でできてるけどカチカチ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -97890,7 +97890,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$space$After someone has been$N$\nreborn numerous times, they$N$\nmay finally be reborn as a$N$\nstar. The experience$N$\naccumulated through several$N$\nlifetimes is then consolidated.",
       "Japanese": "[space]何度も転生を重ねた人が、個\\fe\\ff体での転生の経験をすべて積ん\\fe\\ffだ後に、星に生まれ変わる。\\fe\\ff[space]それまでの人生の全ての記憶\\fe\\ffを宿し、それを大きな視点から\\fe\\ffくりかえす。\\ff\\ff",
       "Comments": "",
       "u8": [
