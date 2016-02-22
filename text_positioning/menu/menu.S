@@ -108,6 +108,14 @@ mov r0, 0x0C
 .org 0x080B47DC ; Section contents
 mov r0, 0x08
 
+; Bestiary page
+.org 0x080B36A8 ; Bestiary heading
+mov r0, 0x0E
+.org 0x080B4818 ; Monster name in description
+mov r0, 0x11
+.org 0x080B483A ; Monster description
+mov r0, 0x06
+
 ; Species page
 .org 0x080B374C ; Species name in heading
 mov r0, 0x0E
@@ -115,6 +123,66 @@ mov r0, 0x0E
 mov r0, 0x0C
 .org 0x080B48A0 ; Species description
 mov r0, 0x08
+
+; MD Manual page
+.org 0x080B37EA ; Heading
+mov r0, 0x0B
+.org 0x080B48EC ; Description
+mov r0, 0x08
+
+; Report Card page
+.org 0x080B3326 ; "Battles:"
+mov r0, 0x08
+.org 0x080B3344 ; Disable text for "回"
+nop
+nop
+.org 0x080B3356 ; "Times ran away:"
+mov r0, 0x08
+.org 0x080B3374 ; Disable text for "回"
+nop
+nop
+.org 0x080B3386 ; "Times fainted:"
+mov r0, 0x08
+.org 0x080B339E ; Disable text for "回"
+nop
+nop
+.org 0x080B33B6 ; "Win rate:"
+mov r0, 0x08
+.org 0x080B33CE ; "Largest combo:"
+mov r0, 0x08
+
+.org 0x080B3420 ; "Spirits befriended:"
+mov r0, 0x08
+.org 0x080B3438 ; "Magic learned:"
+mov r0, 0x08
+.org 0x080B3472 ; "Bestiary:"
+mov r0, 0x08
+.org 0x080B348A ; "Chests opened:"
+mov r0, 0x08
+.org 0x080B34A8 ; Disable text for "個"
+nop
+nop
+.org 0x080B34BA ; "Gummy frogs caught:"
+mov r0, 0x08
+.org 0x080B34D8 ; Disable text for "個"
+nop
+nop
+.org 0x080B34EA ; "Gummy worms caught:"
+mov r0, 0x08
+.org 0x080B3508 ; Disable text for "個"
+nop
+nop
+.org 0x080B351A ; "Pinecones obtained:"
+mov r0, 0x08
+.org 0x080B3538 ; Disable text for "個"
+nop
+nop
+.org 0x080B354A ; "Let's Battle:"
+mov r0, 0x08
+.org 0x080B3562 ; "W"
+mov r0, 0x15
+.org 0x080B357A ; "L"
+mov r0, 0x1B
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 

@@ -478,7 +478,7 @@
       ]
     },
     {
-      "English": "Number of battles:",
+      "English": "Battles:",
       "Japanese": "バトル回数\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -510,7 +510,7 @@
       ]
     },
     {
-      "English": "Number of times ran away:",
+      "English": "Times ran away:",
       "Japanese": "逃走\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -523,7 +523,7 @@
       ]
     },
     {
-      "English": "Number of times fainted:",
+      "English": "Times fainted:",
       "Japanese": "気絶\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -536,7 +536,7 @@
       ]
     },
     {
-      "English": "Largest spirit multiplier:",
+      "English": "Largest combo:",
       "Japanese": "最高精霊コンボ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -626,7 +626,7 @@
       ]
     },
     {
-      "English": "Monsters encountered:",
+      "English": "Bestiary:",
       "Japanese": "モンスター図鑑\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -649,7 +649,7 @@
       ]
     },
     {
-      "English": "Treasure chests opened:",
+      "English": "Chests opened:",
       "Japanese": "宝箱を見つけた数\\ff\\ff",
       "Comments": "",
       "u8": [
