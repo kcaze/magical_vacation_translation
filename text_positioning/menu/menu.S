@@ -108,7 +108,13 @@ mov r0, 0x0C
 .org 0x080B47DC ; Section contents
 mov r0, 0x08
 
-
+; Species page
+.org 0x080B374C ; Species name in heading
+mov r0, 0x0E
+.org 0x080B4888 ; Species name in description
+mov r0, 0x0C
+.org 0x080B48A0 ; Species description
+mov r0, 0x08
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
