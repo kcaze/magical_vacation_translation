@@ -184,6 +184,12 @@ mov r0, 0x15
 .org 0x080B357A ; "L"
 mov r0, 0x1B
 
+; Shops
+.org 0x080B4228 ; Buying items
+mov r0, 0x06
+.org 0x080B49E2 ; Selling items
+mov r0, 0x06
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ; PROTIP: Put a breakpoint at 0x080BD520 and use the condition that r0 == the

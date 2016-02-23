@@ -98061,9 +98061,9 @@
   ],
   [
     {
-      "English": " The Basics of Magic Dolls",
+      "English": "Magic Doll basics",
       "Japanese": "マジックドールの基本\\ff\\ff",
-      "Comments": "Adding extra space in front so that it looks nicer",
+      "Comments": "",
       "u8": [
         0,
         173,
@@ -98090,7 +98090,7 @@
       ]
     },
     {
-      "English": " Assembling Your Magic Doll",
+      "English": "Magic Doll assembly",
       "Japanese": "MDパーツの組みこみ方\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98121,7 +98121,7 @@
       ]
     },
     {
-      "English": " The Art of Bewitching",
+      "English": "About bewitching",
       "Japanese": "魂の入魂方法\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98142,7 +98142,7 @@
       ]
     },
     {
-      "English": " Types of Magic Doll Parts",
+      "English": "Magic Doll parts",
       "Japanese": "MDパーツの種類\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98167,7 +98167,7 @@
       ]
     },
     {
-      "English": " Magic Doll Parts Guide: Shell",
+      "English": "About shells",
       "Japanese": "MDパーツ・シェル\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98194,7 +98194,7 @@
       ]
     },
     {
-      "English": " Magic Doll Parts Guide: Gem",
+      "English": "About gems",
       "Japanese": "MDパーツ・ジェム\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98221,7 +98221,7 @@
       ]
     },
     {
-      "English": " Magic Doll Parts Guide: Fruits",
+      "English": "About fruits",
       "Japanese": "MDパーツ・フルーツ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98250,7 +98250,7 @@
       ]
     },
     {
-      "English": " Magic Doll Parts Guide: Mica",
+      "English": "About mica",
       "Japanese": "MDパーツ・キララ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98277,7 +98277,7 @@
       ]
     },
     {
-      "English": " Magic Doll Parts Guide: Gut",
+      "English": "About guts",
       "Japanese": "MDパーツ・ガット\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98304,7 +98304,7 @@
       ]
     },
     {
-      "English": " The Power of Magic Dolls",
+      "English": "Magic Doll power",
       "Japanese": "マジックドールの能力\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98333,7 +98333,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "Magic Doll types",
       "Japanese": "MD能力・タイプ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98358,7 +98358,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "Power multiplier",
       "Japanese": "MD能力・パワー倍率\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98387,7 +98387,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "Power limit",
       "Japanese": "MD能力・パワーリミット\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98420,7 +98420,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "Power usage",
       "Japanese": "MD能力・必要パワー\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98449,7 +98449,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "A brief history",
       "Japanese": "コラム・MDと時代背景\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98480,7 +98480,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "Tips (part 1)",
       "Japanese": "TIPS・ケースに応じて\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98513,7 +98513,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "Tips (part 2)",
       "Japanese": "TIPS・入魂時の装備\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98544,7 +98544,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "Tips (part 3)",
       "Japanese": "TIPS・素材組み合わせ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98577,7 +98577,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "Types of shells",
       "Japanese": "資料・シェルの種類\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98604,7 +98604,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "Types of gems",
       "Japanese": "資料・ジェムの種類\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98631,7 +98631,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "Types of fruits",
       "Japanese": "資料・フルーツの種類\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98660,7 +98660,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "Types of mica",
       "Japanese": "資料・キララの種類\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98687,7 +98687,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "Types of guts",
       "Japanese": "資料・ガットの種類\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98714,7 +98714,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "Magic Doll differences",
       "Japanese": "MDの個性\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98733,7 +98733,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "Magic dolls and Mudmen",
       "Japanese": "コラム・MDとマッドマン\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98766,7 +98766,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "MD-05 Sardine",
       "Japanese": "MD０５－サーディン\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98795,7 +98795,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "MD-04 Flounder",
       "Japanese": "MD０４－フラウンダ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98824,7 +98824,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "MD-03 Mackerel",
       "Japanese": "MD０３－マッケレル\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98853,7 +98853,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "MD-02 Bonito",
       "Japanese": "MD０２－ボニート\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -98880,7 +98880,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "MD-01 Tuna",
       "Japanese": "MD０１－ターニィ\\ff\\ff",
       "Comments": "",
       "u8": [
