@@ -100428,7 +100428,7 @@
       ]
     },
     {
-      "English": "$space$A Magic Doll's power is$N$\ndetermined by its type, power$N$\nmultiplier, power limit and$N$\npower usage. A high power$N$\nmultiplier and power limit and$N$\na low power usage is$N$\ndesirable.",
+      "English": "$space$A Magic Doll's power is$N$\ndetermined by its type, power$N$\nmultiplier, power limit, and$N$\npower usage. A high power$N$\nmultiplier and power limit and$N$\na low power usage is$N$\ndesirable.",
       "Japanese": "[space]マジックドールの能力には、\\fe\\ffタイプ、パワー倍率、パワーリ\\fe\\ffミット、必要パワーがある。\\fe\\ff[space]パワー倍率とパワーリミット\\fe\\ffは大きいほうが良く、必要パ\\fe\\ffワーは小さいほうが良い。\\fe\\ff[space]タイプは能力とは直接は関係\\fe\\ffしない。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -101003,7 +101003,7 @@
       ]
     },
     {
-      "English": "$space$A Magic Doll's power limit is$N$\nan upper bound on its power.$N$\nFor example, a Magic Doll's$N$\npower limit were 20, then$N$\neven if it were bewitched$N$\nwith a soul with stats of 30,$N$\nit would only have stats of$N$\n20.",
+      "English": "$space$A Magic Doll's power limit is$N$\nan upper bound on its power.$N$\nFor example, if a Magic Doll's$N$\npower limit were 20, then$N$\neven if it were bewitched$N$\nwith a soul with stats of 30,$N$\nit would only have stats of$N$\n20.",
       "Japanese": "[space]入魂した魂からパワーを引き\\fe\\ff出せる限界の数値。\\fe\\ff[space]２０だったら、入魂したキャ\\fe\\ffラクターの能力値（たとえば力\\fe\\ffなど）が３０だったとしても、\\fe\\ff２０までしか引き出せない。\\fe\\ff[space]大きいほうが良い。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -101202,7 +101202,7 @@
     {
       "English": "$space$A Magic Doll's power usage$N$\nis the amount of power it$N$\nmust consume to operate. For$N$\nexample, if a Magic Doll's$N$\npower usage were 10, then 10$N$\nwill be subtracted from the$N$\nbewitched soul's stats.",
       "Japanese": "[space]マジックドールを動かすのに\\fe\\ff必要なパワーのことを指す。\\fe\\ff[space]この値が１０だとしたら、\\fe\\ff入魂するキャラクターの能力値\\fe\\ff（力や精神など）が１１以上で\\fe\\ffないと、その能力を引き出せな\\fe\\ffい。\\fe\\ff[space]小さいほうが良い。\\ff\\ff",
-      "Comments": "Not sure if my description is accurate",
+      "Comments": "I have no idea how magic doll stats are actually calculated...",
       "u8": [
         0,
         32,
@@ -101411,7 +101411,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "$space$Magic Dolls were created as$N$\na weapon for war. In the$N$\npast, there used to be a$N$\ndwarf guild that created$N$\nMagic Dolls, but the guild was$N$\ndisbanded in recent times as$N$\ndwarfs turned to work on$N$\npeaceful creations.",
       "Japanese": "[space]マジックドールは戦いのため\\fe\\ffに作られた道具だった。\\fe\\ff[space]昔からドワーフの中にはマ\\fe\\ffジックドールを作る専門の集団\\fe\\ffがいたが、近頃は平和的な道具\\fe\\ffを作るドワーフが主流になり、\\fe\\ffマジックドール一門のドワーフ\\fe\\ffはドワーフの塔を追われた。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -101648,7 +101648,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "$space$It is recommended that the$N$\nparts for your Magic Doll be$N$\nchosen based on the stats of$N$\nthe soul you bewitch it with.$N$\nFor example, when bewitching$N$\nwith a soul with low stats$N$\nit would be wise to choose$N$\nparts with low power usage.",
       "Japanese": "[space]素材の組み合わせは、入魂す\\fe\\ffるキャラクターの能力によって\\fe\\ff変えると良い。\\fe\\ff[space]能力の低い者を入魂する時は\\fe\\ff必要パワーが低い組み合わせに\\fe\\ffして、能力が高いものを入魂す\\fe\\ffる場合は、パワーリミットが高\\fe\\ffい組み合わせにするのがコツ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -101881,7 +101881,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "$space$The stat boosts from$N$\nequipment on the bewitched$N$\nsoul do not transfer over to$N$\nthe Magic Doll. Make sure you$N$\ncheck the stats of a$N$\ncharacter without equipment$N$\nbefore bewitching.",
       "Japanese": "[space]マジックドールには、装備に\\fe\\ffよる能力の修正ぶんはふくまれ\\fe\\ffません、装備によって能力値が\\fe\\ff高くなっているキャラクターを\\fe\\ff入魂する場合には、注意してく\\fe\\ffださい。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -102048,7 +102048,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "$space$When selecting parts for$N$\nyour Magic Doll, it is often$N$\nbetter to choose parts of a$N$\nsimilar grade rather than the$N$\nhighest grade parts you have.$N$\nParts of a similar grade will$N$\nresult in a balanced Magic$N$\nDoll.",
       "Japanese": "[space]素材の組み合わせは、手持ち\\fe\\ffの素材の中で良いものを寄せ集\\fe\\ffめるよりは、同じ位のランクの\\fe\\ff素材で統一したほうがバランス\\fe\\ffの良いものができる。\\fe\\ff[space]どんなマジックドールを作る\\fe\\ffのが良いかは入魂するキャラク\\fe\\ffターにより変化する。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -102279,7 +102279,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "$space$There are 8 types of shells.$N$\n@Scampi Shell$N$\n@Crab Shell$N$\n@Tortoise Shell$N$\n@Chimera Shell$N$\n@Black Shell$N$\n@Silver Shell$N$\nand more.",
       "Japanese": "[space]シェルの種類は全部で８種類\\fe\\ffが存在する。\\fe\\ff[space][icon 0x0a]スカンピシェル\\fe\\ff[space][icon 0x0a]クラブシェル\\fe\\ff[space][icon 0x0a]トータスシェル\\fe\\ff[space][icon 0x0a]キメラシェル\\fe\\ff[space][icon 0x0a]ブラックシェル\\fe\\ff[space][icon 0x0a]シルバーシェル[space]など。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -102454,7 +102454,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "$space$There are 8 types of gems.$N$\n@Glass Bead$N$\n@Rose Quartz$N$\n@Amethyst$N$\n@Tourmaline$N$\n@Sapphire$N$\n@Ruby$N$\nand more.",
       "Japanese": "[space]ジェムの種類は全部で８種類\\fe\\ffが存在する。\\fe\\ff[space][icon 0x0a]ガラスだま\\fe\\ff[space][icon 0x0a]ローズクォーツ\\fe\\ff[space][icon 0x0a]アメジスト\\fe\\ff[space][icon 0x0a]トルマリン\\fe\\ff[space][icon 0x0a]サファイア\\fe\\ff[space][icon 0x0a]ルビー[space]など。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -102609,7 +102609,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "$space$There are 8 types of fruits.$N$\n@Orange$N$\n@Papaya$N$\n@Apple$N$\n@Muscat$N$\n@Lychee$N$\n@Cherry$N$\nand more.",
       "Japanese": "[space]フルーツの種類は全部で８種\\fe\\ff類が存在する。\\fe\\ff[space][icon 0x0a]オレンジの実\\fe\\ff[space][icon 0x0a]パパイヤの実\\fe\\ff[space][icon 0x0a]りんごの実\\fe\\ff[space][icon 0x0a]マスカットの実\\fe\\ff[space][icon 0x0a]ライチの実\\fe\\ff[space][icon 0x0a]チェリーの実[space]など。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -102776,7 +102776,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "$space$There are 5 types of mica.$N$\n@Red Mica$N$\n@Yellow Mica$N$\n@White Mica$N$\nand more.",
       "Japanese": "[space]キララの種類は全部で５種類\\fe\\ffが存在する。\\fe\\ff[space][icon 0x0a]赤いキララ\\fe\\ff[space][icon 0x0a]黄色いキララ\\fe\\ff[space][icon 0x0a]白いキララ\\fe\\ff[space]などがあり、最高のキララは\\fe\\ff輝いているので、一目見てそれ\\fe\\ffとわかる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -102949,7 +102949,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "$space$There are 5 types of guts.$N$\n@Wool Fibers$N$\n@Sheep's Gut$N$\n@Leather String$N$\nand more.",
       "Japanese": "[space]ガットの種類は全部で５種類\\fe\\ffが存在する。\\fe\\ff[space][icon 0x0a]ウールのせんい\\fe\\ff[space][icon 0x0a]ひつじのガット\\fe\\ff[space][icon 0x0a]皮ひも\\fe\\ff[space]などがあり、さらに上級の\\fe\\ffガットは一流の職人でも、あま\\fe\\ffり目にすることがない。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -103134,7 +103134,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "$space$Different Magic Dolls have$N$\nslightly different attributes$N$\nas a result of the different$N$\ndwarfs that created them.",
       "Japanese": "[space]マジックドールにはそれぞれ\\fe\\ff個体差がある。\\fe\\ff[space]設計したドワーフの個性に\\fe\\ffよって変わるので、MDパーツ\\fe\\ffの組み込みなどでこの特性を変\\fe\\ff更することはできない。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -103299,7 +103299,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "$space$At the core of a Mudman is$N$\na gemstone formed by elements$N$\nunder intense pressure. These$N$\ngemstones can be used as a$N$\nMagic Doll part, but to do so$N$\nwould be cruel and inhumane.",
       "Japanese": "[space]土のカタマリでできてるマッ\\fe\\ffドマンの体の中では、元素が圧\\fe\\ff縮されて宝石ができることがあ\\fe\\ffる。\\fe\\ff[space]その宝石を取り出してマジッ\\fe\\ffクドールのパーツに使用するこ\\fe\\ffともできるが、非人道的との非\\fe\\ff難から現在は行われていない。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -103522,7 +103522,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "$space$A Magic Doll designed by$N$\nWorcestershire. It is light$N$\nand speedy. It was originally$N$\nrequested by a wizard who$N$\nwanted a Magic Doll that$N$\ncasts Call magic. The wizard$N$\nunfortunately died before$N$\nreceiving Sardine.",
       "Japanese": "[space]MD職人ウスターの手による\\fe\\ffもので、素早いのが特徴。\\fe\\ff[space]魔法学校から、素早くコール\\fe\\ff魔法を唱えてくれるマジック\\fe\\ffドールが欲しいとリクエストさ\\fe\\ffれて作られたものだが、発注し\\fe\\ffた人が死んでしまって引き取り\\fe\\ff手がいなくなっていた。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -103757,7 +103757,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "$space$A Magic Doll designed by$N$\nSyrup. Its attack excels,$N$\nmaking it useful for wizards$N$\nwho lack physical strength.$N$\nFlounder was undergoing$N$\ntesting in the Dark Realm$N$\nwhen the Magic Doll guild$N$\nwas disbanded.",
       "Japanese": "[space]MD職人ドロの作品。\\fe\\ff[space]力が強いタイプのマジック\\fe\\ffドールで、魔法使いの非力さを\\fe\\ffカバーする目的で作られた。\\fe\\ff[space]闇のプレーンで能力テストを\\fe\\ff行っている時に、キード・モン\\fe\\ffガからマジックドール開発中止\\fe\\ffの連絡が届いた。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -103982,7 +103982,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "$space$A Magic Doll designed by$N$\nQuattro Formaggi. Its defense$N$\nis unparalleled. Mackerel was$N$\noriginally hidden in a small$N$\nhouse in Ufot Village but was$N$\nstolen by Pucine the 3rd.",
       "Japanese": "[space]MD職人クアトロフォルマッ\\fe\\ffジの作品で、３体が作られた。\\fe\\ff[space]守りに優れたタイプで、ゲア\\fe\\ffラヴァ村の小屋に隠してあった\\fe\\ffが、エニグマ襲来時のどさくさ\\fe\\ffにまぎれてブッチーネ３世が盗\\fe\\ffみ出した。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -104181,7 +104181,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "$space$A Magic Doll designed by$N$\nGrenadine. It has high spirits.$N$\nBonito was used in a war and$N$\nmany soldiers lost their lives$N$\nto it. Grenadine was filled$N$\nwith regret and entrusted$N$\nBonito to a Brownie in the$N$\nAbyssal Realm.",
       "Japanese": "[space]キード・モンガの首領、グレ\\fe\\ffナデンが作ったマジックドール\\fe\\ffで、精神が高い。とある戦争で\\fe\\ff多くの兵士の命を奪った。\\fe\\ff[space]そのことに心を痛めたグレナ\\fe\\ffデンは、自らボニートを回収し\\fe\\ff死のプレーンに住む旧友のブラ\\fe\\ffウニーにゆだねた。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -104414,7 +104414,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "$space$A Magic Doll designed by$N$\nthe former leader of Iko$N$\nDomnag. It is able to recover$N$\nMP in battle. It is said that$N$\nmany wars were fought over$N$\nthis Magic Doll. As a result$N$\nPrincipal Biscotti sealed it$N$\naway.",
       "Japanese": "[space]先代のキード・モンガの首領\\fe\\ffが作ったマジックドールでMP\\fe\\ffの回復率が高く、このマジック\\fe\\ffドールの所有をめぐって戦争が\\fe\\ff起きたこともあると言われてい\\fe\\ffる。\\fe\\ff[space]グラン・ドラジェの手によっ\\fe\\ffて封印された。\\ff\\ff[icon 0x00]",
       "Comments": "",
       "u8": [
