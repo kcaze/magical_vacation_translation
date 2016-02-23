@@ -210,6 +210,8 @@ ldr r0, =0x0203B6CC
 mov r1, 0x00
 strb r1, [r0]
 popreg
+pop r0
+bx r0
 .pool
 
 ; 0x080B6108: This routine takes the 2d array of glyph values in 0x02036604, renders them

@@ -98907,7 +98907,7 @@
       ]
     },
     {
-      "English": "\\00\\1eA magic doll, sometimes called an \"MD\"\\fe\\ff^for short, is a humanoid puppet that runs\\fe\\ff^on magical energy.       ",
+      "English": "$space$A Magic Doll, also known as$N$\nMD for short, is a humanoid$N$\npuppet that runs on magical$N$\nenergy. It is assembled from$N$\n5 different parts and unless$N$\nit is bewitched with a soul,$N$\nits stats remain at 1.",
       "Japanese": "[space]マジックドールは、MDとも\\fe\\ff呼ばれる、魔法の力で動く人形\\fe\\ffのこと。\\fe\\ff[space]５つの素材（MDパーツ）を\\fe\\ff組みこみ、魂の入魂を行わない\\fe\\ffと、その能力はすべて１なので\\fe\\ffかならずこれらを行わなければ\\fe\\ffならない。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -99116,7 +99116,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "$space$In the menu, you can select$N$\na Magic Doll and set its$N$\nparts. Unless you assemble all$N$\n5 types of parts, its stats$N$\nwill remain at 1.",
       "Japanese": "[space]メニューのメンバーから、\\fe\\ffマジックドールを選び、MD\\fe\\ffパーツセットで素材の組みこみ\\fe\\ffを行う。\\fe\\ff[space]５つの素材をすべて組みこま\\fe\\ffないと、各能力値は１のまま。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -99279,7 +99279,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "$space$In the menu, you can select$N$\na Magic Doll and choose whose$N$\nsoul to bewitch it with on$N$\nthe profile page. When a soul$N$\nis bewitched, it is not erased$N$\nfrom the original character,$N$\nbut instead copied over to$N$\nthe Magic Doll.",
       "Japanese": "[space]メニューのメンバーから、\\fe\\ffマジックドールを選び、プロ\\fe\\ffフィールを表示し、その中の霊\\fe\\ff魂でキャラクターを選択する。\\fe\\ff[space]魂を入魂しても、もとのキャ\\fe\\ffラから魂が抜けるわけではな\\fe\\ffく、マジックドールに魂がコ\\fe\\ffピーされると考えてよい。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -99514,7 +99514,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "$space$Magic Dolls are assembled$N$\nfrom 5 types of parts: shells,$N$\ngems, fruits, mica, and guts.$N$\nThese parts determine a Magic$N$\nDoll's base stats.",
       "Japanese": "[space]マジックドールに組みこむ素\\fe\\ff材は、シェル、ジェム、フルー\\fe\\ffツ、キララ、ガットの５種類。\\fe\\ff[space]これらの組み合わせで、マ\\fe\\ffジックドールの基本的な性能が\\fe\\ff決まる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -99679,7 +99679,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "$space$Shells form the exterior of$N$\na Magic Doll. You can find$N$\ndifferent types of shells such$N$\nas Crab Shell.",
       "Japanese": "[space]シェルは、マジックドールの\\fe\\ff外殻になる。\\fe\\ff[space]アイテムの中で、[icon 0x0a]クラブ\\fe\\ffシェルなどの、『シェル』とつ\\fe\\ffくものがそれにあたる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -99812,7 +99812,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "$space$Gems let Magic Dolls unleash$N$\ntheir power after they have$N$\nbeen bewitched. You can find$N$\ndifferent types of gems such$N$\nas Amethyst and Ruby.",
       "Japanese": "[space]ジェムは、入魂した魂から\\fe\\ffパワーを引き出すために使用さ\\fe\\ffれる宝石のことを指す。\\fe\\ff[space][icon 0x0a]アメジストや[icon 0x0a]ルビーなど\\fe\\ffが存在する。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -99945,7 +99945,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "$space$Fruits act as a lubricant,$N$\nallowing a Magic Doll's power$N$\nto circulate through its body$N$\nsmoothly. You can find$N$\ndifferent types of fruits$N$\nsuch as Apple and Orange.",
       "Japanese": "[space]魂から取り出したパワーを\\fe\\ffマジックドールの全身に流れや\\fe\\ffすくするために、フルーツが使\\fe\\ff用される。\\fe\\ff[space][icon 0x0a]オレンジの実、[icon 0x0a]りんごの\\fe\\ff実などがある。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -100098,7 +100098,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "$space$Mica is used to amplify a$N$\nMagic Doll's power. You can$N$\nfind different types of mica$N$\nsuch as Red Mica and White$N$\nMica.",
       "Japanese": "[space]雲母と呼ばれる鉱石で、魂か\\fe\\ffら取り出したパワーを増幅する\\fe\\ffために使用される。\\fe\\ff[space][icon 0x0a]赤いキララ、[icon 0x0a]白いキララ\\fe\\ffなどの種類がある。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -100235,7 +100235,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "$space$Guts allow Magic Dolls to$N$\ncontrol their magic power.$N$\nThey also function as the$N$\nMagic Doll's muscle. You can$N$\nfind different types of guts$N$\nsuch as Wool Fibers and$N$\nSheep's Gut.",
       "Japanese": "[space]魔法の力で延びたり縮んだり\\fe\\ffして、マジックドールの全身を\\fe\\ff動かすひものことをガットと呼\\fe\\ffぶ。マジックドールの筋肉の役\\fe\\ff割を果たす。\\fe\\ff[space][icon 0x0a]ウールのせんい、[icon 0x0a]ひつじ\\fe\\ffのガットなどがある。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -100428,7 +100428,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "$space$A Magic Doll's power is$N$\ndetermined by its type, power$N$\nmultiplier, power limit and$N$\npower usage. A high power$N$\nmultiplier and power limit and$N$\na low power usage is$N$\ndesirable.",
       "Japanese": "[space]マジックドールの能力には、\\fe\\ffタイプ、パワー倍率、パワーリ\\fe\\ffミット、必要パワーがある。\\fe\\ff[space]パワー倍率とパワーリミット\\fe\\ffは大きいほうが良く、必要パ\\fe\\ffワーは小さいほうが良い。\\fe\\ff[space]タイプは能力とは直接は関係\\fe\\ffしない。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -100647,7 +100647,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "$space$A Magic Doll's type depends$N$\non the shell it uses. Other$N$\nparts also play a role in$N$\ndetermining a Magic Doll's$N$\npower.",
       "Japanese": "[space]マジックドールのタイプは\\fe\\ffシェル（外殻）の種類によって\\fe\\ff決まるが、能力は素材の組み合\\fe\\ffわせによって様々なものができ\\fe\\ffるので、実際にはあまり気にす\\fe\\ffる必要は無い。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -100818,7 +100818,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "$space$A Magic Doll's power$N$\nmultiplier shows how much the$N$\nbewitched soul's power is$N$\namplified. For example, if the$N$\npower multiplier were 50%,$N$\nthen the Magic Doll's stats$N$\ncan be at most 50% of the$N$\nbewitched soul's stats.",
       "Japanese": "[space]入魂した魂のパワーを増幅す\\fe\\ffる程度を示したもの。\\fe\\ff[space]５０％だったら、入魂した\\fe\\ffキャラクターの能力の５０％の\\fe\\ff力しか出ないし、２００％なら\\fe\\ff倍の力が出る。\\fe\\ff[space]大きいほうが良い。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -101003,7 +101003,7 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "$space$A Magic Doll's power limit is$N$\nan upper bound on its power.$N$\nFor example, a Magic Doll's$N$\npower limit were 20, then$N$\neven if it were bewitched$N$\nwith a soul with stats of 30,$N$\nit would only have stats of$N$\n20.",
       "Japanese": "[space]入魂した魂からパワーを引き\\fe\\ff出せる限界の数値。\\fe\\ff[space]２０だったら、入魂したキャ\\fe\\ffラクターの能力値（たとえば力\\fe\\ffなど）が３０だったとしても、\\fe\\ff２０までしか引き出せない。\\fe\\ff[space]大きいほうが良い。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -101200,9 +101200,9 @@
       ]
     },
     {
-      "English": " Untranslated",
+      "English": "$space$A Magic Doll's power usage$N$\nis the amount of power it$N$\nmust consume to operate. For$N$\nexample, if a Magic Doll's$N$\npower usage were 10, then 10$N$\nwill be subtracted from the$N$\nbewitched soul's stats.",
       "Japanese": "[space]マジックドールを動かすのに\\fe\\ff必要なパワーのことを指す。\\fe\\ff[space]この値が１０だとしたら、\\fe\\ff入魂するキャラクターの能力値\\fe\\ff（力や精神など）が１１以上で\\fe\\ffないと、その能力を引き出せな\\fe\\ffい。\\fe\\ff[space]小さいほうが良い。\\ff\\ff",
-      "Comments": "",
+      "Comments": "Not sure if my description is accurate",
       "u8": [
         0,
         32,
