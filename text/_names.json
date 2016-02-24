@@ -11256,7 +11256,7 @@
       ]
     },
     {
-      "English": "Empty Gale",
+      "English": "Galangale",
       "Japanese": "ガランガル",
       "Comments": "",
       "u8": [
@@ -11279,7 +11279,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Mistral",
       "Japanese": "ミストラル",
       "Comments": "",
       "u8": [
@@ -11302,7 +11302,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Puffone",
       "Japanese": "プルイーチ",
       "Comments": "",
       "u8": [
@@ -11325,7 +11325,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Mammyth",
       "Japanese": "マンモスロデオ",
       "Comments": "",
       "u8": [
@@ -11348,7 +11348,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Mastodonut",
       "Japanese": "マンムーナイト",
       "Comments": "",
       "u8": [
@@ -11371,7 +11371,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Cyclon",
       "Japanese": "サイクロン",
       "Comments": "",
       "u8": [
@@ -11394,7 +11394,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Tempes",
       "Japanese": "テンペスト",
       "Comments": "",
       "u8": [
@@ -11417,7 +11417,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Hipshroom",
       "Japanese": "ヒップシェル",
       "Comments": "",
       "u8": [
@@ -11440,7 +11440,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Rotten Butter",
       "Japanese": "ソルティーバター",
       "Comments": "",
       "u8": [
@@ -11463,7 +11463,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Melted Kiss",
       "Japanese": "メルキュート",
       "Comments": "",
       "u8": [
@@ -11486,7 +11486,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Prickly Fungi",
       "Japanese": "ヒリヒリフンゴ",
       "Comments": "",
       "u8": [
@@ -11509,7 +11509,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Moldy Bread",
       "Japanese": "カビダンゴ",
       "Comments": "",
       "u8": [
@@ -11532,7 +11532,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Bitter Bug",
       "Japanese": "ほろにがバス",
       "Comments": "",
       "u8": [
@@ -11555,7 +11555,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Beelzebub",
       "Japanese": "ベルゼブー",
       "Comments": "",
       "u8": [
@@ -11578,7 +11578,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Venom Fugu",
       "Japanese": "しびれフグ",
       "Comments": "",
       "u8": [
@@ -11601,7 +11601,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Poison Bug",
       "Japanese": "ヘコキドクムシ",
       "Comments": "",
       "u8": [
@@ -11624,7 +11624,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Pelardon",
       "Japanese": "ペラルドン",
       "Comments": "",
       "u8": [
@@ -11647,7 +11647,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Moldy Lizard",
       "Japanese": "ドクカビリザード",
       "Comments": "",
       "u8": [
@@ -11670,7 +11670,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Gorgonzola",
       "Japanese": "ゴルゴンゾーラ",
       "Comments": "",
       "u8": [
@@ -11693,7 +11693,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "The Barbatica",
       "Japanese": "ザウバーバチカ",
       "Comments": "",
       "u8": [
@@ -11716,9 +11716,9 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Poidjinn",
       "Japanese": "ポイジール",
-      "Comments": "",
+      "Comments": "don't like these poison monster names.",
       "u8": [
         0,
         255,
@@ -11739,7 +11739,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Carolina",
       "Japanese": "アロリーナ",
       "Comments": "",
       "u8": [
@@ -11762,7 +11762,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Golden Bunny",
       "Japanese": "きんいろうさぎ",
       "Comments": "",
       "u8": [
@@ -11785,7 +11785,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Chippymunk",
       "Japanese": "ヨーデルラット",
       "Comments": "",
       "u8": [
@@ -11808,7 +11808,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Grudjinn",
       "Japanese": "ノーマジーン",
       "Comments": "",
       "u8": [
@@ -11831,9 +11831,9 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Crimson Pouch",
       "Japanese": "べにきんちゃく",
-      "Comments": "",
+      "Comments": "bad",
       "u8": [
         0,
         242,
@@ -11854,7 +11854,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Revendjinn",
       "Japanese": "リーベジーン",
       "Comments": "",
       "u8": [
@@ -11877,7 +11877,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Earl Gold",
       "Japanese": "アルグリーア",
       "Comments": "",
       "u8": [
@@ -11900,7 +11900,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Nostaldjinn",
       "Japanese": "ノスタルジーン",
       "Comments": "",
       "u8": [
@@ -11923,7 +11923,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Gemfrog",
       "Japanese": "ジェムフロッグ",
       "Comments": "",
       "u8": [
@@ -11946,7 +11946,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Mr. Beauty",
       "Japanese": "Mrビューティ",
       "Comments": "",
       "u8": [
@@ -11969,7 +11969,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Mr. Sexy",
       "Japanese": "Mrセクシー",
       "Comments": "",
       "u8": [
@@ -11992,7 +11992,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Mr. Moral",
       "Japanese": "Mrモラール",
       "Comments": "",
       "u8": [
@@ -12015,7 +12015,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Majoram",
       "Japanese": "マジョラム",
       "Comments": "",
       "u8": [
@@ -12038,9 +12038,9 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Delirious Moss",
       "Japanese": "デレアスモス",
-      "Comments": "",
+      "Comments": "bad",
       "u8": [
         0,
         233,
@@ -12061,7 +12061,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Baby Scissor",
       "Japanese": "ベビーシザー",
       "Comments": "",
       "u8": [
@@ -12084,7 +12084,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Knockoff Cutter",
       "Japanese": "ぱっくりカッター",
       "Comments": "",
       "u8": [
@@ -12107,7 +12107,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Chopper",
       "Japanese": "チョッパー",
       "Comments": "",
       "u8": [
@@ -12130,7 +12130,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Spikea",
       "Japanese": "クッピポーン",
       "Comments": "",
       "u8": [
@@ -12153,7 +12153,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Pointea",
       "Japanese": "マップタツーン",
       "Comments": "",
       "u8": [
@@ -12176,7 +12176,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Baron Crayfish",
       "Japanese": "ザリガニバロン",
       "Comments": "",
       "u8": [
@@ -12199,7 +12199,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Razor Death",
       "Japanese": "デスレイザー",
       "Comments": "",
       "u8": [
@@ -12222,7 +12222,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Duke Crayfish",
       "Japanese": "アームジズー",
       "Comments": "",
       "u8": [
@@ -12245,7 +12245,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Knifetress",
       "Japanese": "ナイフドレス",
       "Comments": "",
       "u8": [
@@ -12268,7 +12268,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Octopare",
       "Japanese": "オクトポーデ",
       "Comments": "",
       "u8": [
@@ -12291,7 +12291,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Gradius",
       "Japanese": "グラディウス",
       "Comments": "",
       "u8": [
@@ -12314,7 +12314,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Sword Fairy",
       "Japanese": "ソードフェアリー",
       "Comments": "",
       "u8": [
@@ -12337,7 +12337,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Scimitar Genie",
       "Japanese": "ぶつぎりまじん",
       "Comments": "",
       "u8": [
@@ -12360,7 +12360,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Saber Genie",
       "Japanese": "サーベルズーガー",
       "Comments": "",
       "u8": [
@@ -12383,7 +12383,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Humming Bunny",
       "Japanese": "はなうたうさぎ",
       "Comments": "",
       "u8": [
@@ -12406,7 +12406,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Alarmaple",
       "Japanese": "アラームラビン",
       "Comments": "",
       "u8": [
@@ -12429,7 +12429,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Singsong Rabbit",
       "Japanese": "うたうたいうさぎ",
       "Comments": "",
       "u8": [
@@ -12452,7 +12452,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Squawker",
       "Japanese": "ハロハロドリ",
       "Comments": "",
       "u8": [
@@ -12475,7 +12475,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Honker",
       "Japanese": "がーがーグース",
       "Comments": "",
       "u8": [
@@ -12498,7 +12498,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Raucous Racoon",
       "Japanese": "ドンチャタヌキ",
       "Comments": "",
       "u8": [
@@ -12521,7 +12521,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Tapir Dancer",
       "Japanese": "タピローム",
       "Comments": "",
       "u8": [
@@ -12544,7 +12544,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Thorny Horn",
       "Japanese": "こんがらホルン",
       "Comments": "",
       "u8": [
@@ -12567,7 +12567,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Mellow Melody",
       "Japanese": "ウィンメロディー",
       "Comments": "",
       "u8": [
@@ -12590,7 +12590,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Marcher Archer",
       "Japanese": "ノイズマーチ",
       "Comments": "",
       "u8": [
@@ -12613,7 +12613,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Symbolist",
       "Japanese": "ウエレンガー",
       "Comments": "",
       "u8": [
@@ -12636,7 +12636,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Sarah Nade",
       "Japanese": "セレネイド",
       "Comments": "",
       "u8": [
@@ -12659,7 +12659,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Silver Lunes",
       "Japanese": "シンバルン",
       "Comments": "",
       "u8": [
@@ -12682,7 +12682,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Minyo",
       "Japanese": "ダーモーマター",
       "Comments": "",
       "u8": [
@@ -12705,7 +12705,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Mud Jam",
       "Japanese": "ドロジャム",
       "Comments": "",
       "u8": [
@@ -12728,7 +12728,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Mudroom",
       "Japanese": "つちいろマッシュ",
       "Comments": "",
       "u8": [
@@ -12751,7 +12751,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Rock Weed",
       "Japanese": "ロックウィード",
       "Comments": "",
       "u8": [
@@ -12774,7 +12774,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Boron",
       "Japanese": "バゴーン",
       "Comments": "",
       "u8": [
@@ -12797,7 +12797,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Cockatrice",
       "Japanese": "コカトリス",
       "Comments": "",
       "u8": [
@@ -12820,7 +12820,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Carbon",
       "Japanese": "カボーン",
       "Comments": "",
       "u8": [
@@ -12843,7 +12843,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Opaladin",
       "Japanese": "ニョクマム",
       "Comments": "",
       "u8": [
@@ -12866,7 +12866,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Umberfrog",
       "Japanese": "アンバーフロッグ",
       "Comments": "",
       "u8": [
@@ -12889,7 +12889,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Rockadile",
       "Japanese": "ベルバダイル",
       "Comments": "",
       "u8": [
@@ -12912,7 +12912,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Mystery Coffin",
       "Japanese": "ナゾのかんおけ",
       "Comments": "",
       "u8": [
@@ -12935,7 +12935,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Shyclops",
       "Japanese": "バルバール",
       "Comments": "",
       "u8": [
@@ -12958,7 +12958,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Drillmole",
       "Japanese": "ドリモグラ",
       "Comments": "",
       "u8": [
@@ -12981,7 +12981,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Dinnersaur",
       "Japanese": "ディナゾール",
       "Comments": "",
       "u8": [
@@ -13004,7 +13004,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Gigandeur",
       "Japanese": "ギガンドゥーロ",
       "Comments": "",
       "u8": [
@@ -13027,7 +13027,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Chappy",
       "Japanese": "チャッピー",
       "Comments": "",
       "u8": [
@@ -13050,7 +13050,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Cocon",
       "Japanese": "ココン",
       "Comments": "",
       "u8": [
@@ -13073,7 +13073,7 @@
       ]
     },
     {
-      "English": "Placeholder",
+      "English": "Attracterpillar",
       "Japanese": "ゆうわくいもむし",
       "Comments": "",
       "u8": [
