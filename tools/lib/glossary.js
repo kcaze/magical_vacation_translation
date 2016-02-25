@@ -554,13 +554,13 @@ var glossary = {
 /************************************\
 *            [[Enemies]]             *
 \************************************/
-  "スノウヘア":"Snowhare",
+  "スノウヘア":"Snowhair",
   "ブッチーネ３世":"Pucine the 3rd",
   "ヘイルクラブ":"Hailcrab",
   "デミッスス":"Demice",
   "ヴァルカネイラ":"Volcanera",
   "アロリーナ":"Carolina",
-  "ベルチャーム":"Earl Jam",
+  "ベルチャーム":"Charmbel",
   "ノーマジーン":"Grudjinn",
   "ケルレンドゥ":"Kerendu",
   "ピスカプーク":"Pooka",
