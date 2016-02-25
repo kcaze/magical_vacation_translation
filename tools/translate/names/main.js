@@ -214,7 +214,7 @@ document
 document
   .getElementById('number')
   .addEventListener('change', function(e) {
-    number = e.target.value;
+    number = parseInt(e.target.value, 10);
     document.getElementById('japanese').innerHTML = names[section][number].Japanese;
     document.getElementById('english').value = names[section][number].English;
     document.getElementById('comments').value = names[section][number].Comments;
