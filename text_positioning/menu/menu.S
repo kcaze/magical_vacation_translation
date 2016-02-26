@@ -1,6 +1,8 @@
 .gba
 .open "hacked.gba", 0x08000000
 
+FN_BG1_TEXT equ 0x080B57D8
+
 ;;;;;;;;;;;;;;;;;;
 ; BG 1 MENU TEXT ;
 ;;;;;;;;;;;;;;;;;;
@@ -190,16 +192,10 @@ mov r0, 0x06
 .org 0x080B49E2 ; Selling items
 mov r0, 0x06
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-; PROTIP: Put a breakpoint at 0x080BD520 and use the condition that r0 == the
-;         section number of a text to figure out when a particular string is
-;         being referenced.
-
-; PROTIP: To find where the positions are hardcoded, put a breakpoint for
-; 0x080B58F0 and see where it was called from. The parameters passed in through
-; r0 and r1 are the x and y coordinates respectively.
-
+;;;;;;;;;;;;;;;
+; SPRITE TEXT ;
+;;;;;;;;;;;;;;;
+; PROTIP: Put a breakpoint at 0x080B58F0 and look at where it's called from.
 ; Positioning text for the "erase save" message when selecting "new game"
 ; Message position
 .org 0x080ACC74

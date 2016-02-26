@@ -22,6 +22,7 @@ all:
 	bin/armips.exe tmp.S
 	rm tmp.S
 
+	bin/armips.exe text_rendering/vwf_sprite/vwf_sprite.S
 	bin/armips.exe text_rendering/vwf_script/vwf_script.S
 	bin/armips.exe text_rendering/vwf_script/battle_1.S
 	bin/armips.exe text_rendering/vwf_script/battle_2.S

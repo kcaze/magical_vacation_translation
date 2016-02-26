@@ -104,7 +104,7 @@ bne @@L_not_newline
 ; Handle newlines
 mov r0, 0x00
 bl FN_RAM_CLEAR
-add r6, 0x02
+add r6, 0x01
 mov r5, r9
 b @@L_loop_end
 
@@ -118,12 +118,12 @@ mov r10, r0 ; r10 = return value
 mov r4, r10
 @@L_bg_map_loop:
 ldr r0, =ADDR_RAM_BG1
-mov r1, 0x1E
+mov r1, 2 * 0x1E
 mul r1, r6
 add r1, r1, r4
 add r1, r1, r5
 lsl r1, r1, 0x01
-lsl r2, r6, 0x05
+lsl r2, r6, 0x06
 add r2, r2, r4
 add r2, r2, r5
 strh r2, [r0, r1]
@@ -147,7 +147,7 @@ ldr r2, =ADDR_TILE
 add r3, r4, r5
 lsl r3, r3, 0x05
 add r2, r2, r3
-lsl r3, r6, 0x0A
+lsl r3, r6, 0x0B
 add r2, r2, r3
 str r2, [r0, 0x04]
 ldr r3, =0x80000010
