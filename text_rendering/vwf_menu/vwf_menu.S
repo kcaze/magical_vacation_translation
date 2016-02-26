@@ -1,426 +1,217 @@
-.gba
-.open "hacked.gba", 0x08000000
-ADDR_VAR_FONT_SET equ 0x0203FFF2
-ADDR_FONT equ 0x08603900
-ADDR_WIDTHS equ 0x08604100
-ADDR_FN_VWF_MENU_TILE_CLEAR equ 0x087F59B0
-ADDR_FN_VWF_MENU equ 0x08808000
+; 0x0203AC9C to ...: An array of data structure {
+;   4 bytes: script beginning address, will read until FFFF
+;   2 bytes: x coord in tiles
+;   2 bytes: y coord in tiles
+;   4 bytes: some packed bitfield. stores palette info for sure.
+; }
+; 0x0203B6CC: Length of the array of data structures beginning at 0x0203AC9C
+; 0x080B57D8: This routine appends an element to the array of data structures.
+;   r0 = x coord in tiles
+;   r1 = y coord in tiles
+;   r2 = script begin address
+;   r3 = 0xFFFFFFFF (???)
+;   [sp, 0x00] = ??? (looks like it's always 0x14, perhaps the width of screen?)
+;   [sp, 0x04] = palette color
+;   This routine is going to be entirely gutted and used to store everything in
+;   2d array in 0x02036604.
+; 0x080B5CFC: This routine takes the array at 0x0203AC9C, parses it and
+;   transforms it into 4 byte glyph values to store in the 10x20 array in 0x02036604.
+;   This is going to be bypassed entirely. We're gutting 0x080B57D8 to process everything and store it in the
+;   2d array.
+; 0x02036604: A 10x20 array of 4 byte words. Each glyph is 12 pixels wide, 16 pixels tall
+;   in calculations. Hence, 20 elements per row = 240 pixels wide and 10 elements tall =
+;   160 pixels tall. Glyph values are stored as 4 byte words for some reason. The 4th nibble
+;   indicates the palette value to use for that glyph, since no drawable Japanese glyphs went
+;   beyond 0x0FFF.
+; 0x080B6108: This routine takes the 2d array of glyph values in 0x02036604, renders them
+;   to tiles2 and then sets up the tilemap for BG1 in RAM at 0x0203CF80. This routine is
+;   called 4 times, with the number of glyphs to process passed in as r1. We're going to
+;   gut this completely since the format of the 2d array will be changed. We need to make
+;   sure the values at 0x0203B6CA are zeroed out so our routine isn't called 4 times.
 
-; Disable DMA transfers
-.org 0x080A0BCA
-nop
+; 0x080A0DEC: General purpose copy routine. Called at 0x080A0C66 to copy from ram to
+;   bg1.
 
-.org 0x080A0BF6
-nop
+FN_RAM_CLEAR equ 0x0800D020
+FN_VWF equ 0x0800D060
+FN_ICON equ 0x0800D370
 
-; Stop the glyph value from being truncated
-.org 0x080B61CE
-nop
-nop
+ADDR_GLYPH_BUFFER  equ 0x020097B0
+ADDR_TILE    equ 0x06008000
+ADDR_RAM_BG1    equ 0x0203CF80
+ADDR_SCRIPT_ARRAY equ 0x02036604
+FN_MENU_START equ 0x080B6152
+FN_MENU_END equ 0x080B6258
 
-; Where we hijack the routine to call ours.
-.org 0x080B62FE
-; r1 = ([r0]-0x06008000)/2, the tile index.
-ldr r1, [r0]
-ldr r0, =0x06008000
-sub r1, r1, r0
-lsr r1, r1, 0x05
+FN_PROCESS_SCRIPT_START equ 0x080B57E2
+FN_PROCESS_SCRIPT_END equ 0x080B583E
 
-; If (r1 - 0x0203CF80)/2 == 0, then it's an empty call so exit
-; immediately.
-cmp r1, 0x00
-beq 0x080B6372
-
-; Hijack the routine at 0x080B62F4 to jump to ours
-ldr r0, =ADDR_FN_VWF_MENU
-mov r15, r0
-.pool
-
-; Clear tiles2
-.org 0x080B6114
-.area 0x8
-ldr r6, =ADDR_FN_VWF_MENU_TILE_CLEAR
-mov r15, r6
-.pool
-.endarea
-
-.org ADDR_FN_VWF_MENU_TILE_CLEAR
-.area 0x60
-mov r9, r0
-lsl r1, r1, 0x10
-lsr r1, r1, 0x10
-mov r10, r1
-
-; DMA zeroes to clear tile data on the first call.
-ldr r6, =0x040000D4
-ldr r5, =0x020381D0
-ldr r5, [r5]
-ldr r0, =0x02036604
-cmp r5, r0
-bne no_clear
-ldr r5, =0x06008000
-mov r0, 0x00
-str r0, [r5, 0x00]
-str r5, [r6, 0x00]
-str r5, [r6, 0x04]
-ldr r0, =0x81002800
-str r0, [r6, 0x08]
-ldr r0, [r6, 0x08]
-no_clear:
-
-ldr r0, =0x080B611C
-mov r15, r0
+; Function process_script():
+; ARGS:
+;   r0 = x coord in tiles
+;   r1 = y coord in tiles
+;   r2 = script begin address
+;   r3 = 0xFFFFFFFF (???)
+;   [sp, 0x20] = ??? (looks like it's always 0x14, perhaps the width of screen?)
+;   [sp, 0x24] = palette color
+; RET: N/A
+.org FN_PROCESS_SCRIPT_START
+L_process_script:
+.area FN_PROCESS_SCRIPT_END - FN_PROCESS_SCRIPT_START
+ldr r3, [sp, 0x24]
+bl L_vwf_menu
+b FN_PROCESS_SCRIPT_END
 .pool
 .endarea
 
-;-----------------------------;
-; Beginning of my VWF routine ;
-; =========================== ;
-; Parameters passed in        ;
-; r1: tile index              ;
-; r2: glyph value             ;
-;-----------------------------;
+; Function vwf_menu():
+; ARGS:
+;   r0 = x coord in tiles (in units of 8)
+;   r1 = y coord in tiles (in units of 8)
+;   r2 = script begin address
+;   r3 = palette color
+; RET: N/A
+.org FN_MENU_START
+L_vwf_menu:
+.area FN_MENU_END - FN_MENU_START
+pushreg
 
-.org ADDR_FN_VWF_MENU
-.area 0x2A0
+; Setup registers
+mov r5, r0 ; r5 = x coord
+mov r6, r1 ; r6 = y coord
+mov r7, r2 ; r7 = script address
+mov r8, r3 ; r8 = palette
+mov r9, r0 ; r9 = original x coord
 
-; Swap glyph value
-mov r0, 0xFF
-and r0, r2
-lsr r2, r2, 0x08
-lsl r0, r0, 0x08
-orr r2, r0
-
-; INVARIANTS: r5 = glyph value, r6 = RAM address 0x0203FFF4
-ldr r6, =0x0203FFF4
-mov r5, r2
-
-mov r0, 0xFF
-and r2, r0
-; Handling custom control characters
-cmp r2, 0x1F
-bne not_bos
-; Do some RAM setup on begin-of-string character, 0x1F
+; Clear ram
 mov r0, 0x00
-str r0, [r6, 0x00]
-str r0, [r6, 0x04]
-strh r1, [r6, 0x00]
-strh r1, [r6, 0x04]
-; Clear the glyph data in RAM.
-mov r1, 0x00
-ldr r2, =0x0203692C
-@@clear_ram_loop:
-  str r1, [r2, r0]
-  add r0, 0x04
-  cmp r0, 0x50
-  blt @@clear_ram_loop
-b L_end_control_characters
-not_bos:
-cmp r2, 0x1E
-bne not_reset_position
-; Reset RAM
+bl FN_RAM_CLEAR
+
+@@L_loop:
+; Call vwf(), handling the special end of script 0xFFFF and newline 0xFEFF
+ldrh r0, [r7]
+lsr r1, r0, 0x08
+lsl r0, r0, 0x18
+lsr r0, r0, 0x10
+orr r0, r1
+ldr r1, =0xFFFF
+cmp r0, r1
+beq @@L_return
+ldr r1, =0xFEFF
+cmp r0, r1
+bne @@L_not_newline
+
+; Handle newlines
 mov r0, 0x00
-str r0, [r6, 0x00]
-str r0, [r6, 0x04]
-strh r1, [r6, 0x00]
-strh r1, [r6, 0x04]
-; Clear the glyph data in RAM.
-mov r1, 0x00
-ldr r2, =0x0203692C
-@@clear_ram_loop:
-  str r1, [r2, r0]
-  add r0, 0x04
-  cmp r0, 0x50
-  blt clear_ram_loop
-b L_end_control_characters
-not_reset_position:
-L_end_control_characters:
+bl FN_RAM_CLEAR
+add r6, 0x02
+mov r5, r9
+b @@L_loop_end
 
-draw_glyph:
-; Set r1 to the address of the first glyph
-mov r0, 0xFF
-mov r1, r5
-and r1, r0
-; Skip drawing of 0
-cmp r1, 0x00
-beq loop_draw_glyph
-lsl r1, r1, 0x04
-ldr r0, =ADDR_FONT
-add r1, r1, r0
+@@L_not_newline:
+mov r1, r8
+mov r2, 0x00
+bl FN_VWF
+mov r10, r0 ; r10 = return value
 
-push r0
-ldr r0, =ADDR_VAR_FONT_SET
-ldrb r0, [r0]
-; Add 0x900 * font set to the widths address
-lsl r0, 0x08
-add r1, r1, r0
-lsl r0, 0x03
-add r1, r1, r0
-pop r0
+; Update bg map
+mov r4, r10
+@@L_bg_map_loop:
+ldr r0, =ADDR_RAM_BG1
+mov r1, 0x1E
+mul r1, r6
+add r1, r1, r4
+add r1, r1, r5
+lsl r1, r1, 0x01
+lsl r2, r6, 0x05
+add r2, r2, r4
+add r2, r2, r5
+strh r2, [r0, r1]
+add r1, 2 * 0x1E
+add r2, 2 * 0x10
+strh r2, [r0, r1]
 
-; Copy glyph data onto stack with a shift depending on width of
-; remaining glyph.
-ldrb r2, [r6, 0x02]
+sub r4, 0x01
+cmp r4, 0x00
+bge @@L_bg_map_loop
+
+mov r4, r10
+; Copy glyph data to tiles
+@@L_copy_to_tile_loop:
+ldr r0, =ADDR_DMA
+ldr r1, =ADDR_GLYPH_BUFFER
+lsl r2, r4, 0x06
+add r1, r1, r2
+str r1, [r0, 0x00]
+ldr r2, =ADDR_TILE
+add r3, r4, r5
+lsl r3, r3, 0x05
+add r2, r2, r3
+lsl r3, r6, 0x0A
+add r2, r2, r3
+str r2, [r0, 0x04]
+ldr r3, =0x80000010
+str r3, [r0, 0x08]
+
+add r1, 0x20
+ldr r3, =0x0400
+add r2, r2, r3
+str r1, [r0, 0x00]
+str r2, [r0, 0x04]
+ldr r3, =0x80000010
+str r3, [r0, 0x08]
+
+sub r4, 0x01
+cmp r4, 0x00
+bge @@L_copy_to_tile_loop
+
+; Update glyph buffer
+mov r0, r10
+ldr r1, =ADDR_DMA
+ldr r2, =ADDR_GLYPH_BUFFER
+lsl r3, r0, 0x06
+add r3, r2, r3
+str r3, [r1]
+str r2, [r1, 0x04]
+ldr r3, =0x80000040
+str r3, [r1, 0x08]
+ldr r3, [r1, 0x08]
+add r2, 0x40
 mov r3, 0x00
-copy_data_loop:
-  ldrb r0, [r1, r3]
-  lsl r0, r2
-  ldr r4, =0x0203692C
-  ldrb r4, [r4, r3]
-  orr r0, r4
-  ldr r4, =0x0203692C
-  strb r0, [r4, r3]
-  add r3, 0x01
-  cmp r3, 0x10
-  blt copy_data_loop
+str r3, [r2]
+str r2, [r1]
+str r2, [r1, 0x04]
+ldr r3, =0x81000080
+str r3, [r1, 0x08]
+ldr r3, [r1, 0x08]
 
-; Call 0x080BEC2C to translate from 1bpp to 4bpp.
-ldr r0, =0x0203693C ; Destination
-ldr r1, =0x0203692C ; Source
-mov r2, 0x0F ; Font color
-mov r3, 0x02 ; Number of 8x8 blocks to translate
-; The following essentially does the same thing as
-; bl 0x080BEC2C.
-mov r4, pc
-add r4, r4, 0x7
-mov lr, r4
-ldr r4, =0x80BEC2C
-mov pc, r4
+add r5, r10
 
-; DMA top half
-ldr r0, =0x040000D4
-; Store the RAM source
-ldr r1, =0x0203693C
-str r1, [r0, 0x00]
-; Compute and store the tile destination
-ldr r1, =0x06008000
-ldrh r2, [r6, 0x00]
-lsl r2, r2, 0x05
-add r1, r1, r2
-str r1, [r0, 0x04]
-; Initiate DMA
-ldr r1, =0x80000010
-str r1, [r0, 0x08]
-ldr r1, [r0, 0x08]
+@@L_loop_end:
+add r7, 0x02
+b @@L_loop
 
-; DMA bottom half
-ldr r0, =0x040000D4
-; Store the RAM source
-ldr r1, =0x0203695C
-str r1, [r0, 0x00]
-; Compute and store the tile destination
-ldr r1, =0x06008000
-ldrh r2, [r6, 0x00]
-lsl r2, r2, 0x05
-add r1, r1, r2
-ldr r2, =0x0400
-add r1, r2
-str r1, [r0, 0x04]
-ldr r1, =0x80000010
-str r1, [r0, 0x08]
-ldr r1, [r0, 0x08]
-
-; Compute offset for next glyph
-mov r0, 0xFF
-mov r1, r5
-and r1, r0
-ldr r0, =ADDR_WIDTHS
-push r2
-ldr r2, =ADDR_VAR_FONT_SET
-ldrb r2, [r2]
-; Add 0x900 * font set to the widths address
-lsl r2, 0x08
-add r0, r0, r2
-lsl r2, 0x03
-add r0, r0, r2
-pop r2
-ldrb r0, [r0, r1]
-ldrb r2, [r6, 0x02]
-add r2, r2, r0
-add r2, 0x01
-mov r3, 0x07
-and r3, r2
-strh r3, [r6, 0x02]
-cmp r2, 0x08
-bge carryover
-
-loop_draw_glyph:
-lsr r5, r5, 0x08
-cmp r5, 0x00
-bne draw_glyph
-b return
-
-carryover:
-sub r2, 0x08
-; Increment tile index
-ldrh r1, [r6, 0x00]
+@@L_return:
+; Increment 0x0203B6CC to force the rest of the rendering to happen normally
+ldr r0, =0x0203B6CC
+ldrb r1, [r0]
 add r1, 0x01
-strh r1, [r6, 0x00]
-; Clear the RAM.
-mov r0, 0x00
-mov r1, 0x00
-ldr r2, =0x0203692C
-clear_ram_loop:
-  str r1, [r2, r0]
-  add r0, 0x04
-  cmp r0, 0x50
-  blt clear_ram_loop
-
-; Copy remaining.
-; r2 = width of glyph - number of pixels remaining
-;    = pixels to shift
-mov r0, 0xFF
-mov r1, r5
-and r1, r0
-ldrb r2, [r6, 0x02]
-ldr r3, =ADDR_WIDTHS
-push r0
-ldr r0, =ADDR_VAR_FONT_SET
-ldrb r0, [r0]
-; Add 0x900 * font set to the widths address
-lsl r0, 0x08
-add r3, r3, r0
-lsl r0, 0x03
-add r3, r3, r0
+strb r1, [r0]
+popreg
 pop r0
-ldrb r3, [r3, r1]
-sub r2, r3, r2
-add r2, 0x01
-; r1 = address of glyph data
-lsl r1, r1, 0x04
-ldr r0, =ADDR_FONT
-push r1
-ldr r1, =ADDR_VAR_FONT_SET
-ldrb r1, [r1]
-; Add 0x900 * font set to the widths address
-lsl r1, 0x08
-add r0, r0, r1
-lsl r1, 0x03
-add r0, r0, r1
-pop r1
-add r1, r1, r0
-; Shift and then copy over remaining glyph's data.
-mov r3, 0x00
-ldr r4, =0x0203692C
-copy_remaining_data_loop:
-  ldrb r0, [r1, r3]
-  lsr r0, r2
-  strb r0, [r4, r3]
-  add r3, 0x01
-  cmp r3, 0x10
-  blt copy_remaining_data_loop
-
-; Call 0x080BEC2C to translate from 1bpp to 4bpp.
-ldr r0, =0x0203693C ; Destination
-ldr r1, =0x0203692C ; Source
-mov r2, 0x0F ; Font color
-mov r3, 0x02 ; Number of 8x8 blocks to translate
-; The following essentially does the same thing as
-; bl 0x080BEC2C.
-mov r4, pc
-add r4, r4, 0x7
-mov lr, r4
-ldr r4, =0x80BEC2C
-mov pc, r4
-
-; DMA top half
-ldr r0, =0x040000D4
-; Store the RAM source
-ldr r1, =0x0203693C
-str r1, [r0, 0x00]
-; Compute and store the tile destination
-ldr r1, =0x06008000
-ldrh r2, [r6, 0x00]
-lsl r2, r2, 0x05
-add r1, r1, r2
-str r1, [r0, 0x04]
-; Initiate DMA
-ldr r1, =0x80000010
-str r1, [r0, 0x08]
-ldr r1, [r0, 0x08]
-
-; DMA bottom half
-ldr r0, =0x040000D4
-; Store the RAM source
-ldr r1, =0x0203695C
-str r1, [r0, 0x00]
-; Compute and store the tile destination
-ldr r1, =0x06008000
-ldrh r2, [r6, 0x00]
-lsl r2, r2, 0x05
-add r1, r1, r2
-ldr r2, =0x0400
-add r1, r2
-str r1, [r0, 0x04]
-ldr r1, =0x80000010
-str r1, [r0, 0x08]
-ldr r1, [r0, 0x08]
-
-b loop_draw_glyph
-
-return:
-ldr r0, =0x080B6372
-mov r15, r0
-
+bx r0
 .pool
 .endarea
 
-; Hack to allow double the characters per line.
-.org 0x080B5DCA
-ldrh r0, [r1]
-add r0, 0x1
-strh r0, [r1]
-
-.org 0x080B5FB8
-lsl r3, r3, 0x11
-
-.org 0x080B5FDA
-add r4, 0x02
-
-.org 0x080B613A
-ldrh r0, [r2]
-add r2, r2, 0x02
-str r2, [sp, 0xC]
-cmp r0, 0x00
-
-.org 0x080B61CC
-ldrh r2, [r6]
-
-.org 0x080B64A8
-mov r1, 0x02
-.org 0x080B64B0
-mov r1, 0x28
-.org 0x080B64C0
-mov r1, 0x28
-
-.org 0x080BD874
-lsl r2, r2, 0x03
-add r0, r0, r2
-lsl r0, r0, 0x01
-
-; bg piecing
-.org 0x080B628E
-ldr r4, =0x0203CF80
+; Dummy out this function
+.org 0x080B6108
+pushreg
+ldr r0, =0x0203B6CC
 mov r1, 0x00
-bg_loop1:
-  mov r2, 0x00
-  bg_loop2:
-    mov r5, r1
-    mov r6, 0x1E
-    mul r5, r6
-    add r5, r5, r2
-    lsl r5, 0x1
-    mov r3, r1
-    lsl r3, 0x05
-    add r3, r3, r2
-    strh r3, [r4, r5]
-    add r2, r2, 0x01
-    cmp r2, 0x1E
-    blt bg_loop2
-  add r1, r1, 0x01
-  cmp r1, 0x14
-  blt bg_loop1
-b 0x080B62EE
+strb r1, [r0]
+popreg
+pop r0
+bx r0
 .pool
 
-.close
+; 0x080B6108: This routine takes the 2d array of glyph values in 0x02036604, renders them
