@@ -91,6 +91,16 @@ mov r0, 0x0D
 .org 0x080B4964 ; Item name
 mov r0, 0x0C
 
+; Using a leaf page
+.org 0x080B4604
+mov r0, 0x0C
+
+; Sticker equip page
+.org 0x080B4588 ; "Peel off sticker"
+mov r0, 0x0B
+.org 0x080B45A8 ; Sticker name
+mov r0, 0x0C
+
 ; Spirits page
 .org 0x080B4738 ; Element
 mov r0, 0x0C
@@ -196,6 +206,8 @@ mov r0, 0x06
 ; SPRITE TEXT ;
 ;;;;;;;;;;;;;;;
 ; PROTIP: Put a breakpoint at 0x080B58F0 and look at where it's called from.
+
+;---New game text---;
 ; Positioning text for the "erase save" message when selecting "new game"
 ; Message position
 .org 0x080ACC74
@@ -261,5 +273,10 @@ strh r1, [r0, 0x06]
 ; "Is this correct?"
 .org 0x080AF624
 add r0, 0x24
+
+;---Menu text---;
+; Spirits page
+.org 0x080AA560 ; "Spirits Befriended"
+mov r0, 0x60
 
 .close
