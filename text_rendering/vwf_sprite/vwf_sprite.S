@@ -2,7 +2,6 @@
 .open "hacked.gba", 0x08000000
 ADDR_FONT   equ 0x08603900
 ADDR_WIDTHS equ 0x08604100
-ADDR_SHIFT equ 0x0203FFF1
 ADDR_FN_UPDATE_X equ 0x087F5BB0
 ADDR_FN_VWF_SPRITE equ 0x087F6130
 
@@ -13,8 +12,13 @@ ADDR_FN_VWF_SPRITE equ 0x087F6130
 ; game to not be lazy by unconditionally jumping.
 ; TODO: This fix is pretty CPU intensive. It'd be better if we could just get
 ; the to compare the full 16 bits of the glyphs.
-.org 0x080B66B4
-b 0x080B6720
+
+; This should ensure that we compare the full 16 bits. It looks like there's
+; an issue updating the x-coordinate however.
+.org 0x080B6656
+lsl r6, r2, 0x10
+.org 0x080B66A4
+lsl r0, r0, 0x10
 
 ; Disable the check that aborts drawing if a glyph has value > 0x0FFF
 .org 0x080B65C0
@@ -29,9 +33,18 @@ mov r15, r3
 ; x-coordinate update function
 .org ADDR_FN_UPDATE_X
 .area 0x80
-ldr r3, =ADDR_SHIFT
-ldrb r3, [r3]
+ldr r2, =ADDR_WIDTHS
+mov r3, r9
+lsl r3, r3, 0x18
+lsr r3, r3, 0x18
+ldrb r3, [r2, r3]
 add r0, r0, r3
+mov r3, r9
+lsr r3, r3, 0x08
+ldrb r3, [r2, r3]
+add r0, r0, r3
+add r0, r0, 0x02
+
 ldr r2, [sp, 0x2C]
 strh r0, [r2]
 lsl r0, r0, 0x10
@@ -166,15 +179,6 @@ ldr r5, [r2, 0x0C]
 lsr r5, r3
 and r5, r4
 str r5, [r7, 0x1C]
-
-; Update addr_shift
-ldr r2, =ADDR_WIDTHS
-ldrb r3, [r2, r0] ; r3 = glyph1's width
-ldrb r4, [r2, r1] ; r4 = glyph2's width
-ldr r2, =ADDR_SHIFT
-add r3, r3, r4
-add r3, r3, 0x02
-strb r3, [r2]
 
 ; Branch back to 0x080BEC0C to restore execution to the game
 return:
