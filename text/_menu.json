@@ -2386,7 +2386,7 @@
       ]
     },
     {
-      "English": "Current location:",
+      "English": "Now at:",
       "Japanese": "現在地：\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -10021,7 +10021,7 @@
       ]
     },
     {
-      "English": "Befriend Melody's\\fe\\ffwith fewer Vox coins.",
+      "English": "Befriend Catchy's with fewer$N$\nVox coins.",
       "Japanese": "ハミングと仲良くなるときに\\fe\\ffコストが低くてすむぞ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -10080,7 +10080,7 @@
       ]
     },
     {
-      "English": "Necessary to enter\\fe\\ffWetsomus Ruins.",
+      "English": "Necessary to enter Wetsomus$N$\nRuins.",
       "Japanese": "ベナコンチャ遺跡に入れる\\fe\\ffようになるぞ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -10129,7 +10129,7 @@
       ]
     },
     {
-      "English": "Lets you discover\\fe\\ffhidden Antsy's.",
+      "English": "Lets you discover hidden$N$\nAntsy's.",
       "Japanese": "隠れてる虫の精霊バズが見える\\fe\\ffようになるぞ。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -10182,7 +10182,7 @@
       ]
     },
     {
-      "English": "Opens the doors to\\fe\\ffErimust Palace.",
+      "English": "Opens the doors to Cold Honey$N$\nPalace.",
       "Japanese": "光の宮殿の門のカギを開ける\\fe\\ffことができるぞ。\\ff\\ff",
       "Comments": "",
       "u8": [

@@ -279,4 +279,61 @@ add r0, 0x24
 .org 0x080AA560 ; "Spirits Befriended"
 mov r0, 0x60
 
+; Map page
+.org 0x080AADF4 ; "Valencia Beach", "Light Realm", "Dark Realm", "Abyssal Realm"
+; Not enough space so making a jump
+; TODO: Remap address at the end.
+ldr r0, =0x880FEE0
+mov r15, r0
+.pool
+.org 0x0880FEE0
+mov r3, 0x01
+neg r3, r3
+mov r0, 0xE4
+str r0, [sp, 0x00]
+mov r0, 0x0F
+str r0, [sp, 0x04]
+mov r0, 0x01
+str r0, [sp, 0x08]
+str r7, [sp, 0x0C]
+; [r4] = 0 for valencia, 1 for light, 2 for dark, 3 for abyssal
+ldrb r1, [r4]
+mov r0, 0x6A ; "Valencia Beach"
+cmp r1, 0x00
+beq L1
+mov r0, 0x72 ; "Light Realm"
+cmp r1, 0x01
+beq L1
+mov r0, 0x74 ; "Dark Realm"
+cmp r1, 0x02
+beq L1
+mov r0, 0x6C ; "Abyssal Realm"
+L1:
+ldr r1, =0x080AAE12
+mov r15, r1
+.pool
+
+; Current realm's map
+.org 0x080AADA0 ; "Now at:"
+mov r0, 0x40
+.org 0x080AADBC ; Current location
+mov r0, 0x72
+.org 0x080AADC0 ; Disable truncation for location
+mov r3, 0x0F
+.org 0x080AAE96 ; Hovered location
+.org 0x080AAEB2 ; Disable truncation for location
+mov r3, 0x0F
+
+; Save screen
+.org 0x080A99CA ; "Now at:"
+mov r0, 0x40
+.org 0x080A99E8 ; Current location
+mov r0, 0x72
+.org 0x080A99EC ; Disable truncation for location
+mov r3, 0x0F
+.org 0x080B0348 ; Player name
+.org 0x080B058E ; Save file's location
+.org 0x080B05A8 ; Disable truncation for location
+mov r3, 0x0F
+
 .close
