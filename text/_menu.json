@@ -4044,9 +4044,9 @@
       ]
     },
     {
-      "English": "M",
+      "English": "]",
       "Japanese": "男\\ff\\ff",
-      "Comments": "",
+      "Comments": "This translates to the male symbol in the font.",
       "u8": [
         1,
         205,
@@ -4055,9 +4055,9 @@
       ]
     },
     {
-      "English": "F",
+      "English": "[",
       "Japanese": "女\\ff\\ff",
-      "Comments": "Should change to use ♀.",
+      "Comments": "This translates to the female symbol in the font.",
       "u8": [
         1,
         206,
