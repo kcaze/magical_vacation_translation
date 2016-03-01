@@ -6,12 +6,9 @@ ADDR_FN_UPDATE_X equ 0x087F5BB0
 ADDR_FN_VWF_SPRITE equ 0x087F6130
 
 ; The sprite drawing is lazy and it finds the first glyph that differs before
-; drawing. Unfortunately, it ands the glyph with 0x0FFF so we may have two
-; English glyphs that are different but the game treats the same. E.g. 0x4320
-; 0x7320 would be considered the same so the game wouldn't update. We force the
-; game to not be lazy by unconditionally jumping.
-; TODO: This fix is pretty CPU intensive. It'd be better if we could just get
-; the to compare the full 16 bits of the glyphs.
+; drawing. The game stored the palette in the highest nibble of a glyph, which
+; is an issue for comparing glyphs. We fix this by making the palette read/write
+; be at a different location so that we have the full glyph to compare
 
 ; This should ensure that we compare the full 16 bits. It looks like there's
 ; an issue updating the x-coordinate however.
@@ -19,6 +16,22 @@ ADDR_FN_VWF_SPRITE equ 0x087F6130
 lsl r6, r2, 0x10
 .org 0x080B66A4
 lsl r0, r0, 0x10
+
+; Change where the palette is written to / read from.
+.org 0x080B6670
+mov r0, r9
+strh r0, [r4]
+mov r0, r10
+ldrb r0, [r0, 0x0B]
+lsl r0, r0, 0x1C
+lsr r0, r0, 0x1C
+strb r0, [r4, 0x08]
+b 0x080B6692
+.org 0x080B67CA
+ldrb r0, [r1, 0x07]
+nop
+
+
 
 ; Disable the check that aborts drawing if a glyph has value > 0x0FFF
 .org 0x080B65C0
