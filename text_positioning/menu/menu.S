@@ -355,7 +355,10 @@ mov r3, 0x0F
 ; Sprites ;
 ;---------;
 ; PROTIP: Spirit sprites can be found by breakpointing at 0x080B1A4C
-;         Equipment icons can by found by breakpointing at 0x080B1180
+;         Icons sprites can be found by breakpointing at 0x080B1180
+;         Number sprites can be found by breakpointing at 0x080B2674
+;         Quill sprite can be found by breakpointing at 0x080BE848
+;             a lot of quill coords are stored in 0x080C3630-ish area
 
 ; Status page
 .org 0x080ABC10
@@ -369,6 +372,12 @@ mov r1, 0x42
 .org 0x080AC0D4
 mov r1, 0x42
 
+; Sticker page
+.org 0x080ADA92 ; Spirit icon
+mov r3, 0x4C
+.org 0x080ADB00 ; Number
+mov r0, 0xCC
+
 ; Magic page
 .org 0x080AC174
 mov r2, 0x5C
@@ -378,5 +387,11 @@ mov r2, 0x5C
 mov r1, 0x64
 .org 0x080AC4A2
 mov r0, 0x64
+
+; Equipment items page
+.org 0x080B1BA0 ; Number
+mov r0, 0xCC
+.org 0x080C3630 ; Quill
+.halfword 0x0040
 
 .close
