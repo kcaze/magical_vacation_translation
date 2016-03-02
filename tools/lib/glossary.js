@@ -231,7 +231,7 @@ var glossary = {
   "賢者のうでわ":"Thinker's Brace",
   "賢者のふく":"Thinker's Cloak",
   "賢者のくつ":"Thinker's Shoes",
-  "賢者の首かざり":"Thinker's Pendant",
+  "賢者の首かざり":"Thinker's Locket",
   "マジカルハット":"Magic Hat",
   "マジカルリング":"Magic Bangle",
   "マジカルマント":"Magic Cloak",

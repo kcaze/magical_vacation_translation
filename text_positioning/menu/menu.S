@@ -35,6 +35,14 @@ mov r0, 0x0A
 
 .org 0x080B3A62 ; Hyphens
 mov r0, 0x0A
+.org 0x080B3AA8
+mov r0, 0x0A
+.org 0x080B3AEE
+mov r0, 0x0A
+.org 0x080B3B34
+mov r0, 0x0A
+.org 0x080B3B7A
+mov r0, 0x0A
 
 .org 0x080B43EC ; Item to equip
 mov r0, 0x0A
@@ -278,6 +286,12 @@ add r0, 0x24
 ; Spirits page
 .org 0x080AA560 ; "Spirits Befriended"
 mov r0, 0x60
+.org 0x080B1860 ; "Beats:" and "Fears:"
+sub r4, 0x26
+.org 0x080B18BA ; top "None"
+mov r0, r6
+.org 0x080B18EA ; bottom "None"
+mov r0, r6
 
 ; Map page
 .org 0x080AADF4 ; "Valencia Beach", "Light Realm", "Dark Realm", "Abyssal Realm"
@@ -335,5 +349,34 @@ mov r3, 0x0F
 .org 0x080B058E ; Save file's location
 .org 0x080B05A8 ; Disable truncation for location
 mov r3, 0x0F
+
+
+;---------;
+; Sprites ;
+;---------;
+; PROTIP: Spirit sprites can be found by breakpointing at 0x080B1A4C
+;         Equipment icons can by found by breakpointing at 0x080B1180
+
+; Status page
+.org 0x080ABC10
+mov r1, 0xD4
+
+; Equipment page
+.org 0x080AC100
+mov r1, 0x42
+.org 0x080AD8A0
+mov r1, 0x42
+.org 0x080AC0D4
+mov r1, 0x42
+
+; Magic page
+.org 0x080AC174
+mov r2, 0x5C
+
+; Magic level page
+.org 0x080AC218
+mov r1, 0x64
+.org 0x080AC4A2
+mov r0, 0x64
 
 .close
