@@ -62,6 +62,30 @@ FN_SCRIPT_WRAPPER equ 0x08810000
 ;--------------------------;
 ; Script call (0x0800C186) ;
 ;--------------------------;
+; 0x0800B564 is called to load up a dialogue box. We modify the routine to
+; clean ram also.
+.org 0x0800B564
+ldr r3, =0x08810100 ;TODO: remap this address
+mov r15, r3
+.pool
+.org 0x08810100
+push r4-r7,r14
+mov r7, r8
+push r7
+lsl r0, r0, 0x10
+
+push r0-r2
+mov r0, 0x02
+ldr r3, =(. + 0x09)
+mov r14, r3
+ldr r3, =FN_RAM_CLEAR
+mov r15, r3
+pop r0-r2
+ldr r3, =0x0800B56C
+mov r15, r3
+.pool
+
+
 ; First character starts 5 tiles in instead of 4
 .org 0x0800BDB2
 mov r0, 0x05
@@ -84,7 +108,7 @@ push lr
 mov r1, r0
 mov r2, 0x00
 @@L_loop:
-lsl r0, 0x01
+lsl r0, 0x04
 orr r0, r1
 add r2, r2, 0x01
 cmp r2, 0x08
