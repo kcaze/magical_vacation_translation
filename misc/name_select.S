@@ -88,6 +88,10 @@ mov r2, 0x9F
 ; Move the other panels correctly.
 .org 0x080B0B6E
 mov r2, 0x4A
+.org 0x080B0AEA
+mov r2, 0x4A
+.org 0x080B0B08
+mov r2, 0x5A
 .org 0x080B0B7C
 mov r2, 0x5A
 .org 0x080B0BA6
