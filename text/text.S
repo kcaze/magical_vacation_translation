@@ -138,7 +138,6 @@ LENGTH_MENU_ELEMENT_DESCRIPTIONS equ 14
 .area SIZE_MENU_BESTIARY
 .incbin text/bestiary.bin
 .endarea
-.notice ADDR_MENU_SPECIES_DESCRIPTIONS
 .org ADDR_MENU_SPECIES_DESCRIPTIONS
 .area SIZE_MENU_SPECIES_DESCRIPTIONS
 .incbin text/species_descriptions.bin

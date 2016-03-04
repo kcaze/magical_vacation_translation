@@ -1,7 +1,7 @@
 .gba
 .open "hacked.gba", 0x08000000
 
-; Map an index x to 2 + 11*(x/9) + x%9 so that the
+; Map an index x to 11*(x/9) + x%9 so that the
 ; correct letter is used for a name.
 .org 0x080A65B2
 ; Not enough room here so branching to custom code.
@@ -18,7 +18,6 @@ mov r3, r2
 mov r2, 0x0B
 mul r0, r2
 add r0, r0, r1
-add r0, 0x02
 lsl r0, r0, 0x2
 ldr r1, =0x3904
 add r0, r0, r1
@@ -68,54 +67,16 @@ mov r1, 0x09
 .org 0x080BCBBC
 cmp r0, 0x4
 
-; TODO: This hack doesn't work since it affects moving up and down elsewhere in
-;       the game (e.g. the menu). Instead, should modify the menu so that the
-;       3rd and 4th buttons are DEL and OK respectively and then set the number
-;       of panels in the menu to 4.
-; Modify panel to skip the original ABC and Kanji panels
-; TODO: remap addresses at the end.
-;.org 0x080BC594
-;ldr r0, =0x0880B000
-;mov r15, r0
-;.pool
-;.org 0x080BC5C0
-;ldr r0, =0x0880C000
-;mov r15, r0
-;.pool
-; Move panel up
-;.org 0x0880B000
-; Hopefully safe to clobber r1
-;mov r0, 0x18
-;ldr r1, =(. + 0x9)
-;mov r14, r1
-;ldr r1, =0x0805B564
-;mov r15, r1
-;ldrh r0, [r6]
-;cmp r0, 0x4
-;bne L_no_up_skip
-;sub r0, 0x2
-;L_no_up_skip:
-;sub r0, 0x1
-;ldr r1, =0x080BC5DC
-;mov r15, r1
-;.pool
-; Move panel down
-;.org 0x0880C000
-;mov r0, 0x18
-;ldr r1, =(. + 0x9)
-;mov r14, r1
-;ldr r1, =0x0805B564
-;mov r15, r1
-;ldrh r0, [r6]
-;cmp r0, 0x1
-;bne L_no_down_skip
-;add r0, 0x2
-;L_no_down_skip:
-;add r0, 0x1
-;ldr r1, =0x080BC5DC
-;mov r15, r1
-;.pool
-; Hide the ABC and Kanji panels offscreen
+; Change function of 3rd panel to DEL and 4th panel to END
+.org 0x080A6528
+.word 0x080A6598
+.word 0x080A65A0
+
+; Change number of panels from 6 to 4
+.org 0x080A3CCC
+mov r3, 0x03
+
+; Hide the ABC and Kanji panels offscreen.
 .org 0x080B0B8A
 mov r2, 0x9F
 .org 0x080B0B98
@@ -124,7 +85,20 @@ mov r2, 0x9F
 mov r2, 0x9F
 .org 0x080B0B42
 mov r2, 0x9F
-; Hide the downwards arrow offscrenn
+; Move the other panels correctly.
+.org 0x080B0B6E
+mov r2, 0x4A
+.org 0x080B0B7C
+mov r2, 0x5A
+.org 0x080B0BA6
+mov r2, 0x6A
+.org 0x080B0BB4
+mov r2, 0x7A
+; Move the quill as well
+.org 0x080A1DDA
+mov r1, 0x4C
+lsl r1, r1, 0x10
+; Hide the downwards arrow offscreen
 .org 0x080B0AB2
 mov r1, 0xF4
 

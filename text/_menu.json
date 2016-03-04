@@ -4751,7 +4751,7 @@
       ]
     },
     {
-      "English": "\\1D\\01\nA$space$B$space$C$space$D$space$\n$space$$space$\nE$space$F$space$G$space$H$space$",
+      "English": "A$space$B$space$C$space$D$space$\n$space$$space$\nE$space$F$space$G$space$H$space$",
       "Japanese": "あいうえお[space]はひふへほ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4782,7 +4782,7 @@
       ]
     },
     {
-      "English": "\\1D\\01\nI$space$J$space$K$space$L$space$\n$space$$space$\nM$space$N$space$O$space$P$space$",
+      "English": "I$space$J$space$K$space$L$space$\n$space$$space$\nM$space$N$space$O$space$P$space$",
       "Japanese": "かきくけこ[space]まみむめも\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4813,7 +4813,7 @@
       ]
     },
     {
-      "English": "\\1D\\01\nQ$space$R$space$S$space$T$space$\n$space$$space$\nU$space$V$space$W$space$X$space$",
+      "English": "Q$space$R$space$S$space$T$space$\n$space$$space$\nU$space$V$space$W$space$X$space$",
       "Japanese": "さしすせそ[space]や[space]ゆ[space]よ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4844,7 +4844,7 @@
       ]
     },
     {
-      "English": "\\1D\\01\nY$space$Z$space$:$space$;$space$\n$space$$space$\n,$space$.$space$!$space$?$space$",
+      "English": "Y$space$Z$space$:$space$;$space$\n$space$$space$\n,$space$.$space$!$space$?$space$",
       "Japanese": "たちつてと[space]らりるれろ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5030,7 +5030,7 @@
       ]
     },
     {
-      "English": "\\1D\\01\na$space$b$space$c$space$d$space$\n$space$$space$\ne$space$f$space$g$space$h$space$",
+      "English": "a$space$b$space$c$space$d$space$\n$space$$space$\ne$space$f$space$g$space$h$space$",
       "Japanese": "アイウエオ[space]ハヒフヘホ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5061,7 +5061,7 @@
       ]
     },
     {
-      "English": "\\1D\\01\ni$space$j$space$k$space$l$space$\n$space$$space$\nm$space$n$space$o$space$p$space$",
+      "English": "i$space$j$space$k$space$l$space$\n$space$$space$\nm$space$n$space$o$space$p$space$",
       "Japanese": "カキクケコ[space]マミムメモ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5092,7 +5092,7 @@
       ]
     },
     {
-      "English": "\\1D\\01\nq$space$r$space$s$space$t$space$\n$space$$space$\nu$space$v$space$w$space$x$space$",
+      "English": "q$space$r$space$s$space$t$space$\n$space$$space$\nu$space$v$space$w$space$x$space$",
       "Japanese": "サシスセソ[space]ヤ[space]ユ[space]ヨ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5123,7 +5123,7 @@
       ]
     },
     {
-      "English": "\\1D\\01\ny$space$z$space$$music$$space$$heart$$space$\n$space$$space$\n+$space$-$space$*$space$/$space$",
+      "English": "y$space$z$space$$music$$space$$heart$$space$\n$space$$space$\n+$space$-$space$*$space$/$space$",
       "Japanese": "タチツテト[space]ラリルレロ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -104627,7 +104627,7 @@
   ],
   [
     {
-      "English": "A B C D E F G\\00\\00",
+      "English": "\\00\\00",
       "Japanese": "[space]\\ff\\ff",
       "Comments": "",
       "u8": [

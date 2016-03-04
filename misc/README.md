@@ -43,3 +43,9 @@ move panel up: 0x080BC596
 move panel down: 0x080BC5C8
 
 0x080B58F0: Write starting (x,y) for row of text. r0 = x, r1 = y
+
+------------------------------------
+0x080A6504: Looks like a routine that is called when A button is pressed for
+            the ABC, abc, etc.
+            0x02032908 is index of current panel. This is used to index into
+            0x080A6520 which is a switchboard of functions to call.

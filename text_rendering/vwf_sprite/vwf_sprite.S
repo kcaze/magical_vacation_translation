@@ -94,7 +94,24 @@ push r0-r7
 add r7, sp, 0x20 ; r7 = base address on stack we copy to.
 mov r0, 0xFF
 and r0, r3
+
+cmp r0, 0x20
+blt @L_not_drawable1
+cmp r0, 0x80
+blt @L_drawable1
+@L_not_drawable1:
+mov r0, 0x00
+@L_drawable1:
+
 lsr r3, r3, 0x08
+cmp r3, 0x20
+blt @L_not_drawable2
+cmp r3, 0x80
+blt @L_drawable2
+@L_not_drawable2:
+mov r3, 0x00
+@L_drawable2:
+
 lsl r0, r0, 0x08
 add r0, r0, r3
 mov r8, r0 ; r8 = swapped glyph values
