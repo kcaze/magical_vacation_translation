@@ -38,7 +38,14 @@ function preprocessScript(english) {
     words.forEach(function (w) {
       var width = 0;
       for (var ii = 0; ii < w.length; ii++) {
-        if (w[ii] == "\\") { ii += 2; continue; }
+        if (w[ii] == "\\") {
+          // Player control code, assume max width of 6 * 10 = 60
+          if (w[ii+1] == "8" && w[ii+2] == "5") {
+            width += 60;
+          }
+          ii += 2;
+          continue;
+        }
         if (w[ii] == "|") continue;
         width += (charWidths[w[ii]] || 0) + 1;
       }

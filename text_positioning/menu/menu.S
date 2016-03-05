@@ -81,6 +81,8 @@ nop
 nop
 .org 0x080B412C
 mov r0, 0x0C
+.org 0x080B4164 ; Hyphens
+mov r0, 0x0C
 
 ; Profile page
 .org 0x080B3F1A ; Description
@@ -90,10 +92,13 @@ mov r0, 0x0C
 .org 0x080B3F52 ; "Rank:"
 mov r0, 0x08
 .org 0x080B3F74 ; Rank?
+mov r0, 0x0D
 .org 0x080B3F8C ; "Mojo:"
 mov r0, 0x08
 .org 0x080B4042 ; Mojo hyphens
 mov r0, 0x0D
+
+; Magic Doll profile page
 
 ; All the items pages
 .org 0x080B4964 ; Item name
