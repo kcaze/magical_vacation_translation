@@ -1,6 +1,6 @@
 [
   {
-    "English": "Successfully Escaped",
+    "English": "",
     "Japanese": "逃げることにせいこうした",
     "Comments": "",
     "u8": [
@@ -420,7 +420,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "$n$\nObtained $red$$number$ $var_item$$black$!\\ff\\ff",
     "Japanese": "<br>\\8c\\2\\8e\\94\\8d\\0\\c8\\8e\\93\\2\\bd\\8d獲得！",
     "Comments": "",
     "u8": [
