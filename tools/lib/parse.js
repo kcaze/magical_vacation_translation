@@ -59,12 +59,12 @@ function insertLineBreaks(line, newlineInsert) {
     var width = 0;
     for (var ii = 0; ii < w.length; ii++) {
       if (w[ii] == "\\") {
-        // Player control code, assume max width of 6 * 10 = 60
+        // Player control code, assume max width of 6 * 9 = 54
         if (w[ii+1] == "8" && w[ii+2] == "5") {
-          width += 60;
+          width += 54;
         } else if (w[ii+1] == "9" && w[ii+2] == "3") {
-        // Money control code, assume max width of 6 * 10 = 60
-          width += 60;
+        // Money control code, assume max width of 6 * 7 = 42
+          width += 42;
         } else if (w[ii+1] == "8" && w[ii+2] == "7") {
         // Item control code.
           ii += 3;
