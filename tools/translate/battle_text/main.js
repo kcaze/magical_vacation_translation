@@ -1,5 +1,5 @@
 var battle_text;
-var number = 0;
+var number;
 var HEADER_SIZE = 0xBA;
 var BINARY_SIZE = 0x4DD;
 
@@ -19,9 +19,13 @@ function readJSON(e) {
     document.getElementById('max_number').innerHTML = battle_text.length - 1;
     document.getElementById('number').max = battle_text.length - 1;
     document.getElementById('number').value = 0;
+    number = 0;
 
     // Called each time so that updates to the parsing are reflected.
     generateJapanese(battle_text);
+    document.getElementById('japanese').innerHTML = battle_text[number].Japanese;
+    document.getElementById('english').value = battle_text[number].English;
+    document.getElementById('comments').value = battle_text[number].Comments;
   };
   fileReader.readAsText(file);
 }
@@ -161,7 +165,6 @@ document
 document
   .getElementById('number')
   .addEventListener('change', function(e) {
-    number = e.target.value;
     document.getElementById('japanese').innerHTML = battle_text[number].Japanese;
     document.getElementById('english').value = battle_text[number].English;
     document.getElementById('comments').value = battle_text[number].Comments;

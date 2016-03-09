@@ -1,6 +1,6 @@
 [
   {
-    "English": "",
+    "English": "Successfully Escaped",
     "Japanese": "逃げることにせいこうした",
     "Comments": "",
     "u8": [
@@ -421,7 +421,7 @@
   },
   {
     "English": "$n$\nObtained $red$$number$ $var_item$$black$!\\ff\\ff",
-    "Japanese": "<br>\\8c\\2\\8e\\94\\8d\\0\\c8\\8e\\93\\2\\bd\\8d獲得！",
+    "Japanese": "<br>\\8c\\2<span class=\"red\">\\94</span>を<span class=\"red\">\\93個</span>獲得！",
     "Comments": "",
     "u8": [
       128,
@@ -446,7 +446,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "$n$\nThe chest is empty.\\ff\\ff",
     "Japanese": "<br>\\8c\\6宝箱は空だった",
     "Comments": "",
     "u8": [
@@ -470,8 +470,8 @@
     ]
   },
   {
-    "English": "",
-    "Japanese": "\\8c\\2\\8e\\94\\8d\\0\\c8\\0\\ae\\0\\92\\0<br>たが<br>\\8c\\2いっぱいで持てなかった。",
+    "English": "You found a $var_item$ but don't have room for it.",
+    "Japanese": "\\8c\\2<span class=\"red\">\\94</span>をみつけたが<br>\\8c\\2いっぱいで持てなかった。",
     "Comments": "",
     "u8": [
       140,
@@ -521,8 +521,8 @@
     ]
   },
   {
-    "English": "",
-    "Japanese": "<br>\\8c\\6\\8e\\93ブラー\\8d\\3\\b9\\0\\0\\NaN",
+    "English": "Obtained $number$ Bura.",
+    "Japanese": "<br>\\8c\\6<span class=\"red\">\\93ブラー</span>得た",
     "Comments": "",
     "u8": [
       128,
@@ -544,7 +544,7 @@
     ]
   },
   {
-    "English": "No more room for Bura.",
+    "English": "You can't hold any more Bura.",
     "Japanese": "<br>これ以上お金を持つことはできません",
     "Comments": "",
     "u8": [
@@ -689,7 +689,7 @@
   },
   {
     "English": "Quit battle?",
-    "Japanese": "たいせんをやめますか<br>\\83\\0\\a2\\0\\72\\80\\83\\0\\72\\0\\72\\0\\76\\84",
+    "Japanese": "たいせんをやめますか<br>\\83はい<br>\\83いいえ\\84",
     "Comments": "",
     "u8": [
       0,
@@ -1073,7 +1073,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "All",
     "Japanese": "すべて",
     "Comments": "",
     "u8": [
@@ -1086,7 +1086,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "None",
     "Japanese": "なし",
     "Comments": "",
     "u8": [
@@ -1355,7 +1355,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "Please select 3 spirits.",
     "Japanese": "３つ精霊を選んでください",
     "Comments": "",
     "u8": [
@@ -1438,7 +1438,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "No",
     "Japanese": "いいえ",
     "Comments": "",
     "u8": [
@@ -1451,7 +1451,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "Don't pay",
     "Japanese": "はらわない",
     "Comments": "",
     "u8": [
@@ -1468,8 +1468,8 @@
     ]
   },
   {
-    "English": "",
-    "Japanese": "[space][space]\\94\\0\\c8\\0\\ae\\0\\92\\0<br>た",
+    "English": "You found a $var_item$.",
+    "Japanese": "[space][space]\\94をみつけた",
     "Comments": " ",
     "u8": [
       0,
@@ -1490,7 +1490,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "is now",
     "Japanese": "になった",
     "Comments": "",
     "u8": [
@@ -1570,7 +1570,7 @@
   },
   {
     "English": "",
-    "Japanese": "[space][space][space]称号：\\98\\80[space][space][space][space]\\95\\3\\20\\0\\20\\96敗",
+    "Japanese": "[space][space][space]称号：\\98<br>[space][space][space][space]\\95勝[space]\\96敗",
     "Comments": "",
     "u8": [
       0,
