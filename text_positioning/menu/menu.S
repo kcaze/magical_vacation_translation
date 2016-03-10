@@ -399,4 +399,23 @@ mov r0, 0xCC
 .org 0x080C3630 ; Quill
 .halfword 0x0040
 
+
+;;;;;;;;
+; MISC ;
+;;;;;;;;
+.org 0x08019322; Fears => Beats in battle spirit help screen
+mov r2, 0x0B ; Expand panel width
+.org 0x08019948 ; arrow y
+strh r2, [r1] ; A wicked hack. We want to store a halfword 0 in [r1] and it
+              ; turns out r2 = 0x00050000 here always. This gives us an extra
+              ; instruction.
+mov r0, 0xE3
+lsl r0, r0, 0x02
+add r0, 0x02
+.org 0x08019952 ; arrow x
+mov r0, 0x28
+
+.org 0x08016886 ; Spirit icons in spells in battle
+mov r0, 0x5E
+
 .close
