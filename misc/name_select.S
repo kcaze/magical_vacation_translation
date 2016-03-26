@@ -157,4 +157,12 @@ ldr r0, =0x080A9706
 mov r15, r0
 .pool
 
+; Pressing start jumps to correct panel.
+.org 0x080A3DAC
+mov r0, 0x03
+
+; Disable hidden character set when pressing select.
+.org 0x080A3DE4
+mov r0, 0x00
+
 .close
