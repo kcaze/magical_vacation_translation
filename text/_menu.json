@@ -3772,7 +3772,7 @@
       ]
     },
     {
-      "English": "\nThe save file for your adventure up$N$\nuntil now will be erased. This will not$N$\naffect your Amigo list.$N$$N$\nIs that all right?",
+      "English": "The save file for your adventure up$N$\nuntil now will be erased. This will$N$\nnot affect your Amigo list.$N$$N$\nIs that all right?",
       "Japanese": "[space]これまでの冒険のデータが\\fe\\ff[space]消えますが、よろしいですか?\\fe\\ff（アミーゴリストは消えません）\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4751,7 +4751,7 @@
       ]
     },
     {
-      "English": "A$space$B$space$C$space$D$space$\n$space$$space$\nE$space$F$space$G$space$H$space$",
+      "English": "A$align$B$align$C$align$D$align$\n$space$$space$\nE$align$F$align$G$align$H$align$",
       "Japanese": "あいうえお[space]はひふへほ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4782,7 +4782,7 @@
       ]
     },
     {
-      "English": "I$space$J$space$K$space$L$space$\n$space$$space$\nM$space$N$space$O$space$P$space$",
+      "English": "I$align$J$align$K$align$L$align$\n$space$$space$\nM$align$N$align$O$align$P$align$",
       "Japanese": "かきくけこ[space]まみむめも\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4813,7 +4813,7 @@
       ]
     },
     {
-      "English": "Q$space$R$space$S$space$T$space$\n$space$$space$\nU$space$V$space$W$space$X$space$",
+      "English": "Q$align$R$align$S$align$T$align$\n$space$$space$\nU$align$V$align$W$align$X$align$",
       "Japanese": "さしすせそ[space]や[space]ゆ[space]よ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -4844,7 +4844,7 @@
       ]
     },
     {
-      "English": "Y$space$Z$space$:$space$;$space$\n$space$$space$\n,$space$.$space$!$space$?$space$",
+      "English": "Y$align$Z$align$:$align$;$align$\n$space$$space$\n,$align$.$align$!$align$?$align$",
       "Japanese": "たちつてと[space]らりるれろ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5030,7 +5030,7 @@
       ]
     },
     {
-      "English": "a$space$b$space$c$space$d$space$\n$space$$space$\ne$space$f$space$g$space$h$space$",
+      "English": "a$align$b$align$c$align$d$align$\n$space$$space$\ne$align$f$align$g$align$h$align$",
       "Japanese": "アイウエオ[space]ハヒフヘホ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5061,7 +5061,7 @@
       ]
     },
     {
-      "English": "i$space$j$space$k$space$l$space$\n$space$$space$\nm$space$n$space$o$space$p$space$",
+      "English": "i$align$j$align$k$align$l$align$\n$space$$space$\nm$align$n$align$o$align$p$align$",
       "Japanese": "カキクケコ[space]マミムメモ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5092,7 +5092,7 @@
       ]
     },
     {
-      "English": "q$space$r$space$s$space$t$space$\n$space$$space$\nu$space$v$space$w$space$x$space$",
+      "English": "q$align$r$align$s$align$t$align$\n$space$$space$\nu$align$v$align$w$align$x$align$",
       "Japanese": "サシスセソ[space]ヤ[space]ユ[space]ヨ\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -5123,7 +5123,7 @@
       ]
     },
     {
-      "English": "y$space$z$space$$music$$space$$heart$$space$\n$space$$space$\n+$space$-$space$*$space$/$space$",
+      "English": "y$align$z$align$$music$$align$$heart$$align$\n$space$$space$\n+$align$-$align$*$align$/$align$",
       "Japanese": "タチツテト[space]ラリルレロ\\ff\\ff",
       "Comments": "",
       "u8": [

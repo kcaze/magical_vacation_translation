@@ -34,5 +34,3 @@ Some of my custom control codes (values in the range [0x10, 0x1F])
 0x1D switch font set. Takes a byte argument for the font set to switch to.
 0x1E newline cleanup for vwf_menu. used so that position is recalibrated after a
      newline.
-0x1F beginning of string marker, inserted so that RAM is reset properly. Takes
-     an additional byte argument for the font set to switch to.

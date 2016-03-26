@@ -31,8 +31,6 @@ b 0x080B6692
 ldrb r0, [r1, 0x07]
 nop
 
-
-
 ; Disable the check that aborts drawing if a glyph has value > 0x0FFF
 .org 0x080B65C0
 .word 0x0000F0F0
@@ -47,16 +45,29 @@ mov r15, r3
 .org ADDR_FN_UPDATE_X
 .area 0x80
 ldr r2, =ADDR_WIDTHS
-mov r3, r9
-lsl r3, r3, 0x18
-lsr r3, r3, 0x18
-ldrb r3, [r2, r3]
-add r0, r0, r3
-mov r3, r9
+
+mov r3, r9 ; first character
 lsr r3, r3, 0x08
 ldrb r3, [r2, r3]
 add r0, r0, r3
-add r0, r0, 0x02
+
+mov r3, r9 ; second character
+lsl r3, r3, 0x18
+lsr r3, r3, 0x18
+cmp r3, 0x1C ; 0x1C = align width character.
+bne L_not_align
+add r0, 0x10
+mov r3, r9
+lsr r3, r3, 0x08
+ldrb r3, [r2, r3]
+sub r0, r0, r3
+b L_not_align_end
+L_not_align:
+ldrb r3, [r2, r3]
+add r0, r0, r3
+add r0, r0, 0x02 ; Insert 2 pixels of space.
+L_not_align_end:
+
 
 ldr r2, [sp, 0x2C]
 strh r0, [r2]

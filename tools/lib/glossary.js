@@ -27,6 +27,7 @@ var glossary = {
   "HEART":"\\7C",
   "space":"\\7F", // 8 pixel space
   "SPACE":"\\7F",
+  "align":"\\1C", // grid alignment used for name selection
   "Miss Madeleine":"|\\86\\1C",
   "Kirsche":"|\\86\\02",
   "Blueberry":"|\\86\\03",
