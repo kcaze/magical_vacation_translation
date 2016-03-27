@@ -158,6 +158,8 @@ mov r15, r0
 .pool
 
 ; Pressing start jumps to correct panel.
+.org 0x080A3CB2
+mov r0, 0x03
 .org 0x080A3DAC
 mov r0, 0x03
 

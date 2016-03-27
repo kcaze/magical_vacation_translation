@@ -9,6 +9,10 @@ FN_BG1_TEXT equ 0x080B57D8
 ; PROTIP: Put a breakpoint at 0x080B57D8 and look at where it's called from.
 ;         r0 is the x and r1 is the y.
 
+; Choose element page
+.org 0x080B3114
+mov r0, 0x11 ; "B button: return"
+
 ; Status page
 .org 0x080B3966 ; "Gender:"
 mov r0, 0x0C
