@@ -1,6 +1,13 @@
 .gba
 .open "hacked.gba", 0x08000000
 
+;---------------------;
+; Translated cutscene ;
+;---------------------;
+ADDR_CUTSCENE equ 0x086C7E48
+.org ADDR_CUTSCENE
+.incbin text/cutscene.bin
+
 ;------------------;
 ; Translated names ;
 ;------------------;

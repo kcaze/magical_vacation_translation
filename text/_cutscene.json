@@ -1,7 +1,7 @@
 [
   {
     "English": "",
-    "Japanese": "魔法大国と呼ばれる小さな国、<fdff><2800><feff>コヴォマカ国で、<fdff><2800><feff>ある、<fdff><1400>一つの大きな戦争が<fdff><1400><feff>歴史から隠されようとしていました。<ffff>",
+    "Japanese": "魔法大国と呼ばれる小さな国、&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;コヴォマカ国で、&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;ある、&lt;fdff&gt;&lt;1400&gt;一つの大きな戦争が&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;歴史から隠されようとしていました。&lt;ffff&gt;",
     "Comments": "",
     "u8": [
       0,
@@ -134,7 +134,7 @@
   },
   {
     "English": "",
-    "Japanese": "剣聖や魔道士と呼ばれた者の多くが、<fdff><2800><feff>この戦いで命を落とし、<fdff><2800><feff>コヴォマカ国は大きな打撃を受けました。<ffff>",
+    "Japanese": "剣聖や魔道士と呼ばれた者の多くが、&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;この戦いで命を落とし、&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;コヴォマカ国は大きな打撃を受けました。&lt;ffff&gt;",
     "Comments": "",
     "u8": [
       0,
@@ -249,7 +249,7 @@
   },
   {
     "English": "",
-    "Japanese": "しかし、<fdff><1400>戦った相手はおろか、<fdff><1400>戦争が<fdff><1400><feff>あったことすらも国民には伏せられ、<fdff><2800><feff>ただ、<fdff><1400>魔法の実験にともなう事故で<fdff><1400><feff>多くの死者が出たとだけ伝えられました。<ffff>",
+    "Japanese": "しかし、&lt;fdff&gt;&lt;1400&gt;戦った相手はおろか、&lt;fdff&gt;&lt;1400&gt;戦争が&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;あったことすらも国民には伏せられ、&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;ただ、&lt;fdff&gt;&lt;1400&gt;魔法の実験にともなう事故で&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;多くの死者が出たとだけ伝えられました。&lt;ffff&gt;",
     "Comments": "",
     "u8": [
       0,
@@ -426,7 +426,7 @@
   },
   {
     "English": "",
-    "Japanese": "戦火につつまれたのは、<fdff><1400>たったの３日。<fdff><3c00><feff>その前も、<fdff><1400>その後も、<fdff><2800><feff>コヴォマカ国は平和そのもの、<fdff><2800><feff>ただ、<fdff><1400>一人の男が、<fdff><1400>次の戦いにそなえて<fdff><1400><feff>走り回っているだけでした。<ffff>",
+    "Japanese": "戦火につつまれたのは、&lt;fdff&gt;&lt;1400&gt;たったの３日。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt;その前も、&lt;fdff&gt;&lt;1400&gt;その後も、&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;コヴォマカ国は平和そのもの、&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;ただ、&lt;fdff&gt;&lt;1400&gt;一人の男が、&lt;fdff&gt;&lt;1400&gt;次の戦いにそなえて&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;走り回っているだけでした。&lt;ffff&gt;",
     "Comments": "",
     "u8": [
       0,
@@ -620,8 +620,8 @@
     ]
   },
   {
-    "English": "",
-    "Japanese": "  魔法王国コヴォマカ<fdff><1400><feff>この国のはずれの小さな村に<fdff><1400><feff>一人の少年がいました。<ffff>",
+    "English": "\\00H\\00E\\00L\\00L\\00O",
+    "Japanese": "  魔法王国コヴォマカ&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;この国のはずれの小さな村に&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;一人の少年がいました。&lt;ffff&gt;",
     "Comments": "",
     "u8": [
       0,
@@ -712,7 +712,7 @@
   },
   {
     "English": "",
-    "Japanese": "少年には、<fdff><1400>精霊が見えていました。<fdff><3c00><feff>道ばたに落ちている、<fdff><1400>石ころや木の枝に<fdff><1400><feff>精霊がひそんでいることを<fdff><1400><feff>少年は知っていました。<ffff>",
+    "Japanese": "少年には、&lt;fdff&gt;&lt;1400&gt;精霊が見えていました。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt;道ばたに落ちている、&lt;fdff&gt;&lt;1400&gt;石ころや木の枝に&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;精霊がひそんでいることを&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;少年は知っていました。&lt;ffff&gt;",
     "Comments": "",
     "u8": [
       0,
@@ -861,7 +861,7 @@
   },
   {
     "English": "",
-    "Japanese": "座り込んで精霊と話をする少年の姿を<fdff><1400><feff>村の人たちは無気味に思いました。<fdff><3c00><feff>やがて少年は無視され、<fdff><1400>ウソツキと<fdff><1400><feff>ののしられるようになりました。<ffff>",
+    "Japanese": "座り込んで精霊と話をする少年の姿を&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;村の人たちは無気味に思いました。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt;やがて少年は無視され、&lt;fdff&gt;&lt;1400&gt;ウソツキと&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;ののしられるようになりました。&lt;ffff&gt;",
     "Comments": "",
     "u8": [
       0,
@@ -1020,7 +1020,7 @@
   },
   {
     "English": "",
-    "Japanese": "そんなある日、<fdff><1400>一人の老紳士が<fdff><1400><feff>少年の家を訪ねて来ました。<fdff><3c00><feff>この人こそ、<fdff><1400>大陸に魔法をもたらした<fdff><1400><feff>大魔法使い、<fdff><1400>グラン・ドラジェでした。<fdff><3c00><feff>「キミは精霊が好きかい？」<fdff><2800><feff>「うん！ <fdff><1400>大好きだよ！」<fdff><2800><feff>「もっと精霊と仲良くしたいかい？」<fdff><2800><feff>「もちろん！」<ffff>",
+    "Japanese": "そんなある日、&lt;fdff&gt;&lt;1400&gt;一人の老紳士が&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;少年の家を訪ねて来ました。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt;この人こそ、&lt;fdff&gt;&lt;1400&gt;大陸に魔法をもたらした&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;大魔法使い、&lt;fdff&gt;&lt;1400&gt;グラン・ドラジェでした。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt;「キミは精霊が好きかい？」&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;「うん！ &lt;fdff&gt;&lt;1400&gt;大好きだよ！」&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;「もっと精霊と仲良くしたいかい？」&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;「もちろん！」&lt;ffff&gt;",
     "Comments": "",
     "u8": [
       0,
@@ -1309,7 +1309,7 @@
   },
   {
     "English": "",
-    "Japanese": "少年の目には、<fdff><1400>大魔法使いの肩に集う<fdff><1400><feff>無数の精霊の姿が見えていました。<fdff><3c00><feff>こうして、<fdff><1400>少年はグラン・ドラジェが<fdff><1400><feff>校長を務める魔法学校、<fdff><1e00><feff>ウィルオウィスプに通うことを決意<fdff><a00><feff>しました。<ffff>",
+    "Japanese": "少年の目には、&lt;fdff&gt;&lt;1400&gt;大魔法使いの肩に集う&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;無数の精霊の姿が見えていました。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt;こうして、&lt;fdff&gt;&lt;1400&gt;少年はグラン・ドラジェが&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;校長を務める魔法学校、&lt;fdff&gt;&lt;1e00&gt;&lt;feff&gt;ウィルオウィスプに通うことを決意&lt;fdff&gt;&lt;a00&gt;&lt;feff&gt;しました。&lt;ffff&gt;",
     "Comments": "",
     "u8": [
       0,
@@ -1520,7 +1520,7 @@
   },
   {
     "English": "",
-    "Japanese": "学校の寮へ向かう道すがら、<fdff><2800><feff>グラン・ドラジェは少年に語りました。<fdff><3c00><feff>「私の学校を出たものの多くは<fdff><1400><feff> 国の要職についている。<fdff><3c00><feff> だけど、<fdff><1400>私が魔法を教えているのは<fdff><1400><feff> そんなことのためではない。<fdff><3c00><feff> 私がキミに伝えたいのは全て。<fdff><3c00><feff> この世界にあるもの全て。<fdff><3c00><feff> 最後にはそれが、<fdff><1400>キミの意思だけで<fdff><1400><feff> 自由に動くようになる。<ffff>",
+    "Japanese": "学校の寮へ向かう道すがら、&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;グラン・ドラジェは少年に語りました。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt;「私の学校を出たものの多くは&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt; 国の要職についている。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt; だけど、&lt;fdff&gt;&lt;1400&gt;私が魔法を教えているのは&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt; そんなことのためではない。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt; 私がキミに伝えたいのは全て。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt; この世界にあるもの全て。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt; 最後にはそれが、&lt;fdff&gt;&lt;1400&gt;キミの意思だけで&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt; 自由に動くようになる。&lt;ffff&gt;",
     "Comments": "",
     "u8": [
       0,
@@ -1881,7 +1881,7 @@
   },
   {
     "English": "",
-    "Japanese": "  魔法王国コヴォマカ<fdff><1400><feff>この国のはずれの小さな村に<fdff><1400><feff>一人の少女がいました。<ffff>",
+    "Japanese": "  魔法王国コヴォマカ&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;この国のはずれの小さな村に&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;一人の少女がいました。&lt;ffff&gt;",
     "Comments": "",
     "u8": [
       0,
@@ -1972,7 +1972,7 @@
   },
   {
     "English": "",
-    "Japanese": "少女には、<fdff><1400>精霊が見えていました。<fdff><3c00><feff>道ばたに落ちている、<fdff><1400>石ころや木の枝に<fdff><1400><feff>精霊がひそんでいることを<fdff><1400><feff>少女は知っていました。<ffff>",
+    "Japanese": "少女には、&lt;fdff&gt;&lt;1400&gt;精霊が見えていました。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt;道ばたに落ちている、&lt;fdff&gt;&lt;1400&gt;石ころや木の枝に&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;精霊がひそんでいることを&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;少女は知っていました。&lt;ffff&gt;",
     "Comments": "",
     "u8": [
       0,
@@ -2121,7 +2121,7 @@
   },
   {
     "English": "",
-    "Japanese": "座り込んで精霊と話をする少女の姿を<fdff><1400><feff>村の人たちは無気味に思いました。<fdff><3c00><feff>やがて少女は無視され、<fdff><1400>ウソツキと<fdff><1400><feff>ののしられるようになりました。<ffff>",
+    "Japanese": "座り込んで精霊と話をする少女の姿を&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;村の人たちは無気味に思いました。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt;やがて少女は無視され、&lt;fdff&gt;&lt;1400&gt;ウソツキと&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;ののしられるようになりました。&lt;ffff&gt;",
     "Comments": "",
     "u8": [
       0,
@@ -2280,7 +2280,7 @@
   },
   {
     "English": "",
-    "Japanese": "そんなある日、<fdff><1400>一人の老紳士が<fdff><1400><feff>少女の家を訪ねて来ました。<fdff><3c00><feff>この人こそ、<fdff><1400>大陸に魔法をもたらした<fdff><1400><feff>大魔法使い、<fdff><1400>グラン・ドラジェでした。<fdff><3c00><feff>「キミは精霊が好きかい？」<fdff><2800><feff>「ええ！ <fdff><1400>大好きよ！」<fdff><2800><feff>「もっと精霊と仲良くしたいかい？」<fdff><2800><feff>「もちろんよ！」<ffff>",
+    "Japanese": "そんなある日、&lt;fdff&gt;&lt;1400&gt;一人の老紳士が&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;少女の家を訪ねて来ました。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt;この人こそ、&lt;fdff&gt;&lt;1400&gt;大陸に魔法をもたらした&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;大魔法使い、&lt;fdff&gt;&lt;1400&gt;グラン・ドラジェでした。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt;「キミは精霊が好きかい？」&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;「ええ！ &lt;fdff&gt;&lt;1400&gt;大好きよ！」&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;「もっと精霊と仲良くしたいかい？」&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;「もちろんよ！」&lt;ffff&gt;",
     "Comments": "",
     "u8": [
       0,
@@ -2569,7 +2569,7 @@
   },
   {
     "English": "",
-    "Japanese": "少女の目には、<fdff><1400>大魔法使いの肩に集う<fdff><1400><feff>無数の精霊の姿が見えていました。<fdff><3c00><feff>こうして、<fdff><1400>少女はグラン・ドラジェが<fdff><1400><feff>校長を務める魔法学校、<fdff><1e00><feff>ウィルオウィスプに通うことを決意<fdff><a00><feff>しました。<ffff>",
+    "Japanese": "少女の目には、&lt;fdff&gt;&lt;1400&gt;大魔法使いの肩に集う&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;無数の精霊の姿が見えていました。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt;こうして、&lt;fdff&gt;&lt;1400&gt;少女はグラン・ドラジェが&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;校長を務める魔法学校、&lt;fdff&gt;&lt;1e00&gt;&lt;feff&gt;ウィルオウィスプに通うことを決意&lt;fdff&gt;&lt;a00&gt;&lt;feff&gt;しました。&lt;ffff&gt;",
     "Comments": "",
     "u8": [
       0,
@@ -2780,7 +2780,7 @@
   },
   {
     "English": "",
-    "Japanese": "学校の寮へ向かう道すがら、<fdff><2800><feff>グラン・ドラジェは少女に語りました。<fdff><3c00><feff>「私の学校を出たものの多くは<fdff><1400><feff> 国の要職についている。<fdff><3c00><feff> だけど、<fdff><1400>私が魔法を教えているのは<fdff><1400><feff> そんなことのためではない。<fdff><3c00><feff> 私がキミに伝えたいのは全て。<fdff><3c00><feff> この世界にあるもの全て。<fdff><3c00><feff> 最後にはそれが、<fdff><1400>キミの意思だけで<fdff><1400><feff> 自由に動くようになる。<ffff>",
+    "Japanese": "学校の寮へ向かう道すがら、&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;グラン・ドラジェは少女に語りました。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt;「私の学校を出たものの多くは&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt; 国の要職についている。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt; だけど、&lt;fdff&gt;&lt;1400&gt;私が魔法を教えているのは&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt; そんなことのためではない。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt; 私がキミに伝えたいのは全て。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt; この世界にあるもの全て。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt; 最後にはそれが、&lt;fdff&gt;&lt;1400&gt;キミの意思だけで&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt; 自由に動くようになる。&lt;ffff&gt;",
     "Comments": "",
     "u8": [
       0,

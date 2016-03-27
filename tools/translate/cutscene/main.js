@@ -3,44 +3,6 @@ var number;
 var HEADER_LENGTH = 16;
 var BINARY_SIZE = 0xBF4;
 
-function readBinary(e) {
-  var file = e.target.files[0];
-  var fileReader = new FileReader();
-  script = [];
-  for (var ii = 0; ii < HEADER_LENGTH; ii++) {
-    script.push({English: "", Japanese: "", Comments: "", u8: []});
-  }
-  fileReader.onload = function (e) {
-    var bin = new Uint8Array(e.target.result);
-    console.log(bin.length);
-    for (var ii = 0; ii < HEADER_LENGTH - 1; ii++) {
-      var beginOffset = bin[2*ii] + (bin[2*ii+1] << 8) + HEADER_LENGTH * 2;
-      var endOffset = bin[2*ii + 2] + (bin[2*ii+3] << 8) + HEADER_LENGTH * 2;
-      for (var jj = beginOffset; jj < endOffset; jj += 2) {
-        script[ii].u8.push(bin[jj]);
-        script[ii].u8.push(bin[jj + 1]);
-      }
-    }
-    var offset = bin[2*HEADER_LENGTH - 2] + (bin[2*HEADER_LENGTH - 1] << 8);
-    for (var ii = offset + 2*HEADER_LENGTH; ii < bin.length; ii += 2) {
-      script[HEADER_LENGTH-1].u8.push(bin[ii]);
-      script[HEADER_LENGTH-1].u8.push(bin[ii + 1]);
-    }
-    for (var ii = 0; ii < HEADER_LENGTH; ii++) {
-      for (var jj = 0; jj < script[ii].u8.length; jj += 2) {
-        var c = (script[ii].u8[jj] << 8) + script[ii].u8[jj + 1];
-        if (table[c]) {
-          script[ii].Japanese += table[c];
-        } else {
-          script[ii].Japanese += "<" + c.toString(16) + ">";
-        }
-      }
-    }
-    document.getElementById('export_json').disabled = false;
-  }
-  fileReader.readAsArrayBuffer(file);
-}
-
 function readScript(e) {
   var file = e.target.files[0]; // FileList object
   var fileReader = new FileReader();
@@ -80,68 +42,28 @@ function exportBinary() {
   if (!script) return;
   var binary = new Uint8Array(BINARY_SIZE);
 
-  var idx = 2*(script.length+1);
-  for (var ii = 2; ii < script.length; ii++) {
-    var data = [];
+  var offset = 0;
+  for (var ii = 0; ii < script.length; ii++) {
+    binary[2*ii] = offset & 0xFF;
+    binary[2*ii + 1] = (offset >> 8) & 0xFF;
 
-    if (script[ii].English == '') {
-      // Copy original data.
-      for (jj = 0; jj < script[ii].u8.length; jj++) {
-        data.push(script[ii].u8[jj]);
-      }
-    } else {
-      var english = script[ii].English;
-      // Auto insert character portraits
-      if (script[ii].u8[0] == 0x8b) {
-        var s = script[ii].u8[1].toString(16);
-        if (s.length == 1) s = "0" + s;
-        english = "\\8b\\" + s + "\\1f\\00" + english;
-      } else {
-        english = "\\1f\\00" + english;
-      }
-      english += "|\\ff\\ff";
-      english = preprocessScript(
-                substituteMacros(english));
-      data = parseEnglish(english);
-    }
-
-    // Don't include debug menu translations.
-    if (1626 <= ii && ii <= 1647) {
-      data = [];
-    }
-
+    var english = script[ii].English;
+    english = preprocessScript(
+              substituteMacros(english));
+    data = parseEnglish(english);
     for (var jj = 0; jj < data.length; jj++) {
-      binary[idx + jj] = data[jj];
+      binary[2*HEADER_LENGTH + offset + jj] = data[jj];
     }
-
-    var offset = idx % 65536;
-    binary[2*ii] = offset % 256;
-    binary[2*ii+1] = offset >> 8;
-
-    idx += data.length;
+    offset += data.length;
   }
 
-  // Warn if the English script is too long.
-  if (idx >= BINARY_SIZE) {
-    console.log(
-      "WARNING: English script has length ",
-      idx,
-      " which is ",
-      idx - BINARY_SIZE + 1,
-      " bytes too long!"
-    );
+  if (offset >= BINARY_SIZE) {
+    console.log("Translated text overflows by " + (offset-BINARY_SIZE+1).toString(10) + " bytes.");
   }
-
-  // The first 2 offsets are hardcoded.
-  binary[0] = 0x00; binary[1] = 0x00; binary[2] = 0x70; binary[3] = 0x17;
-
-  // Duplicate the last offset
-  binary[2*script.length+1] = binary[2*script.length - 1];
-  binary[2*script.length] = binary[2*script.length - 2];
 
   saveAs(
     new Blob([new DataView(binary.buffer)], {type: 'application/octet-stream'}),
-    "script.bin"
+    "cutscene.bin"
   );
 }
 
@@ -168,10 +90,6 @@ function english_search() {
 document
   .getElementById('script')
   .addEventListener('change', readScript, false);
-
-document
-  .getElementById('binary')
-  .addEventListener('change', readBinary, false);
 
 document
   .getElementById('export_json')
@@ -209,7 +127,6 @@ document
   .getElementById('english_search')
   .addEventListener('click', english_search);
 
-/*
 function heartBeat() {
   if (!script) return;
   var newNumber = parseInt(document.getElementById('number').value, 10);
@@ -245,4 +162,4 @@ document.addEventListener('keydown', function (e) {
     e.preventDefault();
     e.stopPropagation();
   }
-});*/
+});
