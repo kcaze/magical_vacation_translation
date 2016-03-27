@@ -253,7 +253,7 @@ mov r1, 0x03 ; y
 
 ; Positioning text for "Which element do you choose?"
 .org 0x080ACE26
-mov r0, 0x24 ; x
+mov r0, 0x20 ; x
 mov r1, 0x08 ; y
 
 ; Positioning text for element name in element choosing

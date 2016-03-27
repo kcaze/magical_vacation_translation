@@ -10,8 +10,7 @@ ADDR_FN_VWF_SPRITE equ 0x087F6130
 ; is an issue for comparing glyphs. We fix this by making the palette read/write
 ; be at a different location so that we have the full glyph to compare
 
-; This should ensure that we compare the full 16 bits. It looks like there's
-; an issue updating the x-coordinate however.
+; This should ensure that we compare the full 16 bits.
 .org 0x080B6656
 lsl r6, r2, 0x10
 .org 0x080B66A4
