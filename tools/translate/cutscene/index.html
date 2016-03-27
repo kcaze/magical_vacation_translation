@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Magical Script Editor</title>
+  <style>
+    body {
+      font-family: monospace;
+    }
+
+    .red {
+      color: red;
+    }
+
+    .green {
+      color: green
+    }
+
+    .blue {
+      color: blue;
+    }
+
+    #japanese {
+      width: 500px;
+      height: 150px;
+      vertical-align: top;
+      border: 1px solid #aaa;
+      padding: 2px;
+      display: inline-block;
+      overflow-y: scroll;
+    }
+
+    #english {
+      width: 500px;
+      height: 150px;
+      vertical-align: top;
+      resize: none;
+    }
+
+    #comments {
+      width: 500px;
+      height: 50px;
+      vertical-align: top;
+      resize: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Script Editor</h1>
+  <p>
+    <label>Select JSON file:</label>
+    <input type="file" id="script"/>
+    <label>Select Binary file:</label>
+    <input type="file" id="binary"/>
+  </p>
+
+  <p>
+    <button disabled="true" id="export_json">Export JSON</button>
+    <button disabled="true" id="export_binary">Export binary</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <input id="search_text" type="text" />
+    <button disabled="true" id="japanese_search">Search Japanese</button>
+    <button disabled="true" id="english_search">Search English</button>
+  </p>
+
+  <hr/>
+
+  <p>
+    <label>Dialogue number:</label>
+    <input id="number" disabled="true" type="number" min="0" max="0" step="1"/>
+    of <span id="max_number"></span>
+  </p>
+
+  <p>
+    <label>Japanese:</label> <span id="japanese"> </span>
+  </p>
+
+  <p>
+    <label>English:</label>
+    <textarea disabled=true id="english"></textarea>
+  </p>
+
+  <p>
+    <label>Comments:</label>
+    <textarea disabled=true id="comments"></textarea>
+  </p>
+
+  <p id="search_results">
+  </p>
+
+  <script src="/tools/lib/FileSaver.js"></script>
+  <script src="/tools/lib/cutscene_table.js"></script>
+  <script src="/tools/lib/glossary.js"></script>
+  <script src="/tools/lib/parse.js"></script>
+  <script src="generateJapaneseScript.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

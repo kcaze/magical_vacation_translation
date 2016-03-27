@@ -1,4 +1,4 @@
-var cutscene_table = {
+var table = {
   "0":" ",
   "1":"一",
   "2":"大",
