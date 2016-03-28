@@ -134,11 +134,15 @@ mov r0, 0x08
 ; Magic notebook page
 .org 0x080B360A ; Section heading
 mov r0, 0x0C
+.org 0x080B3634 ; Hyphens
+mov r0, 0x0C
 .org 0x080B47DC ; Section contents
 mov r0, 0x08
 
 ; Bestiary page
 .org 0x080B36A8 ; Bestiary heading
+mov r0, 0x0E
+.org 0x080B36D4 ; Hyphens
 mov r0, 0x0E
 .org 0x080B4818 ; Monster name in description
 mov r0, 0x11
@@ -148,6 +152,8 @@ mov r0, 0x06
 ; Species page
 .org 0x080B374C ; Species name in heading
 mov r0, 0x0E
+.org 0x080B3774 ; Hyphens
+mov r0, 0x0E
 .org 0x080B4888 ; Species name in description
 mov r0, 0x0C
 .org 0x080B48A0 ; Species description
@@ -155,6 +161,8 @@ mov r0, 0x08
 
 ; MD Manual page
 .org 0x080B37EA ; Heading
+mov r0, 0x0B
+.org 0x080B3814 ; Hyphens
 mov r0, 0x0B
 .org 0x080B48EC ; Description
 mov r0, 0x08
