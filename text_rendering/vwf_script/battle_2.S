@@ -4,7 +4,7 @@
 ;   0x08017322:
 ;   0x08017346:
 ;   0x08017416:
-;   0x08017478:
+;   0x08017478: Magic level up.
 ;   0x080174E8:
 ;   0x080183C2:
 ;   0x080183F6:
@@ -43,10 +43,10 @@
 ;   r0 = beginning script pointer
 ;   r1 = end script pointer
 ;   r2 = tile index
-;   r3 = palette
-;   [sp] = x-coordinate
+;   r3 = palette (wrong, this should be x-coordinate I think)
+;   [sp] = x-coordinate (wrong, this should be palette I think)
 ;   [sp, 0x04] = y-coordinate
-; It returns the number of tiles the text takes up. I'm modifying the return
+; It returns the 2*number of tiles the text takes up. I'm modifying the return
 ; value to compute this as 4 * (r1 - r0) + 1.
 
 
@@ -78,6 +78,7 @@ FN_ICON equ 0x0800D370
 ADDR_GLYPH  equ 0x020097B0
 ADDR_DMA    equ 0x040000D4
 ADDR_TILE    equ 0x06004000
+ADDR_WIDTHS equ 0x08604100
 START equ 0x0800AB30
 END equ 0x0800AF98
 
@@ -265,13 +266,23 @@ bx r0
 .pool
 .endarea
 
-; Fix tile calculation
-.org 0x0800C652
-lsl r0, r1, 0x02
+; Tile calculation for return value of 0x0800C56C.
+L_tile_return_value_fix:
+.org 0x0800C632
+b 0x0800C640
+.org 0x0800C640
+ldr r2, =ADDR_WIDTHS
+@@L_loop:
+ldrb r0, [r5]
+ldrb r0, [r2, r0]
+add r1, r1, r0
+add r1, r1, 0x01
+add r5, 0x01
+cmp r5, r7
+blt @@L_loop
+lsr r0, r1, 0x03
 add r0, 0x01
-nop
-nop
-nop
-nop
-nop
+lsl r0, r0, 0x01
+b 0x0800C664 ; Return
+.pool
 .close
