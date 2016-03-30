@@ -18,11 +18,12 @@ Some useful function addresses:
             [sp, 0x1c] =
             [sp, 0x20] = number of glyphs?
             [sp, 0x30] = ram location for current glyph data
+0x0809B1EC: Unsure what this does, but line scrolling happens here.
 
 Memory locations:
 0x020323BC = Glyph data in RAM
 0x0203DD90 = OAM data in RAM
-0x020326CA = number of glyphs to draw?
+0x020326BE = Number of glyphs to draw
 0x0203238C {
   ??? [4 bytes]
   initial x coord [2 bytes]

@@ -48,8 +48,22 @@ function exportBinary() {
     binary[2*ii + 1] = (offset >> 8) & 0xFF;
 
     var english = script[ii].English;
-    english = processSpecialCharacters(
-              substituteMacros(english+'|\\ff\\ff'));
+    english = substituteMacros(english+'|\\ff\\ff');
+    var english_ = '';
+    for (var jj = 0; jj < english.length; jj++) {
+      var c = english[jj];
+      if (c == '\\') {
+        english_ += english[jj] + english[jj+1] + english[jj+2];
+        jj += 2;
+        continue;
+      }
+      if (c == '\n' || c == '|' || c == '`') {
+        english_ += english[jj];
+        continue;
+      }
+      english_ += '\\00' + english[jj];
+    }
+    english = processSpecialCharacters(english_);
     data = parseEnglish(english);
     for (var jj = 0; jj < data.length; jj++) {
       binary[2*HEADER_LENGTH + offset + jj] = data[jj];

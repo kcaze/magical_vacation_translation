@@ -1,6 +1,6 @@
 [
   {
-    "English": "A ferocious war once broke|\\fd\\ff\\28\\00\\fe\\ff\nout in the magic kingdom|\\fd\\ff\\28\\00\\fe\\ff\nof Kovomaka.",
+    "English": "",
     "Japanese": "魔法大国と呼ばれる小さな国、&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;コヴォマカ国で、&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;ある、&lt;fdff&gt;&lt;1400&gt;一つの大きな戦争が&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;歴史から隠されようとしていました。&lt;ffff&gt;",
     "Comments": "",
     "u8": [
@@ -1019,9 +1019,9 @@
     ]
   },
   {
-    "English": "ABC|\\fd\\ff\\14\\00\\fe\\ff\nDEF|\\fd\\ff\\14\\00\\fe\\ff\nGHI|\\fd\\ff\\14\\00\\fe\\ff\nJKL|\\fd\\ff\\14\\00\\fe\\ff\nMNO|\\fd\\ff\\14\\00\\fe\\ff",
+    "English": "One day, an elderly gentleman|\\fd\\ff\\14\\00\\fe\\ff\npaid the boy a visit.|\\fd\\ff\\14\\00\\fe\\ff\nThis gentleman was a fantastic|\\fd\\ff\\14\\00\\fe\\ff\nmagician by the name of|\\fd\\ff\\14\\00\\fe\\ff\nBiscotti.|\\fd\\ff\\14\\00\\fe\\ff\n\"Boy, do you like spirits?\"|\\fd\\ff\\14\\00\\fe\\ff\n\"Yeah! I love them!\"|\\fd\\ff\\14\\00\\fe\\ff\n\"Would you like to befriend them?\"|\\fd\\ff\\14\\00\\fe\\ff\n\"Of course!\"",
     "Japanese": "そんなある日、&lt;fdff&gt;&lt;1400&gt;一人の老紳士が&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;少年の家を訪ねて来ました。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt;この人こそ、&lt;fdff&gt;&lt;1400&gt;大陸に魔法をもたらした&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;大魔法使い、&lt;fdff&gt;&lt;1400&gt;グラン・ドラジェでした。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt;「キミは精霊が好きかい？」&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;「うん！ &lt;fdff&gt;&lt;1400&gt;大好きだよ！」&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;「もっと精霊と仲良くしたいかい？」&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;「もちろん！」&lt;ffff&gt;",
-    "Comments": "One day, an elderly gentleman|\\fd\\ff\\14\\00\\fe\\ff\npaid the boy a visit.|\\fd\\ff\\14\\00\\fe\\ff\nThis gentleman was a fantastic|\\fd\\ff\\14\\00\\fe\\ff\nmagician by the name of|\\fd\\ff\\14\\00\\fe\\ff\nBiscotti.|\\fd\\ff\\14\\00\\fe\\ff\n\"Boy, do you like spirits?\"|\\fd\\ff\\14\\00\\fe\\ff\n\"Yeah! I love them!\"|\\fd\\ff\\14\\00\\fe\\ff\n\"Would you like to befriend them?\"|\\fd\\ff\\14\\00\\fe\\ff\n\"Of course!\"",
+    "Comments": "",
     "u8": [
       0,
       140,
@@ -1308,7 +1308,7 @@
     ]
   },
   {
-    "English": "AAAAAAAAAAAA\\00B\\00C\\00D\\00E\\ff\\ff",
+    "English": "The boy's gaze was drawn|\\fd\\ff\\14\\00\\fe\\ff\nto the many spirits behind|\\fd\\ff\\14\\00\\fe\\ff\nBiscotti. He decided then|\\fd\\ff\\14\\00\\fe\\ff\nand there to attend Biscotti's|\\fd\\ff\\14\\00\\fe\\ff\nschool, Will-o'-Wisp Academy.",
     "Japanese": "少年の目には、&lt;fdff&gt;&lt;1400&gt;大魔法使いの肩に集う&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;無数の精霊の姿が見えていました。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt;こうして、&lt;fdff&gt;&lt;1400&gt;少年はグラン・ドラジェが&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;校長を務める魔法学校、&lt;fdff&gt;&lt;1e00&gt;&lt;feff&gt;ウィルオウィスプに通うことを決意&lt;fdff&gt;&lt;a00&gt;&lt;feff&gt;しました。&lt;ffff&gt;",
     "Comments": "",
     "u8": [
@@ -1519,7 +1519,7 @@
     ]
   },
   {
-    "English": "AAAAAAAAAAAA\\00B\\00C\\00D\\00E\\ff\\ff",
+    "English": "Biscotti told the boy,|\\fd\\ff\\14\\00\\fe\\ff\n\"Many of my students go|\\fd\\ff\\14\\00\\fe\\ff\non to serve this kingdom.|\\fd\\ff\\14\\00\\fe\\ff\nBut that is not the purpose|\\fd\\ff\\14\\00\\fe\\ff\nof my academy. I want you to|\\fd\\ff\\14\\00\\fe\\ff\nlearn everything, to|\\fd\\ff\\14\\00\\fe\\ff\ndiscover all that you|\\fd\\ff\\14\\00\\fe\\ff\ncan.\"",
     "Japanese": "学校の寮へ向かう道すがら、&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;グラン・ドラジェは少年に語りました。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt;「私の学校を出たものの多くは&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt; 国の要職についている。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt; だけど、&lt;fdff&gt;&lt;1400&gt;私が魔法を教えているのは&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt; そんなことのためではない。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt; 私がキミに伝えたいのは全て。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt; この世界にあるもの全て。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt; 最後にはそれが、&lt;fdff&gt;&lt;1400&gt;キミの意思だけで&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt; 自由に動くようになる。&lt;ffff&gt;",
     "Comments": "",
     "u8": [
@@ -1880,7 +1880,7 @@
     ]
   },
   {
-    "English": "AAAAAAAAAAAA\\00B\\00C\\00D\\00E\\ff\\ff",
+    "English": "Once upon a time, there|\\fd\\ff\\14\\00\\fe\\ff\nwas a young girl who lived|\\fd\\ff\\14\\00\\fe\\ff\nin a village in Kovomaka.",
     "Japanese": "  魔法王国コヴォマカ&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;この国のはずれの小さな村に&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;一人の少女がいました。&lt;ffff&gt;",
     "Comments": "",
     "u8": [
@@ -1971,7 +1971,7 @@
     ]
   },
   {
-    "English": "AAAAAAAAAAAA\\00B\\00C\\00D\\00E\\ff\\ff",
+    "English": "This girl was able to see|\\fd\\ff\\14\\00\\fe\\ff\nspirits. She could see the spirits|\\fd\\ff\\14\\00\\fe\\ff\nhiding in rocks and branches.",
     "Japanese": "少女には、&lt;fdff&gt;&lt;1400&gt;精霊が見えていました。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt;道ばたに落ちている、&lt;fdff&gt;&lt;1400&gt;石ころや木の枝に&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;精霊がひそんでいることを&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;少女は知っていました。&lt;ffff&gt;",
     "Comments": "",
     "u8": [
@@ -2120,7 +2120,7 @@
     ]
   },
   {
-    "English": "AAAAAAAAAAAA\\00B\\00C\\00D\\00E\\ff\\ff",
+    "English": "The villagers feared the girl|\\fd\\ff\\14\\00\\fe\\ff\nand her talk of spirits. She was|\\fd\\ff\\14\\00\\fe\\ff\nbranded a liar and exiled.",
     "Japanese": "座り込んで精霊と話をする少女の姿を&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;村の人たちは無気味に思いました。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt;やがて少女は無視され、&lt;fdff&gt;&lt;1400&gt;ウソツキと&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;ののしられるようになりました。&lt;ffff&gt;",
     "Comments": "",
     "u8": [
@@ -2279,7 +2279,7 @@
     ]
   },
   {
-    "English": "AAAAAAAAAAAA\\00B\\00C\\00D\\00E\\ff\\ff",
+    "English": "One day, an elderly gentleman|\\fd\\ff\\14\\00\\fe\\ff\npaid the girl a visit.|\\fd\\ff\\14\\00\\fe\\ff\nThis gentleman was a fantastic|\\fd\\ff\\14\\00\\fe\\ff\nmagician by the name of|\\fd\\ff\\14\\00\\fe\\ff\nBiscotti.|\\fd\\ff\\14\\00\\fe\\ff\n\"Girl, do you like spirits?\"|\\fd\\ff\\14\\00\\fe\\ff\n\"Yeah! I love them!\"|\\fd\\ff\\14\\00\\fe\\ff\n\"Would you like to befriend them?\"|\\fd\\ff\\14\\00\\fe\\ff\n\"Of course!\"",
     "Japanese": "そんなある日、&lt;fdff&gt;&lt;1400&gt;一人の老紳士が&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;少女の家を訪ねて来ました。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt;この人こそ、&lt;fdff&gt;&lt;1400&gt;大陸に魔法をもたらした&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;大魔法使い、&lt;fdff&gt;&lt;1400&gt;グラン・ドラジェでした。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt;「キミは精霊が好きかい？」&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;「ええ！ &lt;fdff&gt;&lt;1400&gt;大好きよ！」&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;「もっと精霊と仲良くしたいかい？」&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;「もちろんよ！」&lt;ffff&gt;",
     "Comments": "",
     "u8": [
@@ -2568,7 +2568,7 @@
     ]
   },
   {
-    "English": "AAAAAAAAAAAA\\00B\\00C\\00D\\00E\\ff\\ff",
+    "English": "The girl's gaze was drawn|\\fd\\ff\\14\\00\\fe\\ff\nto the many spirits behind|\\fd\\ff\\14\\00\\fe\\ff\nBiscotti. She decided then|\\fd\\ff\\14\\00\\fe\\ff\nand there to attend Biscotti's|\\fd\\ff\\14\\00\\fe\\ff\nschool, Will-o'-Wisp Academy.",
     "Japanese": "少女の目には、&lt;fdff&gt;&lt;1400&gt;大魔法使いの肩に集う&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;無数の精霊の姿が見えていました。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt;こうして、&lt;fdff&gt;&lt;1400&gt;少女はグラン・ドラジェが&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;校長を務める魔法学校、&lt;fdff&gt;&lt;1e00&gt;&lt;feff&gt;ウィルオウィスプに通うことを決意&lt;fdff&gt;&lt;a00&gt;&lt;feff&gt;しました。&lt;ffff&gt;",
     "Comments": "",
     "u8": [
@@ -2779,7 +2779,7 @@
     ]
   },
   {
-    "English": "AAAAAAAAAAAA\\00B\\00C\\00D\\00E\\ff\\ff",
+    "English": "Biscotti told the girl,|\\fd\\ff\\14\\00\\fe\\ff\n\"Many of my students go|\\fd\\ff\\14\\00\\fe\\ff\non to serve this kingdom.|\\fd\\ff\\14\\00\\fe\\ff\nBut that is not the purpose|\\fd\\ff\\14\\00\\fe\\ff\nof my academy. I want you to|\\fd\\ff\\14\\00\\fe\\ff\nlearn everything, to|\\fd\\ff\\14\\00\\fe\\ff\ndiscover all that you|\\fd\\ff\\14\\00\\fe\\ff\ncan.\"",
     "Japanese": "学校の寮へ向かう道すがら、&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;グラン・ドラジェは少女に語りました。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt;「私の学校を出たものの多くは&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt; 国の要職についている。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt; だけど、&lt;fdff&gt;&lt;1400&gt;私が魔法を教えているのは&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt; そんなことのためではない。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt; 私がキミに伝えたいのは全て。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt; この世界にあるもの全て。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt; 最後にはそれが、&lt;fdff&gt;&lt;1400&gt;キミの意思だけで&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt; 自由に動くようになる。&lt;ffff&gt;",
     "Comments": "",
     "u8": [
