@@ -11,6 +11,7 @@ Some useful function addresses:
 0x080989E8: DMAs glyph data to object tiles.
 0x0809C3E8: Does some OAM setting
 0x0809B2B0: Main function that handles the entire text process.
+            [sp, 0x08] = address of current glyph
             [sp, 0x0c] = x coord of current glyph
             [sp, 0x0e] = y coord of current glyph
             [sp, 0x18] = address of object tile for current glyph
@@ -19,6 +20,7 @@ Some useful function addresses:
             [sp, 0x30] = ram location for current glyph data
 
 Memory locations:
+0x020323BC = Glyph data in RAM
 0x0203DD90 = OAM data in RAM
 0x020326CA = number of glyphs to draw?
 0x0203238C {

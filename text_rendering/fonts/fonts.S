@@ -15,5 +15,7 @@ ADDR_CUTSCENE_FONT equ 0x086C8A3C
 
 .org ADDR_CUTSCENE_FONT
 .incbin text_rendering/fonts/cutscene_font.bin
+.org ADDR_CUTSCENE_FONT + 0x4000
+.incbin text_rendering/fonts/cutscene_font_widths.bin
 
 .close

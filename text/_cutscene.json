@@ -1,6 +1,6 @@
 [
   {
-    "English": "",
+    "English": "A ferocious war once broke|\\fd\\ff\\28\\00\\fe\\ff\nout in the magic kingdom|\\fd\\ff\\28\\00\\fe\\ff\nof Kovomaka.",
     "Japanese": "魔法大国と呼ばれる小さな国、&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;コヴォマカ国で、&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;ある、&lt;fdff&gt;&lt;1400&gt;一つの大きな戦争が&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;歴史から隠されようとしていました。&lt;ffff&gt;",
     "Comments": "",
     "u8": [
@@ -133,7 +133,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "Countless swordsmen and|\\fd\\ff\\28\\00\\fe\\ff\nwizards were killed, leaving.|\\fd\\ff\\28\\00\\fe\\ff\nKovomaka in ruins.",
     "Japanese": "剣聖や魔道士と呼ばれた者の多くが、&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;この戦いで命を落とし、&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;コヴォマカ国は大きな打撃を受けました。&lt;ffff&gt;",
     "Comments": "",
     "u8": [
@@ -248,7 +248,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "A lie was fabricated to cover|\\fd\\ff\\28\\00\\fe\\ff\nup the war. The townspeople|\\fd\\ff\\28\\00\\fe\\ff\nwere told an experiment went|\\fd\\ff\\28\\00\\fe\\ff\nawry, killing thousands.",
     "Japanese": "しかし、&lt;fdff&gt;&lt;1400&gt;戦った相手はおろか、&lt;fdff&gt;&lt;1400&gt;戦争が&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;あったことすらも国民には伏せられ、&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;ただ、&lt;fdff&gt;&lt;1400&gt;魔法の実験にともなう事故で&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;多くの死者が出たとだけ伝えられました。&lt;ffff&gt;",
     "Comments": "",
     "u8": [
@@ -425,7 +425,7 @@
     ]
   },
   {
-    "English": "",
+    "English": "The war lasted 3 days. A|\\fd\\ff\\28\\00\\fe\\ff\nlong peace followed but one|\\fd\\ff\\28\\00\\fe\\ff\nman continued to keep watch|\\fd\\ff\\28\\00\\fe\\ff\nlest another war broke out.",
     "Japanese": "戦火につつまれたのは、&lt;fdff&gt;&lt;1400&gt;たったの３日。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt;その前も、&lt;fdff&gt;&lt;1400&gt;その後も、&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;コヴォマカ国は平和そのもの、&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;ただ、&lt;fdff&gt;&lt;1400&gt;一人の男が、&lt;fdff&gt;&lt;1400&gt;次の戦いにそなえて&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;走り回っているだけでした。&lt;ffff&gt;",
     "Comments": "",
     "u8": [
@@ -620,7 +620,7 @@
     ]
   },
   {
-    "English": "Once upon a time,|\\fd\\ff\\14\\00\\fe\\ff\nthere was a young boy|\\fd\\ff\\14\\00\\fe\\ff\nin a small village in Kovomaka.",
+    "English": "Once upon a time, there|\\fd\\ff\\14\\00\\fe\\ff\nwas a young boy who lived|\\fd\\ff\\14\\00\\fe\\ff\nin a village in Kovomaka.",
     "Japanese": "  魔法王国コヴォマカ&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;この国のはずれの小さな村に&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;一人の少年がいました。&lt;ffff&gt;",
     "Comments": "",
     "u8": [
@@ -711,7 +711,7 @@
     ]
   },
   {
-    "English": "AAAAAAAAAAAA\\00B\\00C\\00D\\00E\\ff\\ff",
+    "English": "This boy was able to see|\\fd\\ff\\14\\00\\fe\\ff\nspirits. He could see the spirits|\\fd\\ff\\14\\00\\fe\\ff\nhiding in rocks and branches.",
     "Japanese": "少年には、&lt;fdff&gt;&lt;1400&gt;精霊が見えていました。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt;道ばたに落ちている、&lt;fdff&gt;&lt;1400&gt;石ころや木の枝に&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;精霊がひそんでいることを&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;少年は知っていました。&lt;ffff&gt;",
     "Comments": "",
     "u8": [
@@ -860,7 +860,7 @@
     ]
   },
   {
-    "English": "AAAAAAAAAAAA\\00B\\00C\\00D\\00E\\ff\\ff",
+    "English": "The villagers feared the boy|\\fd\\ff\\14\\00\\fe\\ff\nand his talk of spirits. He was|\\fd\\ff\\14\\00\\fe\\ff\nbranded a liar and exiled.",
     "Japanese": "座り込んで精霊と話をする少年の姿を&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;村の人たちは無気味に思いました。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt;やがて少年は無視され、&lt;fdff&gt;&lt;1400&gt;ウソツキと&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;ののしられるようになりました。&lt;ffff&gt;",
     "Comments": "",
     "u8": [
@@ -1019,9 +1019,9 @@
     ]
   },
   {
-    "English": "AAAAAAAAAAAA\\00B\\00C\\00D\\00E\\ff\\ff",
+    "English": "ABC|\\fd\\ff\\14\\00\\fe\\ff\nDEF|\\fd\\ff\\14\\00\\fe\\ff\nGHI|\\fd\\ff\\14\\00\\fe\\ff\nJKL|\\fd\\ff\\14\\00\\fe\\ff\nMNO|\\fd\\ff\\14\\00\\fe\\ff",
     "Japanese": "そんなある日、&lt;fdff&gt;&lt;1400&gt;一人の老紳士が&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;少年の家を訪ねて来ました。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt;この人こそ、&lt;fdff&gt;&lt;1400&gt;大陸に魔法をもたらした&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;大魔法使い、&lt;fdff&gt;&lt;1400&gt;グラン・ドラジェでした。&lt;fdff&gt;&lt;3c00&gt;&lt;feff&gt;「キミは精霊が好きかい？」&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;「うん！ &lt;fdff&gt;&lt;1400&gt;大好きだよ！」&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;「もっと精霊と仲良くしたいかい？」&lt;fdff&gt;&lt;2800&gt;&lt;feff&gt;「もちろん！」&lt;ffff&gt;",
-    "Comments": "",
+    "Comments": "One day, an elderly gentleman|\\fd\\ff\\14\\00\\fe\\ff\npaid the boy a visit.|\\fd\\ff\\14\\00\\fe\\ff\nThis gentleman was a fantastic|\\fd\\ff\\14\\00\\fe\\ff\nmagician by the name of|\\fd\\ff\\14\\00\\fe\\ff\nBiscotti.|\\fd\\ff\\14\\00\\fe\\ff\n\"Boy, do you like spirits?\"|\\fd\\ff\\14\\00\\fe\\ff\n\"Yeah! I love them!\"|\\fd\\ff\\14\\00\\fe\\ff\n\"Would you like to befriend them?\"|\\fd\\ff\\14\\00\\fe\\ff\n\"Of course!\"",
     "u8": [
       0,
       140,
