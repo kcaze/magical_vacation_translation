@@ -35,7 +35,21 @@ mov r15, r0
 .pool
 
 ; Cutscene positioning and timing
-.org 0x080C262C ; x-coordinates of intro cutscene
+.org 0x080C25C8 ; x-coordinates of idle title screen cutscenes
+.halfword 0x08
+.org 0x080C25D8
+.halfword 0x08
+.org 0x080C25E0
+.halfword 0x08
+
+.org 0x080C25CC ; timing of idle title screen cutscenes
+.halfword 0x01C0
+.org 0x080C25D4
+.halfword 0x0200
+.org 0x080C25DC
+.halfword 0x02A0
+
+.org 0x080C262C ; x-coordinates of intro cutscenes
 .halfword 0x08
 .org 0x080C2640
 .halfword 0x08
