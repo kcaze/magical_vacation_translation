@@ -620,7 +620,7 @@
     ]
   },
   {
-    "English": "ABCDEF\\ff\\ff",
+    "English": "Once upon a time,|\\fd\\ff\\14\\00\\fe\\ff\nthere was a young boy|\\fd\\ff\\14\\00\\fe\\ff\nin a small village in Kovomaka.",
     "Japanese": "  魔法王国コヴォマカ&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;この国のはずれの小さな村に&lt;fdff&gt;&lt;1400&gt;&lt;feff&gt;一人の少年がいました。&lt;ffff&gt;",
     "Comments": "",
     "u8": [

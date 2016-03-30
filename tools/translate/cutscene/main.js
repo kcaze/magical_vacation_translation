@@ -48,8 +48,8 @@ function exportBinary() {
     binary[2*ii + 1] = (offset >> 8) & 0xFF;
 
     var english = script[ii].English;
-    english = preprocessScript(
-              substituteMacros(english));
+    english = processSpecialCharacters(
+              substituteMacros(english+'|\\ff\\ff'));
     data = parseEnglish(english);
     for (var jj = 0; jj < data.length; jj++) {
       binary[2*HEADER_LENGTH + offset + jj] = data[jj];
