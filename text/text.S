@@ -4,7 +4,7 @@
 ;---------------------;
 ; Translated cutscene ;
 ;---------------------;
-ADDR_CUTSCENE equ 0x086C7E48
+ADDR_CUTSCENE equ 0x08810400 ;TODO -- Remap addresses at the end, be consistent with cutscene.S
 .org ADDR_CUTSCENE
 .incbin text/cutscene.bin
 

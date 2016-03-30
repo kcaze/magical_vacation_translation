@@ -19,13 +19,17 @@ Some useful function addresses:
             [sp, 0x20] = number of glyphs?
             [sp, 0x30] = ram location for current glyph data
 0x0809B1EC: Unsure what this does, but line scrolling happens here.
+0x0809AF30: Initial setup each cutscene? x coordinate and stuff stored here.
 
 Memory locations:
 0x020323BC = Glyph data in RAM
 0x0203DD90 = OAM data in RAM
 0x020326BE = Number of glyphs to draw
+0x0202DE98 = initial x coordinate and y coordinate
 0x0203238C {
   ??? [4 bytes]
   initial x coord [2 bytes]
   initial y coord [2 bytes]
 }
+
+0x080C2624 = location of some cutscene data.

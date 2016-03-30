@@ -23,6 +23,9 @@ function readScript(e) {
 
     // Called each time so that updates to the script parsing are reflected.
     generateJapaneseScript(script);
+    document.getElementById('japanese').innerHTML = script[number].Japanese;
+    document.getElementById('english').value = script[number].English;
+    document.getElementById('comments').value = script[number].Comments;
   };
   fileReader.readAsText(file);
 }
@@ -40,7 +43,7 @@ function exportJSON() {
 
 function exportBinary() {
   if (!script) return;
-  var binary = new Uint8Array(BINARY_SIZE);
+  var binary = [];
 
   var offset = 0;
   for (var ii = 0; ii < script.length; ii++) {
@@ -71,12 +74,8 @@ function exportBinary() {
     offset += data.length;
   }
 
-  if (offset >= BINARY_SIZE) {
-    console.log("Translated text overflows by " + (offset-BINARY_SIZE+1).toString(10) + " bytes.");
-  }
-
   saveAs(
-    new Blob([new DataView(binary.buffer)], {type: 'application/octet-stream'}),
+    new Blob([new DataView(Uint8Array.from(binary).buffer)], {type: 'application/octet-stream'}),
     "cutscene.bin"
   );
 }
