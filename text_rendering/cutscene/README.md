@@ -22,6 +22,7 @@ Some useful function addresses:
 0x0809AF30: Initial setup each cutscene? x coordinate and stuff stored here.
 
 Memory locations:
+0x020326C3 = number of frames till the next glyph is drawn.
 0x020323BC = Glyph data in RAM
 0x0203DD90 = OAM data in RAM
 0x020326BE = Number of glyphs to draw

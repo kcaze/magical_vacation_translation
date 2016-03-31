@@ -62,4 +62,17 @@ mov r15, r0
 .org 0x080C2690
 .halfword 0x08
 
+.org 0x0809A2B8; Speed up intro cutscene text
+mov r3, 0x03
+
+; Change intro cutscene timings
+.org 0x080C2630
+.halfword 0x0160
+.org 0x080C2644
+.halfword 0x0200
+.org 0x080C266C
+.halfword 0x03C0
+.org 0x080C2694
+.halfword 0x0380
+
 .close
