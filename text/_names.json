@@ -20443,9 +20443,9 @@
       ]
     },
     {
-      "English": "Electric",
+      "English": "Electri\\00c",
       "Japanese": "雷",
-      "Comments": "",
+      "Comments": "The hackiest of hacks. Used so that element selection in the title screen doesn't get messed up (magIC and electrIC gets aligned and causes font color issues).",
       "u8": [
         4,
         205,
