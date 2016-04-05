@@ -470,7 +470,7 @@
     ]
   },
   {
-    "English": "You found a $var_item$ but don't have room for it.",
+    "English": "You found a $var_item$ but don't have room for it.\\ff\\ff",
     "Japanese": "\\8c\\2<span class=\"red\">\\94</span>をみつけたが<br>\\8c\\2いっぱいで持てなかった。",
     "Comments": "",
     "u8": [
@@ -521,7 +521,7 @@
     ]
   },
   {
-    "English": "Obtained $number$ Bura.",
+    "English": "Obtained $number$ Bura.\\ff\\ff",
     "Japanese": "<br>\\8c\\6<span class=\"red\">\\93ブラー</span>得た",
     "Comments": "",
     "u8": [
@@ -544,7 +544,7 @@
     ]
   },
   {
-    "English": "You can't hold any more Bura.",
+    "English": "You can't hold any more Bura.\\ff\\ff",
     "Japanese": "<br>これ以上お金を持つことはできません",
     "Comments": "",
     "u8": [
