@@ -50503,9 +50503,9 @@
   ],
   [
     {
-      "English": "\\fe\\ff\\00\\1e\\00\\1e\\00\\1e\\00\\1e\\00\\1eHeight: 68cm\\fe\\ff\\00\\1e\\00\\1e\\00\\1e\\00\\1e\\00\\1e^Weight: 20kg\\fe\\ff^Location: Place\\fe\\ff^It's a bat that breathes fire. It's fast\\fe\\ff^but weak. Be careful not to get burned.",
+      "English": "$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Height: 68cm$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Weight: 20kg$N$\n$space$ Location: Placeholder$N$\n$space$ It's a bat that breathes fire.$N$\n$space$ It's fast but weak. Be careful$N$\n$space$ not to get burned.",
       "Japanese": "\\fe\\ff[space][space][space][space][space]身長[space]６８㎝\\fe\\ff[space][space][space][space][space]体重[space]２０㎏\\fe\\ff生息地[space]森の洞窟\\fe\\ff火を吹くコウモリネズミ。\\fe\\ff動きはすばやいが弱い。\\fe\\ffやけどに注意。\\ff\\ff",
-      "Comments": "PLACEHOLDER.",
+      "Comments": "",
       "u8": [
         254,
         255,
@@ -50644,7 +50644,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Height: 4cm$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Weight: 4kg$N$\n$space$ Location: Placeholder$N$\n$space$ An impish fellow living outside.$N$\n$space$ Cold Honey Palace. It's unable$N$\n$space$ to cast advanced magic.",
       "Japanese": "\\fe\\ff[space][space][space][space][space]身長[space]４㎝~\\fe\\ff[space][space][space][space][space]体重[space]４㎏~\\fe\\ff生息地[space]レーミッツ宮殿外\\fe\\ff火のおばけの子供。\\fe\\ff魔法に関してはまだ未熟で\\fe\\ffからっきし使えない。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -50795,7 +50795,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Height: 24cm$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Weight: 9kg$N$\n$space$ Location: Placeholder$N$\n$space$ A \"flame mushroom\" grows on$N$\n$space$ its head. It hurls chunks of$N$\n$space$ lava at its opponents.",
       "Japanese": "\\fe\\ff[space][space][space][space][space]身長[space]２４㎝~\\fe\\ff[space][space][space][space][space]体重[space]９㎏~\\fe\\ff生息地[space]イベンセ岩場\\fe\\ff頭に「炎のきのこ」を育てる\\fe\\ff溶岩モンスター。\\fe\\ff溶岩のかたまりを投げる。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -50948,7 +50948,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Height: 42cm$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Weight: 21kg$N$\n$space$ Location: Placeholder$N$\n$space$ A fierce chipmunk fond of hot$N$\n$space$ places. Be careful as it bites$N$\n$space$ on sight.",
       "Japanese": "\\fe\\ff[space][space][space][space][space]身長[space]４２㎝\\fe\\ff[space][space][space][space][space]体重[space]２１㎏\\fe\\ff生息地[space]イベンセ岩場\\fe\\ff熱い場所が大好きなリスネコ\\fe\\ffの一種。気が強くすぐに襲い\\fe\\ffかかってくるので注意。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -51107,7 +51107,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Height: 32cm$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Weight: 13kg$N$\n$space$ Location: Placeholder$N$\n$space$ A chestnut wrapped in flames.$N$\n$space$ Some brave wizards say they$N$\n$space$ don't taste very good.",
       "Japanese": "\\fe\\ff[space][space][space][space][space]身長[space]３２㎝\\fe\\ff[space][space][space][space][space]体重[space]１３㎏\\fe\\ff生息地[space]イベンセ岩場\\fe\\ff炎につつまれたくり。\\fe\\ffイガグリハンマーでたたく。\\fe\\ffあまくないらしい。\\ff\\ff",
       "Comments": "",
       "u8": [
