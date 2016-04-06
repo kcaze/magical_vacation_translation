@@ -55867,7 +55867,7 @@
       ]
     },
     {
-      "English": "$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Height: 45 cm$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Weight: 52 kg$N$\n$space$ Location: Placeholder$N$\n$space$ A poisonous bug that enjoys$N$\n$space$ being upside down. Its poison$N$\n$space$ is capable of paralyzing.",
+      "English": "$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Height: 45 cm$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Weight: 52 kg$N$\n$space$ Location: Placeholder$N$\n$space$ A poisonous bug that enjoys$N$\n$space$ being upside down. Its poison$N$\n$space$ is capable of stun.",
       "Japanese": "\\fe\\ff[space][space][space][space][space]身長[space]４５㎝\\fe\\ff[space][space][space][space][space]体重[space]５２㎏\\fe\\ff生息地[space]モギナス魔窟\\fe\\ff逆立ちが大好きなどくむし。\\fe\\ffマヒする毒の粉をふりまく。\\fe\\ffちょっとだけくさい。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -62623,7 +62623,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Height: 135 cm$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Weight: 57 kg$N$\n$space$ Location: Placeholder$N$\n$space$ A creature that crashes its$N$\n$space$ cymbals together to stun its$N$\n$space$ opponents.",
       "Japanese": "\\fe\\ff[space][space][space][space][space]身長[space]１３５㎝\\fe\\ff[space][space][space][space][space]体重[space]５７㎏\\fe\\ff生息地[space]モギナス魔窟\\fe\\ffシンバルをばしばしたたき\\fe\\ff相手をマヒさせる。\\fe\\ffマヒが強力なので注意。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -62774,7 +62774,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Height: 184 cm$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Weight: 65 kg$N$\n$space$ Location: Placeholder$N$\n$space$ A creature whose lower half$N$\n$space$ is that of a snake. It has a$N$\n$space$ magic defense.",
       "Japanese": "\\fe\\ff[space][space][space][space][space]身長[space]１８４㎝\\fe\\ff[space][space][space][space][space]体重[space]６５㎏\\fe\\ff生息地[space]モギナス魔窟\\fe\\ff下半身がへびの魔法使い。\\fe\\ff高い魔法防御力を持つ。\\fe\\ff多彩な魔法を使用する。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -62929,7 +62929,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Height: 162 cm$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Weight: 48 kg$N$\n$space$ Location: Placeholder$N$\n$space$ It crashes its magic cymbals$N$\n$space$ together to stun opponents.$N$\n$space$ Its magic also packs a punch.",
       "Japanese": "\\fe\\ff[space][space][space][space][space]身長[space]１６２㎝\\fe\\ff[space][space][space][space][space]体重[space]４８㎏\\fe\\ff生息地[space]ガラムマサラ\\fe\\ff魔法のシンバルをたたき\\fe\\ff相手をマヒさせる。\\fe\\ff魔法攻撃も得意。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -63072,7 +63072,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Height: 149 cm$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Weight: 73 kg$N$\n$space$ Location: Placeholder$N$\n$space$ It smashes its cymbals to cast$N$\n$space$ magic. It constantly grumbles$N$\n$space$ and complains.",
       "Japanese": "\\fe\\ff[space][space][space][space][space]身長[space]１４９㎝\\fe\\ff[space][space][space][space][space]体重[space]７３㎏\\fe\\ff生息地[space]ガラムマサラ\\fe\\ffマジカルピャッティを鳴らし\\fe\\ff攻撃する魔法使い。\\fe\\ffつねにぶつぶつ言っている。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -63229,7 +63229,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Height: 1 cm$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Weight: 1 kg$N$\n$space$ Location: Placeholder$N$\n$space$ A monster made out of mud$N$\n$space$ with an unidentified flower on$N$\n$space$ its head.",
       "Japanese": "\\fe\\ff[space][space][space][space][space]身長[space]１㎝~\\fe\\ff[space][space][space][space][space]体重[space]１㎏~\\fe\\ff生息地[space]ミモレットの森\\fe\\ff頭に「名もなき花」を育てる\\fe\\ffどろモンスター。\\fe\\ff最近「め」が出て大よろこび。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -63386,7 +63386,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Height: 48 cm$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Weight: 25 kg$N$\n$space$ Location: Placeholder$N$\n$space$ A mushroom hard as rock. It is$N$\n$space$ not poisonous so it's edible in$N$\n$space$ theory...",
       "Japanese": "\\fe\\ff[space][space][space][space][space]身長[space]４８㎝\\fe\\ff[space][space][space][space][space]体重[space]２５㎏\\fe\\ff生息地[space]リギニオ密林\\fe\\ff石のように硬いキノコ。\\fe\\ff毒はないので食べれない事も\\fe\\ffないらしいが・・・。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -63539,7 +63539,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Height: 53 cm$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Weight: 39 kg$N$\n$space$ Location: Placeholder$N$\n$space$ A strange creature that$N$\n$space$ coexists with a sentient rock.$N$\n$space$ It is unable to cast magic.",
       "Japanese": "\\fe\\ff[space][space][space][space][space]身長[space]５３㎝\\fe\\ff[space][space][space][space][space]体重[space]３９㎏\\fe\\ff生息地[space]ベナコンチャ\\fe\\ffツコンゲ石と共生する特殊な\\fe\\ffモンスター。魔法は苦手で\\fe\\ffまったく使えない。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -63692,7 +63692,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Height: 165 cm$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Weight: 78 kg$N$\n$space$ Location: Placeholder$N$\n$space$ A monster made from pure$N$\n$space$ tourmaline. Its body is rock$N$\n$space$ solid.",
       "Japanese": "\\fe\\ff[space][space][space][space][space]身長[space]１６５㎝\\fe\\ff[space][space][space][space][space]体重[space]７８㎏\\fe\\ff生息地[space]ベナコンチャ\\fe\\ffトルマリン原石でできたモン\\fe\\ffスター。体もかたいが性格は\\fe\\ffもっとかたいらしい。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -63851,7 +63851,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Height: 84 cm$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Weight: 36 kg$N$\n$space$ Location: Placeholder$N$\n$space$ A large bird infused with stone$N$\n$space$ magic. Its feathers are rainbow$N$\n$space$ colored.",
       "Japanese": "\\fe\\ff[space][space][space][space][space]身長[space]８４㎝\\fe\\ff[space][space][space][space][space]体重[space]３６㎏\\fe\\ff生息地[space]リギニオ密林\\fe\\ff石の精霊がついた大きな鳥。\\fe\\ff七色に輝くきれいな羽と\\fe\\ff大きな声が特徴である。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -64006,7 +64006,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Height: 132 cm$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Weight: 120 kg$N$\n$space$ Location: Placeholder$N$\n$space$ A monster made from pure$N$\n$space$ hematite. It is rumored that$N$\n$space$ Brownies dig them up.",
       "Japanese": "\\fe\\ff[space][space][space][space][space]身長[space]１３２㎝\\fe\\ff[space][space][space][space][space]体重[space]１２０㎏\\fe\\ff生息地[space]荒廃の地\\fe\\ffヘタマイト原石でできたモン\\fe\\ffスター。ブラウニーが掘り\\fe\\ff起こしたという噂。\\ff\\ff",
       "Comments": "",
       "u8": [
