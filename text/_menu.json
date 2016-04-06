@@ -55253,7 +55253,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Height: 67cm$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Weight: 75kg$N$\n$space$ Location: Placeholder$N$\n$space$ As its name suggests, it's a$N$\n$space$ moldy lump. It swings its body$N$\n$space$ around to attack opponents.",
       "Japanese": "\\fe\\ff[space][space][space][space][space]身長[space]６７㎝\\fe\\ff[space][space][space][space][space]体重[space]７５㎏\\fe\\ff生息地[space]レヒカフ沼周辺\\fe\\ffその名のとおりカビが生えた\\fe\\ffダンゴのモンスター。\\fe\\ff胞子をふりまいて攻撃する。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -55412,7 +55412,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Height: 26cm$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Weight: 16kg$N$\n$space$ Location: Placeholder$N$\n$space$ It floats in the air and is$N$\n$space$ proficient at magic. It also has$N$\n$space$ a high magical defense.",
       "Japanese": "\\fe\\ff[space][space][space][space][space]身長[space]２６㎝\\fe\\ff[space][space][space][space][space]体重[space]１６㎏\\fe\\ff生息地[space]レヒカフ沼周辺\\fe\\ff空中をおよいでいるバス。\\fe\\ff魔法が得意で魔法で攻撃\\fe\\ffしてくる。魔法防御も高い。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -55571,7 +55571,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Height: 26cm$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Weight: 14kg$N$\n$space$ Location: Placeholder$N$\n$space$ A large poisonous fly. Its$N$\n$space$ poison is capable of lowering$N$\n$space$ one's speed.",
       "Japanese": "\\fe\\ff[space][space][space][space][space]身長[space]２６㎝\\fe\\ff[space][space][space][space][space]体重[space]１４㎏\\fe\\ff生息地[space]東の森\\fe\\ff毒を持った大きめのハエ。\\fe\\ffすばやさを下げる毒を持つ。\\fe\\ff見かけによらず魔法も得意。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -55726,7 +55726,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Height: 52cm$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Weight: 32kg$N$\n$space$ Location: Placeholder$N$\n$space$ A fugu that's constantly$N$\n$space$ puffed up. When it's angered,$N$\n$space$ it puffs up further.",
       "Japanese": "\\fe\\ff[space][space][space][space][space]身長[space]５２㎝\\fe\\ff[space][space][space][space][space]体重[space]３２㎏\\fe\\ff生息地[space]暗闇の地\\fe\\ffいつもふくらんでいるふぐ。\\fe\\ff怒るともっとふくらむ。\\fe\\ff愛想が悪い。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -55867,7 +55867,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Height: 45cm$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Weight: 52kg$N$\n$space$ Location: Placeholder$N$\n$space$ A poisonous bug that enjoys$N$\n$space$ being upside down. Its poison$N$\n$space$ is capable of paralyzing.",
       "Japanese": "\\fe\\ff[space][space][space][space][space]身長[space]４５㎝\\fe\\ff[space][space][space][space][space]体重[space]５２㎏\\fe\\ff生息地[space]モギナス魔窟\\fe\\ff逆立ちが大好きなどくむし。\\fe\\ffマヒする毒の粉をふりまく。\\fe\\ffちょっとだけくさい。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -56024,7 +56024,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Height: 94cm$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Weight: 72kg$N$\n$space$ Location: Placeholder$N$\n$space$ A toxic flowering lizard. It$N$\n$space$ stores poison in the bag on its$N$\n$space$ back.",
       "Japanese": "\\fe\\ff[space][space][space][space][space]身長[space]９４㎝\\fe\\ff[space][space][space][space][space]体重[space]７２㎏\\fe\\ff生息地[space]暗闇の地\\fe\\ff毒をもつブタバナトカゲ。\\fe\\ff背中のふくろに毒をためて\\fe\\ffはきかけて攻撃する。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -56173,7 +56173,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Height: 82cm$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Weight: 57kg$N$\n$space$ Location: Placeholder$N$\n$space$ A moldy flowering lizard. It$N$\n$space$ also has a strong bite so be$N$\n$space$ careful.",
       "Japanese": "\\fe\\ff[space][space][space][space][space]身長[space]８２㎝\\fe\\ff[space][space][space][space][space]体重[space]５７㎏\\fe\\ff生息地[space]ガラムマサラ\\fe\\ffカビと同じ成分の強力な毒を\\fe\\ff持つブタバナトカゲの仲間。\\fe\\ffあごの力も強力なので注意。\\ff\\ff",
       "Comments": "",
       "u8": [
@@ -56336,7 +56336,7 @@
       ]
     },
     {
-      "English": "",
+      "English": "$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Height: 105cm$N$\n$space$$space$$space$$space$$space$$space$$space$$space$$space$ Weight: 36kg$N$\n$space$ Location: Placeholder$N$\n$space$ A dragon that died of Ooze$N$\n$space$ Fever. It attacks with its$N$\n$space$ sharp fangs.",
       "Japanese": "\\fe\\ff[space][space][space][space][space]身長[space]１０５㎝\\fe\\ff[space][space][space][space][space]体重[space]３６㎏\\fe\\ff生息地[space]暗闇の地\\fe\\ffウーズ熱で死んだドラゴンが\\fe\\ffミイラ化したモンスター。\\fe\\ff鋭いつめともうどくが武器。\\ff\\ff",
       "Comments": "",
       "u8": [
