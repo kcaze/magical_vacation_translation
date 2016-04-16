@@ -15,6 +15,7 @@ function readScript(e) {
     document.getElementById('export_binary').disabled = false;
     document.getElementById('japanese_search').disabled = false;
     document.getElementById('english_search').disabled = false;
+    document.getElementById('comments_search').disabled = false;
 
     document.getElementById('max_number').innerHTML = script.length - 1;
     document.getElementById('number').max = script.length - 1;
@@ -127,6 +128,16 @@ function english_search() {
   }
 }
 
+function comments_search() {
+  var text = document.getElementById('search_text').value;
+  document.getElementById('search_results').innerHTML = '';
+  for (var ii = 0; ii < script.length; ii++) {
+    if (script[ii].Comments.indexOf(text) != -1) {
+      document.getElementById('search_results').innerHTML += ii + '<br>';
+    }
+  }
+}
+
 document
   .getElementById('script')
   .addEventListener('change', readScript, false);
@@ -166,6 +177,10 @@ document
 document
   .getElementById('english_search')
   .addEventListener('click', english_search);
+
+document
+  .getElementById('comments_search')
+  .addEventListener('click', comments_search);
 
 function heartBeat() {
   if (!script) return;
