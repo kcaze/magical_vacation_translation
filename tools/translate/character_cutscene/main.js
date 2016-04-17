@@ -31,9 +31,32 @@ function readScript(e) {
 function readBinary(e) {
   var file = e.target.files[0]; // FileList object
   var fileReader = new FileReader();
+  script = [];
   fileReader.onload = function (e) {
     var binary = new Uint8Array(e.target.result);
-    console.log(binary[0], binary[1], binary);
+    for (var ii = 0; ii < 15; ii++) {
+      var cutscene = {
+        Japanese : "",
+        English : "",
+        Comments: "",
+        u8 : []
+      };
+      var offset = binary[2*ii] + (binary[2*ii+1] << 8) + 0x20;
+      while ((binary[offset] & binary[offset+1]) != 0xFF) {
+        var value = (binary[offset] << 8) + binary[offset + 1];
+        if (table[value] != undefined) {
+          cutscene.Japanese += table[value];
+        } else {
+          cutscene.Japanese += "\\" + binary[offset].toString(16)
+                             + "\\" + binary[offset+1].toString(16);
+        }
+        cutscene.u8.push(binary[offset]);
+        cutscene.u8.push(binary[offset+1]);
+        offset += 2;
+      }
+      script.push(cutscene);
+    }
+    document.getElementById('export_json').disabled = false;
   };
   fileReader.readAsArrayBuffer(file);
 }
@@ -45,7 +68,7 @@ function exportJSON() {
       [JSON.stringify(script, null, 2)],
       {type: 'text/plain;charset-utf-8'}
     ),
-    '_script.json'
+    '_character_cutscene.json'
   );
 }
 
@@ -114,7 +137,7 @@ function exportBinary() {
 
   saveAs(
     new Blob([new DataView(binary.buffer)], {type: 'application/octet-stream'}),
-    "script.bin"
+    "character_cutscene.bin"
   );
 }
 
@@ -195,7 +218,7 @@ document
 document
   .getElementById('comments_search')
   .addEventListener('click', comments_search);
-
+/*
 function heartBeat() {
   if (!script) return;
   var newNumber = parseInt(document.getElementById('number').value, 10);
@@ -209,6 +232,7 @@ function heartBeat() {
   script[number].Comments = document.getElementById('comments').value;
 }
 window.setInterval(heartBeat, 100);
+*/
 
 document.addEventListener('keydown', function (e) {
   if (!e.ctrlKey) return;
