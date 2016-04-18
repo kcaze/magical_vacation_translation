@@ -1,7 +1,6 @@
 var script;
 var number;
-var HEADER_LENGTH = 12006;
-var BINARY_SIZE = 0x6F46E;
+var BINARY_SIZE = 0x4A8;
 
 function readScript(e) {
   var file = e.target.files[0]; // FileList object
@@ -21,44 +20,8 @@ function readScript(e) {
     document.getElementById('number').max = script.length - 1;
     document.getElementById('number').value = 0;
     number = 0;
-
-    // Called each time so that updates to the script parsing are reflected.
-    generateJapaneseScript(script);
   };
   fileReader.readAsText(file);
-}
-
-function readBinary(e) {
-  var file = e.target.files[0]; // FileList object
-  var fileReader = new FileReader();
-  script = [];
-  fileReader.onload = function (e) {
-    var binary = new Uint8Array(e.target.result);
-    for (var ii = 0; ii < 15; ii++) {
-      var cutscene = {
-        Japanese : "",
-        English : "",
-        Comments: "",
-        u8 : []
-      };
-      var offset = binary[2*ii] + (binary[2*ii+1] << 8) + 0x20;
-      while ((binary[offset] & binary[offset+1]) != 0xFF) {
-        var value = (binary[offset] << 8) + binary[offset + 1];
-        if (table[value] != undefined) {
-          cutscene.Japanese += table[value];
-        } else {
-          cutscene.Japanese += "\\" + binary[offset].toString(16)
-                             + "\\" + binary[offset+1].toString(16);
-        }
-        cutscene.u8.push(binary[offset]);
-        cutscene.u8.push(binary[offset+1]);
-        offset += 2;
-      }
-      script.push(cutscene);
-    }
-    document.getElementById('export_json').disabled = false;
-  };
-  fileReader.readAsArrayBuffer(file);
 }
 
 function exportJSON() {
@@ -76,44 +39,14 @@ function exportBinary() {
   if (!script) return;
   var binary = new Uint8Array(BINARY_SIZE);
 
-  var idx = 2*(script.length+1);
-  for (var ii = 2; ii < script.length; ii++) {
-    var data = [];
-
-    if (script[ii].English == '') {
-      // Copy original data.
-      for (jj = 0; jj < script[ii].u8.length; jj++) {
-        data.push(script[ii].u8[jj]);
-      }
-    } else {
-      var english = script[ii].English;
-      // Auto insert character portraits
-      if (script[ii].u8[0] == 0x8b) {
-        var s = script[ii].u8[1].toString(16);
-        if (s.length == 1) s = "0" + s;
-        english = "\\8b\\" + s + "\\1f\\00" + english;
-      } else {
-        english = "\\1f\\00" + english;
-      }
-      english += "|\\ff\\ff";
-      english = preprocessScript(
-                substituteMacros(english));
-      data = parseEnglish(english);
-    }
-
-    // Don't include debug menu translations.
-    if (1626 <= ii && ii <= 1647) {
-      data = [];
-    }
-
+  var idx = 0x20;
+  for (var ii = 0; ii < script.length; ii++) {
+    binary[2*ii] = (idx - 0x20) & 0xFF;
+    binary[2*ii + 1] = (idx - 0x20) >> 8;
+    var data = parseEnglish(processSpecialCharacters(script[ii].English + '\\ff\\ff'));
     for (var jj = 0; jj < data.length; jj++) {
       binary[idx + jj] = data[jj];
     }
-
-    var offset = idx % 65536;
-    binary[2*ii] = offset % 256;
-    binary[2*ii+1] = offset >> 8;
-
     idx += data.length;
   }
 
@@ -127,13 +60,6 @@ function exportBinary() {
       " bytes too long!"
     );
   }
-
-  // The first 2 offsets are hardcoded.
-  binary[0] = 0x00; binary[1] = 0x00; binary[2] = 0x70; binary[3] = 0x17;
-
-  // Duplicate the last offset
-  binary[2*script.length+1] = binary[2*script.length - 1];
-  binary[2*script.length] = binary[2*script.length - 2];
 
   saveAs(
     new Blob([new DataView(binary.buffer)], {type: 'application/octet-stream'}),
@@ -176,10 +102,6 @@ document
   .addEventListener('change', readScript, false);
 
 document
-  .getElementById('binary')
-  .addEventListener('change', readBinary, false);
-
-document
   .getElementById('export_json')
   .addEventListener('click', exportJSON, false);
 
@@ -218,7 +140,7 @@ document
 document
   .getElementById('comments_search')
   .addEventListener('click', comments_search);
-/*
+
 function heartBeat() {
   if (!script) return;
   var newNumber = parseInt(document.getElementById('number').value, 10);
@@ -232,7 +154,6 @@ function heartBeat() {
   script[number].Comments = document.getElementById('comments').value;
 }
 window.setInterval(heartBeat, 100);
-*/
 
 document.addEventListener('keydown', function (e) {
   if (!e.ctrlKey) return;

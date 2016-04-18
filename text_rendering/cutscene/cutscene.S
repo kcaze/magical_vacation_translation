@@ -3,6 +3,7 @@
 
 CUTSCENE_HEADER_SIZE equ 32
 ADDR_WIDTHS equ (0x086C8A3C + 0x4000)
+ADDR_CHAR_CUTSCENE_WIDTHS equ (0x08603900 + 0x800)
 ADDR_CUTSCENE equ 0x08810400 ;TODO -- Remap addresses at the end, be consistent with text.S
 ADDR_TEXT_TABLES equ 0x086A55E8
 FN_X_COORD equ 0x08810200 ;TODO -- Remap addresses at the end
@@ -21,14 +22,37 @@ mov r15, r0
 
 .org FN_X_COORD
 mov r2, r13
+ldr r0, =0x7E4C ; Magic constant that allows us to distinguish between which of the two cutscenes we're in.
+ldrh r1, [r2, 0x04]
+cmp r0, r1
+bne L_regular_cutscene
+ldr r0, =ADDR_CHAR_CUTSCENE_WIDTHS
+ldr r1, [r2, 0x08]
+ldrb r1, [r1, 0x01]
+ldrb r0, [r0, r1]
+ldrh r1, [r2, 0x0C]
+add r1, r0, r1
+add r1, 0x01
+strh r1, [r2, 0x0C]
+ldr r0, =ADDR_CHAR_CUTSCENE_WIDTHS
+ldr r1, [r2, 0x08]
+ldrb r1, [r1, 0x00]
+ldrb r0, [r0, r1]
+ldrh r1, [r2, 0x0C]
+add r1, r0, r1
+add r1, 0x01
+strh r1, [r2, 0x0C]
+b L_regular_cutscene_end
+L_regular_cutscene:
 ldr r0, =ADDR_WIDTHS
 ldr r1, [r2, 0x08]
 ldrb r1, [r1, 0x01]
-ldrb r0, [r1, r0]
+ldrb r0, [r0, r1]
 ldrh r1, [r2, 0x0C]
 add r1, r0, r1
 add r1, 0x02
 strh r1, [r2, 0x0C]
+L_regular_cutscene_end:
 
 ldr r0, =0x0809B5D7
 mov r15, r0

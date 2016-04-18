@@ -34,6 +34,12 @@ nop
 .org 0x080B65C0
 .word 0x0000F0F0
 
+; Disable the check that aborts drawing if a glyph has value > 0x0FFF for character cutscene
+.org 0x0809B128
+.word 0x0000F0F0
+.org 0x0809B370
+.word 0x0000F0F0
+
 ; Jump to our x-coordinate update function
 .org 0x080B681C
 ldr r3, =ADDR_FN_UPDATE_X

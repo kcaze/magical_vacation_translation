@@ -180,5 +180,7 @@ ADDR_BATTLE_TEXT equ 0x08698E98
 ; Translated character cutscenes ;
 ;--------------------------------;
 ADDR_CHARACTER_CUTSCENE equ 0x086ED428
+.org ADDR_CHARACTER_CUTSCENE
+.incbin text/character_cutscene.bin
 
 .close
