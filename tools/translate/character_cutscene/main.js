@@ -20,6 +20,9 @@ function readScript(e) {
     document.getElementById('number').max = script.length - 1;
     document.getElementById('number').value = 0;
     number = 0;
+    document.getElementById('japanese').innerHTML = script[number].Japanese;
+    document.getElementById('english').value = script[number].English;
+    document.getElementById('comments').value = script[number].Comments;
   };
   fileReader.readAsText(file);
 }

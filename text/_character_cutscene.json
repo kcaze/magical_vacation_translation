@@ -1,7 +1,7 @@
 [
   {
     "Japanese": "キルシュ・ピンテール\\fe\\ff\\fe\\ff火の魔法が得意な男の子。\\fe\\ff熱血漢で、正義感も強い。",
-    "English": "Kirche Pintail",
+    "English": "Kirsche Pintail|\\fe\\ff\\fe\\ff\nA hot-blooded boy good at|\\fe\\ff\nfire magic.",
     "Comments": "",
     "u8": [
       0,
@@ -84,7 +84,7 @@
   },
   {
     "Japanese": "ブルーベリー・レイクサイド\\fe\\ff\\fe\\ff水の魔法を使う女の子。\\fe\\ffちょっと体が弱い優等生。",
-    "English": "",
+    "English": "Blueberry Lakeside|\\fe\\ff\\fe\\ff\nA frail girl who conjures|\\fe\\ff\nup water magic.",
     "Comments": "",
     "u8": [
       0,
@@ -169,7 +169,7 @@
   },
   {
     "Japanese": "ショコラ・クラックス\\fe\\ff\\fe\\ff石の魔法を使うマッドマン。\\fe\\ff無口で心優しい。",
-    "English": "",
+    "English": "Chocolat Cracks|\\fe\\ff\\fe\\ff\nA reticent mudman able to|\\fe\\ff\ncast stone magic.",
     "Comments": "",
     "u8": [
       0,
@@ -246,7 +246,7 @@
   },
   {
     "Japanese": "キゃンディ・ミントブルー\\fe\\ff\\fe\\ff風の魔法が得意な女の子。\\fe\\ffちょっと負けず嫌い。",
-    "English": "",
+    "English": "Candy Mintblue|\\fe\\ff\\fe\\ff\nA competitive girl with|\\fe\\ff\nthe power of wind magic.",
     "Comments": "",
     "u8": [
       0,
@@ -327,7 +327,7 @@
   },
   {
     "Japanese": "ガナッシュ・ナイトホーク\\fe\\ff\\fe\\ff闇の魔法を使う男の子。\\fe\\ff人と話すのが好きじゃない。",
-    "English": "",
+    "English": "Ganache Nighthawk|\\fe\\ff\\fe\\ff\nA solitary boy who casts|\\fe\\ff\ndark magic.",
     "Comments": "",
     "u8": [
       0,
@@ -412,7 +412,7 @@
   },
   {
     "Japanese": "ペシュ・ファーマー\\fe\\ff\\fe\\ff愛の魔法が使える女の子。\\fe\\ff真面目でがんばりやさん。",
-    "English": "",
+    "English": "Peche Farmer|\\fe\\ff\\fe\\ff\nA hard-working girl who|\\fe\\ff\nuses love magic.",
     "Comments": "",
     "u8": [
       0,
@@ -493,7 +493,7 @@
   },
   {
     "Japanese": "レモン・エアサプライ\\fe\\ff\\fe\\ff雷の魔法が得意な女の子。\\fe\\ffちょっとおっかない。",
-    "English": "",
+    "English": "Lemon Airsupply|\\fe\\ff\\fe\\ff\nA fierce girl who likes|\\fe\\ff\nelectric magic.",
     "Comments": "",
     "u8": [
       0,
@@ -572,7 +572,7 @@
   },
   {
     "Japanese": "カベルネ・チープトリック\\fe\\ff\\fe\\ff毒の魔法を使う男の子。\\fe\\ffいたずら好きだけどいいヤツ。",
-    "English": "",
+    "English": "Cabernet Cheaptrick|\\fe\\ff\\fe\\ff\nA delinquent who casts|\\fe\\ff\npoison magic.",
     "Comments": "",
     "u8": [
       0,
@@ -659,7 +659,7 @@
   },
   {
     "Japanese": "カシス・ランバーヤード\\fe\\ff\\fe\\ff刃の魔法が得意な男の子。\\fe\\ff一人でいるのが好き。",
-    "English": "",
+    "English": "Cassis Lumberyard|\\fe\\ff\\fe\\ff\nA solitary boy who uses|\\fe\\ff\nblade magic.",
     "Comments": "",
     "u8": [
       0,
@@ -738,7 +738,7 @@
   },
   {
     "Japanese": "シードル・レインボウ\\fe\\ff\\fe\\ff美の魔法が得意な男の子。\\fe\\ff詩や絵画に興味がある。",
-    "English": "",
+    "English": "Cider Rainbow|\\fe\\ff\\fe\\ff\nA art-loving boy who|\\fe\\ff\nuses beauty magic.",
     "Comments": "",
     "u8": [
       0,
@@ -819,7 +819,7 @@
   },
   {
     "Japanese": "アランシア・スコアノート\\fe\\ff\\fe\\ff音の魔法が得意な女の子。\\fe\\ffマイペースなのんびりやさん。",
-    "English": "",
+    "English": "Arancia Scorenote|\\fe\\ff\\fe\\ff\nAn easygoing girl who|\\fe\\ff\ncasts beauty magic.",
     "Comments": "",
     "u8": [
       0,
@@ -908,7 +908,7 @@
   },
   {
     "Japanese": "カフェオレ・ラスティネイル\\fe\\ff\\fe\\ff古の魔法を使う古代機械。\\fe\\ff１万年以上も前に作られた。",
-    "English": "",
+    "English": "Latte Rustynail|\\fe\\ff\\fe\\ff\nA 10000 year old machine|\\fe\\ff\nthat uses ancient magic.",
     "Comments": "",
     "u8": [
       0,
@@ -999,7 +999,7 @@
   },
   {
     "Japanese": "ピスタチオ・メイプルウッド\\fe\\ff\\fe\\ff木の魔法を使う男の子。\\fe\\ff怖がりで、人なつっこい。",
-    "English": "",
+    "English": "Pistachio Maplewood|\\fe\\ff\\fe\\ff\nA cowardly boy who|\\fe\\ff\ncasts wood magic.",
     "Comments": "",
     "u8": [
       0,
@@ -1084,7 +1084,7 @@
   },
   {
     "Japanese": "オリーブ・ティアクラウン\\fe\\ff\\fe\\ff獣の魔法が得意な女の子。\\fe\\ff動物と遊ぶのが大好き。",
-    "English": "",
+    "English": "Olive Tearclown|\\fe\\ff\\fe\\ff\nA animal-loving girl who|\\fe\\ff\ncasts beast magic.",
     "Comments": "",
     "u8": [
       0,
@@ -1167,7 +1167,7 @@
   },
   {
     "Japanese": "セサミ・アッシュポット\\fe\\ff\\fe\\ff虫の魔法を使う男の子。\\fe\\ff虫が大好き。",
-    "English": "",
+    "English": "Sesame Ashpot|\\fe\\ff\\fe\\ff\nA bug-loving boy who|\\fe\\ff\ncasts bug magic.",
     "Comments": "",
     "u8": [
       0,
