@@ -1,3 +1,4 @@
+0x08613D8C -- "Miss" graphic
 0x0861426C -- Status effect graphics.
 0x086C8A3C -- Small 2 color font
 0x087A3258 -- Kana, ABC, Kanji character set choices in naming screen

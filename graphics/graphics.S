@@ -1,6 +1,7 @@
 .gba
 .open "hacked.gba", 0x08000000
 
+ADDR_MISS   equ 0x08613D8C
 ADDR_STATUS   equ 0x0861426C
 ADDR_NAME_SELECT   equ 0x087A3258
 ADDR_TABLE_MAIN_MENU equ 0x08699AA4
@@ -23,6 +24,10 @@ ADDR_MAIN_MENU_BUTTONS2   equ 0x08806000
 .org ADDR_STATUS
 .incbin graphics/status/status.bin
 
+; Miss graphic
+.org ADDR_MISS
+.incbin graphics/miss/miss.bin
+
 ; Menu header graphics
 .org 0x087910A0
 .incbin graphics/menu_headers/menu_text.bin
@@ -43,5 +48,6 @@ ADDR_MAIN_MENU_BUTTONS2   equ 0x08806000
 .org 0x080C245C
 .halfword 0x0008 ; x-coordinate
 .halfword 0x0010 ; y-coordinate
+
 
 .close
