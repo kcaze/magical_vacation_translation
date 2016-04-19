@@ -5,6 +5,7 @@
 0x0879ACB4 -- 精、力、守、速、MP icons for stats.
 0x08699AD0 -- Main menu title
 0x0869A670 -- Main menu buttons 1
+0x082E59A0 (lz77) -- 友情 scroll in biscotti's room.
 
 
 0x08699AA4 -- Pointer table for main menu lz77 graphics.

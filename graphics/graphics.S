@@ -8,6 +8,7 @@ ADDR_TABLE_MAIN_MENU equ 0x08699AA4
 ADDR_MAIN_MENU_TITLE      equ 0x08800000
 ADDR_MAIN_MENU_BUTTONS1   equ 0x08803000
 ADDR_MAIN_MENU_BUTTONS2   equ 0x08806000
+ADDR_YUUJOU   equ 0x082E59A0
 
 .org ADDR_TABLE_MAIN_MENU
 .word 0x00000009 ;hardcoded
@@ -43,6 +44,10 @@ ADDR_MAIN_MENU_BUTTONS2   equ 0x08806000
 .incbin graphics/main_menu/buttons1.img.bin
 .org ADDR_MAIN_MENU_BUTTONS2
 .incbin graphics/main_menu/buttons2.img.bin
+
+; LZ77 compressed yuujou graphic
+.org ADDR_YUUJOU
+.incbin graphics/yuujou/yuujou.img.bin
 
 ; Repositioning title
 .org 0x080C245C
