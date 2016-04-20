@@ -85,7 +85,7 @@ function insertLineBreaks(line, newlineInsert) {
   });
 
   var width = 0;
-  var MAXWIDTH = 156;
+  var MAXWIDTH = 180;
   var line = "";
   for (var jj = 0; jj < words.length; jj++) {
     if (width + widths[jj] > MAXWIDTH) {
