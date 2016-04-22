@@ -9,6 +9,10 @@ ADDR_SCRIPT_TILE_INDEX equ =0x02009954
 ADDR_CONTROL_CHAR_TABLE equ 0x0800B844
 ADDR_FN_NEWLINE equ 0x087F5950
 
+FN_ICON_JUMP equ 0x0800C060
+FN_ICON_UPDATE equ 0x08815000
+
+
 ; 0x80 = newline
 .org ADDR_CONTROL_CHAR_TABLE + 0x4 * (0x80 - 0x80)
 .word ADDR_FN_NEWLINE
@@ -55,8 +59,19 @@ strb r0, [r4]
 add r4, 0x02
 nop
 
-; Fix x-coordinate incrementing for icons.
-.org 0x0800C064
+; Handle icon shifts properly.
+.org FN_ICON_JUMP
+ldr r0, =FN_ICON_UPDATE
+mov r15, r0
+.pool
+
+.org FN_ICON_UPDATE
+mov r1, r8
+ldrh r0, [r1]
 add r0, 0x02
+strh r0, [r1]
+ldr r6, =(FN_ICON_JUMP + 0x09)
+mov r15, r6
+.pool
 
 .close

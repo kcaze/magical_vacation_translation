@@ -1,3 +1,7 @@
+0x0800B828: Script dispatches to control code routines around here.
+
+
+
 `0x0800CFCC - 0x0800D120` takes in 4 parameters and has no return value:
 r0 = glyph value to draw.
 r1 = color to use (palette index).
