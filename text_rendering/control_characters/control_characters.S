@@ -11,6 +11,8 @@ ADDR_FN_NEWLINE equ 0x087F5950
 
 FN_ICON_JUMP equ 0x0800C060
 FN_ICON_UPDATE equ 0x08815000
+FN_ICON_JUMP2 equ 0x0800C008
+FN_ICON_UPDATE2 equ 0x08816000
 
 
 ; 0x80 = newline
@@ -59,19 +61,43 @@ strb r0, [r4]
 add r4, 0x02
 nop
 
-; Handle icon shifts properly.
+; Handle icon shifts properly, inserting the proper spacing for the next character.
 .org FN_ICON_JUMP
 ldr r0, =FN_ICON_UPDATE
 mov r15, r0
 .pool
 
 .org FN_ICON_UPDATE
+ldr r1, ADDR_SHIFT
+ldrb r0, [r1]
+add r0, 0x0D
+mov r6, 0x7
+and r6, r0
+strb r6, [r1]
+lsr r0, r0, 0x03
 mov r1, r8
+ldrh r6, [r1]
+add r6, r6, r0
+strh r6, [r1]
 ldrh r0, [r1]
-add r0, 0x02
-strh r0, [r1]
 ldr r6, =(FN_ICON_JUMP + 0x09)
 mov r15, r6
+.pool
+
+; Position the icon's x-coordinate properly.
+.org FN_ICON_JUMP2
+ldr r4, =FN_ICON_UPDATE2
+mov r15, r4
+.pool
+
+.org FN_ICON_UPDATE2
+add r0, r0, r2
+add r0, 0x07
+ldr r4, ADDR_SHIFT
+ldrb r4, [r4]
+add r0, r0, r4
+ldr r4, =(FN_ICON_JUMP2 + 0x09)
+mov r15, r4
 .pool
 
 .close
