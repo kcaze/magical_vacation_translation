@@ -5,6 +5,7 @@ ADDR_GLYPH  equ =0x020097B0
 ADDR_SHIFT  equ =0x0203FFF0
 ADDR_DMA    equ =0x040000D4
 ADDR_SCRIPT_TILE_INDEX equ =0x02009954
+ADDR_SCRIPT_X          equ =0x02009930
 
 ADDR_CONTROL_CHAR_TABLE equ 0x0800B844
 ADDR_FN_NEWLINE equ 0x087F5950
@@ -68,6 +69,7 @@ mov r15, r0
 .pool
 
 .org FN_ICON_UPDATE
+; Update shift
 ldr r1, ADDR_SHIFT
 ldrb r0, [r1]
 add r0, 0x0D
@@ -75,11 +77,19 @@ mov r6, 0x7
 and r6, r0
 strb r6, [r1]
 lsr r0, r0, 0x03
-mov r1, r8
+ldr r1, ADDR_SCRIPT_X
 ldrh r6, [r1]
 add r6, r6, r0
 strh r6, [r1]
 ldrh r0, [r1]
+
+; Update tile index
+ldr r1, ADDR_SCRIPT_TILE_INDEX
+ldrh r6, [r1]
+add r6, 0x02
+strh r6, [r1]
+
+
 ldr r6, =(FN_ICON_JUMP + 0x09)
 mov r15, r6
 .pool
