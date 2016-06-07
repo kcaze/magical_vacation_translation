@@ -165,9 +165,13 @@ LENGTH_MENU_ELEMENT_DESCRIPTIONS equ 14
 ;-------------------;
 ; Translated script ;
 ;-------------------;
-ADDR_SCRIPT equ 0x08629A2C
+; Original address: ADDR_SCRIPT equ 0x08629A2C
+ADDR_SCRIPT equ 0x08820000
 .org ADDR_SCRIPT
 .incbin text/script.bin
+; Get game to read script from relocated address
+.org 0x0800B5D4
+.word 0x08820000
 
 ;------------------------;
 ; Translated battle text ;

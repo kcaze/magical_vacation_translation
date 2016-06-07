@@ -2,6 +2,7 @@ var script;
 var number;
 var HEADER_LENGTH = 12006;
 var BINARY_SIZE = 0x6F46E;
+var MAX_BINARY_SIZE = 0x80000;
 
 function readScript(e) {
   var file = e.target.files[0]; // FileList object
@@ -41,7 +42,7 @@ function exportJSON() {
 
 function exportBinary() {
   if (!script) return;
-  var binary = new Uint8Array(BINARY_SIZE);
+  var binary = new Uint8Array(MAX_BINARY_SIZE);
 
   var idx = 2*(script.length+1);
   for (var ii = 2; ii < script.length; ii++) {
@@ -85,12 +86,12 @@ function exportBinary() {
   }
 
   // Warn if the English script is too long.
-  if (idx >= BINARY_SIZE) {
+  if (idx >= MAX_BINARY_SIZE) {
     console.log(
       "WARNING: English script has length ",
       idx,
       " which is ",
-      idx - BINARY_SIZE + 1,
+      idx - MAX_BINARY_SIZE + 1,
       " bytes too long!"
     );
   }
