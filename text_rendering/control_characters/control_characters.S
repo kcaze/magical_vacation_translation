@@ -58,7 +58,7 @@ mov r0, 0x05
 .org 0x0800A4CA
 mov r0, 0x30
 add r0, r0, r1
-strb r0, [r4]
+strh r0, [r4]
 add r4, 0x02
 nop
 
