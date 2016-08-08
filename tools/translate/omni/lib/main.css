@@ -1,5 +1,6 @@
-body {
-  font-family: monospace;
+.sidebar {
+  border-right: 1px solid #aaa;
+  height: 600px;
 }
 
 .red {

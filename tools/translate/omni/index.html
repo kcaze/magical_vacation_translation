@@ -3,52 +3,97 @@
 <head>
   <meta charset="UTF-8">
   <title>Magical Translator</title>
+  <link rel="stylesheet" href="lib/bootstrap-3.3.7/css/bootstrap.css">
   <link rel="stylesheet" href="lib/main.css">
 </head>
 <body>
+<div class="container">
+
+<!-- Header -->
+<div class="row">
   <h1>Magical Translator</h1>
-  <p>
-    <label>script.json:</label>
-    <input type="file" id="script"/>
-  </p>
+</div>
 
-  <p>
-    <button id="export_json">Export JSON</button>
-    <button id="export_binary">Export binary</button>
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <input id="search" type="text">
-    <button id="search_source">Search Source</button>
-    <button id="search_translation">Search Translation</button>
-    <button id="search_comments">Search Comments</button>
-  </p>
+<!--
+    <p>
+      <label>script.json:</label>
+      <input type="file" id="script"/>
+    </p>
+-->
 
-  <hr/>
+<!-- Main -->
+<div class="row">
 
-  <p>
-    <label>Line:</label>
-    <input id="number" disabled="true" type="number" min="0" max="0" step="1"/>
-    of <span id="max_number"></span>
-  </p>
+  <!-- Sidebar -->
+  <div class="col-md-2 sidebar">
+    <form>
+      <label> Binary format: </label>
+      <div class="form-group">
+        <select class="form-control">
+          <option>Magical Vacation</option>
+        </select>
+      </div>
+    </form>
 
-  <p>
-    <label>Source:</label>
-    <span id="source"></span>
-  </p>
+    <hr>
 
-  <p>
-    <label>Translation:</label>
-    <textarea id="translation"></textarea>
-  </p>
+    <!-- Search -->
+    <form>
+      <div class="form-group">
+        <input type="search" class="form-control" id="search_text" placeholder="Search for...">
+      </div>
+      <div class="form-group">
+        <select class="form-control">
+          <option>Search source</option>
+          <option>Search translation</option>
+          <option>Search comments</option>
+        </select>
+      </div>
+    </form>
 
-  <p>
-    <label>Comments:</label>
-    <textarea id="comments"></textarea>
-  </p>
+    <hr>
 
-  <p id="search_results">
-  </p>
-  <script src="lib/react.js"></script>
-  <script src="lib/react-dom.js"></script>
-  <script src="lib/jquery-3.1.0.js"></script>
+    <!-- Export -->
+    <form>
+      <!-- Binary format selection -->
+      <div class="form-group">
+        <button class="btn btn-default btn-block" id="export">Export</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- Content -->
+  <div class="col-md-10">
+    <p>
+      <label>Line:</label>
+      <input id="number" disabled="true" type="number" min="0" max="0" step="1"/>
+      of <span id="max_number"></span>
+    </p>
+
+    <p>
+      <label>Source:</label>
+      <span id="source"></span>
+    </p>
+
+    <p>
+      <label>Translation:</label>
+      <textarea id="translation"></textarea>
+    </p>
+
+    <p>
+      <label>Comment:</label>
+      <textarea id="comment"></textarea>
+    </p>
+
+    <p id="search_results">
+    </p>
+  </div>
+</div>
+
+</div>
+
+<script src="lib/react.js"></script>
+<script src="lib/react-dom.js"></script>
+<script src="lib/jquery-3.1.0.js"></script>
 </body>
 </html>
