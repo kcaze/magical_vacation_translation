@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Magical Translator</title>
+  <link rel="stylesheet" href="lib/main.css">
+</head>
+<body>
+  <h1>Magical Translator</h1>
+  <p>
+    <label>script.json:</label>
+    <input type="file" id="script"/>
+  </p>
+
+  <p>
+    <button id="export_json">Export JSON</button>
+    <button id="export_binary">Export binary</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <input id="search" type="text">
+    <button id="search_source">Search Source</button>
+    <button id="search_translation">Search Translation</button>
+    <button id="search_comments">Search Comments</button>
+  </p>
+
+  <hr/>
+
+  <p>
+    <label>Line:</label>
+    <input id="number" disabled="true" type="number" min="0" max="0" step="1"/>
+    of <span id="max_number"></span>
+  </p>
+
+  <p>
+    <label>Source:</label>
+    <span id="source"></span>
+  </p>
+
+  <p>
+    <label>Translation:</label>
+    <textarea id="translation"></textarea>
+  </p>
+
+  <p>
+    <label>Comments:</label>
+    <textarea id="comments"></textarea>
+  </p>
+
+  <p id="search_results">
+  </p>
+  <script src="lib/react.js"></script>
+  <script src="lib/react-dom.js"></script>
+  <script src="lib/jquery-3.1.0.js"></script>
+</body>
+</html>

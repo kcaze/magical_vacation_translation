@@ -1,0 +1,39 @@
+body {
+  font-family: monospace;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green
+}
+
+.blue {
+  color: blue;
+}
+
+#source {
+  width: 500px;
+  height: 150px;
+  vertical-align: top;
+  border: 1px solid #aaa;
+  padding: 2px;
+  display: inline-block;
+  overflow-y: scroll;
+}
+
+#translation {
+  width: 500px;
+  height: 150px;
+  vertical-align: top;
+  resize: none;
+}
+
+#comments {
+  width: 500px;
+  height: 50px;
+  vertical-align: top;
+  resize: none;
+}
