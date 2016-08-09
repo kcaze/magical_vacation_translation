@@ -14,80 +14,8 @@
   <h1>Magical Translator</h1>
 </div>
 
-<!--
-    <p>
-      <label>script.json:</label>
-      <input type="file" id="script"/>
-    </p>
--->
-
 <!-- Main -->
-<div class="row">
-
-  <!-- Sidebar -->
-  <div class="col-md-2 sidebar">
-    <form>
-      <label> Binary format: </label>
-      <div class="form-group">
-        <select class="form-control">
-          <option>Magical Vacation</option>
-        </select>
-      </div>
-    </form>
-
-    <hr>
-
-    <!-- Search -->
-    <form>
-      <div class="form-group">
-        <input type="search" class="form-control" id="search_text" placeholder="Search for...">
-      </div>
-      <div class="form-group">
-        <select class="form-control">
-          <option>Search source</option>
-          <option>Search translation</option>
-          <option>Search comments</option>
-        </select>
-      </div>
-    </form>
-
-    <hr>
-
-    <!-- Export -->
-    <form>
-      <!-- Binary format selection -->
-      <div class="form-group">
-        <button class="btn btn-default btn-block" id="export">Export</button>
-      </div>
-    </form>
-  </div>
-
-  <!-- Content -->
-  <div class="col-md-10">
-    <p>
-      <label>Line:</label>
-      <input id="number" disabled="true" type="number" min="0" max="0" step="1"/>
-      of <span id="max_number"></span>
-    </p>
-
-    <p>
-      <label>Source:</label>
-      <span id="source"></span>
-    </p>
-
-    <p>
-      <label>Translation:</label>
-      <textarea id="translation"></textarea>
-    </p>
-
-    <p>
-      <label>Comment:</label>
-      <textarea id="comment"></textarea>
-    </p>
-
-    <p id="search_results">
-    </p>
-  </div>
+<div id="content">
 </div>
 
 </div>
@@ -95,5 +23,7 @@
 <script src="lib/react.js"></script>
 <script src="lib/react-dom.js"></script>
 <script src="lib/jquery-3.1.0.js"></script>
+<script src="lib/components.js"></script>
+<script src="lib/main.js"></script>
 </body>
 </html>
