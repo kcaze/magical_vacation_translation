@@ -1,4 +1,5 @@
 A *line* is an object that contains the following properties:
+  `bytes`: A UInt8Array containing the original source bytes.
   `source`: A string containing the source text.
   `translation`: A string containing the translated text. 
   `comment`: A string containing any additional comments.

@@ -1,22 +1,48 @@
 "use strict";
 
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _export = require("export");
+
+var _export2 = _interopRequireDefault(_export);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 var MagicalTranslator = React.createClass({
   displayName: "MagicalTranslator",
 
   getInitialState: function getInitialState() {
-    return null;
+    return {
+      script: null
+    };
   },
   handleScriptSelectChange: function handleScriptSelectChange(e) {
     var _this = this;
 
     var reader = new FileReader();
     reader.addEventListener("loadend", function () {
-      _this.setState(JSON.parse(reader.result));
+      _this.setState({ script: JSON.parse(reader.result) });
     });
     reader.readAsText(e.target.files.item(0));
   },
+  handleScriptChange: function handleScriptChange(script) {
+    this.setState({ script: script });
+  },
+  renderMain: function renderMain() {
+    return React.createElement(
+      "div",
+      { className: "row" },
+      React.createElement(Sidebar, { script: this.state.script }),
+      React.createElement("div", { className: "col-md-10" })
+    );
+  },
+  renderScriptSelector: function renderScriptSelector() {
+    return React.createElement(ScriptSelector, { callback: this.handleScriptSelectChange });
+  },
   render: function render() {
-    return this.state ? React.createElement(Editor, null) : React.createElement(ScriptSelector, { callback: this.handleScriptSelectChange });
+    return this.state.script ? this.renderMain() : this.renderScriptSelector();
   }
 });
 
@@ -34,6 +60,59 @@ var ScriptSelector = React.createClass({
       ),
       React.createElement("input", { className: "form-control", type: "file",
         onChange: this.props.callback })
+    );
+  }
+});
+
+var Sidebar = React.createClass({
+  displayName: "Sidebar",
+
+  render: function render() {
+    return React.createElement(
+      "div",
+      { className: "col-md-2 sidebar" },
+      React.createElement(_export2.default, { script: this.props.script }),
+      React.createElement("hr", null),
+      React.createElement(Search, { script: this.props.script })
+    );
+  }
+});
+
+var Search = React.createClass({
+  displayName: "Search",
+
+  render: function render() {
+    return React.createElement(
+      "form",
+      null,
+      React.createElement(
+        "div",
+        { className: "form-group" },
+        React.createElement("input", { type: "search", className: "form-control", placeholder: "Search for..." })
+      ),
+      React.createElement(
+        "div",
+        { className: "form-group" },
+        React.createElement(
+          "select",
+          { className: "form-control" },
+          React.createElement(
+            "option",
+            null,
+            "Search source"
+          ),
+          React.createElement(
+            "option",
+            null,
+            "Search translation"
+          ),
+          React.createElement(
+            "option",
+            null,
+            "Search comments"
+          )
+        )
+      )
     );
   }
 });
@@ -141,7 +220,11 @@ var Editor = React.createClass({
             null,
             "Source:"
           ),
-          React.createElement("span", { id: "source" })
+          React.createElement(
+            "span",
+            { id: "source" },
+            this.props.script[0][28].source
+          )
         ),
         React.createElement(
           "p",
@@ -168,3 +251,5 @@ var Editor = React.createClass({
     );
   }
 });
+
+exports.default = MagicalTranslator;

@@ -1,18 +1,35 @@
+import Export from 'export'
+
 var MagicalTranslator = React.createClass({
   getInitialState: function() {
-    return null;
+    return {
+      script: null
+    };
   },
   handleScriptSelectChange: function(e) {
     var reader = new FileReader();
     reader.addEventListener("loadend", () => {
-      this.setState(JSON.parse(reader.result));
+      this.setState({script: JSON.parse(reader.result)});
     });
     reader.readAsText(e.target.files.item(0));
   },
+  handleScriptChange: function(script) {
+    this.setState({script: script});
+  },
+  renderMain: function() {
+    return (
+      <div className="row">
+        <Sidebar script={this.state.script} />
+        <div className="col-md-10">
+        </div>
+      </div>
+    );
+  },
+  renderScriptSelector: function() {
+    return <ScriptSelector callback={this.handleScriptSelectChange}/>;
+  },
   render: function() {
-    return (this.state
-            ? <Editor />
-            : <ScriptSelector callback={this.handleScriptSelectChange}/>);
+    return this.state.script ? this.renderMain() : this.renderScriptSelector();
   }
 });
 
@@ -23,6 +40,37 @@ var ScriptSelector = React.createClass({
         <label>Select script JSON file:</label>
         <input className="form-control" type="file"
                onChange={this.props.callback} />
+      </form>
+    );
+  }
+});
+
+var Sidebar = React.createClass({
+  render: function() {
+    return (
+      <div className="col-md-2 sidebar">
+        <Export script={this.props.script} />
+        <hr />
+        <Search script={this.props.script} />
+      </div>
+    );
+  }
+});
+
+var Search = React.createClass({
+  render: function() {
+    return (
+      <form>
+        <div className="form-group">
+          <input type="search" className="form-control" placeholder="Search for..." />
+        </div>
+        <div className="form-group">
+          <select className="form-control">
+            <option>Search source</option>
+            <option>Search translation</option>
+            <option>Search comments</option>
+          </select>
+        </div>
       </form>
     );
   }
@@ -75,7 +123,7 @@ var Editor = React.createClass({
 
         <p>
           <label>Source:</label>
-          <span id="source"></span>
+          <span id="source">{this.props.script[0][28].source}</span>
         </p>
 
         <p>
@@ -95,3 +143,5 @@ var Editor = React.createClass({
     );
   }
 });
+
+export default MagicalTranslator;
