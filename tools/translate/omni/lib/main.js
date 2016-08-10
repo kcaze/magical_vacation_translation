@@ -1,6 +1,6 @@
 'use strict';
 
-var _components = require('components');
+var _components = require('./components.js');
 
 var _components2 = _interopRequireDefault(_components);
 

@@ -1,17 +1,21 @@
-"use strict";
+'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _export = require("export");
+var _export = require('./export.js');
 
 var _export2 = _interopRequireDefault(_export);
+
+var _search = require('./search.js');
+
+var _search2 = _interopRequireDefault(_search);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var MagicalTranslator = React.createClass({
-  displayName: "MagicalTranslator",
+  displayName: 'MagicalTranslator',
 
   getInitialState: function getInitialState() {
     return {
@@ -32,10 +36,10 @@ var MagicalTranslator = React.createClass({
   },
   renderMain: function renderMain() {
     return React.createElement(
-      "div",
-      { className: "row" },
+      'div',
+      { className: 'row' },
       React.createElement(Sidebar, { script: this.state.script }),
-      React.createElement("div", { className: "col-md-10" })
+      React.createElement('div', { className: 'col-md-10' })
     );
   },
   renderScriptSelector: function renderScriptSelector() {
@@ -47,206 +51,167 @@ var MagicalTranslator = React.createClass({
 });
 
 var ScriptSelector = React.createClass({
-  displayName: "ScriptSelector",
+  displayName: 'ScriptSelector',
 
   render: function render() {
     return React.createElement(
-      "form",
+      'form',
       null,
       React.createElement(
-        "label",
+        'label',
         null,
-        "Select script JSON file:"
+        'Select script JSON file:'
       ),
-      React.createElement("input", { className: "form-control", type: "file",
+      React.createElement('input', { className: 'form-control', type: 'file',
         onChange: this.props.callback })
     );
   }
 });
 
 var Sidebar = React.createClass({
-  displayName: "Sidebar",
+  displayName: 'Sidebar',
 
   render: function render() {
     return React.createElement(
-      "div",
-      { className: "col-md-2 sidebar" },
+      'div',
+      { className: 'col-md-2 sidebar' },
       React.createElement(_export2.default, { script: this.props.script }),
-      React.createElement("hr", null),
-      React.createElement(Search, { script: this.props.script })
-    );
-  }
-});
-
-var Search = React.createClass({
-  displayName: "Search",
-
-  render: function render() {
-    return React.createElement(
-      "form",
-      null,
-      React.createElement(
-        "div",
-        { className: "form-group" },
-        React.createElement("input", { type: "search", className: "form-control", placeholder: "Search for..." })
-      ),
-      React.createElement(
-        "div",
-        { className: "form-group" },
-        React.createElement(
-          "select",
-          { className: "form-control" },
-          React.createElement(
-            "option",
-            null,
-            "Search source"
-          ),
-          React.createElement(
-            "option",
-            null,
-            "Search translation"
-          ),
-          React.createElement(
-            "option",
-            null,
-            "Search comments"
-          )
-        )
-      )
+      React.createElement('hr', null),
+      React.createElement(_search2.default, { script: this.props.script })
     );
   }
 });
 
 var Editor = React.createClass({
-  displayName: "Editor",
+  displayName: 'Editor',
 
   render: function render() {
     return React.createElement(
-      "div",
-      { className: "row" },
+      'div',
+      { className: 'row' },
       React.createElement(
-        "div",
-        { className: "col-md-2 sidebar" },
+        'div',
+        { className: 'col-md-2 sidebar' },
         React.createElement(
-          "form",
+          'form',
           null,
           React.createElement(
-            "label",
+            'label',
             null,
-            " Binary format: "
+            ' Binary format: '
           ),
           React.createElement(
-            "div",
-            { className: "form-group" },
+            'div',
+            { className: 'form-group' },
             React.createElement(
-              "select",
-              { className: "form-control" },
+              'select',
+              { className: 'form-control' },
               React.createElement(
-                "option",
+                'option',
                 null,
-                "Magical Vacation"
+                'Magical Vacation'
               )
             )
           )
         ),
-        React.createElement("hr", null),
+        React.createElement('hr', null),
         React.createElement(
-          "form",
+          'form',
           null,
           React.createElement(
-            "div",
-            { className: "form-group" },
-            React.createElement("input", { type: "search", className: "form-control", id: "search_text", placeholder: "Search for..." })
+            'div',
+            { className: 'form-group' },
+            React.createElement('input', { type: 'search', className: 'form-control', id: 'search_text', placeholder: 'Search for...' })
           ),
           React.createElement(
-            "div",
-            { className: "form-group" },
+            'div',
+            { className: 'form-group' },
             React.createElement(
-              "select",
-              { className: "form-control" },
+              'select',
+              { className: 'form-control' },
               React.createElement(
-                "option",
+                'option',
                 null,
-                "Search source"
+                'Search source'
               ),
               React.createElement(
-                "option",
+                'option',
                 null,
-                "Search translation"
+                'Search translation'
               ),
               React.createElement(
-                "option",
+                'option',
                 null,
-                "Search comments"
+                'Search comments'
               )
             )
           )
         ),
-        React.createElement("hr", null),
+        React.createElement('hr', null),
         React.createElement(
-          "form",
+          'form',
           null,
           React.createElement(
-            "div",
-            { className: "form-group" },
+            'div',
+            { className: 'form-group' },
             React.createElement(
-              "button",
-              { className: "btn btn-default btn-block", id: "export" },
-              "Export"
+              'button',
+              { className: 'btn btn-default btn-block', id: 'export' },
+              'Export'
             )
           )
         )
       ),
       React.createElement(
-        "div",
-        { className: "col-md-10" },
+        'div',
+        { className: 'col-md-10' },
         React.createElement(
-          "p",
+          'p',
           null,
           React.createElement(
-            "label",
+            'label',
             null,
-            "Line:"
+            'Line:'
           ),
-          React.createElement("input", { id: "number", disabled: "true", type: "number", min: "0", max: "0", step: "1" }),
-          "of ",
-          React.createElement("span", { id: "max_number" })
+          React.createElement('input', { id: 'number', disabled: 'true', type: 'number', min: '0', max: '0', step: '1' }),
+          'of ',
+          React.createElement('span', { id: 'max_number' })
         ),
         React.createElement(
-          "p",
+          'p',
           null,
           React.createElement(
-            "label",
+            'label',
             null,
-            "Source:"
+            'Source:'
           ),
           React.createElement(
-            "span",
-            { id: "source" },
+            'span',
+            { id: 'source' },
             this.props.script[0][28].source
           )
         ),
         React.createElement(
-          "p",
+          'p',
           null,
           React.createElement(
-            "label",
+            'label',
             null,
-            "Translation:"
+            'Translation:'
           ),
-          React.createElement("textarea", { id: "translation" })
+          React.createElement('textarea', { id: 'translation' })
         ),
         React.createElement(
-          "p",
+          'p',
           null,
           React.createElement(
-            "label",
+            'label',
             null,
-            "Comment:"
+            'Comment:'
           ),
-          React.createElement("textarea", { id: "comment" })
+          React.createElement('textarea', { id: 'comment' })
         ),
-        React.createElement("p", { id: "search_results" })
+        React.createElement('p', { id: 'search_results' })
       )
     );
   }

@@ -1,4 +1,5 @@
-import Export from 'export'
+import Export from './export.js'
+import Search from './search.js'
 
 var MagicalTranslator = React.createClass({
   getInitialState: function() {
@@ -53,25 +54,6 @@ var Sidebar = React.createClass({
         <hr />
         <Search script={this.props.script} />
       </div>
-    );
-  }
-});
-
-var Search = React.createClass({
-  render: function() {
-    return (
-      <form>
-        <div className="form-group">
-          <input type="search" className="form-control" placeholder="Search for..." />
-        </div>
-        <div className="form-group">
-          <select className="form-control">
-            <option>Search source</option>
-            <option>Search translation</option>
-            <option>Search comments</option>
-          </select>
-        </div>
-      </form>
     );
   }
 });

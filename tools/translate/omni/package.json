@@ -4,12 +4,12 @@
   "scripts": {
     "build": "babel src -d lib",
     "babel": "babel --watch src -d lib",
-    "browserify": "browserify lib/main.js -o lib/bundle.js"
+    "watchify": "watchify lib/main.js -o lib/bundle.js"
   },
   "devDependencies": {
     "babel-cli": "^6.0.0",
     "babel-preset-es2015": "^6.13.2",
     "babel-preset-react": "^6.11.1",
-    "browserify": "^13.1.0"
+    "watchify": "^3.7.0"
   }
 }

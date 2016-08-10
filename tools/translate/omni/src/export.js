@@ -1,4 +1,4 @@
-import { Alert } from 'common'
+import { Alert } from './common.js'
 
 var Export = React.createClass({
   getInitialState: function() {
@@ -17,7 +17,18 @@ var Export = React.createClass({
     this.setState({format: format});
   },
 
-  handleClick: function() {
+  handleClick: function(e) {
+    e.preventDefault();
+
+    if (!this.state.filename) {
+      this.setState({message: 'Enter a filename!'});
+      return;
+    }
+    if (!this.state.format) {
+      this.setState({message: 'Choose a format!'});
+      return;
+    }
+    console.log('Success');
     // stub
   },
 
@@ -38,23 +49,31 @@ var Export = React.createClass({
 });
 
 var Filename = React.createClass({
+  onChange: function() {
+    var value = this.refs.input.value;
+    this.props.onChange(value == '' ? null : value)
+  },
   render: function() {
     return (
       <div className="form-group">
-        <label> Filename: </label>
-        <input type="text" className="form-control" onChange={this.props.onChange}/>
+        <input type="text" className="form-control" onChange={this.onChange}
+               placeholder="Filename" ref="input" />
       </div>
     );
   }
 });
 
 var Format = React.createClass({
+  onChange: function() {
+    var value = this.refs.input.value;
+    this.props.onChange(value == '' ? null : value)
+  },
   render: function() {
     return (
       <div className="form-group">
-        <label> Binary format: </label>
-        <select className="form-control" onChange={this.props.onChange}>
-          <option>Magical Vacation</option>
+        <select className="form-control" ref="input" onChange={this.onChange}>
+          <option value=''>-Format-</option>
+          <option value="magical_vacation">Magical Vacation</option>
         </select>
       </div>
     );
