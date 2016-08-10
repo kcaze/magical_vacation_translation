@@ -272,19 +272,12 @@ var Export = React.createClass({
     this.setState({ format: format });
   },
 
-  handleClick: function handleClick(e) {
-    e.preventDefault();
+  handleExportFail: function handleExportFail(message) {
+    this.setState({ message: message });
+  },
 
-    if (!this.state.filename) {
-      this.setState({ message: 'Enter a filename!' });
-      return;
-    }
-    if (!this.state.format) {
-      this.setState({ message: 'Choose a format!' });
-      return;
-    }
-    console.log('Success');
-    // stub
+  handleExportSuccess: function handleExportSuccess(message) {
+    this.setState({ message: null });
   },
 
   render: function render() {
@@ -294,15 +287,11 @@ var Export = React.createClass({
       React.createElement(_common.Alert, { message: this.state.message }),
       React.createElement(Filename, { onChange: this.handleFilenameChange }),
       React.createElement(Format, { onChange: this.handleFormatChange }),
-      React.createElement(
-        'div',
-        { className: 'form-group' },
-        React.createElement(
-          'button',
-          { className: 'btn btn-default btn-block', onClick: this.handleClick },
-          'Export'
-        )
-      )
+      React.createElement(ExportButton, { filename: this.state.filename,
+        format: this.state.format,
+        script: this.props.script,
+        onFail: this.handleExportFail,
+        onSuccess: this.handleExportSuccess })
     );
   }
 });
@@ -352,6 +341,48 @@ var Format = React.createClass({
     );
   }
 });
+
+var ExportButton = React.createClass({
+  displayName: 'ExportButton',
+
+  onClick: function onClick(e) {
+    e.preventDefault();
+
+    try {
+      exportScript(this.props.filename, this.props.format, this.props.script);
+      this.props.onSuccess();
+    } catch (error) {
+      this.props.onFail(error);
+    }
+  },
+
+  render: function render() {
+    return React.createElement(
+      'div',
+      { className: 'form-group' },
+      React.createElement(
+        'button',
+        { className: 'btn btn-default btn-block', onClick: this.onClick },
+        'Export'
+      )
+    );
+  }
+});
+
+/* Exports script. Throws exceptions on failure */
+function exportScript(filename, format, script) {
+  if (!filename) throw "Missing filename!";
+  if (!format) throw "Missing format!";
+  if (!script) throw "Missing script!";
+
+  // Export JSON.
+  try {
+    var JSONblob = new Blob([JSON.stringify(script)], { type: 'text/plain;charset=utf-8' });
+    saveAs(JSONblob, filename + '.json');
+  } catch (e) {
+    throw 'Failed to export JSON!';
+  }
+}
 
 exports.default = Export;
 },{"./common.js":1}],4:[function(require,module,exports){
@@ -439,11 +470,7 @@ var Search = React.createClass({
         React.createElement(Searchbar, { onChange: this.handleQueryChange }),
         React.createElement(Options, { onChange: this.handleOptionChange })
       ),
-      React.createElement(
-        'div',
-        null,
-        this.searchResults()
-      )
+      React.createElement(Results, { results: this.searchResults() })
     );
   }
 });
@@ -494,6 +521,18 @@ var Options = React.createClass({
           'Search comments'
         )
       )
+    );
+  }
+});
+
+var Results = React.createClass({
+  displayName: 'Results',
+
+  render: function render() {
+    return React.createElement(
+      'div',
+      null,
+      this.props.results
     );
   }
 });

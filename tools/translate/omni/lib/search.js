@@ -72,11 +72,7 @@ var Search = React.createClass({
         React.createElement(Searchbar, { onChange: this.handleQueryChange }),
         React.createElement(Options, { onChange: this.handleOptionChange })
       ),
-      React.createElement(
-        'div',
-        null,
-        this.searchResults()
-      )
+      React.createElement(Results, { results: this.searchResults() })
     );
   }
 });
@@ -127,6 +123,18 @@ var Options = React.createClass({
           'Search comments'
         )
       )
+    );
+  }
+});
+
+var Results = React.createClass({
+  displayName: 'Results',
+
+  render: function render() {
+    return React.createElement(
+      'div',
+      null,
+      this.props.results
     );
   }
 });

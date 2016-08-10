@@ -32,9 +32,7 @@ var Search = React.createClass({
           <Searchbar onChange={this.handleQueryChange} />
           <Options onChange={this.handleOptionChange} />
         </form>
-        <div>
-          {this.searchResults()}
-        </div>
+        <Results results={this.searchResults()} />
       </div>
     );
   }
@@ -67,6 +65,16 @@ var Options = React.createClass({
           <option value='translation'>Search translation</option>
           <option value='comment'>Search comments</option>
         </select>
+      </div>
+    );
+  }
+});
+
+var Results = React.createClass({
+  render: function() {
+    return (
+      <div>
+        {this.props.results}
       </div>
     );
   }
