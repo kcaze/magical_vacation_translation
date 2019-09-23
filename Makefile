@@ -34,4 +34,3 @@ all:
 	bin/armips.exe text_positioning/menu/menu.S
 	bin/armips.exe text_positioning/battle_text/battle_text.S
 	bin/armips.exe misc/name_select.S
-	bin/ups.exe diff -b original.gba -m hacked.gba -o hacked.ups
